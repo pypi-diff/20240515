@@ -522,3 +522,15 @@
 [2024-05-15 00:18:21] INFO root fetch - processPackages [Fortuna]: Remove: archive file [/home/abi/fetcher/tmp/fortuna-5.5.2.tar.gz]
 [2024-05-15 00:18:21] INFO root fetch - main [MainThread]: End processing [Fortuna]: success
 [2024-05-15 00:18:21] INFO root fetch - main [MainThread]: Store serial: [23208964]
+[2024-05-15 00:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208964]
+[2024-05-15 00:20:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tag
+[2024-05-15 00:20:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:20:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/29/86/bc025d6e5c5acac1e46676e8598c5aea59c56d5c0936bfe9b5264abbab9a/tencentcloud-sdk-python-tag-3.0.998.tar.gz
+[2024-05-15 00:20:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/26/0d/6cbab21bb92bb010935632e7faab0ec6641e13a2f6ed7421bcb7a0c87b4c/tencentcloud-sdk-python-tag-3.0.999.tar.gz
+[2024-05-15 00:20:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: executing diffoscope
+[2024-05-15 00:20:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tag/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:20:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz]
+[2024-05-15 00:20:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz]
+[2024-05-15 00:20:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tag]: success
+[2024-05-15 00:20:30] INFO root fetch - main [MainThread]: Store serial: [23208967]
