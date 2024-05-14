@@ -2380,3 +2380,47 @@
 [2024-05-15 01:52:12] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz]
 [2024-05-15 01:52:12] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
 [2024-05-15 01:52:12] INFO root fetch - main [MainThread]: Store serial: [23209647]
+[2024-05-15 01:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209647]
+[2024-05-15 01:54:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 01:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: walledai
+[2024-05-15 01:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PythonToSW
+[2024-05-15 01:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Quanthon
+[2024-05-15 01:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frykit
+[2024-05-15 01:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rime-sdk
+[2024-05-15 01:54:20] INFO root fetch - processPackages [PythonToSW]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-15 01:54:20] INFO root fetch - processPackages [walledai]: New version: [0.5.0a0] Old Version: [0.4.0a0]
+[2024-05-15 01:54:21] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/16/4b/34a09b542c839379f2b79e3379a00c84655ae7e1b945d2b04507f14bbf65/walledai-0.4.0a0.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/b9/cc/92979c3314eb3f32402a43ba16a0cb1c0c55fa2c7d17f12e12afc24d45cd/PythonToSW-1.0.7.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [frykit]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-15 01:54:21] INFO root fetch - processPackages [Quanthon]: New version: [0.3.7] Old Version: [0.3.6.6]
+[2024-05-15 01:54:21] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc9] Old Version: [2.8.0rc8]
+[2024-05-15 01:54:21] INFO root fetch - processPackages [frykit]: Downloading https://files.pythonhosted.org/packages/d3/e1/9b7660eea0205748c2c4f90d3ad2ed3ecf8044f9c28cff27261ccf6c5327/frykit-0.6.2.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5f/ee/9f99cee94313fd0846bc0b261c0a705f5b9f0b87d20d6934a77d616566e0/rime_sdk-2.8.0rc8.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/2d/da/bc47ac11de6d55d4f1c63fadfb01d763339a9b0fe49d6cc6bccec558f9c3/quanthon-0.3.6.6.tar.gz
+[2024-05-15 01:54:21] WARNING root fetch - processPackages [frykit]: Skipping package: exceeds size limit 13934902>=10485760
+[2024-05-15 01:54:21] INFO root fetch - main [MainThread]: End processing [frykit] error
+[2024-05-15 01:54:21] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/da/f8/f19146fbf6e7ce60a949731ee24737f907226d9fdb09b7610cc5a3528185/PythonToSW-1.0.8.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/c6/11/b0ad8022676d3b80d5955848d4ae152ff96693ca1f1c335abc319fad77b7/walledai-0.5.0a0.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [PythonToSW]: executing diffoscope
+[2024-05-15 01:54:21] INFO root fetch - processPackages [PythonToSW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToSW-1.0.7.tar.gz tmp/PythonToSW-1.0.8.tar.gz --markdown 20240515/P/PythonToSW/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-15 01:54:21] INFO root fetch - processPackages [walledai]: executing diffoscope
+[2024-05-15 01:54:21] INFO root fetch - processPackages [walledai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walledai-0.4.0a0.tar.gz tmp/walledai-0.5.0a0.tar.gz --markdown 20240515/w/walledai/0.4.0a0-0.5.0a0/README.md --exclude *.pyd
+[2024-05-15 01:54:21] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/ec/db/6a51c8763a1970eaf0381cef2d09dbe52a5fc42663144d0dbd401c3c0746/quanthon-0.3.7.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/d0/af2bc54a7ae81e59f924b38132b45b3fa131069dcddc38c084be863230b7/rime_sdk-2.8.0rc9.tar.gz
+[2024-05-15 01:54:21] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-05-15 01:54:21] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanthon-0.3.6.6.tar.gz tmp/quanthon-0.3.7.tar.gz --markdown 20240515/Q/Quanthon/0.3.6.6-0.3.7/README.md --exclude *.pyd
+[2024-05-15 01:54:21] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-15 01:54:21] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc8.tar.gz tmp/rime_sdk-2.8.0rc9.tar.gz --markdown 20240515/r/rime-sdk/2.8.0rc8-2.8.0rc9/README.md --exclude *.pyd
+[2024-05-15 01:54:22] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.0.7.tar.gz]
+[2024-05-15 01:54:22] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.0.8.tar.gz]
+[2024-05-15 01:54:22] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
+[2024-05-15 01:54:22] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.4.0a0.tar.gz]
+[2024-05-15 01:54:22] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.5.0a0.tar.gz]
+[2024-05-15 01:54:22] INFO root fetch - main [MainThread]: End processing [walledai]: success
+[2024-05-15 01:54:22] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.6.6.tar.gz]
+[2024-05-15 01:54:22] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.7.tar.gz]
+[2024-05-15 01:54:22] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-05-15 01:54:24] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc8.tar.gz]
+[2024-05-15 01:54:24] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
+[2024-05-15 01:54:24] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-15 01:54:24] INFO root fetch - main [MainThread]: Store serial: [23209660]
