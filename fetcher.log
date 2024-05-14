@@ -2316,3 +2316,48 @@
 [2024-05-15 01:45:40] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip]
 [2024-05-15 01:45:40] INFO root fetch - main [MainThread]: End processing [ovos-skill-personal]: success
 [2024-05-15 01:45:40] INFO root fetch - main [MainThread]: Store serial: [23209616]
+[2024-05-15 01:47:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209616]
+[2024-05-15 01:47:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoho-crm-connector
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goodest
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medspacy
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hamburgesr
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-openai
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trengine
+[2024-05-15 01:47:49] INFO root fetch - processPackages [medspacy]: New version: [1.2.0a0] Old Version: [1.1.6a0]
+[2024-05-15 01:47:49] INFO root fetch - processPackages [zoho-crm-connector]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 01:47:49] INFO root fetch - processPackages [goodest]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ez-openai]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 01:47:49] WARNING root fetch - processPackages [hamburgesr]: Skipping, unable to determine old version
+[2024-05-15 01:47:49] INFO root fetch - main [MainThread]: End processing [hamburgesr] error
+[2024-05-15 01:47:49] WARNING root fetch - processPackages [trengine]: Skipping, unable to determine old version
+[2024-05-15 01:47:49] INFO root fetch - main [MainThread]: End processing [trengine] error
+[2024-05-15 01:47:49] INFO root fetch - processPackages [zoho-crm-connector]: Downloading https://files.pythonhosted.org/packages/39/17/f267066188aca10584d6c1bcf38332bc1c825038980afd761a80ee669e59/zoho_crm_connector-1.0.1.tar.gz
+[2024-05-15 01:47:49] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/ee/6a/d3442b4435c976eba88812cbc91922f0426cc34532e76cc0a03eb6e40164/goodest-1.4.1.tar.gz
+[2024-05-15 01:47:49] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/c0/d8/4f5f9199ece6f99462976b03482f920b921f906332e5b0cd635493d2af9c/medspacy-1.1.6a0.tar.gz
+[2024-05-15 01:47:49] INFO root fetch - processPackages [ez-openai]: Downloading https://files.pythonhosted.org/packages/c0/e7/a26934d0003e037ef303720f83bdf8b6b16ec13995cf881eb1f7711d47d4/ez_openai-0.0.4.tar.gz
+[2024-05-15 01:47:49] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/fe/c5/7dcd16910835d89413558abe2fe45ad2d08a88ee2d75abbdd96124db2eb0/medspacy-1.2.0a0.tar.gz
+[2024-05-15 01:47:49] INFO root fetch - processPackages [zoho-crm-connector]: Downloading https://files.pythonhosted.org/packages/41/a9/ef94da8366172731bd0feb3b349fcf2b482ff6f7bcd327b60b2c5d96bc79/zoho_crm_connector-1.0.2.tar.gz
+[2024-05-15 01:47:50] INFO root fetch - processPackages [medspacy]: executing diffoscope
+[2024-05-15 01:47:50] INFO root fetch - processPackages [medspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspacy-1.1.6a0.tar.gz tmp/medspacy-1.2.0a0.tar.gz --markdown 20240515/m/medspacy/1.1.6a0-1.2.0a0/README.md --exclude *.pyd
+[2024-05-15 01:47:50] INFO root fetch - processPackages [zoho-crm-connector]: executing diffoscope
+[2024-05-15 01:47:50] INFO root fetch - processPackages [zoho-crm-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho_crm_connector-1.0.1.tar.gz tmp/zoho_crm_connector-1.0.2.tar.gz --markdown 20240515/z/zoho-crm-connector/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 01:47:50] INFO root fetch - processPackages [ez-openai]: Downloading https://files.pythonhosted.org/packages/82/50/c6134c63338d8423dec9e7dcb20e705c149041c85688c6ad3ea111e153a6/ez_openai-0.0.5.tar.gz
+[2024-05-15 01:47:50] INFO root fetch - processPackages [ez-openai]: executing diffoscope
+[2024-05-15 01:47:50] INFO root fetch - processPackages [ez-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_openai-0.0.4.tar.gz tmp/ez_openai-0.0.5.tar.gz --markdown 20240515/e/ez-openai/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 01:47:50] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/1d/e4/3d72a5e973abe449c5d9dfff468abcd8e59627947d2b0fa78d3ddf136e37/goodest-1.5.0.tar.gz
+[2024-05-15 01:47:50] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-15 01:47:50] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.4.1.tar.gz tmp/goodest-1.5.0.tar.gz --markdown 20240515/g/goodest/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-15 01:47:50] INFO root fetch - processPackages [ez-openai]: Remove: archive file [/home/abi/fetcher/tmp/ez_openai-0.0.4.tar.gz]
+[2024-05-15 01:47:50] INFO root fetch - processPackages [ez-openai]: Remove: archive file [/home/abi/fetcher/tmp/ez_openai-0.0.5.tar.gz]
+[2024-05-15 01:47:50] INFO root fetch - main [MainThread]: End processing [ez-openai]: success
+[2024-05-15 01:47:50] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.1.tar.gz]
+[2024-05-15 01:47:50] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.2.tar.gz]
+[2024-05-15 01:47:50] INFO root fetch - main [MainThread]: End processing [zoho-crm-connector]: success
+[2024-05-15 01:47:51] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.1.6a0.tar.gz]
+[2024-05-15 01:47:51] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.2.0a0.tar.gz]
+[2024-05-15 01:47:51] INFO root fetch - main [MainThread]: End processing [medspacy]: success
+[2024-05-15 01:47:56] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.4.1.tar.gz]
+[2024-05-15 01:47:56] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.5.0.tar.gz]
+[2024-05-15 01:47:56] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-15 01:47:56] INFO root fetch - main [MainThread]: Store serial: [23209635]
