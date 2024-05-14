@@ -2424,3 +2424,36 @@
 [2024-05-15 01:54:24] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
 [2024-05-15 01:54:24] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-05-15 01:54:24] INFO root fetch - main [MainThread]: Store serial: [23209660]
+[2024-05-15 01:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209660]
+[2024-05-15 01:56:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-mysql-local
+[2024-05-15 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trengine
+[2024-05-15 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arize-phoenix-evals
+[2024-05-15 01:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ok-script
+[2024-05-15 01:56:32] WARNING root fetch - processPackages [trengine]: Skipping, unable to determine old version
+[2024-05-15 01:56:32] INFO root fetch - main [MainThread]: End processing [trengine] error
+[2024-05-15 01:56:32] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 01:56:32] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.303] Old Version: [0.0.302]
+[2024-05-15 01:56:32] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-15 01:56:32] INFO root fetch - processPackages [arize-phoenix-evals]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-15 01:56:32] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/eb/20/48ea9a19ec8194836f068a2eb877787e04622ce1b039d21cf556a3c8a7fa/database_mysql_local-0.0.302.tar.gz
+[2024-05-15 01:56:32] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/30/51/d80a0fbefc05491bda1e966cd0aaf4a72c24066759389b80c0b962d9b97a/arize_phoenix_evals-0.8.1.tar.gz
+[2024-05-15 01:56:33] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-15 01:56:33] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/1a/19/fb6b5f0c49a6f28bd87aa353a26091e5bd9d23ecf3f18faf63bad5716766/database_mysql_local-0.0.303.tar.gz
+[2024-05-15 01:56:33] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-15 01:56:33] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.302.tar.gz tmp/database_mysql_local-0.0.303.tar.gz --markdown 20240515/d/database-mysql-local/0.0.302-0.0.303/README.md --exclude *.pyd
+[2024-05-15 01:56:33] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-15 01:56:33] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240515/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 01:56:33] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/ea/d1/6e40018d1d505cfd44d9edf853bca475a4c6211684ca8d3b4267bc3aa9e8/arize_phoenix_evals-0.8.2.tar.gz
+[2024-05-15 01:56:33] INFO root fetch - processPackages [arize-phoenix-evals]: executing diffoscope
+[2024-05-15 01:56:33] INFO root fetch - processPackages [arize-phoenix-evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix_evals-0.8.1.tar.gz tmp/arize_phoenix_evals-0.8.2.tar.gz --markdown 20240515/a/arize-phoenix-evals/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-15 01:56:33] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.302.tar.gz]
+[2024-05-15 01:56:33] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.303.tar.gz]
+[2024-05-15 01:56:33] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-15 01:56:33] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.8.1.tar.gz]
+[2024-05-15 01:56:33] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.8.2.tar.gz]
+[2024-05-15 01:56:33] INFO root fetch - main [MainThread]: End processing [arize-phoenix-evals]: success
+[2024-05-15 01:56:34] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-15 01:56:34] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-15 01:56:34] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-15 01:56:34] INFO root fetch - main [MainThread]: Store serial: [23209672]
