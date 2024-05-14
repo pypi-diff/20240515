@@ -603,3 +603,81 @@
 [2024-05-15 00:24:51] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.tar.gz]
 [2024-05-15 00:24:51] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-15 00:24:51] INFO root fetch - main [MainThread]: Store serial: [23208987]
+[2024-05-15 00:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208987]
+[2024-05-15 00:27:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btgsolutions-dataservices-python-client
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smCtrl
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-core
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tan
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tat
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tav
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tbaas
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langflow-base
+[2024-05-15 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tbm
+[2024-05-15 00:27:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/68/b3/b755d028cefa4b317169194d95aa5b7bcdedb7d88f67919572b5506d1a83/btgsolutions-dataservices-python-client-1.0.8.tar.gz
+[2024-05-15 00:27:00] WARNING root fetch - processPackages [smCtrl]: Skipping, unable to determine old version
+[2024-05-15 00:27:00] INFO root fetch - main [MainThread]: End processing [smCtrl] error
+[2024-05-15 00:27:00] INFO root fetch - processPackages [langflow-base]: New version: [0.0.44] Old Version: [0.0.43]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:27:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/89/65/15f1cfbabbb65426608f8e287dbbe6c18d10bc3dbe1a6d56931e925a833e/btgsolutions-dataservices-python-client-1.0.9.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/84/6d/e2c0391bb815c4991165bf94d0a453e516db13f59b899dca72bfab8537b8/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/bc/f3/55f91355f48c5e85fb7e2480afd2d7babf9d7aeb33f7e617285e1ec259e2/langflow_base-0.0.43.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/9b/34/de50dfc88ceeb07111350b897df1a05300d50556c5113a6983134045a76f/tencentcloud-sdk-python-tav-3.0.998.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Downloading https://files.pythonhosted.org/packages/48/68/7b0a4f5c6be6b795f71ed4953b785084c842dd66b1ca54964580aeaecd1a/tencentcloud-sdk-python-tan-3.0.998.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Downloading https://files.pythonhosted.org/packages/d8/27/79a5feb995e3477fb451345d06bce3fb604ab91633be13f8d372a2f4a7e6/tencentcloud-sdk-python-tat-3.0.998.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2024-05-15 00:27:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: executing diffoscope
+[2024-05-15 00:27:00] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btgsolutions-dataservices-python-client-1.0.8.tar.gz tmp/btgsolutions-dataservices-python-client-1.0.9.tar.gz --markdown 20240515/b/btgsolutions-dataservices-python-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 00:27:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/8c/2f/b26a68d58bf637586ec28197c54a1f1434b269e6d4efe0f99f6e4e529cdd/tencentcloud-sdk-python-tbm-3.0.998.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/80/a2/7707e6bca876dec3dc7fa1659d518217bb9047b654ee4f7a82aa81c23e3d/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Downloading https://files.pythonhosted.org/packages/e2/bd/c533bdd6a2fef16b01bfe9399cc6b7c9316a33bb7b3c6b1a16e3c0b8b24a/tencentcloud-sdk-python-tan-3.0.999.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Downloading https://files.pythonhosted.org/packages/87/17/00d12b740f2db59b50b189202cdf94cbe9b4b9b6f0cfd90d48efb1a3b21b/tencentcloud-sdk-python-tat-3.0.999.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/a8/05/e40eae77c8e9818894b67981ee6c9847b1a6fe1dd5ed93f0f292de0aaae7/tencentcloud-sdk-python-tav-3.0.999.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tbaas/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/db/df/52d0566ff93bbe4cf052b80784061a8e9e94e58c56bcebf0de1191206719/tencentcloud-sdk-python-tbm-3.0.999.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tan-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tan/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tat-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tat-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tat/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:27:01] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/89/0b/14956124a2f8c7d79866bb1e695ad0b670fd0b7755dbde180016b9a75a37/langflow_base-0.0.44.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tav/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:27:01] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20240515/h/honeybee-core/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tbm/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:27:01] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-1.0.8.tar.gz]
+[2024-05-15 00:27:01] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-1.0.9.tar.gz]
+[2024-05-15 00:27:01] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client]: success
+[2024-05-15 00:27:01] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-05-15 00:27:01] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.43.tar.gz tmp/langflow_base-0.0.44.tar.gz --markdown 20240515/l/langflow-base/0.0.43-0.0.44/README.md --exclude *.pyd
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbaas]: success
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tav]: success
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tat-3.0.998.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tat-3.0.999.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tat]: success
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.998.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tan]: success
+[2024-05-15 00:27:02] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2024-05-15 00:27:02] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2024-05-15 00:28:53] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.43.tar.gz]
+[2024-05-15 00:28:53] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.44.tar.gz]
+[2024-05-15 00:28:53] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-05-15 00:28:53] INFO root fetch - main [MainThread]: Store serial: [23209016]
