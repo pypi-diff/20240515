@@ -1832,3 +1832,33 @@
 [2024-05-15 01:06:34] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240513.tar.gz]
 [2024-05-15 01:06:34] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-15 01:06:34] INFO root fetch - main [MainThread]: Store serial: [23209453]
+[2024-05-15 01:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209453]
+[2024-05-15 01:08:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 01:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amisc
+[2024-05-15 01:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maze-dataset
+[2024-05-15 01:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: structifyai
+[2024-05-15 01:08:43] INFO root fetch - processPackages [structifyai]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2024-05-15 01:08:43] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/7f/bf/3abc9f8dbabf7e76dbc735f90394468fe9b1797cfa66f5cf2146739a7e55/structifyai-0.1.0a7.tar.gz
+[2024-05-15 01:08:43] INFO root fetch - processPackages [amisc]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-15 01:08:43] INFO root fetch - processPackages [maze-dataset]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-15 01:08:43] INFO root fetch - processPackages [maze-dataset]: Downloading https://files.pythonhosted.org/packages/6a/26/d143efd852f9ac37e692782562d8d39eaf74a335c2bb27bc1474bb894fc7/maze_dataset-0.5.2.tar.gz
+[2024-05-15 01:08:43] INFO root fetch - processPackages [amisc]: Downloading https://files.pythonhosted.org/packages/b8/18/9c8b3e13245b2ef05fca5eab56b18ef77e256e2fbe461670f0d77182f46d/amisc-0.2.1.tar.gz
+[2024-05-15 01:08:43] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/e7/0e/0f95626e193b36f0490342fe7667772e7d3d399e68446bff231a2d1f3d00/structifyai-0.1.0a8.tar.gz
+[2024-05-15 01:08:43] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-05-15 01:08:43] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.1.0a7.tar.gz tmp/structifyai-0.1.0a8.tar.gz --markdown 20240515/s/structifyai/0.1.0a7-0.1.0a8/README.md --exclude *.pyd
+[2024-05-15 01:08:44] INFO root fetch - processPackages [amisc]: Downloading https://files.pythonhosted.org/packages/c2/e3/07a983dd646aef8477e0be7b5284761a46fdef508f78b0cb4361dd52e26e/amisc-0.3.0.tar.gz
+[2024-05-15 01:08:44] INFO root fetch - processPackages [maze-dataset]: Downloading https://files.pythonhosted.org/packages/23/80/b898041a20a0679578543e7a9cc5b2bebd233e74e9331de61e3e1eefbcd7/maze_dataset-0.5.3.tar.gz
+[2024-05-15 01:08:44] INFO root fetch - processPackages [amisc]: executing diffoscope
+[2024-05-15 01:08:44] INFO root fetch - processPackages [amisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amisc-0.2.1.tar.gz tmp/amisc-0.3.0.tar.gz --markdown 20240515/a/amisc/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-15 01:08:44] INFO root fetch - processPackages [maze-dataset]: executing diffoscope
+[2024-05-15 01:08:44] INFO root fetch - processPackages [maze-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maze_dataset-0.5.2.tar.gz tmp/maze_dataset-0.5.3.tar.gz --markdown 20240515/m/maze-dataset/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-15 01:08:44] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a7.tar.gz]
+[2024-05-15 01:08:44] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a8.tar.gz]
+[2024-05-15 01:08:44] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-05-15 01:08:44] INFO root fetch - processPackages [amisc]: Remove: archive file [/home/abi/fetcher/tmp/amisc-0.2.1.tar.gz]
+[2024-05-15 01:08:44] INFO root fetch - processPackages [amisc]: Remove: archive file [/home/abi/fetcher/tmp/amisc-0.3.0.tar.gz]
+[2024-05-15 01:08:44] INFO root fetch - main [MainThread]: End processing [amisc]: success
+[2024-05-15 01:08:44] INFO root fetch - processPackages [maze-dataset]: Remove: archive file [/home/abi/fetcher/tmp/maze_dataset-0.5.2.tar.gz]
+[2024-05-15 01:08:44] INFO root fetch - processPackages [maze-dataset]: Remove: archive file [/home/abi/fetcher/tmp/maze_dataset-0.5.3.tar.gz]
+[2024-05-15 01:08:44] INFO root fetch - main [MainThread]: End processing [maze-dataset]: success
+[2024-05-15 01:08:44] INFO root fetch - main [MainThread]: Store serial: [23209461]
