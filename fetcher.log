@@ -1659,3 +1659,96 @@
 [2024-05-15 00:55:41] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch_py-0.7.1.tar.gz]
 [2024-05-15 00:55:41] INFO root fetch - main [MainThread]: End processing [dispatch-py]: success
 [2024-05-15 00:55:41] INFO root fetch - main [MainThread]: Store serial: [23209401]
+[2024-05-15 00:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209401]
+[2024-05-15 00:57:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plux
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-engine-data-structures
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-youmall
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sf-hamilton
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yaml-designer
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvprocessor
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dansplotcore
+[2024-05-15 00:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chaiverse
+[2024-05-15 00:57:50] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [dansplotcore]: New version: [6.4.1] Old Version: [6.4.0]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [plux]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [yaml-designer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [mercury-engine-data-structures]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:57:50] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 00:57:50] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/1f/97/59aaf752338cc6c3b32eb2649755bd8859669ece8b947798c3b8c1be1758/dansplotcore-6.4.0.tar.gz
+[2024-05-15 00:57:50] INFO root fetch - processPackages [yaml-designer]: Downloading https://files.pythonhosted.org/packages/a7/c1/7d4fddf13dfe53bb7370f3178205cb01ddf4e4bbeb38bb9b14c535a39b41/yaml_designer-0.1.1.tar.gz
+[2024-05-15 00:57:50] INFO root fetch - processPackages [plux]: Downloading https://files.pythonhosted.org/packages/7b/32/258a9fac5edbee977963a632589cd94785ae871bac75f5976c3904ddc1da/plux-1.8.1.tar.gz
+[2024-05-15 00:57:50] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-15 00:57:50] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/39/e0/fc744921b150b00c8ddb23acc3afb33cffac60d0ba7554589364c746e51a/mercury-engine-data-structures-0.9.5.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/8b/48/0f4022469d2e60d80c205090d7b15165159c59eed860f408c566ee8506b7/tencentcloud-sdk-python-youmall-3.0.998.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [plux]: Downloading https://files.pythonhosted.org/packages/9b/9a/c5b3a95278d1ab432f9f2dd7c5dc904024a3e095a4d75171a7df6a70752e/plux-1.9.0.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/30/fb/72f29fe74976d1496f22c735135748f6ca6e8dbbf8afbf0c92f5d9cf1237/dansplotcore-6.4.1.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [yaml-designer]: Downloading https://files.pythonhosted.org/packages/48/ef/ffca490bfd12771d3b07c3a56fb7b629a4a5365ad5454b4eed57b053594a/yaml_designer-0.1.2.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240515/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240515/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [plux]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [plux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plux-1.8.1.tar.gz tmp/plux-1.9.0.tar.gz --markdown 20240515/p/plux/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [dansplotcore]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [dansplotcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dansplotcore-6.4.0.tar.gz tmp/dansplotcore-6.4.1.tar.gz --markdown 20240515/d/dansplotcore/6.4.0-6.4.1/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [yaml-designer]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [yaml-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_designer-0.1.1.tar.gz tmp/yaml_designer-0.1.2.tar.gz --markdown 20240515/y/yaml-designer/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Downloading https://files.pythonhosted.org/packages/f6/74/59f8c2be1c7240a151a0718bde96586efaff4e1846d7c4d623394da89276/tencentcloud-sdk-python-youmall-3.0.999.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240515/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-youmall-3.0.998.tar.gz tmp/tencentcloud-sdk-python-youmall-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-youmall/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:57:51] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/ea/9a/111001b9a671be0e6b9e31841e0e275f2d5098f85da2d1421181c36e046a/mercury-engine-data-structures-0.9.6.tar.gz
+[2024-05-15 00:57:51] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-05-15 00:57:51] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240515/s/sf-hamilton/1.9.0-1.9.0rc0/README.md --exclude *.pyd
+[2024-05-15 00:57:52] INFO root fetch - processPackages [yaml-designer]: Remove: archive file [/home/abi/fetcher/tmp/yaml_designer-0.1.1.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [yaml-designer]: Remove: archive file [/home/abi/fetcher/tmp/yaml_designer-0.1.2.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [yaml-designer]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [plux]: Remove: archive file [/home/abi/fetcher/tmp/plux-1.8.1.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [plux]: Remove: archive file [/home/abi/fetcher/tmp/plux-1.9.0.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [plux]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.998.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.999.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-youmall]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.4.0.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.4.1.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [dansplotcore]: success
+[2024-05-15 00:57:52] INFO root fetch - processPackages [mercury-engine-data-structures]: executing diffoscope
+[2024-05-15 00:57:52] INFO root fetch - processPackages [mercury-engine-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-engine-data-structures-0.9.5.tar.gz tmp/mercury-engine-data-structures-0.9.6.tar.gz --markdown 20240515/m/mercury-engine-data-structures/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-15 00:57:52] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-05-15 00:57:52] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-05-15 00:57:53] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.5.tar.gz]
+[2024-05-15 00:57:53] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
+[2024-05-15 00:57:53] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
+[2024-05-15 00:57:53] INFO root fetch - main [MainThread]: Store serial: [23209429]
