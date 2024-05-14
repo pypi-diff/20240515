@@ -681,3 +681,79 @@
 [2024-05-15 00:28:53] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.44.tar.gz]
 [2024-05-15 00:28:53] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-05-15 00:28:53] INFO root fetch - main [MainThread]: Store serial: [23209016]
+[2024-05-15 00:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209016]
+[2024-05-15 00:31:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-comfort
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aka-data-prep
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-space-toolkit-physics
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmesh
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pySWXF
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaml-designer
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aioesphomeapi
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-tbp
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tcaplusdb
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aka-data-prep]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [yaml-designer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [sqlmesh]: New version: [0.95.2] Old Version: [0.95.1]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [pySWXF]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/5e/ce/8257fd8aa8e9dd6a1cc260082330d09396680d40ccb25360ac003a7cd618/aka-data-prep-0.0.2.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/23/84/22eb083d226890712b295487f723a7b397207f4ae4b46af0ee93d09076b1/sqlmesh-0.95.1.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ladybug-comfort]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [6.0.6] Old Version: [6.0.5]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:31:03] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14344972>=10485760
+[2024-05-15 00:31:03] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2024-05-15 00:31:03] INFO root fetch - processPackages [yaml-designer]: Downloading https://files.pythonhosted.org/packages/a8/2a/454b8ffd973ecfdb46f05de4e416b64fe28eb2ec90830805e8e856f45615/yaml_designer-0.1.0.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/70/97/6439c52c882d79bdb7f4d90a1ef60a792c33aba678ff7a001c13c1383804/aka-data-prep-0.1.0.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/1c/31/cf4ccb8dda1f8d2a0a8ca4561c462451b78461068401fc619c8cb7e20c74/pyswxf-0.5.9.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka-data-prep-0.0.2.tar.gz tmp/aka-data-prep-0.1.0.tar.gz --markdown 20240515/a/aka-data-prep/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-15 00:31:03] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:31:03] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/6a/bf/8102b0e33435882b5600b8c0d7b5ebb92e379d665f3767b706dce6bdd2d3/ladybug-comfort-0.9.8.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2024-05-15 00:31:03] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/f5/94/c2dda7ac11274d04e595bc01d8a931cb9932e66c030a2e082d2bdb3780c4/open_space_toolkit_physics-6.0.5-py39-none-manylinux2014_x86_64.whl
+[2024-05-15 00:31:03] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/5f/55/64982549dccaa37329bc10d337689cdea10cb94098cf652e70ef084b062a/tencentcloud-sdk-python-tbp-3.0.998.tar.gz
+[2024-05-15 00:31:03] WARNING root fetch - processPackages [open-space-toolkit-physics]: Skipping package: exceeds size limit 33901112>=10485760
+[2024-05-15 00:31:03] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics] error
+[2024-05-15 00:31:04] INFO root fetch - processPackages [yaml-designer]: Downloading https://files.pythonhosted.org/packages/a7/c1/7d4fddf13dfe53bb7370f3178205cb01ddf4e4bbeb38bb9b14c535a39b41/yaml_designer-0.1.1.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/50/e2/802b374ee03e75e3b25b519e9e7571d6d9e93b3555264033c8b9793cf51d/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [yaml-designer]: executing diffoscope
+[2024-05-15 00:31:04] INFO root fetch - processPackages [yaml-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_designer-0.1.0.tar.gz tmp/yaml_designer-0.1.1.tar.gz --markdown 20240515/y/yaml-designer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 00:31:04] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/01/02/b871500d4bb81f18c253d98ce272a040dfa679de4682eb2f66a1f039c17a/ladybug-comfort-0.9.9.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/de/b5/2240664beaf312ecba717d537c333908f86a596316a32a136cf6c6b23fae/tencentcloud-sdk-python-tbp-3.0.999.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.2.tar.gz]
+[2024-05-15 00:31:04] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.1.0.tar.gz]
+[2024-05-15 00:31:04] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-15 00:31:04] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2024-05-15 00:31:04] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20240515/a/aioesphomeapi/9.1.4-9.1.5/README.md --exclude *.pyd
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: executing diffoscope
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tbp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/0c/90/657b8ab58c2086e77f45308e2a174018e0ea4c6fe5a36ba98d4d72caeb9f/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/16/e4/83f4cb15b1d2942812fee5af19b7e09229b7310d246ac8585365d5d704a6/pyswxf-0.6.0.tar.gz
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: executing diffoscope
+[2024-05-15 00:31:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tcaplusdb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:31:04] INFO root fetch - processPackages [ladybug-comfort]: executing diffoscope
+[2024-05-15 00:31:04] INFO root fetch - processPackages [ladybug-comfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-comfort-0.9.8.tar.gz tmp/ladybug-comfort-0.9.9.tar.gz --markdown 20240515/l/ladybug-comfort/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 00:31:04] INFO root fetch - processPackages [yaml-designer]: Remove: archive file [/home/abi/fetcher/tmp/yaml_designer-0.1.0.tar.gz]
+[2024-05-15 00:31:04] INFO root fetch - processPackages [yaml-designer]: Remove: archive file [/home/abi/fetcher/tmp/yaml_designer-0.1.1.tar.gz]
+[2024-05-15 00:31:04] INFO root fetch - main [MainThread]: End processing [yaml-designer]: success
+[2024-05-15 00:31:05] INFO root fetch - processPackages [pySWXF]: executing diffoscope
+[2024-05-15 00:31:05] INFO root fetch - processPackages [pySWXF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswxf-0.5.9.tar.gz tmp/pyswxf-0.6.0.tar.gz --markdown 20240515/p/pySWXF/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-15 00:31:05] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2024-05-15 00:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
+[2024-05-15 00:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbp]: success
+[2024-05-15 00:31:05] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.8.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.9.tar.gz]
+[2024-05-15 00:31:05] INFO root fetch - main [MainThread]: End processing [ladybug-comfort]: success
+[2024-05-15 00:31:11] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.5.9.tar.gz]
+[2024-05-15 00:31:11] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.0.tar.gz]
+[2024-05-15 00:31:11] INFO root fetch - main [MainThread]: End processing [pySWXF]: success
+[2024-05-15 00:31:11] INFO root fetch - main [MainThread]: Store serial: [23209052]
