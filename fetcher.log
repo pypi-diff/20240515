@@ -2225,3 +2225,43 @@
 [2024-05-15 01:39:11] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.2-py3-none-any.whl.zip]
 [2024-05-15 01:39:11] INFO root fetch - main [MainThread]: End processing [databricks-genai]: success
 [2024-05-15 01:39:11] INFO root fetch - main [MainThread]: Store serial: [23209581]
+[2024-05-15 01:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209581]
+[2024-05-15 01:41:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-genai
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: attribox
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ray-cpp
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ray
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axidence
+[2024-05-15 01:41:19] INFO root fetch - processPackages [databricks-genai]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 01:41:19] INFO root fetch - processPackages [axidence]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-15 01:41:19] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ray]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-15 01:41:19] INFO root fetch - processPackages [ray-cpp]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-15 01:41:20] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/07/5b/002e052e13ca88d02fd88b2235cf3717fa86298893fce48d703eb4577caf/databricks_genai-1.0.1.tar.gz
+[2024-05-15 01:41:20] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-15 01:41:20] INFO root fetch - processPackages [axidence]: Downloading https://files.pythonhosted.org/packages/9a/3e/4b2999f6aa1083f88fcdb70202316c2a85835430e55410bec9c1880b2132/axidence-0.2.2.tar.gz
+[2024-05-15 01:41:20] INFO root fetch - processPackages [ray-cpp]: Downloading https://files.pythonhosted.org/packages/6a/2e/c9e89160e721b0ed7a43091e48c090a4fb2c81ec223bea7a5227fd7195bb/ray_cpp-2.9.2-cp39-cp39-win_amd64.whl
+[2024-05-15 01:41:20] INFO root fetch - processPackages [ray]: Downloading https://files.pythonhosted.org/packages/17/e4/1f6d6ef9b325d00e7cb482fb5af501369f3eb5847fed7195a8acd0f94138/ray-2.9.2-cp39-cp39-win_amd64.whl
+[2024-05-15 01:41:20] WARNING root fetch - processPackages [ray-cpp]: Skipping package: exceeds size limit 22195717>=10485760
+[2024-05-15 01:41:20] INFO root fetch - main [MainThread]: End processing [ray-cpp] error
+[2024-05-15 01:41:20] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/74/17/fa2376999460a3fb16525a75cf02e3b1911d75adb7bb9cd51ba54f8482d2/databricks_genai-1.0.2-py3-none-any.whl
+[2024-05-15 01:41:20] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-15 01:41:20] WARNING root fetch - processPackages [ray]: Skipping package: exceeds size limit 25179689>=10485760
+[2024-05-15 01:41:20] INFO root fetch - main [MainThread]: End processing [ray] error
+[2024-05-15 01:41:20] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-15 01:41:20] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240515/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 01:41:20] INFO root fetch - processPackages [databricks-genai]: executing diffoscope
+[2024-05-15 01:41:20] INFO root fetch - processPackages [databricks-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_genai-1.0.1.tar.gz tmp/databricks_genai-1.0.2-py3-none-any.whl.zip --markdown 20240515/d/databricks-genai/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 01:41:20] INFO root fetch - processPackages [axidence]: Downloading https://files.pythonhosted.org/packages/63/df/fdf3f60b4f936b592d16b8e60a5e58862b98c1938465b8903275fce77bb3/axidence-0.3.0.tar.gz
+[2024-05-15 01:41:20] INFO root fetch - processPackages [axidence]: executing diffoscope
+[2024-05-15 01:41:20] INFO root fetch - processPackages [axidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axidence-0.2.2.tar.gz tmp/axidence-0.3.0.tar.gz --markdown 20240515/a/axidence/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-15 01:41:20] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.1.tar.gz]
+[2024-05-15 01:41:20] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.2-py3-none-any.whl.zip]
+[2024-05-15 01:41:20] INFO root fetch - main [MainThread]: End processing [databricks-genai]: success
+[2024-05-15 01:41:20] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-15 01:41:20] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-15 01:41:20] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-15 01:41:21] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.2.2.tar.gz]
+[2024-05-15 01:41:21] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.0.tar.gz]
+[2024-05-15 01:41:21] INFO root fetch - main [MainThread]: End processing [axidence]: success
+[2024-05-15 01:41:21] INFO root fetch - main [MainThread]: Store serial: [23209602]
