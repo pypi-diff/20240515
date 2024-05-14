@@ -2457,3 +2457,33 @@
 [2024-05-15 01:56:34] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
 [2024-05-15 01:56:34] INFO root fetch - main [MainThread]: End processing [ok-script]: success
 [2024-05-15 01:56:34] INFO root fetch - main [MainThread]: Store serial: [23209672]
+[2024-05-15 01:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209672]
+[2024-05-15 01:58:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 01:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Quanthon
+[2024-05-15 01:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datajunction
+[2024-05-15 01:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdss-tpm-multicast-client
+[2024-05-15 01:58:42] INFO root fetch - processPackages [sdss-tpm-multicast-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-15 01:58:42] INFO root fetch - processPackages [Quanthon]: New version: [0.3.7] Old Version: [0.3.6.6]
+[2024-05-15 01:58:42] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Downloading https://files.pythonhosted.org/packages/d3/3f/642aec3744cf6cd1d1a1cb45e67711149f34d26934ca2b1effecf5163bfa/sdss_tpm_multicast_client-0.2.0.tar.gz
+[2024-05-15 01:58:42] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-15 01:58:42] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/2d/da/bc47ac11de6d55d4f1c63fadfb01d763339a9b0fe49d6cc6bccec558f9c3/quanthon-0.3.6.6.tar.gz
+[2024-05-15 01:58:42] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2024-05-15 01:58:42] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/ec/db/6a51c8763a1970eaf0381cef2d09dbe52a5fc42663144d0dbd401c3c0746/quanthon-0.3.7.tar.gz
+[2024-05-15 01:58:42] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Downloading https://files.pythonhosted.org/packages/29/84/aad72f910256d347055497aa1904cbb06c07900ba0d4a12ab4804f6b2f3a/sdss_tpm_multicast_client-0.3.0.tar.gz
+[2024-05-15 01:58:42] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-05-15 01:58:42] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanthon-0.3.6.6.tar.gz tmp/quanthon-0.3.7.tar.gz --markdown 20240515/Q/Quanthon/0.3.6.6-0.3.7/README.md --exclude *.pyd
+[2024-05-15 01:58:43] INFO root fetch - processPackages [sdss-tpm-multicast-client]: executing diffoscope
+[2024-05-15 01:58:43] INFO root fetch - processPackages [sdss-tpm-multicast-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_tpm_multicast_client-0.2.0.tar.gz tmp/sdss_tpm_multicast_client-0.3.0.tar.gz --markdown 20240515/s/sdss-tpm-multicast-client/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-15 01:58:43] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2024-05-15 01:58:43] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2024-05-15 01:58:43] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20240515/d/datajunction/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-15 01:58:43] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.6.6.tar.gz]
+[2024-05-15 01:58:43] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.7.tar.gz]
+[2024-05-15 01:58:43] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-05-15 01:58:43] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.2.0.tar.gz]
+[2024-05-15 01:58:43] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.3.0.tar.gz]
+[2024-05-15 01:58:43] INFO root fetch - main [MainThread]: End processing [sdss-tpm-multicast-client]: success
+[2024-05-15 01:58:43] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2024-05-15 01:58:43] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2024-05-15 01:58:43] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2024-05-15 01:58:43] INFO root fetch - main [MainThread]: Store serial: [23209680]
