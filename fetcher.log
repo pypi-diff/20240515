@@ -1901,3 +1901,42 @@
 [2024-05-15 01:11:00] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.4.1.tar.gz]
 [2024-05-15 01:11:00] INFO root fetch - main [MainThread]: End processing [goodest]: success
 [2024-05-15 01:11:00] INFO root fetch - main [MainThread]: Store serial: [23209473]
+[2024-05-15 01:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209473]
+[2024-05-15 01:13:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 01:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntools
+[2024-05-15 01:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltachat-rpc-server
+[2024-05-15 01:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tjax
+[2024-05-15 01:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveflask
+[2024-05-15 01:13:09] INFO root fetch - processPackages [cntools]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-15 01:13:09] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/c9/9b/2cac71327f3c218b9ea719037a69cdb2eaa365840b6a388a6dfa6fb4e987/cntools-2.1.0.tar.gz
+[2024-05-15 01:13:09] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-15 01:13:09] INFO root fetch - processPackages [deltachat-rpc-server]: New version: [1.138.1] Old Version: [1.138.0]
+[2024-05-15 01:13:09] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-15 01:13:10] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/ae/ed/be9a73c4e6505834d0da48ce4946e45ba6e89bcbbeea32040c0042aaacb4/cntools-2.1.1.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/5e/7b/c50d2b2862fe55eae5c1c3a60ce028757212e18099528d3ac88eb412777f/deltachat-rpc-server-1.138.0.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [cntools]: executing diffoscope
+[2024-05-15 01:13:10] INFO root fetch - processPackages [cntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntools-2.1.0.tar.gz tmp/cntools-2.1.1.tar.gz --markdown 20240515/c/cntools/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-15 01:13:10] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/e8/2d/ad4ad8a74bd5b6ae69613066cd49a1e596a4ade117b1e1852f64c81eea90/deltachat-rpc-server-1.138.1.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-15 01:13:10] INFO root fetch - processPackages [deltachat-rpc-server]: executing diffoscope
+[2024-05-15 01:13:10] INFO root fetch - processPackages [deltachat-rpc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-server-1.138.0.tar.gz tmp/deltachat-rpc-server-1.138.1.tar.gz --markdown 20240515/d/deltachat-rpc-server/1.138.0-1.138.1/README.md --exclude *.pyd
+[2024-05-15 01:13:10] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2024-05-15 01:13:10] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20240515/t/tjax/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-15 01:13:10] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-15 01:13:10] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240515/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-15 01:13:11] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.138.0.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.138.1.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-server]: success
+[2024-05-15 01:13:11] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.0.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.1.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - main [MainThread]: End processing [cntools]: success
+[2024-05-15 01:13:11] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.8.4.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2024-05-15 01:13:11] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-15 01:13:11] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-15 01:13:11] INFO root fetch - main [MainThread]: Store serial: [23209492]
