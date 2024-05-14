@@ -1952,3 +1952,24 @@
 [2024-05-15 01:15:20] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.2.0.tar.gz]
 [2024-05-15 01:15:20] INFO root fetch - main [MainThread]: End processing [sdss-tpm-multicast-client]: success
 [2024-05-15 01:15:20] INFO root fetch - main [MainThread]: Store serial: [23209495]
+[2024-05-15 01:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209495]
+[2024-05-15 01:17:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudreve
+[2024-05-15 01:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-skill-personal
+[2024-05-15 01:17:29] INFO root fetch - processPackages [cloudreve]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 01:17:29] INFO root fetch - processPackages [ovos-skill-personal]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2024-05-15 01:17:29] INFO root fetch - processPackages [cloudreve]: Downloading https://files.pythonhosted.org/packages/45/e1/02b37731db4c4abb8b0efe9d7933c071ee44197518916af7ed9ac375c936/cloudreve-1.0.1.tar.gz
+[2024-05-15 01:17:29] INFO root fetch - processPackages [ovos-skill-personal]: Downloading https://files.pythonhosted.org/packages/e1/6e/b616d82158886e80f88c2a7986c733172f7751b56a83cca40179f2841e7b/ovos_skill_personal-0.0.4a8-py3-none-any.whl
+[2024-05-15 01:17:30] INFO root fetch - processPackages [cloudreve]: Downloading https://files.pythonhosted.org/packages/93/46/539bbd466b2869fefe7090ae79edf6af6bd111b315b39cbd3a5ba6be380e/cloudreve-1.0.2.tar.gz
+[2024-05-15 01:17:30] INFO root fetch - processPackages [ovos-skill-personal]: Downloading https://files.pythonhosted.org/packages/f3/07/9b7b9bf3c112832f6cfe48310c5b73676b0d4da5adc887857c93f97f0b57/ovos_skill_personal-0.0.4a9-py3-none-any.whl
+[2024-05-15 01:17:30] INFO root fetch - processPackages [cloudreve]: executing diffoscope
+[2024-05-15 01:17:30] INFO root fetch - processPackages [cloudreve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudreve-1.0.1.tar.gz tmp/cloudreve-1.0.2.tar.gz --markdown 20240515/c/cloudreve/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 01:17:30] INFO root fetch - processPackages [ovos-skill-personal]: executing diffoscope
+[2024-05-15 01:17:30] INFO root fetch - processPackages [ovos-skill-personal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_personal-0.0.4a8-py3-none-any.whl.zip tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip --markdown 20240515/o/ovos-skill-personal/0.0.4a8-0.0.4a9/README.md --exclude *.pyd
+[2024-05-15 01:17:30] INFO root fetch - processPackages [cloudreve]: Remove: archive file [/home/abi/fetcher/tmp/cloudreve-1.0.1.tar.gz]
+[2024-05-15 01:17:30] INFO root fetch - processPackages [cloudreve]: Remove: archive file [/home/abi/fetcher/tmp/cloudreve-1.0.2.tar.gz]
+[2024-05-15 01:17:30] INFO root fetch - main [MainThread]: End processing [cloudreve]: success
+[2024-05-15 01:17:31] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a8-py3-none-any.whl.zip]
+[2024-05-15 01:17:31] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip]
+[2024-05-15 01:17:31] INFO root fetch - main [MainThread]: End processing [ovos-skill-personal]: success
+[2024-05-15 01:17:31] INFO root fetch - main [MainThread]: Store serial: [23209499]
