@@ -2286,3 +2286,33 @@
 [2024-05-15 01:43:30] INFO root fetch - processPackages [roadlib]: Remove: archive file [/home/abi/fetcher/tmp/roadlib-0.9.0.tar.gz]
 [2024-05-15 01:43:30] INFO root fetch - main [MainThread]: End processing [roadlib]: success
 [2024-05-15 01:43:30] INFO root fetch - main [MainThread]: Store serial: [23209608]
+[2024-05-15 01:45:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209608]
+[2024-05-15 01:45:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alfred-python
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-skill-personal
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2b-code-interpreter
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ovos-skill-personal]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ovos-skill-personal]: Downloading https://files.pythonhosted.org/packages/e1/6e/b616d82158886e80f88c2a7986c733172f7751b56a83cca40179f2841e7b/ovos_skill_personal-0.0.4a8-py3-none-any.whl
+[2024-05-15 01:45:39] INFO root fetch - processPackages [alfred-python]: New version: [0.4.0] Old Version: [0.0.1]
+[2024-05-15 01:45:39] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ovos-skill-personal]: Downloading https://files.pythonhosted.org/packages/f3/07/9b7b9bf3c112832f6cfe48310c5b73676b0d4da5adc887857c93f97f0b57/ovos_skill_personal-0.0.4a9-py3-none-any.whl
+[2024-05-15 01:45:39] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/f6/62/b5520a9327e033ed94f0b146f84ec712e1e3f2288bf694bdd6cc8cc6ee57/e2b_code_interpreter-0.0.5.tar.gz
+[2024-05-15 01:45:39] INFO root fetch - processPackages [alfred-python]: Downloading https://files.pythonhosted.org/packages/57/48/32b8aa2daf2ce32e26b6284849a739cb933be34fa0f867f362a7d1777b83/alfred_python-0.0.1.tar.gz
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ovos-skill-personal]: executing diffoscope
+[2024-05-15 01:45:39] INFO root fetch - processPackages [ovos-skill-personal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_personal-0.0.4a8-py3-none-any.whl.zip tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip --markdown 20240515/o/ovos-skill-personal/0.0.4a8-0.0.4a9/README.md --exclude *.pyd
+[2024-05-15 01:45:40] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/31/73/e936b3eeec0aae74fd434cf9bb8340736212d57f7b5b2cbebc299be66f87/e2b_code_interpreter-0.0.6.tar.gz
+[2024-05-15 01:45:40] INFO root fetch - processPackages [alfred-python]: Downloading https://files.pythonhosted.org/packages/73/08/48580a2ea7d375f2e84a72d37fb43557441b2e302c5b72e17d620a2da423/alfred_python-0.4.0.tar.gz
+[2024-05-15 01:45:40] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-05-15 01:45:40] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.5.tar.gz tmp/e2b_code_interpreter-0.0.6.tar.gz --markdown 20240515/e/e2b-code-interpreter/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-15 01:45:40] INFO root fetch - processPackages [alfred-python]: executing diffoscope
+[2024-05-15 01:45:40] INFO root fetch - processPackages [alfred-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred_python-0.0.1.tar.gz tmp/alfred_python-0.4.0.tar.gz --markdown 20240515/a/alfred-python/0.0.1-0.4.0/README.md --exclude *.pyd
+[2024-05-15 01:45:40] INFO root fetch - processPackages [alfred-python]: Remove: archive file [/home/abi/fetcher/tmp/alfred_python-0.0.1.tar.gz]
+[2024-05-15 01:45:40] INFO root fetch - processPackages [alfred-python]: Remove: archive file [/home/abi/fetcher/tmp/alfred_python-0.4.0.tar.gz]
+[2024-05-15 01:45:40] INFO root fetch - main [MainThread]: End processing [alfred-python]: success
+[2024-05-15 01:45:40] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.5.tar.gz]
+[2024-05-15 01:45:40] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.6.tar.gz]
+[2024-05-15 01:45:40] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-05-15 01:45:40] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a8-py3-none-any.whl.zip]
+[2024-05-15 01:45:40] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip]
+[2024-05-15 01:45:40] INFO root fetch - main [MainThread]: End processing [ovos-skill-personal]: success
+[2024-05-15 01:45:40] INFO root fetch - main [MainThread]: Store serial: [23209616]
