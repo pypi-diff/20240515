@@ -2007,3 +2007,26 @@
 [2024-05-15 01:19:42] INFO root fetch - processPackages [winterrb]: Remove: archive file [/home/abi/fetcher/tmp/winterrb-1.0.0.tar.gz]
 [2024-05-15 01:19:42] INFO root fetch - main [MainThread]: End processing [winterrb]: success
 [2024-05-15 01:19:42] INFO root fetch - main [MainThread]: Store serial: [23209516]
+[2024-05-15 01:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209516]
+[2024-05-15 01:21:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-15 01:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209518]
+[2024-05-15 01:23:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntools
+[2024-05-15 01:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mosaicml-cli
+[2024-05-15 01:23:57] INFO root fetch - processPackages [cntools]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-15 01:23:57] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/ae/ed/be9a73c4e6505834d0da48ce4946e45ba6e89bcbbeea32040c0042aaacb4/cntools-2.1.1.tar.gz
+[2024-05-15 01:23:57] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-15 01:23:57] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/6d/75/e000a749de7bff628cf1198d6dfde9b6046f3244e18443e38b42d94993e4/mosaicml-cli-0.6.8.tar.gz
+[2024-05-15 01:23:57] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/46/28/76f03357ad0f65b57007836d8c2d70682cf2ad1a98e8fe8526ee5440288b/cntools-2.1.2.tar.gz
+[2024-05-15 01:23:57] INFO root fetch - processPackages [cntools]: executing diffoscope
+[2024-05-15 01:23:57] INFO root fetch - processPackages [cntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntools-2.1.1.tar.gz tmp/cntools-2.1.2.tar.gz --markdown 20240515/c/cntools/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-15 01:23:57] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/ef/b7/606ec74a6c71d51ffef48705a8cfdd0825febb44bbaca04641c10e476a49/mosaicml-cli-0.6.9.tar.gz
+[2024-05-15 01:23:58] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2024-05-15 01:23:58] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.6.8.tar.gz tmp/mosaicml-cli-0.6.9.tar.gz --markdown 20240515/m/mosaicml-cli/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-15 01:23:58] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.1.tar.gz]
+[2024-05-15 01:23:58] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.2.tar.gz]
+[2024-05-15 01:23:58] INFO root fetch - main [MainThread]: End processing [cntools]: success
+[2024-05-15 01:23:59] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.6.8.tar.gz]
+[2024-05-15 01:23:59] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.6.9.tar.gz]
+[2024-05-15 01:23:59] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2024-05-15 01:23:59] INFO root fetch - main [MainThread]: Store serial: [23209526]
