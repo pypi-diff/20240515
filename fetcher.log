@@ -1294,3 +1294,77 @@
 [2024-05-15 00:44:40] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2024-05-15 00:44:40] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2024-05-15 00:44:40] INFO root fetch - main [MainThread]: Store serial: [23209240]
+[2024-05-15 00:46:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209240]
+[2024-05-15 00:46:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tsf
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-aind-metadata
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tsw
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zetaforge
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odex
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mass-composition
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matematikk
+[2024-05-15 00:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: motion2telegram
+[2024-05-15 00:46:49] INFO root fetch - processPackages [zetaforge]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 00:46:49] WARNING root fetch - processPackages [odex]: Skipping, unable to determine old version
+[2024-05-15 00:46:49] INFO root fetch - main [MainThread]: End processing [odex] error
+[2024-05-15 00:46:49] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240513] Old Version: [2.17.0.dev20240511]
+[2024-05-15 00:46:49] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 00:46:49] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 00:46:49] INFO root fetch - processPackages [zetaforge]: Downloading https://files.pythonhosted.org/packages/b3/17/d08a52e4a7829d6f70c923938056b9302d0c3e1832f8f4817eee65ff7cd5/zetaforge-0.1.2.tar.gz
+[2024-05-15 00:46:49] INFO root fetch - processPackages [motion2telegram]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-15 00:46:49] INFO root fetch - processPackages [mass-composition]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 00:46:49] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/f2/42/0820a8e0b3fd42e0061251fc8213d2e7eca1c4b4d20bea68ebc78505762f/tf_nightly_intel-2.17.0.dev20240511-cp39-cp39-win_amd64.whl
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:46:50] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 215096195>=10485760
+[2024-05-15 00:46:50] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-15 00:46:50] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/ac/d8/a7a7fc02d215c0b82f15700da97b7dff1935b484e48f6f90564e9253daef/mass_composition-0.4.8.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/8a/8a/63058eaaa488166b71d6c5b799acb55930eda0500738316a33e579ab6dc6/np_aind_metadata-0.1.8.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [motion2telegram]: Downloading https://files.pythonhosted.org/packages/50/42/541fb7d6bd67d677ea1f9a4834f791ee967bfd0e51b43fb9ff79477e557b/motion2telegram-1.0.0.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/9c/15/5d686a8ece4a00e5a315a66e90b30727564fbbc80fe142ff5b19583b9758/tencentcloud-sdk-python-tsw-3.0.998.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [zetaforge]: Downloading https://files.pythonhosted.org/packages/01/d2/c6659dc1e45d516de9d70c5277448880654fbf858eadd396bb6fe872611c/zetaforge-0.1.3.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Downloading https://files.pythonhosted.org/packages/3c/cd/1cfcbb1e6974d34214b070db401b5fa353527c2a6a3e8d4620f802a59736/tencentcloud-sdk-python-tsf-3.0.998.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4b/cd/caf2aa726cf95d02b127329aa5f4ada331061389c9565c8746f5f4bb1212/mass_composition-0.4.9.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [zetaforge]: executing diffoscope
+[2024-05-15 00:46:50] INFO root fetch - processPackages [zetaforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetaforge-0.1.2.tar.gz tmp/zetaforge-0.1.3.tar.gz --markdown 20240515/z/zetaforge/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 00:46:50] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-15 00:46:50] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240515/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 00:46:50] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-15 00:46:50] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.4.8.tar.gz tmp/mass_composition-0.4.9.tar.gz --markdown 20240515/m/mass-composition/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 00:46:50] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/14/6b/7f5a6a3b3c759871cab21389d38d1e5ef28b9bb1da0f3ce7a7da44d8df60/np_aind_metadata-0.1.9.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [motion2telegram]: Downloading https://files.pythonhosted.org/packages/d2/8e/7e643be9dd21b40a9e8399c61892f9182d677547a556f24d959f5ed3a0ca/motion2telegram-1.0.1.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/b5/4b/330ed99d61f77ecadd7ff7b4d3588ec8d083968876df2a56ea9c0a104b19/tencentcloud-sdk-python-tsw-3.0.999.tar.gz
+[2024-05-15 00:46:50] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-05-15 00:46:50] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_aind_metadata-0.1.8.tar.gz tmp/np_aind_metadata-0.1.9.tar.gz --markdown 20240515/n/np-aind-metadata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 00:46:50] INFO root fetch - processPackages [motion2telegram]: executing diffoscope
+[2024-05-15 00:46:50] INFO root fetch - processPackages [motion2telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion2telegram-1.0.0.tar.gz tmp/motion2telegram-1.0.1.tar.gz --markdown 20240515/m/motion2telegram/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: executing diffoscope
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tsw-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tsw-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tsw/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:46:50] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Downloading https://files.pythonhosted.org/packages/33/ab/0cd98cae1666cbb47f7c38f3f577f2f7b0bccd9a4dbc15e1609394bc1ae2/tencentcloud-sdk-python-tsf-3.0.999.tar.gz
+[2024-05-15 00:46:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: executing diffoscope
+[2024-05-15 00:46:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tsf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tsf-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-tsf/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:46:51] INFO root fetch - processPackages [zetaforge]: Remove: archive file [/home/abi/fetcher/tmp/zetaforge-0.1.2.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [zetaforge]: Remove: archive file [/home/abi/fetcher/tmp/zetaforge-0.1.3.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [zetaforge]: success
+[2024-05-15 00:46:51] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.8.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.9.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-15 00:46:51] INFO root fetch - processPackages [motion2telegram]: Remove: archive file [/home/abi/fetcher/tmp/motion2telegram-1.0.0.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [motion2telegram]: Remove: archive file [/home/abi/fetcher/tmp/motion2telegram-1.0.1.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [motion2telegram]: success
+[2024-05-15 00:46:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsw-3.0.998.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsw-3.0.999.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsw]: success
+[2024-05-15 00:46:51] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.8.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.9.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-05-15 00:46:51] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-15 00:46:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsf-3.0.998.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsf-3.0.999.tar.gz]
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsf]: success
+[2024-05-15 00:46:51] INFO root fetch - main [MainThread]: Store serial: [23209278]
