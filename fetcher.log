@@ -2165,3 +2165,15 @@
 [2024-05-15 01:30:31] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
 [2024-05-15 01:30:31] INFO root fetch - main [MainThread]: End processing [langgraph]: success
 [2024-05-15 01:30:31] INFO root fetch - main [MainThread]: Store serial: [23209562]
+[2024-05-15 01:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209562]
+[2024-05-15 01:32:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 01:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meshgpt-pytorch
+[2024-05-15 01:32:40] INFO root fetch - processPackages [meshgpt-pytorch]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-15 01:32:40] INFO root fetch - processPackages [meshgpt-pytorch]: Downloading https://files.pythonhosted.org/packages/78/13/32944a0e85b072639b36f89be58351d10b2da390390406225601e090e0a2/meshgpt_pytorch-1.2.4.tar.gz
+[2024-05-15 01:32:40] INFO root fetch - processPackages [meshgpt-pytorch]: Downloading https://files.pythonhosted.org/packages/5f/5f/fd3491d8bca6b40ea3c6ade81df24a53ca8cb7aab88d8555a1c5a9cb9d41/meshgpt_pytorch-1.2.5.tar.gz
+[2024-05-15 01:32:40] INFO root fetch - processPackages [meshgpt-pytorch]: executing diffoscope
+[2024-05-15 01:32:40] INFO root fetch - processPackages [meshgpt-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshgpt_pytorch-1.2.4.tar.gz tmp/meshgpt_pytorch-1.2.5.tar.gz --markdown 20240515/m/meshgpt-pytorch/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-15 01:32:41] INFO root fetch - processPackages [meshgpt-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/meshgpt_pytorch-1.2.4.tar.gz]
+[2024-05-15 01:32:41] INFO root fetch - processPackages [meshgpt-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/meshgpt_pytorch-1.2.5.tar.gz]
+[2024-05-15 01:32:41] INFO root fetch - main [MainThread]: End processing [meshgpt-pytorch]: success
+[2024-05-15 01:32:41] INFO root fetch - main [MainThread]: Store serial: [23209565]
