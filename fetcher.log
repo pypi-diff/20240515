@@ -1470,3 +1470,42 @@
 [2024-05-15 00:49:03] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.4.9.tar.gz]
 [2024-05-15 00:49:03] INFO root fetch - main [MainThread]: End processing [symlib]: success
 [2024-05-15 00:49:03] INFO root fetch - main [MainThread]: Store serial: [23209314]
+[2024-05-15 00:51:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209314]
+[2024-05-15 00:51:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 00:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qsharp
+[2024-05-15 00:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sf-hamilton-sdk
+[2024-05-15 00:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qsharp-jupyterlab
+[2024-05-15 00:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsharp-widgets
+[2024-05-15 00:51:11] INFO root fetch - processPackages [sf-hamilton-sdk]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-widgets]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-jupyterlab]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2024-05-15 00:51:12] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/36/3e/c1a4efb0f9f8503e4485d7ee057d3a120a44b055fafe4b86ac7b17c98d86/sf_hamilton_sdk-0.3.5.tar.gz
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/5f/bb/1ed85c9f5db9fad86eae75437d092bde54479b9a9e615cf82d1b72eca7e6/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/c1/3b/83b711ac41ebb895fcaa55e98fddc3ff6bf95312f0974455ae8764239cb3/qsharp_jupyterlab-1.4.1.dev0-py3-none-any.whl
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/ff/ae/becf51d80e6878a7f7484a375b68e762eac7aba33cc5548bfa1b6a1cf09f/qsharp-1.4.1.dev0-cp37-abi3-win_arm64.whl
+[2024-05-15 00:51:12] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/2e/66/643e4a00b5135bc02a721612e20ae6171fe16e7285c316981aee55131bbc/sf_hamilton_sdk-0.4.0.tar.gz
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/89/c5/cb0caf976734b89eed24301aa83424e1090c06147cd821911ed12c324988/qsharp_jupyterlab-1.4.2.dev0-py3-none-any.whl
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/75/56/dafe049b32457b4870b7bbd673e82b3d6fa1985b191c24bd55362bf3cce5/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/a4/e1/b20587374d094d8dab2d151fd9304d7086d8a26bbdf2b6c7c778e9b14f2c/qsharp-1.4.2.dev0-cp37-abi3-win_arm64.whl
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-jupyterlab]: executing diffoscope
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-1.4.1.dev0-py3-none-any.whl.zip tmp/qsharp_jupyterlab-1.4.2.dev0-py3-none-any.whl.zip --markdown 20240515/q/qsharp-jupyterlab/1.4.1.dev0-1.4.2.dev0/README.md --exclude *.pyd
+[2024-05-15 00:51:12] INFO root fetch - processPackages [sf-hamilton-sdk]: executing diffoscope
+[2024-05-15 00:51:12] INFO root fetch - processPackages [sf-hamilton-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_hamilton_sdk-0.3.5.tar.gz tmp/sf_hamilton_sdk-0.4.0.tar.gz --markdown 20240515/s/sf-hamilton-sdk/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-widgets]: executing diffoscope
+[2024-05-15 00:51:12] INFO root fetch - processPackages [qsharp-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl.zip tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip --markdown 20240515/q/qsharp-widgets/1.4.1.dev0-1.4.2.dev0/README.md --exclude *.pyd
+[2024-05-15 00:51:13] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2024-05-15 00:51:13] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-1.4.1.dev0-cp37-abi3-win_arm64.whl.zip tmp/qsharp-1.4.2.dev0-cp37-abi3-win_arm64.whl.zip --markdown 20240515/q/qsharp/1.4.1.dev0-1.4.2.dev0/README.md --exclude *.pyd
+[2024-05-15 00:51:13] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.4.1.dev0-py3-none-any.whl.zip]
+[2024-05-15 00:51:13] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.4.2.dev0-py3-none-any.whl.zip]
+[2024-05-15 00:51:13] INFO root fetch - main [MainThread]: End processing [qsharp-jupyterlab]: success
+[2024-05-15 00:51:13] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.5.tar.gz]
+[2024-05-15 00:51:13] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.4.0.tar.gz]
+[2024-05-15 00:51:13] INFO root fetch - main [MainThread]: End processing [sf-hamilton-sdk]: success
+[2024-05-15 00:51:13] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.4.1.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-15 00:51:13] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.4.2.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-15 00:51:13] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2024-05-15 00:51:17] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl.zip]
+[2024-05-15 00:51:17] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip]
+[2024-05-15 00:51:17] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
+[2024-05-15 00:51:17] INFO root fetch - main [MainThread]: Store serial: [23209327]
