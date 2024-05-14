@@ -1862,3 +1862,42 @@
 [2024-05-15 01:08:44] INFO root fetch - processPackages [maze-dataset]: Remove: archive file [/home/abi/fetcher/tmp/maze_dataset-0.5.3.tar.gz]
 [2024-05-15 01:08:44] INFO root fetch - main [MainThread]: End processing [maze-dataset]: success
 [2024-05-15 01:08:44] INFO root fetch - main [MainThread]: Store serial: [23209461]
+[2024-05-15 01:10:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209461]
+[2024-05-15 01:10:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 01:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-behavior-curriculum
+[2024-05-15 01:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-05-15 01:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterhub-fancy-profiles
+[2024-05-15 01:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goodest
+[2024-05-15 01:10:53] INFO root fetch - processPackages [goodest]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-15 01:10:53] INFO root fetch - processPackages [aind-behavior-curriculum]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 01:10:53] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-15 01:10:53] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 01:10:53] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/99/b4/5fd4fc55ecc93df4b2859f1a2324d2eac66a3c9b0d123acc920c79a6e43b/aind_behavior_curriculum-0.0.8.tar.gz
+[2024-05-15 01:10:53] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/e4/a2/fe6b296de57306184adb4f272712f65e1a2dcfdceab74ffd11b39a71df01/goodest-1.4.0.tar.gz
+[2024-05-15 01:10:53] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: Downloading https://files.pythonhosted.org/packages/01/69/472454fb46f94967ce1cd470942c9623e60ed9588b2b8eaa7583561f357f/jupyterhub-fancy-profiles-0.2.0.tar.gz
+[2024-05-15 01:10:53] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 01:10:54] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 01:10:54] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/0c/a3/0a5964d96614b0206cf8658aecedfda2c2efc3df978050cca34a1dd179d4/aind_behavior_curriculum-0.0.9.tar.gz
+[2024-05-15 01:10:54] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 01:10:54] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 01:10:54] INFO root fetch - processPackages [aind-behavior-curriculum]: executing diffoscope
+[2024-05-15 01:10:54] INFO root fetch - processPackages [aind-behavior-curriculum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_behavior_curriculum-0.0.8.tar.gz tmp/aind_behavior_curriculum-0.0.9.tar.gz --markdown 20240515/a/aind-behavior-curriculum/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 01:10:54] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: Downloading https://files.pythonhosted.org/packages/08/4f/4a8b908daf2e5c046c11bb96bfb3044b7823c363e22423919c49c875a262/jupyterhub_fancy_profiles-0.3.0.tar.gz
+[2024-05-15 01:10:54] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: executing diffoscope
+[2024-05-15 01:10:54] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-fancy-profiles-0.2.0.tar.gz tmp/jupyterhub_fancy_profiles-0.3.0.tar.gz --markdown 20240515/j/jupyterhub-fancy-profiles/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-15 01:10:54] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/ee/6a/d3442b4435c976eba88812cbc91922f0426cc34532e76cc0a03eb6e40164/goodest-1.4.1.tar.gz
+[2024-05-15 01:10:54] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.8.tar.gz]
+[2024-05-15 01:10:54] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.9.tar.gz]
+[2024-05-15 01:10:54] INFO root fetch - main [MainThread]: End processing [aind-behavior-curriculum]: success
+[2024-05-15 01:10:55] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-15 01:10:55] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.4.0.tar.gz tmp/goodest-1.4.1.tar.gz --markdown 20240515/g/goodest/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-15 01:10:55] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-fancy-profiles-0.2.0.tar.gz]
+[2024-05-15 01:10:55] INFO root fetch - processPackages [jupyterhub-fancy-profiles]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_fancy_profiles-0.3.0.tar.gz]
+[2024-05-15 01:10:55] INFO root fetch - main [MainThread]: End processing [jupyterhub-fancy-profiles]: success
+[2024-05-15 01:10:55] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 01:10:55] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 01:10:55] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 01:11:00] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.4.0.tar.gz]
+[2024-05-15 01:11:00] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.4.1.tar.gz]
+[2024-05-15 01:11:00] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-15 01:11:00] INFO root fetch - main [MainThread]: Store serial: [23209473]
