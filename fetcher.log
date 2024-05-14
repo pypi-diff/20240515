@@ -405,3 +405,54 @@
 [2024-05-15 00:11:44] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.42.9.tar.gz]
 [2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [ladybug-core]: success
 [2024-05-15 00:11:44] INFO root fetch - main [MainThread]: Store serial: [23208896]
+[2024-05-15 00:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208896]
+[2024-05-15 00:13:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcloudforlinux
+[2024-05-15 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omop2survey
+[2024-05-15 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smControl
+[2024-05-15 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-05-15 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cntools
+[2024-05-15 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pds-data-upload-manager
+[2024-05-15 00:13:53] INFO root fetch - processPackages [omop2survey]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-15 00:13:53] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-15 00:13:53] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-15 00:13:53] INFO root fetch - processPackages [pds-data-upload-manager]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-15 00:13:53] INFO root fetch - processPackages [cntools]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-15 00:13:53] WARNING root fetch - processPackages [smControl]: Skipping, unable to determine old version
+[2024-05-15 00:13:53] INFO root fetch - main [MainThread]: End processing [smControl] error
+[2024-05-15 00:13:53] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/61/51/a05f9ed769a58bec0dc243627d94d65b38b26d9eca2fb36f2c18edf995f8/omop2survey-0.0.1.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/7a/a5/daf0cb44f00ce3f23bef7da73c1ebb024c3d9a0542b8db64a218b1623bf2/xcloudforlinux-0.1.0.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [pds-data-upload-manager]: Downloading https://files.pythonhosted.org/packages/56/b2/6580acc45b056bd647d825c0e7b30952155ec072973bcb3cc0ad3dd086c6/pds_data_upload_manager-1.1.0-py3-none-any.whl
+[2024-05-15 00:13:53] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/c9/9b/2cac71327f3c218b9ea719037a69cdb2eaa365840b6a388a6dfa6fb4e987/cntools-2.1.0.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/56/fc/9e731acd0d1e58c6f0734554b89f69e38f2ae75ecf72c59e6590018d4160/xcloudforlinux-0.2.0.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/66/e4/e9c1976549b360a8271715270a36fb4ffbd39545405e682b5913c0f9ed64/omop2survey-0.1.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/ae/ed/be9a73c4e6505834d0da48ce4946e45ba6e89bcbbeea32040c0042aaacb4/cntools-2.1.1.tar.gz
+[2024-05-15 00:13:53] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-15 00:13:53] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240515/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-15 00:13:53] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-05-15 00:13:53] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.1.tar.gz tmp/omop2survey-0.1.tar.gz --markdown 20240515/o/omop2survey/0.0.1-0.1/README.md --exclude *.pyd
+[2024-05-15 00:13:54] INFO root fetch - processPackages [pds-data-upload-manager]: Downloading https://files.pythonhosted.org/packages/6b/8d/9326f8b54470828524cf537f20f6fce0e09561111b3fd06cd7023f60ca1f/pds_data_upload_manager-1.2.0-py3-none-any.whl
+[2024-05-15 00:13:54] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-15 00:13:54] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.1.0.tar.gz tmp/xcloudforlinux-0.2.0.tar.gz --markdown 20240515/x/xcloudforlinux/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-15 00:13:54] INFO root fetch - processPackages [cntools]: executing diffoscope
+[2024-05-15 00:13:54] INFO root fetch - processPackages [cntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntools-2.1.0.tar.gz tmp/cntools-2.1.1.tar.gz --markdown 20240515/c/cntools/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-15 00:13:54] INFO root fetch - processPackages [pds-data-upload-manager]: executing diffoscope
+[2024-05-15 00:13:54] INFO root fetch - processPackages [pds-data-upload-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pds_data_upload_manager-1.1.0-py3-none-any.whl.zip tmp/pds_data_upload_manager-1.2.0-py3-none-any.whl.zip --markdown 20240515/p/pds-data-upload-manager/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-15 00:13:54] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.1.tar.gz]
+[2024-05-15 00:13:54] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.1.tar.gz]
+[2024-05-15 00:13:54] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-05-15 00:13:54] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.1.0.tar.gz]
+[2024-05-15 00:13:54] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.2.0.tar.gz]
+[2024-05-15 00:13:54] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-15 00:13:54] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-15 00:13:54] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-15 00:13:54] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-15 00:13:54] INFO root fetch - processPackages [pds-data-upload-manager]: Remove: archive file [/home/abi/fetcher/tmp/pds_data_upload_manager-1.1.0-py3-none-any.whl.zip]
+[2024-05-15 00:13:54] INFO root fetch - processPackages [pds-data-upload-manager]: Remove: archive file [/home/abi/fetcher/tmp/pds_data_upload_manager-1.2.0-py3-none-any.whl.zip]
+[2024-05-15 00:13:54] INFO root fetch - main [MainThread]: End processing [pds-data-upload-manager]: success
+[2024-05-15 00:13:55] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.0.tar.gz]
+[2024-05-15 00:13:55] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.1.tar.gz]
+[2024-05-15 00:13:55] INFO root fetch - main [MainThread]: End processing [cntools]: success
+[2024-05-15 00:13:55] INFO root fetch - main [MainThread]: Store serial: [23208913]
