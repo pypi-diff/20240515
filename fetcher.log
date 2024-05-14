@@ -498,3 +498,27 @@
 [2024-05-15 00:16:08] INFO root fetch - processPackages [amplify]: Remove: archive file [/home/abi/fetcher/tmp/amplify-1.1.0-cp39-cp39-win_amd64.whl.zip]
 [2024-05-15 00:16:08] INFO root fetch - main [MainThread]: End processing [amplify]: success
 [2024-05-15 00:16:08] INFO root fetch - main [MainThread]: Store serial: [23208941]
+[2024-05-15 00:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208941]
+[2024-05-15 00:18:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 00:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JsonsPract
+[2024-05-15 00:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powerpathfinder-models
+[2024-05-15 00:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Fortuna
+[2024-05-15 00:18:19] INFO root fetch - processPackages [powerpathfinder-models]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 00:18:19] WARNING root fetch - processPackages [JsonsPract]: Skipping, unable to determine old version
+[2024-05-15 00:18:19] INFO root fetch - main [MainThread]: End processing [JsonsPract] error
+[2024-05-15 00:18:19] INFO root fetch - processPackages [Fortuna]: New version: [5.5.2] Old Version: [5.5.1]
+[2024-05-15 00:18:19] INFO root fetch - processPackages [powerpathfinder-models]: Downloading https://files.pythonhosted.org/packages/ac/11/0acc26cfa89db1a2d637e4ee5911ead982e9d8b2d565c2b7f149ce109114/powerpathfinder_models-0.0.1.tar.gz
+[2024-05-15 00:18:19] INFO root fetch - processPackages [Fortuna]: Downloading https://files.pythonhosted.org/packages/3d/5f/76f9218d24ae5145e8f19d144c716cae59c149b39e12d53252f724d6343e/fortuna-5.5.1.tar.gz
+[2024-05-15 00:18:19] INFO root fetch - processPackages [powerpathfinder-models]: Downloading https://files.pythonhosted.org/packages/02/2c/ec5a68eac89c44c859087339614f86463e02dec2009cf0f3c71014ff85cf/powerpathfinder_models-0.0.2.tar.gz
+[2024-05-15 00:18:19] INFO root fetch - processPackages [powerpathfinder-models]: executing diffoscope
+[2024-05-15 00:18:19] INFO root fetch - processPackages [powerpathfinder-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerpathfinder_models-0.0.1.tar.gz tmp/powerpathfinder_models-0.0.2.tar.gz --markdown 20240515/p/powerpathfinder-models/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 00:18:19] INFO root fetch - processPackages [Fortuna]: Downloading https://files.pythonhosted.org/packages/b3/4e/61d873e2cdd891b5dfe7f230831776849b344886aa896877c057b6913c1e/fortuna-5.5.2.tar.gz
+[2024-05-15 00:18:20] INFO root fetch - processPackages [Fortuna]: executing diffoscope
+[2024-05-15 00:18:20] INFO root fetch - processPackages [Fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortuna-5.5.1.tar.gz tmp/fortuna-5.5.2.tar.gz --markdown 20240515/F/Fortuna/5.5.1-5.5.2/README.md --exclude *.pyd
+[2024-05-15 00:18:20] INFO root fetch - processPackages [powerpathfinder-models]: Remove: archive file [/home/abi/fetcher/tmp/powerpathfinder_models-0.0.1.tar.gz]
+[2024-05-15 00:18:20] INFO root fetch - processPackages [powerpathfinder-models]: Remove: archive file [/home/abi/fetcher/tmp/powerpathfinder_models-0.0.2.tar.gz]
+[2024-05-15 00:18:20] INFO root fetch - main [MainThread]: End processing [powerpathfinder-models]: success
+[2024-05-15 00:18:21] INFO root fetch - processPackages [Fortuna]: Remove: archive file [/home/abi/fetcher/tmp/fortuna-5.5.1.tar.gz]
+[2024-05-15 00:18:21] INFO root fetch - processPackages [Fortuna]: Remove: archive file [/home/abi/fetcher/tmp/fortuna-5.5.2.tar.gz]
+[2024-05-15 00:18:21] INFO root fetch - main [MainThread]: End processing [Fortuna]: success
+[2024-05-15 00:18:21] INFO root fetch - main [MainThread]: Store serial: [23208964]
