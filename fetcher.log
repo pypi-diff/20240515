@@ -2177,3 +2177,24 @@
 [2024-05-15 01:32:41] INFO root fetch - processPackages [meshgpt-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/meshgpt_pytorch-1.2.5.tar.gz]
 [2024-05-15 01:32:41] INFO root fetch - main [MainThread]: End processing [meshgpt-pytorch]: success
 [2024-05-15 01:32:41] INFO root fetch - main [MainThread]: Store serial: [23209565]
+[2024-05-15 01:34:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209565]
+[2024-05-15 01:34:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-15 01:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: attribox
+[2024-05-15 01:34:50] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 01:34:50] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 01:34:50] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-15 01:34:50] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 01:34:50] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-15 01:34:50] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 01:34:50] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-15 01:34:50] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240515/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 01:34:50] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 01:34:50] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 01:34:51] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-15 01:34:51] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-15 01:34:51] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-15 01:34:51] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 01:34:51] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 01:34:51] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 01:34:51] INFO root fetch - main [MainThread]: Store serial: [23209571]
