@@ -1,0 +1,24 @@
+[2024-05-15 00:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208711]
+[2024-05-15 00:02:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-designer
+[2024-05-15 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matematikk
+[2024-05-15 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medspacy
+[2024-05-15 00:02:25] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 00:02:25] INFO root fetch - processPackages [medspacy]: New version: [1.2.0a0] Old Version: [1.1.6a0]
+[2024-05-15 00:02:25] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-15 00:02:25] WARNING root fetch - processPackages [yaml-designer]: Skipping, unable to determine old version
+[2024-05-15 00:02:25] INFO root fetch - main [MainThread]: End processing [yaml-designer] error
+[2024-05-15 00:02:25] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/c0/d8/4f5f9199ece6f99462976b03482f920b921f906332e5b0cd635493d2af9c/medspacy-1.1.6a0.tar.gz
+[2024-05-15 00:02:25] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-15 00:02:25] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-15 00:02:25] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240515/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 00:02:25] INFO root fetch - processPackages [medspacy]: Downloading https://files.pythonhosted.org/packages/fe/c5/7dcd16910835d89413558abe2fe45ad2d08a88ee2d75abbdd96124db2eb0/medspacy-1.2.0a0.tar.gz
+[2024-05-15 00:02:26] INFO root fetch - processPackages [medspacy]: executing diffoscope
+[2024-05-15 00:02:26] INFO root fetch - processPackages [medspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspacy-1.1.6a0.tar.gz tmp/medspacy-1.2.0a0.tar.gz --markdown 20240515/m/medspacy/1.1.6a0-1.2.0a0/README.md --exclude *.pyd
+[2024-05-15 00:02:26] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-15 00:02:26] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-15 00:02:26] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-15 00:02:27] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.1.6a0.tar.gz]
+[2024-05-15 00:02:27] INFO root fetch - processPackages [medspacy]: Remove: archive file [/home/abi/fetcher/tmp/medspacy-1.2.0a0.tar.gz]
+[2024-05-15 00:02:27] INFO root fetch - main [MainThread]: End processing [medspacy]: success
+[2024-05-15 00:02:27] INFO root fetch - main [MainThread]: Store serial: [23208721]
