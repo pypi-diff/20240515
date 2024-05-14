@@ -456,3 +456,45 @@
 [2024-05-15 00:13:55] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.1.tar.gz]
 [2024-05-15 00:13:55] INFO root fetch - main [MainThread]: End processing [cntools]: success
 [2024-05-15 00:13:55] INFO root fetch - main [MainThread]: Store serial: [23208913]
+[2024-05-15 00:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208913]
+[2024-05-15 00:16:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iudex
+[2024-05-15 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: climweb-wdqms
+[2024-05-15 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerbi-api
+[2024-05-15 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.appsync-utils
+[2024-05-15 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amplify
+[2024-05-15 00:16:03] INFO root fetch - processPackages [climweb-wdqms]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 00:16:03] INFO root fetch - processPackages [climweb-wdqms]: Downloading https://files.pythonhosted.org/packages/eb/2a/7b48d455e7285b85bd9ab668bcf698eccf26e055d568fbaea8f89fde1ba7/climweb_wdqms-0.0.2.tar.gz
+[2024-05-15 00:16:03] INFO root fetch - processPackages [iudex]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 00:16:03] WARNING root fetch - processPackages [powerbi-api]: Skipping, unable to determine old version
+[2024-05-15 00:16:03] INFO root fetch - main [MainThread]: End processing [powerbi-api] error
+[2024-05-15 00:16:03] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 00:16:03] INFO root fetch - processPackages [amplify]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-05-15 00:16:04] INFO root fetch - processPackages [climweb-wdqms]: Downloading https://files.pythonhosted.org/packages/42/a9/c96c80b9fb161bb585af563a86aea8dfbc5206db1832d353da3db19a2c5e/climweb_wdqms-0.0.3.tar.gz
+[2024-05-15 00:16:04] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/c7/dc/0c1cc9b788d2664c7feeaf5811b4a8baba114d5b386c3d86c798549f0d47/iudex-0.4.8.tar.gz
+[2024-05-15 00:16:04] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-15 00:16:04] INFO root fetch - processPackages [climweb-wdqms]: executing diffoscope
+[2024-05-15 00:16:04] INFO root fetch - processPackages [climweb-wdqms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climweb_wdqms-0.0.2.tar.gz tmp/climweb_wdqms-0.0.3.tar.gz --markdown 20240515/c/climweb-wdqms/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 00:16:04] INFO root fetch - processPackages [amplify]: Downloading https://files.pythonhosted.org/packages/a4/4d/69265540d8cc860eeb9ee751f674391fa01eb2d6a545bf6d91dc14d8cb8a/amplify-1.0.5-cp39-cp39-win_amd64.whl
+[2024-05-15 00:16:04] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/9e/4d/d22711011e5e63aff9b40852a57e8a3f9ff8e3843a15a2d0761be494fec3/iudex-0.4.9.tar.gz
+[2024-05-15 00:16:04] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-15 00:16:04] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-15 00:16:04] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.4.8.tar.gz tmp/iudex-0.4.9.tar.gz --markdown 20240515/i/iudex/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 00:16:04] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-15 00:16:04] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240515/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 00:16:04] INFO root fetch - processPackages [climweb-wdqms]: Remove: archive file [/home/abi/fetcher/tmp/climweb_wdqms-0.0.2.tar.gz]
+[2024-05-15 00:16:04] INFO root fetch - processPackages [climweb-wdqms]: Remove: archive file [/home/abi/fetcher/tmp/climweb_wdqms-0.0.3.tar.gz]
+[2024-05-15 00:16:04] INFO root fetch - main [MainThread]: End processing [climweb-wdqms]: success
+[2024-05-15 00:16:05] INFO root fetch - processPackages [amplify]: Downloading https://files.pythonhosted.org/packages/7c/5d/529a50097760a2c4607fb1f285bec49637bd230e5034ce7115672c507073/amplify-1.1.0-cp39-cp39-win_amd64.whl
+[2024-05-15 00:16:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-15 00:16:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-15 00:16:05] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-15 00:16:05] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.8.tar.gz]
+[2024-05-15 00:16:05] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.4.9.tar.gz]
+[2024-05-15 00:16:05] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-15 00:16:08] INFO root fetch - processPackages [amplify]: executing diffoscope
+[2024-05-15 00:16:08] INFO root fetch - processPackages [amplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplify-1.0.5-cp39-cp39-win_amd64.whl.zip tmp/amplify-1.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20240515/a/amplify/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-05-15 00:16:08] INFO root fetch - processPackages [amplify]: Remove: archive file [/home/abi/fetcher/tmp/amplify-1.0.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 00:16:08] INFO root fetch - processPackages [amplify]: Remove: archive file [/home/abi/fetcher/tmp/amplify-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 00:16:08] INFO root fetch - main [MainThread]: End processing [amplify]: success
+[2024-05-15 00:16:08] INFO root fetch - main [MainThread]: Store serial: [23208941]
