@@ -564,3 +564,42 @@
 [2024-05-15 00:22:41] INFO root fetch - processPackages [prefpicker]: Remove: archive file [/home/abi/fetcher/tmp/prefpicker-1.9.2.tar.gz]
 [2024-05-15 00:22:41] INFO root fetch - main [MainThread]: End processing [prefpicker]: success
 [2024-05-15 00:22:41] INFO root fetch - main [MainThread]: Store serial: [23208975]
+[2024-05-15 00:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208975]
+[2024-05-15 00:24:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdss-tpm-multicast-client
+[2024-05-15 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapids-dependency-file-generator
+[2024-05-15 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catalystwan
+[2024-05-15 00:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beaker-gantry
+[2024-05-15 00:24:49] INFO root fetch - processPackages [rapids-dependency-file-generator]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-15 00:24:49] INFO root fetch - processPackages [sdss-tpm-multicast-client]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-15 00:24:49] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/35/cc/fe0001af9e6b85bf03a3ced4911e4a78dfa8de7e254ca03dabe31164412c/rapids-dependency-file-generator-1.8.0.tar.gz
+[2024-05-15 00:24:49] INFO root fetch - processPackages [catalystwan]: New version: [0.33.6] Old Version: [0.33.5]
+[2024-05-15 00:24:49] INFO root fetch - processPackages [beaker-gantry]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-15 00:24:49] INFO root fetch - processPackages [rapids-dependency-file-generator]: Downloading https://files.pythonhosted.org/packages/1b/cc/edcd9e618969ad028bd2880c86f9e8984c9da491fcd730c7a81b46556a7d/rapids-dependency-file-generator-1.9.0.tar.gz
+[2024-05-15 00:24:49] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Downloading https://files.pythonhosted.org/packages/29/bc/74842121335c0b8bc44bc64e1a2ccbebf0882235ac4feb963dccfcd26a8f/sdss_tpm_multicast_client-0.1.1.tar.gz
+[2024-05-15 00:24:49] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/2c/2e/e4a69215b05a72bda79c6c66250cacbe2e4b10c5e7f917671acea4b1c38a/beaker-gantry-0.9.3.tar.gz
+[2024-05-15 00:24:49] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/86/72/37c51206877d0f49bb9e0e2d9131b0d95174423ec2a2f6eb2f893b13e41b/catalystwan-0.33.5.tar.gz
+[2024-05-15 00:24:50] INFO root fetch - processPackages [rapids-dependency-file-generator]: executing diffoscope
+[2024-05-15 00:24:50] INFO root fetch - processPackages [rapids-dependency-file-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids-dependency-file-generator-1.8.0.tar.gz tmp/rapids-dependency-file-generator-1.9.0.tar.gz --markdown 20240515/r/rapids-dependency-file-generator/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-15 00:24:50] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Downloading https://files.pythonhosted.org/packages/d3/3f/642aec3744cf6cd1d1a1cb45e67711149f34d26934ca2b1effecf5163bfa/sdss_tpm_multicast_client-0.2.0.tar.gz
+[2024-05-15 00:24:50] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/98/d4/73220f62818889dca63f9eccf13dad524c84f95f34a1a50b4198270a0cdc/beaker-gantry-0.9.4.tar.gz
+[2024-05-15 00:24:50] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/61/17/5ebb5e0d4e05c4cfc67dbdce18f45ab487ae89673ef19179975491cd284a/catalystwan-0.33.6.tar.gz
+[2024-05-15 00:24:50] INFO root fetch - processPackages [sdss-tpm-multicast-client]: executing diffoscope
+[2024-05-15 00:24:50] INFO root fetch - processPackages [sdss-tpm-multicast-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_tpm_multicast_client-0.1.1.tar.gz tmp/sdss_tpm_multicast_client-0.2.0.tar.gz --markdown 20240515/s/sdss-tpm-multicast-client/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-15 00:24:50] INFO root fetch - processPackages [beaker-gantry]: executing diffoscope
+[2024-05-15 00:24:50] INFO root fetch - processPackages [beaker-gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker-gantry-0.9.3.tar.gz tmp/beaker-gantry-0.9.4.tar.gz --markdown 20240515/b/beaker-gantry/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-15 00:24:50] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-15 00:24:50] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.5.tar.gz tmp/catalystwan-0.33.6.tar.gz --markdown 20240515/c/catalystwan/0.33.5-0.33.6/README.md --exclude *.pyd
+[2024-05-15 00:24:50] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.8.0.tar.gz]
+[2024-05-15 00:24:50] INFO root fetch - processPackages [rapids-dependency-file-generator]: Remove: archive file [/home/abi/fetcher/tmp/rapids-dependency-file-generator-1.9.0.tar.gz]
+[2024-05-15 00:24:50] INFO root fetch - main [MainThread]: End processing [rapids-dependency-file-generator]: success
+[2024-05-15 00:24:50] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.1.1.tar.gz]
+[2024-05-15 00:24:50] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.2.0.tar.gz]
+[2024-05-15 00:24:50] INFO root fetch - main [MainThread]: End processing [sdss-tpm-multicast-client]: success
+[2024-05-15 00:24:51] INFO root fetch - processPackages [beaker-gantry]: Remove: archive file [/home/abi/fetcher/tmp/beaker-gantry-0.9.3.tar.gz]
+[2024-05-15 00:24:51] INFO root fetch - processPackages [beaker-gantry]: Remove: archive file [/home/abi/fetcher/tmp/beaker-gantry-0.9.4.tar.gz]
+[2024-05-15 00:24:51] INFO root fetch - main [MainThread]: End processing [beaker-gantry]: success
+[2024-05-15 00:24:51] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.5.tar.gz]
+[2024-05-15 00:24:51] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.tar.gz]
+[2024-05-15 00:24:51] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-15 00:24:51] INFO root fetch - main [MainThread]: Store serial: [23208987]
