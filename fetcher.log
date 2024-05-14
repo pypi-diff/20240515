@@ -195,3 +195,69 @@
 [2024-05-15 00:04:52] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_websocket_api-2.7.1-cp310-cp310-musllinux_1_1_x86_64.whl.zip]
 [2024-05-15 00:04:52] INFO root fetch - main [MainThread]: End processing [unicorn-binance-websocket-api]: success
 [2024-05-15 00:04:52] INFO root fetch - main [MainThread]: Store serial: [23208775]
+[2024-05-15 00:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208775]
+[2024-05-15 00:07:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chime-frb-api
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-smop
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-smpn
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-sms
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-soe
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esphome
+[2024-05-15 00:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: krixik
+[2024-05-15 00:07:09] INFO root fetch - processPackages [esphome]: New version: [2024.5.0b4] Old Version: [2024.5.0b3]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [chime-frb-api]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [krixik]: New version: [1.1.16] Old Version: [1.1.15]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/b2/d3/04941ead24b4451609bf884b305c58b2c39bfa54474077b9676131e40c93/esphome-2024.5.0b3.tar.gz
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:07:09] INFO root fetch - processPackages [chime-frb-api]: Downloading https://files.pythonhosted.org/packages/81/ae/5034cc7f3dbfe228845a5982d6e3221dbda54566b9bf13b3db711a2256bf/chime_frb_api-3.3.0.tar.gz
+[2024-05-15 00:07:09] INFO root fetch - processPackages [krixik]: Downloading https://files.pythonhosted.org/packages/5f/70/94da58c8cd41b821d5c9136a8e79f8ba9cfd4008a39125b3e4baa292f6b4/krixik-1.1.15.tar.gz
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Downloading https://files.pythonhosted.org/packages/00/3b/a7199cfc9dfe00dde4a529a945b800daf5eb1b70ea0d0383408cd259e4da/tencentcloud-sdk-python-smpn-3.0.998.tar.gz
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: Downloading https://files.pythonhosted.org/packages/34/97/ec5b3490b58d165a9b3dd50ca1b1aa2a42db53895e5426adce9de1ab2f2d/tencentcloud-sdk-python-smop-3.0.998.tar.gz
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/cc/be/a0073f44484dd37666dbfe673eb566fb6021747d91fa22cd6b97e679a0bb/tencentcloud-sdk-python-sms-3.0.998.tar.gz
+[2024-05-15 00:07:09] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Downloading https://files.pythonhosted.org/packages/f3/a1/74d3000985ebfb51033fefbeee38bd89d536f6ba740e38fc76f82ddb711b/tencentcloud-sdk-python-soe-3.0.998.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/00/f0/db312483f5b1547aa4a5216c340956b96a9906f878dd0e899b3186b78313/esphome-2024.5.0b4.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [chime-frb-api]: Downloading https://files.pythonhosted.org/packages/92/4c/acd08061d51ae501748450c6fbc265c44a8fe3e3eda6e0ea689d98737594/chime_frb_api-3.4.0.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [krixik]: Downloading https://files.pythonhosted.org/packages/e0/1a/e5290651e811fb6019f9fc8423b5bdf151fef9c346344cde02cc9a7f1d49/krixik-1.1.16.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: Downloading https://files.pythonhosted.org/packages/0d/63/4534c80f1aab0edf1b2993f991e98ef49d121f5c70db9d409502dcab68cf/tencentcloud-sdk-python-smop-3.0.999.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [chime-frb-api]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [chime-frb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chime_frb_api-3.3.0.tar.gz tmp/chime_frb_api-3.4.0.tar.gz --markdown 20240515/c/chime-frb-api/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Downloading https://files.pythonhosted.org/packages/48/0c/4c342dee4b6eb84564a070a5446e7e1f19eae79c97f3fe3808495b5d70a6/tencentcloud-sdk-python-soe-3.0.999.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/8c/4a/d2ba3aee1f575afb2c32eac6c58328b57732522cdcda6e867ce1862f4110/tencentcloud-sdk-python-sms-3.0.999.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Downloading https://files.pythonhosted.org/packages/0e/ef/0176b825ba3fe021ef6889e36a7f3f9355f840a9a6acd19f3a127def4eb5/tencentcloud-sdk-python-smpn-3.0.999.tar.gz
+[2024-05-15 00:07:10] INFO root fetch - processPackages [krixik]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [krixik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krixik-1.1.15.tar.gz tmp/krixik-1.1.16.tar.gz --markdown 20240515/k/krixik/1.1.15-1.1.16/README.md --exclude *.pyd
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-smop-3.0.998.tar.gz tmp/tencentcloud-sdk-python-smop-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-smop/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-soe-3.0.998.tar.gz tmp/tencentcloud-sdk-python-soe-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-soe/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sms-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-sms/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:07:10] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.0b3.tar.gz tmp/esphome-2024.5.0b4.tar.gz --markdown 20240515/e/esphome/2024.5.0b3-2024.5.0b4/README.md --exclude *.pyd
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: executing diffoscope
+[2024-05-15 00:07:10] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-smpn-3.0.998.tar.gz tmp/tencentcloud-sdk-python-smpn-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-smpn/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smop-3.0.998.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-smop]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smop-3.0.999.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smop]: success
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-soe-3.0.998.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-soe-3.0.999.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-soe]: success
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sms-3.0.998.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sms-3.0.999.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sms]: success
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smpn-3.0.998.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - processPackages [tencentcloud-sdk-python-smpn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smpn-3.0.999.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smpn]: success
+[2024-05-15 00:07:11] INFO root fetch - processPackages [chime-frb-api]: Remove: archive file [/home/abi/fetcher/tmp/chime_frb_api-3.3.0.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - processPackages [chime-frb-api]: Remove: archive file [/home/abi/fetcher/tmp/chime_frb_api-3.4.0.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - main [MainThread]: End processing [chime-frb-api]: success
+[2024-05-15 00:07:11] INFO root fetch - processPackages [krixik]: Remove: archive file [/home/abi/fetcher/tmp/krixik-1.1.15.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - processPackages [krixik]: Remove: archive file [/home/abi/fetcher/tmp/krixik-1.1.16.tar.gz]
+[2024-05-15 00:07:11] INFO root fetch - main [MainThread]: End processing [krixik]: success
+[2024-05-15 00:07:23] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b3.tar.gz]
+[2024-05-15 00:07:23] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b4.tar.gz]
+[2024-05-15 00:07:23] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-15 00:07:23] INFO root fetch - main [MainThread]: Store serial: [23208848]
