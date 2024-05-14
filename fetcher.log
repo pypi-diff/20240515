@@ -1773,3 +1773,20 @@
 [2024-05-15 01:00:03] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz]
 [2024-05-15 01:00:03] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
 [2024-05-15 01:00:03] INFO root fetch - main [MainThread]: Store serial: [23209435]
+[2024-05-15 01:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209435]
+[2024-05-15 01:02:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samgis_core
+[2024-05-15 01:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant
+[2024-05-15 01:02:12] INFO root fetch - processPackages [samgis_core]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-15 01:02:12] INFO root fetch - processPackages [samgis_core]: Downloading https://files.pythonhosted.org/packages/a9/14/3206b43f923640602a0a7c1e230a424e847ea79671f07157f9a3e132066d/samgis_core-1.2.1.tar.gz
+[2024-05-15 01:02:12] INFO root fetch - processPackages [music-assistant]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-15 01:02:13] INFO root fetch - processPackages [samgis_core]: Downloading https://files.pythonhosted.org/packages/b4/ef/cee688774a460518daf16a5e448269e10d80aa381f2bdfa42d4085b7265d/samgis_core-1.2.2.tar.gz
+[2024-05-15 01:02:13] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/9d/4f/7550a6829ce87f1108cd23b9bcb7779f013246f76df6bec5d7ea8a7e7581/music_assistant-2.0.3.tar.gz
+[2024-05-15 01:02:13] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 13982456>=10485760
+[2024-05-15 01:02:13] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-05-15 01:02:13] INFO root fetch - processPackages [samgis_core]: executing diffoscope
+[2024-05-15 01:02:13] INFO root fetch - processPackages [samgis_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samgis_core-1.2.1.tar.gz tmp/samgis_core-1.2.2.tar.gz --markdown 20240515/s/samgis_core/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-15 01:02:13] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.2.1.tar.gz]
+[2024-05-15 01:02:13] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.2.2.tar.gz]
+[2024-05-15 01:02:13] INFO root fetch - main [MainThread]: End processing [samgis_core]: success
+[2024-05-15 01:02:13] INFO root fetch - main [MainThread]: Store serial: [23209441]
