@@ -1629,3 +1629,33 @@
 [2024-05-15 00:53:31] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip]
 [2024-05-15 00:53:31] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
 [2024-05-15 00:53:31] INFO root fetch - main [MainThread]: Store serial: [23209365]
+[2024-05-15 00:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209365]
+[2024-05-15 00:55:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dispatch-py
+[2024-05-15 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pizzoo
+[2024-05-15 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepmodeling-sphinx
+[2024-05-15 00:55:40] INFO root fetch - processPackages [deepmodeling-sphinx]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-15 00:55:40] INFO root fetch - processPackages [deepmodeling-sphinx]: Downloading https://files.pythonhosted.org/packages/a1/58/108cdfdba59f5b6c8c97198903c1a49163d3769205bf2b4e894b27369daf/deepmodeling_sphinx-0.2.6.tar.gz
+[2024-05-15 00:55:40] INFO root fetch - processPackages [pizzoo]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 00:55:40] INFO root fetch - processPackages [dispatch-py]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-15 00:55:40] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/18/d3/2c5deb2345acd35b242eecfc92528f782916a68e5cb58777419bab8eb854/pizzoo-0.9.8.tar.gz
+[2024-05-15 00:55:40] INFO root fetch - processPackages [dispatch-py]: Downloading https://files.pythonhosted.org/packages/5e/4e/cce327364794dbcbce122e31b9167e48a6ae7a54d1c86be336f521899e2e/dispatch_py-0.7.0.tar.gz
+[2024-05-15 00:55:40] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/e0/97/64b711ae43ff8b16ebc0e260b36367b0a4308bbc9cad23a8656534867569/pizzoo-0.9.9.tar.gz
+[2024-05-15 00:55:40] INFO root fetch - processPackages [deepmodeling-sphinx]: Downloading https://files.pythonhosted.org/packages/5f/9f/d89e52885b4b721afa43ab1a29b04f4d370e9496fc198e2d9e117d1b2153/deepmodeling_sphinx-0.2.7.tar.gz
+[2024-05-15 00:55:40] INFO root fetch - processPackages [pizzoo]: executing diffoscope
+[2024-05-15 00:55:40] INFO root fetch - processPackages [pizzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizzoo-0.9.8.tar.gz tmp/pizzoo-0.9.9.tar.gz --markdown 20240515/p/pizzoo/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 00:55:40] INFO root fetch - processPackages [deepmodeling-sphinx]: executing diffoscope
+[2024-05-15 00:55:40] INFO root fetch - processPackages [deepmodeling-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepmodeling_sphinx-0.2.6.tar.gz tmp/deepmodeling_sphinx-0.2.7.tar.gz --markdown 20240515/d/deepmodeling-sphinx/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-15 00:55:41] INFO root fetch - processPackages [dispatch-py]: Downloading https://files.pythonhosted.org/packages/00/0b/c6551c864d1055c28dfca43c39d64c1152c5e5cc3220bfb4830c32a82e6b/dispatch_py-0.7.1.tar.gz
+[2024-05-15 00:55:41] INFO root fetch - processPackages [dispatch-py]: executing diffoscope
+[2024-05-15 00:55:41] INFO root fetch - processPackages [dispatch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispatch_py-0.7.0.tar.gz tmp/dispatch_py-0.7.1.tar.gz --markdown 20240515/d/dispatch-py/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-15 00:55:41] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.8.tar.gz]
+[2024-05-15 00:55:41] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.9.tar.gz]
+[2024-05-15 00:55:41] INFO root fetch - main [MainThread]: End processing [pizzoo]: success
+[2024-05-15 00:55:41] INFO root fetch - processPackages [deepmodeling-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/deepmodeling_sphinx-0.2.6.tar.gz]
+[2024-05-15 00:55:41] INFO root fetch - processPackages [deepmodeling-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/deepmodeling_sphinx-0.2.7.tar.gz]
+[2024-05-15 00:55:41] INFO root fetch - main [MainThread]: End processing [deepmodeling-sphinx]: success
+[2024-05-15 00:55:41] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch_py-0.7.0.tar.gz]
+[2024-05-15 00:55:41] INFO root fetch - processPackages [dispatch-py]: Remove: archive file [/home/abi/fetcher/tmp/dispatch_py-0.7.1.tar.gz]
+[2024-05-15 00:55:41] INFO root fetch - main [MainThread]: End processing [dispatch-py]: success
+[2024-05-15 00:55:41] INFO root fetch - main [MainThread]: Store serial: [23209401]
