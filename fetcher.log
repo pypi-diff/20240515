@@ -345,3 +345,63 @@
 [2024-05-15 00:09:34] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssm-3.0.999.tar.gz]
 [2024-05-15 00:09:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssm]: success
 [2024-05-15 00:09:34] INFO root fetch - main [MainThread]: Store serial: [23208875]
+[2024-05-15 00:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23208875]
+[2024-05-15 00:11:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-sts
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-geometry-polyskel
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-svp
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-taf
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaml-designer
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-meili
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladybug-core
+[2024-05-15 00:11:42] WARNING root fetch - processPackages [yaml-designer]: Skipping, unable to determine old version
+[2024-05-15 00:11:42] INFO root fetch - main [MainThread]: End processing [yaml-designer] error
+[2024-05-15 00:11:42] INFO root fetch - processPackages [django-meili]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 00:11:42] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: New version: [3.0.1146] Old Version: [3.0.1145]
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ladybug-geometry-polyskel]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ladybug-core]: New version: [0.42.9] Old Version: [0.42.8]
+[2024-05-15 00:11:42] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:11:42] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:11:42] INFO root fetch - processPackages [django-meili]: Downloading https://files.pythonhosted.org/packages/dd/1d/0bb7680cb59501b0c03398b76fc1073aac1a72338070f8fe14c85771406a/django_meili-0.0.2.tar.gz
+[2024-05-15 00:11:42] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Downloading https://files.pythonhosted.org/packages/93/f8/b23fd668cfa4ff4d96d18a55d189c74b2355f91d4e762a30a858b2b106e3/tencentcloud-sdk-python-svp-3.0.1145.tar.gz
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/70/a4/3886c230dd5638c38bc22e301d1316c55197f4909db218feb0b686d8d0ca/ladybug-geometry-polyskel-1.4.8.tar.gz
+[2024-05-15 00:11:42] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/65/39/440bbf73af1908ee08006a7a71b91e3c7ceb3e340f2a0334b9e091511de9/ladybug-core-0.42.8.tar.gz
+[2024-05-15 00:11:42] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Downloading https://files.pythonhosted.org/packages/90/77/b35e345f60297b3ad4defa32eeb194be090b162d9a69ea070f9a05cb02a4/tencentcloud-sdk-python-sts-3.0.998.tar.gz
+[2024-05-15 00:11:42] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Downloading https://files.pythonhosted.org/packages/b5/01/08c33dcfc1938a83ce0d5bd063a7ef3ad36d68419ee5f6631a6eef0caaa4/tencentcloud-sdk-python-taf-3.0.998.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [django-meili]: Downloading https://files.pythonhosted.org/packages/e9/56/e2358537fd66a2f4493f519e658b263cacd1444412b138ae8347ec08be0f/django_meili-0.0.3.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Downloading https://files.pythonhosted.org/packages/7b/a7/d7d58533f1e0370c029ff3d659f21744193e9ece8f7dbfeb25076c08958b/tencentcloud-sdk-python-svp-3.0.1146.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/05/39/ad2de8ecb5085f93473c7a56fb92b7cbfad1ed03321c5209b36c5bf8bf3f/ladybug-core-0.42.9.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [django-meili]: executing diffoscope
+[2024-05-15 00:11:43] INFO root fetch - processPackages [django-meili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_meili-0.0.2.tar.gz tmp/django_meili-0.0.3.tar.gz --markdown 20240515/d/django-meili/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: executing diffoscope
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-svp-3.0.1145.tar.gz tmp/tencentcloud-sdk-python-svp-3.0.1146.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-svp/3.0.1145-3.0.1146/README.md --exclude *.pyd
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Downloading https://files.pythonhosted.org/packages/7b/4f/b28fc36ce86cbd7df1f96a0af7dd2d7d782d74719555f77eae9c059f2041/tencentcloud-sdk-python-sts-3.0.999.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Downloading https://files.pythonhosted.org/packages/f4/16/497d23897bdb0599381cb152e1dea16b05208ee4841f36ccb062e26590e8/tencentcloud-sdk-python-taf-3.0.999.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/66/a8/40ffbd6d2853e09d79d44a42df2f0eb3ad91930a41d2879849788b686b64/ladybug-geometry-polyskel-1.4.9.tar.gz
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: executing diffoscope
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sts-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-sts/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: executing diffoscope
+[2024-05-15 00:11:43] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-taf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-taf/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:11:43] INFO root fetch - processPackages [ladybug-core]: executing diffoscope
+[2024-05-15 00:11:43] INFO root fetch - processPackages [ladybug-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-core-0.42.8.tar.gz tmp/ladybug-core-0.42.9.tar.gz --markdown 20240515/l/ladybug-core/0.42.8-0.42.9/README.md --exclude *.pyd
+[2024-05-15 00:11:43] INFO root fetch - processPackages [ladybug-geometry-polyskel]: executing diffoscope
+[2024-05-15 00:11:43] INFO root fetch - processPackages [ladybug-geometry-polyskel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-polyskel-1.4.8.tar.gz tmp/ladybug-geometry-polyskel-1.4.9.tar.gz --markdown 20240515/l/ladybug-geometry-polyskel/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-15 00:11:44] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-svp-3.0.1145.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - processPackages [tencentcloud-sdk-python-svp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-svp-3.0.1146.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-svp]: success
+[2024-05-15 00:11:44] INFO root fetch - processPackages [django-meili]: Remove: archive file [/home/abi/fetcher/tmp/django_meili-0.0.2.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - processPackages [django-meili]: Remove: archive file [/home/abi/fetcher/tmp/django_meili-0.0.3.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [django-meili]: success
+[2024-05-15 00:11:44] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sts-3.0.998.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - processPackages [tencentcloud-sdk-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sts-3.0.999.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sts]: success
+[2024-05-15 00:11:44] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.998.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-taf]: success
+[2024-05-15 00:11:44] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.8.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.9.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [ladybug-geometry-polyskel]: success
+[2024-05-15 00:11:44] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.42.8.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.42.9.tar.gz]
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: End processing [ladybug-core]: success
+[2024-05-15 00:11:44] INFO root fetch - main [MainThread]: Store serial: [23208896]
