@@ -1509,3 +1509,123 @@
 [2024-05-15 00:51:17] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip]
 [2024-05-15 00:51:17] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
 [2024-05-15 00:51:17] INFO root fetch - main [MainThread]: Store serial: [23209327]
+[2024-05-15 00:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209327]
+[2024-05-15 00:53:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qsharp-widgets
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: structifyai
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-waf
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-radiance
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-wav
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-honeybee
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-wedata
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-uwg
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-weilingwith
+[2024-05-15 00:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-wss
+[2024-05-15 00:53:25] INFO root fetch - processPackages [structifyai]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [qsharp-widgets]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/62/2a/b2503fcbaea5896dafd068f6c709500146af37c69bc7351fab1ffc5c802a/structifyai-0.1.0a6.tar.gz
+[2024-05-15 00:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:53:25] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-05-15 00:53:25] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/5f/bb/1ed85c9f5db9fad86eae75437d092bde54479b9a9e615cf82d1b72eca7e6/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl
+[2024-05-15 00:53:25] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-15 00:53:25] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/35/b3/f926e3ed6c290f3bbf08ac990f833a7daaf3868d916b224d01578d8d378d/tencentcloud-sdk-python-wedata-3.0.998.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/81/63/b0d1801a15fad8e2aa2c233009875f8c4240c99f14a58252fee1453d7213/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/e1/bb/443aa69e996bba0b0b2c092c2f0432d30eb93660e9ab22e6fa18c4e3deba/tencentcloud-sdk-python-wav-3.0.998.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Downloading https://files.pythonhosted.org/packages/d0/3b/76a08aec67ad4cfd4277ff4740d48eaa80f9ef8a883e9a9d6b86b0d9b02e/tencentcloud-sdk-python-waf-3.0.998.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Downloading https://files.pythonhosted.org/packages/23/0d/e49e26691e3fc4d209348e9647bc7ce9241e7d8684f3e6f411c34f1fd172/tencentcloud-sdk-python-wss-3.0.998.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/75/56/dafe049b32457b4870b7bbd673e82b3d6fa1985b191c24bd55362bf3cce5/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl
+[2024-05-15 00:53:26] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/7f/bf/3abc9f8dbabf7e76dbc735f90394468fe9b1797cfa66f5cf2146739a7e55/structifyai-0.1.0a7.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240515/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240515/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [qsharp-widgets]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [qsharp-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl.zip tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip --markdown 20240515/q/qsharp-widgets/1.4.1.dev0-1.4.2.dev0/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/53/86/2730b85def19aa7efe94bf2779bbcef46bbbbf609dfc65193421600e0a6c/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240515/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/13/f7/dd48b9a4c3f121c9e4be93063ea150b1d23184f2079d7796592825767327/tencentcloud-sdk-python-wedata-3.0.999.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/67/5c/c7bc89115e9650fa844054ef443a6901cd25f53c6d3f46f51c6b9536ac7a/tencentcloud-sdk-python-wav-3.0.999.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.1.0a6.tar.gz tmp/structifyai-0.1.0a7.tar.gz --markdown 20240515/s/structifyai/0.1.0a6-0.1.0a7/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Downloading https://files.pythonhosted.org/packages/49/24/ef2c1184e7b7231338d8342906162d8b869599a1541bcd1fb3a9e3c25fc4/tencentcloud-sdk-python-wss-3.0.999.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Downloading https://files.pythonhosted.org/packages/fb/1e/cf006807a8493f7297a30162a622f10e97b00b7d15cc3889896f4b3b71bc/tencentcloud-sdk-python-waf-3.0.999.tar.gz
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-weilingwith/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-wav/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-wedata/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wss-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-wss/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: executing diffoscope
+[2024-05-15 00:53:26] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-waf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-waf-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-waf/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:53:27] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [lbt-honeybee]: Start processing: tencentcloud-sdk-python-yinsuda
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: dragonfly-energy
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Start processing: RL-OM
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-weilingwith]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wav]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/2f/7f/44147c9505a75d803b2902a25b7b3c74f58d1aec20704da523bc1886b639/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz
+[2024-05-15 00:53:27] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-waf-3.0.998.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-waf-3.0.999.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-waf]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.998.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [tencentcloud-sdk-python-wss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wss-3.0.999.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wss]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-05-15 00:53:27] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a6.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a7.tar.gz]
+[2024-05-15 00:53:27] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-05-15 00:53:28] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-15 00:53:28] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-05-15 00:53:28] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-15 00:53:28] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240515/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-15 00:53:28] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-05-15 00:53:28] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240515/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-15 00:53:28] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/b8/c8/6fe85d8790fee52752e90173dac65409e5d451475ad0b0f566896631592c/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz
+[2024-05-15 00:53:28] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: executing diffoscope
+[2024-05-15 00:53:28] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-yinsuda/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:53:28] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz]
+[2024-05-15 00:53:28] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
+[2024-05-15 00:53:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
+[2024-05-15 00:53:28] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-15 00:53:28] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-15 00:53:28] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-15 00:53:29] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-05-15 00:53:29] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-05-15 00:53:29] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-05-15 00:53:29] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz]
+[2024-05-15 00:53:29] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz]
+[2024-05-15 00:53:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yinsuda]: success
+[2024-05-15 00:53:31] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl.zip]
+[2024-05-15 00:53:31] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip]
+[2024-05-15 00:53:31] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
+[2024-05-15 00:53:31] INFO root fetch - main [MainThread]: Store serial: [23209365]
