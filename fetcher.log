@@ -1790,3 +1790,24 @@
 [2024-05-15 01:02:13] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.2.2.tar.gz]
 [2024-05-15 01:02:13] INFO root fetch - main [MainThread]: End processing [samgis_core]: success
 [2024-05-15 01:02:13] INFO root fetch - main [MainThread]: Store serial: [23209441]
+[2024-05-15 01:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209441]
+[2024-05-15 01:04:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-mysql-local
+[2024-05-15 01:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-05-15 01:04:22] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 01:04:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 01:04:22] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.303] Old Version: [0.0.302]
+[2024-05-15 01:04:22] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 01:04:22] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/eb/20/48ea9a19ec8194836f068a2eb877787e04622ce1b039d21cf556a3c8a7fa/database_mysql_local-0.0.302.tar.gz
+[2024-05-15 01:04:23] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 01:04:23] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 01:04:23] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/1a/19/fb6b5f0c49a6f28bd87aa353a26091e5bd9d23ecf3f18faf63bad5716766/database_mysql_local-0.0.303.tar.gz
+[2024-05-15 01:04:23] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-15 01:04:23] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.302.tar.gz tmp/database_mysql_local-0.0.303.tar.gz --markdown 20240515/d/database-mysql-local/0.0.302-0.0.303/README.md --exclude *.pyd
+[2024-05-15 01:04:24] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.302.tar.gz]
+[2024-05-15 01:04:24] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.303.tar.gz]
+[2024-05-15 01:04:24] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-15 01:04:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 01:04:24] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 01:04:24] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 01:04:24] INFO root fetch - main [MainThread]: Store serial: [23209447]
