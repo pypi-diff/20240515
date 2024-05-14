@@ -1973,3 +1973,37 @@
 [2024-05-15 01:17:31] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip]
 [2024-05-15 01:17:31] INFO root fetch - main [MainThread]: End processing [ovos-skill-personal]: success
 [2024-05-15 01:17:31] INFO root fetch - main [MainThread]: Store serial: [23209499]
+[2024-05-15 01:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209499]
+[2024-05-15 01:19:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 01:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winterrb
+[2024-05-15 01:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mowaki
+[2024-05-15 01:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antpack
+[2024-05-15 01:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: covol
+[2024-05-15 01:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant
+[2024-05-15 01:19:39] INFO root fetch - processPackages [music-assistant]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-15 01:19:39] INFO root fetch - processPackages [mowaki]: New version: [2.0a2] Old Version: [2.0]
+[2024-05-15 01:19:39] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/9d/4f/7550a6829ce87f1108cd23b9bcb7779f013246f76df6bec5d7ea8a7e7581/music_assistant-2.0.3.tar.gz
+[2024-05-15 01:19:39] INFO root fetch - processPackages [winterrb]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-15 01:19:39] ERROR root fetch - processPackages [covol]: Unable to get metadata: No such project 'covol'
+[2024-05-15 01:19:39] INFO root fetch - main [MainThread]: End processing [covol] error
+[2024-05-15 01:19:39] INFO root fetch - processPackages [antpack]: New version: [0.2.0] Old Version: [0.1.5.2]
+[2024-05-15 01:19:39] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 13982456>=10485760
+[2024-05-15 01:19:39] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-05-15 01:19:39] INFO root fetch - processPackages [mowaki]: Downloading https://files.pythonhosted.org/packages/0d/8c/5bb920ad1d7baa00994a3648a7389386bf5a869e302e73ad275f81585843/mowaki-2.0.tar.gz
+[2024-05-15 01:19:40] INFO root fetch - processPackages [winterrb]: Downloading https://files.pythonhosted.org/packages/49/72/937cd7ab113f744abaaa72f7da1d81b9b184118ba1ec52ff08dd3f4a02ac/winterrb-0.1.0.tar.gz
+[2024-05-15 01:19:40] INFO root fetch - processPackages [antpack]: Downloading https://files.pythonhosted.org/packages/84/d2/41043f237d0f484c52997d70eb54a575b3360ec97aef5de03463ece68bf1/antpack-0.1.5.2.tar.gz
+[2024-05-15 01:19:40] WARNING root fetch - processPackages [antpack]: Skipping package: exceeds size limit 13659671>=10485760
+[2024-05-15 01:19:40] INFO root fetch - main [MainThread]: End processing [antpack] error
+[2024-05-15 01:19:40] INFO root fetch - processPackages [mowaki]: Downloading https://files.pythonhosted.org/packages/c0/d5/c72ad968bdfa1e99b258790136309225aeb0b5a084c05d3d4aed0b8e6097/mowaki-2.0a2.tar.gz
+[2024-05-15 01:19:40] INFO root fetch - processPackages [mowaki]: executing diffoscope
+[2024-05-15 01:19:40] INFO root fetch - processPackages [mowaki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mowaki-2.0.tar.gz tmp/mowaki-2.0a2.tar.gz --markdown 20240515/m/mowaki/2.0-2.0a2/README.md --exclude *.pyd
+[2024-05-15 01:19:40] INFO root fetch - processPackages [winterrb]: Downloading https://files.pythonhosted.org/packages/a9/13/a6f0939fb728511439facee7396530f8ef65e32ae98f8b89482cf99a5901/winterrb-1.0.0.tar.gz
+[2024-05-15 01:19:40] INFO root fetch - processPackages [winterrb]: executing diffoscope
+[2024-05-15 01:19:40] INFO root fetch - processPackages [winterrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winterrb-0.1.0.tar.gz tmp/winterrb-1.0.0.tar.gz --markdown 20240515/w/winterrb/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-15 01:19:41] INFO root fetch - processPackages [mowaki]: Remove: archive file [/home/abi/fetcher/tmp/mowaki-2.0.tar.gz]
+[2024-05-15 01:19:41] INFO root fetch - processPackages [mowaki]: Remove: archive file [/home/abi/fetcher/tmp/mowaki-2.0a2.tar.gz]
+[2024-05-15 01:19:41] INFO root fetch - main [MainThread]: End processing [mowaki]: success
+[2024-05-15 01:19:42] INFO root fetch - processPackages [winterrb]: Remove: archive file [/home/abi/fetcher/tmp/winterrb-0.1.0.tar.gz]
+[2024-05-15 01:19:42] INFO root fetch - processPackages [winterrb]: Remove: archive file [/home/abi/fetcher/tmp/winterrb-1.0.0.tar.gz]
+[2024-05-15 01:19:42] INFO root fetch - main [MainThread]: End processing [winterrb]: success
+[2024-05-15 01:19:42] INFO root fetch - main [MainThread]: Store serial: [23209516]
