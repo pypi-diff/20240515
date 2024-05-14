@@ -2361,3 +2361,22 @@
 [2024-05-15 01:47:56] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.5.0.tar.gz]
 [2024-05-15 01:47:56] INFO root fetch - main [MainThread]: End processing [goodest]: success
 [2024-05-15 01:47:56] INFO root fetch - main [MainThread]: Store serial: [23209635]
+[2024-05-15 01:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209635]
+[2024-05-15 01:50:05] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-15 01:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209635]
+[2024-05-15 01:52:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-braket-pennylane-plugin
+[2024-05-15 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: endstone
+[2024-05-15 01:52:10] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-15 01:52:10] INFO root fetch - processPackages [endstone]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-15 01:52:11] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/95/95/8e28d0f8b5ef7a7ecb48c398bbc026f6e765510347b46a114a993653e369/amazon-braket-pennylane-plugin-1.8.0.tar.gz
+[2024-05-15 01:52:11] INFO root fetch - processPackages [endstone]: Downloading https://files.pythonhosted.org/packages/e9/8c/f31bc650c885eebcc3acb2b21085b14a2a441ab6f03d98899a60a75db514/endstone-0.4.5-cp39-cp39-win_amd64.whl
+[2024-05-15 01:52:11] WARNING root fetch - processPackages [endstone]: Skipping package: exceeds size limit 11982067>=10485760
+[2024-05-15 01:52:11] INFO root fetch - main [MainThread]: End processing [endstone] error
+[2024-05-15 01:52:11] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/20/1b/9eacc1dc4e4a53515e50e9d14155ef17ff031ee0f90420b437271f5026f6/amazon-braket-pennylane-plugin-1.9.0.tar.gz
+[2024-05-15 01:52:11] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: executing diffoscope
+[2024-05-15 01:52:11] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz --markdown 20240515/a/amazon-braket-pennylane-plugin/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-15 01:52:12] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz]
+[2024-05-15 01:52:12] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz]
+[2024-05-15 01:52:12] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
+[2024-05-15 01:52:12] INFO root fetch - main [MainThread]: Store serial: [23209647]
