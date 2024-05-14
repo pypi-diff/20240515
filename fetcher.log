@@ -1174,3 +1174,69 @@
 [2024-05-15 00:40:16] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
 [2024-05-15 00:40:16] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
 [2024-05-15 00:40:16] INFO root fetch - main [MainThread]: Store serial: [23209194]
+[2024-05-15 00:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209194]
+[2024-05-15 00:42:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-trp
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-trro
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-trtc
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invariant-client
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyluba
+[2024-05-15 00:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: martian-adapters
+[2024-05-15 00:42:25] INFO root fetch - processPackages [pyluba]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [martian-adapters]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/68/21/29e9f420bcfe25699741188d8a6916f70d8195a45823a37b00c68007f90f/pyluba-0.0.2.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [invariant-client]: New version: [1.3.0] Old Version: [1.1.2]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/e3/a5/bcb90a2f7a5dc506c32b6db932cfbf1574fa4377b183713c91ba80e04d37/martian_adapters-5.1.0.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-15 00:42:25] INFO root fetch - processPackages [invariant-client]: Downloading https://files.pythonhosted.org/packages/a2/90/f0c1ac1882ae7522f2222a25d52d6e8bf0cb736a12826fd60a02338f4953/invariant_client-1.1.2.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/14/3d/b0ff0b1b0c4f4f011ac5ae52f3d33bfc43eb932c4a121e6f6ab83f6cb569/martian_adapters-5.1.1.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/cd/00/3f2be7ce7568a4ddeb8500adeab06ecbe573700e85effc256300222c38bf/pyluba-0.0.4.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: Downloading https://files.pythonhosted.org/packages/50/6b/545f144629536b16e3879bf4a9283ae9ced69ba7e52ad9bd316781819f54/tencentcloud-sdk-python-trp-3.0.998.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Downloading https://files.pythonhosted.org/packages/34/f7/13478ef1948546fcd17eec2f91d9035612fbe7f6a62f0b23f4f525cee8ed/tencentcloud-sdk-python-trtc-3.0.998.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-15 00:42:25] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: Downloading https://files.pythonhosted.org/packages/af/5a/c2bde05cd03b2c53a1917c00693fbc80e74386465ce9d1dfcbf45cd97571/tencentcloud-sdk-python-trro-3.0.998.tar.gz
+[2024-05-15 00:42:26] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.2.tar.gz tmp/pyluba-0.0.4.tar.gz --markdown 20240515/p/pyluba/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [martian-adapters]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [martian-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martian_adapters-5.1.0.tar.gz tmp/martian_adapters-5.1.1.tar.gz --markdown 20240515/m/martian-adapters/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [invariant-client]: Downloading https://files.pythonhosted.org/packages/53/32/77a8c5f1b082048da4abca1e34263803e503c29ee310e1a2148e11815339/invariant_client-1.3.0.tar.gz
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: Downloading https://files.pythonhosted.org/packages/fb/44/a3520c295c3e9c0eb8f856549badfa3ff57fe496fa7380a2e24208c6d44e/tencentcloud-sdk-python-trp-3.0.999.tar.gz
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Downloading https://files.pythonhosted.org/packages/1b/0f/8f3c5706977fe89ad6bc4faca50305920298a6a8992701bb93a009ca089c/tencentcloud-sdk-python-trtc-3.0.999.tar.gz
+[2024-05-15 00:42:26] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: Downloading https://files.pythonhosted.org/packages/21/6a/222a52f4e237fb693dad1e91c615e89552fc7972f414b896964cd909e4fd/tencentcloud-sdk-python-trro-3.0.999.tar.gz
+[2024-05-15 00:42:26] INFO root fetch - processPackages [invariant-client]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [invariant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invariant_client-1.1.2.tar.gz tmp/invariant_client-1.3.0.tar.gz --markdown 20240515/i/invariant-client/1.1.2-1.3.0/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-trp-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-trp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240515/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trtc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-trtc-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-trtc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: executing diffoscope
+[2024-05-15 00:42:26] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trro-3.0.998.tar.gz tmp/tencentcloud-sdk-python-trro-3.0.999.tar.gz --markdown 20240515/t/tencentcloud-sdk-python-trro/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-15 00:42:26] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.1.0.tar.gz]
+[2024-05-15 00:42:26] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.1.1.tar.gz]
+[2024-05-15 00:42:26] INFO root fetch - main [MainThread]: End processing [martian-adapters]: success
+[2024-05-15 00:42:27] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.2.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.4.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-15 00:42:27] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-15 00:42:27] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trp-3.0.998.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - processPackages [tencentcloud-sdk-python-trp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trp-3.0.999.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trp]: success
+[2024-05-15 00:42:27] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trtc-3.0.998.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - processPackages [tencentcloud-sdk-python-trtc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trtc-3.0.999.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trtc]: success
+[2024-05-15 00:42:27] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trro-3.0.998.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - processPackages [tencentcloud-sdk-python-trro]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trro-3.0.999.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trro]: success
+[2024-05-15 00:42:27] INFO root fetch - processPackages [invariant-client]: Remove: archive file [/home/abi/fetcher/tmp/invariant_client-1.1.2.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - processPackages [invariant-client]: Remove: archive file [/home/abi/fetcher/tmp/invariant_client-1.3.0.tar.gz]
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: End processing [invariant-client]: success
+[2024-05-15 00:42:27] INFO root fetch - main [MainThread]: Store serial: [23209215]
