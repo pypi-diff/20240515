@@ -2114,3 +2114,24 @@
 [2024-05-15 01:26:11] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post500-py3-none-any.whl.zip]
 [2024-05-15 01:26:11] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-15 01:26:11] INFO root fetch - main [MainThread]: Store serial: [23209546]
+[2024-05-15 01:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209546]
+[2024-05-15 01:28:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pizzoo
+[2024-05-15 01:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grpc-accesslog
+[2024-05-15 01:28:20] INFO root fetch - processPackages [pizzoo]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 01:28:20] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/18/d3/2c5deb2345acd35b242eecfc92528f782916a68e5cb58777419bab8eb854/pizzoo-0.9.8.tar.gz
+[2024-05-15 01:28:20] INFO root fetch - processPackages [grpc-accesslog]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-15 01:28:20] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/e0/97/64b711ae43ff8b16ebc0e260b36367b0a4308bbc9cad23a8656534867569/pizzoo-0.9.9.tar.gz
+[2024-05-15 01:28:20] INFO root fetch - processPackages [grpc-accesslog]: Downloading https://files.pythonhosted.org/packages/99/24/fbab7a5b5f66180216e9725e9cb26f1341b59c28a791ec85172a7725df35/grpc_accesslog-0.2.0.tar.gz
+[2024-05-15 01:28:21] INFO root fetch - processPackages [pizzoo]: executing diffoscope
+[2024-05-15 01:28:21] INFO root fetch - processPackages [pizzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizzoo-0.9.8.tar.gz tmp/pizzoo-0.9.9.tar.gz --markdown 20240515/p/pizzoo/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 01:28:21] INFO root fetch - processPackages [grpc-accesslog]: Downloading https://files.pythonhosted.org/packages/5e/17/be0e97d0a402cd3239f0285262b35a2a6cbd2d2530ad2811ad1e36e0dd7a/grpc_accesslog-0.2.1.tar.gz
+[2024-05-15 01:28:21] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.8.tar.gz]
+[2024-05-15 01:28:21] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.9.tar.gz]
+[2024-05-15 01:28:21] INFO root fetch - main [MainThread]: End processing [pizzoo]: success
+[2024-05-15 01:28:21] INFO root fetch - processPackages [grpc-accesslog]: executing diffoscope
+[2024-05-15 01:28:21] INFO root fetch - processPackages [grpc-accesslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_accesslog-0.2.0.tar.gz tmp/grpc_accesslog-0.2.1.tar.gz --markdown 20240515/g/grpc-accesslog/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-15 01:28:22] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc_accesslog-0.2.0.tar.gz]
+[2024-05-15 01:28:22] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc_accesslog-0.2.1.tar.gz]
+[2024-05-15 01:28:22] INFO root fetch - main [MainThread]: End processing [grpc-accesslog]: success
+[2024-05-15 01:28:22] INFO root fetch - main [MainThread]: Store serial: [23209552]
