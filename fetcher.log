@@ -2265,3 +2265,24 @@
 [2024-05-15 01:41:21] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.0.tar.gz]
 [2024-05-15 01:41:21] INFO root fetch - main [MainThread]: End processing [axidence]: success
 [2024-05-15 01:41:21] INFO root fetch - main [MainThread]: Store serial: [23209602]
+[2024-05-15 01:43:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209602]
+[2024-05-15 01:43:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 01:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roadlib
+[2024-05-15 01:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: walledai
+[2024-05-15 01:43:29] INFO root fetch - processPackages [walledai]: New version: [0.4.0a0] Old Version: [0.3.0a0]
+[2024-05-15 01:43:29] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/7b/31/07e275fa423b43c48f42aa587582a1ba7bbebb330c5f68e93a6436a024f6/walledai-0.3.0a0.tar.gz
+[2024-05-15 01:43:29] INFO root fetch - processPackages [roadlib]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-15 01:43:29] INFO root fetch - processPackages [roadlib]: Downloading https://files.pythonhosted.org/packages/cc/7f/fe8eda1e7f9f477e06ee1220e891a94d9a995574cc2acb7b9dc9fd37ce14/roadlib-0.8.1.tar.gz
+[2024-05-15 01:43:30] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/16/4b/34a09b542c839379f2b79e3379a00c84655ae7e1b945d2b04507f14bbf65/walledai-0.4.0a0.tar.gz
+[2024-05-15 01:43:30] INFO root fetch - processPackages [walledai]: executing diffoscope
+[2024-05-15 01:43:30] INFO root fetch - processPackages [walledai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walledai-0.3.0a0.tar.gz tmp/walledai-0.4.0a0.tar.gz --markdown 20240515/w/walledai/0.3.0a0-0.4.0a0/README.md --exclude *.pyd
+[2024-05-15 01:43:30] INFO root fetch - processPackages [roadlib]: Downloading https://files.pythonhosted.org/packages/6f/80/20c11c3362758ff1a66662c0a0b7e4ac489b02b2adcec083a2f0bb25ccc3/roadlib-0.9.0.tar.gz
+[2024-05-15 01:43:30] INFO root fetch - processPackages [roadlib]: executing diffoscope
+[2024-05-15 01:43:30] INFO root fetch - processPackages [roadlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roadlib-0.8.1.tar.gz tmp/roadlib-0.9.0.tar.gz --markdown 20240515/r/roadlib/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-15 01:43:30] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.3.0a0.tar.gz]
+[2024-05-15 01:43:30] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.4.0a0.tar.gz]
+[2024-05-15 01:43:30] INFO root fetch - main [MainThread]: End processing [walledai]: success
+[2024-05-15 01:43:30] INFO root fetch - processPackages [roadlib]: Remove: archive file [/home/abi/fetcher/tmp/roadlib-0.8.1.tar.gz]
+[2024-05-15 01:43:30] INFO root fetch - processPackages [roadlib]: Remove: archive file [/home/abi/fetcher/tmp/roadlib-0.9.0.tar.gz]
+[2024-05-15 01:43:30] INFO root fetch - main [MainThread]: End processing [roadlib]: success
+[2024-05-15 01:43:30] INFO root fetch - main [MainThread]: Store serial: [23209608]
