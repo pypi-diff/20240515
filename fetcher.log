@@ -2135,3 +2135,33 @@
 [2024-05-15 01:28:22] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc_accesslog-0.2.1.tar.gz]
 [2024-05-15 01:28:22] INFO root fetch - main [MainThread]: End processing [grpc-accesslog]: success
 [2024-05-15 01:28:22] INFO root fetch - main [MainThread]: Store serial: [23209552]
+[2024-05-15 01:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209552]
+[2024-05-15 01:30:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 01:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-threaded-tcp
+[2024-05-15 01:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-kafka-schemas
+[2024-05-15 01:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langgraph
+[2024-05-15 01:30:30] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.9] Old Version: [0.1.82]
+[2024-05-15 01:30:30] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/9f/58/3207dea3f94f9bf188d452574d208ab7b3774042952023313a054e88e0a8/sentry-kafka-schemas-0.1.82.tar.gz
+[2024-05-15 01:30:30] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 01:30:30] INFO root fetch - processPackages [simple-threaded-tcp]: New version: [1.3] Old Version: [1.2]
+[2024-05-15 01:30:30] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/8c/08/409be3a73bf2aa8f7b06bf6ede1250b42df881c326dd39800fb5c7d79d1a/sentry-kafka-schemas-0.1.9.tar.gz
+[2024-05-15 01:30:30] INFO root fetch - processPackages [simple-threaded-tcp]: Downloading https://files.pythonhosted.org/packages/db/43/8d7986d2e7bf952cc0d3721625dab02a66a5d7acd414882de45c79dbe270/simple_threaded_tcp-1.2.tar.gz
+[2024-05-15 01:30:30] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-05-15 01:30:30] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2024-05-15 01:30:30] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.82.tar.gz tmp/sentry-kafka-schemas-0.1.9.tar.gz --markdown 20240515/s/sentry-kafka-schemas/0.1.82-0.1.9/README.md --exclude *.pyd
+[2024-05-15 01:30:30] INFO root fetch - processPackages [simple-threaded-tcp]: Downloading https://files.pythonhosted.org/packages/53/04/42e3929068b05185953d0ef4cb122a17e6ba03e993a76c1c2063c0718fa2/simple_threaded_tcp-1.3.tar.gz
+[2024-05-15 01:30:30] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-05-15 01:30:31] INFO root fetch - processPackages [simple-threaded-tcp]: executing diffoscope
+[2024-05-15 01:30:31] INFO root fetch - processPackages [simple-threaded-tcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_threaded_tcp-1.2.tar.gz tmp/simple_threaded_tcp-1.3.tar.gz --markdown 20240515/s/simple-threaded-tcp/1.2-1.3/README.md --exclude *.pyd
+[2024-05-15 01:30:31] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-05-15 01:30:31] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240515/l/langgraph/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 01:30:31] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.82.tar.gz]
+[2024-05-15 01:30:31] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
+[2024-05-15 01:30:31] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2024-05-15 01:30:31] INFO root fetch - processPackages [simple-threaded-tcp]: Remove: archive file [/home/abi/fetcher/tmp/simple_threaded_tcp-1.2.tar.gz]
+[2024-05-15 01:30:31] INFO root fetch - processPackages [simple-threaded-tcp]: Remove: archive file [/home/abi/fetcher/tmp/simple_threaded_tcp-1.3.tar.gz]
+[2024-05-15 01:30:31] INFO root fetch - main [MainThread]: End processing [simple-threaded-tcp]: success
+[2024-05-15 01:30:31] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-05-15 01:30:31] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-05-15 01:30:31] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-05-15 01:30:31] INFO root fetch - main [MainThread]: Store serial: [23209562]
