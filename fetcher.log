@@ -3249,3 +3249,24 @@
 [2024-05-15 02:41:09] INFO root fetch - processPackages [bisos.b]: Remove: archive file [/home/abi/fetcher/tmp/bisos.b-0.41.tar.gz]
 [2024-05-15 02:41:09] INFO root fetch - main [MainThread]: End processing [bisos.b]: success
 [2024-05-15 02:41:09] INFO root fetch - main [MainThread]: Store serial: [23210030]
+[2024-05-15 02:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210030]
+[2024-05-15 02:43:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recom
+[2024-05-15 02:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bisos.b
+[2024-05-15 02:43:18] INFO root fetch - processPackages [bisos.b]: New version: [0.41] Old Version: [0.4]
+[2024-05-15 02:43:18] INFO root fetch - processPackages [bisos.b]: Downloading https://files.pythonhosted.org/packages/d6/3d/5702c371743096e13eb0d58c38bd66151879df212959cfb22012f2dcba85/bisos.b-0.4.tar.gz
+[2024-05-15 02:43:18] INFO root fetch - processPackages [recom]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 02:43:18] INFO root fetch - processPackages [bisos.b]: Downloading https://files.pythonhosted.org/packages/c0/6d/5e64073b0ffa88110aebe9b22f08cd37e4fad0c56a70974e0fc1a99b995e/bisos.b-0.41.tar.gz
+[2024-05-15 02:43:18] INFO root fetch - processPackages [recom]: Downloading https://files.pythonhosted.org/packages/b6/14/7fbe96e9c2129ad845f24b19c26974a418f3bfbbb49d79399f9c50efd5bb/recom-0.0.1.tar.gz
+[2024-05-15 02:43:18] INFO root fetch - processPackages [bisos.b]: executing diffoscope
+[2024-05-15 02:43:18] INFO root fetch - processPackages [bisos.b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisos.b-0.4.tar.gz tmp/bisos.b-0.41.tar.gz --markdown 20240515/b/bisos.b/0.4-0.41/README.md --exclude *.pyd
+[2024-05-15 02:43:19] INFO root fetch - processPackages [recom]: Downloading https://files.pythonhosted.org/packages/01/7c/db2f5488d48f73d1d9a888aec6df9153666e6ba720d99386ec50855a23a3/recom-0.0.2.tar.gz
+[2024-05-15 02:43:19] INFO root fetch - processPackages [recom]: executing diffoscope
+[2024-05-15 02:43:19] INFO root fetch - processPackages [recom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recom-0.0.1.tar.gz tmp/recom-0.0.2.tar.gz --markdown 20240515/r/recom/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 02:43:19] INFO root fetch - processPackages [bisos.b]: Remove: archive file [/home/abi/fetcher/tmp/bisos.b-0.4.tar.gz]
+[2024-05-15 02:43:19] INFO root fetch - processPackages [bisos.b]: Remove: archive file [/home/abi/fetcher/tmp/bisos.b-0.41.tar.gz]
+[2024-05-15 02:43:19] INFO root fetch - main [MainThread]: End processing [bisos.b]: success
+[2024-05-15 02:43:19] INFO root fetch - processPackages [recom]: Remove: archive file [/home/abi/fetcher/tmp/recom-0.0.1.tar.gz]
+[2024-05-15 02:43:19] INFO root fetch - processPackages [recom]: Remove: archive file [/home/abi/fetcher/tmp/recom-0.0.2.tar.gz]
+[2024-05-15 02:43:19] INFO root fetch - main [MainThread]: End processing [recom]: success
+[2024-05-15 02:43:19] INFO root fetch - main [MainThread]: Store serial: [23210036]
