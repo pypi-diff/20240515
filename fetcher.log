@@ -8205,3 +8205,54 @@
 [2024-05-15 04:25:25] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post27-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-15 04:25:25] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-15 04:25:25] INFO root fetch - main [MainThread]: Store serial: [23211736]
+[2024-05-15 04:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211736]
+[2024-05-15 04:27:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 04:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: que-binary
+[2024-05-15 04:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbgear
+[2024-05-15 04:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dify-knowledge-pipline
+[2024-05-15 04:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproject-fmt-rust
+[2024-05-15 04:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmauri
+[2024-05-15 04:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2024-05-15 04:27:34] INFO root fetch - processPackages [dbgear]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-15 04:27:34] INFO root fetch - processPackages [pyproject-fmt-rust]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-05-15 04:27:34] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 04:27:34] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240514] Old Version: [1.2.20240513]
+[2024-05-15 04:27:35] WARNING root fetch - processPackages [que-binary]: Skipping, unable to determine old version
+[2024-05-15 04:27:35] INFO root fetch - main [MainThread]: End processing [que-binary] error
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/9f/10/570273f9f34a4ec34a2041efebabd687595f5462e3382f83da3d028f89bc/dbgear-0.8.0.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dify-knowledge-pipline]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 04:27:35] INFO root fetch - processPackages [pyproject-fmt-rust]: Downloading https://files.pythonhosted.org/packages/0a/15/167f8a2f02caffe059f18e6919865940c82353dda864c0fc92fc8cdbb3af/pyproject_fmt_rust-1.0.6.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/65/cf/2088a5a8469c43ea66adee11c8902ac6f8ff8f3eec81a8040c1946e885fb/iam_actions-1.2.20240513.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [pyproject-fmt-rust]: Downloading https://files.pythonhosted.org/packages/85/d4/6f1b208c12890445201a7c6ed57d2d3b5db59ea0e8f04f0502846d0f4d11/pyproject_fmt_rust-1.1.0.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dify-knowledge-pipline]: Downloading https://files.pythonhosted.org/packages/9d/c2/c7d129d0f7c419eb9a27c754ff041c1677baa7b9094da9ea9aaa76f521e3/dify_knowledge_pipline-0.1.2.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [pyproject-fmt-rust]: executing diffoscope
+[2024-05-15 04:27:35] INFO root fetch - processPackages [pyproject-fmt-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_fmt_rust-1.0.6.tar.gz tmp/pyproject_fmt_rust-1.1.0.tar.gz --markdown 20240515/p/pyproject-fmt-rust/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/5d/24/4e0120970a3c9e25945265b4b81efe98b9176ff9b6ee67596d8a53c7d4b7/dbgear-0.9.0.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 04:27:35] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 04:27:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a6/92/63f0127f13b64aafe56e3a2e74482f2791e3fb8e667c7470eca791775b51/iam_actions-1.2.20240514.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dify-knowledge-pipline]: Downloading https://files.pythonhosted.org/packages/58/23/b53757c528f64ceeea44eeb5e85042567a29071aa0188d347c9ddf52000e/dify_knowledge_pipline-0.1.3.tar.gz
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dbgear]: executing diffoscope
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dbgear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgear-0.8.0.tar.gz tmp/dbgear-0.9.0.tar.gz --markdown 20240515/d/dbgear/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-15 04:27:35] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-15 04:27:35] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240513.tar.gz tmp/iam_actions-1.2.20240514.tar.gz --markdown 20240515/i/iam-actions/1.2.20240513-1.2.20240514/README.md --exclude *.pyd
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dify-knowledge-pipline]: executing diffoscope
+[2024-05-15 04:27:35] INFO root fetch - processPackages [dify-knowledge-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dify_knowledge_pipline-0.1.2.tar.gz tmp/dify_knowledge_pipline-0.1.3.tar.gz --markdown 20240515/d/dify-knowledge-pipline/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 04:27:36] INFO root fetch - processPackages [pyproject-fmt-rust]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_fmt_rust-1.0.6.tar.gz]
+[2024-05-15 04:27:36] INFO root fetch - processPackages [pyproject-fmt-rust]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_fmt_rust-1.1.0.tar.gz]
+[2024-05-15 04:27:36] INFO root fetch - main [MainThread]: End processing [pyproject-fmt-rust]: success
+[2024-05-15 04:27:36] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.2.tar.gz]
+[2024-05-15 04:27:36] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.3.tar.gz]
+[2024-05-15 04:27:36] INFO root fetch - main [MainThread]: End processing [dify-knowledge-pipline]: success
+[2024-05-15 04:27:36] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 04:27:36] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 04:27:36] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 04:27:40] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240513.tar.gz]
+[2024-05-15 04:27:40] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240514.tar.gz]
+[2024-05-15 04:27:40] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-15 04:28:57] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.8.0.tar.gz]
+[2024-05-15 04:28:57] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
+[2024-05-15 04:28:57] INFO root fetch - main [MainThread]: End processing [dbgear]: success
+[2024-05-15 04:28:57] INFO root fetch - main [MainThread]: Store serial: [23211775]
