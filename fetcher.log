@@ -19117,3 +19117,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:37:58] INFO root fetch - processPackages [audformat]: Remove: archive file [/home/abi/fetcher/tmp/audformat-1.1.4.tar.gz]
 [2024-05-15 12:37:58] INFO root fetch - main [MainThread]: End processing [audformat]: success
 [2024-05-15 12:37:58] INFO root fetch - main [MainThread]: Store serial: [23216511]
+[2024-05-15 12:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216511]
+[2024-05-15 12:40:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ophyd-devices
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymemgpt-nightly
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-widgets
+[2024-05-15 12:40:08] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.93] Old Version: [0.0.0.91]
+[2024-05-15 12:40:08] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ophyd-devices]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-15 12:40:08] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/c1/32/17318da8189e508202297e10fd736be2625f0cfe07a6d09b6b9f06a15931/abstract_pandas-0.0.0.91.tar.gz
+[2024-05-15 12:40:08] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-15 12:40:08] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-15 12:40:08] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-15 12:40:08] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/00/27/acbec6f18df1634c1a73322a2f1e1a94495d3a58d33b40befaddd03639bc/ophyd_devices-1.0.0.tar.gz
+[2024-05-15 12:40:08] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-05-15 12:40:08] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-15 12:40:08] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/34/d5/d965f2031e179570189f47f4943027bdbcd8fffce7eccf7c09550855934f/abstract_pandas-0.0.0.93.tar.gz
+[2024-05-15 12:40:08] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:40:08] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.91.tar.gz tmp/abstract_pandas-0.0.0.93.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.91-0.0.0.93/README.md --exclude *.pyd
+[2024-05-15 12:40:08] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-15 12:40:09] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-05-15 12:40:09] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-15 12:40:09] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240515/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-15 12:40:09] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-15 12:40:09] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-05-15 12:40:09] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240515/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-15 12:40:09] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-15 12:40:09] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240515/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-15 12:40:09] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.91.tar.gz]
+[2024-05-15 12:40:09] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.93.tar.gz]
+[2024-05-15 12:40:09] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:40:09] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-05-15 12:40:09] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-05-15 12:40:09] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-05-15 12:40:10] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/f0/9d/f039d8bb99b4c2dbd40bf3b64ac5b3fc3e1c1a10ca28bb870f4aba9ddafa/ophyd_devices-1.0.1.tar.gz
+[2024-05-15 12:40:10] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-15 12:40:10] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-15 12:40:10] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-15 12:40:10] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2024-05-15 12:40:10] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-1.0.0.tar.gz tmp/ophyd_devices-1.0.1.tar.gz --markdown 20240515/o/ophyd-devices/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-15 12:40:11] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-15 12:40:11] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-15 12:40:11] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-15 12:40:12] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.0.0.tar.gz]
+[2024-05-15 12:40:12] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.0.1.tar.gz]
+[2024-05-15 12:40:12] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2024-05-15 12:40:12] INFO root fetch - main [MainThread]: Store serial: [23216525]
