@@ -21543,3 +21543,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:24:44] INFO root fetch - processPackages [playpty]: Remove: archive file [/home/abi/fetcher/tmp/playpty-0.1.1.tar.gz]
 [2024-05-15 14:24:44] INFO root fetch - main [MainThread]: End processing [playpty]: success
 [2024-05-15 14:24:44] INFO root fetch - main [MainThread]: Store serial: [23217441]
+[2024-05-15 14:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217441]
+[2024-05-15 14:26:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 14:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-05-15 14:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-aliding20230426
+[2024-05-15 14:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2024-05-15 14:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyopenrivercam
+[2024-05-15 14:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysdbots
+[2024-05-15 14:26:53] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-15 14:26:53] INFO root fetch - processPackages [pysdbots]: New version: [3.0] Old Version: [2.1]
+[2024-05-15 14:26:53] INFO root fetch - processPackages [pyopenrivercam]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-15 14:26:53] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [pysdbots]: Downloading https://files.pythonhosted.org/packages/4d/28/9ca88a89629f68a4ac7b930ad920198ae3bb6deebe72dc38ce9507eaabce/pysdbots-2.1.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [pyopenrivercam]: Downloading https://files.pythonhosted.org/packages/ab/c1/22f17df526285ea126c67629e4e99cd11a83963e8a958d713eb09de08597/pyopenrivercam-0.5.4.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-15 14:26:53] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240515/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-15 14:26:53] INFO root fetch - processPackages [pysdbots]: Downloading https://files.pythonhosted.org/packages/a2/2d/37c990c223f2dce28c2e0bee3da051559497f4b5c0d18cfbcff9edd251ed/pysdbots-3.0.tar.gz
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240515/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-15 14:26:53] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240515/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-15 14:26:53] INFO root fetch - processPackages [pyopenrivercam]: Downloading https://files.pythonhosted.org/packages/fc/4f/df4a13302afaf7039d6b8ec628a13a9c03706fbe9950ff5f38fef17222eb/pyopenrivercam-0.5.5.tar.gz
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pyopenrivercam]: executing diffoscope
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pyopenrivercam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenrivercam-0.5.4.tar.gz tmp/pyopenrivercam-0.5.5.tar.gz --markdown 20240515/p/pyopenrivercam/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pysdbots]: executing diffoscope
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pysdbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdbots-2.1.tar.gz tmp/pysdbots-3.0.tar.gz --markdown 20240515/p/pysdbots/2.1-3.0/README.md --exclude *.pyd
+[2024-05-15 14:26:54] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-15 14:26:54] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-15 14:26:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pysdbots]: Remove: archive file [/home/abi/fetcher/tmp/pysdbots-2.1.tar.gz]
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pysdbots]: Remove: archive file [/home/abi/fetcher/tmp/pysdbots-3.0.tar.gz]
+[2024-05-15 14:26:54] INFO root fetch - main [MainThread]: End processing [pysdbots]: success
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pyopenrivercam]: Remove: archive file [/home/abi/fetcher/tmp/pyopenrivercam-0.5.4.tar.gz]
+[2024-05-15 14:26:54] INFO root fetch - processPackages [pyopenrivercam]: Remove: archive file [/home/abi/fetcher/tmp/pyopenrivercam-0.5.5.tar.gz]
+[2024-05-15 14:26:54] INFO root fetch - main [MainThread]: End processing [pyopenrivercam]: success
+[2024-05-15 14:26:58] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-15 14:26:58] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-15 14:26:58] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-15 14:27:07] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-15 14:27:07] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-15 14:27:07] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-15 14:27:07] INFO root fetch - main [MainThread]: Store serial: [23217459]
