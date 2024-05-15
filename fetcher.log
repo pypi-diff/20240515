@@ -17875,3 +17875,47 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:53:17] INFO root fetch - processPackages [pytantan]: Remove: archive file [/home/abi/fetcher/tmp/pytantan-0.1.1.tar.gz]
 [2024-05-15 11:53:17] INFO root fetch - main [MainThread]: End processing [pytantan]: success
 [2024-05-15 11:53:17] INFO root fetch - main [MainThread]: Store serial: [23215906]
+[2024-05-15 11:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215906]
+[2024-05-15 11:55:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 11:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: googleads-housekeeper
+[2024-05-15 11:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-psd
+[2024-05-15 11:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vis4d
+[2024-05-15 11:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kal-middleware
+[2024-05-15 11:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2024-05-15 11:55:28] INFO root fetch - processPackages [vis4d]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-15 11:55:28] INFO root fetch - processPackages [aspose-psd]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-05-15 11:55:28] INFO root fetch - processPackages [googleads-housekeeper]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-05-15 11:55:28] INFO root fetch - processPackages [vis4d]: Downloading https://files.pythonhosted.org/packages/cb/d9/21cc5161dc1ef43b1759ca7cca42679ac8646a037056dbe7df4e8972424b/vis4d-0.1.tar.gz
+[2024-05-15 11:55:28] INFO root fetch - processPackages [kal-middleware]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 11:55:28] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.4.dev20240515] Old Version: [0.2.4.dev20240514]
+[2024-05-15 11:55:28] INFO root fetch - processPackages [aspose-psd]: Downloading https://files.pythonhosted.org/packages/d5/02/6a4b55656c272b296f7eeb959dc97b61a8fbcecb4bd89c999f7d90400717/aspose_psd-24.3.0-py3-none-win_amd64.whl
+[2024-05-15 11:55:28] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/72/75/8fec6c94f8d851b937e5569bbf946bf3b932c1414c694ef2ab9e72efc3e6/googleads-housekeeper-0.1.0.dev8.tar.gz
+[2024-05-15 11:55:28] WARNING root fetch - processPackages [aspose-psd]: Skipping package: exceeds size limit 52908707>=10485760
+[2024-05-15 11:55:28] INFO root fetch - main [MainThread]: End processing [aspose-psd] error
+[2024-05-15 11:55:28] INFO root fetch - processPackages [kal-middleware]: Downloading https://files.pythonhosted.org/packages/be/cd/4c75459ae23d0e218e013019a7cca615efaa78913bf674b0929c8afca173/kal_middleware-0.0.3.tar.gz
+[2024-05-15 11:55:28] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/e7/f4/1d62e6ce96133101c041161bfbaad1d9a0efbee03f06c7bb056ef85015fa/nvfuser_cu118-0.2.4.dev20240514.tar.gz
+[2024-05-15 11:55:28] INFO root fetch - processPackages [vis4d]: Downloading https://files.pythonhosted.org/packages/41/b7/50a7ce6b2bb0b0cc444210c48620557be0a9775ca913571d1ed2a00d3495/vis4d-0.1.1.tar.gz
+[2024-05-15 11:55:29] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/fc/3a/7d5847390fa1978f5fa9c787415a49920ac7254fec7f7d0c0b6830542f94/googleads-housekeeper-0.1.0.dev9.tar.gz
+[2024-05-15 11:55:29] INFO root fetch - processPackages [kal-middleware]: Downloading https://files.pythonhosted.org/packages/a4/12/bf4221f289eddd517b5511fac6a5386413f0e306328c167d80b4a98c6fe5/kal_middleware-0.0.4.tar.gz
+[2024-05-15 11:55:29] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/48/18/dd745191561386810f938d8c4dc0bd27dca547f248d09064e4d4734672bd/nvfuser_cu118-0.2.4.dev20240515.tar.gz
+[2024-05-15 11:55:29] INFO root fetch - processPackages [vis4d]: executing diffoscope
+[2024-05-15 11:55:29] INFO root fetch - processPackages [vis4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vis4d-0.1.tar.gz tmp/vis4d-0.1.1.tar.gz --markdown 20240515/v/vis4d/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-15 11:55:29] INFO root fetch - processPackages [googleads-housekeeper]: executing diffoscope
+[2024-05-15 11:55:29] INFO root fetch - processPackages [googleads-housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleads-housekeeper-0.1.0.dev8.tar.gz tmp/googleads-housekeeper-0.1.0.dev9.tar.gz --markdown 20240515/g/googleads-housekeeper/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-15 11:55:29] INFO root fetch - processPackages [kal-middleware]: executing diffoscope
+[2024-05-15 11:55:29] INFO root fetch - processPackages [kal-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kal_middleware-0.0.3.tar.gz tmp/kal_middleware-0.0.4.tar.gz --markdown 20240515/k/kal-middleware/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 11:55:29] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-15 11:55:29] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.4.dev20240514.tar.gz tmp/nvfuser_cu118-0.2.4.dev20240515.tar.gz --markdown 20240515/n/nvfuser-cu118/0.2.4.dev20240514-0.2.4.dev20240515/README.md --exclude *.pyd
+[2024-05-15 11:55:30] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.4.dev20240514.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.4.dev20240515.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-15 11:55:30] INFO root fetch - processPackages [kal-middleware]: Remove: archive file [/home/abi/fetcher/tmp/kal_middleware-0.0.3.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - processPackages [kal-middleware]: Remove: archive file [/home/abi/fetcher/tmp/kal_middleware-0.0.4.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - main [MainThread]: End processing [kal-middleware]: success
+[2024-05-15 11:55:30] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev8.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev9.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - main [MainThread]: End processing [googleads-housekeeper]: success
+[2024-05-15 11:55:30] INFO root fetch - processPackages [vis4d]: Remove: archive file [/home/abi/fetcher/tmp/vis4d-0.1.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - processPackages [vis4d]: Remove: archive file [/home/abi/fetcher/tmp/vis4d-0.1.1.tar.gz]
+[2024-05-15 11:55:30] INFO root fetch - main [MainThread]: End processing [vis4d]: success
+[2024-05-15 11:55:30] INFO root fetch - main [MainThread]: Store serial: [23215926]
