@@ -3339,3 +3339,51 @@
 [2024-05-15 02:47:48] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2024-05-15 02:47:48] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2024-05-15 02:47:48] INFO root fetch - main [MainThread]: Store serial: [23210057]
+[2024-05-15 02:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210057]
+[2024-05-15 02:49:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 02:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: real-estate-realtor-com-imp-local
+[2024-05-15 02:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: martian-adapters
+[2024-05-15 02:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: motion2telegram
+[2024-05-15 02:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sns-notify
+[2024-05-15 02:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyview-web
+[2024-05-15 02:49:56] INFO root fetch - processPackages [motion2telegram]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-15 02:49:56] INFO root fetch - processPackages [martian-adapters]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-05-15 02:49:56] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 02:49:56] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 02:49:56] INFO root fetch - processPackages [pyview-web]: New version: [0.0.8a0] Old Version: [0.0.7a0]
+[2024-05-15 02:49:56] INFO root fetch - processPackages [motion2telegram]: Downloading https://files.pythonhosted.org/packages/50/42/541fb7d6bd67d677ea1f9a4834f791ee967bfd0e51b43fb9ff79477e557b/motion2telegram-1.0.0.tar.gz
+[2024-05-15 02:49:56] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-15 02:49:56] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/d3/99/a3f5fc055f3d82d91a923ffa1c92325aa4c175ab949eb021a3966ab58d2f/martian_adapters-5.1.2.tar.gz
+[2024-05-15 02:49:56] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Downloading https://files.pythonhosted.org/packages/c1/80/a3d17edee231e315519bb9882baf52ba258109631d9c6b7624d4a7f9aae9/real_estate_realtor_com_imp_local-0.0.7.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [pyview-web]: Downloading https://files.pythonhosted.org/packages/61/1e/34c9e018f697edd622c440abd0f424fc3082b9587576f86cb03b9d081ad5/pyview_web-0.0.7a0.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [motion2telegram]: Downloading https://files.pythonhosted.org/packages/d2/8e/7e643be9dd21b40a9e8399c61892f9182d677547a556f24d959f5ed3a0ca/motion2telegram-1.0.1.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-15 02:49:57] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240515/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 02:49:57] INFO root fetch - processPackages [motion2telegram]: executing diffoscope
+[2024-05-15 02:49:57] INFO root fetch - processPackages [motion2telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion2telegram-1.0.0.tar.gz tmp/motion2telegram-1.0.1.tar.gz --markdown 20240515/m/motion2telegram/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-15 02:49:57] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/4a/43/0e5081d9129ec382600110d01c47e19cec3da2781c45ebf82e37df610061/martian_adapters-5.1.3.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Downloading https://files.pythonhosted.org/packages/08/41/02cbf2328d74ce1b8873617c1e9e1ccc1c69230bae594f9d8f517af2ef9b/real_estate_realtor_com_imp_local-0.0.8.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [pyview-web]: Downloading https://files.pythonhosted.org/packages/03/df/1d62daddf602682941b54565910ae352f610ccec6d031de680cb071d4593/pyview_web-0.0.8a0.tar.gz
+[2024-05-15 02:49:57] INFO root fetch - processPackages [martian-adapters]: executing diffoscope
+[2024-05-15 02:49:57] INFO root fetch - processPackages [martian-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martian_adapters-5.1.2.tar.gz tmp/martian_adapters-5.1.3.tar.gz --markdown 20240515/m/martian-adapters/5.1.2-5.1.3/README.md --exclude *.pyd
+[2024-05-15 02:49:57] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: executing diffoscope
+[2024-05-15 02:49:57] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/real_estate_realtor_com_imp_local-0.0.7.tar.gz tmp/real_estate_realtor_com_imp_local-0.0.8.tar.gz --markdown 20240515/r/real-estate-realtor-com-imp-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 02:49:57] INFO root fetch - processPackages [pyview-web]: executing diffoscope
+[2024-05-15 02:49:57] INFO root fetch - processPackages [pyview-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyview_web-0.0.7a0.tar.gz tmp/pyview_web-0.0.8a0.tar.gz --markdown 20240515/p/pyview-web/0.0.7a0-0.0.8a0/README.md --exclude *.pyd
+[2024-05-15 02:49:57] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-15 02:49:57] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-15 02:49:57] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-15 02:49:57] INFO root fetch - processPackages [motion2telegram]: Remove: archive file [/home/abi/fetcher/tmp/motion2telegram-1.0.0.tar.gz]
+[2024-05-15 02:49:57] INFO root fetch - processPackages [motion2telegram]: Remove: archive file [/home/abi/fetcher/tmp/motion2telegram-1.0.1.tar.gz]
+[2024-05-15 02:49:57] INFO root fetch - main [MainThread]: End processing [motion2telegram]: success
+[2024-05-15 02:49:58] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/real_estate_realtor_com_imp_local-0.0.7.tar.gz]
+[2024-05-15 02:49:58] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/real_estate_realtor_com_imp_local-0.0.8.tar.gz]
+[2024-05-15 02:49:58] INFO root fetch - main [MainThread]: End processing [real-estate-realtor-com-imp-local]: success
+[2024-05-15 02:49:58] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.1.2.tar.gz]
+[2024-05-15 02:49:58] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.1.3.tar.gz]
+[2024-05-15 02:49:58] INFO root fetch - main [MainThread]: End processing [martian-adapters]: success
+[2024-05-15 02:49:58] INFO root fetch - processPackages [pyview-web]: Remove: archive file [/home/abi/fetcher/tmp/pyview_web-0.0.7a0.tar.gz]
+[2024-05-15 02:49:58] INFO root fetch - processPackages [pyview-web]: Remove: archive file [/home/abi/fetcher/tmp/pyview_web-0.0.8a0.tar.gz]
+[2024-05-15 02:49:58] INFO root fetch - main [MainThread]: End processing [pyview-web]: success
+[2024-05-15 02:49:58] INFO root fetch - main [MainThread]: Store serial: [23210072]
