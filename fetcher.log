@@ -11096,3 +11096,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:30:48] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.0.tar.gz]
 [2024-05-15 07:30:48] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-15 07:30:48] INFO root fetch - main [MainThread]: Store serial: [23213045]
+[2024-05-15 07:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213045]
+[2024-05-15 07:32:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jccrypto
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumiverse-cpln
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcloudrun-flask-python
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ydb-sqlalchemy
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-runtime-nightly
+[2024-05-15 07:32:57] INFO root fetch - processPackages [gcloudrun-flask-python]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 07:32:57] INFO root fetch - processPackages [jccrypto]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-15 07:32:57] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240513] Old Version: [2.17.0.dev20240512]
+[2024-05-15 07:32:57] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9e/b8/8afafd2cc1f54c793bb5e14cef2f4812152ade87c4bbf7720c63486791ad/gcloudrun_flask_python-0.1.tar.gz
+[2024-05-15 07:32:57] INFO root fetch - processPackages [pulumiverse-cpln]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ydb-sqlalchemy]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2024-05-15 07:32:57] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/9b/6c/fb87598972ac1eb45b63d328bb91b6e1143331882f548777d8fb664e0f7f/jccrypto-1.2.0-py3-none-any.whl
+[2024-05-15 07:32:57] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/35/66/ae97b5e6d14edb36b071175de69669f3dd9b0f249275fb3cc9188fbf2073/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ydb-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/a7/d3/f9f9da00584b7fc5b8b8c119b5c3f94c1f715e5d3f5311cd5675290e5af4/ydb-sqlalchemy-0.0.1b8.tar.gz
+[2024-05-15 07:32:57] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/1b/fb/9af76754a5f5181f7b978484c9a0f433b0c9489c89d3f2c2d6709f5ca52d/pulumiverse_cpln-0.0.8.tar.gz
+[2024-05-15 07:32:57] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9d/e3/f9beff4571b378ab4ef80fd6c8feb121eaeee1d9874213dbf352d3443003/gcloudrun_flask_python-0.2.tar.gz
+[2024-05-15 07:32:57] INFO root fetch - processPackages [gcloudrun-flask-python]: executing diffoscope
+[2024-05-15 07:32:57] INFO root fetch - processPackages [gcloudrun-flask-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloudrun_flask_python-0.1.tar.gz tmp/gcloudrun_flask_python-0.2.tar.gz --markdown 20240515/g/gcloudrun-flask-python/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ydb-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/4e/4c/52555526f923fcab8dbd3230b93d0cdb7f79fecd4fd4171d50e3c55d9db7/ydb-sqlalchemy-0.0.1b9.tar.gz
+[2024-05-15 07:32:57] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/7c/fb/c79d69c168d136a015416576d9ba58501beb4d0bcc203c68d8e6c52d1a6e/jccrypto-1.2.1-py3-none-any.whl
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ydb-sqlalchemy]: executing diffoscope
+[2024-05-15 07:32:57] INFO root fetch - processPackages [ydb-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-sqlalchemy-0.0.1b8.tar.gz tmp/ydb-sqlalchemy-0.0.1b9.tar.gz --markdown 20240515/y/ydb-sqlalchemy/0.0.1b8-0.0.1b9/README.md --exclude *.pyd
+[2024-05-15 07:32:57] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-15 07:32:57] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.2.0-py3-none-any.whl.zip tmp/jccrypto-1.2.1-py3-none-any.whl.zip --markdown 20240515/j/jccrypto/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-15 07:32:58] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/f1/53/f6afe62a96b0c8443f26009ee143128ed7bc0941b2b1a92c7debc39cb2b3/pulumiverse_cpln-0.0.9.tar.gz
+[2024-05-15 07:32:58] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/36/06/2821e68f494f8d2839c3159fbb8504c8190b08b327c9219206266588af44/tflite_runtime_nightly-2.17.0.dev20240513-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-15 07:32:58] INFO root fetch - processPackages [pulumiverse-cpln]: executing diffoscope
+[2024-05-15 07:32:58] INFO root fetch - processPackages [pulumiverse-cpln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_cpln-0.0.8.tar.gz tmp/pulumiverse_cpln-0.0.9.tar.gz --markdown 20240515/p/pulumiverse-cpln/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 07:32:58] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.1.tar.gz]
+[2024-05-15 07:32:58] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.2.tar.gz]
+[2024-05-15 07:32:58] INFO root fetch - main [MainThread]: End processing [gcloudrun-flask-python]: success
+[2024-05-15 07:32:58] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-15 07:32:58] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240513-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240515/t/tflite-runtime-nightly/2.17.0.dev20240512-2.17.0.dev20240513/README.md --exclude *.pyd
+[2024-05-15 07:32:58] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.2.0-py3-none-any.whl.zip]
+[2024-05-15 07:32:58] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.2.1-py3-none-any.whl.zip]
+[2024-05-15 07:32:58] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-15 07:32:58] INFO root fetch - processPackages [ydb-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/ydb-sqlalchemy-0.0.1b8.tar.gz]
+[2024-05-15 07:32:58] INFO root fetch - processPackages [ydb-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/ydb-sqlalchemy-0.0.1b9.tar.gz]
+[2024-05-15 07:32:58] INFO root fetch - main [MainThread]: End processing [ydb-sqlalchemy]: success
+[2024-05-15 07:32:58] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.8.tar.gz]
+[2024-05-15 07:32:58] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.9.tar.gz]
+[2024-05-15 07:32:58] INFO root fetch - main [MainThread]: End processing [pulumiverse-cpln]: success
+[2024-05-15 07:33:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-15 07:33:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240513-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-15 07:33:21] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-15 07:33:21] INFO root fetch - main [MainThread]: Store serial: [23213057]
