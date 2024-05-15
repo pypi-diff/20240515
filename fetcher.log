@@ -12967,3 +12967,101 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:55:57] ERROR root fetch - processPackages [aspose-diagram]: Timeout during execution of pkgdiff
 [2024-05-15 08:55:57] INFO root fetch - main [MainThread]: End processing [aspose-diagram] error
 [2024-05-15 08:55:57] INFO root fetch - main [MainThread]: Store serial: [23213777]
+[2024-05-15 08:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213777]
+[2024-05-15 08:58:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-multi-bulk-updater
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atlas-provider-sqlalchemy
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-esios
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpu4pyscf-cuda11x
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JsonsPract
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anemone-daisy-maker
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yplib
+[2024-05-15 08:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solar-registry
+[2024-05-15 08:58:06] INFO root fetch - processPackages [python-esios]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.56.2] Old Version: [1.56.1]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [solar-registry]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-15 08:58:06] WARNING root fetch - processPackages [JsonsPract]: Skipping, unable to determine old version
+[2024-05-15 08:58:06] INFO root fetch - processPackages [JsonsPract]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-15 08:58:06] INFO root fetch - main [MainThread]: End processing [JsonsPract] error
+[2024-05-15 08:58:06] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [yplib]: New version: [5.7.6] Old Version: [5.7.5]
+[2024-05-15 08:58:06] WARNING root fetch - processPackages [django-multi-bulk-updater]: Skipping, unable to determine old version
+[2024-05-15 08:58:06] INFO root fetch - processPackages [django-multi-bulk-updater]: Start processing: gpu4pyscf-cuda12x
+[2024-05-15 08:58:06] INFO root fetch - main [MainThread]: End processing [django-multi-bulk-updater] error
+[2024-05-15 08:58:06] INFO root fetch - processPackages [yplib]: New version: [5.7.6] Old Version: [5.7.5]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: New version: [0.2.0] Old Version: [0.1a2]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/b4/b9/9bcfc59eba9e3b5dded426f536211cb2bd9aeccd70dad2b8beca3c9cf17b/anemone_daisy_maker-1.56.1.tar.gz
+[2024-05-15 08:58:06] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [gpu4pyscf-cuda11x]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/d4/e0/8d1f05187baff5019107618a595c189985447a778d5635b0c4e3095f8f3d/python_esios-0.1.2.tar.gz
+[2024-05-15 08:58:06] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/2c/38/eafa11bc257edf07a90634d634f0208a9a672adbcc7c8f754879e7f3801d/nonebot_plugin_tetris_stats-1.2.6.tar.gz
+[2024-05-15 08:58:06] INFO root fetch - processPackages [gpu4pyscf-cuda12x]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-15 08:58:06] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-15 08:58:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cf/75/c853236f7ee25a9c3d4a2dce3016abbb9c3ef44db7420c9a67ddc42249fd/yplib-5.7.5.tar.gz
+[2024-05-15 08:58:06] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/f9/29/2485dfff4758a4d2e76bacaeff09856939cd29b97c61561fcef790b34c0f/solar_registry-0.2.4.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/bd/b7/231698ac907f13258eb6e46f59963ac0b16bb2fc34d8fe71d4591da03b0d/atlas_provider_sqlalchemy-0.1a2.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [gpu4pyscf-cuda11x]: Downloading https://files.pythonhosted.org/packages/db/db/5797513e6eb5b13041a4a50c5038ad6aad35664d42f9364b0c60c9dee3ac/gpu4pyscf_cuda11x-0.7.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cf/75/c853236f7ee25a9c3d4a2dce3016abbb9c3ef44db7420c9a67ddc42249fd/yplib-5.7.5.tar.gz
+[2024-05-15 08:58:07] WARNING root fetch - processPackages [gpu4pyscf-cuda11x]: Skipping package: exceeds size limit 135405941>=10485760
+[2024-05-15 08:58:07] INFO root fetch - processPackages [gpu4pyscf-cuda11x]: Start processing: pbx-cloud-utils
+[2024-05-15 08:58:07] INFO root fetch - main [MainThread]: End processing [gpu4pyscf-cuda11x] error
+[2024-05-15 08:58:07] INFO root fetch - processPackages [gpu4pyscf-cuda12x]: Downloading https://files.pythonhosted.org/packages/9b/39/bbfaf3c67cca2f6fec2f5b8266148a24d6a80fca0f3d9235ab1199918019/gpu4pyscf_cuda12x-0.7.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 08:58:07] INFO root fetch - processPackages [pbx-cloud-utils]: New version: [1.2.1a0] Old Version: [1.2.0a8]
+[2024-05-15 08:58:07] WARNING root fetch - processPackages [gpu4pyscf-cuda12x]: Skipping package: exceeds size limit 135207150>=10485760
+[2024-05-15 08:58:07] INFO root fetch - main [MainThread]: End processing [gpu4pyscf-cuda12x] error
+[2024-05-15 08:58:07] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/13/66/071c0dc93b839f7d49393fe1f0f9832fb7802c33949861b96616eb1fcfe9/anemone_daisy_maker-1.56.2.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/4d/67/64bc54c13eec4c4c0d9ba50f86f1cf709082790d8da1ae1e3aca5b65700d/python_esios-0.1.3.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/c9/74/9196e6069fba63d8779401bdbffb0a40d7f596f837cf7912faa4f520a093/pbx_cloud_utils-1.2.0a8-py3-none-any.whl
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/5e/91/6389c6593e61a29508297addf921fd748dc8d52bfb86f7dd4945f5e507ad/yplib-5.7.6.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/5e/91/6389c6593e61a29508297addf921fd748dc8d52bfb86f7dd4945f5e507ad/yplib-5.7.6.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/58/95/715ef0e42d479532d4992e0f8dffada2a116903e39181acccc1c45c42ad5/solar_registry-0.2.5.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/7b/f9/62d38c11e60c863fb3a6feb4285d01113095e47ce4680acfa97e5023bce0/nonebot_plugin_tetris_stats-1.2.7.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.56.1.tar.gz tmp/anemone_daisy_maker-1.56.2.tar.gz --markdown 20240515/a/anemone-daisy-maker/1.56.1-1.56.2/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/5c/32/19af8937881e28f1cf70984b782092d8244320ca8c5ca5de2e12120c6806/atlas_provider_sqlalchemy-0.2.0.tar.gz
+[2024-05-15 08:58:07] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-15 08:58:07] INFO root fetch - processPackages [python-esios]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [python-esios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_esios-0.1.2.tar.gz tmp/python_esios-0.1.3.tar.gz --markdown 20240515/p/python-esios/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.7.5.tar.gz tmp/yplib-5.7.6.tar.gz --markdown 20240515/y/yplib/5.7.5-5.7.6/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.4.tar.gz tmp/solar_registry-0.2.5.tar.gz --markdown 20240515/s/solar-registry/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.7.5.tar.gz tmp/yplib-5.7.6.tar.gz --markdown 20240515/y/yplib/5.7.5-5.7.6/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.2.6.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.7.tar.gz --markdown 20240515/n/nonebot-plugin-tetris-stats/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas_provider_sqlalchemy-0.1a2.tar.gz tmp/atlas_provider_sqlalchemy-0.2.0.tar.gz --markdown 20240515/a/atlas-provider-sqlalchemy/0.1a2-0.2.0/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/5f/12/56aaa9c26a6f860003488bf8c5d930955bd2a3cd00e95926cebcde972ce5/pbx_cloud_utils-1.2.1a0-py3-none-any.whl
+[2024-05-15 08:58:07] INFO root fetch - processPackages [pbx-cloud-utils]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [pbx-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_cloud_utils-1.2.0a8-py3-none-any.whl.zip tmp/pbx_cloud_utils-1.2.1a0-py3-none-any.whl.zip --markdown 20240515/p/pbx-cloud-utils/1.2.0a8-1.2.1a0/README.md --exclude *.pyd
+[2024-05-15 08:58:07] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-15 08:58:07] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240515/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-15 08:58:08] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.2.tar.gz]
+[2024-05-15 08:58:08] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.3.tar.gz]
+[2024-05-15 08:58:08] INFO root fetch - main [MainThread]: End processing [python-esios]: success
+[2024-05-15 08:58:08] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.56.1.tar.gz]
+[2024-05-15 08:58:08] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.56.2.tar.gz]
+[2024-05-15 08:58:08] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-15 08:58:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.5.tar.gz]
+[2024-05-15 08:58:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.6.tar.gz]
+[2024-05-15 08:58:08] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-15 08:58:09] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.0a8-py3-none-any.whl.zip]
+[2024-05-15 08:58:09] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.1a0-py3-none-any.whl.zip]
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [pbx-cloud-utils]: success
+[2024-05-15 08:58:09] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.4.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.5.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-15 08:58:09] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.6.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.7.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-15 08:58:09] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.1a2.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.2.0.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [atlas-provider-sqlalchemy]: success
+[2024-05-15 08:58:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-15 08:58:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-15 08:58:09] INFO root fetch - main [MainThread]: Store serial: [23213812]
