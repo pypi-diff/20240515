@@ -7922,3 +7922,47 @@
 [2024-05-15 04:09:43] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.775.0.tar.gz]
 [2024-05-15 04:09:43] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-15 04:09:43] INFO root fetch - main [MainThread]: Store serial: [23211636]
+[2024-05-15 04:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211636]
+[2024-05-15 04:11:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blastpipe
+[2024-05-15 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semantic-router
+[2024-05-15 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipecat-ai
+[2024-05-15 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stellar-sdk
+[2024-05-15 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codeflash
+[2024-05-15 04:11:53] INFO root fetch - processPackages [pipecat-ai]: New version: [0.0.9] Old Version: [0.0.12]
+[2024-05-15 04:11:53] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 04:11:53] INFO root fetch - processPackages [blastpipe]: New version: [2024.7.5] Old Version: [2024.7.4]
+[2024-05-15 04:11:53] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-05-15 04:11:53] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/a1/d1/1e3094940714a0ca7b9ebd0c9fcfc919957efc8bd1bf069cc7ba84b156dc/blastpipe-2024.7.4.tar.gz
+[2024-05-15 04:11:53] INFO root fetch - processPackages [codeflash]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-15 04:11:53] INFO root fetch - processPackages [stellar-sdk]: New version: [9.4.0] Old Version: [9.3.0]
+[2024-05-15 04:11:53] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/40/ef/e92c16066f2d509da2ab7992d9322291e9eb91002a52b211eb5133b196e6/pipecat_ai-0.0.12.tar.gz
+[2024-05-15 04:11:53] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 63267970>=10485760
+[2024-05-15 04:11:53] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
+[2024-05-15 04:11:53] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/39/6c/f9c42245b1353361b8a2d769965e5d04226809c2ddf4b54c59d807fdf740/blastpipe-2024.7.5.tar.gz
+[2024-05-15 04:11:53] INFO root fetch - processPackages [codeflash]: Downloading https://files.pythonhosted.org/packages/93/4a/a80e7fdc53ad92ba9de729b33fe8d361d164dfcd2a5c23f8e1724ee868c9/codeflash-0.6.0.tar.gz
+[2024-05-15 04:11:53] INFO root fetch - processPackages [stellar-sdk]: Downloading https://files.pythonhosted.org/packages/81/b6/0e829ecdf5e0d2b59ab9a184bcaa1e7c111e10b13cbffb147c62f8b891dd/stellar_sdk-9.3.0.tar.gz
+[2024-05-15 04:11:53] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-15 04:11:53] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.7.4.tar.gz tmp/blastpipe-2024.7.5.tar.gz --markdown 20240515/b/blastpipe/2024.7.4-2024.7.5/README.md --exclude *.pyd
+[2024-05-15 04:11:54] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-05-15 04:11:54] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-05-15 04:11:54] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240515/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 04:11:54] INFO root fetch - processPackages [stellar-sdk]: Downloading https://files.pythonhosted.org/packages/51/d7/50aaab65dce629e1917b43949aad45e5cd7b181b16ccbf5082758e96f7be/stellar_sdk-9.4.0.tar.gz
+[2024-05-15 04:11:54] INFO root fetch - processPackages [codeflash]: Downloading https://files.pythonhosted.org/packages/72/16/8b8219bddc450f76bfe4a228427074d295594b5feeff9676de047b69799b/codeflash-0.6.1.tar.gz
+[2024-05-15 04:11:54] INFO root fetch - processPackages [stellar-sdk]: executing diffoscope
+[2024-05-15 04:11:54] INFO root fetch - processPackages [stellar-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar_sdk-9.3.0.tar.gz tmp/stellar_sdk-9.4.0.tar.gz --markdown 20240515/s/stellar-sdk/9.3.0-9.4.0/README.md --exclude *.pyd
+[2024-05-15 04:11:54] INFO root fetch - processPackages [codeflash]: executing diffoscope
+[2024-05-15 04:11:54] INFO root fetch - processPackages [codeflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeflash-0.6.0.tar.gz tmp/codeflash-0.6.1.tar.gz --markdown 20240515/c/codeflash/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-15 04:11:54] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-05-15 04:11:54] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-05-15 04:11:54] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-05-15 04:11:55] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.4.tar.gz]
+[2024-05-15 04:11:55] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.5.tar.gz]
+[2024-05-15 04:11:55] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-15 04:11:55] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.0.tar.gz]
+[2024-05-15 04:11:55] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.1.tar.gz]
+[2024-05-15 04:11:55] INFO root fetch - main [MainThread]: End processing [codeflash]: success
+[2024-05-15 04:11:56] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-9.3.0.tar.gz]
+[2024-05-15 04:11:56] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-9.4.0.tar.gz]
+[2024-05-15 04:11:56] INFO root fetch - main [MainThread]: End processing [stellar-sdk]: success
+[2024-05-15 04:11:56] INFO root fetch - main [MainThread]: Store serial: [23211655]
