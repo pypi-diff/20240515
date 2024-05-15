@@ -20244,3 +20244,87 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:29:15] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-05-15 13:29:15] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-05-15 13:29:15] INFO root fetch - main [MainThread]: Store serial: [23216946]
+[2024-05-15 13:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216946]
+[2024-05-15 13:31:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argus-server
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klvm-tools-rs
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SEVtras
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hexkit
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typeql-grammar
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zango
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywgraph
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: q2gui
+[2024-05-15 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchmetrics
+[2024-05-15 13:31:24] INFO root fetch - processPackages [argus-server]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [zango]: New version: [0.2.0rc0] Old Version: [0.2.0a0]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [pywgraph]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [typeql-grammar]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [hexkit]: New version: [3.1.0] Old Version: [3.0.2]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [klvm-tools-rs]: New version: [0.1.42] Old Version: [0.1.41]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [SEVtras]: New version: [0.2.8] Old Version: [0.2.11]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [torchmetrics]: New version: [1.4.0.post0] Old Version: [1.4.0]
+[2024-05-15 13:31:24] INFO root fetch - processPackages [torchmetrics]: Downloading https://files.pythonhosted.org/packages/ed/08/06af2f7af7702b7e9beabdf13228f6ed27fe4bd652557570e42bc1ba48ba/torchmetrics-1.4.0.tar.gz
+[2024-05-15 13:31:24] INFO root fetch - processPackages [zango]: Downloading https://files.pythonhosted.org/packages/89/ac/29c0ec5694bbcef2d10a1342e45939ae8eba0007343e1b7e3826af930e9f/zango-0.2.0a0.tar.gz
+[2024-05-15 13:31:24] INFO root fetch - processPackages [argus-server]: Downloading https://files.pythonhosted.org/packages/a8/3f/7cd338049a43602d3abaa1f72e7ccf4744ffb2a796b8546079a53b76aeb3/argus-server-1.8.1.tar.gz
+[2024-05-15 13:31:24] INFO root fetch - processPackages [SEVtras]: Downloading https://files.pythonhosted.org/packages/af/88/42f8eeeffeaf4d123112fab2c5053ffb3d0a42adc772ae9260d70de3adf7/SEVtras-0.2.11.tar.gz
+[2024-05-15 13:31:24] INFO root fetch - processPackages [pywgraph]: Downloading https://files.pythonhosted.org/packages/3b/04/7af797f58c4a764ee73983afd8ab8745617a851d777e63c2291a67891596/pywgraph-1.0.2.tar.gz
+[2024-05-15 13:31:24] INFO root fetch - processPackages [klvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/1f/40/ca4969cf842be7a6e51138941b52c638f47edb6db8a0da627c8032e34516/klvm_tools_rs-0.1.41-cp38-abi3-win_amd64.whl
+[2024-05-15 13:31:25] INFO root fetch - processPackages [hexkit]: Downloading https://files.pythonhosted.org/packages/3a/11/66122bf010a1ce8f6f836aaeb3aaa0adec603c0862367e796a26d78ed2f6/hexkit-3.0.2.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [typeql-grammar]: Downloading https://files.pythonhosted.org/packages/2f/1b/a5bbd297c879c7362b892557b533662c4e16d4bff97d5fa426eae4efb785/typeql-grammar-2.8.0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [pywgraph]: Downloading https://files.pythonhosted.org/packages/aa/ca/94be5fd52d706fcb8b05dd389b0559bd5a89b968c2f06177724e36c94a4d/pywgraph-1.1.0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [hexkit]: Downloading https://files.pythonhosted.org/packages/a0/20/7a6a3ba1442df857abc819e47b613aef2a447d45f1c1c13d32ac563adb15/hexkit-3.1.0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [torchmetrics]: Downloading https://files.pythonhosted.org/packages/c0/20/aadde4c9b15a814e03eb08e5c5e2527be3b81694620f6b9b35354f6506c9/torchmetrics-1.4.0.post0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [typeql-grammar]: Downloading https://files.pythonhosted.org/packages/01/1f/30c268096d93902f97fdec8b2e41482e2440be55177ebcc686598d94f6b7/typeql-grammar-2.9.0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [pywgraph]: executing diffoscope
+[2024-05-15 13:31:25] INFO root fetch - processPackages [pywgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywgraph-1.0.2.tar.gz tmp/pywgraph-1.1.0.tar.gz --markdown 20240515/p/pywgraph/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-15 13:31:25] INFO root fetch - processPackages [argus-server]: Downloading https://files.pythonhosted.org/packages/be/41/c49adda62530c8c78d63f1d19411194dfd8a13596fc82aa22fd4f082c460/argus-server-1.9.0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [typeql-grammar]: executing diffoscope
+[2024-05-15 13:31:25] INFO root fetch - processPackages [typeql-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeql-grammar-2.8.0.tar.gz tmp/typeql-grammar-2.9.0.tar.gz --markdown 20240515/t/typeql-grammar/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-15 13:31:25] INFO root fetch - processPackages [hexkit]: executing diffoscope
+[2024-05-15 13:31:25] INFO root fetch - processPackages [hexkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexkit-3.0.2.tar.gz tmp/hexkit-3.1.0.tar.gz --markdown 20240515/h/hexkit/3.0.2-3.1.0/README.md --exclude *.pyd
+[2024-05-15 13:31:25] INFO root fetch - processPackages [klvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/ff/48/87362b31736a9828c9e3084dec9ec453107a5344e8f4515f1aadddf95de9/klvm_tools_rs-0.1.42-cp38-abi3-win_amd64.whl
+[2024-05-15 13:31:25] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2024-05-15 13:31:25] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20240515/q/q2gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-15 13:31:25] INFO root fetch - processPackages [SEVtras]: Downloading https://files.pythonhosted.org/packages/a6/a4/69c5b72916fe8cf12f45251e23a2526836e4b293954f85f0320902ed1356/SEVtras-0.2.8.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [torchmetrics]: executing diffoscope
+[2024-05-15 13:31:25] INFO root fetch - processPackages [torchmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmetrics-1.4.0.tar.gz tmp/torchmetrics-1.4.0.post0.tar.gz --markdown 20240515/t/torchmetrics/1.4.0-1.4.0.post0/README.md --exclude *.pyd
+[2024-05-15 13:31:25] INFO root fetch - processPackages [zango]: Downloading https://files.pythonhosted.org/packages/c0/34/864e6cf777557dc197d20ceeb095ff6fcd003abbfdae64d84652415da98f/zango-0.2.0rc0.tar.gz
+[2024-05-15 13:31:25] INFO root fetch - processPackages [argus-server]: executing diffoscope
+[2024-05-15 13:31:25] INFO root fetch - processPackages [argus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-server-1.8.1.tar.gz tmp/argus-server-1.9.0.tar.gz --markdown 20240515/a/argus-server/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-15 13:31:26] INFO root fetch - processPackages [zango]: executing diffoscope
+[2024-05-15 13:31:26] INFO root fetch - processPackages [zango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zango-0.2.0a0.tar.gz tmp/zango-0.2.0rc0.tar.gz --markdown 20240515/z/zango/0.2.0a0-0.2.0rc0/README.md --exclude *.pyd
+[2024-05-15 13:31:26] INFO root fetch - processPackages [klvm-tools-rs]: executing diffoscope
+[2024-05-15 13:31:26] INFO root fetch - processPackages [klvm-tools-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm_tools_rs-0.1.41-cp38-abi3-win_amd64.whl.zip tmp/klvm_tools_rs-0.1.42-cp38-abi3-win_amd64.whl.zip --markdown 20240515/k/klvm-tools-rs/0.1.41-0.1.42/README.md --exclude *.pyd
+[2024-05-15 13:31:26] INFO root fetch - processPackages [SEVtras]: executing diffoscope
+[2024-05-15 13:31:26] INFO root fetch - processPackages [SEVtras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SEVtras-0.2.11.tar.gz tmp/SEVtras-0.2.8.tar.gz --markdown 20240515/S/SEVtras/0.2.11-0.2.8/README.md --exclude *.pyd
+[2024-05-15 13:31:26] INFO root fetch - processPackages [pywgraph]: Remove: archive file [/home/abi/fetcher/tmp/pywgraph-1.0.2.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - processPackages [pywgraph]: Remove: archive file [/home/abi/fetcher/tmp/pywgraph-1.1.0.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - main [MainThread]: End processing [pywgraph]: success
+[2024-05-15 13:31:26] INFO root fetch - processPackages [typeql-grammar]: Remove: archive file [/home/abi/fetcher/tmp/typeql-grammar-2.8.0.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - processPackages [typeql-grammar]: Remove: archive file [/home/abi/fetcher/tmp/typeql-grammar-2.9.0.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - main [MainThread]: End processing [typeql-grammar]: success
+[2024-05-15 13:31:26] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2024-05-15 13:31:26] INFO root fetch - processPackages [hexkit]: Remove: archive file [/home/abi/fetcher/tmp/hexkit-3.0.2.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - processPackages [hexkit]: Remove: archive file [/home/abi/fetcher/tmp/hexkit-3.1.0.tar.gz]
+[2024-05-15 13:31:26] INFO root fetch - main [MainThread]: End processing [hexkit]: success
+[2024-05-15 13:31:26] INFO root fetch - processPackages [klvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_tools_rs-0.1.41-cp38-abi3-win_amd64.whl.zip]
+[2024-05-15 13:31:26] INFO root fetch - processPackages [klvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_tools_rs-0.1.42-cp38-abi3-win_amd64.whl.zip]
+[2024-05-15 13:31:26] INFO root fetch - main [MainThread]: End processing [klvm-tools-rs]: success
+[2024-05-15 13:31:27] INFO root fetch - processPackages [argus-server]: Remove: archive file [/home/abi/fetcher/tmp/argus-server-1.8.1.tar.gz]
+[2024-05-15 13:31:27] INFO root fetch - processPackages [argus-server]: Remove: archive file [/home/abi/fetcher/tmp/argus-server-1.9.0.tar.gz]
+[2024-05-15 13:31:27] INFO root fetch - main [MainThread]: End processing [argus-server]: success
+[2024-05-15 13:31:27] INFO root fetch - processPackages [torchmetrics]: Remove: archive file [/home/abi/fetcher/tmp/torchmetrics-1.4.0.tar.gz]
+[2024-05-15 13:31:27] INFO root fetch - processPackages [torchmetrics]: Remove: archive file [/home/abi/fetcher/tmp/torchmetrics-1.4.0.post0.tar.gz]
+[2024-05-15 13:31:27] INFO root fetch - main [MainThread]: End processing [torchmetrics]: success
+[2024-05-15 13:31:28] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.11.tar.gz]
+[2024-05-15 13:31:28] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.8.tar.gz]
+[2024-05-15 13:31:28] INFO root fetch - main [MainThread]: End processing [SEVtras]: success
+[2024-05-15 13:31:28] INFO root fetch - processPackages [zango]: Remove: archive file [/home/abi/fetcher/tmp/zango-0.2.0a0.tar.gz]
+[2024-05-15 13:31:28] INFO root fetch - processPackages [zango]: Remove: archive file [/home/abi/fetcher/tmp/zango-0.2.0rc0.tar.gz]
+[2024-05-15 13:31:28] INFO root fetch - main [MainThread]: End processing [zango]: success
+[2024-05-15 13:31:28] INFO root fetch - main [MainThread]: Store serial: [23216985]
