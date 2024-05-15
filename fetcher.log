@@ -11406,3 +11406,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:46:33] WARNING root fetch - processPackages [webpage-content-scraper]: Skipping, unable to determine old version
 [2024-05-15 07:46:33] INFO root fetch - main [MainThread]: End processing [webpage-content-scraper] error
 [2024-05-15 07:46:33] INFO root fetch - main [MainThread]: Store serial: [23213212]
+[2024-05-15 07:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213212]
+[2024-05-15 07:48:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 07:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipefunc
+[2024-05-15 07:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modipyCop
+[2024-05-15 07:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-product-pack
+[2024-05-15 07:48:42] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-05-15 07:48:42] INFO root fetch - processPackages [modipyCop]: New version: [1.2] Old Version: [1.1]
+[2024-05-15 07:48:43] INFO root fetch - processPackages [pipefunc]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-15 07:48:43] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Downloading https://files.pythonhosted.org/packages/89/ac/7da2fadbadaf9afb0280adec676ae4928725d46d54f381b376e4957abb4f/odoo_addon_sale_product_pack-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-15 07:48:43] INFO root fetch - processPackages [modipyCop]: Downloading https://files.pythonhosted.org/packages/bf/84/1b76444f338a00432d7530ea84e344f8c07714cf8d76312fb21296f7305a/modipyCop-1.1.tar.gz
+[2024-05-15 07:48:43] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/31/62/5065159f201e48fd5e79d29e92a9a66d51d2c5a5642b1ea162fc8ef28240/pipefunc-0.5.0.tar.gz
+[2024-05-15 07:48:43] INFO root fetch - processPackages [modipyCop]: Downloading https://files.pythonhosted.org/packages/f7/cf/c5cba406961d79f215cde0c4946ff7bfd9bbc68a7107886fdc239ed8472b/modipyCop-1.2.tar.gz
+[2024-05-15 07:48:43] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Downloading https://files.pythonhosted.org/packages/6a/3a/cb0557235d4f458341aadb000b3e446fb338f74958afe19f53c058067738/odoo_addon_sale_product_pack-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 07:48:43] INFO root fetch - processPackages [modipyCop]: executing diffoscope
+[2024-05-15 07:48:43] INFO root fetch - processPackages [modipyCop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modipyCop-1.1.tar.gz tmp/modipyCop-1.2.tar.gz --markdown 20240515/m/modipyCop/1.1-1.2/README.md --exclude *.pyd
+[2024-05-15 07:48:43] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: executing diffoscope
+[2024-05-15 07:48:43] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_pack-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_sale_product_pack-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-sale-product-pack/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-15 07:48:43] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/57/d2/3f445772998a14ffdb37d3dd8cbfddf4915b4cdcdb5f3d48f22ed5f17fb3/pipefunc-0.6.0.tar.gz
+[2024-05-15 07:48:43] INFO root fetch - processPackages [pipefunc]: executing diffoscope
+[2024-05-15 07:48:43] INFO root fetch - processPackages [pipefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefunc-0.5.0.tar.gz tmp/pipefunc-0.6.0.tar.gz --markdown 20240515/p/pipefunc/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-15 07:48:43] INFO root fetch - processPackages [modipyCop]: Remove: archive file [/home/abi/fetcher/tmp/modipyCop-1.1.tar.gz]
+[2024-05-15 07:48:43] INFO root fetch - processPackages [modipyCop]: Remove: archive file [/home/abi/fetcher/tmp/modipyCop-1.2.tar.gz]
+[2024-05-15 07:48:43] INFO root fetch - main [MainThread]: End processing [modipyCop]: success
+[2024-05-15 07:48:44] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_pack-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-15 07:48:44] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_pack-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 07:48:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-pack]: success
+[2024-05-15 07:48:44] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.5.0.tar.gz]
+[2024-05-15 07:48:44] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.6.0.tar.gz]
+[2024-05-15 07:48:44] INFO root fetch - main [MainThread]: End processing [pipefunc]: success
+[2024-05-15 07:48:44] INFO root fetch - main [MainThread]: Store serial: [23213220]
