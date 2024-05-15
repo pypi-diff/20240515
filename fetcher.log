@@ -22361,3 +22361,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:46:09] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-05-15 14:46:09] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-05-15 14:46:09] INFO root fetch - main [MainThread]: Store serial: [23217784]
+[2024-05-15 14:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217784]
+[2024-05-15 14:48:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upgini
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sparkapi
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storey
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opinionated-ci-pipeline
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysql-repo
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyroSAR
+[2024-05-15 14:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: l2dexapi
+[2024-05-15 14:48:20] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-15 14:48:20] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-15 14:48:20] INFO root fetch - processPackages [pysql-repo]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-15 14:48:20] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-15 14:48:20] WARNING root fetch - processPackages [nonebot-plugin-sparkapi]: Skipping, unable to determine old version
+[2024-05-15 14:48:20] INFO root fetch - processPackages [l2dexapi]: New version: [1.2] Old Version: [1.1]
+[2024-05-15 14:48:20] INFO root fetch - processPackages [pyroSAR]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-15 14:48:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi] error
+[2024-05-15 14:48:20] INFO root fetch - processPackages [opinionated-ci-pipeline]: New version: [3.0.0b0] Old Version: [3.0.0]
+[2024-05-15 14:48:20] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/12/ee/129e546fab467fd13ecd3b8e815f9da900ddb63122aa16c557ef771b9892/pysql-repo-0.6.3.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [opinionated-ci-pipeline]: Downloading https://files.pythonhosted.org/packages/82/8c/f10d73127f97b517b7432a93735e888bba80a12b72bb2e7417898020095f/opinionated-ci-pipeline-3.0.0.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [l2dexapi]: Downloading https://files.pythonhosted.org/packages/d8/b7/30ac6d33236a23f0be0d4fcc549cc7ddaaf2dca998ace359646888cbb7b7/l2dexapi-1.1.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [pyroSAR]: Downloading https://files.pythonhosted.org/packages/75/b5/2e9cb282dededa751e53b0efb02efa41774296fd1b142c8e526de5c351f9/pyroSAR-0.9.tar.gz
+[2024-05-15 14:48:20] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-15 14:48:20] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240515/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-15 14:48:20] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-05-15 14:48:20] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240515/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-15 14:48:20] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/72/a5/b264d60e40a3cd338c8b8a5b4be8d954cab8fde6b465f64adb6cd012b246/pysql-repo-0.7.0.tar.gz
+[2024-05-15 14:48:21] INFO root fetch - processPackages [pysql-repo]: executing diffoscope
+[2024-05-15 14:48:21] INFO root fetch - processPackages [pysql-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql-repo-0.6.3.tar.gz tmp/pysql-repo-0.7.0.tar.gz --markdown 20240515/p/pysql-repo/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-15 14:48:21] INFO root fetch - processPackages [l2dexapi]: Downloading https://files.pythonhosted.org/packages/e6/29/1b44e29e90b4f7cabd460448ba415335d8042a109a478f5de0b8f8fac2a5/l2dexapi-1.2.tar.gz
+[2024-05-15 14:48:21] INFO root fetch - processPackages [l2dexapi]: executing diffoscope
+[2024-05-15 14:48:21] INFO root fetch - processPackages [l2dexapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2dexapi-1.1.tar.gz tmp/l2dexapi-1.2.tar.gz --markdown 20240515/l/l2dexapi/1.1-1.2/README.md --exclude *.pyd
+[2024-05-15 14:48:21] INFO root fetch - processPackages [opinionated-ci-pipeline]: Downloading https://files.pythonhosted.org/packages/32/fa/f00a9635bcef0238ab2446e0da6ea244a3dfc4da43e4477060d5ef980a34/opinionated-ci-pipeline-3.0.0b0.tar.gz
+[2024-05-15 14:48:21] INFO root fetch - processPackages [opinionated-ci-pipeline]: executing diffoscope
+[2024-05-15 14:48:21] INFO root fetch - processPackages [opinionated-ci-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opinionated-ci-pipeline-3.0.0.tar.gz tmp/opinionated-ci-pipeline-3.0.0b0.tar.gz --markdown 20240515/o/opinionated-ci-pipeline/3.0.0-3.0.0b0/README.md --exclude *.pyd
+[2024-05-15 14:48:21] INFO root fetch - processPackages [pyroSAR]: Downloading https://files.pythonhosted.org/packages/ab/b2/53814cc97f6b97f09f9ba6641442c89bd4e7aea235c28fc23aacd06de735/pyroSAR-0.9.1.tar.gz
+[2024-05-15 14:48:21] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.6.3.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.0.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - main [MainThread]: End processing [pysql-repo]: success
+[2024-05-15 14:48:21] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-05-15 14:48:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-15 14:48:21] INFO root fetch - processPackages [l2dexapi]: Remove: archive file [/home/abi/fetcher/tmp/l2dexapi-1.1.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - processPackages [l2dexapi]: Remove: archive file [/home/abi/fetcher/tmp/l2dexapi-1.2.tar.gz]
+[2024-05-15 14:48:21] INFO root fetch - main [MainThread]: End processing [l2dexapi]: success
+[2024-05-15 14:48:22] INFO root fetch - processPackages [pyroSAR]: executing diffoscope
+[2024-05-15 14:48:22] INFO root fetch - processPackages [pyroSAR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroSAR-0.9.tar.gz tmp/pyroSAR-0.9.1.tar.gz --markdown 20240515/p/pyroSAR/0.9-0.9.1/README.md --exclude *.pyd
+[2024-05-15 14:48:22] INFO root fetch - processPackages [opinionated-ci-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/opinionated-ci-pipeline-3.0.0.tar.gz]
+[2024-05-15 14:48:22] INFO root fetch - processPackages [opinionated-ci-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/opinionated-ci-pipeline-3.0.0b0.tar.gz]
+[2024-05-15 14:48:22] INFO root fetch - main [MainThread]: End processing [opinionated-ci-pipeline]: success
+[2024-05-15 14:48:23] INFO root fetch - processPackages [pyroSAR]: Remove: archive file [/home/abi/fetcher/tmp/pyroSAR-0.9.tar.gz]
+[2024-05-15 14:48:23] INFO root fetch - processPackages [pyroSAR]: Remove: archive file [/home/abi/fetcher/tmp/pyroSAR-0.9.1.tar.gz]
+[2024-05-15 14:48:23] INFO root fetch - main [MainThread]: End processing [pyroSAR]: success
+[2024-05-15 14:48:23] INFO root fetch - main [MainThread]: Store serial: [23217807]
