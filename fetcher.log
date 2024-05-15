@@ -9572,3 +9572,15 @@
 [2024-05-15 05:47:58] INFO root fetch - processPackages [parallel-sparse-tools]: Remove: archive file [/home/abi/fetcher/tmp/parallel_sparse_tools-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip]
 [2024-05-15 05:47:58] INFO root fetch - main [MainThread]: End processing [parallel-sparse-tools]: success
 [2024-05-15 05:47:58] INFO root fetch - main [MainThread]: Store serial: [23212373]
+[2024-05-15 05:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212373]
+[2024-05-15 05:50:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 05:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liechains
+[2024-05-15 05:50:08] INFO root fetch - processPackages [liechains]: New version: [0.3.0] Old Version: [0.2.7]
+[2024-05-15 05:50:09] INFO root fetch - processPackages [liechains]: Downloading https://files.pythonhosted.org/packages/53/74/9cd6025b55efa0fb8b8fcf4fd75ed9d2f2a0d6b6dd8f502d24c110f495d1/liechains-0.2.7.tar.gz
+[2024-05-15 05:50:09] INFO root fetch - processPackages [liechains]: Downloading https://files.pythonhosted.org/packages/bb/6f/cf05b2bd97e4356560e1fc38cf5d58a5957f95a741358f158c5cad782890/liechains-0.3.0.tar.gz
+[2024-05-15 05:50:09] INFO root fetch - processPackages [liechains]: executing diffoscope
+[2024-05-15 05:50:09] INFO root fetch - processPackages [liechains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liechains-0.2.7.tar.gz tmp/liechains-0.3.0.tar.gz --markdown 20240515/l/liechains/0.2.7-0.3.0/README.md --exclude *.pyd
+[2024-05-15 05:50:10] INFO root fetch - processPackages [liechains]: Remove: archive file [/home/abi/fetcher/tmp/liechains-0.2.7.tar.gz]
+[2024-05-15 05:50:10] INFO root fetch - processPackages [liechains]: Remove: archive file [/home/abi/fetcher/tmp/liechains-0.3.0.tar.gz]
+[2024-05-15 05:50:10] INFO root fetch - main [MainThread]: End processing [liechains]: success
+[2024-05-15 05:50:10] INFO root fetch - main [MainThread]: Store serial: [23212378]
