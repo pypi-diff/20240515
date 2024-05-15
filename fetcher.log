@@ -10192,3 +10192,58 @@
 [2024-05-15 06:34:22] INFO root fetch - processPackages [datasette-extract]: Remove: archive file [/home/abi/fetcher/tmp/datasette_extract-0.1a7.tar.gz]
 [2024-05-15 06:34:22] INFO root fetch - main [MainThread]: End processing [datasette-extract]: success
 [2024-05-15 06:34:22] INFO root fetch - main [MainThread]: Store serial: [23212677]
+[2024-05-15 06:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212677]
+[2024-05-15 06:36:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 06:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced_navigation
+[2024-05-15 06:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fazah
+[2024-05-15 06:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sssimp
+[2024-05-15 06:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythfinder
+[2024-05-15 06:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fazah
+[2024-05-15 06:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satsure-core-test
+[2024-05-15 06:36:31] INFO root fetch - processPackages [fazah]: New version: [3.29] Old Version: [3.27]
+[2024-05-15 06:36:31] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.60] Old Version: [0.1.51]
+[2024-05-15 06:36:31] INFO root fetch - processPackages [satsure-core-test]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 06:36:31] INFO root fetch - processPackages [fazah]: New version: [3.29] Old Version: [3.27]
+[2024-05-15 06:36:31] INFO root fetch - processPackages [sssimp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 06:36:31] INFO root fetch - processPackages [pythfinder]: New version: [0.0.3.7] Old Version: [0.0.3.6]
+[2024-05-15 06:36:31] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/d8/ed/c30ee75029a0a8132bab0b99e74cb989eed230b0ede570913c965188be42/fazah-3.27.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/5e/05/ce39716e0f3158eb14aa1a6bea2cc730da47ad01e27856f607e3e908fec8/advanced_navigation-0.1.51.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/0a/f8/aedc58f9ea2a9cd9495d53f4a753d1806660421475f2ac07e3cd53d9824b/satsure_core_test-0.1.2.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/d8/ed/c30ee75029a0a8132bab0b99e74cb989eed230b0ede570913c965188be42/fazah-3.27.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/6f/c1/cd15d3012c4e6da588a1679dad12e6d8087cc65356e68d6b3d433ab60f08/pythfinder-0.0.3.6.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [sssimp]: Downloading https://files.pythonhosted.org/packages/98/5d/d27460f34f4ff5766d2611750039ffe64ae5bffd6407e6eb456be1778fcf/sssimp-0.1.0.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/df/d5/9727f260a5d7a7bcbd6ba157c423120e907a052db00396aec8bbf08cf8f2/fazah-3.29.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/df/d5/9727f260a5d7a7bcbd6ba157c423120e907a052db00396aec8bbf08cf8f2/fazah-3.29.tar.gz
+[2024-05-15 06:36:31] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/a2/7e/fdaa224fcf56b5f7ca20816f90f288ec581ef52630580554e1416fc40258/advanced_navigation-0.1.60.tar.gz
+[2024-05-15 06:36:32] INFO root fetch - processPackages [fazah]: executing diffoscope
+[2024-05-15 06:36:32] INFO root fetch - processPackages [fazah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazah-3.27.tar.gz tmp/fazah-3.29.tar.gz --markdown 20240515/f/fazah/3.27-3.29/README.md --exclude *.pyd
+[2024-05-15 06:36:32] INFO root fetch - processPackages [fazah]: executing diffoscope
+[2024-05-15 06:36:32] INFO root fetch - processPackages [fazah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazah-3.27.tar.gz tmp/fazah-3.29.tar.gz --markdown 20240515/f/fazah/3.27-3.29/README.md --exclude *.pyd
+[2024-05-15 06:36:32] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-15 06:36:32] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.51.tar.gz tmp/advanced_navigation-0.1.60.tar.gz --markdown 20240515/a/advanced_navigation/0.1.51-0.1.60/README.md --exclude *.pyd
+[2024-05-15 06:36:32] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/2e/75/8014a5458979ef3bbeba8cf874027d731bb8fee13177a5b1a523becdc177/satsure_core_test-0.1.3.tar.gz
+[2024-05-15 06:36:32] INFO root fetch - processPackages [sssimp]: Downloading https://files.pythonhosted.org/packages/9b/3b/d56e1f43837ad8fb1665ce51972702fca36f6c4fb74c6edcaf4bb32ef99c/sssimp-0.1.1.tar.gz
+[2024-05-15 06:36:32] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/4c/cc/2ccfcad1e5c0fb8d999e6a6fbee27ca17a9f1fe3cb103795166b087f2622/pythfinder-0.0.3.7.tar.gz
+[2024-05-15 06:36:32] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-15 06:36:32] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.1.2.tar.gz tmp/satsure_core_test-0.1.3.tar.gz --markdown 20240515/s/satsure-core-test/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 06:36:32] INFO root fetch - processPackages [sssimp]: executing diffoscope
+[2024-05-15 06:36:32] INFO root fetch - processPackages [sssimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssimp-0.1.0.tar.gz tmp/sssimp-0.1.1.tar.gz --markdown 20240515/s/sssimp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 06:36:32] INFO root fetch - processPackages [pythfinder]: executing diffoscope
+[2024-05-15 06:36:32] INFO root fetch - processPackages [pythfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythfinder-0.0.3.6.tar.gz tmp/pythfinder-0.0.3.7.tar.gz --markdown 20240515/p/pythfinder/0.0.3.6-0.0.3.7/README.md --exclude *.pyd
+[2024-05-15 06:36:32] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.27.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.29.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - main [MainThread]: End processing [fazah]: success
+[2024-05-15 06:36:32] INFO root fetch - main [MainThread]: End processing [fazah]: success
+[2024-05-15 06:36:32] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.2.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.3.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-15 06:36:32] INFO root fetch - processPackages [sssimp]: Remove: archive file [/home/abi/fetcher/tmp/sssimp-0.1.0.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - processPackages [sssimp]: Remove: archive file [/home/abi/fetcher/tmp/sssimp-0.1.1.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - main [MainThread]: End processing [sssimp]: success
+[2024-05-15 06:36:32] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.51.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.60.tar.gz]
+[2024-05-15 06:36:32] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-15 06:36:33] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.6.tar.gz]
+[2024-05-15 06:36:33] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.7.tar.gz]
+[2024-05-15 06:36:33] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
+[2024-05-15 06:36:33] INFO root fetch - main [MainThread]: Store serial: [23212694]
