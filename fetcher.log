@@ -17603,3 +17603,56 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:42:10] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.1-py3-none-any.whl.zip]
 [2024-05-15 11:42:10] INFO root fetch - main [MainThread]: End processing [kpops]: success
 [2024-05-15 11:42:10] INFO root fetch - main [MainThread]: Store serial: [23215756]
+[2024-05-15 11:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215756]
+[2024-05-15 11:44:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kpops
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: as7262
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msiaLex
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: folerhandle
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdfs-client
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-sumologic
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imagedata
+[2024-05-15 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: warskald
+[2024-05-15 11:44:19] WARNING root fetch - processPackages [warskald]: Skipping, unable to determine old version
+[2024-05-15 11:44:19] INFO root fetch - main [MainThread]: End processing [warskald] error
+[2024-05-15 11:44:19] WARNING root fetch - processPackages [folerhandle]: Skipping, unable to determine old version
+[2024-05-15 11:44:19] INFO root fetch - main [MainThread]: End processing [folerhandle] error
+[2024-05-15 11:44:19] WARNING root fetch - processPackages [fastdfs-client]: Skipping, unable to determine old version
+[2024-05-15 11:44:19] INFO root fetch - main [MainThread]: End processing [fastdfs-client] error
+[2024-05-15 11:44:19] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-15 11:44:19] INFO root fetch - processPackages [kpops]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-15 11:44:19] INFO root fetch - processPackages [imagedata]: New version: [3.5.5rc2] Old Version: [3.5.5rc1]
+[2024-05-15 11:44:20] INFO root fetch - processPackages [as7262]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-15 11:44:20] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/a3/de/6acf56bf8e1128566bef12792598f380ff2e783068c73af28656622067e1/kpops-5.0.0.tar.gz
+[2024-05-15 11:44:20] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-15 11:44:20] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/ec/b4/d5337dbe7eac09bb8176a169752bf12b34cb2b940ce04f2cf2655968f249/imagedata-3.5.5rc1.tar.gz
+[2024-05-15 11:44:20] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-15 11:44:20] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27633565>=10485760
+[2024-05-15 11:44:20] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-05-15 11:44:20] INFO root fetch - processPackages [as7262]: Downloading https://files.pythonhosted.org/packages/ee/a3/9ceb846bc0cc69c86fcbfcd668f3df8d0fa6b6f516fb75ab9aa45f3a23ae/as7262-0.1.0.tar.gz
+[2024-05-15 11:44:20] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-15 11:44:20] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/c1/de/c00639cb6c57c215b0320cf502631c97d6411d989fda8195a675828ccea5/kpops-5.0.1-py3-none-any.whl
+[2024-05-15 11:44:20] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-15 11:44:20] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 11:44:20] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-15 11:44:20] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2024-05-15 11:44:20] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-5.0.0.tar.gz tmp/kpops-5.0.1-py3-none-any.whl.zip --markdown 20240515/k/kpops/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-15 11:44:20] INFO root fetch - processPackages [as7262]: Downloading https://files.pythonhosted.org/packages/55/1d/5944a961f1cf667eaba578686be9aeb13f4c7064725fe453407b7668d2d0/as7262-1.0.0.tar.gz
+[2024-05-15 11:44:20] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-15 11:44:20] INFO root fetch - processPackages [as7262]: executing diffoscope
+[2024-05-15 11:44:20] INFO root fetch - processPackages [as7262]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/as7262-0.1.0.tar.gz tmp/as7262-1.0.0.tar.gz --markdown 20240515/a/as7262/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-15 11:44:20] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-15 11:44:20] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240515/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-15 11:44:21] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-15 11:44:21] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-15 11:44:21] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 11:44:21] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.0.tar.gz]
+[2024-05-15 11:44:21] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.1-py3-none-any.whl.zip]
+[2024-05-15 11:44:21] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2024-05-15 11:44:21] INFO root fetch - processPackages [as7262]: Remove: archive file [/home/abi/fetcher/tmp/as7262-0.1.0.tar.gz]
+[2024-05-15 11:44:21] INFO root fetch - processPackages [as7262]: Remove: archive file [/home/abi/fetcher/tmp/as7262-1.0.0.tar.gz]
+[2024-05-15 11:44:21] INFO root fetch - main [MainThread]: End processing [as7262]: success
+[2024-05-15 11:44:21] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-15 11:44:21] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-15 11:44:21] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-15 11:44:21] INFO root fetch - main [MainThread]: Store serial: [23215778]
