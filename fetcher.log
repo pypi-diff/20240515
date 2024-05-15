@@ -14125,3 +14125,32 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:40:12] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-15 09:40:12] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-15 09:40:12] INFO root fetch - main [MainThread]: Store serial: [23214225]
+[2024-05-15 09:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214225]
+[2024-05-15 09:42:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamma-desk
+[2024-05-15 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretflow-serving-lib
+[2024-05-15 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saf-datasets
+[2024-05-15 09:42:23] INFO root fetch - processPackages [saf-datasets]: New version: [0.6.4] Old Version: [0.6.2]
+[2024-05-15 09:42:23] INFO root fetch - processPackages [saf-datasets]: Downloading https://files.pythonhosted.org/packages/b7/ad/1d3cfc551fe63d3a87da32aa4eb6266422987a032ff040080451ddd74be2/saf_datasets-0.6.2.tar.gz
+[2024-05-15 09:42:23] INFO root fetch - processPackages [secretflow-serving-lib]: New version: [0.3.0b0] Old Version: [0.3.0.dev20240320]
+[2024-05-15 09:42:23] INFO root fetch - processPackages [gamma-desk]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-15 09:42:23] INFO root fetch - processPackages [secretflow-serving-lib]: Downloading https://files.pythonhosted.org/packages/c0/3d/40533d0f5b0d38b8fde81fe6879165175631cea08cfc69648cee58ac3b2c/secretflow_serving_lib-0.3.0.dev20240320-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-15 09:42:23] INFO root fetch - processPackages [gamma-desk]: Downloading https://files.pythonhosted.org/packages/76/e7/5a73858be93a38484878595833edc72daf37a12f50ea78587cd3b9de357a/gamma_desk-1.1.0-py3-none-any.whl
+[2024-05-15 09:42:23] INFO root fetch - processPackages [saf-datasets]: Downloading https://files.pythonhosted.org/packages/95/41/c3f9b6472fe556c9eb9dc9a7a1c17a4fcd3d921d32b6fa6d0c908f455bd1/saf_datasets-0.6.4.tar.gz
+[2024-05-15 09:42:23] INFO root fetch - processPackages [saf-datasets]: executing diffoscope
+[2024-05-15 09:42:23] INFO root fetch - processPackages [saf-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saf_datasets-0.6.2.tar.gz tmp/saf_datasets-0.6.4.tar.gz --markdown 20240515/s/saf-datasets/0.6.2-0.6.4/README.md --exclude *.pyd
+[2024-05-15 09:42:24] INFO root fetch - processPackages [gamma-desk]: Downloading https://files.pythonhosted.org/packages/ca/f3/d822d4465f9b4ff4263a2c7ce47e2c5f47db36b4689b90ac6239fbce2057/gamma_desk-1.2.0-py3-none-any.whl
+[2024-05-15 09:42:24] INFO root fetch - processPackages [gamma-desk]: executing diffoscope
+[2024-05-15 09:42:24] INFO root fetch - processPackages [gamma-desk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamma_desk-1.1.0-py3-none-any.whl.zip tmp/gamma_desk-1.2.0-py3-none-any.whl.zip --markdown 20240515/g/gamma-desk/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-15 09:42:24] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.2.tar.gz]
+[2024-05-15 09:42:24] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.4.tar.gz]
+[2024-05-15 09:42:24] INFO root fetch - main [MainThread]: End processing [saf-datasets]: success
+[2024-05-15 09:42:25] INFO root fetch - processPackages [secretflow-serving-lib]: Downloading https://files.pythonhosted.org/packages/50/55/fc1416e780e621d8b33941a7c80c09e8279f2f31737920d415084c9f2dcd/secretflow_serving_lib-0.3.0b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-15 09:42:25] INFO root fetch - processPackages [gamma-desk]: Remove: archive file [/home/abi/fetcher/tmp/gamma_desk-1.1.0-py3-none-any.whl.zip]
+[2024-05-15 09:42:25] INFO root fetch - processPackages [gamma-desk]: Remove: archive file [/home/abi/fetcher/tmp/gamma_desk-1.2.0-py3-none-any.whl.zip]
+[2024-05-15 09:42:25] INFO root fetch - main [MainThread]: End processing [gamma-desk]: success
+[2024-05-15 09:42:26] INFO root fetch - processPackages [secretflow-serving-lib]: executing diffoscope
+[2024-05-15 09:42:26] INFO root fetch - processPackages [secretflow-serving-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_serving_lib-0.3.0.dev20240320-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/secretflow_serving_lib-0.3.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240515/s/secretflow-serving-lib/0.3.0.dev20240320-0.3.0b0/README.md --exclude *.pyd
+[2024-05-15 09:45:26] ERROR root fetch - processPackages [secretflow-serving-lib]: Timeout during execution of pkgdiff
+[2024-05-15 09:45:26] INFO root fetch - main [MainThread]: End processing [secretflow-serving-lib] error
+[2024-05-15 09:45:26] INFO root fetch - main [MainThread]: Store serial: [23214237]
