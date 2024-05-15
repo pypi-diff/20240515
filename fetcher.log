@@ -13496,3 +13496,42 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:15:44] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-05-15 09:15:44] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-05-15 09:15:44] INFO root fetch - main [MainThread]: Store serial: [23213971]
+[2024-05-15 09:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213971]
+[2024-05-15 09:17:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 09:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompeteer
+[2024-05-15 09:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongo-objects
+[2024-05-15 09:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afl-ai-utils
+[2024-05-15 09:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvprocessor
+[2024-05-15 09:17:53] INFO root fetch - processPackages [prompeteer]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-15 09:17:53] INFO root fetch - processPackages [cvprocessor]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-15 09:17:53] INFO root fetch - processPackages [mongo-objects]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-15 09:17:53] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/60/a4/8d363d3e8d60df2dc42cc7f0efbcacbfde445ecd1290f95cdf6f56a1c516/prompeteer-0.1.1.tar.gz
+[2024-05-15 09:17:53] INFO root fetch - processPackages [afl-ai-utils]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-15 09:17:53] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/14/b8/24d08e6154223ab02a085fafae4b3275a7521e56ac75f1c81cb3d4432471/cvprocessor-0.6.2.tar.gz
+[2024-05-15 09:17:53] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/83/07/9549d131cebe800329904f30b7d23f69fba127048864295dce7c27c18a78/mongo_objects-1.2.2.tar.gz
+[2024-05-15 09:17:53] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/05/7d/a706a38b32fadc1d76724416ebc5955bff50236d4babfef8ab8eb74f2ff2/prompeteer-0.1.4.tar.gz
+[2024-05-15 09:17:53] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/ed/64/0b07d547cf45cc62947a3d5dfa5f4c0eb937fc10e61fe4158905b849daa0/afl-ai-utils-0.4.7.tar.gz
+[2024-05-15 09:17:53] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/a8/00/dc0cf89c504209e0811abd1e1f2a56a4c1a0e8c233017f25f3383b275b63/cvprocessor-0.6.3.tar.gz
+[2024-05-15 09:17:53] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 09:17:53] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.1.tar.gz tmp/prompeteer-0.1.4.tar.gz --markdown 20240515/p/prompeteer/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-15 09:17:53] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 09:17:53] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.6.2.tar.gz tmp/cvprocessor-0.6.3.tar.gz --markdown 20240515/c/cvprocessor/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-15 09:17:53] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/15/a6/b4ce5298069660b3bc96fb54f10a4d2c74455ef35274ce02a8bf58c7b159/afl-ai-utils-0.4.8.tar.gz
+[2024-05-15 09:17:54] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/f0/ad/191a46851abd4fddc80b38e8532144029a56c103033c0a7b95fb42448b2f/mongo_objects-1.2.3.tar.gz
+[2024-05-15 09:17:54] INFO root fetch - processPackages [afl-ai-utils]: executing diffoscope
+[2024-05-15 09:17:54] INFO root fetch - processPackages [afl-ai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afl-ai-utils-0.4.7.tar.gz tmp/afl-ai-utils-0.4.8.tar.gz --markdown 20240515/a/afl-ai-utils/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-15 09:17:54] INFO root fetch - processPackages [mongo-objects]: executing diffoscope
+[2024-05-15 09:17:54] INFO root fetch - processPackages [mongo-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_objects-1.2.2.tar.gz tmp/mongo_objects-1.2.3.tar.gz --markdown 20240515/m/mongo-objects/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-15 09:17:54] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.1.tar.gz]
+[2024-05-15 09:17:54] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.4.tar.gz]
+[2024-05-15 09:17:54] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 09:17:54] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.2.tar.gz]
+[2024-05-15 09:17:54] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.3.tar.gz]
+[2024-05-15 09:17:54] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 09:17:54] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.4.7.tar.gz]
+[2024-05-15 09:17:54] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.4.8.tar.gz]
+[2024-05-15 09:17:54] INFO root fetch - main [MainThread]: End processing [afl-ai-utils]: success
+[2024-05-15 09:17:55] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.2.2.tar.gz]
+[2024-05-15 09:17:55] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.2.3.tar.gz]
+[2024-05-15 09:17:55] INFO root fetch - main [MainThread]: End processing [mongo-objects]: success
+[2024-05-15 09:17:55] INFO root fetch - main [MainThread]: Store serial: [23213984]
