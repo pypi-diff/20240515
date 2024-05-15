@@ -10004,3 +10004,51 @@
 [2024-05-15 06:23:21] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.60.tar.gz]
 [2024-05-15 06:23:21] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
 [2024-05-15 06:23:21] INFO root fetch - main [MainThread]: Store serial: [23212612]
+[2024-05-15 06:25:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212612]
+[2024-05-15 06:25:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 06:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced_navigation
+[2024-05-15 06:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almgroad
+[2024-05-15 06:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clodoo
+[2024-05-15 06:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zerobug
+[2024-05-15 06:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revert-api
+[2024-05-15 06:25:30] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.60] Old Version: [0.1.51]
+[2024-05-15 06:25:30] INFO root fetch - processPackages [almgroad]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 06:25:31] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/5e/05/ce39716e0f3158eb14aa1a6bea2cc730da47ad01e27856f607e3e908fec8/advanced_navigation-0.1.51.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [clodoo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-15 06:25:31] INFO root fetch - processPackages [revert-api]: New version: [0.0.970] Old Version: [0.0.922]
+[2024-05-15 06:25:31] INFO root fetch - processPackages [zerobug]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-15 06:25:31] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/88/d1/e2d7ed5c2006c8b70d4f8547e674be818e11edd25c2ae246457d1347e8cb/almgroad-0.0.1-py3-none-any.whl
+[2024-05-15 06:25:31] INFO root fetch - processPackages [clodoo]: Downloading https://files.pythonhosted.org/packages/c2/85/5a1dded567bc517e36b08465888f03f0a9ad719d2b0bd1090b5c355f8618/clodoo-2.0.8.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/4d/54/ce98880a65b1a10eb37e6e333a64f07268093b0e0f10a83c1898a1f896d1/revert_api-0.0.922.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [zerobug]: Downloading https://files.pythonhosted.org/packages/2d/df/fd363cb8442c3ceec4a9d0bb0812b098c372841f97bf3561694c47711ebc/zerobug-2.0.8.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/a2/7e/fdaa224fcf56b5f7ca20816f90f288ec581ef52630580554e1416fc40258/advanced_navigation-0.1.60.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-15 06:25:31] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.51.tar.gz tmp/advanced_navigation-0.1.60.tar.gz --markdown 20240515/a/advanced_navigation/0.1.51-0.1.60/README.md --exclude *.pyd
+[2024-05-15 06:25:31] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/c2/8d/92a47b7f9f446c3637173a2bfbcd6b349ced564ceede19175f226b411664/almgroad-0.0.2-py3-none-any.whl
+[2024-05-15 06:25:31] INFO root fetch - processPackages [almgroad]: executing diffoscope
+[2024-05-15 06:25:31] INFO root fetch - processPackages [almgroad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almgroad-0.0.1-py3-none-any.whl.zip tmp/almgroad-0.0.2-py3-none-any.whl.zip --markdown 20240515/a/almgroad/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 06:25:31] INFO root fetch - processPackages [clodoo]: Downloading https://files.pythonhosted.org/packages/c2/ad/a7eedfa57cbc66c7a167524ea3a33dd806dba4f4a833c473a2f7782991cb/clodoo-2.0.9.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/27/3b/cbb9355b0e43d3ce0008a4932baab92a5772844ed44eb50f6ab623a74382/revert_api-0.0.970.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [zerobug]: Downloading https://files.pythonhosted.org/packages/48/bc/fdfc1375e5ce57fd06c71c9f876127e740c72004dbec7b3a450ac40e0e23/zerobug-2.0.9.tar.gz
+[2024-05-15 06:25:31] INFO root fetch - processPackages [revert-api]: executing diffoscope
+[2024-05-15 06:25:31] INFO root fetch - processPackages [revert-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revert_api-0.0.922.tar.gz tmp/revert_api-0.0.970.tar.gz --markdown 20240515/r/revert-api/0.0.922-0.0.970/README.md --exclude *.pyd
+[2024-05-15 06:25:31] INFO root fetch - processPackages [zerobug]: executing diffoscope
+[2024-05-15 06:25:31] INFO root fetch - processPackages [zerobug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerobug-2.0.8.tar.gz tmp/zerobug-2.0.9.tar.gz --markdown 20240515/z/zerobug/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-15 06:25:31] INFO root fetch - processPackages [clodoo]: executing diffoscope
+[2024-05-15 06:25:31] INFO root fetch - processPackages [clodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clodoo-2.0.8.tar.gz tmp/clodoo-2.0.9.tar.gz --markdown 20240515/c/clodoo/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-15 06:25:32] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.1-py3-none-any.whl.zip]
+[2024-05-15 06:25:32] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.2-py3-none-any.whl.zip]
+[2024-05-15 06:25:32] INFO root fetch - main [MainThread]: End processing [almgroad]: success
+[2024-05-15 06:25:32] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.51.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.60.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-15 06:25:32] INFO root fetch - processPackages [zerobug]: Remove: archive file [/home/abi/fetcher/tmp/zerobug-2.0.8.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - processPackages [zerobug]: Remove: archive file [/home/abi/fetcher/tmp/zerobug-2.0.9.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - main [MainThread]: End processing [zerobug]: success
+[2024-05-15 06:25:32] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.922.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.970.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - main [MainThread]: End processing [revert-api]: success
+[2024-05-15 06:25:32] INFO root fetch - processPackages [clodoo]: Remove: archive file [/home/abi/fetcher/tmp/clodoo-2.0.8.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - processPackages [clodoo]: Remove: archive file [/home/abi/fetcher/tmp/clodoo-2.0.9.tar.gz]
+[2024-05-15 06:25:32] INFO root fetch - main [MainThread]: End processing [clodoo]: success
+[2024-05-15 06:25:32] INFO root fetch - main [MainThread]: Store serial: [23212629]
