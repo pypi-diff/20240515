@@ -9187,3 +9187,42 @@
 [2024-05-15 05:30:28] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
 [2024-05-15 05:30:28] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2024-05-15 05:30:28] INFO root fetch - main [MainThread]: Store serial: [23212160]
+[2024-05-15 05:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212160]
+[2024-05-15 05:32:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 05:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-05-15 05:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-15 05:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pigit
+[2024-05-15 05:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: virtual-camera
+[2024-05-15 05:32:38] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 05:32:38] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-15 05:32:38] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/61/19/493aac647b8e3df4fde85b20cde9c44e0d20209b8b0efd6396a454719245/OperationBattleshipCommonUtilities-0.4.8.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [pigit]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-05-15 05:32:38] INFO root fetch - processPackages [virtual-camera]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 05:32:38] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/fe/be/3631aa82c0edcad3232063f07860ab05a73d670fcf42b589d7cb039f0ed9/OperationBattleshipCommonUtilities-0.4.9.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [pigit]: Downloading https://files.pythonhosted.org/packages/8e/de/c94ef22e4168ea72de36a95bee94f0f9215b17a25d0b659029a53c9995d2/pigit-1.6.1.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-15 05:32:38] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz --markdown 20240515/O/OperationBattleshipCommonUtilities/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 05:32:38] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-15 05:32:38] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240515/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-15 05:32:38] INFO root fetch - processPackages [virtual-camera]: Downloading https://files.pythonhosted.org/packages/bf/a5/44841b742ea0a0b994d84a6ca6b7ed534be74ab6b2644add22b1ccc193b5/virtual_camera-0.0.3.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [pigit]: Downloading https://files.pythonhosted.org/packages/42/cc/9c4d9a7eb93d41b5899342c23b8aaaf42d96c6595ca2631a8c3cdc439e0c/pigit-1.7.0.tar.gz
+[2024-05-15 05:32:38] INFO root fetch - processPackages [pigit]: executing diffoscope
+[2024-05-15 05:32:38] INFO root fetch - processPackages [pigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigit-1.6.1.tar.gz tmp/pigit-1.7.0.tar.gz --markdown 20240515/p/pigit/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-05-15 05:32:39] INFO root fetch - processPackages [virtual-camera]: Downloading https://files.pythonhosted.org/packages/5b/d6/1a88ad681ac3e8b4d8413ad2cb61567b65f23f8d2b04d5521668ac0eaff8/virtual_camera-0.0.4.tar.gz
+[2024-05-15 05:32:39] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz]
+[2024-05-15 05:32:39] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz]
+[2024-05-15 05:32:39] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-15 05:32:39] INFO root fetch - processPackages [virtual-camera]: executing diffoscope
+[2024-05-15 05:32:39] INFO root fetch - processPackages [virtual-camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtual_camera-0.0.3.tar.gz tmp/virtual_camera-0.0.4.tar.gz --markdown 20240515/v/virtual-camera/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 05:32:39] INFO root fetch - processPackages [pigit]: Remove: archive file [/home/abi/fetcher/tmp/pigit-1.6.1.tar.gz]
+[2024-05-15 05:32:39] INFO root fetch - processPackages [pigit]: Remove: archive file [/home/abi/fetcher/tmp/pigit-1.7.0.tar.gz]
+[2024-05-15 05:32:39] INFO root fetch - main [MainThread]: End processing [pigit]: success
+[2024-05-15 05:32:39] INFO root fetch - processPackages [virtual-camera]: Remove: archive file [/home/abi/fetcher/tmp/virtual_camera-0.0.3.tar.gz]
+[2024-05-15 05:32:39] INFO root fetch - processPackages [virtual-camera]: Remove: archive file [/home/abi/fetcher/tmp/virtual_camera-0.0.4.tar.gz]
+[2024-05-15 05:32:39] INFO root fetch - main [MainThread]: End processing [virtual-camera]: success
+[2024-05-15 05:32:40] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-15 05:32:40] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-15 05:32:40] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-15 05:32:40] INFO root fetch - main [MainThread]: Store serial: [23212173]
