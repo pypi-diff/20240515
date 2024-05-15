@@ -9736,3 +9736,24 @@
 [2024-05-15 06:01:14] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405150127.tar.gz]
 [2024-05-15 06:01:14] INFO root fetch - main [MainThread]: End processing [onediffx]: success
 [2024-05-15 06:01:14] INFO root fetch - main [MainThread]: Store serial: [23212472]
+[2024-05-15 06:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212472]
+[2024-05-15 06:03:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 06:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-pagerduty
+[2024-05-15 06:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenopype
+[2024-05-15 06:03:23] INFO root fetch - processPackages [phenopype]: New version: [5.0.0] Old Version: [4.1.0]
+[2024-05-15 06:03:23] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-15 06:03:23] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/f1/73/a595f0a576c8822f552809dc2929ef8e8a3840439d26d0498ed5de87f155/phenopype-4.1.0.tar.gz
+[2024-05-15 06:03:23] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/4c/e5/8b7f0d082a46e17d4eedf3d3f444f81c6f7e91d578b29c24936a3a90a4c4/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz
+[2024-05-15 06:03:23] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/b1/2d/205c1c642adecca2bad7074cc0b2ed8b0262c721a89a41b0579eea982769/phenopype-5.0.0.tar.gz
+[2024-05-15 06:03:23] INFO root fetch - processPackages [phenopype]: executing diffoscope
+[2024-05-15 06:03:23] INFO root fetch - processPackages [phenopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenopype-4.1.0.tar.gz tmp/phenopype-5.0.0.tar.gz --markdown 20240515/p/phenopype/4.1.0-5.0.0/README.md --exclude *.pyd
+[2024-05-15 06:03:24] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/95/46/968f71be0a17bdfa82dc9a050fb2e6b2954d37c5d625ae2e68fece911353/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz
+[2024-05-15 06:03:24] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2024-05-15 06:03:24] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz --markdown 20240515/c/cdktf-cdktf-provider-pagerduty/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-15 06:03:24] INFO root fetch - processPackages [phenopype]: Remove: archive file [/home/abi/fetcher/tmp/phenopype-4.1.0.tar.gz]
+[2024-05-15 06:03:24] INFO root fetch - processPackages [phenopype]: Remove: archive file [/home/abi/fetcher/tmp/phenopype-5.0.0.tar.gz]
+[2024-05-15 06:03:24] INFO root fetch - main [MainThread]: End processing [phenopype]: success
+[2024-05-15 06:03:26] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz]
+[2024-05-15 06:03:26] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
+[2024-05-15 06:03:26] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2024-05-15 06:03:26] INFO root fetch - main [MainThread]: Store serial: [23212480]
