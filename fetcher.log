@@ -21591,3 +21591,77 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:27:07] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-15 14:27:07] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-15 14:27:07] INFO root fetch - main [MainThread]: Store serial: [23217459]
+[2024-05-15 14:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217459]
+[2024-05-15 14:29:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eprllib
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FitBenchmarking
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-translate
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ara-cli
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reversinglabs-sdk-py3
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adaux
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sft-data-generator
+[2024-05-15 14:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onyxpm
+[2024-05-15 14:29:17] INFO root fetch - processPackages [onyxpm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.40] Old Version: [0.1.4.39]
+[2024-05-15 14:29:17] WARNING root fetch - processPackages [sft-data-generator]: Skipping, unable to determine old version
+[2024-05-15 14:29:17] INFO root fetch - main [MainThread]: End processing [sft-data-generator] error
+[2024-05-15 14:29:17] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [adaux]: New version: [3.6.0] Old Version: [3.5.3]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [jupyterlab-translate]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [eprllib]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [FitBenchmarking]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/f1/0c/81d0e6ed92f60de210422eb5e5e5b2171aa940f4aefd5035a1b1fa6499d7/onyxpm-0.0.8.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/5c/0e/388ac12dcd592d27a9a22804b87c50c5638e95dae260c96ab14080ca4510/ara_cli-0.1.4.39.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [reversinglabs-sdk-py3]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-05-15 14:29:17] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [jupyterlab-translate]: Downloading https://files.pythonhosted.org/packages/38/a0/22aedcb1a4fcf911df4e2c449635337a32eea02ddf9656243c966fd64046/jupyterlab_translate-1.3.6.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [eprllib]: Downloading https://files.pythonhosted.org/packages/e1/a3/b1dc3536085b46d3a404cd763b53c7490c007412c7d60f087f0177bb1d15/eprllib-1.1.0.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [FitBenchmarking]: Downloading https://files.pythonhosted.org/packages/cd/e0/463924625668082625295f34e4d0975dc8889b5adeea8c8e41ff9bf6efd7/FitBenchmarking-1.0.0rc1.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/b4/b0/1db6d5752b34abf00637b5e1b66e75c78921d39a7d43861bfbd03a32a5ee/adaux-3.5.3.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Downloading https://files.pythonhosted.org/packages/ff/38/187f1fa632f47690d104eb0623f548c93de2dfaa3630aff97d565955316b/reversinglabs_sdk_py3-2.5.4.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 14:29:17] WARNING root fetch - processPackages [FitBenchmarking]: Skipping package: exceeds size limit 104285926>=10485760
+[2024-05-15 14:29:17] INFO root fetch - main [MainThread]: End processing [FitBenchmarking] error
+[2024-05-15 14:29:17] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/d9/25/f0ad33727a1da3f0a10cd50eeaa9ce63400e65a82b0808297792425482f3/onyxpm-0.0.9.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/8b/88/3bc347fd7c5989099d5476997f147295c27df906a632caed312011fd1616/ara_cli-0.1.4.40.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 14:29:17] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:29:17] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-15 14:29:17] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.8.tar.gz tmp/onyxpm-0.0.9.tar.gz --markdown 20240515/o/onyxpm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:29:17] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-15 14:29:17] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.39.tar.gz tmp/ara_cli-0.1.4.40.tar.gz --markdown 20240515/a/ara-cli/0.1.4.39-0.1.4.40/README.md --exclude *.pyd
+[2024-05-15 14:29:17] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/d9/1f/d99549aac5fbcf7e7609d351a8470a26ff5372dc7ef67a5839064b462b80/adaux-3.6.0.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [eprllib]: Downloading https://files.pythonhosted.org/packages/2e/5c/0b49b758b3e24154172877ac207eaefd0339c5c29b588dfb128051246dd3/eprllib-1.1.1.tar.gz
+[2024-05-15 14:29:17] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Downloading https://files.pythonhosted.org/packages/40/fb/6fd62c5e899f3abcdbe05f26dd3f8bf46f92a2613ec6a2dbf9ebab25e21e/reversinglabs_sdk_py3-2.5.5.tar.gz
+[2024-05-15 14:29:18] INFO root fetch - processPackages [jupyterlab-translate]: Downloading https://files.pythonhosted.org/packages/08/26/0e147d6fa8051b40b5e8db367f64aa383c7ea982205f3e776ec32e3b3fa0/jupyterlab_translate-1.3.7.tar.gz
+[2024-05-15 14:29:18] INFO root fetch - processPackages [adaux]: executing diffoscope
+[2024-05-15 14:29:18] INFO root fetch - processPackages [adaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaux-3.5.3.tar.gz tmp/adaux-3.6.0.tar.gz --markdown 20240515/a/adaux/3.5.3-3.6.0/README.md --exclude *.pyd
+[2024-05-15 14:29:18] INFO root fetch - processPackages [reversinglabs-sdk-py3]: executing diffoscope
+[2024-05-15 14:29:18] INFO root fetch - processPackages [reversinglabs-sdk-py3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reversinglabs_sdk_py3-2.5.4.tar.gz tmp/reversinglabs_sdk_py3-2.5.5.tar.gz --markdown 20240515/r/reversinglabs-sdk-py3/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-05-15 14:29:18] INFO root fetch - processPackages [eprllib]: executing diffoscope
+[2024-05-15 14:29:18] INFO root fetch - processPackages [eprllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eprllib-1.1.0.tar.gz tmp/eprllib-1.1.1.tar.gz --markdown 20240515/e/eprllib/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-15 14:29:18] INFO root fetch - processPackages [jupyterlab-translate]: executing diffoscope
+[2024-05-15 14:29:18] INFO root fetch - processPackages [jupyterlab-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_translate-1.3.6.tar.gz tmp/jupyterlab_translate-1.3.7.tar.gz --markdown 20240515/j/jupyterlab-translate/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-15 14:29:18] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 14:29:18] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.8.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.9.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-15 14:29:18] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.39.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.40.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-15 14:29:18] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Remove: archive file [/home/abi/fetcher/tmp/reversinglabs_sdk_py3-2.5.4.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Remove: archive file [/home/abi/fetcher/tmp/reversinglabs_sdk_py3-2.5.5.tar.gz]
+[2024-05-15 14:29:18] INFO root fetch - main [MainThread]: End processing [reversinglabs-sdk-py3]: success
+[2024-05-15 14:29:19] INFO root fetch - processPackages [adaux]: Remove: archive file [/home/abi/fetcher/tmp/adaux-3.5.3.tar.gz]
+[2024-05-15 14:29:19] INFO root fetch - processPackages [adaux]: Remove: archive file [/home/abi/fetcher/tmp/adaux-3.6.0.tar.gz]
+[2024-05-15 14:29:19] INFO root fetch - main [MainThread]: End processing [adaux]: success
+[2024-05-15 14:29:19] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.1.0.tar.gz]
+[2024-05-15 14:29:19] INFO root fetch - processPackages [eprllib]: Remove: archive file [/home/abi/fetcher/tmp/eprllib-1.1.1.tar.gz]
+[2024-05-15 14:29:19] INFO root fetch - main [MainThread]: End processing [eprllib]: success
+[2024-05-15 14:29:19] INFO root fetch - processPackages [jupyterlab-translate]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_translate-1.3.6.tar.gz]
+[2024-05-15 14:29:19] INFO root fetch - processPackages [jupyterlab-translate]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_translate-1.3.7.tar.gz]
+[2024-05-15 14:29:19] INFO root fetch - main [MainThread]: End processing [jupyterlab-translate]: success
+[2024-05-15 14:29:19] INFO root fetch - main [MainThread]: Store serial: [23217489]
