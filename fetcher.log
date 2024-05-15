@@ -10729,3 +10729,39 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 06:58:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-15 06:58:22] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-15 06:58:22] INFO root fetch - main [MainThread]: Store serial: [23212818]
+[2024-05-15 07:00:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212818]
+[2024-05-15 07:00:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 07:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdmty-django-defender
+[2024-05-15 07:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2024-05-15 07:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BiblioDig
+[2024-05-15 07:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matid
+[2024-05-15 07:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod303
+[2024-05-15 07:00:31] WARNING root fetch - processPackages [BiblioDig]: Skipping, unable to determine old version
+[2024-05-15 07:00:31] INFO root fetch - main [MainThread]: End processing [BiblioDig] error
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-05-15 07:00:31] WARNING root fetch - processPackages [gdmty-django-defender]: Skipping, unable to determine old version
+[2024-05-15 07:00:31] INFO root fetch - main [MainThread]: End processing [gdmty-django-defender] error
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/03/93/6ac1deba43993671bb9840f6add3cced41f0ca8e590c4cc1ee6c1654d03e/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/8a/25/5cfb22a985132c5dc73806aa6363acbf6100806ac098c745c7e8b8861d47/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.1-py3-none-any.whl
+[2024-05-15 07:00:31] INFO root fetch - processPackages [matid]: New version: [2.0.1] Old Version: [2.0.0.dev2]
+[2024-05-15 07:00:31] INFO root fetch - processPackages [matid]: Downloading https://files.pythonhosted.org/packages/ee/9a/311dea58e46a3edeebdfa2c5d6c1416bb4a612a26016b9c12a525dcbc421/matid-2.0.0.dev2.tar.gz
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/6e/41/1c7734cbfdffa0266497cabf9a23a08663831c84d617ccdd7071352edc3a/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/72/ff/58a00a8b57238a8be919ec1ad787cb92db78da1bfdf917c6fa7c2f1ab07c/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.2-py3-none-any.whl
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-es-aeat-mod123/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: executing diffoscope
+[2024-05-15 07:00:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-es-aeat-mod303/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-05-15 07:00:32] INFO root fetch - processPackages [matid]: Downloading https://files.pythonhosted.org/packages/50/0b/23187769c50009edb81e92545fac2dd6f6cb8075372a2363e22008fda9f3/matid-2.0.1-cp311-cp311-win32.whl
+[2024-05-15 07:00:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-15 07:00:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-15 07:00:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
+[2024-05-15 07:00:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 07:00:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-15 07:00:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2024-05-15 07:00:32] INFO root fetch - processPackages [matid]: executing diffoscope
+[2024-05-15 07:00:32] INFO root fetch - processPackages [matid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matid-2.0.0.dev2.tar.gz tmp/matid-2.0.1-cp311-cp311-win32.whl.zip --markdown 20240515/m/matid/2.0.0.dev2-2.0.1/README.md --exclude *.pyd
+[2024-05-15 07:00:33] INFO root fetch - processPackages [matid]: Remove: archive file [/home/abi/fetcher/tmp/matid-2.0.0.dev2.tar.gz]
+[2024-05-15 07:00:33] INFO root fetch - processPackages [matid]: Remove: archive file [/home/abi/fetcher/tmp/matid-2.0.1-cp311-cp311-win32.whl.zip]
+[2024-05-15 07:00:33] INFO root fetch - main [MainThread]: End processing [matid]: success
+[2024-05-15 07:00:33] INFO root fetch - main [MainThread]: Store serial: [23212850]
