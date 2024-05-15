@@ -8906,3 +8906,51 @@
 [2024-05-15 05:15:05] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.53.tar.gz]
 [2024-05-15 05:15:05] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
 [2024-05-15 05:15:05] INFO root fetch - main [MainThread]: Store serial: [23212048]
+[2024-05-15 05:17:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212048]
+[2024-05-15 05:17:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 05:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lessweb
+[2024-05-15 05:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-times
+[2024-05-15 05:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sxs
+[2024-05-15 05:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fnschool
+[2024-05-15 05:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-testing
+[2024-05-15 05:17:13] INFO root fetch - processPackages [fnschool]: New version: [20240515.322.21] Old Version: [20240513.614.21]
+[2024-05-15 05:17:13] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/7c/4e/60793751fcc05bd3dcd375f44addebfb70964cb2edf4f8aed573496418e9/fnschool-20240513.614.21.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [lessweb]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-testing]: New version: [8.629.24136] Old Version: [8.623.24125]
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-times]: New version: [5.629.24136] Old Version: [5.623.24125]
+[2024-05-15 05:17:14] INFO root fetch - processPackages [sxs]: New version: [2023.0.0] Old Version: [2022.5.6]
+[2024-05-15 05:17:14] INFO root fetch - processPackages [lessweb]: Downloading https://files.pythonhosted.org/packages/77/be/cabc75afc49bcbb78d99c6e51fb29c05b4d0a5ef1132f0ee2ca2862e7077/lessweb-1.2.0.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/fa/5e/b3ae58fe71be33a12f81c2709790f875e02a677e5cb137872ebe6b3e952d/fnschool-20240515.322.21.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/73/f9/02440131d320dce316fd990526ba7fd0904491b8f330af34e415e98e9850/mo_times-5.623.24125.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/2c/ef/cfb87f8215183d6980302f95a61794cf2736a89d31aed1b337dd24f7378c/mo_testing-8.623.24125.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [sxs]: Downloading https://files.pythonhosted.org/packages/2e/54/b6e10f68f9cccac079fc610cfd81243ac216d5d382a8dfcceb7980dfa081/sxs-2022.5.6.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-15 05:17:14] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240513.614.21.tar.gz tmp/fnschool-20240515.322.21.tar.gz --markdown 20240515/f/fnschool/20240513.614.21-20240515.322.21/README.md --exclude *.pyd
+[2024-05-15 05:17:14] INFO root fetch - processPackages [lessweb]: Downloading https://files.pythonhosted.org/packages/c5/20/6eb2399598fa368b2b9723aa2eacbe9f2c69a5158f610eb82570760e1ecc/lessweb-1.3.0.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/cb/9a/fae7d5b16a1245b37996a7dd6299975a54f75bc72a454ac76036a3ee00ef/mo_times-5.629.24136.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/1b/e9/7aaa3b1439701873986fea3d281fdea7a6e0e0d2f01ae7d95ef52c58e4e1/mo_testing-8.629.24136.tar.gz
+[2024-05-15 05:17:14] INFO root fetch - processPackages [lessweb]: executing diffoscope
+[2024-05-15 05:17:14] INFO root fetch - processPackages [lessweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lessweb-1.2.0.tar.gz tmp/lessweb-1.3.0.tar.gz --markdown 20240515/l/lessweb/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.623.24125.tar.gz tmp/mo_times-5.629.24136.tar.gz --markdown 20240515/m/mo-times/5.623.24125-5.629.24136/README.md --exclude *.pyd
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2024-05-15 05:17:14] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-8.623.24125.tar.gz tmp/mo_testing-8.629.24136.tar.gz --markdown 20240515/m/mo-testing/8.623.24125-8.629.24136/README.md --exclude *.pyd
+[2024-05-15 05:17:15] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.2.0.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.3.0.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - main [MainThread]: End processing [lessweb]: success
+[2024-05-15 05:17:15] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.614.21.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240515.322.21.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-15 05:17:15] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.623.24125.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.629.24136.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-05-15 05:17:15] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-8.623.24125.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-8.629.24136.tar.gz]
+[2024-05-15 05:17:15] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2024-05-15 05:17:15] INFO root fetch - processPackages [sxs]: Downloading https://files.pythonhosted.org/packages/e3/78/68e54d3dba8bca9bfab48de506d6b4e443c853532be035a3c6c5295eca35/sxs-2023.0.0.tar.gz
+[2024-05-15 05:17:16] INFO root fetch - processPackages [sxs]: executing diffoscope
+[2024-05-15 05:17:16] INFO root fetch - processPackages [sxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sxs-2022.5.6.tar.gz tmp/sxs-2023.0.0.tar.gz --markdown 20240515/s/sxs/2022.5.6-2023.0.0/README.md --exclude *.pyd
+[2024-05-15 05:17:17] INFO root fetch - processPackages [sxs]: Remove: archive file [/home/abi/fetcher/tmp/sxs-2022.5.6.tar.gz]
+[2024-05-15 05:17:17] INFO root fetch - processPackages [sxs]: Remove: archive file [/home/abi/fetcher/tmp/sxs-2023.0.0.tar.gz]
+[2024-05-15 05:17:17] INFO root fetch - main [MainThread]: End processing [sxs]: success
+[2024-05-15 05:17:17] INFO root fetch - main [MainThread]: Store serial: [23212063]
