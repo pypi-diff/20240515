@@ -14678,3 +14678,20 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:00:54] INFO root fetch - processPackages [airsmodel]: Remove: archive file [/home/abi/fetcher/tmp/airsmodel-0.3.3.tar.gz]
 [2024-05-15 10:00:54] INFO root fetch - main [MainThread]: End processing [airsmodel]: success
 [2024-05-15 10:00:54] INFO root fetch - main [MainThread]: Store serial: [23214517]
+[2024-05-15 10:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214517]
+[2024-05-15 10:03:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwastic-desktop
+[2024-05-15 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TestGeneratorPluginLib
+[2024-05-15 10:03:03] INFO root fetch - processPackages [gwastic-desktop]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-15 10:03:03] INFO root fetch - processPackages [TestGeneratorPluginLib]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-15 10:03:03] INFO root fetch - processPackages [gwastic-desktop]: Downloading https://files.pythonhosted.org/packages/53/dc/f01634ee753cc96ef65ed9c1d1710303bda6e7e6e37a46beddee3a8d2caa/gwastic_desktop-0.5.1.tar.gz
+[2024-05-15 10:03:03] INFO root fetch - processPackages [TestGeneratorPluginLib]: Downloading https://files.pythonhosted.org/packages/da/53/654be96382e6bdac993e7ebf1a94375e11ddb81b78642e44c2d4c626247b/TestGeneratorPluginLib-1.0.3.tar.gz
+[2024-05-15 10:03:03] WARNING root fetch - processPackages [gwastic-desktop]: Skipping package: exceeds size limit 18145872>=10485760
+[2024-05-15 10:03:03] INFO root fetch - main [MainThread]: End processing [gwastic-desktop] error
+[2024-05-15 10:03:03] INFO root fetch - processPackages [TestGeneratorPluginLib]: Downloading https://files.pythonhosted.org/packages/e0/0d/6736c29e2e61285dd22a20fba820f94bd3939384826029f1f1655d63508b/TestGeneratorPluginLib-1.0.4.tar.gz
+[2024-05-15 10:03:04] INFO root fetch - processPackages [TestGeneratorPluginLib]: executing diffoscope
+[2024-05-15 10:03:04] INFO root fetch - processPackages [TestGeneratorPluginLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TestGeneratorPluginLib-1.0.3.tar.gz tmp/TestGeneratorPluginLib-1.0.4.tar.gz --markdown 20240515/T/TestGeneratorPluginLib/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-15 10:03:04] INFO root fetch - processPackages [TestGeneratorPluginLib]: Remove: archive file [/home/abi/fetcher/tmp/TestGeneratorPluginLib-1.0.3.tar.gz]
+[2024-05-15 10:03:04] INFO root fetch - processPackages [TestGeneratorPluginLib]: Remove: archive file [/home/abi/fetcher/tmp/TestGeneratorPluginLib-1.0.4.tar.gz]
+[2024-05-15 10:03:04] INFO root fetch - main [MainThread]: End processing [TestGeneratorPluginLib]: success
+[2024-05-15 10:03:04] INFO root fetch - main [MainThread]: Store serial: [23214524]
