@@ -10171,3 +10171,24 @@
 [2024-05-15 06:32:11] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.48.tar.gz]
 [2024-05-15 06:32:11] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
 [2024-05-15 06:32:11] INFO root fetch - main [MainThread]: Store serial: [23212670]
+[2024-05-15 06:34:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212670]
+[2024-05-15 06:34:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 06:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-extract
+[2024-05-15 06:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msiaLex
+[2024-05-15 06:34:20] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2024-05-15 06:34:20] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/b4/28/4f92bf8a4513b5713888de102665b70c3218b8f266f67cd6e5fff2d149dd/msiaLex-0.3.9.2-py3-none-any.whl
+[2024-05-15 06:34:20] INFO root fetch - processPackages [datasette-extract]: New version: [0.1a7] Old Version: [0.1a6]
+[2024-05-15 06:34:21] INFO root fetch - processPackages [datasette-extract]: Downloading https://files.pythonhosted.org/packages/01/c8/78e5fd3415d5887ee99d76c6f8251e7624007d4e349122c86641932404f8/datasette_extract-0.1a6.tar.gz
+[2024-05-15 06:34:21] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/fe/45/9b7af2fc241541bf700c74362cc500842ecb5caed24e3bef3a8b34070b34/msiaLex-0.3.9.3-py3-none-any.whl
+[2024-05-15 06:34:21] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 06:34:21] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.2-py3-none-any.whl.zip tmp/msiaLex-0.3.9.3-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.2-0.3.9.3/README.md --exclude *.pyd
+[2024-05-15 06:34:21] INFO root fetch - processPackages [datasette-extract]: Downloading https://files.pythonhosted.org/packages/8f/9b/ef48778b6e6edbb4a8b03d40032623b61f38621aaf6c08c285a23c0b5fb7/datasette_extract-0.1a7.tar.gz
+[2024-05-15 06:34:21] INFO root fetch - processPackages [datasette-extract]: executing diffoscope
+[2024-05-15 06:34:21] INFO root fetch - processPackages [datasette-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_extract-0.1a6.tar.gz tmp/datasette_extract-0.1a7.tar.gz --markdown 20240515/d/datasette-extract/0.1a6-0.1a7/README.md --exclude *.pyd
+[2024-05-15 06:34:21] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.2-py3-none-any.whl.zip]
+[2024-05-15 06:34:21] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.3-py3-none-any.whl.zip]
+[2024-05-15 06:34:21] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 06:34:22] INFO root fetch - processPackages [datasette-extract]: Remove: archive file [/home/abi/fetcher/tmp/datasette_extract-0.1a6.tar.gz]
+[2024-05-15 06:34:22] INFO root fetch - processPackages [datasette-extract]: Remove: archive file [/home/abi/fetcher/tmp/datasette_extract-0.1a7.tar.gz]
+[2024-05-15 06:34:22] INFO root fetch - main [MainThread]: End processing [datasette-extract]: success
+[2024-05-15 06:34:22] INFO root fetch - main [MainThread]: Store serial: [23212677]
