@@ -16885,3 +16885,79 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:16:31] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
 [2024-05-15 11:16:31] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
 [2024-05-15 11:16:31] INFO root fetch - main [MainThread]: Store serial: [23215377]
+[2024-05-15 11:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215377]
+[2024-05-15 11:18:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alloniaconfigs
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allonias3
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testplans
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywebframework-uz
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imsciences
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiokdb
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RL-OM
+[2024-05-15 11:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-pandas
+[2024-05-15 11:18:41] WARNING root fetch - processPackages [allonias3]: Skipping, unable to determine old version
+[2024-05-15 11:18:41] INFO root fetch - main [MainThread]: End processing [allonias3] error
+[2024-05-15 11:18:41] INFO root fetch - processPackages [pywebframework-uz]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.4] Old Version: [0.5.5.3]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [alloniaconfigs]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [aiokdb]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a8/77/5fb7ab5079d11b4af8defe5eb0d430a2aed6fb264e2edc9c30463ff5d59f/imsciences-0.5.5.3.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [pywebframework-uz]: Downloading https://files.pythonhosted.org/packages/55/de/65ffd0e5c65b8bc749b11423a3bb1beef707ec59e86fe15e8b64ae003cd5/pywebframework_uz-0.1.0.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [alloniaconfigs]: Downloading https://files.pythonhosted.org/packages/93/9a/17cd16e59bc855f1c2ca41c1fd7d7caf3d3d5b3779ffbf701cfa58b133bf/alloniaconfigs-1.1.0.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [aiokdb]: Downloading https://files.pythonhosted.org/packages/60/76/c612a24ab459cc2fc52618ab693670c966425dc65121390923f17ce9ff2a/aiokdb-0.1.1.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a9/33/c0699352b44447b5c9b9782e063aa0252d7734f5157a73f225497c692ab8/imsciences-0.5.5.4.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 11:18:41] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:18:41] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-15 11:18:41] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.5.3.tar.gz tmp/imsciences-0.5.5.4.tar.gz --markdown 20240515/i/imsciences/0.5.5.3-0.5.5.4/README.md --exclude *.pyd
+[2024-05-15 11:18:41] INFO root fetch - processPackages [alloniaconfigs]: Downloading https://files.pythonhosted.org/packages/07/40/579725875a1221ba972a1411aa001625ff2dd98b6acaeb7e1b47223f5fda/alloniaconfigs-1.1.1.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [pywebframework-uz]: Downloading https://files.pythonhosted.org/packages/94/67/98c727200d8c5c939099d742c5964bb926059c982f4b486ce9aafddf5e1a/pywebframework_uz-0.1.1.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-15 11:18:41] INFO root fetch - processPackages [aiokdb]: Downloading https://files.pythonhosted.org/packages/0e/8d/36f9a59e4161de28f591a714f1c0a7b157c69cf4e4ada46b7b2ea5b4f661/aiokdb-0.1.2.tar.gz
+[2024-05-15 11:18:42] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-15 11:18:42] INFO root fetch - processPackages [alloniaconfigs]: executing diffoscope
+[2024-05-15 11:18:42] INFO root fetch - processPackages [alloniaconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alloniaconfigs-1.1.0.tar.gz tmp/alloniaconfigs-1.1.1.tar.gz --markdown 20240515/a/alloniaconfigs/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-15 11:18:42] INFO root fetch - processPackages [pywebframework-uz]: executing diffoscope
+[2024-05-15 11:18:42] INFO root fetch - processPackages [pywebframework-uz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebframework_uz-0.1.0.tar.gz tmp/pywebframework_uz-0.1.1.tar.gz --markdown 20240515/p/pywebframework-uz/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 11:18:42] INFO root fetch - processPackages [aiokdb]: executing diffoscope
+[2024-05-15 11:18:42] INFO root fetch - processPackages [aiokdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokdb-0.1.1.tar.gz tmp/aiokdb-0.1.2.tar.gz --markdown 20240515/a/aiokdb/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 11:18:42] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-15 11:18:42] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240515/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-15 11:18:42] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-15 11:18:42] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240515/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 11:18:42] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 11:18:42] INFO root fetch - processPackages [pywebframework-uz]: Remove: archive file [/home/abi/fetcher/tmp/pywebframework_uz-0.1.0.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - processPackages [pywebframework-uz]: Remove: archive file [/home/abi/fetcher/tmp/pywebframework_uz-0.1.1.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [pywebframework-uz]: success
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 11:18:42] INFO root fetch - processPackages [alloniaconfigs]: Remove: archive file [/home/abi/fetcher/tmp/alloniaconfigs-1.1.0.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - processPackages [alloniaconfigs]: Remove: archive file [/home/abi/fetcher/tmp/alloniaconfigs-1.1.1.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [alloniaconfigs]: success
+[2024-05-15 11:18:42] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-15 11:18:42] INFO root fetch - processPackages [aiokdb]: Remove: archive file [/home/abi/fetcher/tmp/aiokdb-0.1.1.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - processPackages [aiokdb]: Remove: archive file [/home/abi/fetcher/tmp/aiokdb-0.1.2.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [aiokdb]: success
+[2024-05-15 11:18:42] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.3.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.4.tar.gz]
+[2024-05-15 11:18:42] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-15 11:18:43] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-15 11:18:43] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-15 11:18:43] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-15 11:18:43] INFO root fetch - main [MainThread]: Store serial: [23215405]
