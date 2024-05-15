@@ -19557,3 +19557,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:06:30] WARNING root fetch - processPackages [gma]: Skipping package: exceeds size limit 31823109>=10485760
 [2024-05-15 13:06:30] INFO root fetch - main [MainThread]: End processing [gma] error
 [2024-05-15 13:06:30] INFO root fetch - main [MainThread]: Store serial: [23216645]
+[2024-05-15 13:08:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216645]
+[2024-05-15 13:08:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surrealist
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GrammarFlow
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goldenverba
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sustainalytics
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: daktari
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars-expr-transformer
+[2024-05-15 13:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monteprediction
+[2024-05-15 13:08:39] INFO root fetch - processPackages [polars-expr-transformer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [goldenverba]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [GrammarFlow]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/30/e8/b5a124517b8f4979dc00a8c14c2c65e33a77f1a3dd34d0d0bc2ad7c9742e/polars_expr_transformer-0.1.2.tar.gz
+[2024-05-15 13:08:39] INFO root fetch - processPackages [surrealist]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [monteprediction]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [sustainalytics]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 13:08:39] INFO root fetch - processPackages [goldenverba]: Downloading https://files.pythonhosted.org/packages/77/4e/a42e65c44f4535165f3161a29280b64bb7a11f31521b797c928ad6ac46c2/goldenverba-0.3.1.tar.gz
+[2024-05-15 13:08:39] INFO root fetch - processPackages [sustainalytics]: Downloading https://files.pythonhosted.org/packages/63/50/709530145c78fe57d757c69d89c4355787bd84c4706e54198f63a87a0e08/sustainalytics-0.3.2.tar.gz
+[2024-05-15 13:08:39] INFO root fetch - processPackages [surrealist]: Downloading https://files.pythonhosted.org/packages/96/c4/3c5547e0c61e63cdd1f41133c152393c5f23b765317fdd035b5fb3989111/surrealist-0.4.1.tar.gz
+[2024-05-15 13:08:39] INFO root fetch - processPackages [GrammarFlow]: Downloading https://files.pythonhosted.org/packages/5a/56/30bd7c25c4774f788b5422452470c11e08f7493d25d056265bc2c71158bb/GrammarFlow-0.0.7.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/72/65/0e5db0bfdfa9d9120cb64c4ae011c2e39a8cc051ac9b195c658f6e06093f/monteprediction-1.0.8.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/f5/eb/6e527ee3b9e813eab74652e3dd80a546adb96200deb80f62337709bd8f80/polars_expr_transformer-0.1.3.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [polars-expr-transformer]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [polars-expr-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_expr_transformer-0.1.2.tar.gz tmp/polars_expr_transformer-0.1.3.tar.gz --markdown 20240515/p/polars-expr-transformer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 13:08:40] INFO root fetch - processPackages [sustainalytics]: Downloading https://files.pythonhosted.org/packages/ec/e4/12fa4724f66b441f95ca6f5359894c3ed7471079bae5296edbb2eeccb2fc/sustainalytics-0.3.3.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [surrealist]: Downloading https://files.pythonhosted.org/packages/93/48/f4d3fa3919cb300d0ab25e20cd28cf73b9b75e8e0d9c6d7d5819d027bf79/surrealist-0.5.0.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/5f/93/f758156e7f6a3b1a4a13dc1a8bc6997757cf1b8852b1198ef946ead5ab2d/monteprediction-1.0.9.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [GrammarFlow]: Downloading https://files.pythonhosted.org/packages/b1/69/35306d121a4ba7ffee8eb8c9a0ebca25ff0d4f2d7636205d4fe3ae926aa3/GrammarFlow-0.0.8.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [sustainalytics]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [sustainalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sustainalytics-0.3.2.tar.gz tmp/sustainalytics-0.3.3.tar.gz --markdown 20240515/s/sustainalytics/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-15 13:08:40] INFO root fetch - processPackages [surrealist]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [surrealist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surrealist-0.4.1.tar.gz tmp/surrealist-0.5.0.tar.gz --markdown 20240515/s/surrealist/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-15 13:08:40] INFO root fetch - processPackages [GrammarFlow]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [GrammarFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrammarFlow-0.0.7.tar.gz tmp/GrammarFlow-0.0.8.tar.gz --markdown 20240515/G/GrammarFlow/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 13:08:40] INFO root fetch - processPackages [monteprediction]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [monteprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monteprediction-1.0.8.tar.gz tmp/monteprediction-1.0.9.tar.gz --markdown 20240515/m/monteprediction/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 13:08:40] INFO root fetch - processPackages [goldenverba]: Downloading https://files.pythonhosted.org/packages/e6/3c/cce560162a0b01c0b0b9b9a06455ea7bf0797826358f7eb2942431760bc6/goldenverba-0.4.0.tar.gz
+[2024-05-15 13:08:40] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240515/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 13:08:40] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.2.tar.gz]
+[2024-05-15 13:08:40] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.3.tar.gz]
+[2024-05-15 13:08:40] INFO root fetch - main [MainThread]: End processing [polars-expr-transformer]: success
+[2024-05-15 13:08:40] INFO root fetch - processPackages [goldenverba]: executing diffoscope
+[2024-05-15 13:08:40] INFO root fetch - processPackages [goldenverba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldenverba-0.3.1.tar.gz tmp/goldenverba-0.4.0.tar.gz --markdown 20240515/g/goldenverba/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-15 13:08:41] INFO root fetch - processPackages [sustainalytics]: Remove: archive file [/home/abi/fetcher/tmp/sustainalytics-0.3.2.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - processPackages [sustainalytics]: Remove: archive file [/home/abi/fetcher/tmp/sustainalytics-0.3.3.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - main [MainThread]: End processing [sustainalytics]: success
+[2024-05-15 13:08:41] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-05-15 13:08:41] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.8.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.9.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - main [MainThread]: End processing [monteprediction]: success
+[2024-05-15 13:08:41] INFO root fetch - processPackages [GrammarFlow]: Remove: archive file [/home/abi/fetcher/tmp/GrammarFlow-0.0.7.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - processPackages [GrammarFlow]: Remove: archive file [/home/abi/fetcher/tmp/GrammarFlow-0.0.8.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - main [MainThread]: End processing [GrammarFlow]: success
+[2024-05-15 13:08:41] INFO root fetch - processPackages [surrealist]: Remove: archive file [/home/abi/fetcher/tmp/surrealist-0.4.1.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - processPackages [surrealist]: Remove: archive file [/home/abi/fetcher/tmp/surrealist-0.5.0.tar.gz]
+[2024-05-15 13:08:41] INFO root fetch - main [MainThread]: End processing [surrealist]: success
+[2024-05-15 13:08:43] INFO root fetch - processPackages [goldenverba]: Remove: archive file [/home/abi/fetcher/tmp/goldenverba-0.3.1.tar.gz]
+[2024-05-15 13:08:43] INFO root fetch - processPackages [goldenverba]: Remove: archive file [/home/abi/fetcher/tmp/goldenverba-0.4.0.tar.gz]
+[2024-05-15 13:08:43] INFO root fetch - main [MainThread]: End processing [goldenverba]: success
+[2024-05-15 13:08:43] INFO root fetch - main [MainThread]: Store serial: [23216669]
