@@ -12088,3 +12088,15 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2396.0.tar.gz]
 [2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-05-15 08:04:13] INFO root fetch - main [MainThread]: Store serial: [23213450]
+[2024-05-15 08:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213450]
+[2024-05-15 08:06:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 08:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqthetic
+[2024-05-15 08:06:22] INFO root fetch - processPackages [seqthetic]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 08:06:23] INFO root fetch - processPackages [seqthetic]: Downloading https://files.pythonhosted.org/packages/04/53/22a3c3367e7207d3e540b63776c0269aca31b2f273851c4598f59cabd2bb/seqthetic-0.1.0.tar.gz
+[2024-05-15 08:06:23] INFO root fetch - processPackages [seqthetic]: Downloading https://files.pythonhosted.org/packages/07/17/c4e9567b9a1c8021f406023055f164c9ab97cd15928e2d74db551c2e6a0a/seqthetic-0.1.1.tar.gz
+[2024-05-15 08:06:23] INFO root fetch - processPackages [seqthetic]: executing diffoscope
+[2024-05-15 08:06:23] INFO root fetch - processPackages [seqthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqthetic-0.1.0.tar.gz tmp/seqthetic-0.1.1.tar.gz --markdown 20240515/s/seqthetic/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 08:06:24] INFO root fetch - processPackages [seqthetic]: Remove: archive file [/home/abi/fetcher/tmp/seqthetic-0.1.0.tar.gz]
+[2024-05-15 08:06:24] INFO root fetch - processPackages [seqthetic]: Remove: archive file [/home/abi/fetcher/tmp/seqthetic-0.1.1.tar.gz]
+[2024-05-15 08:06:24] INFO root fetch - main [MainThread]: End processing [seqthetic]: success
+[2024-05-15 08:06:24] INFO root fetch - main [MainThread]: Store serial: [23213453]
