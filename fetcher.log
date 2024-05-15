@@ -2848,3 +2848,60 @@
 [2024-05-15 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
 [2024-05-15 02:17:10] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
 [2024-05-15 02:17:10] INFO root fetch - main [MainThread]: Store serial: [23209874]
+[2024-05-15 02:19:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209874]
+[2024-05-15 02:19:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 02:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-15 02:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosolvkit
+[2024-05-15 02:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-budibase
+[2024-05-15 02:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2024-05-15 02:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icpp-candid
+[2024-05-15 02:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-api
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cosolvkit]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cosolvkit]: Downloading https://files.pythonhosted.org/packages/3d/0f/35ca86c49b7ed1f93eb90e99f92e0fe43590e2522a4d65c02f2b46f5fe1e/cosolvkit-0.4.4.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [icpp-candid]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-15 02:19:19] INFO root fetch - processPackages [airbyte-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/66/f87aba87ada17376fee9e34bc8e371f044987bb411d9d01db6d321356f3a/airbyte-api-0.6.0.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [icpp-candid]: Downloading https://files.pythonhosted.org/packages/8e/f6/d47ad65f5ac37f56f139d72714fe97c2174bfa6d48a6c5fe6f3b4638864e/icpp-candid-3.8.1.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/c8/ff/cb73f3116051fd1759305c40178b654a37b22e1085a441b4ba720c8525d8/airbyte-api-0.7.0.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cosolvkit]: Downloading https://files.pythonhosted.org/packages/a6/6b/b2ccbc7b8c6ffd029035bde50abc90de4ea03d92edeea45e9656339218e8/cosolvkit-0.4.5.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cosolvkit]: executing diffoscope
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cosolvkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosolvkit-0.4.4.tar.gz tmp/cosolvkit-0.4.5.tar.gz --markdown 20240515/c/cosolvkit/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240515/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240515/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-15 02:19:19] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2024-05-15 02:19:19] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.6.0.tar.gz tmp/airbyte-api-0.7.0.tar.gz --markdown 20240515/a/airbyte-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-15 02:19:19] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240515/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 02:19:20] INFO root fetch - processPackages [icpp-candid]: Downloading https://files.pythonhosted.org/packages/0a/2b/3a727fa0fe5b7896267fbcc81250dd8dd35dd0e1fc72ec4e0d5d724e97ac/icpp-candid-3.9.0.tar.gz
+[2024-05-15 02:19:20] INFO root fetch - processPackages [icpp-candid]: executing diffoscope
+[2024-05-15 02:19:20] INFO root fetch - processPackages [icpp-candid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp-candid-3.8.1.tar.gz tmp/icpp-candid-3.9.0.tar.gz --markdown 20240515/i/icpp-candid/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cosolvkit]: Remove: archive file [/home/abi/fetcher/tmp/cosolvkit-0.4.4.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cosolvkit]: Remove: archive file [/home/abi/fetcher/tmp/cosolvkit-0.4.5.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - main [MainThread]: End processing [cosolvkit]: success
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-15 02:19:20] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-15 02:19:21] INFO root fetch - processPackages [icpp-candid]: Remove: archive file [/home/abi/fetcher/tmp/icpp-candid-3.8.1.tar.gz]
+[2024-05-15 02:19:21] INFO root fetch - processPackages [icpp-candid]: Remove: archive file [/home/abi/fetcher/tmp/icpp-candid-3.9.0.tar.gz]
+[2024-05-15 02:19:21] INFO root fetch - main [MainThread]: End processing [icpp-candid]: success
+[2024-05-15 02:19:21] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.6.0.tar.gz]
+[2024-05-15 02:19:21] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
+[2024-05-15 02:19:21] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2024-05-15 02:19:21] INFO root fetch - main [MainThread]: Store serial: [23209892]
