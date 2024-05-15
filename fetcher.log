@@ -19309,3 +19309,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:51:10] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.5.1.tar.gz]
 [2024-05-15 12:51:10] INFO root fetch - main [MainThread]: End processing [fb-tools]: success
 [2024-05-15 12:51:10] INFO root fetch - main [MainThread]: Store serial: [23216567]
+[2024-05-15 12:53:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216567]
+[2024-05-15 12:53:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teemup
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-testing-platform
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pychonet
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: divio-cli
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onestop-opensign
+[2024-05-15 12:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phylox
+[2024-05-15 12:53:18] INFO root fetch - processPackages [onestop-opensign]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 12:53:18] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-15 12:53:19] INFO root fetch - processPackages [divio-cli]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-15 12:53:19] INFO root fetch - processPackages [teemup]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 12:53:19] INFO root fetch - processPackages [onestop-opensign]: Downloading https://files.pythonhosted.org/packages/79/a9/f0f0472b2a33a26a8b7123fff90540d5fca02ceb378be5197e60a4ee02cf/onestop_opensign-0.1.5.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [pychonet]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-15 12:53:19] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-15 12:53:19] INFO root fetch - processPackages [phylox]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-15 12:53:19] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-15 12:53:19] INFO root fetch - processPackages [teemup]: Downloading https://files.pythonhosted.org/packages/39/1b/ddaf86849218d21259b10fa619bebb239be8a547cc16ff87b0579220d7d1/teemup-1.0.1.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [divio-cli]: Downloading https://files.pythonhosted.org/packages/cc/81/e0f2694d7ccbae62a2469262836599ed346bb886e1b08b8bbdd8cc76dd88/divio-cli-4.0.0.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [pychonet]: Downloading https://files.pythonhosted.org/packages/5b/9c/c465fca0b46e385f1acd4084b3e3775b4490e3890c82555f0c121db345fa/pychonet-2.6.8.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [phylox]: Downloading https://files.pythonhosted.org/packages/be/33/e3bbabfe2cb62042b8ab2d3e83be46721421481ed62da8b5cb99b2b5a5b6/phylox-1.0.3.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [onestop-opensign]: Downloading https://files.pythonhosted.org/packages/39/82/882042e9d455802f544067a0b78b0b2ff646978b925836ed0bbd48773bb6/onestop_opensign-0.1.6.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-15 12:53:19] INFO root fetch - processPackages [onestop-opensign]: executing diffoscope
+[2024-05-15 12:53:19] INFO root fetch - processPackages [onestop-opensign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onestop_opensign-0.1.5.tar.gz tmp/onestop_opensign-0.1.6.tar.gz --markdown 20240515/o/onestop-opensign/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 12:53:19] INFO root fetch - processPackages [divio-cli]: Downloading https://files.pythonhosted.org/packages/c1/a5/20678d1dcc3054207ecaf86d908b78688d678a55c38abc72b413093c555b/divio_cli-4.0.1.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-15 12:53:19] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240515/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-15 12:53:19] INFO root fetch - processPackages [pychonet]: Downloading https://files.pythonhosted.org/packages/3c/95/f64b19928bb52674f83973936ef7e767ecaa4ece0d1c410f28c4c79d5068/pychonet-2.6.9.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [teemup]: Downloading https://files.pythonhosted.org/packages/5d/60/b3ecb626caaa13c01aa48cfe7a5bc5d119a047783930962bb43ac06d4c16/teemup-1.0.2.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [divio-cli]: executing diffoscope
+[2024-05-15 12:53:19] INFO root fetch - processPackages [divio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divio-cli-4.0.0.tar.gz tmp/divio_cli-4.0.1.tar.gz --markdown 20240515/d/divio-cli/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-15 12:53:19] INFO root fetch - processPackages [phylox]: Downloading https://files.pythonhosted.org/packages/3c/57/139a6565d64e0f69f7341e95149912c9433961440204ddd3cc0198bce064/phylox-1.0.5.tar.gz
+[2024-05-15 12:53:19] INFO root fetch - processPackages [pychonet]: executing diffoscope
+[2024-05-15 12:53:19] INFO root fetch - processPackages [pychonet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychonet-2.6.8.tar.gz tmp/pychonet-2.6.9.tar.gz --markdown 20240515/p/pychonet/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-15 12:53:19] INFO root fetch - processPackages [teemup]: executing diffoscope
+[2024-05-15 12:53:19] INFO root fetch - processPackages [teemup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teemup-1.0.1.tar.gz tmp/teemup-1.0.2.tar.gz --markdown 20240515/t/teemup/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 12:53:19] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-05-15 12:53:19] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240515/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-15 12:53:20] INFO root fetch - processPackages [phylox]: executing diffoscope
+[2024-05-15 12:53:20] INFO root fetch - processPackages [phylox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylox-1.0.3.tar.gz tmp/phylox-1.0.5.tar.gz --markdown 20240515/p/phylox/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-15 12:53:20] INFO root fetch - processPackages [onestop-opensign]: Remove: archive file [/home/abi/fetcher/tmp/onestop_opensign-0.1.5.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - processPackages [onestop-opensign]: Remove: archive file [/home/abi/fetcher/tmp/onestop_opensign-0.1.6.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - main [MainThread]: End processing [onestop-opensign]: success
+[2024-05-15 12:53:20] INFO root fetch - processPackages [teemup]: Remove: archive file [/home/abi/fetcher/tmp/teemup-1.0.1.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - processPackages [teemup]: Remove: archive file [/home/abi/fetcher/tmp/teemup-1.0.2.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - main [MainThread]: End processing [teemup]: success
+[2024-05-15 12:53:20] INFO root fetch - processPackages [divio-cli]: Remove: archive file [/home/abi/fetcher/tmp/divio-cli-4.0.0.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - processPackages [divio-cli]: Remove: archive file [/home/abi/fetcher/tmp/divio_cli-4.0.1.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - main [MainThread]: End processing [divio-cli]: success
+[2024-05-15 12:53:20] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-05-15 12:53:20] INFO root fetch - processPackages [pychonet]: Remove: archive file [/home/abi/fetcher/tmp/pychonet-2.6.8.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - processPackages [pychonet]: Remove: archive file [/home/abi/fetcher/tmp/pychonet-2.6.9.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - main [MainThread]: End processing [pychonet]: success
+[2024-05-15 12:53:20] INFO root fetch - processPackages [phylox]: Remove: archive file [/home/abi/fetcher/tmp/phylox-1.0.3.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - processPackages [phylox]: Remove: archive file [/home/abi/fetcher/tmp/phylox-1.0.5.tar.gz]
+[2024-05-15 12:53:20] INFO root fetch - main [MainThread]: End processing [phylox]: success
+[2024-05-15 12:53:21] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-15 12:53:21] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-15 12:53:21] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-15 12:53:21] INFO root fetch - main [MainThread]: Store serial: [23216586]
