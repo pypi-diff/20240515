@@ -12163,3 +12163,78 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:12:56] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240514.tar.gz]
 [2024-05-15 08:12:56] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-15 08:12:56] INFO root fetch - main [MainThread]: Store serial: [23213488]
+[2024-05-15 08:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213488]
+[2024-05-15 08:15:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eodc-faas-sen2like
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-awscdk-resolver
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tanu
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: increff-runner
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxalio-studio-tools
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ayeaye-fossa
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-azuredevops
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valmi-connector-lib
+[2024-05-15 08:15:07] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/07/95/65a6e6b450fafbaa7dfdc24fcea73d2acea5c6c058ecbf2ab4d0a84bbba9/cxalio_studio_tools-0.2.1.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [tanu]: New version: [0.1.4.3] Old Version: [0.1.4.2]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/07/20/19ec9266389742d2a3c04ab3687b33ce4fbc2bbb57bfcec31da1a9bcbd23/cdk8s-awscdk-resolver-0.0.98.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1715752747] Old Version: [3.1.0a1715383288]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-15 08:15:07] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/e7/ad/c0a1f5790c7780e3a57795c8b2732353b1bf7bff14cef7261dd30ed04ef9/tanu-0.1.4.2.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/02/bd/f996beddeb2bfbd5baac980e234b401f8e51960513996733ebcdb70c555a/eodc_faas_sen2like-2024.5.0.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-15 08:15:07] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/ec/fe/3590173c35e4ea9868a9b0a9ae9a82ec738bad5701b2d35aa15819aec58a/pulumi_azuredevops-3.1.0a1715383288.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/c7/b2/54a44e3f76d560a3b27d6d369382450e19f3b34970ec7c2ee462c06c50c0/cdk8s-awscdk-resolver-0.0.99.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-05-15 08:15:07] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/29/43/3142dcc8f8aebee7611c3b2ce5c35e49b426f5984b83efca327612678dcb/cxalio_studio_tools-0.2.2.tar.gz
+[2024-05-15 08:15:08] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-15 08:15:08] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz --markdown 20240515/c/cdk8s-awscdk-resolver/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/fe/6c/337ce0f3a6aa1f4ecb1abd1a2e38c2a1bc895ffbce58eb9f8e29a266e8d6/tanu-0.1.4.3.tar.gz
+[2024-05-15 08:15:08] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240515/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.2.1.tar.gz tmp/cxalio_studio_tools-0.2.2.tar.gz --markdown 20240515/c/cxalio-studio-tools/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-15 08:15:08] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/60/db/a05cc88316ab4022e2afbd32a206d743b9c9cea22e95038a4ae8dd553f28/eodc_faas_sen2like-2024.5.1.tar.gz
+[2024-05-15 08:15:08] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240515/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.4.2.tar.gz tmp/tanu-0.1.4.3.tar.gz --markdown 20240515/t/tanu/0.1.4.2-0.1.4.3/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240515/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/79/0c/2b43f96aef26864c65b0f23bbb0966534a632eba1d6476e129f058611e1c/pulumi_azuredevops-3.1.0a1715752747.tar.gz
+[2024-05-15 08:15:08] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2024.5.0.tar.gz tmp/eodc_faas_sen2like-2024.5.1.tar.gz --markdown 20240515/e/eodc-faas-sen2like/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-15 08:15:08] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715383288.tar.gz tmp/pulumi_azuredevops-3.1.0a1715752747.tar.gz --markdown 20240515/p/pulumi-azuredevops/3.1.0a1715383288-3.1.0a1715752747/README.md --exclude *.pyd
+[2024-05-15 08:15:08] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
+[2024-05-15 08:15:08] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz]
+[2024-05-15 08:15:08] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.2.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.3.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.1.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.2.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.5.0.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.5.1.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2024-05-15 08:15:09] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715383288.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715752747.tar.gz]
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-15 08:15:09] INFO root fetch - main [MainThread]: Store serial: [23213507]
