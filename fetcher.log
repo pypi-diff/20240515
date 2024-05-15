@@ -12376,3 +12376,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:22:04] INFO root fetch - processPackages [mlxu]: Remove: archive file [/home/abi/fetcher/tmp/mlxu-0.1.9.tar.gz]
 [2024-05-15 08:22:04] INFO root fetch - main [MainThread]: End processing [mlxu]: success
 [2024-05-15 08:22:04] INFO root fetch - main [MainThread]: Store serial: [23213547]
+[2024-05-15 08:24:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213547]
+[2024-05-15 08:24:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 08:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-rental
+[2024-05-15 08:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinjafx-server
+[2024-05-15 08:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smart-redis-storage
+[2024-05-15 08:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Nuitka-winsvc
+[2024-05-15 08:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-esios
+[2024-05-15 08:24:14] WARNING root fetch - processPackages [python-esios]: Skipping, unable to determine old version
+[2024-05-15 08:24:14] INFO root fetch - main [MainThread]: End processing [python-esios] error
+[2024-05-15 08:24:14] INFO root fetch - processPackages [smart-redis-storage]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-15 08:24:14] INFO root fetch - processPackages [odoo-addon-sale-rental]: New version: [15.0.1.0.2.3] Old Version: [15.0.1.0.2.2]
+[2024-05-15 08:24:14] INFO root fetch - processPackages [jinjafx-server]: New version: [24.5.0] Old Version: [24.3.0]
+[2024-05-15 08:24:14] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-15 08:24:14] INFO root fetch - processPackages [smart-redis-storage]: Downloading https://files.pythonhosted.org/packages/d6/6e/f92ac32d51f588ef11756c1c3d512ac0c663ed603e5160f01d2b9bde07d1/smart_redis_storage-0.0.2.tar.gz
+[2024-05-15 08:24:14] INFO root fetch - processPackages [odoo-addon-sale-rental]: Downloading https://files.pythonhosted.org/packages/5d/aa/0792bd58e742bdb7b25abad227e01bc3832cd480912ea9d97f0b919f544a/odoo_addon_sale_rental-15.0.1.0.2.2-py3-none-any.whl
+[2024-05-15 08:24:14] INFO root fetch - processPackages [jinjafx-server]: Downloading https://files.pythonhosted.org/packages/fa/41/3b7663b7c32c8c80ed9b3d4703435829e4c8f279ec9c3317fa024adf9750/jinjafx_server-24.3.0.tar.gz
+[2024-05-15 08:24:14] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/6c/6b/24e5b87ea12b15086a5bd72b6dac753399b4b2411713304e8b9eb358dc9e/nuitka_winsvc-2.2.1.tar.gz
+[2024-05-15 08:24:15] INFO root fetch - processPackages [smart-redis-storage]: Downloading https://files.pythonhosted.org/packages/5c/8b/acb2def29e2dcd0f7670913d5b666686eb0332ee584c65e2ac96214456fa/smart_redis_storage-0.1.0.tar.gz
+[2024-05-15 08:24:15] INFO root fetch - processPackages [jinjafx-server]: Downloading https://files.pythonhosted.org/packages/1b/7b/64cb530006b5b0c11ca3b59af9a56b19442dd00f2c488ab1556bf6e0eda5/jinjafx_server-24.5.0.tar.gz
+[2024-05-15 08:24:15] INFO root fetch - processPackages [smart-redis-storage]: executing diffoscope
+[2024-05-15 08:24:15] INFO root fetch - processPackages [smart-redis-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_redis_storage-0.0.2.tar.gz tmp/smart_redis_storage-0.1.0.tar.gz --markdown 20240515/s/smart-redis-storage/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-15 08:24:15] INFO root fetch - processPackages [jinjafx-server]: executing diffoscope
+[2024-05-15 08:24:15] INFO root fetch - processPackages [jinjafx-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjafx_server-24.3.0.tar.gz tmp/jinjafx_server-24.5.0.tar.gz --markdown 20240515/j/jinjafx-server/24.3.0-24.5.0/README.md --exclude *.pyd
+[2024-05-15 08:24:15] INFO root fetch - processPackages [odoo-addon-sale-rental]: Downloading https://files.pythonhosted.org/packages/c0/c7/0fdb62e5352d25a00e1f79bc9b2199295c8785dc52f0294ffa6d1d58dd9d/odoo_addon_sale_rental-15.0.1.0.2.3-py3-none-any.whl
+[2024-05-15 08:24:15] INFO root fetch - processPackages [odoo-addon-sale-rental]: executing diffoscope
+[2024-05-15 08:24:15] INFO root fetch - processPackages [odoo-addon-sale-rental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_rental-15.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_sale_rental-15.0.1.0.2.3-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-sale-rental/15.0.1.0.2.2-15.0.1.0.2.3/README.md --exclude *.pyd
+[2024-05-15 08:24:15] INFO root fetch - processPackages [smart-redis-storage]: Remove: archive file [/home/abi/fetcher/tmp/smart_redis_storage-0.0.2.tar.gz]
+[2024-05-15 08:24:15] INFO root fetch - processPackages [smart-redis-storage]: Remove: archive file [/home/abi/fetcher/tmp/smart_redis_storage-0.1.0.tar.gz]
+[2024-05-15 08:24:15] INFO root fetch - main [MainThread]: End processing [smart-redis-storage]: success
+[2024-05-15 08:24:15] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/51/dd/92c3686f358caf56e390d5aa26026fccf17f03580a6b36ca08cbe4984141/Nuitka_winsvc-2.2.2-cp311-cp311-win_amd64.whl
+[2024-05-15 08:24:15] INFO root fetch - processPackages [jinjafx-server]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx_server-24.3.0.tar.gz]
+[2024-05-15 08:24:15] INFO root fetch - processPackages [jinjafx-server]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx_server-24.5.0.tar.gz]
+[2024-05-15 08:24:15] INFO root fetch - main [MainThread]: End processing [jinjafx-server]: success
+[2024-05-15 08:24:16] INFO root fetch - processPackages [odoo-addon-sale-rental]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_rental-15.0.1.0.2.2-py3-none-any.whl.zip]
+[2024-05-15 08:24:16] INFO root fetch - processPackages [odoo-addon-sale-rental]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_rental-15.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-15 08:24:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-rental]: success
+[2024-05-15 08:24:16] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2024-05-15 08:24:16] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuitka_winsvc-2.2.1.tar.gz tmp/Nuitka_winsvc-2.2.2-cp311-cp311-win_amd64.whl.zip --markdown 20240515/N/Nuitka-winsvc/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-15 08:24:18] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_winsvc-2.2.1.tar.gz]
+[2024-05-15 08:24:18] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka_winsvc-2.2.2-cp311-cp311-win_amd64.whl.zip]
+[2024-05-15 08:24:18] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2024-05-15 08:24:18] INFO root fetch - main [MainThread]: Store serial: [23213558]
