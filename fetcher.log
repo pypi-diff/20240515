@@ -12921,3 +12921,49 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:50:47] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-3.2.5.tar.gz]
 [2024-05-15 08:50:47] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
 [2024-05-15 08:50:47] INFO root fetch - main [MainThread]: Store serial: [23213763]
+[2024-05-15 08:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213763]
+[2024-05-15 08:52:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 08:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-authentify
+[2024-05-15 08:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-diagram
+[2024-05-15 08:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py2docfx
+[2024-05-15 08:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk
+[2024-05-15 08:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtsql
+[2024-05-15 08:52:56] INFO root fetch - processPackages [aspose-diagram]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-15 08:52:56] INFO root fetch - processPackages [drf-authentify]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-15 08:52:56] INFO root fetch - processPackages [py2docfx]: New version: [0.1.7rc1727773] Old Version: [0.1.7rc1720171]
+[2024-05-15 08:52:56] INFO root fetch - processPackages [mtsql]: New version: [1.9.202401091637] Old Version: [1.8.202401021406]
+[2024-05-15 08:52:56] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-15 08:52:56] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-15 08:52:56] INFO root fetch - processPackages [drf-authentify]: Downloading https://files.pythonhosted.org/packages/69/32/3860b6a5d41af1319d73665848dfe6fdf752f2741f9e2f3fdddf7efe8618/drf_authentify-0.3.4.tar.gz
+[2024-05-15 08:52:56] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/83/fe/c81504dde98516c8be1273c104724a48e96b6051f16be482f49520d4c3de/py2docfx-0.1.7rc1720171-py3-none-any.whl
+[2024-05-15 08:52:56] INFO root fetch - processPackages [mtsql]: Downloading https://files.pythonhosted.org/packages/5c/95/4f3afe85353314e879c952bdda518d3b5cd61115fe39c16df01ede770b1b/mtsql-1.8.202401021406-py3-none-any.whl
+[2024-05-15 08:52:56] INFO root fetch - processPackages [aspose-diagram]: Downloading https://files.pythonhosted.org/packages/e0/6d/c0190c81a1008d5d924cf2f9ebf37af380922f5c9291a9a4c500c7075ef8/aspose-diagram-24.5.0.tar.gz
+[2024-05-15 08:52:56] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-15 08:52:57] INFO root fetch - processPackages [drf-authentify]: Downloading https://files.pythonhosted.org/packages/57/b7/639e5036cec712100a7f6048f23a128b87907b9f154e3861d1e7841bd10f/drf_authentify-0.3.5.tar.gz
+[2024-05-15 08:52:57] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/94/67/326fb5ca8ea14c11c91fded462b2a8d4172e84c5d28cc28423d5b9c10aba/py2docfx-0.1.7rc1727773-py3-none-any.whl
+[2024-05-15 08:52:57] INFO root fetch - processPackages [drf-authentify]: executing diffoscope
+[2024-05-15 08:52:57] INFO root fetch - processPackages [drf-authentify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_authentify-0.3.4.tar.gz tmp/drf_authentify-0.3.5.tar.gz --markdown 20240515/d/drf-authentify/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-15 08:52:57] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-15 08:52:57] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240515/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-15 08:52:57] INFO root fetch - processPackages [mtsql]: Downloading https://files.pythonhosted.org/packages/4f/7f/744fdcf5b9d69c0c67ccbdb3b9f890884d442463b4a06ada109b4773f7eb/mtsql-1.9.202401091637-py3-none-any.whl
+[2024-05-15 08:52:57] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-15 08:52:57] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip tmp/py2docfx-0.1.7rc1727773-py3-none-any.whl.zip --markdown 20240515/p/py2docfx/0.1.7rc1720171-0.1.7rc1727773/README.md --exclude *.pyd
+[2024-05-15 08:52:57] INFO root fetch - processPackages [aspose-diagram]: executing diffoscope
+[2024-05-15 08:52:57] INFO root fetch - processPackages [aspose-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-diagram-24.4.0.tar.gz tmp/aspose-diagram-24.5.0.tar.gz --markdown 20240515/a/aspose-diagram/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-15 08:52:57] INFO root fetch - processPackages [mtsql]: executing diffoscope
+[2024-05-15 08:52:57] INFO root fetch - processPackages [mtsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtsql-1.8.202401021406-py3-none-any.whl.zip tmp/mtsql-1.9.202401091637-py3-none-any.whl.zip --markdown 20240515/m/mtsql/1.8.202401021406-1.9.202401091637/README.md --exclude *.pyd
+[2024-05-15 08:52:57] INFO root fetch - processPackages [drf-authentify]: Remove: archive file [/home/abi/fetcher/tmp/drf_authentify-0.3.4.tar.gz]
+[2024-05-15 08:52:57] INFO root fetch - processPackages [drf-authentify]: Remove: archive file [/home/abi/fetcher/tmp/drf_authentify-0.3.5.tar.gz]
+[2024-05-15 08:52:57] INFO root fetch - main [MainThread]: End processing [drf-authentify]: success
+[2024-05-15 08:52:58] INFO root fetch - processPackages [mtsql]: Remove: archive file [/home/abi/fetcher/tmp/mtsql-1.8.202401021406-py3-none-any.whl.zip]
+[2024-05-15 08:52:58] INFO root fetch - processPackages [mtsql]: Remove: archive file [/home/abi/fetcher/tmp/mtsql-1.9.202401091637-py3-none-any.whl.zip]
+[2024-05-15 08:52:58] INFO root fetch - main [MainThread]: End processing [mtsql]: success
+[2024-05-15 08:52:58] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip]
+[2024-05-15 08:52:58] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7rc1727773-py3-none-any.whl.zip]
+[2024-05-15 08:52:58] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-15 08:53:02] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-15 08:53:02] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-15 08:53:02] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-15 08:55:57] ERROR root fetch - processPackages [aspose-diagram]: Timeout during execution of pkgdiff
+[2024-05-15 08:55:57] INFO root fetch - main [MainThread]: End processing [aspose-diagram] error
+[2024-05-15 08:55:57] INFO root fetch - main [MainThread]: Store serial: [23213777]
