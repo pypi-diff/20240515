@@ -18703,3 +18703,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:20:25] INFO root fetch - processPackages [kmat-tools]: Remove: archive file [/home/abi/fetcher/tmp/kmat_tools-0.0.9.tar.gz]
 [2024-05-15 12:20:25] INFO root fetch - main [MainThread]: End processing [kmat-tools]: success
 [2024-05-15 12:20:25] INFO root fetch - main [MainThread]: Store serial: [23216362]
+[2024-05-15 12:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216362]
+[2024-05-15 12:22:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-sdk
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatgpt-md-converter
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modin
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inventory-monitor
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxns
+[2024-05-15 12:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlit
+[2024-05-15 12:22:34] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.87]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [chatgpt-md-converter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [openlit]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [jaxns]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [inventory-monitor]: New version: [8.0.0b1] Old Version: [7.1.0]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [modin]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 12:22:35] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6e/62/c87e6cbabb0d8738ee0dd968b5e4fcab480737ddfb00f499dc0d837579a5/abstract_pandas-0.0.0.87.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [chatgpt-md-converter]: Downloading https://files.pythonhosted.org/packages/9a/11/a685d52324f0cb5a799a57b3fcea01bb9dbc6d88b9ea7bd325895d52b4b2/chatgpt_md_converter-0.1.0.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/11/03/5d17efb19e84a7e84d54307e5216d5ad1d300cd8848d47e39fe1e57491d4/inventory-monitor-7.1.0.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/3c/46/8fe316b681c9807549983d54af91c865572e32f7d6c9d97a0af6f613402f/modin-0.9.0.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/2a/14/8f1338410d7422e9526e836dd6f99b3a1c916cf344566933871631660214/openlit-1.2.0.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [jaxns]: Downloading https://files.pythonhosted.org/packages/d1/88/37db732a4ee98882d776a7b55bd6d52f7adc83d92e8f1986d49d77d71b68/jaxns-2.4.9.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [chatgpt-md-converter]: Downloading https://files.pythonhosted.org/packages/4e/fd/38ce9df744ea0dee9850f46b399362cc61ed45e6f6e1cf2cac089b959a4b/chatgpt_md_converter-0.1.1.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:22:35] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.87.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.87-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 12:22:35] INFO root fetch - processPackages [chatgpt-md-converter]: executing diffoscope
+[2024-05-15 12:22:35] INFO root fetch - processPackages [chatgpt-md-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_md_converter-0.1.0.tar.gz tmp/chatgpt_md_converter-0.1.1.tar.gz --markdown 20240515/c/chatgpt-md-converter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 12:22:35] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/82/f9/b6c6b5ef780bf95dedd5f4a345da8d3dc8e7f2e9e55e4387124fca35901e/inventory-monitor-8.0.0b1.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/08/bf/93c3aa69585e71fc0292406eca71e4a727227202e54708942711cc97fc25/openlit-1.3.0.tar.gz
+[2024-05-15 12:22:35] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-15 12:22:35] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240515/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-15 12:22:35] INFO root fetch - processPackages [inventory-monitor]: executing diffoscope
+[2024-05-15 12:22:35] INFO root fetch - processPackages [inventory-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventory-monitor-7.1.0.tar.gz tmp/inventory-monitor-8.0.0b1.tar.gz --markdown 20240515/i/inventory-monitor/7.1.0-8.0.0b1/README.md --exclude *.pyd
+[2024-05-15 12:22:35] INFO root fetch - processPackages [jaxns]: Downloading https://files.pythonhosted.org/packages/e8/6b/142a3f1af8a190e2079dab42a8335104ffaa1e964246bb2fdf14af1eecab/jaxns-2.5.0.tar.gz
+[2024-05-15 12:22:36] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-15 12:22:36] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.2.0.tar.gz tmp/openlit-1.3.0.tar.gz --markdown 20240515/o/openlit/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-15 12:22:36] INFO root fetch - processPackages [jaxns]: executing diffoscope
+[2024-05-15 12:22:36] INFO root fetch - processPackages [jaxns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxns-2.4.9.tar.gz tmp/jaxns-2.5.0.tar.gz --markdown 20240515/j/jaxns/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-05-15 12:22:36] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.87.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:22:36] INFO root fetch - processPackages [chatgpt-md-converter]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_md_converter-0.1.0.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - processPackages [chatgpt-md-converter]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_md_converter-0.1.1.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - main [MainThread]: End processing [chatgpt-md-converter]: success
+[2024-05-15 12:22:36] INFO root fetch - processPackages [inventory-monitor]: Remove: archive file [/home/abi/fetcher/tmp/inventory-monitor-7.1.0.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - processPackages [inventory-monitor]: Remove: archive file [/home/abi/fetcher/tmp/inventory-monitor-8.0.0b1.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - main [MainThread]: End processing [inventory-monitor]: success
+[2024-05-15 12:22:36] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/c4/de/b6befe4f022553b09be9c92bf88128b2e391c580fe7ca4876acb77aec416/modin-0.9.1.tar.gz
+[2024-05-15 12:22:36] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.2.0.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.3.0.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-15 12:22:36] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-15 12:22:36] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-15 12:22:36] INFO root fetch - processPackages [modin]: executing diffoscope
+[2024-05-15 12:22:36] INFO root fetch - processPackages [modin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modin-0.9.0.tar.gz tmp/modin-0.9.1.tar.gz --markdown 20240515/m/modin/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 12:22:37] INFO root fetch - processPackages [jaxns]: Remove: archive file [/home/abi/fetcher/tmp/jaxns-2.4.9.tar.gz]
+[2024-05-15 12:22:37] INFO root fetch - processPackages [jaxns]: Remove: archive file [/home/abi/fetcher/tmp/jaxns-2.5.0.tar.gz]
+[2024-05-15 12:22:37] INFO root fetch - main [MainThread]: End processing [jaxns]: success
+[2024-05-15 12:22:38] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.0.tar.gz]
+[2024-05-15 12:22:38] INFO root fetch - processPackages [modin]: Remove: archive file [/home/abi/fetcher/tmp/modin-0.9.1.tar.gz]
+[2024-05-15 12:22:38] INFO root fetch - main [MainThread]: End processing [modin]: success
+[2024-05-15 12:22:38] INFO root fetch - main [MainThread]: Store serial: [23216382]
