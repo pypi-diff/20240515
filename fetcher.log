@@ -13179,3 +13179,36 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:02:33] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
 [2024-05-15 09:02:33] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
 [2024-05-15 09:02:33] INFO root fetch - main [MainThread]: Store serial: [23213845]
+[2024-05-15 09:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213845]
+[2024-05-15 09:04:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtlink
+[2024-05-15 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bambot
+[2024-05-15 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binpolar
+[2024-05-15 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvkt
+[2024-05-15 09:04:42] INFO root fetch - processPackages [qtlink]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-15 09:04:42] INFO root fetch - processPackages [bambot]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-15 09:04:42] INFO root fetch - processPackages [binpolar]: New version: [1.3] Old Version: [0.7]
+[2024-05-15 09:04:42] WARNING root fetch - processPackages [pyvkt]: Skipping, unable to determine old version
+[2024-05-15 09:04:42] INFO root fetch - main [MainThread]: End processing [pyvkt] error
+[2024-05-15 09:04:42] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/1e/2a/f0afa86db08fe930e88a52c94dd976db8e567ae3c3a0de8acf7e89709ec4/qtlink-1.2.8.tar.gz
+[2024-05-15 09:04:42] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/f1/bb/920cc36237702668e7422abe1149ece2bce6e825d944db4aa5351afa6e81/bambot-0.4.3.tar.gz
+[2024-05-15 09:04:42] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/6f/d7/3302dbec84c497c82cdf554497d71c6c8c3bfdc529d3060e4baee0e333e6/binpolar-0.7.tar.gz
+[2024-05-15 09:04:42] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/c6/3c/4a0be6b1937e94fb3f97d962bbc6d21c5edd24d70451ae48565dd4dc2fe8/qtlink-1.2.9.tar.gz
+[2024-05-15 09:04:42] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-05-15 09:04:42] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.8.tar.gz tmp/qtlink-1.2.9.tar.gz --markdown 20240515/q/qtlink/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-15 09:04:42] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/26/c3/9b8ab12ba823df589a07f344b2c3d07b8e1542460611e19b2757ef86d28f/binpolar-1.3.tar.gz
+[2024-05-15 09:04:42] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/1e/92/2493cb9cc4aa18644c3aa4cbabfa2c9155f6a7cabd0be5bdcc7d137052a7/bambot-0.4.4.tar.gz
+[2024-05-15 09:04:42] INFO root fetch - processPackages [binpolar]: executing diffoscope
+[2024-05-15 09:04:42] INFO root fetch - processPackages [binpolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpolar-0.7.tar.gz tmp/binpolar-1.3.tar.gz --markdown 20240515/b/binpolar/0.7-1.3/README.md --exclude *.pyd
+[2024-05-15 09:04:42] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-05-15 09:04:42] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.4.3.tar.gz tmp/bambot-0.4.4.tar.gz --markdown 20240515/b/bambot/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-15 09:04:43] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.8.tar.gz]
+[2024-05-15 09:04:43] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.9.tar.gz]
+[2024-05-15 09:04:43] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-05-15 09:04:43] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.7.tar.gz]
+[2024-05-15 09:04:43] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-1.3.tar.gz]
+[2024-05-15 09:04:43] INFO root fetch - main [MainThread]: End processing [binpolar]: success
+[2024-05-15 09:04:43] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.3.tar.gz]
+[2024-05-15 09:04:43] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.4.tar.gz]
+[2024-05-15 09:04:43] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-05-15 09:04:43] INFO root fetch - main [MainThread]: Store serial: [23213861]
