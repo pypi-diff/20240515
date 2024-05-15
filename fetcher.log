@@ -13792,3 +13792,56 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:28:54] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-15 09:28:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile-base]: success
 [2024-05-15 09:28:54] INFO root fetch - main [MainThread]: Store serial: [23214095]
+[2024-05-15 09:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214095]
+[2024-05-15 09:31:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-sync-roles
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ymodem
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycrashreport
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-utils-dev
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-utils-dev
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-utils-dev
+[2024-05-15 09:31:03] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 09:31:03] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-15 09:31:03] INFO root fetch - processPackages [pycrashreport]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-15 09:31:03] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-15 09:31:03] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-15 09:31:03] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-15 09:31:03] INFO root fetch - processPackages [ymodem]: New version: [1.5.1b2] Old Version: [1.5.1b1]
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pycrashreport]: Downloading https://files.pythonhosted.org/packages/a0/f1/8b000ed0e2d287102797aa77a806c1f7f3b713ee48348dd7fb5cec21ed06/pycrashreport-1.2.1.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [ymodem]: Downloading https://files.pythonhosted.org/packages/c3/aa/eaa7ff213a7c9d0c8e637d2b064fc4f9a50d1d6d537ff0d90ff716634010/ymodem-1.5.1b1.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240515/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240515/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240515/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-05-15 09:31:04] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240515/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-15 09:31:04] INFO root fetch - processPackages [ymodem]: Downloading https://files.pythonhosted.org/packages/ee/dc/3e45f9859f6d13c0fa8c242eedbc5e10c45f135c6a8041a0655ae7b5e995/ymodem-1.5.1b2.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pycrashreport]: Downloading https://files.pythonhosted.org/packages/c4/a7/970ad98ca382490b7e7b8b3c5fb53d6453298c62b38e5a94118e534c554b/pycrashreport-1.2.2.tar.gz
+[2024-05-15 09:31:04] INFO root fetch - processPackages [ymodem]: executing diffoscope
+[2024-05-15 09:31:04] INFO root fetch - processPackages [ymodem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ymodem-1.5.1b1.tar.gz tmp/ymodem-1.5.1b2.tar.gz --markdown 20240515/y/ymodem/1.5.1b1-1.5.1b2/README.md --exclude *.pyd
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pycrashreport]: executing diffoscope
+[2024-05-15 09:31:04] INFO root fetch - processPackages [pycrashreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrashreport-1.2.1.tar.gz tmp/pycrashreport-1.2.2.tar.gz --markdown 20240515/p/pycrashreport/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-15 09:31:05] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-15 09:31:05] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-05-15 09:31:05] INFO root fetch - processPackages [ymodem]: Remove: archive file [/home/abi/fetcher/tmp/ymodem-1.5.1b1.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - processPackages [ymodem]: Remove: archive file [/home/abi/fetcher/tmp/ymodem-1.5.1b2.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [ymodem]: success
+[2024-05-15 09:31:05] INFO root fetch - processPackages [pycrashreport]: Remove: archive file [/home/abi/fetcher/tmp/pycrashreport-1.2.1.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - processPackages [pycrashreport]: Remove: archive file [/home/abi/fetcher/tmp/pycrashreport-1.2.2.tar.gz]
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [pycrashreport]: success
+[2024-05-15 09:31:05] INFO root fetch - main [MainThread]: Store serial: [23214116]
