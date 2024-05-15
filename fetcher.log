@@ -12669,3 +12669,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:37:40] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.38.tar.gz]
 [2024-05-15 08:37:40] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
 [2024-05-15 08:37:40] INFO root fetch - main [MainThread]: Store serial: [23213652]
+[2024-05-15 08:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213652]
+[2024-05-15 08:39:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 08:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcloudrun-flask-python
+[2024-05-15 08:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-auditlog
+[2024-05-15 08:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quite6
+[2024-05-15 08:39:49] INFO root fetch - processPackages [gcloudrun-flask-python]: New version: [1.5] Old Version: [1.1]
+[2024-05-15 08:39:49] WARNING root fetch - processPackages [quite6]: Skipping, unable to determine old version
+[2024-05-15 08:39:49] INFO root fetch - main [MainThread]: End processing [quite6] error
+[2024-05-15 08:39:49] INFO root fetch - processPackages [odoo14-addon-auditlog]: New version: [14.0.2.0.3.dev4] Old Version: [14.0.2.0.3.dev3]
+[2024-05-15 08:39:49] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/61/5b/43dfd590f37397ccb468d1ed19fb4590a4e866d9c653e313030e6160a59e/gcloudrun_flask_python-1.1.tar.gz
+[2024-05-15 08:39:49] INFO root fetch - processPackages [odoo14-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/68/95/49cc36034444cb140e1d8f1b52e4145680ce2fbf6ddde9eb682b87bf4a40/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl
+[2024-05-15 08:39:49] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/7f/fb/eca27c7b99665642da3a24a463a31bc3f1433288fe15b8634890be03c1c2/gcloudrun_flask_python-1.5.tar.gz
+[2024-05-15 08:39:49] INFO root fetch - processPackages [gcloudrun-flask-python]: executing diffoscope
+[2024-05-15 08:39:49] INFO root fetch - processPackages [gcloudrun-flask-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloudrun_flask_python-1.1.tar.gz tmp/gcloudrun_flask_python-1.5.tar.gz --markdown 20240515/g/gcloudrun-flask-python/1.1-1.5/README.md --exclude *.pyd
+[2024-05-15 08:39:49] INFO root fetch - processPackages [odoo14-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/9a/04/42c579d5d834f41385ce29ec49b12f7db5adc4a75e403f321322fc24aa6c/odoo14_addon_auditlog-14.0.2.0.3.dev4-py3-none-any.whl
+[2024-05-15 08:39:50] INFO root fetch - processPackages [odoo14-addon-auditlog]: executing diffoscope
+[2024-05-15 08:39:50] INFO root fetch - processPackages [odoo14-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_auditlog-14.0.2.0.3.dev4-py3-none-any.whl.zip --markdown 20240515/o/odoo14-addon-auditlog/14.0.2.0.3.dev3-14.0.2.0.3.dev4/README.md --exclude *.pyd
+[2024-05-15 08:39:50] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-1.1.tar.gz]
+[2024-05-15 08:39:50] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-1.5.tar.gz]
+[2024-05-15 08:39:50] INFO root fetch - main [MainThread]: End processing [gcloudrun-flask-python]: success
+[2024-05-15 08:39:50] INFO root fetch - processPackages [odoo14-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auditlog-14.0.2.0.3.dev3-py3-none-any.whl.zip]
+[2024-05-15 08:39:50] INFO root fetch - processPackages [odoo14-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auditlog-14.0.2.0.3.dev4-py3-none-any.whl.zip]
+[2024-05-15 08:39:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auditlog]: success
+[2024-05-15 08:39:50] INFO root fetch - main [MainThread]: Store serial: [23213659]
