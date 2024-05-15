@@ -8070,3 +8070,36 @@
 [2024-05-15 04:16:22] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-15 04:16:22] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-15 04:16:22] INFO root fetch - main [MainThread]: Store serial: [23211688]
+[2024-05-15 04:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211688]
+[2024-05-15 04:18:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 04:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: albucore
+[2024-05-15 04:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cntools
+[2024-05-15 04:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: di-compression
+[2024-05-15 04:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MaaDebugger
+[2024-05-15 04:18:30] INFO root fetch - processPackages [di-compression]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 04:18:30] INFO root fetch - processPackages [cntools]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-15 04:18:30] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/46/28/76f03357ad0f65b57007836d8c2d70682cf2ad1a98e8fe8526ee5440288b/cntools-2.1.2.tar.gz
+[2024-05-15 04:18:30] INFO root fetch - processPackages [di-compression]: Downloading https://files.pythonhosted.org/packages/97/91/cdd4a401b2984dc8a17cdca6c6e3319ea7c04458928559b97360fddd1cc3/di_compression-0.0.3.tar.gz
+[2024-05-15 04:18:30] INFO root fetch - processPackages [MaaDebugger]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2024-05-15 04:18:30] WARNING root fetch - processPackages [albucore]: Skipping, unable to determine old version
+[2024-05-15 04:18:30] INFO root fetch - main [MainThread]: End processing [albucore] error
+[2024-05-15 04:18:31] INFO root fetch - processPackages [di-compression]: Downloading https://files.pythonhosted.org/packages/7d/a7/ee72fb66e2b3285b4790336409420d4761aa87619e273786e214d70aba9f/di-compression-0.0.4.tar.gz
+[2024-05-15 04:18:31] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/cc/e8/21076c0d20be969b0e886981249da8335cf9f2f0cc43d082f4fc1c86bfc5/maadebugger-1.1.0b1.tar.gz
+[2024-05-15 04:18:31] INFO root fetch - processPackages [di-compression]: executing diffoscope
+[2024-05-15 04:18:31] INFO root fetch - processPackages [di-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/di_compression-0.0.3.tar.gz tmp/di-compression-0.0.4.tar.gz --markdown 20240515/d/di-compression/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 04:18:31] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/6c/a3/cc6e43da4e5150da4f19021ecfc388d734267085523cd02c34eb43135964/cntools-2.1.3.tar.gz
+[2024-05-15 04:18:31] INFO root fetch - processPackages [cntools]: executing diffoscope
+[2024-05-15 04:18:31] INFO root fetch - processPackages [cntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntools-2.1.2.tar.gz tmp/cntools-2.1.3.tar.gz --markdown 20240515/c/cntools/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-15 04:18:31] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/6b/0c/5313b7055d2e23b1956f1229524b4e41308c1ed4cab850ad78d4d157b3a7/maadebugger-1.1.0b2.tar.gz
+[2024-05-15 04:18:31] INFO root fetch - processPackages [MaaDebugger]: executing diffoscope
+[2024-05-15 04:18:31] INFO root fetch - processPackages [MaaDebugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadebugger-1.1.0b1.tar.gz tmp/maadebugger-1.1.0b2.tar.gz --markdown 20240515/M/MaaDebugger/1.1.0b1-1.1.0b2/README.md --exclude *.pyd
+[2024-05-15 04:18:31] INFO root fetch - processPackages [di-compression]: Remove: archive file [/home/abi/fetcher/tmp/di_compression-0.0.3.tar.gz]
+[2024-05-15 04:18:31] INFO root fetch - processPackages [di-compression]: Remove: archive file [/home/abi/fetcher/tmp/di-compression-0.0.4.tar.gz]
+[2024-05-15 04:18:31] INFO root fetch - main [MainThread]: End processing [di-compression]: success
+[2024-05-15 04:18:32] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.1.0b1.tar.gz]
+[2024-05-15 04:18:32] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.1.0b2.tar.gz]
+[2024-05-15 04:18:32] INFO root fetch - main [MainThread]: End processing [MaaDebugger]: success
+[2024-05-15 04:18:32] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.2.tar.gz]
+[2024-05-15 04:18:32] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.3.tar.gz]
+[2024-05-15 04:18:32] INFO root fetch - main [MainThread]: End processing [cntools]: success
+[2024-05-15 04:18:32] INFO root fetch - main [MainThread]: Store serial: [23211701]
