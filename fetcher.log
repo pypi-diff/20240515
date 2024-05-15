@@ -12463,3 +12463,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:28:41] INFO root fetch - processPackages [install-release]: Remove: archive file [/home/abi/fetcher/tmp/install_release-0.4.2.tar.gz]
 [2024-05-15 08:28:41] INFO root fetch - main [MainThread]: End processing [install-release]: success
 [2024-05-15 08:28:41] INFO root fetch - main [MainThread]: Store serial: [23213578]
+[2024-05-15 08:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213578]
+[2024-05-15 08:30:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-auth-saml
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cruds
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Qt.py
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcloudrun-flask-python
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Gefyra
+[2024-05-15 08:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-esios
+[2024-05-15 08:30:50] INFO root fetch - processPackages [gcloudrun-flask-python]: New version: [0.3] Old Version: [0.2]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [odoo-addon-auth-saml]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Qt.py]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [cruds]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Gefyra]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9d/e3/f9beff4571b378ab4ef80fd6c8feb121eaeee1d9874213dbf352d3443003/gcloudrun_flask_python-0.2.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/e0/fc/b2227a6e519b8a1e86b54b5ace3b3b745841d5782773825020d1ef3a4270/odoo_addon_auth_saml-16.0.1.0.3-py3-none-any.whl
+[2024-05-15 08:30:50] INFO root fetch - processPackages [cruds]: Downloading https://files.pythonhosted.org/packages/af/44/35581df20ea1b4bc9a8007485bae03bf6d2cc83cd5ec28a7fb1a34258b53/cruds-1.0.2.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [python-esios]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/57/01/5fb255a7b9f2e292a841abcf340ac065dc8b59bc82775336be3aed85e98c/gefyra-2.1.2.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Qt.py]: Downloading https://files.pythonhosted.org/packages/3f/be/7422702be6b88a2e693fb8e69e31a9a859e5b8690d9683fe27b1dd4d2161/Qt.py-1.3.8.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/ce/00/c25703074d8ad230b43e747e5a29685964746d5e927f2ddd76c920a56a96/gefyra-2.1.3.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [cruds]: Downloading https://files.pythonhosted.org/packages/25/0e/2f020553f56f988b80cfb9e62a5ecc53b58ce20f721b942d3e0454ec7c2d/cruds-1.1.0.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/37/fe/72ad20ecf8a9608d81731d27578a7a926a2269dc13ad119af15c1a805adc/python_esios-0.1.1.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/e0/3d/27b82b97f8c45bf1966769f220e9843ec1f52ff25992adda57c65fdedb39/odoo_addon_auth_saml-16.0.1.0.4-py3-none-any.whl
+[2024-05-15 08:30:50] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/30/21/9e1131938c8f91172c1b7c87d6db68663a385e7ed3d914bb92fa09525126/gcloudrun_flask_python-0.3.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [cruds]: executing diffoscope
+[2024-05-15 08:30:50] INFO root fetch - processPackages [cruds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruds-1.0.2.tar.gz tmp/cruds-1.1.0.tar.gz --markdown 20240515/c/cruds/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Gefyra]: executing diffoscope
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-2.1.2.tar.gz tmp/gefyra-2.1.3.tar.gz --markdown 20240515/G/Gefyra/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-15 08:30:50] INFO root fetch - processPackages [odoo-addon-auth-saml]: executing diffoscope
+[2024-05-15 08:30:50] INFO root fetch - processPackages [odoo-addon-auth-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_saml-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_saml-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-auth-saml/16.0.1.0.3-16.0.1.0.4/README.md --exclude *.pyd
+[2024-05-15 08:30:50] INFO root fetch - processPackages [gcloudrun-flask-python]: executing diffoscope
+[2024-05-15 08:30:50] INFO root fetch - processPackages [gcloudrun-flask-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloudrun_flask_python-0.2.tar.gz tmp/gcloudrun_flask_python-0.3.tar.gz --markdown 20240515/g/gcloudrun-flask-python/0.2-0.3/README.md --exclude *.pyd
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Qt.py]: Downloading https://files.pythonhosted.org/packages/5e/4a/417b2b5ea06ae6e85961950e8c6ad1439e07222659c88cf5171d0b527a20/Qt.py-1.3.9-py2.py3-none-any.whl
+[2024-05-15 08:30:50] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/d4/e0/8d1f05187baff5019107618a595c189985447a778d5635b0c4e3095f8f3d/python_esios-0.1.2.tar.gz
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Qt.py]: executing diffoscope
+[2024-05-15 08:30:50] INFO root fetch - processPackages [Qt.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Qt.py-1.3.8.tar.gz tmp/Qt.py-1.3.9-py2.py3-none-any.whl.zip --markdown 20240515/Q/Qt.py/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-15 08:30:50] INFO root fetch - processPackages [python-esios]: executing diffoscope
+[2024-05-15 08:30:50] INFO root fetch - processPackages [python-esios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_esios-0.1.1.tar.gz tmp/python_esios-0.1.2.tar.gz --markdown 20240515/p/python-esios/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 08:30:51] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-15 08:30:51] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-15 08:30:51] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240515/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-15 08:30:51] INFO root fetch - processPackages [cruds]: Remove: archive file [/home/abi/fetcher/tmp/cruds-1.0.2.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [cruds]: Remove: archive file [/home/abi/fetcher/tmp/cruds-1.1.0.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [cruds]: success
+[2024-05-15 08:30:51] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.2.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.3.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [Gefyra]: success
+[2024-05-15 08:30:51] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-saml]: success
+[2024-05-15 08:30:51] INFO root fetch - processPackages [Qt.py]: Remove: archive file [/home/abi/fetcher/tmp/Qt.py-1.3.8.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [Qt.py]: Remove: archive file [/home/abi/fetcher/tmp/Qt.py-1.3.9-py2.py3-none-any.whl.zip]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [Qt.py]: success
+[2024-05-15 08:30:51] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.2.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.3.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [gcloudrun-flask-python]: success
+[2024-05-15 08:30:51] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.1.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.2.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [python-esios]: success
+[2024-05-15 08:30:51] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-15 08:30:51] INFO root fetch - main [MainThread]: Store serial: [23213598]
