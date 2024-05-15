@@ -10467,3 +10467,36 @@
 [2024-05-15 06:51:48] INFO root fetch - processPackages [efax]: Remove: archive file [/home/abi/fetcher/tmp/efax-1.9.1.tar.gz]
 [2024-05-15 06:51:48] INFO root fetch - main [MainThread]: End processing [efax]: success
 [2024-05-15 06:51:48] INFO root fetch - main [MainThread]: Store serial: [23212770]
+[2024-05-15 06:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212770]
+[2024-05-15 06:53:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-sync-roles
+[2024-05-15 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-m3u8-to-mp4
+[2024-05-15 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almgroad
+[2024-05-15 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-paraformer
+[2024-05-15 06:53:57] INFO root fetch - processPackages [almgroad]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 06:53:57] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 06:53:57] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-15 06:53:57] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/60/74/62d69afdecc0d318fe3659defb1fc31cd06c35bfb0c0195cd5466188772c/almgroad-0.0.3-py3-none-any.whl
+[2024-05-15 06:53:57] INFO root fetch - processPackages [rapid-paraformer]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-15 06:53:57] WARNING root fetch - processPackages [py-m3u8-to-mp4]: Skipping, unable to determine old version
+[2024-05-15 06:53:57] INFO root fetch - main [MainThread]: End processing [py-m3u8-to-mp4] error
+[2024-05-15 06:53:57] INFO root fetch - processPackages [rapid-paraformer]: Downloading https://files.pythonhosted.org/packages/3e/a0/ef042274d899b3ce3040b9fa6633a5b85246417861195bed4f5e32d591ab/rapid_paraformer-2.0.4-py3-none-any.whl
+[2024-05-15 06:53:57] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-15 06:53:57] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/95/8f/1ded5ae6854f30abf9074025f95b7eb2ef8556c785b39100e51a44eea809/almgroad-0.0.4-py3-none-any.whl
+[2024-05-15 06:53:57] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-15 06:53:57] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240515/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 06:53:57] INFO root fetch - processPackages [almgroad]: executing diffoscope
+[2024-05-15 06:53:57] INFO root fetch - processPackages [almgroad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almgroad-0.0.3-py3-none-any.whl.zip tmp/almgroad-0.0.4-py3-none-any.whl.zip --markdown 20240515/a/almgroad/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 06:53:57] INFO root fetch - processPackages [rapid-paraformer]: Downloading https://files.pythonhosted.org/packages/02/7b/b2aa7037b213e01159338a9796e6d936cb041d5b6a27c21479da876087e8/rapid_paraformer-2.0.5-py3-none-any.whl
+[2024-05-15 06:53:57] INFO root fetch - processPackages [rapid-paraformer]: executing diffoscope
+[2024-05-15 06:53:57] INFO root fetch - processPackages [rapid-paraformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_paraformer-2.0.4-py3-none-any.whl.zip tmp/rapid_paraformer-2.0.5-py3-none-any.whl.zip --markdown 20240515/r/rapid-paraformer/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-15 06:53:58] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-15 06:53:58] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-15 06:53:58] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-15 06:53:58] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.3-py3-none-any.whl.zip]
+[2024-05-15 06:53:58] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.4-py3-none-any.whl.zip]
+[2024-05-15 06:53:58] INFO root fetch - main [MainThread]: End processing [almgroad]: success
+[2024-05-15 06:53:58] INFO root fetch - processPackages [rapid-paraformer]: Remove: archive file [/home/abi/fetcher/tmp/rapid_paraformer-2.0.4-py3-none-any.whl.zip]
+[2024-05-15 06:53:58] INFO root fetch - processPackages [rapid-paraformer]: Remove: archive file [/home/abi/fetcher/tmp/rapid_paraformer-2.0.5-py3-none-any.whl.zip]
+[2024-05-15 06:53:58] INFO root fetch - main [MainThread]: End processing [rapid-paraformer]: success
+[2024-05-15 06:53:58] INFO root fetch - main [MainThread]: Store serial: [23212782]
