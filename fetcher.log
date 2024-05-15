@@ -9334,3 +9334,67 @@
 [2024-05-15 05:41:21] INFO root fetch - processPackages [lephare]: Remove: archive file [/home/abi/fetcher/tmp/lephare-0.1.7.tar.gz]
 [2024-05-15 05:41:21] INFO root fetch - main [MainThread]: End processing [lephare]: success
 [2024-05-15 05:41:21] INFO root fetch - main [MainThread]: Store serial: [23212226]
+[2024-05-15 05:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212226]
+[2024-05-15 05:43:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypothesis
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ddmrp
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-core
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-ddmrp
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podgenai
+[2024-05-15 05:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.8.1] Old Version: [16.0.1.8.0]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.8.1] Old Version: [16.0.1.8.0]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [hypothesis]: New version: [6.99.9] Old Version: [6.99.8]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2024-05-15 05:43:30] INFO root fetch - processPackages [llama-index-core]: New version: [0.9.56] Old Version: [0.9.55]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/61/19/493aac647b8e3df4fde85b20cde9c44e0d20209b8b0efd6396a454719245/OperationBattleshipCommonUtilities-0.4.8.tar.gz
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/73/ae/82c325e14a5493a603200498b5750a6471c79fb983e390fec9193c0ab1a1/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/73/ae/82c325e14a5493a603200498b5750a6471c79fb983e390fec9193c0ab1a1/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl
+[2024-05-15 05:43:30] INFO root fetch - processPackages [podgenai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 05:43:30] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/d0/49/c41dfc6bca0eb0af93b2ecef16e99aa41f9a25e4bed45bfc37cb97018f93/hypothesis-6.99.8.tar.gz
+[2024-05-15 05:43:30] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/cb/c2/9d70e1ea21c2760f049ed87f06333bc85bc3afb95daa8f1cc6f9bce744ed/llama_index_core-0.9.55.tar.gz
+[2024-05-15 05:43:30] INFO root fetch - processPackages [podgenai]: Downloading https://files.pythonhosted.org/packages/5c/6f/d3beb6f91083721db19690afd428242ccc3a3888d5f918d02984d753cfbe/podgenai-0.1.2.tar.gz
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2024-05-15 05:43:30] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/ac/92/326716e57f625acc4f38608fd73f88985561fd58ee6df19d44230d70bba0/hypothesis-6.99.9.tar.gz
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/e6/3d/14f9478527debfe88540c1efa0fdc93799fd6b0ef830c7417132ee19681c/odoo_addon_ddmrp-16.0.1.8.1-py3-none-any.whl
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/e6/3d/14f9478527debfe88540c1efa0fdc93799fd6b0ef830c7417132ee19681c/odoo_addon_ddmrp-16.0.1.8.1-py3-none-any.whl
+[2024-05-15 05:43:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/fe/be/3631aa82c0edcad3232063f07860ab05a73d670fcf42b589d7cb039f0ed9/OperationBattleshipCommonUtilities-0.4.9.tar.gz
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20240515/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-15 05:43:30] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2024-05-15 05:43:30] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.99.8.tar.gz tmp/hypothesis-6.99.9.tar.gz --markdown 20240515/h/hypothesis/6.99.8-6.99.9/README.md --exclude *.pyd
+[2024-05-15 05:43:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-15 05:43:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz --markdown 20240515/O/OperationBattleshipCommonUtilities/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-15 05:43:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.8.1-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-ddmrp/16.0.1.8.0-16.0.1.8.1/README.md --exclude *.pyd
+[2024-05-15 05:43:31] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-15 05:43:31] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.8.1-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-ddmrp/16.0.1.8.0-16.0.1.8.1/README.md --exclude *.pyd
+[2024-05-15 05:43:31] INFO root fetch - processPackages [podgenai]: Downloading https://files.pythonhosted.org/packages/d4/92/74d251bd7891b3300f5796f92a0bc3030f7995a16a20abe1d79a8cab2e85/podgenai-0.1.3.tar.gz
+[2024-05-15 05:43:31] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/91/1b/bae52b894555c97848977c73e4a3a778ca388b07a2435d3a33c1133bd678/llama_index_core-0.9.56.tar.gz
+[2024-05-15 05:43:31] INFO root fetch - processPackages [podgenai]: executing diffoscope
+[2024-05-15 05:43:31] INFO root fetch - processPackages [podgenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podgenai-0.1.2.tar.gz tmp/podgenai-0.1.3.tar.gz --markdown 20240515/p/podgenai/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 05:43:31] INFO root fetch - processPackages [llama-index-core]: executing diffoscope
+[2024-05-15 05:43:31] INFO root fetch - processPackages [llama-index-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_core-0.9.55.tar.gz tmp/llama_index_core-0.9.56.tar.gz --markdown 20240515/l/llama-index-core/0.9.55-0.9.56/README.md --exclude *.pyd
+[2024-05-15 05:43:31] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz]
+[2024-05-15 05:43:31] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz]
+[2024-05-15 05:43:31] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-15 05:43:31] INFO root fetch - processPackages [podgenai]: Remove: archive file [/home/abi/fetcher/tmp/podgenai-0.1.2.tar.gz]
+[2024-05-15 05:43:31] INFO root fetch - processPackages [podgenai]: Remove: archive file [/home/abi/fetcher/tmp/podgenai-0.1.3.tar.gz]
+[2024-05-15 05:43:31] INFO root fetch - main [MainThread]: End processing [podgenai]: success
+[2024-05-15 05:43:32] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-15 05:43:32] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2024-05-15 05:43:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2024-05-15 05:43:32] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.8.tar.gz]
+[2024-05-15 05:43:32] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.9.tar.gz]
+[2024-05-15 05:43:32] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2024-05-15 05:43:32] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl.zip]
+[2024-05-15 05:43:32] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.1-py3-none-any.whl.zip]
+[2024-05-15 05:43:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-15 05:43:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-15 05:43:32] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.55.tar.gz]
+[2024-05-15 05:43:32] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
+[2024-05-15 05:43:32] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
+[2024-05-15 05:43:32] INFO root fetch - main [MainThread]: Store serial: [23212251]
