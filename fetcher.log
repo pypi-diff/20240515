@@ -19743,3 +19743,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:10:56] INFO root fetch - processPackages [promptflow-python-bundle]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_python_bundle-0.2.0-py3-none-any.whl.zip]
 [2024-05-15 13:10:56] INFO root fetch - main [MainThread]: End processing [promptflow-python-bundle]: success
 [2024-05-15 13:10:56] INFO root fetch - main [MainThread]: Store serial: [23216699]
+[2024-05-15 13:13:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216699]
+[2024-05-15 13:13:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basedpyright
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gentoo-cache-manager
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ClappScrapers
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monteprediction
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-node-binding
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zensvi
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-expr-transformer
+[2024-05-15 13:13:05] INFO root fetch - processPackages [monteprediction]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [polars-expr-transformer]: New version: [0.1.3.1] Old Version: [0.1.3]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.1.0.post1299] Old Version: [3.1.0.post1297]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/72/65/0e5db0bfdfa9d9120cb64c4ae011c2e39a8cc051ac9b195c658f6e06093f/monteprediction-1.0.8.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [gentoo-cache-manager]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/f5/eb/6e527ee3b9e813eab74652e3dd80a546adb96200deb80f62337709bd8f80/polars_expr_transformer-0.1.3.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/9d/a9/fe9cf05b5374658bd7c9e3e38dfb4de3bc1e642ffbf468f672f7739bb2d6/nucliadb_node_binding-3.1.0.post1297.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [gentoo-cache-manager]: Downloading https://files.pythonhosted.org/packages/e8/b7/621ec11979ccc9f54e611d041c5f6c3214f8a258da32cc4cfe842046a7b6/gentoo_cache_manager-0.1.0.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/5f/93/f758156e7f6a3b1a4a13dc1a8bc6997757cf1b8852b1198ef946ead5ab2d/monteprediction-1.0.9.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [monteprediction]: executing diffoscope
+[2024-05-15 13:13:05] INFO root fetch - processPackages [monteprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monteprediction-1.0.8.tar.gz tmp/monteprediction-1.0.9.tar.gz --markdown 20240515/m/monteprediction/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 13:13:05] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/99/fc/1e59361d97b4ff88d07f99bd2b2fe119f808fd325837e0e4c2c2ca9338b6/polars_expr_transformer-0.1.3.1.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-15 13:13:05] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240515/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 13:13:05] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/2e/d9/1e8ad0564be818709d4cccc99a31eff44fd3c7e3f8c40158e72b7ceb7997/nucliadb_node_binding-3.1.0.post1299.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [polars-expr-transformer]: executing diffoscope
+[2024-05-15 13:13:05] INFO root fetch - processPackages [polars-expr-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_expr_transformer-0.1.3.tar.gz tmp/polars_expr_transformer-0.1.3.1.tar.gz --markdown 20240515/p/polars-expr-transformer/0.1.3-0.1.3.1/README.md --exclude *.pyd
+[2024-05-15 13:13:05] INFO root fetch - processPackages [gentoo-cache-manager]: Downloading https://files.pythonhosted.org/packages/71/66/56b66cb7b0808d0ecaa8c1cce7466f56602a63eff0627614c516221d5b82/gentoo_cache_manager-0.2.0.tar.gz
+[2024-05-15 13:13:05] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-15 13:13:05] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.1.0.post1297.tar.gz tmp/nucliadb_node_binding-3.1.0.post1299.tar.gz --markdown 20240515/n/nucliadb-node-binding/3.1.0.post1297-3.1.0.post1299/README.md --exclude *.pyd
+[2024-05-15 13:13:05] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-05-15 13:13:06] INFO root fetch - processPackages [gentoo-cache-manager]: executing diffoscope
+[2024-05-15 13:13:06] INFO root fetch - processPackages [gentoo-cache-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentoo_cache_manager-0.1.0.tar.gz tmp/gentoo_cache_manager-0.2.0.tar.gz --markdown 20240515/g/gentoo-cache-manager/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-15 13:13:06] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-05-15 13:13:06] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240515/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-15 13:13:06] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-15 13:13:06] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.8.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.9.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - main [MainThread]: End processing [monteprediction]: success
+[2024-05-15 13:13:06] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.3.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.3.1.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - main [MainThread]: End processing [polars-expr-transformer]: success
+[2024-05-15 13:13:06] INFO root fetch - processPackages [gentoo-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/gentoo_cache_manager-0.1.0.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - processPackages [gentoo-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/gentoo_cache_manager-0.2.0.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - main [MainThread]: End processing [gentoo-cache-manager]: success
+[2024-05-15 13:13:06] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-05-15 13:13:06] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-05-15 13:13:06] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-05-15 13:13:07] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.1.0.post1297.tar.gz]
+[2024-05-15 13:13:07] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.1.0.post1299.tar.gz]
+[2024-05-15 13:13:07] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-15 13:13:08] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-05-15 13:13:08] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240515/b/basedpyright/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 13:14:04] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-05-15 13:14:04] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-05-15 13:14:04] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-05-15 13:14:04] INFO root fetch - main [MainThread]: Store serial: [23216738]
