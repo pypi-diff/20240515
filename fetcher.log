@@ -12693,3 +12693,21 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:39:50] INFO root fetch - processPackages [odoo14-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auditlog-14.0.2.0.3.dev4-py3-none-any.whl.zip]
 [2024-05-15 08:39:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auditlog]: success
 [2024-05-15 08:39:50] INFO root fetch - main [MainThread]: Store serial: [23213659]
+[2024-05-15 08:41:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213659]
+[2024-05-15 08:41:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 08:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valmi-connector-lib
+[2024-05-15 08:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-decotools
+[2024-05-15 08:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-retrytools
+[2024-05-15 08:41:59] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-15 08:42:00] WARNING root fetch - processPackages [python-decotools]: Skipping, unable to determine old version
+[2024-05-15 08:42:00] INFO root fetch - main [MainThread]: End processing [python-decotools] error
+[2024-05-15 08:42:00] WARNING root fetch - processPackages [python-retrytools]: Skipping, unable to determine old version
+[2024-05-15 08:42:00] INFO root fetch - main [MainThread]: End processing [python-retrytools] error
+[2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240515/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-15 08:42:00] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-15 08:42:00] INFO root fetch - main [MainThread]: Store serial: [23213675]
