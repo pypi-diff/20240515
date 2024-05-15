@@ -8658,3 +8658,15 @@
 [2024-05-15 04:57:20] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.5.13.2.tar.gz]
 [2024-05-15 04:57:20] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2024-05-15 04:57:20] INFO root fetch - main [MainThread]: Store serial: [23211954]
+[2024-05-15 04:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211954]
+[2024-05-15 04:59:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 04:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-paypal-plus
+[2024-05-15 04:59:29] INFO root fetch - processPackages [django-paypal-plus]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-15 04:59:29] INFO root fetch - processPackages [django-paypal-plus]: Downloading https://files.pythonhosted.org/packages/8f/91/46dd6774725860834b30f5e815fb6cc517531263d9c2bdae0431912ef8db/django-paypal-plus-1.1.0.tar.gz
+[2024-05-15 04:59:29] INFO root fetch - processPackages [django-paypal-plus]: Downloading https://files.pythonhosted.org/packages/3e/bb/3150541d9d5a4f19eeb90af97e25f2abedc311237029dd9bd34b3e739f9f/django-paypal-plus-1.1.1.tar.gz
+[2024-05-15 04:59:29] INFO root fetch - processPackages [django-paypal-plus]: executing diffoscope
+[2024-05-15 04:59:29] INFO root fetch - processPackages [django-paypal-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-paypal-plus-1.1.0.tar.gz tmp/django-paypal-plus-1.1.1.tar.gz --markdown 20240515/d/django-paypal-plus/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-15 04:59:30] INFO root fetch - processPackages [django-paypal-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-paypal-plus-1.1.0.tar.gz]
+[2024-05-15 04:59:30] INFO root fetch - processPackages [django-paypal-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-paypal-plus-1.1.1.tar.gz]
+[2024-05-15 04:59:30] INFO root fetch - main [MainThread]: End processing [django-paypal-plus]: success
+[2024-05-15 04:59:30] INFO root fetch - main [MainThread]: Store serial: [23211957]
