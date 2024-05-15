@@ -7332,3 +7332,54 @@
 [2024-05-15 03:22:00] INFO root fetch - processPackages [botocore-a-la-carte-rds]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rds-1.34.99.tar.gz]
 [2024-05-15 03:22:00] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rds]: success
 [2024-05-15 03:22:00] INFO root fetch - main [MainThread]: Store serial: [23211030]
+[2024-05-15 03:24:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211030]
+[2024-05-15 03:24:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 03:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2024-05-15 03:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubpy
+[2024-05-15 03:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlfab
+[2024-05-15 03:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphafold3
+[2024-05-15 03:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i18nice
+[2024-05-15 03:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myccc
+[2024-05-15 03:24:08] INFO root fetch - processPackages [i18nice]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 03:24:08] WARNING root fetch - processPackages [myccc]: Skipping, unable to determine old version
+[2024-05-15 03:24:08] INFO root fetch - main [MainThread]: End processing [myccc] error
+[2024-05-15 03:24:08] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 03:24:09] INFO root fetch - processPackages [alphafold3]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-15 03:24:09] INFO root fetch - processPackages [mlfab]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 03:24:09] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/72/30/8ac9dd93101ad6c35138f312d618a7bff5d5e807d324ce8bf90e59f750ea/i18nice-0.9.0.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [rubpy]: New version: [7.0.5] Old Version: [7.0.4]
+[2024-05-15 03:24:09] INFO root fetch - processPackages [alphafold3]: Downloading https://files.pythonhosted.org/packages/04/b8/8a2d0e6476d6c4bf949fb888d70e723773873c9ba2717b9b7b5a4c655e5c/alphafold3-0.0.4.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/2a/30/fd265ae567053bad73bc7ecb52d487b26a0223bb72047532beec1a6a4503/rubpy-7.0.4.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/c4/72/85d3c3a95ee721e23153609f999bdf722318ecd5c35c5628d184be3053ac/mlfab-0.1.8.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/68/c5/dcb5bd7276acea371082b954fc1eda7db083c48caee940fb73b784c62397/i18nice-0.9.1.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-15 03:24:09] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240515/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 03:24:09] INFO root fetch - processPackages [i18nice]: executing diffoscope
+[2024-05-15 03:24:09] INFO root fetch - processPackages [i18nice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18nice-0.9.0.tar.gz tmp/i18nice-0.9.1.tar.gz --markdown 20240515/i/i18nice/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 03:24:09] INFO root fetch - processPackages [alphafold3]: Downloading https://files.pythonhosted.org/packages/67/2f/48d7ae27c68d3ea535a3d7227ab1fe149d895fd646a3f8e9e3fe65139754/alphafold3-0.0.6.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/a6/bf/e99ce89623b508e94d93c583e9848f15dc5d25e029d2907917990af04c60/rubpy-7.0.5.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [alphafold3]: executing diffoscope
+[2024-05-15 03:24:09] INFO root fetch - processPackages [alphafold3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3-0.0.4.tar.gz tmp/alphafold3-0.0.6.tar.gz --markdown 20240515/a/alphafold3/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-15 03:24:09] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/0e/87/ef727427b8dfe81acffbb1f26533da2a70f85e7beb67451421ead578c9a1/mlfab-0.1.9.tar.gz
+[2024-05-15 03:24:09] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-05-15 03:24:09] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.4.tar.gz tmp/rubpy-7.0.5.tar.gz --markdown 20240515/r/rubpy/7.0.4-7.0.5/README.md --exclude *.pyd
+[2024-05-15 03:24:09] INFO root fetch - processPackages [mlfab]: executing diffoscope
+[2024-05-15 03:24:09] INFO root fetch - processPackages [mlfab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfab-0.1.8.tar.gz tmp/mlfab-0.1.9.tar.gz --markdown 20240515/m/mlfab/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 03:24:10] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-15 03:24:10] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.9.0.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.9.1.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - main [MainThread]: End processing [i18nice]: success
+[2024-05-15 03:24:10] INFO root fetch - processPackages [alphafold3]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3-0.0.4.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - processPackages [alphafold3]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3-0.0.6.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - main [MainThread]: End processing [alphafold3]: success
+[2024-05-15 03:24:10] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.8.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - main [MainThread]: End processing [mlfab]: success
+[2024-05-15 03:24:10] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.4.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.5.tar.gz]
+[2024-05-15 03:24:10] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-05-15 03:24:10] INFO root fetch - main [MainThread]: Store serial: [23211107]
