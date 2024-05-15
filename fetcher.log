@@ -8873,3 +8873,15 @@
 [2024-05-15 05:10:45] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.628.24136.tar.gz]
 [2024-05-15 05:10:45] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
 [2024-05-15 05:10:45] INFO root fetch - main [MainThread]: Store serial: [23212038]
+[2024-05-15 05:12:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212038]
+[2024-05-15 05:12:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 05:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titandevice
+[2024-05-15 05:12:54] INFO root fetch - processPackages [titandevice]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-15 05:12:54] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/d4/3f/4ed2ed04be61f5c6770bbf985fb86afe7cee1984aa25a5a94252294e8bee/titandevice-0.3.9.tar.gz
+[2024-05-15 05:12:54] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/c5/f5/34fe27f8def47a90bea7df3babb075747645a6ea449aeb775695bc15ddd2/titandevice-0.4.0.tar.gz
+[2024-05-15 05:12:54] INFO root fetch - processPackages [titandevice]: executing diffoscope
+[2024-05-15 05:12:54] INFO root fetch - processPackages [titandevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titandevice-0.3.9.tar.gz tmp/titandevice-0.4.0.tar.gz --markdown 20240515/t/titandevice/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-15 05:12:55] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.3.9.tar.gz]
+[2024-05-15 05:12:55] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.4.0.tar.gz]
+[2024-05-15 05:12:55] INFO root fetch - main [MainThread]: End processing [titandevice]: success
+[2024-05-15 05:12:55] INFO root fetch - main [MainThread]: Store serial: [23212042]
