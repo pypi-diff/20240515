@@ -18832,3 +18832,24 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:27:03] INFO root fetch - processPackages [iclean]: Remove: archive file [/home/abi/fetcher/tmp/iclean-0.0.3.tar.gz]
 [2024-05-15 12:27:03] INFO root fetch - main [MainThread]: End processing [iclean]: success
 [2024-05-15 12:27:03] INFO root fetch - main [MainThread]: Store serial: [23216413]
+[2024-05-15 12:29:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216413]
+[2024-05-15 12:29:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 12:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-15 12:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompeteer
+[2024-05-15 12:29:11] INFO root fetch - processPackages [prompeteer]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-15 12:29:11] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.90] Old Version: [0.0.0.9]
+[2024-05-15 12:29:11] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/f4/79/bbaaebfbf1c8aa5e812ca245025a7b67f3a2b7f62370b94e9f7ca9419601/prompeteer-0.2.2.tar.gz
+[2024-05-15 12:29:11] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 12:29:12] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/96/04/943ded60166c8dfaab523781c2e656ee14e0511cae340498ddf8be34fdde/prompeteer-0.2.3.tar.gz
+[2024-05-15 12:29:12] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/19/5d/960bcf9ec4239ca100d0b13fbacadf8b3963724a181621eabc99f721e13e/abstract_pandas-0.0.0.90.tar.gz
+[2024-05-15 12:29:12] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 12:29:12] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.2.2.tar.gz tmp/prompeteer-0.2.3.tar.gz --markdown 20240515/p/prompeteer/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-15 12:29:12] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:29:12] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.9.tar.gz tmp/abstract_pandas-0.0.0.90.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.9-0.0.0.90/README.md --exclude *.pyd
+[2024-05-15 12:29:12] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.2.2.tar.gz]
+[2024-05-15 12:29:12] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.2.3.tar.gz]
+[2024-05-15 12:29:12] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 12:29:13] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 12:29:13] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.90.tar.gz]
+[2024-05-15 12:29:13] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:29:13] INFO root fetch - main [MainThread]: Store serial: [23216419]
