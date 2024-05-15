@@ -14280,3 +14280,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:47:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_city-17.0.1.3.0-py3-none-any.whl.zip]
 [2024-05-15 09:47:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-city]: success
 [2024-05-15 09:47:42] INFO root fetch - main [MainThread]: Store serial: [23214291]
+[2024-05-15 09:49:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214291]
+[2024-05-15 09:49:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 09:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paloalto-panorama-sdk
+[2024-05-15 09:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudlanguagetools
+[2024-05-15 09:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: queue-worker-local
+[2024-05-15 09:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyecm
+[2024-05-15 09:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-payments-payu
+[2024-05-15 09:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mns-common
+[2024-05-15 09:49:51] INFO root fetch - processPackages [django-payments-payu]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-15 09:49:51] INFO root fetch - processPackages [queue-worker-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 09:49:51] INFO root fetch - processPackages [mns-common]: New version: [1.0.9.7] Old Version: [1.0.9.6]
+[2024-05-15 09:49:51] INFO root fetch - processPackages [paloalto-panorama-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 09:49:51] INFO root fetch - processPackages [pyecm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 09:49:51] INFO root fetch - processPackages [cloudlanguagetools]: New version: [9.2.1] Old Version: [9.2]
+[2024-05-15 09:49:51] INFO root fetch - processPackages [queue-worker-local]: Downloading https://files.pythonhosted.org/packages/7f/d9/fa0def6b3a566ced04835c9ae35bd0c97f2e24eec77224b0908e1a709b35/queue-worker-local-0.0.8.tar.gz
+[2024-05-15 09:49:51] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/f0/1d/0beb2a4d45322bd18808515b82f413d4028b758fba8deaed7d8e129fb4e8/mns_common-1.0.9.6.tar.gz
+[2024-05-15 09:49:51] INFO root fetch - processPackages [django-payments-payu]: Downloading https://files.pythonhosted.org/packages/99/df/050931476f7bfd21c321e69547c1ca7295d478061b6982ff5984a1d645e1/django-payments-payu-1.4.1.tar.gz
+[2024-05-15 09:49:51] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/b0/ee/155f5a1f4919eb2a32f6e13a0ce007eefe31dfaaa83c2ba1d0352941cdca/paloalto_panorama_sdk-0.0.7.tar.gz
+[2024-05-15 09:49:51] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/aa/f3/524147c2bfec656b94dab9548e62615867fb1e21bbf808093be888f503b1/cloudlanguagetools-9.2.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [pyecm]: Downloading https://files.pythonhosted.org/packages/57/b2/1746dbc86f968ab9140e241bc67da22730d729fde7b3fb8a432383b176c3/pyecm-0.0.1.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [queue-worker-local]: Downloading https://files.pythonhosted.org/packages/e7/be/a67b2e43f60298d9c8a3f8953b2cab611ed6508ecc046a1d9189e6ef932a/queue-worker-local-0.0.9.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/b5/45/8ad3435df87a78d04b18926360ced4f3f30be5d5663a8311e094371bc4c2/mns_common-1.0.9.7.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [queue-worker-local]: executing diffoscope
+[2024-05-15 09:49:52] INFO root fetch - processPackages [queue-worker-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue-worker-local-0.0.8.tar.gz tmp/queue-worker-local-0.0.9.tar.gz --markdown 20240515/q/queue-worker-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 09:49:52] INFO root fetch - processPackages [django-payments-payu]: Downloading https://files.pythonhosted.org/packages/50/f3/055b36896796c14be9389a732ce5bd59e97ed3626abfd4ee8b1ea1088d1d/django-payments-payu-1.4.2.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/83/d3/b6efabd8a6235efceb434d07dae09558b9accf83f6a86ad2d4544051d32f/paloalto_panorama_sdk-0.0.8.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-15 09:49:52] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.9.6.tar.gz tmp/mns_common-1.0.9.7.tar.gz --markdown 20240515/m/mns-common/1.0.9.6-1.0.9.7/README.md --exclude *.pyd
+[2024-05-15 09:49:52] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/c0/32/579c728bff1eaea83df3134fc2bf0d97775f0207693a94d4178df4c3c18e/cloudlanguagetools-9.2.1.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [django-payments-payu]: executing diffoscope
+[2024-05-15 09:49:52] INFO root fetch - processPackages [django-payments-payu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-payments-payu-1.4.1.tar.gz tmp/django-payments-payu-1.4.2.tar.gz --markdown 20240515/d/django-payments-payu/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-15 09:49:52] INFO root fetch - processPackages [paloalto-panorama-sdk]: executing diffoscope
+[2024-05-15 09:49:52] INFO root fetch - processPackages [paloalto-panorama-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloalto_panorama_sdk-0.0.7.tar.gz tmp/paloalto_panorama_sdk-0.0.8.tar.gz --markdown 20240515/p/paloalto-panorama-sdk/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 09:49:52] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2024-05-15 09:49:52] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-9.2.tar.gz tmp/cloudlanguagetools-9.2.1.tar.gz --markdown 20240515/c/cloudlanguagetools/9.2-9.2.1/README.md --exclude *.pyd
+[2024-05-15 09:49:52] INFO root fetch - processPackages [pyecm]: Downloading https://files.pythonhosted.org/packages/cd/96/c7a323cb8d5404ad9a04c598f22ff65ca8e24fa4b15c250b2e1b5ada5a70/pyecm-0.0.2.tar.gz
+[2024-05-15 09:49:52] INFO root fetch - processPackages [pyecm]: executing diffoscope
+[2024-05-15 09:49:52] INFO root fetch - processPackages [pyecm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecm-0.0.1.tar.gz tmp/pyecm-0.0.2.tar.gz --markdown 20240515/p/pyecm/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 09:49:52] INFO root fetch - processPackages [queue-worker-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-worker-local-0.0.8.tar.gz]
+[2024-05-15 09:49:52] INFO root fetch - processPackages [queue-worker-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-worker-local-0.0.9.tar.gz]
+[2024-05-15 09:49:52] INFO root fetch - main [MainThread]: End processing [queue-worker-local]: success
+[2024-05-15 09:49:53] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.7.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.8.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk]: success
+[2024-05-15 09:49:53] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.6.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.7.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-15 09:49:53] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-9.2.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-9.2.1.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2024-05-15 09:49:53] INFO root fetch - processPackages [django-payments-payu]: Remove: archive file [/home/abi/fetcher/tmp/django-payments-payu-1.4.1.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - processPackages [django-payments-payu]: Remove: archive file [/home/abi/fetcher/tmp/django-payments-payu-1.4.2.tar.gz]
+[2024-05-15 09:49:53] INFO root fetch - main [MainThread]: End processing [django-payments-payu]: success
+[2024-05-15 09:49:54] INFO root fetch - processPackages [pyecm]: Remove: archive file [/home/abi/fetcher/tmp/pyecm-0.0.1.tar.gz]
+[2024-05-15 09:49:54] INFO root fetch - processPackages [pyecm]: Remove: archive file [/home/abi/fetcher/tmp/pyecm-0.0.2.tar.gz]
+[2024-05-15 09:49:54] INFO root fetch - main [MainThread]: End processing [pyecm]: success
+[2024-05-15 09:49:54] INFO root fetch - main [MainThread]: Store serial: [23214334]
