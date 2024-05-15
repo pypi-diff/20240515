@@ -20376,3 +20376,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:33:39] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
 [2024-05-15 13:33:39] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
 [2024-05-15 13:33:39] INFO root fetch - main [MainThread]: Store serial: [23217002]
+[2024-05-15 13:35:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217002]
+[2024-05-15 13:35:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 13:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klvm
+[2024-05-15 13:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-05-15 13:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decode-config
+[2024-05-15 13:35:49] INFO root fetch - processPackages [kcli]: New version: [99.0.202405141214] Old Version: [99.0.202405131653]
+[2024-05-15 13:35:49] INFO root fetch - processPackages [klvm]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 13:35:49] INFO root fetch - processPackages [decode-config]: New version: [2022.1] Old Version: [14.0.0.0]
+[2024-05-15 13:35:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cb/c4/c19501135e6486803774bf4c313b90ab9be3a230aaa1c544f0a1ff406133/kcli-99.0.202405131653.tar.gz
+[2024-05-15 13:35:49] INFO root fetch - processPackages [klvm]: Downloading https://files.pythonhosted.org/packages/18/78/baff103a98dd168e73c8626e19225950f1ff1fc1da607226e271cb031d84/klvm-0.9.8-py3-none-any.whl
+[2024-05-15 13:35:49] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/c0/b9/37b24388e91ff365602480c1c2c193d7e83db3d732829a1700c406dc2c1e/decode-config-14.0.0.0.tar.gz
+[2024-05-15 13:35:49] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/50/00/90e430e62acb1110271b96192b0ede62de13c0d396b0a2167d4a58ec7645/decode-config-2022.1.tar.gz
+[2024-05-15 13:35:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/1e/8ffbfb54bb94f1331c7e4f9fc722b99a65581e0060f104d2988beba6ea44/kcli-99.0.202405141214.tar.gz
+[2024-05-15 13:35:49] INFO root fetch - processPackages [klvm]: Downloading https://files.pythonhosted.org/packages/f6/6c/6a8ec7cc310b64cd515fdb644d1f95c482673bc2cc003703a9354dd667d5/klvm-0.9.9-py3-none-any.whl
+[2024-05-15 13:35:49] INFO root fetch - processPackages [decode-config]: executing diffoscope
+[2024-05-15 13:35:49] INFO root fetch - processPackages [decode-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decode-config-14.0.0.0.tar.gz tmp/decode-config-2022.1.tar.gz --markdown 20240515/d/decode-config/14.0.0.0-2022.1/README.md --exclude *.pyd
+[2024-05-15 13:35:49] INFO root fetch - processPackages [klvm]: executing diffoscope
+[2024-05-15 13:35:49] INFO root fetch - processPackages [klvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm-0.9.8-py3-none-any.whl.zip tmp/klvm-0.9.9-py3-none-any.whl.zip --markdown 20240515/k/klvm/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 13:35:50] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-15 13:35:50] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405131653.tar.gz tmp/kcli-99.0.202405141214.tar.gz --markdown 20240515/k/kcli/99.0.202405131653-99.0.202405141214/README.md --exclude *.pyd
+[2024-05-15 13:35:50] INFO root fetch - processPackages [klvm]: Remove: archive file [/home/abi/fetcher/tmp/klvm-0.9.8-py3-none-any.whl.zip]
+[2024-05-15 13:35:50] INFO root fetch - processPackages [klvm]: Remove: archive file [/home/abi/fetcher/tmp/klvm-0.9.9-py3-none-any.whl.zip]
+[2024-05-15 13:35:50] INFO root fetch - main [MainThread]: End processing [klvm]: success
+[2024-05-15 13:35:50] INFO root fetch - processPackages [decode-config]: Remove: archive file [/home/abi/fetcher/tmp/decode-config-14.0.0.0.tar.gz]
+[2024-05-15 13:35:50] INFO root fetch - processPackages [decode-config]: Remove: archive file [/home/abi/fetcher/tmp/decode-config-2022.1.tar.gz]
+[2024-05-15 13:35:50] INFO root fetch - main [MainThread]: End processing [decode-config]: success
+[2024-05-15 13:35:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405131653.tar.gz]
+[2024-05-15 13:35:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405141214.tar.gz]
+[2024-05-15 13:35:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-15 13:35:52] INFO root fetch - main [MainThread]: Store serial: [23217018]
