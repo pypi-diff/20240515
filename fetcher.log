@@ -7749,3 +7749,33 @@
 [2024-05-15 03:55:59] WARNING root fetch - processPackages [LearnHowToPackage-hsr]: Skipping, unable to determine old version
 [2024-05-15 03:55:59] INFO root fetch - main [MainThread]: End processing [LearnHowToPackage-hsr] error
 [2024-05-15 03:55:59] INFO root fetch - main [MainThread]: Store serial: [23211574]
+[2024-05-15 03:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211574]
+[2024-05-15 03:58:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 03:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dify-knowledge-pipline
+[2024-05-15 03:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dailycheckin
+[2024-05-15 03:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teo
+[2024-05-15 03:58:08] INFO root fetch - processPackages [dify-knowledge-pipline]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 03:58:08] INFO root fetch - processPackages [teo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 03:58:08] INFO root fetch - processPackages [dailycheckin]: New version: [24.5.15] Old Version: [24.3.7]
+[2024-05-15 03:58:08] INFO root fetch - processPackages [dify-knowledge-pipline]: Downloading https://files.pythonhosted.org/packages/c7/a9/4a627cac56d4644e3bf16c66512efcc5a5b11ae5055044844bfe31fd5f1c/dify_knowledge_pipline-0.1.0.tar.gz
+[2024-05-15 03:58:08] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/b1/e9/d6c6c71d9ba363284528d0085e2537ab5241ca9c41177346095254276a2c/teo-0.2.8.tar.gz
+[2024-05-15 03:58:08] INFO root fetch - processPackages [dailycheckin]: Downloading https://files.pythonhosted.org/packages/ef/12/ea5b5c6ef87445a89fbfdac57c8bec11a3ff09a90d2c100ae8a97fef5633/dailycheckin-24.3.7.tar.gz
+[2024-05-15 03:58:08] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/1a/6e/79fac05caa23b6f8d6325ce41b4c00733012f08b4aee6cd1b1d45c11bd0a/teo-0.2.9.tar.gz
+[2024-05-15 03:58:09] INFO root fetch - processPackages [teo]: executing diffoscope
+[2024-05-15 03:58:09] INFO root fetch - processPackages [teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teo-0.2.8.tar.gz tmp/teo-0.2.9.tar.gz --markdown 20240515/t/teo/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dify-knowledge-pipline]: Downloading https://files.pythonhosted.org/packages/6f/37/39d2e23505614743d50864f27b0d77a0a7c73dd2de1e846ad0f5f95a34f8/dify_knowledge_pipline-0.1.1.tar.gz
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dailycheckin]: Downloading https://files.pythonhosted.org/packages/2f/c1/9e2bc00a69fa8cd133eb8dd8f9b7f13d172afa8ff7eedf982764d1d4f62b/dailycheckin-24.5.15.tar.gz
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dify-knowledge-pipline]: executing diffoscope
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dify-knowledge-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dify_knowledge_pipline-0.1.0.tar.gz tmp/dify_knowledge_pipline-0.1.1.tar.gz --markdown 20240515/d/dify-knowledge-pipline/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dailycheckin]: executing diffoscope
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dailycheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dailycheckin-24.3.7.tar.gz tmp/dailycheckin-24.5.15.tar.gz --markdown 20240515/d/dailycheckin/24.3.7-24.5.15/README.md --exclude *.pyd
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.0.tar.gz]
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.1.tar.gz]
+[2024-05-15 03:58:09] INFO root fetch - main [MainThread]: End processing [dify-knowledge-pipline]: success
+[2024-05-15 03:58:09] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.8.tar.gz]
+[2024-05-15 03:58:09] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.9.tar.gz]
+[2024-05-15 03:58:09] INFO root fetch - main [MainThread]: End processing [teo]: success
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dailycheckin]: Remove: archive file [/home/abi/fetcher/tmp/dailycheckin-24.3.7.tar.gz]
+[2024-05-15 03:58:09] INFO root fetch - processPackages [dailycheckin]: Remove: archive file [/home/abi/fetcher/tmp/dailycheckin-24.5.15.tar.gz]
+[2024-05-15 03:58:09] INFO root fetch - main [MainThread]: End processing [dailycheckin]: success
+[2024-05-15 03:58:09] INFO root fetch - main [MainThread]: Store serial: [23211589]
