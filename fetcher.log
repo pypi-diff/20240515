@@ -13845,3 +13845,29 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:31:05] INFO root fetch - processPackages [pycrashreport]: Remove: archive file [/home/abi/fetcher/tmp/pycrashreport-1.2.2.tar.gz]
 [2024-05-15 09:31:05] INFO root fetch - main [MainThread]: End processing [pycrashreport]: success
 [2024-05-15 09:31:05] INFO root fetch - main [MainThread]: Store serial: [23214116]
+[2024-05-15 09:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214116]
+[2024-05-15 09:33:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 09:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msaexp
+[2024-05-15 09:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solar-registry
+[2024-05-15 09:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gravitino
+[2024-05-15 09:33:16] INFO root fetch - processPackages [solar-registry]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-15 09:33:16] INFO root fetch - processPackages [msaexp]: New version: [0.8.1] Old Version: [0.8]
+[2024-05-15 09:33:16] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/ca/0a/c6cf986c12609611f0f23141e68edf0d3300c6eb200ec42dcbcf236b1b92/solar_registry-0.2.6.tar.gz
+[2024-05-15 09:33:16] INFO root fetch - processPackages [gravitino]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2024-05-15 09:33:16] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/f4/ec/e277fe01ff9ce5e354fcdf50a9c082dcfd20e4856089296da9fe8a6a2b3d/msaexp-0.8.tar.gz
+[2024-05-15 09:33:16] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 18144250>=10485760
+[2024-05-15 09:33:16] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2024-05-15 09:33:16] INFO root fetch - processPackages [gravitino]: Downloading https://files.pythonhosted.org/packages/3d/85/878578ad4d8b98119f69ca1e7deb2e76553f9e23fb835b841820cd5c3dd7/gravitino-0.5.0.dev8.tar.gz
+[2024-05-15 09:33:16] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/d8/65/22738913646635f8873fff8195cc9d03250cda29ba5bf5939a6632a84011/solar_registry-0.2.7.tar.gz
+[2024-05-15 09:33:16] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-15 09:33:16] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.6.tar.gz tmp/solar_registry-0.2.7.tar.gz --markdown 20240515/s/solar-registry/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-15 09:33:16] INFO root fetch - processPackages [gravitino]: Downloading https://files.pythonhosted.org/packages/6a/e3/899a6ec3ed516c98e40aff8a8cfc16b384a0364ddda7c956c5bca1101b6d/gravitino-0.5.0.dev9.tar.gz
+[2024-05-15 09:33:16] INFO root fetch - processPackages [gravitino]: executing diffoscope
+[2024-05-15 09:33:16] INFO root fetch - processPackages [gravitino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitino-0.5.0.dev8.tar.gz tmp/gravitino-0.5.0.dev9.tar.gz --markdown 20240515/g/gravitino/0.5.0.dev8-0.5.0.dev9/README.md --exclude *.pyd
+[2024-05-15 09:33:17] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.6.tar.gz]
+[2024-05-15 09:33:17] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.7.tar.gz]
+[2024-05-15 09:33:17] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-15 09:33:17] INFO root fetch - processPackages [gravitino]: Remove: archive file [/home/abi/fetcher/tmp/gravitino-0.5.0.dev8.tar.gz]
+[2024-05-15 09:33:17] INFO root fetch - processPackages [gravitino]: Remove: archive file [/home/abi/fetcher/tmp/gravitino-0.5.0.dev9.tar.gz]
+[2024-05-15 09:33:17] INFO root fetch - main [MainThread]: End processing [gravitino]: success
+[2024-05-15 09:33:17] INFO root fetch - main [MainThread]: Store serial: [23214128]
