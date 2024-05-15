@@ -19897,3 +19897,84 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:18:30] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.2.tar.gz]
 [2024-05-15 13:18:30] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-15 13:18:30] INFO root fetch - main [MainThread]: Store serial: [23216776]
+[2024-05-15 13:20:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216776]
+[2024-05-15 13:20:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WikibaseIntegrator
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: walledeval
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ImageDimensionCheck
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csvg
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sustainalytics
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlrun
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WaveFormer
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: malin
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: forbidden
+[2024-05-15 13:20:41] WARNING root fetch - processPackages [walledeval]: Skipping, unable to determine old version
+[2024-05-15 13:20:41] INFO root fetch - main [MainThread]: End processing [walledeval] error
+[2024-05-15 13:20:41] INFO root fetch - processPackages [malin]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [sustainalytics]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ImageDimensionCheck]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [WikibaseIntegrator]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [malin]: Downloading https://files.pythonhosted.org/packages/0f/16/abe026cefa81a528b548a391d30d3814e7975ab4ed542202e5db7c19f42b/malin-0.1.5.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [forbidden]: New version: [11.1] Old Version: [11.0]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240515] Old Version: [2.5.0b20240514]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [WaveFormer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 13:20:41] WARNING root fetch - processPackages [csvg]: Skipping, unable to determine old version
+[2024-05-15 13:20:41] INFO root fetch - main [MainThread]: End processing [csvg] error
+[2024-05-15 13:20:41] INFO root fetch - processPackages [sustainalytics]: Downloading https://files.pythonhosted.org/packages/63/50/709530145c78fe57d757c69d89c4355787bd84c4706e54198f63a87a0e08/sustainalytics-0.3.2.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/9f/57/88691e036442930c932cecd3b601d903ca5c83024c1057642e7d9f30b8b3/ImageDimensionCheck-1.4.0-py3-none-any.whl
+[2024-05-15 13:20:41] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-15 13:20:41] INFO root fetch - processPackages [WikibaseIntegrator]: Downloading https://files.pythonhosted.org/packages/ec/25/e55ea0e59bf532cae970c4742857907bdebd3b31290a32797486c2e51a00/wikibaseintegrator-0.8.2.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/df/92/8d1ed508e9a1113328f7ef5f88d0d1d5b8e6223f6be9d6cb0d4310997e72/bigdl_core_xe_esimd_21-2.5.0b20240514-cp39-cp39-win_amd64.whl
+[2024-05-15 13:20:41] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/cf/f2/4009d0284192f2f871007c158b22d47a60fda3734a77f432ca66b96fddd1/forbidden-11.0.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [WaveFormer]: Downloading https://files.pythonhosted.org/packages/ad/60/f47a29260d80e49eea02dcea1113c1f2c3262ee1272330cb0615f018d89a/WaveFormer-0.1.2.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-15 13:20:41] INFO root fetch - processPackages [sustainalytics]: Downloading https://files.pythonhosted.org/packages/ec/e4/12fa4724f66b441f95ca6f5359894c3ed7471079bae5296edbb2eeccb2fc/sustainalytics-0.3.3.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [malin]: Downloading https://files.pythonhosted.org/packages/87/e5/9751d8e1ed22ac5b7cc663929b455b2d00fa579cfc9b2fd8ad521604f131/malin-0.2.0.tar.gz
+[2024-05-15 13:20:41] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/7c/25/fa6909c676908f446a621a54e0e587a8b772c8cf14330d69fd0ad370498b/ImageDimensionCheck-1.4.1-py3-none-any.whl
+[2024-05-15 13:20:41] INFO root fetch - processPackages [sustainalytics]: executing diffoscope
+[2024-05-15 13:20:41] INFO root fetch - processPackages [sustainalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sustainalytics-0.3.2.tar.gz tmp/sustainalytics-0.3.3.tar.gz --markdown 20240515/s/sustainalytics/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [malin]: executing diffoscope
+[2024-05-15 13:20:42] INFO root fetch - processPackages [malin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malin-0.1.5.tar.gz tmp/malin-0.2.0.tar.gz --markdown 20240515/m/malin/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [ImageDimensionCheck]: executing diffoscope
+[2024-05-15 13:20:42] INFO root fetch - processPackages [ImageDimensionCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageDimensionCheck-1.4.0-py3-none-any.whl.zip tmp/ImageDimensionCheck-1.4.1-py3-none-any.whl.zip --markdown 20240515/I/ImageDimensionCheck/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WikibaseIntegrator]: Downloading https://files.pythonhosted.org/packages/70/55/ee9488217b5be64ccdb4d9dc5c0019afde178c288e004ebe56b8bd7e6890/wikibaseintegrator-0.9.0.tar.gz
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WaveFormer]: Downloading https://files.pythonhosted.org/packages/e8/18/9e3023777a8d5ee25e1cc5e0f3c98b0b40cadebc7650a39e063878747b99/WaveFormer-0.1.3.tar.gz
+[2024-05-15 13:20:42] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/b2/5b/e2f0904b3c3b470f1c0432060b668f4d9cc8ee1f86ef8026c6d0e28e2063/forbidden-11.1.tar.gz
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WikibaseIntegrator]: executing diffoscope
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WikibaseIntegrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikibaseintegrator-0.8.2.tar.gz tmp/wikibaseintegrator-0.9.0.tar.gz --markdown 20240515/W/WikibaseIntegrator/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/fc/71/15023919139c55cfda41e5fee2f0e1c9f9bdc5ee0192ecd7c330fb91aeef/bigdl_core_xe_esimd_21-2.5.0b20240515-cp39-cp39-win_amd64.whl
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WaveFormer]: executing diffoscope
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WaveFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WaveFormer-0.1.2.tar.gz tmp/WaveFormer-0.1.3.tar.gz --markdown 20240515/W/WaveFormer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [forbidden]: executing diffoscope
+[2024-05-15 13:20:42] INFO root fetch - processPackages [forbidden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forbidden-11.0.tar.gz tmp/forbidden-11.1.tar.gz --markdown 20240515/f/forbidden/11.0-11.1/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-15 13:20:42] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240514-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240515-cp39-cp39-win_amd64.whl.zip --markdown 20240515/b/bigdl-core-xe-esimd-21/2.5.0b20240514-2.5.0b20240515/README.md --exclude *.pyd
+[2024-05-15 13:20:42] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.4.0-py3-none-any.whl.zip]
+[2024-05-15 13:20:42] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.4.1-py3-none-any.whl.zip]
+[2024-05-15 13:20:42] INFO root fetch - main [MainThread]: End processing [ImageDimensionCheck]: success
+[2024-05-15 13:20:42] INFO root fetch - processPackages [malin]: Remove: archive file [/home/abi/fetcher/tmp/malin-0.1.5.tar.gz]
+[2024-05-15 13:20:42] INFO root fetch - processPackages [malin]: Remove: archive file [/home/abi/fetcher/tmp/malin-0.2.0.tar.gz]
+[2024-05-15 13:20:42] INFO root fetch - main [MainThread]: End processing [malin]: success
+[2024-05-15 13:20:42] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-15 13:20:42] INFO root fetch - processPackages [sustainalytics]: Remove: archive file [/home/abi/fetcher/tmp/sustainalytics-0.3.2.tar.gz]
+[2024-05-15 13:20:42] INFO root fetch - processPackages [sustainalytics]: Remove: archive file [/home/abi/fetcher/tmp/sustainalytics-0.3.3.tar.gz]
+[2024-05-15 13:20:42] INFO root fetch - main [MainThread]: End processing [sustainalytics]: success
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WaveFormer]: Remove: archive file [/home/abi/fetcher/tmp/WaveFormer-0.1.2.tar.gz]
+[2024-05-15 13:20:42] INFO root fetch - processPackages [WaveFormer]: Remove: archive file [/home/abi/fetcher/tmp/WaveFormer-0.1.3.tar.gz]
+[2024-05-15 13:20:42] INFO root fetch - main [MainThread]: End processing [WaveFormer]: success
+[2024-05-15 13:20:43] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240514-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 13:20:43] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240515-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 13:20:43] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-05-15 13:20:43] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-15 13:20:43] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240515/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-15 13:20:43] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-11.0.tar.gz]
+[2024-05-15 13:20:43] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-11.1.tar.gz]
+[2024-05-15 13:20:43] INFO root fetch - main [MainThread]: End processing [forbidden]: success
+[2024-05-15 13:20:43] INFO root fetch - processPackages [WikibaseIntegrator]: Remove: archive file [/home/abi/fetcher/tmp/wikibaseintegrator-0.8.2.tar.gz]
+[2024-05-15 13:20:43] INFO root fetch - processPackages [WikibaseIntegrator]: Remove: archive file [/home/abi/fetcher/tmp/wikibaseintegrator-0.9.0.tar.gz]
+[2024-05-15 13:20:43] INFO root fetch - main [MainThread]: End processing [WikibaseIntegrator]: success
+[2024-05-15 13:20:45] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-15 13:20:45] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-15 13:20:45] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-15 13:20:45] INFO root fetch - main [MainThread]: Store serial: [23216833]
