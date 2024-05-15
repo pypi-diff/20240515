@@ -10375,3 +10375,45 @@
 [2024-05-15 06:45:18] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-15 06:45:18] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-15 06:45:18] INFO root fetch - main [MainThread]: Store serial: [23212735]
+[2024-05-15 06:47:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212735]
+[2024-05-15 06:47:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowetl
+[2024-05-15 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowkit-jwt-generator
+[2024-05-15 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vantiqsdk
+[2024-05-15 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: traffic-anomaly
+[2024-05-15 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsugu-api-python
+[2024-05-15 06:47:26] INFO root fetch - processPackages [tsugu-api-python]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-15 06:47:26] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-15 06:47:27] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/1a/35/98b1b6267eccbb29f3b1686b9c096cc87c6e86f45ac32b47059fd74c294b/tsugu-api-python-1.1.0.tar.gz
+[2024-05-15 06:47:27] WARNING root fetch - processPackages [traffic-anomaly]: Skipping, unable to determine old version
+[2024-05-15 06:47:27] INFO root fetch - main [MainThread]: End processing [traffic-anomaly] error
+[2024-05-15 06:47:27] INFO root fetch - processPackages [vantiqsdk]: New version: [1.3.0] Old Version: [1.2.6]
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-15 06:47:27] INFO root fetch - processPackages [vantiqsdk]: Downloading https://files.pythonhosted.org/packages/2d/17/8ffe3d204e380b307292c55a13fad3b9a6db739c4cbda85eef2e280321cc/vantiqsdk-1.2.6.tar.gz
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240515/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-15 06:47:27] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/cd/df/8cb891e7ef3644a48d2a218dfda1890bfe3c30f173f75238fcee76ceb8e4/tsugu-api-python-1.1.1.tar.gz
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-15 06:47:27] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240515/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-15 06:47:27] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-15 06:47:27] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-1.1.0.tar.gz tmp/tsugu-api-python-1.1.1.tar.gz --markdown 20240515/t/tsugu-api-python/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-15 06:47:27] INFO root fetch - processPackages [vantiqsdk]: Downloading https://files.pythonhosted.org/packages/61/25/6a3d63ae48c0ded8451c6284ceaea0c291464956b0e69ebf631d7b253597/vantiqsdk-1.3.0.tar.gz
+[2024-05-15 06:47:27] INFO root fetch - processPackages [vantiqsdk]: executing diffoscope
+[2024-05-15 06:47:27] INFO root fetch - processPackages [vantiqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantiqsdk-1.2.6.tar.gz tmp/vantiqsdk-1.3.0.tar.gz --markdown 20240515/v/vantiqsdk/1.2.6-1.3.0/README.md --exclude *.pyd
+[2024-05-15 06:47:28] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-15 06:47:28] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-15 06:47:28] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-15 06:47:28] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-15 06:47:28] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-15 06:47:28] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-15 06:47:28] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.0.tar.gz]
+[2024-05-15 06:47:28] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.1.tar.gz]
+[2024-05-15 06:47:28] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-15 06:47:28] INFO root fetch - processPackages [vantiqsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqsdk-1.2.6.tar.gz]
+[2024-05-15 06:47:28] INFO root fetch - processPackages [vantiqsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqsdk-1.3.0.tar.gz]
+[2024-05-15 06:47:28] INFO root fetch - main [MainThread]: End processing [vantiqsdk]: success
+[2024-05-15 06:47:28] INFO root fetch - main [MainThread]: Store serial: [23212750]
