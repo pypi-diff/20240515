@@ -17291,3 +17291,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:30:06] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-15 11:30:06] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-15 11:30:06] INFO root fetch - main [MainThread]: Store serial: [23215552]
+[2024-05-15 11:32:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215552]
+[2024-05-15 11:32:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uvx
+[2024-05-15 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chik-rs
+[2024-05-15 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlconcepts
+[2024-05-15 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-05-15 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polyclash
+[2024-05-15 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sonar-api-wrapper
+[2024-05-15 11:32:16] INFO root fetch - processPackages [sonar-api-wrapper]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-15 11:32:16] INFO root fetch - processPackages [acetone-nnet]: New version: [0.2.3.dev1] Old Version: [0.2.3]
+[2024-05-15 11:32:16] INFO root fetch - processPackages [sonar-api-wrapper]: Downloading https://files.pythonhosted.org/packages/48/98/8dbd564601d17941ae37e3fa68a653202f3ae7aa712e92d39fe483f271a1/sonar_api_wrapper-1.1.2-py3-none-any.whl
+[2024-05-15 11:32:16] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/16/cf/f8d27adf6e74fc838c45890685f13551c312e517e2be2fc8b2e13d144846/acetone_nnet-0.2.3.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [mlconcepts]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-05-15 11:32:16] INFO root fetch - processPackages [uvx]: New version: [2.1.0] Old Version: [2.0.8]
+[2024-05-15 11:32:16] INFO root fetch - processPackages [chik-rs]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-15 11:32:16] INFO root fetch - processPackages [polyclash]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 11:32:16] INFO root fetch - processPackages [sonar-api-wrapper]: Downloading https://files.pythonhosted.org/packages/04/10/b82585b53b70b5ae3a211907fbc3851677d1757caef47a94c9460ad4c886/sonar_api_wrapper-1.1.3-py3-none-any.whl
+[2024-05-15 11:32:16] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d4/d5/d92dacf164cc1953931fe5c2ff9c6eb31c5aa5485db12317676a3551fb4e/acetone_nnet-0.2.3.dev1.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [mlconcepts]: Downloading https://files.pythonhosted.org/packages/1a/cc/d7bbed1a42413007cd1fabf9c13b0f115550184b979bbc731f0ea60ba001/mlconcepts-0.0.1a0.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/f9/bf/bcf8427c34a80ef334b09eabf850ffb196de68ef802264e825c305bef387/uvx-2.0.8.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/d0/26/64d052e9d8f16afb69af29ed44a2965ee51c9997257b2044b722f7877bf5/chik_rs-0.6.1.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [polyclash]: Downloading https://files.pythonhosted.org/packages/82/ca/ab6b812b2e24d590670c2a2e81792431a7168c7a778b323acdc756f563b6/polyclash-0.0.3.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [sonar-api-wrapper]: executing diffoscope
+[2024-05-15 11:32:16] INFO root fetch - processPackages [sonar-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_api_wrapper-1.1.2-py3-none-any.whl.zip tmp/sonar_api_wrapper-1.1.3-py3-none-any.whl.zip --markdown 20240515/s/sonar-api-wrapper/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-15 11:32:16] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-15 11:32:16] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.2.3.tar.gz tmp/acetone_nnet-0.2.3.dev1.tar.gz --markdown 20240515/a/acetone-nnet/0.2.3-0.2.3.dev1/README.md --exclude *.pyd
+[2024-05-15 11:32:16] INFO root fetch - processPackages [mlconcepts]: Downloading https://files.pythonhosted.org/packages/5c/65/3055b0c12433d8f3a247aec4a4557c4b58633dbac7456f683da37350e064/mlconcepts-0.0.1a1.tar.gz
+[2024-05-15 11:32:16] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/c8/20/3915614f0a6d7cf70d116ee0efa9e646de7ea6db8f811dc3ee995c804283/uvx-2.1.0.tar.gz
+[2024-05-15 11:32:17] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/0c/f4/d2b468e5b8e1073b6d5939cf6dcb800b8b3c4bde13fcdd620359630f981f/chik_rs-0.7.0.tar.gz
+[2024-05-15 11:32:17] INFO root fetch - processPackages [polyclash]: Downloading https://files.pythonhosted.org/packages/2b/05/9712f0cd836e9090fd46cb28a4c42c933fd45d4b045861b739563338cf56/polyclash-0.0.4.tar.gz
+[2024-05-15 11:32:17] INFO root fetch - processPackages [mlconcepts]: executing diffoscope
+[2024-05-15 11:32:17] INFO root fetch - processPackages [mlconcepts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlconcepts-0.0.1a0.tar.gz tmp/mlconcepts-0.0.1a1.tar.gz --markdown 20240515/m/mlconcepts/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-05-15 11:32:17] INFO root fetch - processPackages [polyclash]: executing diffoscope
+[2024-05-15 11:32:17] INFO root fetch - processPackages [polyclash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyclash-0.0.3.tar.gz tmp/polyclash-0.0.4.tar.gz --markdown 20240515/p/polyclash/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 11:32:17] INFO root fetch - processPackages [uvx]: executing diffoscope
+[2024-05-15 11:32:17] INFO root fetch - processPackages [uvx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvx-2.0.8.tar.gz tmp/uvx-2.1.0.tar.gz --markdown 20240515/u/uvx/2.0.8-2.1.0/README.md --exclude *.pyd
+[2024-05-15 11:32:17] INFO root fetch - processPackages [chik-rs]: executing diffoscope
+[2024-05-15 11:32:17] INFO root fetch - processPackages [chik-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik_rs-0.6.1.tar.gz tmp/chik_rs-0.7.0.tar.gz --markdown 20240515/c/chik-rs/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-15 11:32:17] INFO root fetch - processPackages [sonar-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/sonar_api_wrapper-1.1.2-py3-none-any.whl.zip]
+[2024-05-15 11:32:17] INFO root fetch - processPackages [sonar-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/sonar_api_wrapper-1.1.3-py3-none-any.whl.zip]
+[2024-05-15 11:32:17] INFO root fetch - main [MainThread]: End processing [sonar-api-wrapper]: success
+[2024-05-15 11:32:17] INFO root fetch - processPackages [mlconcepts]: Remove: archive file [/home/abi/fetcher/tmp/mlconcepts-0.0.1a0.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - processPackages [mlconcepts]: Remove: archive file [/home/abi/fetcher/tmp/mlconcepts-0.0.1a1.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - main [MainThread]: End processing [mlconcepts]: success
+[2024-05-15 11:32:17] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.3.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.3.dev1.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-15 11:32:17] INFO root fetch - processPackages [polyclash]: Remove: archive file [/home/abi/fetcher/tmp/polyclash-0.0.3.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - processPackages [polyclash]: Remove: archive file [/home/abi/fetcher/tmp/polyclash-0.0.4.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - main [MainThread]: End processing [polyclash]: success
+[2024-05-15 11:32:17] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.8.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.1.0.tar.gz]
+[2024-05-15 11:32:17] INFO root fetch - main [MainThread]: End processing [uvx]: success
+[2024-05-15 11:32:18] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.6.1.tar.gz]
+[2024-05-15 11:32:18] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.7.0.tar.gz]
+[2024-05-15 11:32:18] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
+[2024-05-15 11:32:18] INFO root fetch - main [MainThread]: Store serial: [23215592]
