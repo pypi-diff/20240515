@@ -21270,3 +21270,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:13:48] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-15 14:13:48] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-15 14:13:48] INFO root fetch - main [MainThread]: Store serial: [23217340]
+[2024-05-15 14:15:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217340]
+[2024-05-15 14:15:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 14:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataprep-ml
+[2024-05-15 14:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anjana
+[2024-05-15 14:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exoml
+[2024-05-15 14:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-shapes
+[2024-05-15 14:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TestGeneratorPluginLib
+[2024-05-15 14:15:58] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 14:15:58] INFO root fetch - processPackages [TestGeneratorPluginLib]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-15 14:15:58] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [TestGeneratorPluginLib]: Downloading https://files.pythonhosted.org/packages/da/53/654be96382e6bdac993e7ebf1a94375e11ddb81b78642e44c2d4c626247b/TestGeneratorPluginLib-1.0.3.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [exoml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 14:15:58] INFO root fetch - processPackages [dataprep-ml]: New version: [24.5.1.2] Old Version: [24.5.1.1]
+[2024-05-15 14:15:58] INFO root fetch - processPackages [anjana]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 14:15:58] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/49/56/9ed2d2dd1eb2b7f31b2f6723e5d596d8cf7fdb13b95116571c205254b069/dataprep_ml-24.5.1.1.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [exoml]: Downloading https://files.pythonhosted.org/packages/01/c6/c69e6c3e4f7816b784360d5d0b4f0b4bc1b0b04ac8b2134f47dbba420089/exoml-0.1.8.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [anjana]: Downloading https://files.pythonhosted.org/packages/4d/93/2a1b22128d48f7837803d53cc84b44348e28c833a084b4f5a82acb527517/anjana-0.2.1.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [TestGeneratorPluginLib]: Downloading https://files.pythonhosted.org/packages/e0/0d/6736c29e2e61285dd22a20fba820f94bd3939384826029f1f1655d63508b/TestGeneratorPluginLib-1.0.4.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [TestGeneratorPluginLib]: executing diffoscope
+[2024-05-15 14:15:58] INFO root fetch - processPackages [TestGeneratorPluginLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TestGeneratorPluginLib-1.0.3.tar.gz tmp/TestGeneratorPluginLib-1.0.4.tar.gz --markdown 20240515/T/TestGeneratorPluginLib/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-15 14:15:58] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 14:15:58] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:15:58] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/3f/9f/495015090e4b6fbbc3817e3c475af699236c4bbce7aae7204a42cd07cf1e/dataprep_ml-24.5.1.2.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [anjana]: Downloading https://files.pythonhosted.org/packages/b0/de/e78f9a14edb5e696b2226465183cd8e722f5dbdf1bc8f486dfedbe10fc7f/anjana-0.2.2.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2024-05-15 14:15:58] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-24.5.1.1.tar.gz tmp/dataprep_ml-24.5.1.2.tar.gz --markdown 20240515/d/dataprep-ml/24.5.1.1-24.5.1.2/README.md --exclude *.pyd
+[2024-05-15 14:15:58] INFO root fetch - processPackages [exoml]: Downloading https://files.pythonhosted.org/packages/0b/19/f1be2b6c9e89d040510ae0a0dd8508d61b4171fe02dc51c250bc2252cf05/exoml-0.1.9.tar.gz
+[2024-05-15 14:15:58] INFO root fetch - processPackages [anjana]: executing diffoscope
+[2024-05-15 14:15:58] INFO root fetch - processPackages [anjana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjana-0.2.1.tar.gz tmp/anjana-0.2.2.tar.gz --markdown 20240515/a/anjana/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 14:15:58] INFO root fetch - processPackages [exoml]: executing diffoscope
+[2024-05-15 14:15:58] INFO root fetch - processPackages [exoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoml-0.1.8.tar.gz tmp/exoml-0.1.9.tar.gz --markdown 20240515/e/exoml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 14:15:59] INFO root fetch - processPackages [TestGeneratorPluginLib]: Remove: archive file [/home/abi/fetcher/tmp/TestGeneratorPluginLib-1.0.3.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - processPackages [TestGeneratorPluginLib]: Remove: archive file [/home/abi/fetcher/tmp/TestGeneratorPluginLib-1.0.4.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - main [MainThread]: End processing [TestGeneratorPluginLib]: success
+[2024-05-15 14:15:59] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 14:15:59] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-24.5.1.1.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-24.5.1.2.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2024-05-15 14:15:59] INFO root fetch - processPackages [anjana]: Remove: archive file [/home/abi/fetcher/tmp/anjana-0.2.1.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - processPackages [anjana]: Remove: archive file [/home/abi/fetcher/tmp/anjana-0.2.2.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - main [MainThread]: End processing [anjana]: success
+[2024-05-15 14:15:59] INFO root fetch - processPackages [exoml]: Remove: archive file [/home/abi/fetcher/tmp/exoml-0.1.8.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - processPackages [exoml]: Remove: archive file [/home/abi/fetcher/tmp/exoml-0.1.9.tar.gz]
+[2024-05-15 14:15:59] INFO root fetch - main [MainThread]: End processing [exoml]: success
+[2024-05-15 14:15:59] INFO root fetch - main [MainThread]: Store serial: [23217355]
