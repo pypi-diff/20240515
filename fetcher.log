@@ -17078,3 +17078,81 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:23:17] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-15 11:23:17] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-15 11:23:17] INFO root fetch - main [MainThread]: Store serial: [23215472]
+[2024-05-15 11:25:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215472]
+[2024-05-15 11:25:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msiaLex
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fft-calculations
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sun
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wuji
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avclass-malicialab
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xmlstore
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-slack
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-rancher2
+[2024-05-15 11:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Glances
+[2024-05-15 11:25:27] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [sun]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [Glances]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-15 11:25:27] WARNING root fetch - processPackages [fft-calculations]: Skipping, unable to determine old version
+[2024-05-15 11:25:27] INFO root fetch - main [MainThread]: End processing [fft-calculations] error
+[2024-05-15 11:25:27] INFO root fetch - processPackages [avclass-malicialab]: New version: [2.8.8] Old Version: [2.8.7]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [xmlstore]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1715764245] Old Version: [0.5.0a1715339371]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/85/a7/49f61ec20c2f14464dc93a06bf6f56193f7645de319fd0fa6960c8cb639e/glances-4.0.2.tar.gz
+[2024-05-15 11:25:27] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715763675] Old Version: [6.2.0a1715339088]
+[2024-05-15 11:25:27] INFO root fetch - processPackages [sun]: Downloading https://files.pythonhosted.org/packages/bf/8b/52f1accb7deaba105cf8bda748ec3c425fe16a563ea7115ec223f7b74402/sun-1.6.0.tar.gz
+[2024-05-15 11:25:27] INFO root fetch - processPackages [avclass-malicialab]: Downloading https://files.pythonhosted.org/packages/1a/5d/86a452ea794247eaf8882f3e03fc65122d6a744ceccb5f83092f08a46c30/avclass-malicialab-2.8.7.tar.gz
+[2024-05-15 11:25:27] INFO root fetch - processPackages [xmlstore]: Downloading https://files.pythonhosted.org/packages/b7/91/f12d3a041e81383db0efc48a1d36ced2bbf4041552e08bdd4fcc838f5095/xmlstore-0.9.8-py2.py3-none-any.whl
+[2024-05-15 11:25:27] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-15 11:25:28] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/54/13/89b2815d4adc9197048c81e1a52f3334d04c9660f13ccce5fdeeabb730f9/pulumi_slack-0.5.0a1715339371.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/21/1a/df19f42afb48a456611c84e59261f4b067ef4df2e9ad583a43b3df9b7f6a/pulumi_rancher2-6.2.0a1715339088.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [sun]: Downloading https://files.pythonhosted.org/packages/e7/dc/b6c08fd5d0eef10ea104f0096731451a062554c25940a2adc0d3f3a656a2/sun-1.6.1.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [sun]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [sun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sun-1.6.0.tar.gz tmp/sun-1.6.1.tar.gz --markdown 20240515/s/sun/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/74/c5/8f2ab456c1a4634aca2dd8ceb65c304f5c8c9297c4c5fdce03c2ababab97/glances-4.0.3.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [avclass-malicialab]: Downloading https://files.pythonhosted.org/packages/de/32/712a3969a28b90c9126ed39fbe973123f0f95728bf91baa3cd5fbdfded91/avclass_malicialab-2.8.8.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [xmlstore]: Downloading https://files.pythonhosted.org/packages/9c/55/64a0bc6163dc6f38934ce72d1467f1a6cfd3c641132b396285861b7ff46e/xmlstore-0.9.9-py2.py3-none-any.whl
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/01/63/d6fea48e962c3c19eacc3cfd1fcdec899a1494584e4270e715b664e3ff74/pulumi_slack-0.5.0a1715764245.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/bd/c6/bb7818dc595ba7fcf52dc836a6e0562ae7ee702fcef87c6ef3a733f7efb0/pulumi_rancher2-6.2.0a1715763675.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-15 11:25:28] INFO root fetch - processPackages [avclass-malicialab]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [avclass-malicialab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avclass-malicialab-2.8.7.tar.gz tmp/avclass_malicialab-2.8.8.tar.gz --markdown 20240515/a/avclass-malicialab/2.8.7-2.8.8/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [xmlstore]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [xmlstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlstore-0.9.8-py2.py3-none-any.whl.zip tmp/xmlstore-0.9.9-py2.py3-none-any.whl.zip --markdown 20240515/x/xmlstore/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1715339371.tar.gz tmp/pulumi_slack-0.5.0a1715764245.tar.gz --markdown 20240515/p/pulumi-slack/0.5.0a1715339371-0.5.0a1715764245/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715339088.tar.gz tmp/pulumi_rancher2-6.2.0a1715763675.tar.gz --markdown 20240515/p/pulumi-rancher2/6.2.0a1715339088-6.2.0a1715763675/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [Glances]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [Glances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glances-4.0.2.tar.gz tmp/glances-4.0.3.tar.gz --markdown 20240515/G/Glances/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-15 11:25:28] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240515/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 11:25:28] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-15 11:25:28] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-15 11:25:28] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 11:25:28] INFO root fetch - processPackages [sun]: Remove: archive file [/home/abi/fetcher/tmp/sun-1.6.0.tar.gz]
+[2024-05-15 11:25:28] INFO root fetch - processPackages [sun]: Remove: archive file [/home/abi/fetcher/tmp/sun-1.6.1.tar.gz]
+[2024-05-15 11:25:28] INFO root fetch - main [MainThread]: End processing [sun]: success
+[2024-05-15 11:25:29] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715339371.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715764245.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-15 11:25:29] INFO root fetch - processPackages [xmlstore]: Remove: archive file [/home/abi/fetcher/tmp/xmlstore-0.9.8-py2.py3-none-any.whl.zip]
+[2024-05-15 11:25:29] INFO root fetch - processPackages [xmlstore]: Remove: archive file [/home/abi/fetcher/tmp/xmlstore-0.9.9-py2.py3-none-any.whl.zip]
+[2024-05-15 11:25:29] INFO root fetch - main [MainThread]: End processing [xmlstore]: success
+[2024-05-15 11:25:29] INFO root fetch - processPackages [avclass-malicialab]: Remove: archive file [/home/abi/fetcher/tmp/avclass-malicialab-2.8.7.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - processPackages [avclass-malicialab]: Remove: archive file [/home/abi/fetcher/tmp/avclass_malicialab-2.8.8.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - main [MainThread]: End processing [avclass-malicialab]: success
+[2024-05-15 11:25:29] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-15 11:25:29] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715339088.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715763675.tar.gz]
+[2024-05-15 11:25:29] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-15 11:25:30] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.2.tar.gz]
+[2024-05-15 11:25:30] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.3.tar.gz]
+[2024-05-15 11:25:30] INFO root fetch - main [MainThread]: End processing [Glances]: success
+[2024-05-15 11:25:30] INFO root fetch - main [MainThread]: Store serial: [23215507]
