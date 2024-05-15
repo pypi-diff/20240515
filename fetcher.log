@@ -11938,3 +11938,36 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:57:39] INFO root fetch - processPackages [boax]: Remove: archive file [/home/abi/fetcher/tmp/boax-0.1.2.tar.gz]
 [2024-05-15 07:57:39] INFO root fetch - main [MainThread]: End processing [boax]: success
 [2024-05-15 07:57:39] INFO root fetch - main [MainThread]: Store serial: [23213358]
+[2024-05-15 07:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213358]
+[2024-05-15 07:59:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 07:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CRUDFastAPI
+[2024-05-15 07:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: message-local
+[2024-05-15 07:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-05-15 07:59:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archiwith
+[2024-05-15 07:59:48] INFO root fetch - processPackages [CRUDFastAPI]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 07:59:48] INFO root fetch - processPackages [tsugu]: New version: [1.0.0rc1] Old Version: [0.9.9rc9]
+[2024-05-15 07:59:48] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 07:59:48] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/79/e7/abe2a3a2aa61c8841ae7a9c33793101e7f14765306545418e19b24aa75a2/tsugu-0.9.9rc9.tar.gz
+[2024-05-15 07:59:48] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/76/8c/1c3656ca2f7258d397f4be8f7fab758fe98fcb68afcf75258413c4cf3929/crudfastapi-0.0.3.tar.gz
+[2024-05-15 07:59:48] WARNING root fetch - processPackages [archiwith]: Skipping, unable to determine old version
+[2024-05-15 07:59:48] INFO root fetch - main [MainThread]: End processing [archiwith] error
+[2024-05-15 07:59:48] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-15 07:59:48] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-15 07:59:48] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/5c/be73ee6b35b8d1c7c0836cc4413ccd2d895a19af93cc9270013abd5cd0ac/tsugu-1.0.0rc1.tar.gz
+[2024-05-15 07:59:48] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/40/eb/e058509e69d2604f2d81b8291cf7b2c73c309c0478195a0978e1e2f6c5a2/crudfastapi-0.0.4.tar.gz
+[2024-05-15 07:59:48] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-15 07:59:48] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240515/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 07:59:48] INFO root fetch - processPackages [CRUDFastAPI]: executing diffoscope
+[2024-05-15 07:59:48] INFO root fetch - processPackages [CRUDFastAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crudfastapi-0.0.3.tar.gz tmp/crudfastapi-0.0.4.tar.gz --markdown 20240515/C/CRUDFastAPI/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 07:59:48] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-15 07:59:48] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc9.tar.gz tmp/tsugu-1.0.0rc1.tar.gz --markdown 20240515/t/tsugu/0.9.9rc9-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-15 07:59:49] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-15 07:59:49] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-15 07:59:49] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-15 07:59:49] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.3.tar.gz]
+[2024-05-15 07:59:49] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.4.tar.gz]
+[2024-05-15 07:59:49] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI]: success
+[2024-05-15 07:59:49] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc9.tar.gz]
+[2024-05-15 07:59:49] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.0rc1.tar.gz]
+[2024-05-15 07:59:49] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-15 07:59:49] INFO root fetch - main [MainThread]: Store serial: [23213408]
