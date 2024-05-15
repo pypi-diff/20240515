@@ -9605,3 +9605,45 @@
 [2024-05-15 05:52:20] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.5.0b1.tar.gz]
 [2024-05-15 05:52:20] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
 [2024-05-15 05:52:20] INFO root fetch - main [MainThread]: Store serial: [23212384]
+[2024-05-15 05:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212384]
+[2024-05-15 05:54:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-05-15 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mat3ra-utils
+[2024-05-15 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msiaLex
+[2024-05-15 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hmmer
+[2024-05-15 05:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jinqingutils
+[2024-05-15 05:54:29] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 05:54:29] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/f2/43/a0079391d6321c0f997f64f6dbe82bbcc18f47691d6eea2eeed76cc31c04/msiaLex-0.3.8-py3-none-any.whl
+[2024-05-15 05:54:29] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-15 05:54:29] INFO root fetch - processPackages [mat3ra-utils]: New version: [2024.5.2.post0] Old Version: [2024.5.15.post0]
+[2024-05-15 05:54:29] WARNING root fetch - processPackages [jinqingutils]: Skipping, unable to determine old version
+[2024-05-15 05:54:29] INFO root fetch - main [MainThread]: End processing [jinqingutils] error
+[2024-05-15 05:54:29] INFO root fetch - processPackages [hmmer]: New version: [3.4.0.0] Old Version: [0.2.4]
+[2024-05-15 05:54:29] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-15 05:54:29] INFO root fetch - processPackages [mat3ra-utils]: Downloading https://files.pythonhosted.org/packages/22/e8/94dfed7d3934bab324689c820d9523f603ff8f7a8b6566fc0d215a929282/mat3ra_utils-2024.5.15.post0.tar.gz
+[2024-05-15 05:54:29] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c4/ec/b0365143d703c26f243284f98b3b53846593d6fe64b790991da8e7a8148c/msiaLex-0.3.9-py3-none-any.whl
+[2024-05-15 05:54:29] INFO root fetch - processPackages [hmmer]: Downloading https://files.pythonhosted.org/packages/04/92/477b9e34b8214dfc556c64e7a65adcdcb076937b6b7c32ed2b72963b25fd/hmmer-0.2.4.tar.gz
+[2024-05-15 05:54:30] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 05:54:30] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 05:54:30] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-15 05:54:30] INFO root fetch - processPackages [mat3ra-utils]: Downloading https://files.pythonhosted.org/packages/64/3a/218831f837f5b10447e5c84f006aa4988352333e64433c59a566f40c3246/mat3ra_utils-2024.5.2.post0.tar.gz
+[2024-05-15 05:54:30] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-15 05:54:30] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240515/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-15 05:54:30] INFO root fetch - processPackages [mat3ra-utils]: executing diffoscope
+[2024-05-15 05:54:30] INFO root fetch - processPackages [mat3ra-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra_utils-2024.5.15.post0.tar.gz tmp/mat3ra_utils-2024.5.2.post0.tar.gz --markdown 20240515/m/mat3ra-utils/2024.5.15.post0-2024.5.2.post0/README.md --exclude *.pyd
+[2024-05-15 05:54:30] INFO root fetch - processPackages [hmmer]: Downloading https://files.pythonhosted.org/packages/f3/9a/e3588ff783af354ebc4f68682c896cf119762c6b83398bd83d7deae1a488/hmmer-3.4.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-15 05:54:30] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.8-py3-none-any.whl.zip]
+[2024-05-15 05:54:30] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9-py3-none-any.whl.zip]
+[2024-05-15 05:54:30] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 05:54:30] INFO root fetch - processPackages [mat3ra-utils]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_utils-2024.5.15.post0.tar.gz]
+[2024-05-15 05:54:30] INFO root fetch - processPackages [mat3ra-utils]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_utils-2024.5.2.post0.tar.gz]
+[2024-05-15 05:54:30] INFO root fetch - main [MainThread]: End processing [mat3ra-utils]: success
+[2024-05-15 05:54:31] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-15 05:54:31] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-15 05:54:31] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-15 05:54:42] INFO root fetch - processPackages [hmmer]: executing diffoscope
+[2024-05-15 05:54:42] INFO root fetch - processPackages [hmmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmer-0.2.4.tar.gz tmp/hmmer-3.4.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240515/h/hmmer/0.2.4-3.4.0.0/README.md --exclude *.pyd
+[2024-05-15 05:54:43] INFO root fetch - processPackages [hmmer]: Remove: archive file [/home/abi/fetcher/tmp/hmmer-0.2.4.tar.gz]
+[2024-05-15 05:54:43] INFO root fetch - processPackages [hmmer]: Remove: archive file [/home/abi/fetcher/tmp/hmmer-3.4.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-15 05:54:43] INFO root fetch - main [MainThread]: End processing [hmmer]: success
+[2024-05-15 05:54:43] INFO root fetch - main [MainThread]: Store serial: [23212405]
