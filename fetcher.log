@@ -7673,3 +7673,33 @@
 [2024-05-15 03:45:16] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
 [2024-05-15 03:45:16] INFO root fetch - main [MainThread]: End processing [dbgear]: success
 [2024-05-15 03:45:16] INFO root fetch - main [MainThread]: Store serial: [23211538]
+[2024-05-15 03:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211538]
+[2024-05-15 03:47:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-command-line
+[2024-05-15 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-inference-server-http
+[2024-05-15 03:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RocketSim
+[2024-05-15 03:47:26] INFO root fetch - processPackages [RocketSim]: New version: [2.1.0a6] Old Version: [2.1.0a5]
+[2024-05-15 03:47:26] INFO root fetch - processPackages [gpt-command-line]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 03:47:26] INFO root fetch - processPackages [azureml-inference-server-http]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-15 03:47:26] INFO root fetch - processPackages [azureml-inference-server-http]: Downloading https://files.pythonhosted.org/packages/17/ed/40e220ea1f9c39a7c4f2d599f9760bfc8e6cfa2652078dc0e25b5e07449d/azureml_inference_server_http-1.2.1-py3-none-any.whl
+[2024-05-15 03:47:26] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/a9/48/9aa5727bc1fab01d96371777601e3592ee6bf8bd7d2fa959eeeeddb2cf66/gpt-command-line-0.1.5.tar.gz
+[2024-05-15 03:47:26] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/9d/b4/091a7debdd58c767a6c89fd7035ffca3e541c5c2f9bbeb757a55a15fb844/RocketSim-2.1.0a5.tar.gz
+[2024-05-15 03:47:27] INFO root fetch - processPackages [azureml-inference-server-http]: Downloading https://files.pythonhosted.org/packages/a3/22/872ec6a26e35321f5835349ed62f3452b0a19c2259a2897d15bcb2c35232/azureml_inference_server_http-1.2.2-py3-none-any.whl
+[2024-05-15 03:47:27] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/4e/5c/779fb00705f01361ef6dced378dc808923ae6d6bfcd2289030885edb424b/gpt_command_line-0.1.6.tar.gz
+[2024-05-15 03:47:27] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/f7/5d/59ee5358928e8873373f1f3c0234c6ecf08e0fc59496b495aa12096b00aa/RocketSim-2.1.0a6.tar.gz
+[2024-05-15 03:47:27] INFO root fetch - processPackages [azureml-inference-server-http]: executing diffoscope
+[2024-05-15 03:47:27] INFO root fetch - processPackages [azureml-inference-server-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_inference_server_http-1.2.1-py3-none-any.whl.zip tmp/azureml_inference_server_http-1.2.2-py3-none-any.whl.zip --markdown 20240515/a/azureml-inference-server-http/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-15 03:47:27] INFO root fetch - processPackages [gpt-command-line]: executing diffoscope
+[2024-05-15 03:47:27] INFO root fetch - processPackages [gpt-command-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-command-line-0.1.5.tar.gz tmp/gpt_command_line-0.1.6.tar.gz --markdown 20240515/g/gpt-command-line/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 03:47:27] INFO root fetch - processPackages [RocketSim]: executing diffoscope
+[2024-05-15 03:47:27] INFO root fetch - processPackages [RocketSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RocketSim-2.1.0a5.tar.gz tmp/RocketSim-2.1.0a6.tar.gz --markdown 20240515/R/RocketSim/2.1.0a5-2.1.0a6/README.md --exclude *.pyd
+[2024-05-15 03:47:27] INFO root fetch - processPackages [azureml-inference-server-http]: Remove: archive file [/home/abi/fetcher/tmp/azureml_inference_server_http-1.2.1-py3-none-any.whl.zip]
+[2024-05-15 03:47:27] INFO root fetch - processPackages [azureml-inference-server-http]: Remove: archive file [/home/abi/fetcher/tmp/azureml_inference_server_http-1.2.2-py3-none-any.whl.zip]
+[2024-05-15 03:47:27] INFO root fetch - main [MainThread]: End processing [azureml-inference-server-http]: success
+[2024-05-15 03:47:27] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.5.tar.gz]
+[2024-05-15 03:47:27] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt_command_line-0.1.6.tar.gz]
+[2024-05-15 03:47:27] INFO root fetch - main [MainThread]: End processing [gpt-command-line]: success
+[2024-05-15 03:47:28] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a5.tar.gz]
+[2024-05-15 03:47:28] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a6.tar.gz]
+[2024-05-15 03:47:28] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
+[2024-05-15 03:47:28] INFO root fetch - main [MainThread]: Store serial: [23211554]
