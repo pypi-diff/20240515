@@ -16734,3 +16734,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:12:07] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-15 11:12:07] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-15 11:12:07] INFO root fetch - main [MainThread]: Store serial: [23215328]
+[2024-05-15 11:14:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215328]
+[2024-05-15 11:14:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-server
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ooui
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlumedToHTML
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GReNaDIne
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cloud-pilot
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywebframework-uz
+[2024-05-15 11:14:15] WARNING root fetch - processPackages [pywebframework-uz]: Skipping, unable to determine old version
+[2024-05-15 11:14:15] INFO root fetch - main [MainThread]: End processing [pywebframework-uz] error
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ooui]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-15 11:14:15] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 11:14:15] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-15 11:14:15] INFO root fetch - processPackages [fractal-server]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-15 11:14:15] INFO root fetch - processPackages [netbox-cloud-pilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 11:14:15] INFO root fetch - processPackages [GReNaDIne]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 11:14:15] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/27/ff/967d8abcfde18c1acc3ce10dea6831200f6cff06e43fff700081fad6b780/ooui-0.9.2.tar.gz
+[2024-05-15 11:14:15] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-15 11:14:15] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-15 11:14:16] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/8a/31/dc0992ecb106f8d6efefcf9a2eb6f9817525e1d3515e2e0faa0e1c03c2ba/fractal_server-2.0.4.tar.gz
+[2024-05-15 11:14:16] INFO root fetch - processPackages [netbox-cloud-pilot]: Downloading https://files.pythonhosted.org/packages/07/37/1008c5da9e2927daac4fa6520183b804b9f858d0c9fda84b3b18b87fe665/netbox-cloud-pilot-0.1.8.tar.gz
+[2024-05-15 11:14:16] INFO root fetch - processPackages [GReNaDIne]: Downloading https://files.pythonhosted.org/packages/9e/6f/9ca856b377165255840eccedddefb554650a295c98fd7e3051084680de29/GReNaDIne-0.1.8.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/1c/47/1c378aaa273062983ecfb24e8ebbac1ba96cc17c2023f8641807d43c993a/ooui-0.9.3.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-15 11:14:17] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240515/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-15 11:14:17] INFO root fetch - processPackages [GReNaDIne]: Downloading https://files.pythonhosted.org/packages/14/02/a005b935b9b29a7ba438e2e55abfd78eebd6bbefe9aa74afd08c3ae24024/GReNaDIne-0.1.9.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 11:14:17] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:14:17] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-15 11:14:17] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.9.2.tar.gz tmp/ooui-0.9.3.tar.gz --markdown 20240515/o/ooui/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-15 11:14:17] INFO root fetch - processPackages [GReNaDIne]: executing diffoscope
+[2024-05-15 11:14:17] INFO root fetch - processPackages [GReNaDIne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GReNaDIne-0.1.8.tar.gz tmp/GReNaDIne-0.1.9.tar.gz --markdown 20240515/G/GReNaDIne/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 11:14:17] INFO root fetch - processPackages [netbox-cloud-pilot]: Downloading https://files.pythonhosted.org/packages/bc/b2/57a24adf66f76249cfc236819517681d002742b6565bc620d8828faf9ff3/netbox-cloud-pilot-0.1.9.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/c6/64/24d9fd5a0d9dbcbfa1bfa35017231641136dad4ec25096b32f29c880818d/fractal_server-2.0.5.tar.gz
+[2024-05-15 11:14:17] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-05-15 11:14:17] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.4.tar.gz tmp/fractal_server-2.0.5.tar.gz --markdown 20240515/f/fractal-server/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-15 11:14:17] INFO root fetch - processPackages [netbox-cloud-pilot]: executing diffoscope
+[2024-05-15 11:14:17] INFO root fetch - processPackages [netbox-cloud-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cloud-pilot-0.1.8.tar.gz tmp/netbox-cloud-pilot-0.1.9.tar.gz --markdown 20240515/n/netbox-cloud-pilot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 11:14:18] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-15 11:14:18] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 11:14:18] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.9.2.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.9.3.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-15 11:14:18] INFO root fetch - processPackages [netbox-cloud-pilot]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cloud-pilot-0.1.8.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - processPackages [netbox-cloud-pilot]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cloud-pilot-0.1.9.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [netbox-cloud-pilot]: success
+[2024-05-15 11:14:18] INFO root fetch - processPackages [GReNaDIne]: Remove: archive file [/home/abi/fetcher/tmp/GReNaDIne-0.1.8.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - processPackages [GReNaDIne]: Remove: archive file [/home/abi/fetcher/tmp/GReNaDIne-0.1.9.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [GReNaDIne]: success
+[2024-05-15 11:14:18] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.4.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.5.tar.gz]
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-05-15 11:14:18] INFO root fetch - main [MainThread]: Store serial: [23215348]
