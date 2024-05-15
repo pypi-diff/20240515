@@ -14695,3 +14695,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:03:04] INFO root fetch - processPackages [TestGeneratorPluginLib]: Remove: archive file [/home/abi/fetcher/tmp/TestGeneratorPluginLib-1.0.4.tar.gz]
 [2024-05-15 10:03:04] INFO root fetch - main [MainThread]: End processing [TestGeneratorPluginLib]: success
 [2024-05-15 10:03:04] INFO root fetch - main [MainThread]: Store serial: [23214524]
+[2024-05-15 10:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214524]
+[2024-05-15 10:05:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaxe
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oeel
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocean-spark-connect
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: borneo-client-python
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mailgun
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: l2dexapi
+[2024-05-15 10:05:13] INFO root fetch - processPackages [kaxe]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-15 10:05:13] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240514] Old Version: [0.0.2.dev20240513]
+[2024-05-15 10:05:13] INFO root fetch - processPackages [borneo-client-python]: New version: [3.10.6] Old Version: [3.10.5]
+[2024-05-15 10:05:13] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/b7/1a/a14f4e1ab825cd35965c57b20a4a217f799f3ea7fdf599de7a39522fe2d5/langfun-0.0.2.dev20240513.tar.gz
+[2024-05-15 10:05:13] INFO root fetch - processPackages [kaxe]: Downloading https://files.pythonhosted.org/packages/80/9d/1ff77e34727b58ebf28d9f9ddf61e1c7d8bcbd9cf2f8a6a20e2d3bd42f8f/kaxe-0.1.2.tar.gz
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ocean-spark-connect]: New version: [0.3.7] Old Version: [0.3.5]
+[2024-05-15 10:05:13] WARNING root fetch - processPackages [l2dexapi]: Skipping, unable to determine old version
+[2024-05-15 10:05:13] INFO root fetch - main [MainThread]: End processing [l2dexapi] error
+[2024-05-15 10:05:13] INFO root fetch - processPackages [oeel]: New version: [0.9.8.7] Old Version: [0.9.8.6]
+[2024-05-15 10:05:13] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1715759346] Old Version: [3.6.0a1715337659]
+[2024-05-15 10:05:13] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/e9/e3/898ee67de29b29b788a33748d98fb873368e55d0f53f5a7e0f709b7aa566/borneo_client_python-3.10.5.tar.gz
+[2024-05-15 10:05:13] INFO root fetch - processPackages [ocean-spark-connect]: Downloading https://files.pythonhosted.org/packages/34/be/f7c3fe16c9243cb573dc8faf880a24aedcf500ae2c721748798d2fc7cd26/ocean_spark_connect-0.3.5.tar.gz
+[2024-05-15 10:05:13] INFO root fetch - processPackages [oeel]: Downloading https://files.pythonhosted.org/packages/12/50/edc9007334e99c8563e25bb1a8fce064f391ce5a0ed29d896655b9ff2b75/oeel-0.9.8.6.tar.gz
+[2024-05-15 10:05:13] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/19/aa/d4a42639f19683bdf410fe010822fa46bd7b0d1934feecdfb1ed3854f5d0/pulumi_mailgun-3.6.0a1715337659.tar.gz
+[2024-05-15 10:05:13] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/71/6c/dc61eaa9c91f97b294bc2fbfe45f4257f684157a0ff8ec2fb69c97647c85/langfun-0.0.2.dev20240514.tar.gz
+[2024-05-15 10:05:14] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-15 10:05:14] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240513.tar.gz tmp/langfun-0.0.2.dev20240514.tar.gz --markdown 20240515/l/langfun/0.0.2.dev20240513-0.0.2.dev20240514/README.md --exclude *.pyd
+[2024-05-15 10:05:14] INFO root fetch - processPackages [ocean-spark-connect]: Downloading https://files.pythonhosted.org/packages/ab/9f/8234b41d9b0ea3051a3af65181c9b45ec4cd7e8a97b7f9b553d0fad44cb5/ocean_spark_connect-0.3.7.tar.gz
+[2024-05-15 10:05:14] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/53/2b/e5c1698fbe744730de459fda87c01bdd46b02043174ab586fcdc48a100ef/borneo_client_python-3.10.6.tar.gz
+[2024-05-15 10:05:14] INFO root fetch - processPackages [kaxe]: Downloading https://files.pythonhosted.org/packages/f7/89/2f9c3b18f9c515509690c059f545625b196f29c627dd10585ed439959ade/kaxe-0.1.4.tar.gz
+[2024-05-15 10:05:14] INFO root fetch - processPackages [oeel]: Downloading https://files.pythonhosted.org/packages/3f/d1/b8985c2437a6674a5749941ad6fa7f105e10bda9f779e193efd378490edc/oeel-0.9.8.7.tar.gz
+[2024-05-15 10:05:14] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/06/ef/bcb07999612bd71dabff3bb043d3918eb31788b93f2d918f1b9a46bbb5c1/pulumi_mailgun-3.6.0a1715759346.tar.gz
+[2024-05-15 10:05:14] INFO root fetch - processPackages [ocean-spark-connect]: executing diffoscope
+[2024-05-15 10:05:14] INFO root fetch - processPackages [ocean-spark-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean_spark_connect-0.3.5.tar.gz tmp/ocean_spark_connect-0.3.7.tar.gz --markdown 20240515/o/ocean-spark-connect/0.3.5-0.3.7/README.md --exclude *.pyd
+[2024-05-15 10:05:14] INFO root fetch - processPackages [borneo-client-python]: executing diffoscope
+[2024-05-15 10:05:14] INFO root fetch - processPackages [borneo-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_client_python-3.10.5.tar.gz tmp/borneo_client_python-3.10.6.tar.gz --markdown 20240515/b/borneo-client-python/3.10.5-3.10.6/README.md --exclude *.pyd
+[2024-05-15 10:05:14] INFO root fetch - processPackages [oeel]: executing diffoscope
+[2024-05-15 10:05:14] INFO root fetch - processPackages [oeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oeel-0.9.8.6.tar.gz tmp/oeel-0.9.8.7.tar.gz --markdown 20240515/o/oeel/0.9.8.6-0.9.8.7/README.md --exclude *.pyd
+[2024-05-15 10:05:14] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-15 10:05:14] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1715337659.tar.gz tmp/pulumi_mailgun-3.6.0a1715759346.tar.gz --markdown 20240515/p/pulumi-mailgun/3.6.0a1715337659-3.6.0a1715759346/README.md --exclude *.pyd
+[2024-05-15 10:05:14] INFO root fetch - processPackages [kaxe]: executing diffoscope
+[2024-05-15 10:05:14] INFO root fetch - processPackages [kaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaxe-0.1.2.tar.gz tmp/kaxe-0.1.4.tar.gz --markdown 20240515/k/kaxe/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-15 10:05:14] INFO root fetch - processPackages [ocean-spark-connect]: Remove: archive file [/home/abi/fetcher/tmp/ocean_spark_connect-0.3.5.tar.gz]
+[2024-05-15 10:05:14] INFO root fetch - processPackages [ocean-spark-connect]: Remove: archive file [/home/abi/fetcher/tmp/ocean_spark_connect-0.3.7.tar.gz]
+[2024-05-15 10:05:14] INFO root fetch - main [MainThread]: End processing [ocean-spark-connect]: success
+[2024-05-15 10:05:15] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240513.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240514.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-15 10:05:15] INFO root fetch - processPackages [oeel]: Remove: archive file [/home/abi/fetcher/tmp/oeel-0.9.8.6.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - processPackages [oeel]: Remove: archive file [/home/abi/fetcher/tmp/oeel-0.9.8.7.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - main [MainThread]: End processing [oeel]: success
+[2024-05-15 10:05:15] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715337659.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715759346.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-15 10:05:15] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.5.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.6.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - main [MainThread]: End processing [borneo-client-python]: success
+[2024-05-15 10:05:15] INFO root fetch - processPackages [kaxe]: Remove: archive file [/home/abi/fetcher/tmp/kaxe-0.1.2.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - processPackages [kaxe]: Remove: archive file [/home/abi/fetcher/tmp/kaxe-0.1.4.tar.gz]
+[2024-05-15 10:05:15] INFO root fetch - main [MainThread]: End processing [kaxe]: success
+[2024-05-15 10:05:15] INFO root fetch - main [MainThread]: Store serial: [23214547]
