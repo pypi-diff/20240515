@@ -13361,3 +13361,42 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:11:20] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.5.tar.gz]
 [2024-05-15 09:11:20] INFO root fetch - main [MainThread]: End processing [pymrm]: success
 [2024-05-15 09:11:20] INFO root fetch - main [MainThread]: Store serial: [23213915]
+[2024-05-15 09:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213915]
+[2024-05-15 09:13:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-15 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitino
+[2024-05-15 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goodpy
+[2024-05-15 09:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prompeteer
+[2024-05-15 09:13:28] INFO root fetch - processPackages [cvprocessor]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-15 09:13:28] INFO root fetch - processPackages [prompeteer]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-15 09:13:28] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/92/26/dcb436203203770abc773bd3965845eea6dce86b51be240a48777aa62adf/cvprocessor-0.6.1.tar.gz
+[2024-05-15 09:13:29] INFO root fetch - processPackages [gravitino]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2024-05-15 09:13:29] INFO root fetch - processPackages [goodpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 09:13:29] INFO root fetch - processPackages [gravitino]: Downloading https://files.pythonhosted.org/packages/3d/85/878578ad4d8b98119f69ca1e7deb2e76553f9e23fb835b841820cd5c3dd7/gravitino-0.5.0.dev8.tar.gz
+[2024-05-15 09:13:29] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/60/a4/8d363d3e8d60df2dc42cc7f0efbcacbfde445ecd1290f95cdf6f56a1c516/prompeteer-0.1.1.tar.gz
+[2024-05-15 09:13:29] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/88/d2/4a153924f8b34cde4d7bddfc5bdd9ea985a2a30a585a255f0aaa83616a71/goodpy-0.0.4-py2.py3-none-any.whl
+[2024-05-15 09:13:29] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/14/b8/24d08e6154223ab02a085fafae4b3275a7521e56ac75f1c81cb3d4432471/cvprocessor-0.6.2.tar.gz
+[2024-05-15 09:13:29] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 09:13:29] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.6.1.tar.gz tmp/cvprocessor-0.6.2.tar.gz --markdown 20240515/c/cvprocessor/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-15 09:13:29] INFO root fetch - processPackages [gravitino]: Downloading https://files.pythonhosted.org/packages/6a/e3/899a6ec3ed516c98e40aff8a8cfc16b384a0364ddda7c956c5bca1101b6d/gravitino-0.5.0.dev9.tar.gz
+[2024-05-15 09:13:29] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/05/7d/a706a38b32fadc1d76724416ebc5955bff50236d4babfef8ab8eb74f2ff2/prompeteer-0.1.4.tar.gz
+[2024-05-15 09:13:29] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/4a/2a/b906250d04acc096e5e3192bf77cb2cf4a1da47071e7f00f386104c29ffb/goodpy-0.0.5-py2.py3-none-any.whl
+[2024-05-15 09:13:29] INFO root fetch - processPackages [gravitino]: executing diffoscope
+[2024-05-15 09:13:29] INFO root fetch - processPackages [gravitino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitino-0.5.0.dev8.tar.gz tmp/gravitino-0.5.0.dev9.tar.gz --markdown 20240515/g/gravitino/0.5.0.dev8-0.5.0.dev9/README.md --exclude *.pyd
+[2024-05-15 09:13:29] INFO root fetch - processPackages [goodpy]: executing diffoscope
+[2024-05-15 09:13:29] INFO root fetch - processPackages [goodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodpy-0.0.4-py2.py3-none-any.whl.zip tmp/goodpy-0.0.5-py2.py3-none-any.whl.zip --markdown 20240515/g/goodpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 09:13:29] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 09:13:29] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.1.tar.gz tmp/prompeteer-0.1.4.tar.gz --markdown 20240515/p/prompeteer/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-15 09:13:30] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.1.tar.gz]
+[2024-05-15 09:13:30] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.2.tar.gz]
+[2024-05-15 09:13:30] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 09:13:30] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.4-py2.py3-none-any.whl.zip]
+[2024-05-15 09:13:30] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.5-py2.py3-none-any.whl.zip]
+[2024-05-15 09:13:30] INFO root fetch - main [MainThread]: End processing [goodpy]: success
+[2024-05-15 09:13:30] INFO root fetch - processPackages [gravitino]: Remove: archive file [/home/abi/fetcher/tmp/gravitino-0.5.0.dev8.tar.gz]
+[2024-05-15 09:13:30] INFO root fetch - processPackages [gravitino]: Remove: archive file [/home/abi/fetcher/tmp/gravitino-0.5.0.dev9.tar.gz]
+[2024-05-15 09:13:30] INFO root fetch - main [MainThread]: End processing [gravitino]: success
+[2024-05-15 09:13:30] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.1.tar.gz]
+[2024-05-15 09:13:30] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.4.tar.gz]
+[2024-05-15 09:13:30] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 09:13:30] INFO root fetch - main [MainThread]: Store serial: [23213926]
