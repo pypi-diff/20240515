@@ -9226,3 +9226,35 @@
 [2024-05-15 05:32:40] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-15 05:32:40] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-15 05:32:40] INFO root fetch - main [MainThread]: Store serial: [23212173]
+[2024-05-15 05:34:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212173]
+[2024-05-15 05:34:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 05:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bolero
+[2024-05-15 05:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqthetic
+[2024-05-15 05:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citation-rabbot
+[2024-05-15 05:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: almgroad
+[2024-05-15 05:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omop2survey
+[2024-05-15 05:34:49] WARNING root fetch - processPackages [almgroad]: Skipping, unable to determine old version
+[2024-05-15 05:34:49] INFO root fetch - main [MainThread]: End processing [almgroad] error
+[2024-05-15 05:34:49] INFO root fetch - processPackages [omop2survey]: New version: [0.1] Old Version: [0.0.2]
+[2024-05-15 05:34:49] WARNING root fetch - processPackages [seqthetic]: Skipping, unable to determine old version
+[2024-05-15 05:34:49] INFO root fetch - main [MainThread]: End processing [seqthetic] error
+[2024-05-15 05:34:49] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-05-15 05:34:49] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-05-15 05:34:49] INFO root fetch - processPackages [bolero]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 05:34:49] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/62/b1/65ecf9dec71844d72c01068265754700456950b8e6bd4df4ff40a1e1e11f/omop2survey-0.0.2.tar.gz
+[2024-05-15 05:34:49] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-05-15 05:34:49] INFO root fetch - processPackages [bolero]: Downloading https://files.pythonhosted.org/packages/0e/54/d977da7062905b9ef12d154a22d7c529f309814631e9af2438766d209519/bolero-0.0.8.tar.gz
+[2024-05-15 05:34:49] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-05-15 05:34:49] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240515/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-05-15 05:34:49] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/66/e4/e9c1976549b360a8271715270a36fb4ffbd39545405e682b5913c0f9ed64/omop2survey-0.1.tar.gz
+[2024-05-15 05:34:49] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-05-15 05:34:49] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.2.tar.gz tmp/omop2survey-0.1.tar.gz --markdown 20240515/o/omop2survey/0.0.2-0.1/README.md --exclude *.pyd
+[2024-05-15 05:34:50] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-05-15 05:34:50] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-05-15 05:34:50] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-05-15 05:34:50] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.2.tar.gz]
+[2024-05-15 05:34:50] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.1.tar.gz]
+[2024-05-15 05:34:50] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-05-15 05:34:53] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
+[2024-05-15 05:34:53] INFO root fetch - main [MainThread]: End processing [bolero] error
+[2024-05-15 05:34:53] INFO root fetch - main [MainThread]: Store serial: [23212187]
