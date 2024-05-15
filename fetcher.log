@@ -23020,3 +23020,83 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:15:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-15 15:15:28] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-15 15:15:28] INFO root fetch - main [MainThread]: Store serial: [23218067]
+[2024-05-15 15:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218067]
+[2024-05-15 15:17:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpi
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs_puml
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarcharts
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tkan
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatchet-sdk
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aepp
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multivoro
+[2024-05-15 15:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-micro
+[2024-05-15 15:17:45] INFO root fetch - processPackages [sarcharts]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/28/1c/8ca02ec8582531a6f18d1e4094dd13893c74f47c1c5d0a9b0795ee999832/sarcharts-0.1.9.tar.gz
+[2024-05-15 15:17:45] INFO root fetch - processPackages [cpi]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [tkan]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-15 15:17:45] INFO root fetch - processPackages [mkdocs_puml]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [multivoro]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [hatchet-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240514172911] Old Version: [0.dev20240514031124]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [aepp]: New version: [0.3.4.post3] Old Version: [0.3.4.post2]
+[2024-05-15 15:17:45] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/e7/9f/81dce03d16b4a6863718e7fb1de796f0507301f9fc4fac9c5a904b8e0f8c/tflite_micro-0.dev20240514031124-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-15 15:17:46] INFO root fetch - processPackages [mkdocs_puml]: Downloading https://files.pythonhosted.org/packages/fb/03/30db882e09480d72779b362336ee46f932792478d4fd85b444221f59a087/mkdocs_puml-1.3.0.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [cpi]: Downloading https://files.pythonhosted.org/packages/bb/ff/1a6d6601c187c98713326349ab2f9b16018186b8c81792ae121e82fa6812/cpi-1.1.4.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tkan]: Downloading https://files.pythonhosted.org/packages/f9/36/c7c7d81b1f2537a7f7fed9c7fc95cdbaf7ac7c8aa7e39f3812a43d603843/tkan-0.1.2.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [multivoro]: Downloading https://files.pythonhosted.org/packages/45/a1/5db7737b69cbf5b22d5b2db0045a6d5caecdb7a2932a4925848394e725e1/multivoro-0.0.1.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [aepp]: Downloading https://files.pythonhosted.org/packages/fb/0b/ad3f5e39644a912d9508b2b64c8433db190d2f2c2ba11af5b043461a5a19/aepp-0.3.4.post2.tar.gz
+[2024-05-15 15:17:46] WARNING root fetch - processPackages [cpi]: Skipping package: exceeds size limit 28604389>=10485760
+[2024-05-15 15:17:46] INFO root fetch - main [MainThread]: End processing [cpi] error
+[2024-05-15 15:17:46] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/b7/8b/68973381c93504e7bb9a11fe80f87dcd98513e32ad380a834f18ebfd2e7a/hatchet_sdk-0.9.3.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240515/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/3f/b8/b50819465588542098ff350d51b9367a087b1ab66c5147be2f4fb1a72dfe/sarcharts-0.2.0.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tkan]: Downloading https://files.pythonhosted.org/packages/bb/02/ce9f6767b755ccbdb97e3cd3e5e503257ba2c884cf419af2ffd8f088fca8/tkan-0.2.0.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/5a/0c/c0f3509509d62d0dbdbe8eb124ab0a1bb30c4b6de6c4c46cfba258221a66/tflite_micro-0.dev20240514172911-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-15 15:17:46] INFO root fetch - processPackages [sarcharts]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [sarcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcharts-0.1.9.tar.gz tmp/sarcharts-0.2.0.tar.gz --markdown 20240515/s/sarcharts/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [mkdocs_puml]: Downloading https://files.pythonhosted.org/packages/b8/74/a77ad14fe06eceb7b8193f898257b800610589b020ccf4684f2934444aff/mkdocs_puml-1.3.1.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [multivoro]: Downloading https://files.pythonhosted.org/packages/41/5e/a1758dc4e91afe27020aa97435d9e2bb332dc8461be09e492325d8ac545f/multivoro-0.1.0.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/19/f2/b637c52e9d3495664654bf550e30f893558eb0a752bb7a6718c55674e5cd/hatchet_sdk-0.9.4.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [aepp]: Downloading https://files.pythonhosted.org/packages/04/e2/ca8114f4529550f1ff9523c5aaabfa8572c08dd2da4ac41c7a515e3f53a3/aepp-0.3.4.post3.tar.gz
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tkan]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tkan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkan-0.1.2.tar.gz tmp/tkan-0.2.0.tar.gz --markdown 20240515/t/tkan/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [hatchet-sdk]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [hatchet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchet_sdk-0.9.3.tar.gz tmp/hatchet_sdk-0.9.4.tar.gz --markdown 20240515/h/hatchet-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [aepp]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [aepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepp-0.3.4.post2.tar.gz tmp/aepp-0.3.4.post3.tar.gz --markdown 20240515/a/aepp/0.3.4.post2-0.3.4.post3/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [mkdocs_puml]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [mkdocs_puml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_puml-1.3.0.tar.gz tmp/mkdocs_puml-1.3.1.tar.gz --markdown 20240515/m/mkdocs_puml/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240514031124-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240514172911-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240515/t/tflite-micro/0.dev20240514031124-0.dev20240514172911/README.md --exclude *.pyd
+[2024-05-15 15:17:46] INFO root fetch - processPackages [multivoro]: executing diffoscope
+[2024-05-15 15:17:46] INFO root fetch - processPackages [multivoro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multivoro-0.0.1.tar.gz tmp/multivoro-0.1.0.tar.gz --markdown 20240515/m/multivoro/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-15 15:17:47] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-15 15:17:47] INFO root fetch - processPackages [tkan]: Remove: archive file [/home/abi/fetcher/tmp/tkan-0.1.2.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [tkan]: Remove: archive file [/home/abi/fetcher/tmp/tkan-0.2.0.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [tkan]: success
+[2024-05-15 15:17:47] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.1.9.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.2.0.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
+[2024-05-15 15:17:47] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.3.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.4.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [hatchet-sdk]: success
+[2024-05-15 15:17:47] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240514031124-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240514172911-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-05-15 15:17:47] INFO root fetch - processPackages [aepp]: Remove: archive file [/home/abi/fetcher/tmp/aepp-0.3.4.post2.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [aepp]: Remove: archive file [/home/abi/fetcher/tmp/aepp-0.3.4.post3.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - processPackages [mkdocs_puml]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_puml-1.3.0.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [aepp]: success
+[2024-05-15 15:17:47] INFO root fetch - processPackages [mkdocs_puml]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_puml-1.3.1.tar.gz]
+[2024-05-15 15:17:47] INFO root fetch - main [MainThread]: End processing [mkdocs_puml]: success
+[2024-05-15 15:17:48] INFO root fetch - processPackages [multivoro]: Remove: archive file [/home/abi/fetcher/tmp/multivoro-0.0.1.tar.gz]
+[2024-05-15 15:17:48] INFO root fetch - processPackages [multivoro]: Remove: archive file [/home/abi/fetcher/tmp/multivoro-0.1.0.tar.gz]
+[2024-05-15 15:17:48] INFO root fetch - main [MainThread]: End processing [multivoro]: success
+[2024-05-15 15:17:48] INFO root fetch - main [MainThread]: Store serial: [23218121]
