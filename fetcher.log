@@ -22421,3 +22421,36 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:48:23] INFO root fetch - processPackages [pyroSAR]: Remove: archive file [/home/abi/fetcher/tmp/pyroSAR-0.9.1.tar.gz]
 [2024-05-15 14:48:23] INFO root fetch - main [MainThread]: End processing [pyroSAR]: success
 [2024-05-15 14:48:23] INFO root fetch - main [MainThread]: Store serial: [23217807]
+[2024-05-15 14:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217807]
+[2024-05-15 14:50:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 14:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbx-code-owners
+[2024-05-15 14:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbparameterise
+[2024-05-15 14:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fcaptcha
+[2024-05-15 14:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodmongo
+[2024-05-15 14:50:32] INFO root fetch - processPackages [pyodmongo]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 14:50:32] WARNING root fetch - processPackages [fcaptcha]: Skipping, unable to determine old version
+[2024-05-15 14:50:32] INFO root fetch - main [MainThread]: End processing [fcaptcha] error
+[2024-05-15 14:50:32] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/28/53/887b9fb0bcfc1cd765337fd58d96aeb056a48e606cb383b6f44f7f77e5ff/pyodmongo-0.9.0.tar.gz
+[2024-05-15 14:50:32] INFO root fetch - processPackages [pbx-code-owners]: New version: [1.1.0a0] Old Version: [1.1.0]
+[2024-05-15 14:50:32] INFO root fetch - processPackages [nbparameterise]: New version: [0.6.1] Old Version: [0.6]
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/fb/54/28778f428013cf5b3392895c8c65916bd7485c66d5f5397e99e02f02a771/pbx_code_owners-1.1.0-py3-none-any.whl
+[2024-05-15 14:50:33] INFO root fetch - processPackages [nbparameterise]: Downloading https://files.pythonhosted.org/packages/72/fa/33c973f9d11b4dfef79b6a1d9963bf4d912f9b790426e67daecd520dc5c1/nbparameterise-0.6.tar.gz
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/b6/4d/3332a1b9b8c52e3b6e71958426914018c2a35e35405645b4c0085b6ac8bf/pyodmongo-0.9.1.tar.gz
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pyodmongo]: executing diffoscope
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pyodmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodmongo-0.9.0.tar.gz tmp/pyodmongo-0.9.1.tar.gz --markdown 20240515/p/pyodmongo/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/30/e3/0a3e0ae331ade51d5e213f799eabf1b58f153ed1566e0c271ce576fd1490/pbx_code_owners-1.1.0a0.tar.gz
+[2024-05-15 14:50:33] INFO root fetch - processPackages [nbparameterise]: Downloading https://files.pythonhosted.org/packages/d2/bc/f2913ce78f40ade2eff4aacb12f863f0e174241a90838666047cce8a97d3/nbparameterise-0.6.1.tar.gz
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pbx-code-owners]: executing diffoscope
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pbx-code-owners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_code_owners-1.1.0-py3-none-any.whl.zip tmp/pbx_code_owners-1.1.0a0.tar.gz --markdown 20240515/p/pbx-code-owners/1.1.0-1.1.0a0/README.md --exclude *.pyd
+[2024-05-15 14:50:33] INFO root fetch - processPackages [nbparameterise]: executing diffoscope
+[2024-05-15 14:50:33] INFO root fetch - processPackages [nbparameterise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbparameterise-0.6.tar.gz tmp/nbparameterise-0.6.1.tar.gz --markdown 20240515/n/nbparameterise/0.6-0.6.1/README.md --exclude *.pyd
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.1.0-py3-none-any.whl.zip]
+[2024-05-15 14:50:33] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.1.0a0.tar.gz]
+[2024-05-15 14:50:33] INFO root fetch - main [MainThread]: End processing [pbx-code-owners]: success
+[2024-05-15 14:50:34] INFO root fetch - processPackages [nbparameterise]: Remove: archive file [/home/abi/fetcher/tmp/nbparameterise-0.6.tar.gz]
+[2024-05-15 14:50:34] INFO root fetch - processPackages [nbparameterise]: Remove: archive file [/home/abi/fetcher/tmp/nbparameterise-0.6.1.tar.gz]
+[2024-05-15 14:50:34] INFO root fetch - main [MainThread]: End processing [nbparameterise]: success
+[2024-05-15 14:50:34] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.0.tar.gz]
+[2024-05-15 14:50:34] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.1.tar.gz]
+[2024-05-15 14:50:34] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
+[2024-05-15 14:50:34] INFO root fetch - main [MainThread]: Store serial: [23217821]
