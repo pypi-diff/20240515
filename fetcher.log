@@ -23397,3 +23397,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:24:27] INFO root fetch - processPackages [exasol-saas-api]: Remove: archive file [/home/abi/fetcher/tmp/exasol_saas_api-0.4.0.tar.gz]
 [2024-05-15 15:24:27] INFO root fetch - main [MainThread]: End processing [exasol-saas-api]: success
 [2024-05-15 15:24:27] INFO root fetch - main [MainThread]: Store serial: [23218247]
+[2024-05-15 15:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218247]
+[2024-05-15 15:26:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 15:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connectome-interpreter
+[2024-05-15 15:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monkey-plugintoolbox
+[2024-05-15 15:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-content-loader
+[2024-05-15 15:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-check
+[2024-05-15 15:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hstream
+[2024-05-15 15:26:38] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-05-15 15:26:38] INFO root fetch - processPackages [hstream]: New version: [0.1.52] Old Version: [0.1.51]
+[2024-05-15 15:26:38] INFO root fetch - processPackages [monkey-plugintoolbox]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-15 15:26:38] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/84/8d/9fed599fe3a0606b5df05b6af1e395d3670e6f67d16cba227de262405d1f/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/22/58/f85f254871fb1b188bda9ed329b9a010451d63b5ebfb1a882650274d576a/hstream-0.1.51.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [connectome-interpreter]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-15 15:26:38] INFO root fetch - processPackages [pih-check]: New version: [0.15.1] Old Version: [0.15]
+[2024-05-15 15:26:38] INFO root fetch - processPackages [pih-check]: Downloading https://files.pythonhosted.org/packages/fc/84/55059d8ea8a2263bbca5245b6ed9eccc7c3be391b7e9075dd4aa0beca74a/pih-check-0.15.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [monkey-plugintoolbox]: Downloading https://files.pythonhosted.org/packages/fb/27/292328079456c799c8acb6c94a86e73e7e8409d7ef5cf037c60c64a55d35/monkey_plugintoolbox-0.3.0.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [connectome-interpreter]: Downloading https://files.pythonhosted.org/packages/7b/9b/62f2857f5b5750cdbb7db80c21354247fdfc19c7a6f85fa9cfe1caefb567/connectome_interpreter-1.8.0.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/f6/58/9dcf721bc4e4a65d106025b423e30e6082e93c943edeaa0eff78b77f988b/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/a9/e1/4e6dd8f6294cc2f1884eda65f55fac13b3774115d75b24a10b8e0dce512f/hstream-0.1.52.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: executing diffoscope
+[2024-05-15 15:26:38] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz --markdown 20240515/c/ccs-digitalmarketplace-content-loader/9.4.0-9.5.0/README.md --exclude *.pyd
+[2024-05-15 15:26:38] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-15 15:26:38] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.51.tar.gz tmp/hstream-0.1.52.tar.gz --markdown 20240515/h/hstream/0.1.51-0.1.52/README.md --exclude *.pyd
+[2024-05-15 15:26:38] INFO root fetch - processPackages [monkey-plugintoolbox]: Downloading https://files.pythonhosted.org/packages/79/9e/b7772573786bc554cf8547c5d0256b61e20fc383f82f71605b1ceb40ef1e/monkey_plugintoolbox-0.4.0.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [connectome-interpreter]: Downloading https://files.pythonhosted.org/packages/10/13/5f1938988e95a85a0630d1ab255d4555f20877d78ed3e4b866a423c43ba2/connectome_interpreter-1.8.1.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [pih-check]: Downloading https://files.pythonhosted.org/packages/5c/43/017c6cbb7e713842750413e3303091e226fe78cdd4d19c9ca35a9ec1d1f2/pih-check-0.15.1.tar.gz
+[2024-05-15 15:26:38] INFO root fetch - processPackages [monkey-plugintoolbox]: executing diffoscope
+[2024-05-15 15:26:38] INFO root fetch - processPackages [monkey-plugintoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monkey_plugintoolbox-0.3.0.tar.gz tmp/monkey_plugintoolbox-0.4.0.tar.gz --markdown 20240515/m/monkey-plugintoolbox/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-15 15:26:38] INFO root fetch - processPackages [connectome-interpreter]: executing diffoscope
+[2024-05-15 15:26:38] INFO root fetch - processPackages [connectome-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectome_interpreter-1.8.0.tar.gz tmp/connectome_interpreter-1.8.1.tar.gz --markdown 20240515/c/connectome-interpreter/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-15 15:26:38] INFO root fetch - processPackages [pih-check]: executing diffoscope
+[2024-05-15 15:26:38] INFO root fetch - processPackages [pih-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-check-0.15.tar.gz tmp/pih-check-0.15.1.tar.gz --markdown 20240515/p/pih-check/0.15-0.15.1/README.md --exclude *.pyd
+[2024-05-15 15:26:39] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-content-loader]: success
+[2024-05-15 15:26:39] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.51.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.52.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-15 15:26:39] INFO root fetch - processPackages [monkey-plugintoolbox]: Remove: archive file [/home/abi/fetcher/tmp/monkey_plugintoolbox-0.3.0.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - processPackages [monkey-plugintoolbox]: Remove: archive file [/home/abi/fetcher/tmp/monkey_plugintoolbox-0.4.0.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - main [MainThread]: End processing [monkey-plugintoolbox]: success
+[2024-05-15 15:26:39] INFO root fetch - processPackages [connectome-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/connectome_interpreter-1.8.0.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - processPackages [connectome-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/connectome_interpreter-1.8.1.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - main [MainThread]: End processing [connectome-interpreter]: success
+[2024-05-15 15:26:39] INFO root fetch - processPackages [pih-check]: Remove: archive file [/home/abi/fetcher/tmp/pih-check-0.15.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - processPackages [pih-check]: Remove: archive file [/home/abi/fetcher/tmp/pih-check-0.15.1.tar.gz]
+[2024-05-15 15:26:39] INFO root fetch - main [MainThread]: End processing [pih-check]: success
+[2024-05-15 15:26:39] INFO root fetch - main [MainThread]: Store serial: [23218263]
