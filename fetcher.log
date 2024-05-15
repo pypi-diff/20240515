@@ -12553,3 +12553,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:33:14] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b6.tar.gz]
 [2024-05-15 08:33:14] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-05-15 08:33:14] INFO root fetch - main [MainThread]: Store serial: [23213608]
+[2024-05-15 08:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213608]
+[2024-05-15 08:35:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudinit
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcloudrun-flask-python
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multimolecule
+[2024-05-15 08:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jccrypto
+[2024-05-15 08:35:23] INFO root fetch - processPackages [jccrypto]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-15 08:35:23] INFO root fetch - processPackages [gcloudrun-flask-python]: New version: [1.5] Old Version: [0.3]
+[2024-05-15 08:35:23] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 08:35:23] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 08:35:23] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 08:35:23] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/89/61/7e7934659b785030d4cde7ea40d8e83bc84df27f94784e91ca7f09b918c6/jccrypto-1.3.0-py3-none-any.whl
+[2024-05-15 08:35:23] INFO root fetch - processPackages [multimolecule]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 08:35:23] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1715753351] Old Version: [1.5.0a1715335980]
+[2024-05-15 08:35:24] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/30/21/9e1131938c8f91172c1b7c87d6db68663a385e7ed3d914bb92fa09525126/gcloudrun_flask_python-0.3.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/e1/98/db8b6f99541755e2ff547b94c3a219de0e0cad35ea58a4cdd49a583e7807/pulumi_cloudinit-1.5.0a1715335980.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [multimolecule]: Downloading https://files.pythonhosted.org/packages/20/ff/aff889d711a85c3d4de197de560c62d2f298e7cdfc027d31ab2bd988f2cc/multimolecule-0.0.2.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/7f/fb/eca27c7b99665642da3a24a463a31bc3f1433288fe15b8634890be03c1c2/gcloudrun_flask_python-1.5.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/81/c5/93acfb64814e55e71d53359250b24608be50af2b48a063af81479720cdfb/jccrypto-1.3.1-py3-none-any.whl
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240515/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 08:35:24] INFO root fetch - processPackages [gcloudrun-flask-python]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [gcloudrun-flask-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloudrun_flask_python-0.3.tar.gz tmp/gcloudrun_flask_python-1.5.tar.gz --markdown 20240515/g/gcloudrun-flask-python/0.3-1.5/README.md --exclude *.pyd
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240515/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 08:35:24] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.3.0-py3-none-any.whl.zip tmp/jccrypto-1.3.1-py3-none-any.whl.zip --markdown 20240515/j/jccrypto/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-15 08:35:24] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240515/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 08:35:24] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/1f/f4/5d1c7b30622e401ff5b94a867efe8d79c08741fab7b682b42d37e05678d0/pulumi_cloudinit-1.5.0a1715753351.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1715335980.tar.gz tmp/pulumi_cloudinit-1.5.0a1715753351.tar.gz --markdown 20240515/p/pulumi-cloudinit/1.5.0a1715335980-1.5.0a1715753351/README.md --exclude *.pyd
+[2024-05-15 08:35:24] INFO root fetch - processPackages [multimolecule]: Downloading https://files.pythonhosted.org/packages/51/8b/0c034787eb84832c0befd2e03389b1650a6caf074258574063fa37d5341f/multimolecule-0.0.3.tar.gz
+[2024-05-15 08:35:24] INFO root fetch - processPackages [multimolecule]: executing diffoscope
+[2024-05-15 08:35:24] INFO root fetch - processPackages [multimolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimolecule-0.0.2.tar.gz tmp/multimolecule-0.0.3.tar.gz --markdown 20240515/m/multimolecule/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 08:35:25] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.3.0-py3-none-any.whl.zip]
+[2024-05-15 08:35:25] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.3.1-py3-none-any.whl.zip]
+[2024-05-15 08:35:25] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-15 08:35:25] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-15 08:35:25] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-15 08:35:25] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.3.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-1.5.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - main [MainThread]: End processing [gcloudrun-flask-python]: success
+[2024-05-15 08:35:25] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715335980.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715753351.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-15 08:35:25] INFO root fetch - processPackages [multimolecule]: Remove: archive file [/home/abi/fetcher/tmp/multimolecule-0.0.2.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - processPackages [multimolecule]: Remove: archive file [/home/abi/fetcher/tmp/multimolecule-0.0.3.tar.gz]
+[2024-05-15 08:35:25] INFO root fetch - main [MainThread]: End processing [multimolecule]: success
+[2024-05-15 08:35:28] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-15 08:35:28] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-15 08:35:28] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-15 08:35:28] INFO root fetch - main [MainThread]: Store serial: [23213629]
