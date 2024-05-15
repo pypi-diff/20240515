@@ -17039,3 +17039,42 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:21:05] INFO root fetch - processPackages [pyvpmr]: Remove: archive file [/home/abi/fetcher/tmp/pyvpmr-240515.tar.gz]
 [2024-05-15 11:21:05] INFO root fetch - main [MainThread]: End processing [pyvpmr]: success
 [2024-05-15 11:21:05] INFO root fetch - main [MainThread]: Store serial: [23215454]
+[2024-05-15 11:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215454]
+[2024-05-15 11:23:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2024-05-15 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuduam
+[2024-05-15 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-05-15 11:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-05-15 11:23:15] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 11:23:15] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-15 11:23:15] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-15 11:23:15] INFO root fetch - processPackages [tuduam]: New version: [2024.9] Old Version: [2024.8]
+[2024-05-15 11:23:15] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1715764037] Old Version: [7.2.0a1715339129]
+[2024-05-15 11:23:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-15 11:23:15] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-15 11:23:15] INFO root fetch - processPackages [tuduam]: Downloading https://files.pythonhosted.org/packages/ed/ee/0b2f04fe8cf7fa064aeb0eba649f0aaf41827aa73cd435fc42e02f13c31f/tuduam-2024.8-py3-none-any.whl
+[2024-05-15 11:23:15] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/84/20/1d9270b86f941ae75223dc6a9564464afca1ea70c53c6e92ed8f2639eac6/pulumi_signalfx-7.2.0a1715339129.tar.gz
+[2024-05-15 11:23:15] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-15 11:23:15] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240515/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 11:23:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-15 11:23:15] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/65/54/595763df0d68f8ce98a0adb7714a31cad5eb4976e8a71c3d56624ec05f28/pulumi_signalfx-7.2.0a1715764037.tar.gz
+[2024-05-15 11:23:16] INFO root fetch - processPackages [tuduam]: Downloading https://files.pythonhosted.org/packages/77/55/526cb4fec559195c211ec25dc0334250a59d9199e28b604ea45ae0a3c85d/tuduam-2024.9-py3-none-any.whl
+[2024-05-15 11:23:16] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-15 11:23:16] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1715339129.tar.gz tmp/pulumi_signalfx-7.2.0a1715764037.tar.gz --markdown 20240515/p/pulumi-signalfx/7.2.0a1715339129-7.2.0a1715764037/README.md --exclude *.pyd
+[2024-05-15 11:23:16] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-15 11:23:16] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240515/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-15 11:23:16] INFO root fetch - processPackages [tuduam]: executing diffoscope
+[2024-05-15 11:23:16] INFO root fetch - processPackages [tuduam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuduam-2024.8-py3-none-any.whl.zip tmp/tuduam-2024.9-py3-none-any.whl.zip --markdown 20240515/t/tuduam/2024.8-2024.9/README.md --exclude *.pyd
+[2024-05-15 11:23:16] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-15 11:23:16] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-15 11:23:16] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-15 11:23:16] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.8-py3-none-any.whl.zip]
+[2024-05-15 11:23:16] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.9-py3-none-any.whl.zip]
+[2024-05-15 11:23:16] INFO root fetch - main [MainThread]: End processing [tuduam]: success
+[2024-05-15 11:23:16] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715339129.tar.gz]
+[2024-05-15 11:23:16] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715764037.tar.gz]
+[2024-05-15 11:23:16] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-15 11:23:17] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-15 11:23:17] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-15 11:23:17] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-15 11:23:17] INFO root fetch - main [MainThread]: Store serial: [23215472]
