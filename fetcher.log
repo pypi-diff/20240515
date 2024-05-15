@@ -17156,3 +17156,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:25:30] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.3.tar.gz]
 [2024-05-15 11:25:30] INFO root fetch - main [MainThread]: End processing [Glances]: success
 [2024-05-15 11:25:30] INFO root fetch - main [MainThread]: Store serial: [23215507]
+[2024-05-15 11:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215507]
+[2024-05-15 11:27:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Glances
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ku-of-fuzzy
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okn-py-updater
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysgconnect
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blueshed-gust
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolla
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyDIOPT
+[2024-05-15 11:27:39] INFO root fetch - processPackages [okn-py-updater]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-15 11:27:39] WARNING root fetch - processPackages [pyDIOPT]: Skipping, unable to determine old version
+[2024-05-15 11:27:39] INFO root fetch - main [MainThread]: End processing [pyDIOPT] error
+[2024-05-15 11:27:39] INFO root fetch - processPackages [ku-of-fuzzy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 11:27:39] INFO root fetch - processPackages [Glances]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-05-15 11:27:39] INFO root fetch - processPackages [pysgconnect]: New version: [2.2.1] Old Version: [1.2]
+[2024-05-15 11:27:39] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/dc/05/0d23f2646c90726ba7cb399b8ec8cb22ee63ca3b23d7425cf53d85a0182d/okn_py_updater-2.0.2.tar.gz
+[2024-05-15 11:27:39] INFO root fetch - processPackages [blueshed-gust]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 11:27:39] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/74/c5/8f2ab456c1a4634aca2dd8ceb65c304f5c8c9297c4c5fdce03c2ababab97/glances-4.0.3.tar.gz
+[2024-05-15 11:27:39] INFO root fetch - processPackages [kolla]: New version: [9.4.0] Old Version: [9.3.1]
+[2024-05-15 11:27:40] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/eb/37/bcf532a46cff56d9f025b5be989824ac0a11fa2b0e101faf1b4f987d7ed7/blueshed_gust-0.0.8.tar.gz
+[2024-05-15 11:27:40] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/04/46/9db693483f7a0e0e246787bf0f1bb656c0862da2c80035e9f5fd07d64bc7/ku_of_fuzzy-0.1.2-py3-none-any.whl
+[2024-05-15 11:27:40] INFO root fetch - processPackages [pysgconnect]: Downloading https://files.pythonhosted.org/packages/22/c1/f7ea40afb3d20fa0b48d4e952bf04eb3ccc460c0520efa1a767c1086070c/pysgconnect-1.2-py3-none-any.whl
+[2024-05-15 11:27:40] INFO root fetch - processPackages [kolla]: Downloading https://files.pythonhosted.org/packages/95/27/2be7526802dd8e08ba492d4890a72435f519d95467c00f927f66019069b7/kolla-9.3.1.tar.gz
+[2024-05-15 11:27:40] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/e1/1f/29a2536679947f7e098bdd83c46997007667adaa5f9491383ff0d312f5e7/okn_py_updater-2.0.3.tar.gz
+[2024-05-15 11:27:40] INFO root fetch - processPackages [okn-py-updater]: executing diffoscope
+[2024-05-15 11:27:40] INFO root fetch - processPackages [okn-py-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okn_py_updater-2.0.2.tar.gz tmp/okn_py_updater-2.0.3.tar.gz --markdown 20240515/o/okn-py-updater/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-15 11:27:40] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/bb/c8/5d4c62dd10b82fd6451062263767b4a0796cdb7eb5547c17515cfaa18eff/blueshed_gust-0.0.9.tar.gz
+[2024-05-15 11:27:40] INFO root fetch - processPackages [pysgconnect]: Downloading https://files.pythonhosted.org/packages/23/e0/3345bbd3368acf1e824ed536f24b1eb53766fd9a70bf5b49ac647c16a5a6/pysgconnect-2.2.1-py3-none-any.whl
+[2024-05-15 11:27:40] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/7c/6f/db8b706dd174b37bb885e6a7abe6252709b70078d46b09506ea946d6694f/ku_of_fuzzy-0.1.3-py3-none-any.whl
+[2024-05-15 11:27:40] INFO root fetch - processPackages [pysgconnect]: executing diffoscope
+[2024-05-15 11:27:40] INFO root fetch - processPackages [pysgconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysgconnect-1.2-py3-none-any.whl.zip tmp/pysgconnect-2.2.1-py3-none-any.whl.zip --markdown 20240515/p/pysgconnect/1.2-2.2.1/README.md --exclude *.pyd
+[2024-05-15 11:27:40] INFO root fetch - processPackages [blueshed-gust]: executing diffoscope
+[2024-05-15 11:27:40] INFO root fetch - processPackages [blueshed-gust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueshed_gust-0.0.8.tar.gz tmp/blueshed_gust-0.0.9.tar.gz --markdown 20240515/b/blueshed-gust/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:27:40] INFO root fetch - processPackages [ku-of-fuzzy]: executing diffoscope
+[2024-05-15 11:27:40] INFO root fetch - processPackages [ku-of-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_of_fuzzy-0.1.2-py3-none-any.whl.zip tmp/ku_of_fuzzy-0.1.3-py3-none-any.whl.zip --markdown 20240515/k/ku-of-fuzzy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 11:27:40] INFO root fetch - processPackages [kolla]: Downloading https://files.pythonhosted.org/packages/3e/f0/0d68ae92b4a18c707c86b1dd350e693e02aa2a48be68340853cf98cb53f2/kolla-9.4.0.tar.gz
+[2024-05-15 11:27:40] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/16/4f/a5b61d8625ece23ec44007c18bc857b267243a8a5491777287eda710f38f/glances-4.0.4.tar.gz
+[2024-05-15 11:27:40] INFO root fetch - processPackages [Glances]: executing diffoscope
+[2024-05-15 11:27:40] INFO root fetch - processPackages [Glances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glances-4.0.3.tar.gz tmp/glances-4.0.4.tar.gz --markdown 20240515/G/Glances/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-05-15 11:27:40] INFO root fetch - processPackages [kolla]: executing diffoscope
+[2024-05-15 11:27:40] INFO root fetch - processPackages [kolla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolla-9.3.1.tar.gz tmp/kolla-9.4.0.tar.gz --markdown 20240515/k/kolla/9.3.1-9.4.0/README.md --exclude *.pyd
+[2024-05-15 11:27:41] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.2.tar.gz]
+[2024-05-15 11:27:41] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.3.tar.gz]
+[2024-05-15 11:27:41] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
+[2024-05-15 11:27:41] INFO root fetch - processPackages [pysgconnect]: Remove: archive file [/home/abi/fetcher/tmp/pysgconnect-1.2-py3-none-any.whl.zip]
+[2024-05-15 11:27:41] INFO root fetch - processPackages [pysgconnect]: Remove: archive file [/home/abi/fetcher/tmp/pysgconnect-2.2.1-py3-none-any.whl.zip]
+[2024-05-15 11:27:41] INFO root fetch - main [MainThread]: End processing [pysgconnect]: success
+[2024-05-15 11:27:41] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.2-py3-none-any.whl.zip]
+[2024-05-15 11:27:41] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.3-py3-none-any.whl.zip]
+[2024-05-15 11:27:41] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy]: success
+[2024-05-15 11:27:41] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.8.tar.gz]
+[2024-05-15 11:27:41] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.9.tar.gz]
+[2024-05-15 11:27:41] INFO root fetch - main [MainThread]: End processing [blueshed-gust]: success
+[2024-05-15 11:27:42] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.3.tar.gz]
+[2024-05-15 11:27:42] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.4.tar.gz]
+[2024-05-15 11:27:42] INFO root fetch - main [MainThread]: End processing [Glances]: success
+[2024-05-15 11:27:43] INFO root fetch - processPackages [kolla]: Remove: archive file [/home/abi/fetcher/tmp/kolla-9.3.1.tar.gz]
+[2024-05-15 11:27:43] INFO root fetch - processPackages [kolla]: Remove: archive file [/home/abi/fetcher/tmp/kolla-9.4.0.tar.gz]
+[2024-05-15 11:27:43] INFO root fetch - main [MainThread]: End processing [kolla]: success
+[2024-05-15 11:27:43] INFO root fetch - main [MainThread]: Store serial: [23215530]
