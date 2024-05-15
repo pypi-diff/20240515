@@ -21090,3 +21090,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:05:00] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.1-py3-none-any.whl.zip]
 [2024-05-15 14:05:00] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-pec]: success
 [2024-05-15 14:05:00] INFO root fetch - main [MainThread]: Store serial: [23217266]
+[2024-05-15 14:07:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217266]
+[2024-05-15 14:07:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-br-mis-report
+[2024-05-15 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylibyear
+[2024-05-15 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2024-05-15 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-shapes
+[2024-05-15 14:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qnn
+[2024-05-15 14:07:10] WARNING root fetch - processPackages [odoo-addon-l10n-br-mis-report]: Skipping, unable to determine old version
+[2024-05-15 14:07:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-mis-report] error
+[2024-05-15 14:07:10] WARNING root fetch - processPackages [pylibyear]: Skipping, unable to determine old version
+[2024-05-15 14:07:10] INFO root fetch - main [MainThread]: End processing [pylibyear] error
+[2024-05-15 14:07:10] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 14:07:10] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-15 14:07:10] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 14:07:10] WARNING root fetch - processPackages [qnn]: Skipping, unable to determine old version
+[2024-05-15 14:07:10] INFO root fetch - main [MainThread]: End processing [qnn] error
+[2024-05-15 14:07:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-15 14:07:10] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 14:07:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-15 14:07:10] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 14:07:10] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:07:10] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-15 14:07:10] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240515/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-15 14:07:11] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 14:07:11] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 14:07:11] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 14:07:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-15 14:07:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-15 14:07:11] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-15 14:07:11] INFO root fetch - main [MainThread]: Store serial: [23217284]
