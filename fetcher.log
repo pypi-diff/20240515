@@ -2487,3 +2487,33 @@
 [2024-05-15 01:58:43] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
 [2024-05-15 01:58:43] INFO root fetch - main [MainThread]: End processing [datajunction]: success
 [2024-05-15 01:58:43] INFO root fetch - main [MainThread]: Store serial: [23209680]
+[2024-05-15 02:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209680]
+[2024-05-15 02:00:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdss-tpm-multicast-client
+[2024-05-15 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: walledai
+[2024-05-15 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seed-farmer
+[2024-05-15 02:00:52] INFO root fetch - processPackages [walledai]: New version: [0.6.0a0] Old Version: [0.5.0a0]
+[2024-05-15 02:00:52] INFO root fetch - processPackages [sdss-tpm-multicast-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-15 02:00:52] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Downloading https://files.pythonhosted.org/packages/29/84/aad72f910256d347055497aa1904cbb06c07900ba0d4a12ab4804f6b2f3a/sdss_tpm_multicast_client-0.3.0.tar.gz
+[2024-05-15 02:00:52] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/c6/11/b0ad8022676d3b80d5955848d4ae152ff96693ca1f1c335abc319fad77b7/walledai-0.5.0a0.tar.gz
+[2024-05-15 02:00:52] INFO root fetch - processPackages [seed-farmer]: New version: [4.0.0b0] Old Version: [3.5.0rc4]
+[2024-05-15 02:00:52] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/f3/2b/e0aa34426085f654d653bca91246924c2274fee1fdc949478ae445d7b929/seed_farmer-3.5.0rc4-py3-none-any.whl
+[2024-05-15 02:00:52] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Downloading https://files.pythonhosted.org/packages/8d/96/4ec0aebfbe5c5cf550f905b1dcace5c90895462fbe0a258d0dcf1785e7b2/sdss_tpm_multicast_client-0.3.1.tar.gz
+[2024-05-15 02:00:52] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/c5/3d/cb57a48efe63096a2d60292b9ec2705e512b3877df85422b64550b697e86/walledai-0.6.0a0.tar.gz
+[2024-05-15 02:00:52] INFO root fetch - processPackages [sdss-tpm-multicast-client]: executing diffoscope
+[2024-05-15 02:00:52] INFO root fetch - processPackages [sdss-tpm-multicast-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_tpm_multicast_client-0.3.0.tar.gz tmp/sdss_tpm_multicast_client-0.3.1.tar.gz --markdown 20240515/s/sdss-tpm-multicast-client/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-15 02:00:52] INFO root fetch - processPackages [walledai]: executing diffoscope
+[2024-05-15 02:00:52] INFO root fetch - processPackages [walledai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walledai-0.5.0a0.tar.gz tmp/walledai-0.6.0a0.tar.gz --markdown 20240515/w/walledai/0.5.0a0-0.6.0a0/README.md --exclude *.pyd
+[2024-05-15 02:00:52] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/04/1c/9ee715a760ae650925cabf2654f7d0ee2e713fb31fcfc31dd56e2858dbfd/seed_farmer-4.0.0b0-py3-none-any.whl
+[2024-05-15 02:00:53] INFO root fetch - processPackages [seed-farmer]: executing diffoscope
+[2024-05-15 02:00:53] INFO root fetch - processPackages [seed-farmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seed_farmer-3.5.0rc4-py3-none-any.whl.zip tmp/seed_farmer-4.0.0b0-py3-none-any.whl.zip --markdown 20240515/s/seed-farmer/3.5.0rc4-4.0.0b0/README.md --exclude *.pyd
+[2024-05-15 02:00:53] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.3.0.tar.gz]
+[2024-05-15 02:00:53] INFO root fetch - processPackages [sdss-tpm-multicast-client]: Remove: archive file [/home/abi/fetcher/tmp/sdss_tpm_multicast_client-0.3.1.tar.gz]
+[2024-05-15 02:00:53] INFO root fetch - main [MainThread]: End processing [sdss-tpm-multicast-client]: success
+[2024-05-15 02:00:53] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.5.0a0.tar.gz]
+[2024-05-15 02:00:53] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.6.0a0.tar.gz]
+[2024-05-15 02:00:53] INFO root fetch - main [MainThread]: End processing [walledai]: success
+[2024-05-15 02:00:53] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-3.5.0rc4-py3-none-any.whl.zip]
+[2024-05-15 02:00:53] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-4.0.0b0-py3-none-any.whl.zip]
+[2024-05-15 02:00:53] INFO root fetch - main [MainThread]: End processing [seed-farmer]: success
+[2024-05-15 02:00:53] INFO root fetch - main [MainThread]: Store serial: [23209688]
