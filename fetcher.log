@@ -16332,3 +16332,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:58:26] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.9.1.tar.gz]
 [2024-05-15 10:58:26] INFO root fetch - main [MainThread]: End processing [niceml]: success
 [2024-05-15 10:58:26] INFO root fetch - main [MainThread]: Store serial: [23215166]
+[2024-05-15 11:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215166]
+[2024-05-15 11:00:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: allonias3
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QTPYGUI
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coolbg
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isystem.connect
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccs-digitalmarketplace-content-loader
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatgpt-md-converter
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DEME
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rcquant-sdk
+[2024-05-15 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-opsgenie
+[2024-05-15 11:00:35] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-05-15 11:00:35] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-15 11:00:36] WARNING root fetch - processPackages [chatgpt-md-converter]: Skipping, unable to determine old version
+[2024-05-15 11:00:36] INFO root fetch - main [MainThread]: End processing [chatgpt-md-converter] error
+[2024-05-15 11:00:36] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 11:00:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-05-15 11:00:36] INFO root fetch - processPackages [DEME]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 11:00:36] WARNING root fetch - processPackages [allonias3]: Skipping, unable to determine old version
+[2024-05-15 11:00:36] INFO root fetch - main [MainThread]: End processing [allonias3] error
+[2024-05-15 11:00:36] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1715762530] Old Version: [1.4.0a1715338623]
+[2024-05-15 11:00:36] WARNING root fetch - processPackages [QTPYGUI]: Skipping, unable to determine old version
+[2024-05-15 11:00:36] INFO root fetch - main [MainThread]: End processing [QTPYGUI] error
+[2024-05-15 11:00:36] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-05-15 11:00:36] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/0f/cc/698dbd75c4dc5d52d8ddd63f0d25d6e5cf8b5ae1a8503bd47de971519343/DEME-1.0.8.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/ed/75/a703b8e6de2245bdac37286e452992c6399cad2dbc5199ac8bb1cd00910d/pulumi_opsgenie-1.4.0a1715338623.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/84/8d/9fed599fe3a0606b5df05b6af1e395d3670e6f67d16cba227de262405d1f/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-15 11:00:36] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240515/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-15 11:00:36] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/08/3b/a40daf84e87ca8f49e04ca0ef5bc69351dfaf4b9886260c55a21a540a721/pulumi_opsgenie-1.4.0a1715762530.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/f6/58/9dcf721bc4e4a65d106025b423e30e6082e93c943edeaa0eff78b77f988b/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-15 11:00:36] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-15 11:00:36] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1715338623.tar.gz tmp/pulumi_opsgenie-1.4.0a1715762530.tar.gz --markdown 20240515/p/pulumi-opsgenie/1.4.0a1715338623-1.4.0a1715762530/README.md --exclude *.pyd
+[2024-05-15 11:00:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: executing diffoscope
+[2024-05-15 11:00:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz --markdown 20240515/c/ccs-digitalmarketplace-content-loader/9.4.0-9.5.0/README.md --exclude *.pyd
+[2024-05-15 11:00:36] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-15 11:00:36] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240515/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:00:37] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-15 11:00:37] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-05-15 11:00:37] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715338623.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715762530.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-15 11:00:37] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-05-15 11:00:37] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240515/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-05-15 11:00:37] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/34/dc/c7eeed14ccc63378a9be8c7f3a8851ee20f902e98c37dc6a0a1070fc61f3/DEME-1.0.9.tar.gz
+[2024-05-15 11:00:37] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-content-loader]: success
+[2024-05-15 11:00:37] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-15 11:00:37] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-15 11:00:38] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-05-15 11:00:38] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-05-15 11:00:38] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-05-15 11:00:38] INFO root fetch - processPackages [DEME]: executing diffoscope
+[2024-05-15 11:00:38] INFO root fetch - processPackages [DEME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DEME-1.0.8.tar.gz tmp/DEME-1.0.9.tar.gz --markdown 20240515/D/DEME/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 11:00:41] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-1.0.8.tar.gz]
+[2024-05-15 11:00:41] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-1.0.9.tar.gz]
+[2024-05-15 11:00:41] INFO root fetch - main [MainThread]: End processing [DEME]: success
+[2024-05-15 11:00:41] INFO root fetch - main [MainThread]: Store serial: [23215203]
