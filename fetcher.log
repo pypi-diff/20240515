@@ -3237,3 +3237,15 @@
 [2024-05-15 02:38:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-15 02:38:59] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-15 02:38:59] INFO root fetch - main [MainThread]: Store serial: [23210027]
+[2024-05-15 02:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210027]
+[2024-05-15 02:41:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 02:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bisos.b
+[2024-05-15 02:41:08] INFO root fetch - processPackages [bisos.b]: New version: [0.41] Old Version: [0.4]
+[2024-05-15 02:41:08] INFO root fetch - processPackages [bisos.b]: Downloading https://files.pythonhosted.org/packages/d6/3d/5702c371743096e13eb0d58c38bd66151879df212959cfb22012f2dcba85/bisos.b-0.4.tar.gz
+[2024-05-15 02:41:09] INFO root fetch - processPackages [bisos.b]: Downloading https://files.pythonhosted.org/packages/c0/6d/5e64073b0ffa88110aebe9b22f08cd37e4fad0c56a70974e0fc1a99b995e/bisos.b-0.41.tar.gz
+[2024-05-15 02:41:09] INFO root fetch - processPackages [bisos.b]: executing diffoscope
+[2024-05-15 02:41:09] INFO root fetch - processPackages [bisos.b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisos.b-0.4.tar.gz tmp/bisos.b-0.41.tar.gz --markdown 20240515/b/bisos.b/0.4-0.41/README.md --exclude *.pyd
+[2024-05-15 02:41:09] INFO root fetch - processPackages [bisos.b]: Remove: archive file [/home/abi/fetcher/tmp/bisos.b-0.4.tar.gz]
+[2024-05-15 02:41:09] INFO root fetch - processPackages [bisos.b]: Remove: archive file [/home/abi/fetcher/tmp/bisos.b-0.41.tar.gz]
+[2024-05-15 02:41:09] INFO root fetch - main [MainThread]: End processing [bisos.b]: success
+[2024-05-15 02:41:09] INFO root fetch - main [MainThread]: Store serial: [23210030]
