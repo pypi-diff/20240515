@@ -9118,3 +9118,33 @@
 [2024-05-15 05:26:01] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.4.1.tar.gz]
 [2024-05-15 05:26:01] INFO root fetch - main [MainThread]: End processing [titandevice]: success
 [2024-05-15 05:26:01] INFO root fetch - main [MainThread]: Store serial: [23212139]
+[2024-05-15 05:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212139]
+[2024-05-15 05:28:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: publicsuffixlist
+[2024-05-15 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meme-generator
+[2024-05-15 05:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drepr-v2
+[2024-05-15 05:28:10] INFO root fetch - processPackages [drepr-v2]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-15 05:28:10] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/cf/34/d7a1149617071825b97764e5f35bbaa28db9111d9b039ca251009b1fef8e/drepr_v2-1.3.6.tar.gz
+[2024-05-15 05:28:10] INFO root fetch - processPackages [meme-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 05:28:10] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-15 05:28:10] INFO root fetch - processPackages [meme-generator]: Downloading https://files.pythonhosted.org/packages/a9/d7/0e3a810f2bc5c3297da0dd0b704e0135ad64087f37a1e767b3b1e0a85809/meme_generator-0.0.8.tar.gz
+[2024-05-15 05:28:10] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-05-15 05:28:10] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/08/0e/df9c126ec37033351ec3242df80d31d12e456048ea5213458bab07ab75b7/drepr_v2-1.3.7.tar.gz
+[2024-05-15 05:28:10] INFO root fetch - processPackages [drepr-v2]: executing diffoscope
+[2024-05-15 05:28:10] INFO root fetch - processPackages [drepr-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drepr_v2-1.3.6.tar.gz tmp/drepr_v2-1.3.7.tar.gz --markdown 20240515/d/drepr-v2/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-15 05:28:10] INFO root fetch - processPackages [meme-generator]: Downloading https://files.pythonhosted.org/packages/90/df/38bd05ba859b098fb21ed20a255e4ebe63b6e8e39962cd492827b796c48f/meme_generator-0.0.9.tar.gz
+[2024-05-15 05:28:10] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-05-15 05:28:10] INFO root fetch - processPackages [meme-generator]: executing diffoscope
+[2024-05-15 05:28:10] INFO root fetch - processPackages [meme-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meme_generator-0.0.8.tar.gz tmp/meme_generator-0.0.9.tar.gz --markdown 20240515/m/meme-generator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 05:28:11] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-05-15 05:28:11] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240515/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-15 05:28:11] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.6.tar.gz]
+[2024-05-15 05:28:11] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.7.tar.gz]
+[2024-05-15 05:28:11] INFO root fetch - main [MainThread]: End processing [drepr-v2]: success
+[2024-05-15 05:28:11] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-05-15 05:28:11] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-05-15 05:28:11] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-05-15 05:28:11] INFO root fetch - processPackages [meme-generator]: Remove: archive file [/home/abi/fetcher/tmp/meme_generator-0.0.8.tar.gz]
+[2024-05-15 05:28:11] INFO root fetch - processPackages [meme-generator]: Remove: archive file [/home/abi/fetcher/tmp/meme_generator-0.0.9.tar.gz]
+[2024-05-15 05:28:11] INFO root fetch - main [MainThread]: End processing [meme-generator]: success
+[2024-05-15 05:28:11] INFO root fetch - main [MainThread]: Store serial: [23212148]
