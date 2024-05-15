@@ -7538,3 +7538,24 @@
 [2024-05-15 03:37:25] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.86.tar.gz]
 [2024-05-15 03:37:25] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
 [2024-05-15 03:37:25] INFO root fetch - main [MainThread]: Store serial: [23211470]
+[2024-05-15 03:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211470]
+[2024-05-15 03:39:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 03:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-15 03:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quicklst
+[2024-05-15 03:39:33] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 03:39:33] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 03:39:33] INFO root fetch - processPackages [quicklst]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 03:39:34] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 03:39:34] INFO root fetch - processPackages [quicklst]: Downloading https://files.pythonhosted.org/packages/f2/34/7b288816458c34f0b133f6988e34f266450f58f21c78064b6b54f2752f8c/quicklst-0.0.1.tar.gz
+[2024-05-15 03:39:34] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 03:39:34] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 03:39:34] INFO root fetch - processPackages [quicklst]: Downloading https://files.pythonhosted.org/packages/f1/82/0311e3b6dfdd1a44423c342f343b6ac987b1dd65a527380b9e2cc7916a4b/quicklst-0.0.2.tar.gz
+[2024-05-15 03:39:34] INFO root fetch - processPackages [quicklst]: executing diffoscope
+[2024-05-15 03:39:34] INFO root fetch - processPackages [quicklst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quicklst-0.0.1.tar.gz tmp/quicklst-0.0.2.tar.gz --markdown 20240515/q/quicklst/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 03:39:35] INFO root fetch - processPackages [quicklst]: Remove: archive file [/home/abi/fetcher/tmp/quicklst-0.0.1.tar.gz]
+[2024-05-15 03:39:35] INFO root fetch - processPackages [quicklst]: Remove: archive file [/home/abi/fetcher/tmp/quicklst-0.0.2.tar.gz]
+[2024-05-15 03:39:35] INFO root fetch - main [MainThread]: End processing [quicklst]: success
+[2024-05-15 03:39:35] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 03:39:35] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 03:39:35] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 03:39:35] INFO root fetch - main [MainThread]: Store serial: [23211476]
