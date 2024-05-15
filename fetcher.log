@@ -14460,3 +14460,53 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:54:16] INFO root fetch - processPackages [rocksdict]: Remove: archive file [/home/abi/fetcher/tmp/rocksdict-0.3.9-cp39-none-win_amd64.whl.zip]
 [2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [rocksdict]: success
 [2024-05-15 09:54:16] INFO root fetch - main [MainThread]: Store serial: [23214409]
+[2024-05-15 09:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214409]
+[2024-05-15 09:56:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-cwl
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whylogs
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pg-sync-roles
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prompeteer
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-node-binding
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oida
+[2024-05-15 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: general-navigation
+[2024-05-15 09:56:27] INFO root fetch - processPackages [prompeteer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 09:56:27] WARNING root fetch - processPackages [general-navigation]: Skipping, unable to determine old version
+[2024-05-15 09:56:27] INFO root fetch - main [MainThread]: End processing [general-navigation] error
+[2024-05-15 09:56:27] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 09:56:27] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.1.0.post1295] Old Version: [3.0.3.post1262]
+[2024-05-15 09:56:27] WARNING root fetch - processPackages [blue-cwl]: Skipping, unable to determine old version
+[2024-05-15 09:56:27] INFO root fetch - main [MainThread]: End processing [blue-cwl] error
+[2024-05-15 09:56:27] INFO root fetch - processPackages [oida]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-15 09:56:27] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/e5/08/61d835e0394a83d1f9081282fe301710241d4a6327944783b414174f88c2/prompeteer-0.1.8.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/d0/f7/0773bfbb89069ff7a77b5e2164cf58cdee8dd39450c497624f6e362f029f/nucliadb_node_binding-3.0.3.post1262-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 09:56:27] INFO root fetch - processPackages [whylogs]: New version: [1.4.1rc0] Old Version: [1.4.0rc0]
+[2024-05-15 09:56:27] WARNING root fetch - processPackages [nucliadb-node-binding]: Skipping package: exceeds size limit 12100793>=10485760
+[2024-05-15 09:56:27] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
+[2024-05-15 09:56:27] INFO root fetch - processPackages [oida]: Downloading https://files.pythonhosted.org/packages/6e/98/5164cf4a1621c552597faf34f27b3075fa68ac8f76ca63701e530f89bdd1/oida-0.2.0.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/02/1e/41641228774ab33efe236a2a4228b230b57a30117f933d671bc40d5433de/whylogs-1.4.0rc0.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/4c/e9/1a4cee9fb968a54e1300d56d030974b3db333e53eb55cb1f594c674f3cd9/prompeteer-0.1.9.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-15 09:56:27] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240515/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 09:56:27] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 09:56:27] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.8.tar.gz tmp/prompeteer-0.1.9.tar.gz --markdown 20240515/p/prompeteer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 09:56:27] INFO root fetch - processPackages [oida]: Downloading https://files.pythonhosted.org/packages/8d/32/c5d014c8dddd22c31c799b40296cf1e17f5cf271a148d19f040a37fbe995/oida-0.2.1.tar.gz
+[2024-05-15 09:56:27] INFO root fetch - processPackages [oida]: executing diffoscope
+[2024-05-15 09:56:27] INFO root fetch - processPackages [oida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oida-0.2.0.tar.gz tmp/oida-0.2.1.tar.gz --markdown 20240515/o/oida/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-15 09:56:27] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/a5/bd/d8f8b7229217df0a6fb5389ea1b37336040d7d2c58ef7313e4e1271edc26/whylogs-1.4.1rc0.tar.gz
+[2024-05-15 09:56:28] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2024-05-15 09:56:28] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.4.0rc0.tar.gz tmp/whylogs-1.4.1rc0.tar.gz --markdown 20240515/w/whylogs/1.4.0rc0-1.4.1rc0/README.md --exclude *.pyd
+[2024-05-15 09:56:28] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.8.tar.gz]
+[2024-05-15 09:56:28] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.9.tar.gz]
+[2024-05-15 09:56:28] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 09:56:28] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-15 09:56:28] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-15 09:56:28] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-15 09:56:28] INFO root fetch - processPackages [oida]: Remove: archive file [/home/abi/fetcher/tmp/oida-0.2.0.tar.gz]
+[2024-05-15 09:56:28] INFO root fetch - processPackages [oida]: Remove: archive file [/home/abi/fetcher/tmp/oida-0.2.1.tar.gz]
+[2024-05-15 09:56:28] INFO root fetch - main [MainThread]: End processing [oida]: success
+[2024-05-15 09:56:29] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.0rc0.tar.gz]
+[2024-05-15 09:56:29] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.1rc0.tar.gz]
+[2024-05-15 09:56:29] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2024-05-15 09:56:29] INFO root fetch - main [MainThread]: Store serial: [23214460]
