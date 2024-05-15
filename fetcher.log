@@ -11038,3 +11038,15 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:26:28] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.8.tar.gz]
 [2024-05-15 07:26:28] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
 [2024-05-15 07:26:28] INFO root fetch - main [MainThread]: Store serial: [23213025]
+[2024-05-15 07:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213025]
+[2024-05-15 07:28:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 07:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onestop-opensign
+[2024-05-15 07:28:36] INFO root fetch - processPackages [onestop-opensign]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-15 07:28:36] INFO root fetch - processPackages [onestop-opensign]: Downloading https://files.pythonhosted.org/packages/c7/d8/e069c9a9538aa0898674377ea698f5c898d690d6ad5876e6a574bd77aa2d/onestop_opensign-0.1.4.tar.gz
+[2024-05-15 07:28:37] INFO root fetch - processPackages [onestop-opensign]: Downloading https://files.pythonhosted.org/packages/79/a9/f0f0472b2a33a26a8b7123fff90540d5fca02ceb378be5197e60a4ee02cf/onestop_opensign-0.1.5.tar.gz
+[2024-05-15 07:28:37] INFO root fetch - processPackages [onestop-opensign]: executing diffoscope
+[2024-05-15 07:28:37] INFO root fetch - processPackages [onestop-opensign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onestop_opensign-0.1.4.tar.gz tmp/onestop_opensign-0.1.5.tar.gz --markdown 20240515/o/onestop-opensign/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-15 07:28:37] INFO root fetch - processPackages [onestop-opensign]: Remove: archive file [/home/abi/fetcher/tmp/onestop_opensign-0.1.4.tar.gz]
+[2024-05-15 07:28:37] INFO root fetch - processPackages [onestop-opensign]: Remove: archive file [/home/abi/fetcher/tmp/onestop_opensign-0.1.5.tar.gz]
+[2024-05-15 07:28:37] INFO root fetch - main [MainThread]: End processing [onestop-opensign]: success
+[2024-05-15 07:28:37] INFO root fetch - main [MainThread]: Store serial: [23213027]
