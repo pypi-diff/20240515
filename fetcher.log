@@ -8885,3 +8885,24 @@
 [2024-05-15 05:12:55] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.4.0.tar.gz]
 [2024-05-15 05:12:55] INFO root fetch - main [MainThread]: End processing [titandevice]: success
 [2024-05-15 05:12:55] INFO root fetch - main [MainThread]: Store serial: [23212042]
+[2024-05-15 05:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212042]
+[2024-05-15 05:15:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3func
+[2024-05-15 05:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eidolon-ai-sdk
+[2024-05-15 05:15:03] INFO root fetch - processPackages [s3func]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 05:15:03] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-15 05:15:03] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/40/65/16a222ab0774b9f0be39a9c24b035d13e9e7c772706661e851c23e01b58b/s3func-0.1.0.tar.gz
+[2024-05-15 05:15:03] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/c3/8e/6b92d388b76a8edfb0313e41571c036b23fd3d68275505ff71581f0933f0/eidolon_ai_sdk-0.1.52.tar.gz
+[2024-05-15 05:15:04] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/6b/87/fb8096fb3b4f4aae2b8419519ba1d11e3f43118dedc59ca534980bac95e4/s3func-0.1.1.tar.gz
+[2024-05-15 05:15:04] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/e1/c6/8af08c808c89d4a12f9366322f679643e5727497319e7dc78e70da90cefc/eidolon_ai_sdk-0.1.53.tar.gz
+[2024-05-15 05:15:04] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-15 05:15:04] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.1.0.tar.gz tmp/s3func-0.1.1.tar.gz --markdown 20240515/s/s3func/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 05:15:04] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-05-15 05:15:04] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.52.tar.gz tmp/eidolon_ai_sdk-0.1.53.tar.gz --markdown 20240515/e/eidolon-ai-sdk/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-15 05:15:04] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.0.tar.gz]
+[2024-05-15 05:15:04] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.1.tar.gz]
+[2024-05-15 05:15:04] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-15 05:15:05] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.52.tar.gz]
+[2024-05-15 05:15:05] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.53.tar.gz]
+[2024-05-15 05:15:05] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-05-15 05:15:05] INFO root fetch - main [MainThread]: Store serial: [23212048]
