@@ -8670,3 +8670,33 @@
 [2024-05-15 04:59:30] INFO root fetch - processPackages [django-paypal-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-paypal-plus-1.1.1.tar.gz]
 [2024-05-15 04:59:30] INFO root fetch - main [MainThread]: End processing [django-paypal-plus]: success
 [2024-05-15 04:59:30] INFO root fetch - main [MainThread]: Store serial: [23211957]
+[2024-05-15 05:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211957]
+[2024-05-15 05:01:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lisql
+[2024-05-15 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AICelltype
+[2024-05-15 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dify-knowledge-pipline
+[2024-05-15 05:01:39] INFO root fetch - processPackages [AICelltype]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 05:01:39] INFO root fetch - processPackages [lisql]: New version: [2.1.8] Old Version: [2.1.3]
+[2024-05-15 05:01:39] INFO root fetch - processPackages [dify-knowledge-pipline]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 05:01:39] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/91/35/cf1a79d7224abfd8789c8efa7a9a7eacd52373f3d08ec2010128a877bfee/aicelltype-0.0.3.tar.gz
+[2024-05-15 05:01:39] INFO root fetch - processPackages [lisql]: Downloading https://files.pythonhosted.org/packages/d4/cc/0445e17075321bed64128cc70b035b31f365d23174cd176d598c12692beb/lisql-2.1.3.tar.gz
+[2024-05-15 05:01:39] INFO root fetch - processPackages [dify-knowledge-pipline]: Downloading https://files.pythonhosted.org/packages/be/ba/6d0aaa5e9f7e5b46c944d1299ff1b2e69f6ce31236597ac9189deeb24fe3/dify_knowledge_pipline-0.1.5.tar.gz
+[2024-05-15 05:01:39] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/46/c5/141b61dbd3e4b131965f8867f7d003cca257fab82ba6b91fbb96d3f6da9d/aicelltype-0.0.4.tar.gz
+[2024-05-15 05:01:39] INFO root fetch - processPackages [lisql]: Downloading https://files.pythonhosted.org/packages/52/c5/a838643f34074f6da0c5f7f9338eb8740012018aa12e50dc97100c468fc9/lisql-2.1.8.tar.gz
+[2024-05-15 05:01:40] INFO root fetch - processPackages [dify-knowledge-pipline]: Downloading https://files.pythonhosted.org/packages/9b/b2/b18c589737b8877edb8fe0de3b24a6e56c8e1188afa4b2829f2685d586b1/dify_knowledge_pipline-0.1.6.tar.gz
+[2024-05-15 05:01:40] INFO root fetch - processPackages [AICelltype]: executing diffoscope
+[2024-05-15 05:01:40] INFO root fetch - processPackages [AICelltype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicelltype-0.0.3.tar.gz tmp/aicelltype-0.0.4.tar.gz --markdown 20240515/A/AICelltype/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 05:01:40] INFO root fetch - processPackages [lisql]: executing diffoscope
+[2024-05-15 05:01:40] INFO root fetch - processPackages [lisql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisql-2.1.3.tar.gz tmp/lisql-2.1.8.tar.gz --markdown 20240515/l/lisql/2.1.3-2.1.8/README.md --exclude *.pyd
+[2024-05-15 05:01:40] INFO root fetch - processPackages [dify-knowledge-pipline]: executing diffoscope
+[2024-05-15 05:01:40] INFO root fetch - processPackages [dify-knowledge-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dify_knowledge_pipline-0.1.5.tar.gz tmp/dify_knowledge_pipline-0.1.6.tar.gz --markdown 20240515/d/dify-knowledge-pipline/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 05:01:40] INFO root fetch - processPackages [lisql]: Remove: archive file [/home/abi/fetcher/tmp/lisql-2.1.3.tar.gz]
+[2024-05-15 05:01:40] INFO root fetch - processPackages [lisql]: Remove: archive file [/home/abi/fetcher/tmp/lisql-2.1.8.tar.gz]
+[2024-05-15 05:01:40] INFO root fetch - main [MainThread]: End processing [lisql]: success
+[2024-05-15 05:01:40] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.3.tar.gz]
+[2024-05-15 05:01:40] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.4.tar.gz]
+[2024-05-15 05:01:40] INFO root fetch - main [MainThread]: End processing [AICelltype]: success
+[2024-05-15 05:01:41] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.5.tar.gz]
+[2024-05-15 05:01:41] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.6.tar.gz]
+[2024-05-15 05:01:41] INFO root fetch - main [MainThread]: End processing [dify-knowledge-pipline]: success
+[2024-05-15 05:01:41] INFO root fetch - main [MainThread]: Store serial: [23211966]
