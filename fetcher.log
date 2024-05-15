@@ -9858,3 +9858,42 @@
 [2024-05-15 06:12:07] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-15 06:12:07] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-15 06:12:07] INFO root fetch - main [MainThread]: Store serial: [23212511]
+[2024-05-15 06:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212511]
+[2024-05-15 06:14:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 06:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semantic-router
+[2024-05-15 06:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msiaLex
+[2024-05-15 06:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-05-15 06:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlacaFipy
+[2024-05-15 06:14:16] INFO root fetch - processPackages [PlacaFipy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 06:14:16] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.1] Old Version: [0.3.9]
+[2024-05-15 06:14:16] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 06:14:16] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc9] Old Version: [0.9.9rc8]
+[2024-05-15 06:14:16] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c4/ec/b0365143d703c26f243284f98b3b53846593d6fe64b790991da8e7a8148c/msiaLex-0.3.9-py3-none-any.whl
+[2024-05-15 06:14:16] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-05-15 06:14:16] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/3a/13/6139944cfe252d5c019a26f51cec49aa4ab161028e15d93adc875c9ca056/tsugu-0.9.9rc8.tar.gz
+[2024-05-15 06:14:16] INFO root fetch - processPackages [PlacaFipy]: Downloading https://files.pythonhosted.org/packages/41/20/c7453bc97b1cf5affce07c99f5bf08344eab9175f12848e85d0664a34524/placafipy-1.0.1.tar.gz
+[2024-05-15 06:14:16] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/79/e7/abe2a3a2aa61c8841ae7a9c33793101e7f14765306545418e19b24aa75a2/tsugu-0.9.9rc9.tar.gz
+[2024-05-15 06:14:16] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-05-15 06:14:16] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/01/6e/72e14984620ac3cda2993b65f73a2517885bbc3c6d7c5e1b7283ab0170ac/msiaLex-0.3.9.1-py3-none-any.whl
+[2024-05-15 06:14:16] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-05-15 06:14:16] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240515/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 06:14:16] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-15 06:14:16] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc8.tar.gz tmp/tsugu-0.9.9rc9.tar.gz --markdown 20240515/t/tsugu/0.9.9rc8-0.9.9rc9/README.md --exclude *.pyd
+[2024-05-15 06:14:16] INFO root fetch - processPackages [PlacaFipy]: Downloading https://files.pythonhosted.org/packages/72/b3/6bf2ea635c85dc7d6b029bed420d8adf20faefc92db708fc992934c14af0/placafipy-1.0.2.tar.gz
+[2024-05-15 06:14:16] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 06:14:16] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9-py3-none-any.whl.zip tmp/msiaLex-0.3.9.1-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9-0.3.9.1/README.md --exclude *.pyd
+[2024-05-15 06:14:16] INFO root fetch - processPackages [PlacaFipy]: executing diffoscope
+[2024-05-15 06:14:16] INFO root fetch - processPackages [PlacaFipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/placafipy-1.0.1.tar.gz tmp/placafipy-1.0.2.tar.gz --markdown 20240515/P/PlacaFipy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 06:14:17] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-05-15 06:14:17] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-05-15 06:14:17] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-05-15 06:14:17] INFO root fetch - processPackages [PlacaFipy]: Remove: archive file [/home/abi/fetcher/tmp/placafipy-1.0.1.tar.gz]
+[2024-05-15 06:14:17] INFO root fetch - processPackages [PlacaFipy]: Remove: archive file [/home/abi/fetcher/tmp/placafipy-1.0.2.tar.gz]
+[2024-05-15 06:14:17] INFO root fetch - main [MainThread]: End processing [PlacaFipy]: success
+[2024-05-15 06:14:17] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9-py3-none-any.whl.zip]
+[2024-05-15 06:14:17] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.1-py3-none-any.whl.zip]
+[2024-05-15 06:14:17] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 06:14:17] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc8.tar.gz]
+[2024-05-15 06:14:17] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc9.tar.gz]
+[2024-05-15 06:14:17] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-15 06:14:17] INFO root fetch - main [MainThread]: Store serial: [23212522]
