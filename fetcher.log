@@ -23183,3 +23183,75 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:20:00] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.0.1.tar.gz]
 [2024-05-15 15:20:00] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
 [2024-05-15 15:20:00] INFO root fetch - main [MainThread]: Store serial: [23218155]
+[2024-05-15 15:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218155]
+[2024-05-15 15:22:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sparkapi
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statsnet-python-sdk
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: munet
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Mira-SimPEG
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hurst-estimators
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grabberlib
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nuon
+[2024-05-15 15:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-sparkapi
+[2024-05-15 15:22:11] INFO root fetch - processPackages [grabberlib]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-15 15:22:11] WARNING root fetch - processPackages [duwi-smarthome-sdk-dev]: Skipping, unable to determine old version
+[2024-05-15 15:22:11] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Start processing: llmage
+[2024-05-15 15:22:11] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev] error
+[2024-05-15 15:22:11] WARNING root fetch - processPackages [nonebot-plugin-sparkapi]: Skipping, unable to determine old version
+[2024-05-15 15:22:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi] error
+[2024-05-15 15:22:11] WARNING root fetch - processPackages [nonebot-plugin-sparkapi]: Skipping, unable to determine old version
+[2024-05-15 15:22:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi] error
+[2024-05-15 15:22:11] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-15 15:22:11] INFO root fetch - processPackages [statsnet-python-sdk]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-15 15:22:11] INFO root fetch - processPackages [Mira-SimPEG]: New version: [0.19.0.dev8] Old Version: [0.19.0.dev7]
+[2024-05-15 15:22:11] WARNING root fetch - processPackages [hurst-estimators]: Skipping, unable to determine old version
+[2024-05-15 15:22:11] INFO root fetch - main [MainThread]: End processing [hurst-estimators] error
+[2024-05-15 15:22:11] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-05-15 15:22:11] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 15:22:11] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-15 15:22:11] WARNING root fetch - processPackages [llmage]: Skipping, unable to determine old version
+[2024-05-15 15:22:11] INFO root fetch - main [MainThread]: End processing [llmage] error
+[2024-05-15 15:22:11] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/15/5c/36aab83a0c832cb124062bfbf1359fb72df06db6af524f826a016cb54dd0/grabberlib-0.1.7.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [statsnet-python-sdk]: Downloading https://files.pythonhosted.org/packages/e0/bb/2e8ea67056f53dfbdd721109968052f667ed4619b762ad693d16399f0b0e/statsnet_python_sdk-1.1.3.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [Mira-SimPEG]: Downloading https://files.pythonhosted.org/packages/2c/75/bf89af29d5138181c4ff9492721bffb0aeb04a455f4e25cee55bd607d997/mira_simpeg-0.19.0.dev7.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/c7/30/bf81d81271402e9b3d09c3eec0f5dd7cb6b3b27e5dbeb2c1730da6b5e136/grabberlib-0.1.8.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-15 15:22:11] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240515/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-15 15:22:11] INFO root fetch - processPackages [statsnet-python-sdk]: Downloading https://files.pythonhosted.org/packages/44/2b/2f6001e2f6514e5652db94034d380a08e853f234da64fc6e51aeb74b7991/statsnet_python_sdk-1.1.4.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2024-05-15 15:22:11] INFO root fetch - processPackages [grabberlib]: executing diffoscope
+[2024-05-15 15:22:11] INFO root fetch - processPackages [grabberlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grabberlib-0.1.7.tar.gz tmp/grabberlib-0.1.8.tar.gz --markdown 20240515/g/grabberlib/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-15 15:22:11] INFO root fetch - processPackages [Mira-SimPEG]: Downloading https://files.pythonhosted.org/packages/cb/e3/7ddecfbf8f726d9c8478030aede517e1354bfe12f435927fc3f4a84b8fe9/mira_simpeg-0.19.0.dev8.tar.gz
+[2024-05-15 15:22:12] INFO root fetch - processPackages [statsnet-python-sdk]: executing diffoscope
+[2024-05-15 15:22:12] INFO root fetch - processPackages [statsnet-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statsnet_python_sdk-1.1.3.tar.gz tmp/statsnet_python_sdk-1.1.4.tar.gz --markdown 20240515/s/statsnet-python-sdk/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-15 15:22:12] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-05-15 15:22:12] INFO root fetch - processPackages [munet]: executing diffoscope
+[2024-05-15 15:22:12] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20240515/m/munet/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 15:22:12] INFO root fetch - processPackages [Mira-SimPEG]: executing diffoscope
+[2024-05-15 15:22:12] INFO root fetch - processPackages [Mira-SimPEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mira_simpeg-0.19.0.dev7.tar.gz tmp/mira_simpeg-0.19.0.dev8.tar.gz --markdown 20240515/M/Mira-SimPEG/0.19.0.dev7-0.19.0.dev8/README.md --exclude *.pyd
+[2024-05-15 15:22:12] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-05-15 15:22:12] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240515/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-05-15 15:22:12] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.7.tar.gz]
+[2024-05-15 15:22:12] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.8.tar.gz]
+[2024-05-15 15:22:12] INFO root fetch - main [MainThread]: End processing [grabberlib]: success
+[2024-05-15 15:22:12] INFO root fetch - processPackages [statsnet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/statsnet_python_sdk-1.1.3.tar.gz]
+[2024-05-15 15:22:12] INFO root fetch - processPackages [statsnet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/statsnet_python_sdk-1.1.4.tar.gz]
+[2024-05-15 15:22:12] INFO root fetch - main [MainThread]: End processing [statsnet-python-sdk]: success
+[2024-05-15 15:22:12] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.8.tar.gz]
+[2024-05-15 15:22:12] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
+[2024-05-15 15:22:12] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2024-05-15 15:22:13] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-15 15:22:13] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-15 15:22:13] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-15 15:22:13] INFO root fetch - processPackages [Mira-SimPEG]: Remove: archive file [/home/abi/fetcher/tmp/mira_simpeg-0.19.0.dev7.tar.gz]
+[2024-05-15 15:22:13] INFO root fetch - processPackages [Mira-SimPEG]: Remove: archive file [/home/abi/fetcher/tmp/mira_simpeg-0.19.0.dev8.tar.gz]
+[2024-05-15 15:22:13] INFO root fetch - main [MainThread]: End processing [Mira-SimPEG]: success
+[2024-05-15 15:22:14] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-05-15 15:22:14] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-05-15 15:22:14] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-05-15 15:22:14] INFO root fetch - main [MainThread]: Store serial: [23218196]
