@@ -19852,3 +19852,48 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:16:16] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-15 13:16:16] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-15 13:16:16] INFO root fetch - main [MainThread]: Store serial: [23216756]
+[2024-05-15 13:18:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216756]
+[2024-05-15 13:18:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-05-15 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: met-annot-unifier
+[2024-05-15 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odd-great-expectations
+[2024-05-15 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: computenest-cli
+[2024-05-15 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avarnd
+[2024-05-15 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apytypes
+[2024-05-15 13:18:25] INFO root fetch - processPackages [met-annot-unifier]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 13:18:25] WARNING root fetch - processPackages [avarnd]: Skipping, unable to determine old version
+[2024-05-15 13:18:25] INFO root fetch - main [MainThread]: End processing [avarnd] error
+[2024-05-15 13:18:25] INFO root fetch - processPackages [computenest-cli]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-15 13:18:25] INFO root fetch - processPackages [cognite-neat]: New version: [0.77.2] Old Version: [0.77.1]
+[2024-05-15 13:18:25] INFO root fetch - processPackages [met-annot-unifier]: Downloading https://files.pythonhosted.org/packages/f5/66/30377fd46bbe3069f1c7753bc4d8c781bf9051b6c2b31948872a95b11966/met_annot_unifier-0.0.4.tar.gz
+[2024-05-15 13:18:25] INFO root fetch - processPackages [odd-great-expectations]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-15 13:18:25] WARNING root fetch - processPackages [apytypes]: Skipping, unable to determine old version
+[2024-05-15 13:18:25] INFO root fetch - main [MainThread]: End processing [apytypes] error
+[2024-05-15 13:18:25] INFO root fetch - processPackages [computenest-cli]: Downloading https://files.pythonhosted.org/packages/ed/68/67dec24546de87a262c2aba65dffbd78a6f459094568bce858acf8cdaef4/computenest-cli-1.2.7.tar.gz
+[2024-05-15 13:18:25] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/58/73/0240a3a5ebf541673e862b4229cd426eddbc30d13c075eb1ca9cc55041a2/cognite_neat-0.77.1.tar.gz
+[2024-05-15 13:18:25] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/0c/4d/ce1ff274878cf20142cae9ccc16931fd33518e3c726cdac8b3175e7e4740/odd_great_expectations-0.2.2.tar.gz
+[2024-05-15 13:18:25] INFO root fetch - processPackages [met-annot-unifier]: Downloading https://files.pythonhosted.org/packages/88/41/87ebbaadec975fdeb77c661f484f4226e3f20f82e6c5cd086bcdd25a00f6/met_annot_unifier-0.0.5.tar.gz
+[2024-05-15 13:18:25] INFO root fetch - processPackages [computenest-cli]: Downloading https://files.pythonhosted.org/packages/12/48/e1500eb0e6b8b13bbb88ed6d8a5f615033f3b9896c0b5075e1347edf009a/computenest-cli-1.2.8.tar.gz
+[2024-05-15 13:18:25] INFO root fetch - processPackages [met-annot-unifier]: executing diffoscope
+[2024-05-15 13:18:25] INFO root fetch - processPackages [met-annot-unifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/met_annot_unifier-0.0.4.tar.gz tmp/met_annot_unifier-0.0.5.tar.gz --markdown 20240515/m/met-annot-unifier/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 13:18:26] INFO root fetch - processPackages [computenest-cli]: executing diffoscope
+[2024-05-15 13:18:26] INFO root fetch - processPackages [computenest-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computenest-cli-1.2.7.tar.gz tmp/computenest-cli-1.2.8.tar.gz --markdown 20240515/c/computenest-cli/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-15 13:18:26] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/2a/db/06383ba965d54c429c3a00a967b931101a640a681093839447fa7bcd860d/odd_great_expectations-0.2.3.tar.gz
+[2024-05-15 13:18:26] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/61/c7/6ddd0b53291ea2a8627e121c01a7feab00c8d0e10842c27d514efcd98b23/cognite_neat-0.77.2.tar.gz
+[2024-05-15 13:18:26] INFO root fetch - processPackages [odd-great-expectations]: executing diffoscope
+[2024-05-15 13:18:26] INFO root fetch - processPackages [odd-great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_great_expectations-0.2.2.tar.gz tmp/odd_great_expectations-0.2.3.tar.gz --markdown 20240515/o/odd-great-expectations/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-15 13:18:26] INFO root fetch - processPackages [met-annot-unifier]: Remove: archive file [/home/abi/fetcher/tmp/met_annot_unifier-0.0.4.tar.gz]
+[2024-05-15 13:18:26] INFO root fetch - processPackages [met-annot-unifier]: Remove: archive file [/home/abi/fetcher/tmp/met_annot_unifier-0.0.5.tar.gz]
+[2024-05-15 13:18:26] INFO root fetch - main [MainThread]: End processing [met-annot-unifier]: success
+[2024-05-15 13:18:26] INFO root fetch - processPackages [computenest-cli]: Remove: archive file [/home/abi/fetcher/tmp/computenest-cli-1.2.7.tar.gz]
+[2024-05-15 13:18:26] INFO root fetch - processPackages [computenest-cli]: Remove: archive file [/home/abi/fetcher/tmp/computenest-cli-1.2.8.tar.gz]
+[2024-05-15 13:18:26] INFO root fetch - main [MainThread]: End processing [computenest-cli]: success
+[2024-05-15 13:18:26] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-15 13:18:26] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.77.1.tar.gz tmp/cognite_neat-0.77.2.tar.gz --markdown 20240515/c/cognite-neat/0.77.1-0.77.2/README.md --exclude *.pyd
+[2024-05-15 13:18:26] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.2.2.tar.gz]
+[2024-05-15 13:18:26] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.2.3.tar.gz]
+[2024-05-15 13:18:26] INFO root fetch - main [MainThread]: End processing [odd-great-expectations]: success
+[2024-05-15 13:18:30] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.1.tar.gz]
+[2024-05-15 13:18:30] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.2.tar.gz]
+[2024-05-15 13:18:30] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-15 13:18:30] INFO root fetch - main [MainThread]: Store serial: [23216776]
