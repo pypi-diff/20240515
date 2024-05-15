@@ -19243,3 +19243,24 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:44:38] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.6.tar.gz]
 [2024-05-15 12:44:38] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
 [2024-05-15 12:44:38] INFO root fetch - main [MainThread]: Store serial: [23216546]
+[2024-05-15 12:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216546]
+[2024-05-15 12:46:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 12:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-trunk
+[2024-05-15 12:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-priority-loadbalancer
+[2024-05-15 12:46:46] INFO root fetch - processPackages [git-trunk]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-15 12:46:46] INFO root fetch - processPackages [openai-priority-loadbalancer]: New version: [1.0.0] Old Version: [0.0.6]
+[2024-05-15 12:46:46] INFO root fetch - processPackages [git-trunk]: Downloading https://files.pythonhosted.org/packages/bf/20/5c6183a043ed5c1f815065db1a928775715335b12f609e29a78bc10dbbc7/git_trunk-0.4.0.tar.gz
+[2024-05-15 12:46:47] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/72/7b/529b2d331f5bb03d912f8c059c94ed583ccdc1c0af6d4b0d525f3450c38a/openai_priority_loadbalancer-0.0.6.tar.gz
+[2024-05-15 12:46:47] INFO root fetch - processPackages [git-trunk]: Downloading https://files.pythonhosted.org/packages/60/e5/19fb2da004803a2d9943a82b3bdd3ed43e9572646dcf25664b418882895b/git_trunk-0.5.0.tar.gz
+[2024-05-15 12:46:47] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/5d/3d/b10edf14abadab466673147065b5bc0f891818274c076109b82f360b61d3/openai_priority_loadbalancer-1.0.0.tar.gz
+[2024-05-15 12:46:47] INFO root fetch - processPackages [git-trunk]: executing diffoscope
+[2024-05-15 12:46:47] INFO root fetch - processPackages [git-trunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_trunk-0.4.0.tar.gz tmp/git_trunk-0.5.0.tar.gz --markdown 20240515/g/git-trunk/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-15 12:46:47] INFO root fetch - processPackages [openai-priority-loadbalancer]: executing diffoscope
+[2024-05-15 12:46:47] INFO root fetch - processPackages [openai-priority-loadbalancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_priority_loadbalancer-0.0.6.tar.gz tmp/openai_priority_loadbalancer-1.0.0.tar.gz --markdown 20240515/o/openai-priority-loadbalancer/0.0.6-1.0.0/README.md --exclude *.pyd
+[2024-05-15 12:46:47] INFO root fetch - processPackages [git-trunk]: Remove: archive file [/home/abi/fetcher/tmp/git_trunk-0.4.0.tar.gz]
+[2024-05-15 12:46:47] INFO root fetch - processPackages [git-trunk]: Remove: archive file [/home/abi/fetcher/tmp/git_trunk-0.5.0.tar.gz]
+[2024-05-15 12:46:47] INFO root fetch - main [MainThread]: End processing [git-trunk]: success
+[2024-05-15 12:46:48] INFO root fetch - processPackages [openai-priority-loadbalancer]: Remove: archive file [/home/abi/fetcher/tmp/openai_priority_loadbalancer-0.0.6.tar.gz]
+[2024-05-15 12:46:48] INFO root fetch - processPackages [openai-priority-loadbalancer]: Remove: archive file [/home/abi/fetcher/tmp/openai_priority_loadbalancer-1.0.0.tar.gz]
+[2024-05-15 12:46:48] INFO root fetch - main [MainThread]: End processing [openai-priority-loadbalancer]: success
+[2024-05-15 12:46:48] INFO root fetch - main [MainThread]: Store serial: [23216552]
