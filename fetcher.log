@@ -12151,3 +12151,15 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:10:45] INFO root fetch - processPackages [jinjafx]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx-1.9.5.tar.gz]
 [2024-05-15 08:10:45] INFO root fetch - main [MainThread]: End processing [jinjafx]: success
 [2024-05-15 08:10:45] INFO root fetch - main [MainThread]: Store serial: [23213485]
+[2024-05-15 08:12:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213485]
+[2024-05-15 08:12:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 08:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-05-15 08:12:53] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240514] Old Version: [2.6.0.dev20240513]
+[2024-05-15 08:12:53] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e8/15ab149537238a13dc2e33a7bfb0291717c8d86a98cd98335a90b77eb942/pyg_nightly-2.6.0.dev20240513.tar.gz
+[2024-05-15 08:12:54] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/08/b0/f61f023e4742e7144d355012127bbfbc978d6002f6f037e2b3b8f365f965/pyg_nightly-2.6.0.dev20240514.tar.gz
+[2024-05-15 08:12:54] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-15 08:12:54] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240513.tar.gz tmp/pyg_nightly-2.6.0.dev20240514.tar.gz --markdown 20240515/p/pyg-nightly/2.6.0.dev20240513-2.6.0.dev20240514/README.md --exclude *.pyd
+[2024-05-15 08:12:56] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240513.tar.gz]
+[2024-05-15 08:12:56] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240514.tar.gz]
+[2024-05-15 08:12:56] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-15 08:12:56] INFO root fetch - main [MainThread]: Store serial: [23213488]
