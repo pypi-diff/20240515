@@ -20406,3 +20406,65 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:35:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405141214.tar.gz]
 [2024-05-15 13:35:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-15 13:35:52] INFO root fetch - main [MainThread]: Store serial: [23217018]
+[2024-05-15 13:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217018]
+[2024-05-15 13:38:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frappe-manager
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsugu
+[2024-05-15 13:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyodmongo
+[2024-05-15 13:38:02] INFO root fetch - processPackages [tsugu]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [kfish]: New version: [99.0.202405141217] Old Version: [99.0.202405131656]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [frappe-manager]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [pyodmongo]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 13:38:02] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/3e/22/c2043229fa056195c0c17951dbad0e92e6aa850f284c5edf53d2a26fa05f/tsugu-1.0.1.tar.gz
+[2024-05-15 13:38:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-15 13:38:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-15 13:38:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ce/8a/def0c9bf030309cae0e4fe2631b49ffb8a21f84bdecf1b4edb9a4d18d6c9/kfish-99.0.202405131656-py3-none-any.whl
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-15 13:38:03] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/b8/06/cf638b54937dbe7c3a2395f567621aa38c3c243666a1a1bfeb2617b5ea84/frappe_manager-0.8.3.tar.gz
+[2024-05-15 13:38:03] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-15 13:38:03] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-15 13:38:03] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/28/53/887b9fb0bcfc1cd765337fd58d96aeb056a48e606cb383b6f44f7f77e5ff/pyodmongo-0.9.0.tar.gz
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240515/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 13:38:03] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/18/79/76c2cc2f3f71b6bd009d3ae2af3e413f9beb8b519b51db0a1c620b5583db/tsugu-1.0.2.tar.gz
+[2024-05-15 13:38:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4e/78/852f5f78f3b8a353fb5afe5c04cd9cb1f45211d36dc1ed939107f5e3c9f8/kfish-99.0.202405141217-py3-none-any.whl
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-15 13:38:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240515/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 13:38:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-15 13:38:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405131656-py3-none-any.whl.zip tmp/kfish-99.0.202405141217-py3-none-any.whl.zip --markdown 20240515/k/kfish/99.0.202405131656-99.0.202405141217/README.md --exclude *.pyd
+[2024-05-15 13:38:03] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-15 13:38:03] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-1.0.1.tar.gz tmp/tsugu-1.0.2.tar.gz --markdown 20240515/t/tsugu/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 13:38:03] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/0e/af/c09a0baea3d0a36661cf4083f7a44cad1f804fe0408874bce6e67f717275/frappe_manager-0.9.0.tar.gz
+[2024-05-15 13:38:03] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/b6/4d/3332a1b9b8c52e3b6e71958426914018c2a35e35405645b4c0085b6ac8bf/pyodmongo-0.9.1.tar.gz
+[2024-05-15 13:38:03] INFO root fetch - processPackages [frappe-manager]: executing diffoscope
+[2024-05-15 13:38:03] INFO root fetch - processPackages [frappe-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frappe_manager-0.8.3.tar.gz tmp/frappe_manager-0.9.0.tar.gz --markdown 20240515/f/frappe-manager/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-15 13:38:03] INFO root fetch - processPackages [pyodmongo]: executing diffoscope
+[2024-05-15 13:38:03] INFO root fetch - processPackages [pyodmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodmongo-0.9.0.tar.gz tmp/pyodmongo-0.9.1.tar.gz --markdown 20240515/p/pyodmongo/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 13:38:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-15 13:38:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-15 13:38:04] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-15 13:38:04] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-15 13:38:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405131656-py3-none-any.whl.zip]
+[2024-05-15 13:38:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405141217-py3-none-any.whl.zip]
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-15 13:38:04] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.1.tar.gz]
+[2024-05-15 13:38:04] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.2.tar.gz]
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-15 13:38:04] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.8.3.tar.gz]
+[2024-05-15 13:38:04] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.9.0.tar.gz]
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: End processing [frappe-manager]: success
+[2024-05-15 13:38:04] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.0.tar.gz]
+[2024-05-15 13:38:04] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.1.tar.gz]
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
+[2024-05-15 13:38:04] INFO root fetch - main [MainThread]: Store serial: [23217041]
