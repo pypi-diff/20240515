@@ -14510,3 +14510,132 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:56:29] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.1rc0.tar.gz]
 [2024-05-15 09:56:29] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2024-05-15 09:56:29] INFO root fetch - main [MainThread]: Store serial: [23214460]
+[2024-05-15 09:58:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214460]
+[2024-05-15 09:58:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffmpeg-normalize
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semantic-link
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semantic-link-functions-geopandas
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semantic-link-functions-holidays
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semantic-link-functions-meteostat
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semantic-link-functions-phonenumbers
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semantic-link-functions-validators
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semantic-link-sempy
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dalpha
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-holidays]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-meteostat]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-validators]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-sempy]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [ffmpeg-normalize]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-holidays]: Downloading https://files.pythonhosted.org/packages/a9/86/578ec4f9f75556e8695e4bc47846f3352b0f7855725a1feda11590bd0d2d/semantic_link_functions_holidays-0.7.2-py3-none-any.whl
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-geopandas]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-meteostat]: Downloading https://files.pythonhosted.org/packages/5e/13/e18c2a818f64c68c1168ea67c0af1a153335e1f66c007ad9e6ae11d1a883/semantic_link_functions_meteostat-0.7.2-py3-none-any.whl
+[2024-05-15 09:58:38] INFO root fetch - processPackages [dalpha]: New version: [0.5.1] Old Version: [0.5.0rc3]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-validators]: Downloading https://files.pythonhosted.org/packages/b6/f1/77fbdf58d8f649497f827d40900003f0c318280e0230571d029560733c5d/semantic_link_functions_validators-0.7.2-py3-none-any.whl
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-sempy]: Downloading https://files.pythonhosted.org/packages/16/5f/515a01a31cb5405ac7f87997e88fb1aff211961058a3b2f3b09b270487b9/semantic_link_sempy-0.7.2-py3-none-any.whl
+[2024-05-15 09:58:38] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240515] Old Version: [2.17.0.dev20240514]
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: Downloading https://files.pythonhosted.org/packages/e0/5c/0fe1b1ce9c1ddd896b998d5332286b0c211d8a99ea3087da698e878e62bc/semantic_link_functions_phonenumbers-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:38] INFO root fetch - processPackages [semantic-link-functions-geopandas]: Downloading https://files.pythonhosted.org/packages/99/b0/dfc1b80e24e9bbf28bd16b89c8d83964cc619ea88708c5cd232d20c18afe/semantic_link_functions_geopandas-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/bb/71/48b153037de3b8679bcbd621aff3af9f5f612b99fb9a8481515bbc2eba59/ffmpeg-normalize-1.3.7.tar.gz
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link]: Downloading https://files.pythonhosted.org/packages/70/f9/0f1d591485b6cc2a2778625f7afd4bc667725eb113543eaa74a6b0386e1e/semantic_link-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/6b/cf/37ac7f3ac2c4a680eb3a45dd31d0e4158cd3dd5f360b116555629fe1e4f7/tf_nightly-2.17.0.dev20240514-cp39-cp39-win_amd64.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-meteostat]: Downloading https://files.pythonhosted.org/packages/cb/1e/a387ad23a2d3670d7e65bd7851428274f0deebb975dcac6ae78215c03b4e/semantic_link_functions_meteostat-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/ee/9d08a7684a8b05da70eb7201106e005d8406696ffe6fc59bec47dfb15c9f/dalpha-0.5.0rc3.tar.gz
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-validators]: Downloading https://files.pythonhosted.org/packages/a8/bd/66430ddc2f17aaab5644509ee84d754d20ecc403a97bf6a3800d1d2a78b0/semantic_link_functions_validators-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-holidays]: Downloading https://files.pythonhosted.org/packages/36/16/ab9bfb36213b5643d459ce1e3ae710c229417eabccdd805593214c3dc8f4/semantic_link_functions_holidays-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-meteostat]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-meteostat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link_functions_meteostat-0.7.2-py3-none-any.whl.zip tmp/semantic_link_functions_meteostat-0.7.3-py3-none-any.whl.zip --markdown 20240515/s/semantic-link-functions-meteostat/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-validators]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link_functions_validators-0.7.2-py3-none-any.whl.zip tmp/semantic_link_functions_validators-0.7.3-py3-none-any.whl.zip --markdown 20240515/s/semantic-link-functions-validators/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: Downloading https://files.pythonhosted.org/packages/78/ac/bd035197a6fa0cd23a0c9e5ca540bf1ef121645cf023874529b962b51f2c/semantic_link_functions_phonenumbers-0.7.4-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-geopandas]: Downloading https://files.pythonhosted.org/packages/27/00/0d2b786b0409ccee28b91f8eccd719f1d0b9584d07b3486710df8a4d6b0d/semantic_link_functions_geopandas-0.7.4-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-holidays]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link_functions_holidays-0.7.2-py3-none-any.whl.zip tmp/semantic_link_functions_holidays-0.7.3-py3-none-any.whl.zip --markdown 20240515/s/semantic-link-functions-holidays/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link]: Downloading https://files.pythonhosted.org/packages/6f/6c/4c65d73f22df4f37ebdf2367376896fb45c7ed9c86b7c01ebccee4d398a2/semantic_link-0.7.4-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link_functions_phonenumbers-0.7.3-py3-none-any.whl.zip tmp/semantic_link_functions_phonenumbers-0.7.4-py3-none-any.whl.zip --markdown 20240515/s/semantic-link-functions-phonenumbers/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/4a/56/b343046c6ca802d28b8c76a5c7ad94248be0c737711c607ca0e71e88f0e0/tf_nightly-2.17.0.dev20240515-cp39-cp39-win_amd64.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-geopandas]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-functions-geopandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link_functions_geopandas-0.7.3-py3-none-any.whl.zip tmp/semantic_link_functions_geopandas-0.7.4-py3-none-any.whl.zip --markdown 20240515/s/semantic-link-functions-geopandas/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link-0.7.3-py3-none-any.whl.zip tmp/semantic_link-0.7.4-py3-none-any.whl.zip --markdown 20240515/s/semantic-link/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/c9/63/974d0aa99b3fdde07a82f3f014ed670cd51a28650a02b585b49dfe9285a2/dalpha-0.5.1.tar.gz
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-sempy]: Downloading https://files.pythonhosted.org/packages/51/fb/23582086f3be8af7c45da5969da8ade9aa11dea12d263cd7e5150c2403c6/semantic_link_sempy-0.7.3-py3-none-any.whl
+[2024-05-15 09:58:39] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/0f/5d/62e02c888cbe0b4671665346020f8acc68313e0c0c87002593547fcee1d7/ffmpeg-normalize-1.3.8.tar.gz
+[2024-05-15 09:58:39] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.0rc3.tar.gz tmp/dalpha-0.5.1.tar.gz --markdown 20240515/d/dalpha/0.5.0rc3-0.5.1/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240515-cp39-cp39-win_amd64.whl.zip --markdown 20240515/t/tf-nightly/2.17.0.dev20240514-2.17.0.dev20240515/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-sempy]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [semantic-link-sempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_link_sempy-0.7.2-py3-none-any.whl.zip tmp/semantic_link_sempy-0.7.3-py3-none-any.whl.zip --markdown 20240515/s/semantic-link-sempy/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-15 09:58:39] INFO root fetch - processPackages [ffmpeg-normalize]: executing diffoscope
+[2024-05-15 09:58:39] INFO root fetch - processPackages [ffmpeg-normalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-normalize-1.3.7.tar.gz tmp/ffmpeg-normalize-1.3.8.tar.gz --markdown 20240515/f/ffmpeg-normalize/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-meteostat]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_meteostat-0.7.2-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-meteostat]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_meteostat-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-meteostat]: Start processing: th2-grpc-data-provider
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [semantic-link-functions-meteostat]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-validators]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_validators-0.7.2-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-validators]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_validators-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-validators]: Start processing: silver_octo_potato
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [semantic-link-functions-validators]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [silver_octo_potato]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_phonenumbers-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_phonenumbers-0.7.4-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-phonenumbers]: Start processing: pulumi-libvirt
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [semantic-link-functions-phonenumbers]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/04/d7/430f42739e21677a2e07f138ba8b734840044be7943fd9ab041e36c1fab6/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1715709193] Old Version: [0.5.0a1715337488]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-holidays]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_holidays-0.7.2-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-holidays]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_holidays-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-holidays]: Start processing: general-operator
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [semantic-link-functions-holidays]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c6/b9/791a9ee799fc1f618d0c662634cbd480cc1e03e574cf42055aaf6a24b34a/pulumi_libvirt-0.5.0a1715337488.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [silver_octo_potato]: Downloading https://files.pythonhosted.org/packages/45/f0/44afdcd3d7e4624bd7ed64c2a8aff3e508aaabb87c96a828a78abe8f109d/silver_octo_potato-0.1.3.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [general-operator]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link-0.7.4-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [semantic-link]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-geopandas]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_geopandas-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [semantic-link-functions-geopandas]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_functions_geopandas-0.7.4-py3-none-any.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [semantic-link-functions-geopandas]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240515-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/2a/a3/045f6fb25a9114a9febeb0a29222e49f4e0de65cfc6d87a1ba52585fec8d/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [general-operator]: Downloading https://files.pythonhosted.org/packages/1f/9c/6d26f03672b366232a37098d35e2027358c0f1dfbac051e4ffa70d14be52/general_operator-0.1.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc3.tar.gz]
+[2024-05-15 09:58:40] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.1.tar.gz]
+[2024-05-15 09:58:40] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-15 09:58:40] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/08/04/b9f74448efeb191a928dcc9cc15a7a6e0df46dbfe4cdc8cc7e1428b82ebe/pulumi_libvirt-0.5.0a1715709193.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2024-05-15 09:58:40] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20240515/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/README.md --exclude *.pyd
+[2024-05-15 09:58:40] INFO root fetch - processPackages [silver_octo_potato]: Downloading https://files.pythonhosted.org/packages/ba/f2/3b6b01e58f61a889b6759cff082ddc63bec10777000fad54b4a6327a616a/silver_octo_potato-0.1.4.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-15 09:58:40] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1715337488.tar.gz tmp/pulumi_libvirt-0.5.0a1715709193.tar.gz --markdown 20240515/p/pulumi-libvirt/0.5.0a1715337488-0.5.0a1715709193/README.md --exclude *.pyd
+[2024-05-15 09:58:40] INFO root fetch - processPackages [general-operator]: Downloading https://files.pythonhosted.org/packages/c3/a6/47d7ccb88505bab60af64a8e347ea0a9f40c42d39b42d12239e5bb97241b/general_operator-0.1.1.tar.gz
+[2024-05-15 09:58:40] INFO root fetch - processPackages [silver_octo_potato]: executing diffoscope
+[2024-05-15 09:58:40] INFO root fetch - processPackages [silver_octo_potato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silver_octo_potato-0.1.3.tar.gz tmp/silver_octo_potato-0.1.4.tar.gz --markdown 20240515/s/silver_octo_potato/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-15 09:58:40] INFO root fetch - processPackages [general-operator]: executing diffoscope
+[2024-05-15 09:58:40] INFO root fetch - processPackages [general-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_operator-0.1.tar.gz tmp/general_operator-0.1.1.tar.gz --markdown 20240515/g/general-operator/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-15 09:58:41] INFO root fetch - processPackages [semantic-link-sempy]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_sempy-0.7.2-py3-none-any.whl.zip]
+[2024-05-15 09:58:41] INFO root fetch - processPackages [semantic-link-sempy]: Remove: archive file [/home/abi/fetcher/tmp/semantic_link_sempy-0.7.3-py3-none-any.whl.zip]
+[2024-05-15 09:58:41] INFO root fetch - main [MainThread]: End processing [semantic-link-sempy]: success
+[2024-05-15 09:58:41] INFO root fetch - processPackages [silver_octo_potato]: Remove: archive file [/home/abi/fetcher/tmp/silver_octo_potato-0.1.3.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - processPackages [silver_octo_potato]: Remove: archive file [/home/abi/fetcher/tmp/silver_octo_potato-0.1.4.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - main [MainThread]: End processing [silver_octo_potato]: success
+[2024-05-15 09:58:41] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2024-05-15 09:58:41] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715337488.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715709193.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-15 09:58:41] INFO root fetch - processPackages [general-operator]: Remove: archive file [/home/abi/fetcher/tmp/general_operator-0.1.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - processPackages [general-operator]: Remove: archive file [/home/abi/fetcher/tmp/general_operator-0.1.1.tar.gz]
+[2024-05-15 09:58:41] INFO root fetch - main [MainThread]: End processing [general-operator]: success
+[2024-05-15 09:58:43] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.7.tar.gz]
+[2024-05-15 09:58:43] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.8.tar.gz]
+[2024-05-15 09:58:43] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
+[2024-05-15 09:58:43] INFO root fetch - main [MainThread]: Store serial: [23214501]
