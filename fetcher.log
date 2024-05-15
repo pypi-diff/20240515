@@ -20851,3 +20851,65 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:53:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240514.tar.gz]
 [2024-05-15 13:53:57] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-15 13:53:57] INFO root fetch - main [MainThread]: Store serial: [23217187]
+[2024-05-15 13:56:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217187]
+[2024-05-15 13:56:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rerun-sdk
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotemanager
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Akinator-python
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logfire
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spm1d
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: climweb-wdqms
+[2024-05-15 13:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dihlibs
+[2024-05-15 13:56:08] INFO root fetch - processPackages [Akinator-python]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/ee/51/803ac746da71b918598e9e5cce5ef58e663cc6dc8c71d22562d12fe90023/Akinator-python-1.2.1.tar.gz
+[2024-05-15 13:56:08] INFO root fetch - processPackages [climweb-wdqms]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [dihlibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [rerun-sdk]: New version: [0.9.1rc4] Old Version: [0.9.1rc3]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [spm1d]: New version: [0.4.29] Old Version: [0.4.28]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [logfire]: New version: [0.32.1] Old Version: [0.32.0]
+[2024-05-15 13:56:08] INFO root fetch - processPackages [rerun-sdk]: Downloading https://files.pythonhosted.org/packages/d1/e1/b91b14b05fd2b89460faeff3f73002a52c230fe72d4ba52093856793107e/rerun_sdk-0.9.1rc3-cp38-abi3-win_amd64.whl
+[2024-05-15 13:56:08] INFO root fetch - processPackages [spm1d]: Downloading https://files.pythonhosted.org/packages/0e/77/06711488b6dfe549c17b075922c95d8a0bdec835daccb5b5aa136556b2ad/spm1d-0.4.28.tar.gz
+[2024-05-15 13:56:08] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/2a/ac/66976229666785f47e0480218253d414bfb122fef0dcafb7377c3213d469/logfire-0.32.0.tar.gz
+[2024-05-15 13:56:08] INFO root fetch - processPackages [dihlibs]: Downloading https://files.pythonhosted.org/packages/ff/09/41a593824d24b239812ee77af731365549b16595fcc77219a1a97b15ca92/dihlibs-0.0.8.tar.gz
+[2024-05-15 13:56:08] INFO root fetch - processPackages [climweb-wdqms]: Downloading https://files.pythonhosted.org/packages/65/db/9ffbd3d0f368008c9a15bd258edb6626f03b5387622c6bcec550f0f6a4d6/climweb_wdqms-0.0.4.tar.gz
+[2024-05-15 13:56:08] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/4b/51/d23811dd0db912a395a03be7dfc234bf1ce9ecc8d844aff4815ed9364c7c/Akinator-python-1.2.2.tar.gz
+[2024-05-15 13:56:08] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2024-05-15 13:56:09] INFO root fetch - processPackages [Akinator-python]: executing diffoscope
+[2024-05-15 13:56:09] INFO root fetch - processPackages [Akinator-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akinator-python-1.2.1.tar.gz tmp/Akinator-python-1.2.2.tar.gz --markdown 20240515/A/Akinator-python/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-15 13:56:09] INFO root fetch - processPackages [climweb-wdqms]: Downloading https://files.pythonhosted.org/packages/00/82/9d5c4376d1910fe86fee3ae34de4a482f4b5ec8907c810058bd6aa8f8427/climweb_wdqms-0.0.5.tar.gz
+[2024-05-15 13:56:09] INFO root fetch - processPackages [dihlibs]: Downloading https://files.pythonhosted.org/packages/15/20/902c273a22107a9039f81029346fafa8bc9f12ead71c8223b94102b517f3/dihlibs-0.0.9.tar.gz
+[2024-05-15 13:56:09] WARNING root fetch - processPackages [rerun-sdk]: Skipping package: exceeds size limit 23779013>=10485760
+[2024-05-15 13:56:09] INFO root fetch - main [MainThread]: End processing [rerun-sdk] error
+[2024-05-15 13:56:09] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/6d/43/3cde261b4ad5810836b7daa64923939c5af11d4e0a6e6b6a67bedeef87d2/logfire-0.32.1.tar.gz
+[2024-05-15 13:56:09] INFO root fetch - processPackages [climweb-wdqms]: executing diffoscope
+[2024-05-15 13:56:09] INFO root fetch - processPackages [climweb-wdqms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climweb_wdqms-0.0.4.tar.gz tmp/climweb_wdqms-0.0.5.tar.gz --markdown 20240515/c/climweb-wdqms/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 13:56:09] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2024-05-15 13:56:09] INFO root fetch - processPackages [dihlibs]: executing diffoscope
+[2024-05-15 13:56:09] INFO root fetch - processPackages [dihlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dihlibs-0.0.8.tar.gz tmp/dihlibs-0.0.9.tar.gz --markdown 20240515/d/dihlibs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 13:56:09] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-05-15 13:56:09] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.32.0.tar.gz tmp/logfire-0.32.1.tar.gz --markdown 20240515/l/logfire/0.32.0-0.32.1/README.md --exclude *.pyd
+[2024-05-15 13:56:09] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.2.1.tar.gz]
+[2024-05-15 13:56:09] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.2.2.tar.gz]
+[2024-05-15 13:56:09] INFO root fetch - main [MainThread]: End processing [Akinator-python]: success
+[2024-05-15 13:56:09] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2024-05-15 13:56:09] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20240515/r/remotemanager/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 13:56:09] INFO root fetch - processPackages [climweb-wdqms]: Remove: archive file [/home/abi/fetcher/tmp/climweb_wdqms-0.0.4.tar.gz]
+[2024-05-15 13:56:09] INFO root fetch - processPackages [climweb-wdqms]: Remove: archive file [/home/abi/fetcher/tmp/climweb_wdqms-0.0.5.tar.gz]
+[2024-05-15 13:56:09] INFO root fetch - main [MainThread]: End processing [climweb-wdqms]: success
+[2024-05-15 13:56:10] INFO root fetch - processPackages [dihlibs]: Remove: archive file [/home/abi/fetcher/tmp/dihlibs-0.0.8.tar.gz]
+[2024-05-15 13:56:10] INFO root fetch - processPackages [dihlibs]: Remove: archive file [/home/abi/fetcher/tmp/dihlibs-0.0.9.tar.gz]
+[2024-05-15 13:56:10] INFO root fetch - main [MainThread]: End processing [dihlibs]: success
+[2024-05-15 13:56:10] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2024-05-15 13:56:10] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2024-05-15 13:56:10] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2024-05-15 13:56:10] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.32.0.tar.gz]
+[2024-05-15 13:56:10] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.32.1.tar.gz]
+[2024-05-15 13:56:10] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-05-15 13:56:10] INFO root fetch - processPackages [spm1d]: Downloading https://files.pythonhosted.org/packages/6c/0f/7e90f0b10d88cf904ceddbdbc218573c58d13a6107fa54b2769d263bcaf9/spm1d-0.4.29.tar.gz
+[2024-05-15 13:56:10] INFO root fetch - processPackages [spm1d]: executing diffoscope
+[2024-05-15 13:56:10] INFO root fetch - processPackages [spm1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spm1d-0.4.28.tar.gz tmp/spm1d-0.4.29.tar.gz --markdown 20240515/s/spm1d/0.4.28-0.4.29/README.md --exclude *.pyd
+[2024-05-15 13:56:13] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.28.tar.gz]
+[2024-05-15 13:56:13] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.29.tar.gz]
+[2024-05-15 13:56:13] INFO root fetch - main [MainThread]: End processing [spm1d]: success
+[2024-05-15 13:56:13] INFO root fetch - main [MainThread]: Store serial: [23217210]
