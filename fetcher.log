@@ -20943,3 +20943,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:58:27] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.44.0.tar.gz]
 [2024-05-15 13:58:27] INFO root fetch - main [MainThread]: End processing [pulumi-ovh]: success
 [2024-05-15 13:58:27] INFO root fetch - main [MainThread]: Store serial: [23217221]
+[2024-05-15 14:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217221]
+[2024-05-15 14:00:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 14:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: staticjinjaplus
+[2024-05-15 14:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freva-deployment
+[2024-05-15 14:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: local-determinacy
+[2024-05-15 14:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amsdal_cli
+[2024-05-15 14:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mp2c
+[2024-05-15 14:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyDetektia
+[2024-05-15 14:00:36] INFO root fetch - processPackages [pyDetektia]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-15 14:00:36] INFO root fetch - processPackages [local-determinacy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 14:00:36] INFO root fetch - processPackages [freva-deployment]: New version: [2309.0.1] Old Version: [2309.0.0]
+[2024-05-15 14:00:36] INFO root fetch - processPackages [pyDetektia]: Downloading https://files.pythonhosted.org/packages/5a/6d/8aa276f24c1e20034c8e6e4a633d0c45cbb2a9ec49457333953742df93bf/pyDetektia-2.0.0.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [mp2c]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-15 14:00:36] INFO root fetch - processPackages [local-determinacy]: Downloading https://files.pythonhosted.org/packages/0a/31/06f9bfc63cbe555dd8cea33488ddbe0455ab3a06c6807bfdfdf8c51f924d/local_determinacy-0.1.2.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [amsdal_cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 14:00:36] INFO root fetch - processPackages [staticjinjaplus]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-15 14:00:36] INFO root fetch - processPackages [freva-deployment]: Downloading https://files.pythonhosted.org/packages/ff/1b/3cfda7255eb1cb435f16aebe97ba37ed3247386f8e7a74d19a7e55f2b13b/freva_deployment-2309.0.0.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [mp2c]: Downloading https://files.pythonhosted.org/packages/4a/79/292164426d5c75621a9f0703837564c36745c9e47cc1ca45c900ac983ae3/mp2c-0.0.2.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/80/17/03db05b032355547cc6b1cb11cf90a722be718c845d328a685cb44b2b6b8/staticjinjaplus-2.0.0.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/b1/2a/9a1fe1e569a982ea69cf606479e1349d2dbf1dead6d4533c56c7bb2de9eb/amsdal_cli-0.1.8.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [pyDetektia]: Downloading https://files.pythonhosted.org/packages/de/ca/99148c5eae9170453640b8d328b82051f8a509d87169e52d100ef60ed786/pyDetektia-2.0.1.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [local-determinacy]: Downloading https://files.pythonhosted.org/packages/34/2c/f5aee006a494d5119df702d63c973c459aa646ea160b17d30b049d50bafc/local_determinacy-0.1.3.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [pyDetektia]: executing diffoscope
+[2024-05-15 14:00:36] INFO root fetch - processPackages [pyDetektia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDetektia-2.0.0.tar.gz tmp/pyDetektia-2.0.1.tar.gz --markdown 20240515/p/pyDetektia/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-15 14:00:36] INFO root fetch - processPackages [local-determinacy]: executing diffoscope
+[2024-05-15 14:00:36] INFO root fetch - processPackages [local-determinacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_determinacy-0.1.2.tar.gz tmp/local_determinacy-0.1.3.tar.gz --markdown 20240515/l/local-determinacy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 14:00:36] INFO root fetch - processPackages [mp2c]: Downloading https://files.pythonhosted.org/packages/b3/d9/97840dd2283c9992eebf60803ede5bad7a1db1482df8db4eb3328241b0ed/mp2c-0.1.0.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [freva-deployment]: Downloading https://files.pythonhosted.org/packages/0e/fb/ed64911ea3bf29b3360872ac6de74db26856a5783e93b8cb6e1fd14a864e/freva_deployment-2309.0.1.tar.gz
+[2024-05-15 14:00:36] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/2f/53/fa45a5382c1a02211d1ffe3b9b7b6c0daec69b83196c28d5b54e18c74c02/staticjinjaplus-2.0.1.tar.gz
+[2024-05-15 14:00:37] INFO root fetch - processPackages [mp2c]: executing diffoscope
+[2024-05-15 14:00:37] INFO root fetch - processPackages [mp2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp2c-0.0.2.tar.gz tmp/mp2c-0.1.0.tar.gz --markdown 20240515/m/mp2c/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-15 14:00:37] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/2e/70/c1d522a5ebf5174e244cac677d1f74f68febc7768d2d7eca45d5aef1da7e/amsdal_cli-0.1.9.tar.gz
+[2024-05-15 14:00:37] INFO root fetch - processPackages [staticjinjaplus]: executing diffoscope
+[2024-05-15 14:00:37] INFO root fetch - processPackages [staticjinjaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticjinjaplus-2.0.0.tar.gz tmp/staticjinjaplus-2.0.1.tar.gz --markdown 20240515/s/staticjinjaplus/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-15 14:00:37] INFO root fetch - processPackages [freva-deployment]: executing diffoscope
+[2024-05-15 14:00:37] INFO root fetch - processPackages [freva-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freva_deployment-2309.0.0.tar.gz tmp/freva_deployment-2309.0.1.tar.gz --markdown 20240515/f/freva-deployment/2309.0.0-2309.0.1/README.md --exclude *.pyd
+[2024-05-15 14:00:37] INFO root fetch - processPackages [amsdal_cli]: executing diffoscope
+[2024-05-15 14:00:37] INFO root fetch - processPackages [amsdal_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_cli-0.1.8.tar.gz tmp/amsdal_cli-0.1.9.tar.gz --markdown 20240515/a/amsdal_cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 14:00:37] INFO root fetch - processPackages [pyDetektia]: Remove: archive file [/home/abi/fetcher/tmp/pyDetektia-2.0.0.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - processPackages [pyDetektia]: Remove: archive file [/home/abi/fetcher/tmp/pyDetektia-2.0.1.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - main [MainThread]: End processing [pyDetektia]: success
+[2024-05-15 14:00:37] INFO root fetch - processPackages [local-determinacy]: Remove: archive file [/home/abi/fetcher/tmp/local_determinacy-0.1.2.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - processPackages [local-determinacy]: Remove: archive file [/home/abi/fetcher/tmp/local_determinacy-0.1.3.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - main [MainThread]: End processing [local-determinacy]: success
+[2024-05-15 14:00:37] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-2.0.0.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-2.0.1.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - main [MainThread]: End processing [staticjinjaplus]: success
+[2024-05-15 14:00:37] INFO root fetch - processPackages [mp2c]: Remove: archive file [/home/abi/fetcher/tmp/mp2c-0.0.2.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - processPackages [mp2c]: Remove: archive file [/home/abi/fetcher/tmp/mp2c-0.1.0.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - main [MainThread]: End processing [mp2c]: success
+[2024-05-15 14:00:37] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.8.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.9.tar.gz]
+[2024-05-15 14:00:37] INFO root fetch - main [MainThread]: End processing [amsdal_cli]: success
+[2024-05-15 14:00:38] INFO root fetch - processPackages [freva-deployment]: Remove: archive file [/home/abi/fetcher/tmp/freva_deployment-2309.0.0.tar.gz]
+[2024-05-15 14:00:38] INFO root fetch - processPackages [freva-deployment]: Remove: archive file [/home/abi/fetcher/tmp/freva_deployment-2309.0.1.tar.gz]
+[2024-05-15 14:00:38] INFO root fetch - main [MainThread]: End processing [freva-deployment]: success
+[2024-05-15 14:00:38] INFO root fetch - main [MainThread]: Store serial: [23217238]
