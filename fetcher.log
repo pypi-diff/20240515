@@ -12711,3 +12711,88 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:42:00] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
 [2024-05-15 08:42:00] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
 [2024-05-15 08:42:00] INFO root fetch - main [MainThread]: Store serial: [23213675]
+[2024-05-15 08:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213675]
+[2024-05-15 08:44:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-esios
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EasyPage
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinjected
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-server-ux
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelscope-agent
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airouter
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idvpackage
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: purgatory
+[2024-05-15 08:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lavague
+[2024-05-15 08:44:09] INFO root fetch - processPackages [python-esios]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [lavague]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [tsugu]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [pinjected]: New version: [0.2.67] Old Version: [0.2.66]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [purgatory]: New version: [2.0.0] Old Version: [1.0.3]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [EasyPage]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [airouter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20240514.0] Old Version: [16.0.20240415.0]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [modelscope-agent]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-15 08:44:09] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-15 08:44:10] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/37/fe/72ad20ecf8a9608d81731d27578a7a926a2269dc13ad119af15c1a805adc/python_esios-0.1.1.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/bd/29/6ca2a2ec929438d2a3cb1a9de4b2ff08aaf4eccc2a07606b52b77becac45/pinjected-0.2.66.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1b/9c/18b03404495645fdfd5fdc181ea5157f2392eedb47405ca8fa6fcd826262/tsugu-1.0.0.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/cd/79/4ccc2878b7bf399df6dcd82ff429e9914f3a8a75a6c9a4ae04272f514ec9/EasyPage-0.0.5.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [purgatory]: Downloading https://files.pythonhosted.org/packages/89/be/f6e45ec38a85eb5b9b30e483d7258964978ed317ce092b113b9820ec6b83/purgatory-1.0.3.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/c2/30/531bab397333696a9f1093c60d081963d1ecd05afb57256361e442b1fefe/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl
+[2024-05-15 08:44:10] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/8a/3e/da06f92af428f5b70f43949f2e50c9b5f58563142fda79296230caf358d7/airouter-0.1.8.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [modelscope-agent]: Downloading https://files.pythonhosted.org/packages/50/bc/d27ef2c04b16f4c02b2a8abfd15b92a5ba011ac915fa1a6ba3bc09adf61d/modelscope-agent-0.5.0.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [python-esios]: Downloading https://files.pythonhosted.org/packages/d4/e0/8d1f05187baff5019107618a595c189985447a778d5635b0c4e3095f8f3d/python_esios-0.1.2.tar.gz
+[2024-05-15 08:44:10] WARNING root fetch - processPackages [modelscope-agent]: Skipping package: exceeds size limit 23378534>=10485760
+[2024-05-15 08:44:10] INFO root fetch - main [MainThread]: End processing [modelscope-agent] error
+[2024-05-15 08:44:10] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/60/cb/7b6033d655fe04e7fccb06f4409ba468218cb80c59d82064105a3e64f973/lavague-1.0.9.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/5c/be73ee6b35b8d1c7c0836cc4413ccd2d895a19af93cc9270013abd5cd0ac/tsugu-1.0.0rc1.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [python-esios]: executing diffoscope
+[2024-05-15 08:44:10] INFO root fetch - processPackages [python-esios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_esios-0.1.1.tar.gz tmp/python_esios-0.1.2.tar.gz --markdown 20240515/p/python-esios/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 08:44:10] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-05-15 08:44:10] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.8.tar.gz tmp/lavague-1.0.9.tar.gz --markdown 20240515/l/lavague/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 08:44:10] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/40/91/1b9a3a190b932c932ae833a79777be6181dbe783437132ae7c58da25a595/pinjected-0.2.67.tar.gz
+[2024-05-15 08:44:10] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-05-15 08:44:10] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-05-15 08:44:10] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-15 08:44:10] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-1.0.0.tar.gz tmp/tsugu-1.0.0rc1.tar.gz --markdown 20240515/t/tsugu/1.0.0-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-15 08:44:10] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/8d/ef/8db8afab47aaf8a89aaa4975e0bf615a001f7229e14e46051e5bb2ca92e6/EasyPage-0.0.6.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [purgatory]: Downloading https://files.pythonhosted.org/packages/cc/5e/087423e0e7957ec85bdf8857ef6453bf7391e0c9db4aa61561f0eaeb9a5b/purgatory-2.0.0.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/39/27/5156df70f90c527e327966ff2e071d56153b315106cc0d45596dd857100b/odoo_addons_oca_server_ux-16.0.20240514.0-py3-none-any.whl
+[2024-05-15 08:44:10] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/c4/d7/f6d9f500e0aa8354a4af24c90d8fc78305df63bb7b2133759b92be00e3e0/airouter-0.1.9.tar.gz
+[2024-05-15 08:44:10] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-15 08:44:10] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.66.tar.gz tmp/pinjected-0.2.67.tar.gz --markdown 20240515/p/pinjected/0.2.66-0.2.67/README.md --exclude *.pyd
+[2024-05-15 08:44:11] INFO root fetch - processPackages [purgatory]: executing diffoscope
+[2024-05-15 08:44:11] INFO root fetch - processPackages [purgatory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purgatory-1.0.3.tar.gz tmp/purgatory-2.0.0.tar.gz --markdown 20240515/p/purgatory/1.0.3-2.0.0/README.md --exclude *.pyd
+[2024-05-15 08:44:11] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-05-15 08:44:11] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.5.tar.gz tmp/EasyPage-0.0.6.tar.gz --markdown 20240515/E/EasyPage/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-15 08:44:11] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2024-05-15 08:44:11] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20240514.0-py3-none-any.whl.zip --markdown 20240515/o/odoo-addons-oca-server-ux/16.0.20240415.0-16.0.20240514.0/README.md --exclude *.pyd
+[2024-05-15 08:44:11] INFO root fetch - processPackages [airouter]: executing diffoscope
+[2024-05-15 08:44:11] INFO root fetch - processPackages [airouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airouter-0.1.8.tar.gz tmp/airouter-0.1.9.tar.gz --markdown 20240515/a/airouter/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 08:44:11] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.1.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.2.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - main [MainThread]: End processing [python-esios]: success
+[2024-05-15 08:44:11] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.9.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-05-15 08:44:11] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.0.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.0rc1.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-15 08:44:11] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.8.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.9.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - main [MainThread]: End processing [airouter]: success
+[2024-05-15 08:44:11] INFO root fetch - processPackages [purgatory]: Remove: archive file [/home/abi/fetcher/tmp/purgatory-1.0.3.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - processPackages [purgatory]: Remove: archive file [/home/abi/fetcher/tmp/purgatory-2.0.0.tar.gz]
+[2024-05-15 08:44:11] INFO root fetch - main [MainThread]: End processing [purgatory]: success
+[2024-05-15 08:44:11] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-05-15 08:44:11] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240514.0-py3-none-any.whl.zip]
+[2024-05-15 08:44:11] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2024-05-15 08:44:12] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.5.tar.gz]
+[2024-05-15 08:44:12] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.6.tar.gz]
+[2024-05-15 08:44:12] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-05-15 08:44:12] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.66.tar.gz]
+[2024-05-15 08:44:12] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.67.tar.gz]
+[2024-05-15 08:44:12] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-15 08:44:12] INFO root fetch - main [MainThread]: Store serial: [23213705]
