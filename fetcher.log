@@ -11903,3 +11903,38 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:55:27] INFO root fetch - processPackages [miniogre]: Remove: archive file [/home/abi/fetcher/tmp/miniogre-0.7.0.tar.gz]
 [2024-05-15 07:55:27] INFO root fetch - main [MainThread]: End processing [miniogre]: success
 [2024-05-15 07:55:27] INFO root fetch - main [MainThread]: Store serial: [23213337]
+[2024-05-15 07:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213337]
+[2024-05-15 07:57:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 07:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fnschool
+[2024-05-15 07:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boax
+[2024-05-15 07:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxcontrib-typer
+[2024-05-15 07:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckdb
+[2024-05-15 07:57:37] INFO root fetch - processPackages [fnschool]: New version: [20240515.322.21] Old Version: [20240515.1116.12]
+[2024-05-15 07:57:37] INFO root fetch - processPackages [sphinxcontrib-typer]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 07:57:37] INFO root fetch - processPackages [boax]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 07:57:37] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/28/45/bd44bee617c9fbb3d5fce1c0e7d2a9ff31bb07fd8b73ea8f52f0a12d0fc6/fnschool-20240515.1116.12.tar.gz
+[2024-05-15 07:57:37] INFO root fetch - processPackages [sphinxcontrib-typer]: Downloading https://files.pythonhosted.org/packages/95/0f/0c18c8e0f02e314884a9f18919b6153fc4e1de99080e66c4ce7869920a41/sphinxcontrib_typer-0.2.1.tar.gz
+[2024-05-15 07:57:37] INFO root fetch - processPackages [boax]: Downloading https://files.pythonhosted.org/packages/95/c7/d35a597dd3d2b461ec3cd2cb64780e61c4e03414465a8cee005d881b3735/boax-0.1.1.tar.gz
+[2024-05-15 07:57:37] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-15 07:57:37] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/fa/5e/b3ae58fe71be33a12f81c2709790f875e02a677e5cb137872ebe6b3e952d/fnschool-20240515.322.21.tar.gz
+[2024-05-15 07:57:38] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-15 07:57:38] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240515.1116.12.tar.gz tmp/fnschool-20240515.322.21.tar.gz --markdown 20240515/f/fnschool/20240515.1116.12-20240515.322.21/README.md --exclude *.pyd
+[2024-05-15 07:57:38] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-15 07:57:38] INFO root fetch - processPackages [sphinxcontrib-typer]: Downloading https://files.pythonhosted.org/packages/47/2d/19abd1aa85d1101da775e5540f3efde1840a68152a46a4de45eadadf5aa9/sphinxcontrib_typer-0.2.2.tar.gz
+[2024-05-15 07:57:38] INFO root fetch - processPackages [boax]: Downloading https://files.pythonhosted.org/packages/4f/78/8b0a5f754647734b4ade1a7f048686ca8b9424ac6756c7a3f689ac507c18/boax-0.1.2.tar.gz
+[2024-05-15 07:57:38] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-15 07:57:38] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-15 07:57:38] INFO root fetch - processPackages [sphinxcontrib-typer]: executing diffoscope
+[2024-05-15 07:57:38] INFO root fetch - processPackages [sphinxcontrib-typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_typer-0.2.1.tar.gz tmp/sphinxcontrib_typer-0.2.2.tar.gz --markdown 20240515/s/sphinxcontrib-typer/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 07:57:38] INFO root fetch - processPackages [boax]: executing diffoscope
+[2024-05-15 07:57:38] INFO root fetch - processPackages [boax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boax-0.1.1.tar.gz tmp/boax-0.1.2.tar.gz --markdown 20240515/b/boax/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 07:57:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240515.1116.12.tar.gz]
+[2024-05-15 07:57:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240515.322.21.tar.gz]
+[2024-05-15 07:57:38] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-15 07:57:38] INFO root fetch - processPackages [sphinxcontrib-typer]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_typer-0.2.1.tar.gz]
+[2024-05-15 07:57:38] INFO root fetch - processPackages [sphinxcontrib-typer]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_typer-0.2.2.tar.gz]
+[2024-05-15 07:57:38] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-typer]: success
+[2024-05-15 07:57:39] INFO root fetch - processPackages [boax]: Remove: archive file [/home/abi/fetcher/tmp/boax-0.1.1.tar.gz]
+[2024-05-15 07:57:39] INFO root fetch - processPackages [boax]: Remove: archive file [/home/abi/fetcher/tmp/boax-0.1.2.tar.gz]
+[2024-05-15 07:57:39] INFO root fetch - main [MainThread]: End processing [boax]: success
+[2024-05-15 07:57:39] INFO root fetch - main [MainThread]: Store serial: [23213358]
