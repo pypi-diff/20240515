@@ -10616,3 +10616,116 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 
 [2024-05-15 06:56:10] INFO root fetch - main [MainThread]: End processing [instructlab-quantize] error
 [2024-05-15 06:56:10] INFO root fetch - main [MainThread]: Store serial: [23212799]
+[2024-05-15 06:58:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212799]
+[2024-05-15 06:58:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 06:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instructlab-quantize
+[2024-05-15 06:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythfinder
+[2024-05-15 06:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datajunction-server
+[2024-05-15 06:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cxalio-studio-tools
+[2024-05-15 06:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-restit
+[2024-05-15 06:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mteb
+[2024-05-15 06:58:18] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 06:58:18] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-15 06:58:18] INFO root fetch - processPackages [pythfinder]: New version: [0.0.3.7] Old Version: [0.0.3.6]
+[2024-05-15 06:58:18] INFO root fetch - processPackages [instructlab-quantize]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 06:58:18] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.85]
+[2024-05-15 06:58:18] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-15 06:58:19] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/66/b5/40e237aaad7799ed298d175b5e7a69e7eaca0e934dd1e19551c531d43e9e/cxalio_studio_tools-0.1.8.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/6f/c1/cd15d3012c4e6da588a1679dad12e6d8087cc65356e68d6b3d433ab60f08/pythfinder-0.0.3.6.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/29/ae/92a70ed6301c83d2f3f8aa17b30d8de283faaa1488de96a74471c03076bc/django_restit-4.2.85.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [instructlab-quantize]: executing diffoscope
+[2024-05-15 06:58:19] INFO root fetch - processPackages [instructlab-quantize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructlab_quantize-0.0.4.tar.gz tmp/instructlab_quantize-0.0.5-py3-none-any.whl.zip --markdown 20240515/i/instructlab-quantize/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 06:58:19] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-15 06:58:19] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-15 06:58:19] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/da/40/10d87fad2228e4d2cbfe295a19ddd36bf281c0e7375be7a1603222bd9e23/cxalio_studio_tools-0.1.9.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/4c/cc/2ccfcad1e5c0fb8d999e6a6fbee27ca17a9f1fe3cb103795166b087f2622/pythfinder-0.0.3.7.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-15 06:58:19] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.8.tar.gz tmp/cxalio_studio_tools-0.1.9.tar.gz --markdown 20240515/c/cxalio-studio-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 06:58:19] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-15 06:58:19] INFO root fetch - processPackages [pythfinder]: executing diffoscope
+[2024-05-15 06:58:19] INFO root fetch - processPackages [pythfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythfinder-0.0.3.6.tar.gz tmp/pythfinder-0.0.3.7.tar.gz --markdown 20240515/p/pythfinder/0.0.3.6-0.0.3.7/README.md --exclude *.pyd
+[2024-05-15 06:58:19] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-15 06:58:19] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.85.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240515/d/django-restit/4.2.85-4.2.9/README.md --exclude *.pyd
+[2024-05-15 06:58:19] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-15 06:58:19] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240515/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-15 06:58:19] ERROR root fetch - processPackages [instructlab-quantize]: Diffoscope failed: time="2024-05-15T06:58:19+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/tar.py", line 39, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 133, in list_libarchive
+    with libarchive.file_reader(path) as archive:
+  File "/usr/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 85, in file_reader
+    ffi.read_open_filename_w(archive_p, path, block_size)
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcode=-30, archive_p=140129817599376)
+
+[2024-05-15 06:58:19] INFO root fetch - main [MainThread]: End processing [instructlab-quantize] error
+[2024-05-15 06:58:20] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.8.tar.gz]
+[2024-05-15 06:58:20] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.9.tar.gz]
+[2024-05-15 06:58:20] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-15 06:58:20] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.6.tar.gz]
+[2024-05-15 06:58:20] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.7.tar.gz]
+[2024-05-15 06:58:20] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
+[2024-05-15 06:58:21] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.85.tar.gz]
+[2024-05-15 06:58:21] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-15 06:58:21] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-15 06:58:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-15 06:58:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-15 06:58:22] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-15 06:58:22] INFO root fetch - main [MainThread]: Store serial: [23212818]
