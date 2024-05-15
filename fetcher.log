@@ -10932,3 +10932,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:15:41] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.0.tar.gz]
 [2024-05-15 07:15:41] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
 [2024-05-15 07:15:41] INFO root fetch - main [MainThread]: Store serial: [23212973]
+[2024-05-15 07:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212973]
+[2024-05-15 07:17:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-15 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socketsecurity
+[2024-05-15 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompt-learner
+[2024-05-15 07:17:50] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.51] Old Version: [0.0.50]
+[2024-05-15 07:17:50] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/48/cc/c9641b61c7d53349d289bc35db19d1f5bc6f1e39fd66786126c7bb6b1ee0/socketsecurity-0.0.50-py3-none-any.whl
+[2024-05-15 07:17:50] INFO root fetch - processPackages [prompt-learner]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-15 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-15 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-15 07:17:50] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/be/70/7c678ebef1bd300bff5f2cb53acc2b3d17a522f5631d599782aad04ff728/prompt_learner-0.2.3.tar.gz
+[2024-05-15 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-15 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-15 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240515/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-15 07:17:50] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/38/b0/8bcb5a4f87f49f2be9232163b97600042274216ebfc0b65dfac197ab1a67/socketsecurity-0.0.51-py3-none-any.whl
+[2024-05-15 07:17:50] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/3e/b2/0c7b94c81296a55935f2362381c24f3166bf7496df0ea365d0dca3b02379/prompt_learner-0.2.4.tar.gz
+[2024-05-15 07:17:51] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-15 07:17:51] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.2.3.tar.gz tmp/prompt_learner-0.2.4.tar.gz --markdown 20240515/p/prompt-learner/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-15 07:17:51] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-15 07:17:51] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.50-py3-none-any.whl.zip tmp/socketsecurity-0.0.51-py3-none-any.whl.zip --markdown 20240515/s/socketsecurity/0.0.50-0.0.51/README.md --exclude *.pyd
+[2024-05-15 07:17:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-15 07:17:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-15 07:17:51] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-15 07:17:51] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.3.tar.gz]
+[2024-05-15 07:17:51] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.4.tar.gz]
+[2024-05-15 07:17:51] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-15 07:17:51] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.50-py3-none-any.whl.zip]
+[2024-05-15 07:17:51] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.51-py3-none-any.whl.zip]
+[2024-05-15 07:17:51] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-15 07:17:51] INFO root fetch - main [MainThread]: Store serial: [23212992]
