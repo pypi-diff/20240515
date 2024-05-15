@@ -9647,3 +9647,51 @@
 [2024-05-15 05:54:43] INFO root fetch - processPackages [hmmer]: Remove: archive file [/home/abi/fetcher/tmp/hmmer-3.4.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-15 05:54:43] INFO root fetch - main [MainThread]: End processing [hmmer]: success
 [2024-05-15 05:54:43] INFO root fetch - main [MainThread]: Store serial: [23212405]
+[2024-05-15 05:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212405]
+[2024-05-15 05:56:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogenstudio
+[2024-05-15 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-ad
+[2024-05-15 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scorecard-ai
+[2024-05-15 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mat3ra-code
+[2024-05-15 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoto-api
+[2024-05-15 05:56:52] INFO root fetch - processPackages [pih-ad]: New version: [0.16] Old Version: [0.15]
+[2024-05-15 05:56:52] INFO root fetch - processPackages [scorecard-ai]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2024-05-15 05:56:52] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-15 05:56:52] INFO root fetch - processPackages [autogenstudio]: New version: [0.0.9a0] Old Version: [0.0.56rc9]
+[2024-05-15 05:56:52] INFO root fetch - processPackages [scorecard-ai]: Downloading https://files.pythonhosted.org/packages/c2/5d/d1d719b64ded6af0f2b0fcbc902bcd38d8317c0929c2d2e580b59934371a/scorecard_ai-1.0.0b0.tar.gz
+[2024-05-15 05:56:52] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/54/04/797ba6da6c0c68c03a6d15e20935b43d9a46f6252618a4c367f1698c4e36/pih-ad-0.15.tar.gz
+[2024-05-15 05:56:52] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-15 05:56:52] INFO root fetch - processPackages [mat3ra-code]: New version: [2024.5.15.post0] Old Version: [2024.4.8.post0]
+[2024-05-15 05:56:53] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/9e/b5/4a22e724c3bea410ad62eec69d7b259da30a5e3e70dc760748341bf742de/autogenstudio-0.0.56rc9.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [mat3ra-code]: Downloading https://files.pythonhosted.org/packages/70/32/8ad0889989078e8e5c521f7f4b02e8fc4ea451f9896e5a412919d16780b9/mat3ra-code-2024.4.8.post0.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/2c/45/593204226924be64fee1f1ea4430fd5629c684dbfffd942e400b1f77749f/pih-ad-0.16.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [scorecard-ai]: Downloading https://files.pythonhosted.org/packages/f8/ad/141b14ad925a88a10969e9e88baae7009a99f16058a32b2916460390dacb/scorecard_ai-1.0.0b1.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [pih-ad]: executing diffoscope
+[2024-05-15 05:56:53] INFO root fetch - processPackages [pih-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ad-0.15.tar.gz tmp/pih-ad-0.16.tar.gz --markdown 20240515/p/pih-ad/0.15-0.16/README.md --exclude *.pyd
+[2024-05-15 05:56:53] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-15 05:56:53] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240515/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-15 05:56:53] INFO root fetch - processPackages [scorecard-ai]: executing diffoscope
+[2024-05-15 05:56:53] INFO root fetch - processPackages [scorecard-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecard_ai-1.0.0b0.tar.gz tmp/scorecard_ai-1.0.0b1.tar.gz --markdown 20240515/s/scorecard-ai/1.0.0b0-1.0.0b1/README.md --exclude *.pyd
+[2024-05-15 05:56:53] INFO root fetch - processPackages [mat3ra-code]: Downloading https://files.pythonhosted.org/packages/ce/df/a9f84bbbd8c42d8213dacefa980091c1e13bb31241130f5aa631ea12cbb4/mat3ra_code-2024.5.15.post0.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b6/ab/0ad5a0b106081784151cc4d4bbde768308b75ee7095fed289546d596ea5a/autogenstudio-0.0.9a0.tar.gz
+[2024-05-15 05:56:53] INFO root fetch - processPackages [autogenstudio]: executing diffoscope
+[2024-05-15 05:56:53] INFO root fetch - processPackages [autogenstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogenstudio-0.0.56rc9.tar.gz tmp/autogenstudio-0.0.9a0.tar.gz --markdown 20240515/a/autogenstudio/0.0.56rc9-0.0.9a0/README.md --exclude *.pyd
+[2024-05-15 05:56:53] INFO root fetch - processPackages [mat3ra-code]: executing diffoscope
+[2024-05-15 05:56:53] INFO root fetch - processPackages [mat3ra-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-code-2024.4.8.post0.tar.gz tmp/mat3ra_code-2024.5.15.post0.tar.gz --markdown 20240515/m/mat3ra-code/2024.4.8.post0-2024.5.15.post0/README.md --exclude *.pyd
+[2024-05-15 05:56:53] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-15 05:56:53] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-15 05:56:53] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-15 05:56:53] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.15.tar.gz]
+[2024-05-15 05:56:53] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.16.tar.gz]
+[2024-05-15 05:56:53] INFO root fetch - main [MainThread]: End processing [pih-ad]: success
+[2024-05-15 05:56:54] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-1.0.0b0.tar.gz]
+[2024-05-15 05:56:54] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-1.0.0b1.tar.gz]
+[2024-05-15 05:56:54] INFO root fetch - main [MainThread]: End processing [scorecard-ai]: success
+[2024-05-15 05:56:54] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.56rc9.tar.gz]
+[2024-05-15 05:56:54] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
+[2024-05-15 05:56:54] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
+[2024-05-15 05:56:54] INFO root fetch - processPackages [mat3ra-code]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-code-2024.4.8.post0.tar.gz]
+[2024-05-15 05:56:54] INFO root fetch - processPackages [mat3ra-code]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_code-2024.5.15.post0.tar.gz]
+[2024-05-15 05:56:54] INFO root fetch - main [MainThread]: End processing [mat3ra-code]: success
+[2024-05-15 05:56:54] INFO root fetch - main [MainThread]: Store serial: [23212454]
