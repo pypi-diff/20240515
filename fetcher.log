@@ -16036,3 +16036,53 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:49:34] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-15 10:49:34] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-15 10:49:34] INFO root fetch - main [MainThread]: Store serial: [23215049]
+[2024-05-15 10:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215049]
+[2024-05-15 10:51:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msiaLex
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agridable
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xsar
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aily-code-sdk-core
+[2024-05-15 10:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: continuedfractions
+[2024-05-15 10:51:44] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-15 10:51:44] INFO root fetch - processPackages [continuedfractions]: New version: [0.12.3] Old Version: [0.12.2]
+[2024-05-15 10:51:44] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240515.8.50.878656] Old Version: [20240514.9.47.795130]
+[2024-05-15 10:51:44] INFO root fetch - processPackages [xsar]: New version: [2024.5.15] Old Version: [2024.4.24]
+[2024-05-15 10:51:44] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-15 10:51:44] WARNING root fetch - processPackages [agridable]: Skipping, unable to determine old version
+[2024-05-15 10:51:44] INFO root fetch - main [MainThread]: End processing [agridable] error
+[2024-05-15 10:51:44] WARNING root fetch - processPackages [aily-code-sdk-core]: Skipping, unable to determine old version
+[2024-05-15 10:51:44] INFO root fetch - main [MainThread]: End processing [aily-code-sdk-core] error
+[2024-05-15 10:51:44] INFO root fetch - processPackages [continuedfractions]: Downloading https://files.pythonhosted.org/packages/f6/9f/51d5e55a069351d286ff0c810eb43526fbc7ef4e2f72f13215ef900048f9/continuedfractions-0.12.2.tar.gz
+[2024-05-15 10:51:44] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.92] Old Version: [3.2.91]
+[2024-05-15 10:51:44] INFO root fetch - processPackages [xsar]: Downloading https://files.pythonhosted.org/packages/7c/bc/b34c6ef329ec7497eaef24ab0e4f1e0896ca2d0a3edb3faae14ed03a060f/xsar-2024.4.24.tar.gz
+[2024-05-15 10:51:44] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fe/b5/6b8ad76420e95ce7f1b3d93faf80a1f26301fcdc9e3979baaa32414adbf6/certora-cli-alpha-master-20240514.9.47.795130.tar.gz
+[2024-05-15 10:51:44] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14511969>=10485760
+[2024-05-15 10:51:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-15 10:51:44] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-15 10:51:44] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/fb/82/e2316fe7b409c30cb99f4554985b9b1c712d13155ab088a22ce2002f2545/bridgecrew-3.2.91.tar.gz
+[2024-05-15 10:51:44] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 10:51:44] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-15 10:51:44] INFO root fetch - processPackages [continuedfractions]: Downloading https://files.pythonhosted.org/packages/4c/f9/0d2e0ae84fd8ce9625cbdb8b0477dc2e7f34a5532ac816f6a921ab9f16b5/continuedfractions-0.12.3.tar.gz
+[2024-05-15 10:51:44] INFO root fetch - processPackages [continuedfractions]: executing diffoscope
+[2024-05-15 10:51:44] INFO root fetch - processPackages [continuedfractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuedfractions-0.12.2.tar.gz tmp/continuedfractions-0.12.3.tar.gz --markdown 20240515/c/continuedfractions/0.12.2-0.12.3/README.md --exclude *.pyd
+[2024-05-15 10:51:44] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/2e/db/54483056103f6b335f3ebeac4b735574917ecda60f343c0faff3592ab74d/bridgecrew-3.2.92.tar.gz
+[2024-05-15 10:51:44] INFO root fetch - processPackages [xsar]: Downloading https://files.pythonhosted.org/packages/e4/ef/ad583c09185c5df73a43e2a806c58522e461665916d72b270c2147a522d0/xsar-2024.5.15.tar.gz
+[2024-05-15 10:51:44] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-15 10:51:44] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.91.tar.gz tmp/bridgecrew-3.2.92.tar.gz --markdown 20240515/b/bridgecrew/3.2.91-3.2.92/README.md --exclude *.pyd
+[2024-05-15 10:51:45] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-15 10:51:45] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-15 10:51:45] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 10:51:45] INFO root fetch - processPackages [continuedfractions]: Remove: archive file [/home/abi/fetcher/tmp/continuedfractions-0.12.2.tar.gz]
+[2024-05-15 10:51:45] INFO root fetch - processPackages [continuedfractions]: Remove: archive file [/home/abi/fetcher/tmp/continuedfractions-0.12.3.tar.gz]
+[2024-05-15 10:51:45] INFO root fetch - main [MainThread]: End processing [continuedfractions]: success
+[2024-05-15 10:51:45] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.91.tar.gz]
+[2024-05-15 10:51:45] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.92.tar.gz]
+[2024-05-15 10:51:45] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-15 10:51:45] INFO root fetch - processPackages [xsar]: executing diffoscope
+[2024-05-15 10:51:45] INFO root fetch - processPackages [xsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsar-2024.4.24.tar.gz tmp/xsar-2024.5.15.tar.gz --markdown 20240515/x/xsar/2024.4.24-2024.5.15/README.md --exclude *.pyd
+[2024-05-15 10:51:46] INFO root fetch - processPackages [xsar]: Remove: archive file [/home/abi/fetcher/tmp/xsar-2024.4.24.tar.gz]
+[2024-05-15 10:51:46] INFO root fetch - processPackages [xsar]: Remove: archive file [/home/abi/fetcher/tmp/xsar-2024.5.15.tar.gz]
+[2024-05-15 10:51:46] INFO root fetch - main [MainThread]: End processing [xsar]: success
+[2024-05-15 10:51:46] INFO root fetch - main [MainThread]: Store serial: [23215074]
