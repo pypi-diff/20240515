@@ -18601,3 +18601,54 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:16:03] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.3.0.tar.gz]
 [2024-05-15 12:16:03] INFO root fetch - main [MainThread]: End processing [py-app-dev]: success
 [2024-05-15 12:16:03] INFO root fetch - main [MainThread]: Store serial: [23216329]
+[2024-05-15 12:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216329]
+[2024-05-15 12:18:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 12:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-app-dev
+[2024-05-15 12:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libvirt-provider
+[2024-05-15 12:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: silgeai
+[2024-05-15 12:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smol_k8s_lab
+[2024-05-15 12:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartcitizen-connector
+[2024-05-15 12:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-prep-toolkit-kfp
+[2024-05-15 12:18:12] INFO root fetch - processPackages [py-app-dev]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-15 12:18:12] INFO root fetch - processPackages [py-app-dev]: Downloading https://files.pythonhosted.org/packages/07/45/aca965930ef8515ef5600c5aa2ea79cdf35c4feb503ebc8974cdeb44e0fd/py_app_dev-2.2.0.tar.gz
+[2024-05-15 12:18:12] INFO root fetch - processPackages [libvirt-provider]: New version: [0.0.0a7] Old Version: [0.0.0a6]
+[2024-05-15 12:18:12] INFO root fetch - processPackages [smartcitizen-connector]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-15 12:18:12] WARNING root fetch - processPackages [silgeai]: Skipping, unable to determine old version
+[2024-05-15 12:18:12] INFO root fetch - processPackages [smol_k8s_lab]: New version: [5.0.0] Old Version: [4.0.2]
+[2024-05-15 12:18:12] INFO root fetch - main [MainThread]: End processing [silgeai] error
+[2024-05-15 12:18:12] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-15 12:18:12] INFO root fetch - processPackages [libvirt-provider]: Downloading https://files.pythonhosted.org/packages/8a/fb/08a2bd792f61428972a7e60bce3cf10446b563f315f424af8dee97bb2ce3/libvirt_provider-0.0.0a6.tar.gz
+[2024-05-15 12:18:12] INFO root fetch - processPackages [py-app-dev]: Downloading https://files.pythonhosted.org/packages/6b/8d/3f41ae9ac8bb9706f5a82df596ee675c467ddd46ff9688ccd62255e0d5c3/py_app_dev-2.3.0.tar.gz
+[2024-05-15 12:18:12] INFO root fetch - processPackages [smartcitizen-connector]: Downloading https://files.pythonhosted.org/packages/68/9f/42908a036fbdea72a7de9e1502d3ae942d3df638e1a7d652fa7d65bbccd1/smartcitizen_connector-1.0.4.tar.gz
+[2024-05-15 12:18:12] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/77/32/e1870ff2cf3cfa8aa67341ed691e5828aa67e0420b4dad5cc2db29038c25/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz
+[2024-05-15 12:18:12] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/e8/34/1bf9a99e56718109d5786ea2690d553e44135bddef205644edef5bda59ba/smol_k8s_lab-4.0.2.tar.gz
+[2024-05-15 12:18:13] INFO root fetch - processPackages [py-app-dev]: executing diffoscope
+[2024-05-15 12:18:13] INFO root fetch - processPackages [py-app-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_app_dev-2.2.0.tar.gz tmp/py_app_dev-2.3.0.tar.gz --markdown 20240515/p/py-app-dev/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-15 12:18:13] INFO root fetch - processPackages [libvirt-provider]: Downloading https://files.pythonhosted.org/packages/a2/f1/7ae8448a4db051439d1ae980ceb4546def5921c1d9d1ae7975f3be03eb69/libvirt_provider-0.0.0a7.tar.gz
+[2024-05-15 12:18:13] INFO root fetch - processPackages [libvirt-provider]: executing diffoscope
+[2024-05-15 12:18:13] INFO root fetch - processPackages [libvirt-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt_provider-0.0.0a6.tar.gz tmp/libvirt_provider-0.0.0a7.tar.gz --markdown 20240515/l/libvirt-provider/0.0.0a6-0.0.0a7/README.md --exclude *.pyd
+[2024-05-15 12:18:13] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-15 12:18:13] INFO root fetch - processPackages [smartcitizen-connector]: Downloading https://files.pythonhosted.org/packages/02/3e/6a16bd7d198e595e4e50d60394f82350746ea45d61c4ff1acbe680697659/smartcitizen_connector-1.0.5.tar.gz
+[2024-05-15 12:18:13] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/68/4c/a6aab0463c9f805621294334b282bed1b3538cac51222d46c61d423a2c19/smol_k8s_lab-5.0.0.tar.gz
+[2024-05-15 12:18:13] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-15 12:18:13] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz --markdown 20240515/d/data-prep-toolkit-kfp/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-15 12:18:13] INFO root fetch - processPackages [smartcitizen-connector]: executing diffoscope
+[2024-05-15 12:18:13] INFO root fetch - processPackages [smartcitizen-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartcitizen_connector-1.0.4.tar.gz tmp/smartcitizen_connector-1.0.5.tar.gz --markdown 20240515/s/smartcitizen-connector/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-15 12:18:13] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.2.0.tar.gz]
+[2024-05-15 12:18:13] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.3.0.tar.gz]
+[2024-05-15 12:18:13] INFO root fetch - main [MainThread]: End processing [py-app-dev]: success
+[2024-05-15 12:18:13] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-05-15 12:18:13] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-4.0.2.tar.gz tmp/smol_k8s_lab-5.0.0.tar.gz --markdown 20240515/s/smol_k8s_lab/4.0.2-5.0.0/README.md --exclude *.pyd
+[2024-05-15 12:18:13] INFO root fetch - processPackages [libvirt-provider]: Remove: archive file [/home/abi/fetcher/tmp/libvirt_provider-0.0.0a6.tar.gz]
+[2024-05-15 12:18:13] INFO root fetch - processPackages [libvirt-provider]: Remove: archive file [/home/abi/fetcher/tmp/libvirt_provider-0.0.0a7.tar.gz]
+[2024-05-15 12:18:13] INFO root fetch - main [MainThread]: End processing [libvirt-provider]: success
+[2024-05-15 12:18:14] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz]
+[2024-05-15 12:18:14] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-15 12:18:14] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-15 12:18:14] INFO root fetch - processPackages [smartcitizen-connector]: Remove: archive file [/home/abi/fetcher/tmp/smartcitizen_connector-1.0.4.tar.gz]
+[2024-05-15 12:18:14] INFO root fetch - processPackages [smartcitizen-connector]: Remove: archive file [/home/abi/fetcher/tmp/smartcitizen_connector-1.0.5.tar.gz]
+[2024-05-15 12:18:14] INFO root fetch - main [MainThread]: End processing [smartcitizen-connector]: success
+[2024-05-15 12:18:15] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-4.0.2.tar.gz]
+[2024-05-15 12:18:15] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.0.0.tar.gz]
+[2024-05-15 12:18:15] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-05-15 12:18:15] INFO root fetch - main [MainThread]: Store serial: [23216346]
