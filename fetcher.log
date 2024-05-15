@@ -19165,3 +19165,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:40:12] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.0.1.tar.gz]
 [2024-05-15 12:40:12] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
 [2024-05-15 12:40:12] INFO root fetch - main [MainThread]: Store serial: [23216525]
+[2024-05-15 12:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216525]
+[2024-05-15 12:42:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 12:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-fill-one-line
+[2024-05-15 12:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prediction-market-agent-tooling
+[2024-05-15 12:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt
+[2024-05-15 12:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachat
+[2024-05-15 12:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythfinder
+[2024-05-15 12:42:21] INFO root fetch - processPackages [pythfinder]: New version: [0.0.3.9] Old Version: [0.0.3.8]
+[2024-05-15 12:42:21] INFO root fetch - processPackages [flake8-fill-one-line]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-15 12:42:21] INFO root fetch - processPackages [gigachat]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 12:42:21] INFO root fetch - processPackages [flake8-fill-one-line]: Downloading https://files.pythonhosted.org/packages/53/ec/49581c0be2520974683d66dedaa9fdd525d6e4579c8f1b0a86360d595e05/flake8-fill-one-line-0.4.0.tar.gz
+[2024-05-15 12:42:21] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-15 12:42:21] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/1d/78/53eb0872682a35a6a45a2adbef0a041ee29d6e59a1abdfaf472bdc6ec2bb/pythfinder-0.0.3.8.tar.gz
+[2024-05-15 12:42:21] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-15 12:42:21] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/17/43/72686c3ff7a5a9dff3e8225d3d2adabd18547a099a44f444fdae75eab89e/gigachat-0.1.8.tar.gz
+[2024-05-15 12:42:21] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [flake8-fill-one-line]: Downloading https://files.pythonhosted.org/packages/af/28/a3a2581772e925026be26afb2fd54ed216f27fa579aab298c6b43ed2dfdc/flake8_fill_one_line-0.4.1.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [flake8-fill-one-line]: executing diffoscope
+[2024-05-15 12:42:22] INFO root fetch - processPackages [flake8-fill-one-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-fill-one-line-0.4.0.tar.gz tmp/flake8_fill_one_line-0.4.1.tar.gz --markdown 20240515/f/flake8-fill-one-line/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-15 12:42:22] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/66/bf/64825e2a8664391ac440af566d7e0bc086113eb9e01cc3023c46c7652c0c/gigachat-0.1.9.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/07/a2/5af198d7f1c8395aac85d29b146be49ebaa33e43adfec94bda8e8c297bd3/pythfinder-0.0.3.9.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [gigachat]: executing diffoscope
+[2024-05-15 12:42:22] INFO root fetch - processPackages [gigachat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachat-0.1.8.tar.gz tmp/gigachat-0.1.9.tar.gz --markdown 20240515/g/gigachat/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 12:42:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-05-15 12:42:22] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240515/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-15 12:42:22] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-15 12:42:22] INFO root fetch - processPackages [pythfinder]: executing diffoscope
+[2024-05-15 12:42:22] INFO root fetch - processPackages [pythfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythfinder-0.0.3.8.tar.gz tmp/pythfinder-0.0.3.9.tar.gz --markdown 20240515/p/pythfinder/0.0.3.8-0.0.3.9/README.md --exclude *.pyd
+[2024-05-15 12:42:22] INFO root fetch - processPackages [flake8-fill-one-line]: Remove: archive file [/home/abi/fetcher/tmp/flake8-fill-one-line-0.4.0.tar.gz]
+[2024-05-15 12:42:22] INFO root fetch - processPackages [flake8-fill-one-line]: Remove: archive file [/home/abi/fetcher/tmp/flake8_fill_one_line-0.4.1.tar.gz]
+[2024-05-15 12:42:22] INFO root fetch - main [MainThread]: End processing [flake8-fill-one-line]: success
+[2024-05-15 12:42:22] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.8.tar.gz]
+[2024-05-15 12:42:22] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.9.tar.gz]
+[2024-05-15 12:42:22] INFO root fetch - main [MainThread]: End processing [gigachat]: success
+[2024-05-15 12:42:23] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-15 12:42:23] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240515/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-15 12:42:23] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-05-15 12:42:23] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-05-15 12:42:23] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-05-15 12:42:23] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.8.tar.gz]
+[2024-05-15 12:42:23] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.9.tar.gz]
+[2024-05-15 12:42:23] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
+[2024-05-15 12:42:27] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-15 12:42:27] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-15 12:42:27] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-15 12:42:27] INFO root fetch - main [MainThread]: Store serial: [23216538]
