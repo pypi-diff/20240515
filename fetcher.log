@@ -8799,3 +8799,42 @@
 [2024-05-15 05:06:23] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.70.tar.gz]
 [2024-05-15 05:06:23] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-15 05:06:23] INFO root fetch - main [MainThread]: Store serial: [23212005]
+[2024-05-15 05:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212005]
+[2024-05-15 05:08:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 05:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformer-engine-build-tools-tmp2
+[2024-05-15 05:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: niwatoko
+[2024-05-15 05:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: todder
+[2024-05-15 05:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-bccr
+[2024-05-15 05:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: podgenai
+[2024-05-15 05:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AICelltype
+[2024-05-15 05:08:33] WARNING root fetch - processPackages [podgenai]: Skipping, unable to determine old version
+[2024-05-15 05:08:33] INFO root fetch - main [MainThread]: End processing [podgenai] error
+[2024-05-15 05:08:33] INFO root fetch - processPackages [niwatoko]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-15 05:08:33] INFO root fetch - processPackages [AICelltype]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 05:08:33] WARNING root fetch - processPackages [transformer-engine-build-tools-tmp2]: Skipping, unable to determine old version
+[2024-05-15 05:08:33] INFO root fetch - main [MainThread]: End processing [transformer-engine-build-tools-tmp2] error
+[2024-05-15 05:08:33] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/67/ee/3790d4727b021460073ed474b9078fee5573fa54c970683af1a2d3b1ff18/niwatoko-1.2.0.tar.gz
+[2024-05-15 05:08:33] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/91/35/cf1a79d7224abfd8789c8efa7a9a7eacd52373f3d08ec2010128a877bfee/aicelltype-0.0.3.tar.gz
+[2024-05-15 05:08:33] WARNING root fetch - processPackages [todder]: Skipping, unable to determine old version
+[2024-05-15 05:08:33] INFO root fetch - main [MainThread]: End processing [todder] error
+[2024-05-15 05:08:33] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.18.35]
+[2024-05-15 05:08:33] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/46/c5/141b61dbd3e4b131965f8867f7d003cca257fab82ba6b91fbb96d3f6da9d/aicelltype-0.0.4.tar.gz
+[2024-05-15 05:08:33] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/46/de/f92320e23552d02aeeb01d063dce64b784d35222b1937dd36ba33b475949/antchain_bccr-1.18.35.tar.gz
+[2024-05-15 05:08:33] INFO root fetch - processPackages [AICelltype]: executing diffoscope
+[2024-05-15 05:08:33] INFO root fetch - processPackages [AICelltype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicelltype-0.0.3.tar.gz tmp/aicelltype-0.0.4.tar.gz --markdown 20240515/A/AICelltype/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 05:08:33] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/b5/0b/ce8d2a4222c8c28c4e2f316f3ae6304b1b255bcece64b46dad2444ca0898/niwatoko-1.2.1.tar.gz
+[2024-05-15 05:08:33] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-15 05:08:33] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.2.0.tar.gz tmp/niwatoko-1.2.1.tar.gz --markdown 20240515/n/niwatoko/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-15 05:08:33] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2024-05-15 05:08:34] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.3.tar.gz]
+[2024-05-15 05:08:34] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.4.tar.gz]
+[2024-05-15 05:08:34] INFO root fetch - main [MainThread]: End processing [AICelltype]: success
+[2024-05-15 05:08:34] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.2.0.tar.gz]
+[2024-05-15 05:08:34] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.2.1.tar.gz]
+[2024-05-15 05:08:34] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-15 05:08:34] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2024-05-15 05:08:34] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.18.35.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20240515/a/antchain-bccr/1.18.35-1.8.15/README.md --exclude *.pyd
+[2024-05-15 05:08:35] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.18.35.tar.gz]
+[2024-05-15 05:08:35] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2024-05-15 05:08:35] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2024-05-15 05:08:35] INFO root fetch - main [MainThread]: Store serial: [23212026]
