@@ -15650,3 +15650,95 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:38:22] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.2.tar.gz]
 [2024-05-15 10:38:22] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
 [2024-05-15 10:38:22] INFO root fetch - main [MainThread]: Store serial: [23214878]
+[2024-05-15 10:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214878]
+[2024-05-15 10:40:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmlstore
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill-pg
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibm-aigov-facts-client
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkov
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jax-tqdm
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blue-cwl
+[2024-05-15 10:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-ns1
+[2024-05-15 10:40:31] INFO root fetch - processPackages [kuzu]: New version: [0.4.2.dev7] Old Version: [0.4.2.dev6]
+[2024-05-15 10:40:31] WARNING root fetch - processPackages [blue-cwl]: Skipping, unable to determine old version
+[2024-05-15 10:40:31] INFO root fetch - processPackages [blue-cwl]: Start processing: pytwin
+[2024-05-15 10:40:31] INFO root fetch - main [MainThread]: End processing [blue-cwl] error
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [checkov]: New version: [3.2.92] Old Version: [3.2.91]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [xmlstore]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [ibm-aigov-facts-client]: New version: [1.0.73] Old Version: [1.0.72]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [jax-tqdm]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1715761100] Old Version: [3.3.0a1715337834]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [pytwin]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-15 10:40:31] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a9/f4/db1151cb9463fc404337f6d7934a2130725b994b14c9da117616fda3d294/kuzu-0.4.2.dev6.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/6a/14/aa1f8c59322ce28769db0586a1731f56577250a990032b66768fcca606b4/ibm_aigov_facts_client-1.0.72-py3-none-any.whl
+[2024-05-15 10:40:31] INFO root fetch - processPackages [pytwin]: Downloading https://files.pythonhosted.org/packages/cc/63/8ccf08ec6b8dacbf78c68bfe5b834e2dd3dc4f45a18a3095b6b0fa7175e3/pytwin-0.6.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [xmlstore]: Downloading https://files.pythonhosted.org/packages/b7/91/f12d3a041e81383db0efc48a1d36ced2bbf4041552e08bdd4fcc838f5095/xmlstore-0.9.8-py2.py3-none-any.whl
+[2024-05-15 10:40:31] INFO root fetch - processPackages [jax-tqdm]: Downloading https://files.pythonhosted.org/packages/b1/7a/4700283b547ccdf8ea4e9d0aa3fc8d0fc436fdb2816dc9135dd40966d39e/jax_tqdm-0.2.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/44/05/5534001b6511eb2f940ec59f023de64cd2cd1e933a254775ff8de65668a8/checkov-3.2.91.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/f2/e7/7acc18881b24f0a1ee714c82c7461231fdd1a7d9c49f7e253d8e0cab8a4b/pulumi_ns1-3.3.0a1715337834.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-15 10:40:31] WARNING root fetch - processPackages [pytwin]: Skipping package: exceeds size limit 24081806>=10485760
+[2024-05-15 10:40:31] INFO root fetch - main [MainThread]: End processing [pytwin] error
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240515/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-15 10:40:31] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240515/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/81/b1/938016bedc8ee1ef69cfc35ada5e28d5ecf640c7484479f4d4abad783333/ibm_aigov_facts_client-1.0.73-py3-none-any.whl
+[2024-05-15 10:40:32] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240515/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [jax-tqdm]: Downloading https://files.pythonhosted.org/packages/d3/9b/21e29629d5ee9269b761f3c6be8ba45babc099ff45d4abf06fc2407c2e35/jax_tqdm-0.2.1.tar.gz
+[2024-05-15 10:40:32] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/6e/87/865a3474b325b0c01cf702e258365f8fac672354f75bd422325d72b48ca5/pulumi_ns1-3.3.0a1715761100.tar.gz
+[2024-05-15 10:40:32] INFO root fetch - processPackages [xmlstore]: Downloading https://files.pythonhosted.org/packages/9c/55/64a0bc6163dc6f38934ce72d1467f1a6cfd3c641132b396285861b7ff46e/xmlstore-0.9.9-py2.py3-none-any.whl
+[2024-05-15 10:40:32] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/c8/a1/8abacf247bc1cf8583b3a8fb994a4702726ff34802bc4364abefb8dd3302/checkov-3.2.92.tar.gz
+[2024-05-15 10:40:32] INFO root fetch - processPackages [ibm-aigov-facts-client]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [ibm-aigov-facts-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_aigov_facts_client-1.0.72-py3-none-any.whl.zip tmp/ibm_aigov_facts_client-1.0.73-py3-none-any.whl.zip --markdown 20240515/i/ibm-aigov-facts-client/1.0.72-1.0.73/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [jax-tqdm]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [jax-tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_tqdm-0.2.0.tar.gz tmp/jax_tqdm-0.2.1.tar.gz --markdown 20240515/j/jax-tqdm/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/9c/29/a12119ae3cce9be0f2b48ab95a80a2df2da2ecb26d5d25dd9231310d4387/kuzu-0.4.2.dev7.tar.gz
+[2024-05-15 10:40:32] INFO root fetch - processPackages [xmlstore]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [xmlstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlstore-0.9.8-py2.py3-none-any.whl.zip tmp/xmlstore-0.9.9-py2.py3-none-any.whl.zip --markdown 20240515/x/xmlstore/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1715337834.tar.gz tmp/pulumi_ns1-3.3.0a1715761100.tar.gz --markdown 20240515/p/pulumi-ns1/3.3.0a1715337834-3.3.0a1715761100/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.91.tar.gz tmp/checkov-3.2.92.tar.gz --markdown 20240515/c/checkov/3.2.91-3.2.92/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-15 10:40:32] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-15 10:40:32] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-15 10:40:32] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-15 10:40:32] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.2.dev6.tar.gz tmp/kuzu-0.4.2.dev7.tar.gz --markdown 20240515/k/kuzu/0.4.2.dev6-0.4.2.dev7/README.md --exclude *.pyd
+[2024-05-15 10:40:32] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-15 10:40:32] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-15 10:40:32] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-15 10:40:32] INFO root fetch - processPackages [jax-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/jax_tqdm-0.2.0.tar.gz]
+[2024-05-15 10:40:32] INFO root fetch - processPackages [jax-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/jax_tqdm-0.2.1.tar.gz]
+[2024-05-15 10:40:32] INFO root fetch - main [MainThread]: End processing [jax-tqdm]: success
+[2024-05-15 10:40:33] INFO root fetch - processPackages [xmlstore]: Remove: archive file [/home/abi/fetcher/tmp/xmlstore-0.9.8-py2.py3-none-any.whl.zip]
+[2024-05-15 10:40:33] INFO root fetch - processPackages [xmlstore]: Remove: archive file [/home/abi/fetcher/tmp/xmlstore-0.9.9-py2.py3-none-any.whl.zip]
+[2024-05-15 10:40:33] INFO root fetch - main [MainThread]: End processing [xmlstore]: success
+[2024-05-15 10:40:33] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715337834.tar.gz]
+[2024-05-15 10:40:33] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715761100.tar.gz]
+[2024-05-15 10:40:33] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-15 10:40:33] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.72-py3-none-any.whl.zip]
+[2024-05-15 10:40:33] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.73-py3-none-any.whl.zip]
+[2024-05-15 10:40:33] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
+[2024-05-15 10:40:36] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-15 10:40:36] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-15 10:40:36] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-15 10:40:39] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev6.tar.gz]
+[2024-05-15 10:40:39] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev7.tar.gz]
+[2024-05-15 10:40:39] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-15 10:40:40] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.91.tar.gz]
+[2024-05-15 10:40:40] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.92.tar.gz]
+[2024-05-15 10:40:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-15 10:40:40] INFO root fetch - main [MainThread]: Store serial: [23214937]
