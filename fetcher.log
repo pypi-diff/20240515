@@ -16449,3 +16449,54 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:02:54] INFO root fetch - processPackages [volue-insight-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/volue-insight-timeseries-1.0.5.tar.gz]
 [2024-05-15 11:02:54] INFO root fetch - main [MainThread]: End processing [volue-insight-timeseries]: success
 [2024-05-15 11:02:54] INFO root fetch - main [MainThread]: Store serial: [23215224]
+[2024-05-15 11:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215224]
+[2024-05-15 11:05:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leprikon
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdbutils
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-pagerduty
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghga-service-commons
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feliz-db
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-postgresql
+[2024-05-15 11:05:03] INFO root fetch - processPackages [feliz-db]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ghga-service-commons]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-05-15 11:05:03] WARNING root fetch - processPackages [xdbutils]: Skipping, unable to determine old version
+[2024-05-15 11:05:03] INFO root fetch - main [MainThread]: End processing [xdbutils] error
+[2024-05-15 11:05:03] INFO root fetch - processPackages [leprikon]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-05-15 11:05:03] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-15 11:05:03] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-15 11:05:03] INFO root fetch - processPackages [feliz-db]: Downloading https://files.pythonhosted.org/packages/d4/94/7c2d043eb6360e904a2c16fce48181b5dcd0368e68dcdc4cc03c8cdca2ec/feliz_db-0.0.6.tar.gz
+[2024-05-15 11:05:03] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/14/ed/e8c13e26198626e6edd56e02be342d31c562417eb1a756ca7f768522ed80/ghga_service_commons-3.1.2.tar.gz
+[2024-05-15 11:05:03] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/9a/bf/16e38fcebc2544dc6fd08fdff9c24cd12630fe6ea1f3d08275d0b499eaa6/leprikon-3.9.8.tar.gz
+[2024-05-15 11:05:03] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-15 11:05:03] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-15 11:05:04] INFO root fetch - processPackages [feliz-db]: Downloading https://files.pythonhosted.org/packages/65/f7/501140466ebe114dd0aaa95599a7991f9dc4f1ca9cdc58b6ac54f95e35d1/feliz_db-0.0.8.tar.gz
+[2024-05-15 11:05:04] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/1b/4d/39e65c9b4950ba62919d6573ac864ba915488fd32ea9291dc97fc1fe3f19/ghga_service_commons-3.1.3.tar.gz
+[2024-05-15 11:05:04] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/fc/bf/8586488436c267dc0a04120d5c3497c1e51ea0c492c84ab51e0402564b30/leprikon-3.9.9.tar.gz
+[2024-05-15 11:05:04] INFO root fetch - processPackages [feliz-db]: executing diffoscope
+[2024-05-15 11:05:04] INFO root fetch - processPackages [feliz-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feliz_db-0.0.6.tar.gz tmp/feliz_db-0.0.8.tar.gz --markdown 20240515/f/feliz-db/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-15 11:05:04] INFO root fetch - processPackages [ghga-service-commons]: executing diffoscope
+[2024-05-15 11:05:04] INFO root fetch - processPackages [ghga-service-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_service_commons-3.1.2.tar.gz tmp/ghga_service_commons-3.1.3.tar.gz --markdown 20240515/g/ghga-service-commons/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-05-15 11:05:04] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-15 11:05:04] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-15 11:05:04] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-15 11:05:04] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240515/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-15 11:05:04] INFO root fetch - processPackages [leprikon]: executing diffoscope
+[2024-05-15 11:05:04] INFO root fetch - processPackages [leprikon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leprikon-3.9.8.tar.gz tmp/leprikon-3.9.9.tar.gz --markdown 20240515/l/leprikon/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-05-15 11:05:04] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-15 11:05:04] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240515/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-15 11:05:04] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.6.tar.gz]
+[2024-05-15 11:05:04] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.8.tar.gz]
+[2024-05-15 11:05:04] INFO root fetch - main [MainThread]: End processing [feliz-db]: success
+[2024-05-15 11:05:05] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-3.1.2.tar.gz]
+[2024-05-15 11:05:05] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-3.1.3.tar.gz]
+[2024-05-15 11:05:05] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
+[2024-05-15 11:05:05] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-15 11:05:05] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-15 11:05:05] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-15 11:05:05] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-15 11:05:05] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-15 11:05:05] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-15 11:05:06] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.8.tar.gz]
+[2024-05-15 11:05:06] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.9.tar.gz]
+[2024-05-15 11:05:06] INFO root fetch - main [MainThread]: End processing [leprikon]: success
+[2024-05-15 11:05:06] INFO root fetch - main [MainThread]: Store serial: [23215246]
