@@ -20328,3 +20328,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:31:28] INFO root fetch - processPackages [zango]: Remove: archive file [/home/abi/fetcher/tmp/zango-0.2.0rc0.tar.gz]
 [2024-05-15 13:31:28] INFO root fetch - main [MainThread]: End processing [zango]: success
 [2024-05-15 13:31:28] INFO root fetch - main [MainThread]: Store serial: [23216985]
+[2024-05-15 13:33:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216985]
+[2024-05-15 13:33:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 13:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gameon
+[2024-05-15 13:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse-context-diagrams
+[2024-05-15 13:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioimageio.spec
+[2024-05-15 13:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avarnd
+[2024-05-15 13:33:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapchete
+[2024-05-15 13:33:37] INFO root fetch - processPackages [avarnd]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 13:33:37] INFO root fetch - processPackages [gameon]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 13:33:37] INFO root fetch - processPackages [mapchete]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-15 13:33:37] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 13:33:37] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/2d/fb/4ed4ec0cda25d54b357223774e96b22f1572434205473ee6e92ae347c6bf/mapchete-2024.5.0.tar.gz
+[2024-05-15 13:33:37] INFO root fetch - processPackages [bioimageio.spec]: New version: [0.5.2.post5] Old Version: [0.5.2.post4]
+[2024-05-15 13:33:38] INFO root fetch - processPackages [gameon]: Downloading https://files.pythonhosted.org/packages/40/7c/d846cf7baf7b30ffbe9daf3905db2420a8ed5ab6d0e1dc4262c740028be6/gameon-1.0.8.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [avarnd]: Downloading https://files.pythonhosted.org/packages/6e/e8/977350c8f3844ef9a8f93e44e6a3d4b45e14604b3ce6867f5d57fc70c549/avarnd-0.1.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [bioimageio.spec]: Downloading https://files.pythonhosted.org/packages/af/e1/4c60aa30383128ff9cfdc4765aec43648eb489a4d735168363b1d96fe3bf/bioimageio.spec-0.5.2.post4.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/e2/6a/613de1f4d48d57312eb2a6809a5dc1e6a6004114535d2fb1a18c5a1803ad/mapchete-2024.5.1.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2024-05-15 13:33:38] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2024.5.0.tar.gz tmp/mapchete-2024.5.1.tar.gz --markdown 20240515/m/mapchete/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 13:33:38] INFO root fetch - processPackages [gameon]: Downloading https://files.pythonhosted.org/packages/22/ee/a75778e0a12885b67bb28c721909e4014439233851f4cfe5bb2e43f8a202/gameon-1.0.9.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [avarnd]: Downloading https://files.pythonhosted.org/packages/fa/2a/3ec876deebaf69d6f1c2f6e4f0a6a02427f040d94e00ad8e2e147ca61815/avarnd-0.2.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [gameon]: executing diffoscope
+[2024-05-15 13:33:38] INFO root fetch - processPackages [gameon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameon-1.0.8.tar.gz tmp/gameon-1.0.9.tar.gz --markdown 20240515/g/gameon/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 13:33:38] INFO root fetch - processPackages [avarnd]: executing diffoscope
+[2024-05-15 13:33:38] INFO root fetch - processPackages [avarnd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avarnd-0.1.tar.gz tmp/avarnd-0.2.tar.gz --markdown 20240515/a/avarnd/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 13:33:38] INFO root fetch - processPackages [bioimageio.spec]: Downloading https://files.pythonhosted.org/packages/2e/d6/ce95e00dac2795144fe4c5b2450cadebd38f43a10500dd55db237897256b/bioimageio.spec-0.5.2.post5.tar.gz
+[2024-05-15 13:33:38] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2024-05-15 13:33:38] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20240515/c/capellambse-context-diagrams/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 13:33:38] INFO root fetch - processPackages [bioimageio.spec]: executing diffoscope
+[2024-05-15 13:33:38] INFO root fetch - processPackages [bioimageio.spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.spec-0.5.2.post4.tar.gz tmp/bioimageio.spec-0.5.2.post5.tar.gz --markdown 20240515/b/bioimageio.spec/0.5.2.post4-0.5.2.post5/README.md --exclude *.pyd
+[2024-05-15 13:33:39] INFO root fetch - processPackages [avarnd]: Remove: archive file [/home/abi/fetcher/tmp/avarnd-0.1.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - processPackages [avarnd]: Remove: archive file [/home/abi/fetcher/tmp/avarnd-0.2.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - main [MainThread]: End processing [avarnd]: success
+[2024-05-15 13:33:39] INFO root fetch - processPackages [gameon]: Remove: archive file [/home/abi/fetcher/tmp/gameon-1.0.8.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - processPackages [gameon]: Remove: archive file [/home/abi/fetcher/tmp/gameon-1.0.9.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - main [MainThread]: End processing [gameon]: success
+[2024-05-15 13:33:39] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.5.0.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.5.1.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2024-05-15 13:33:39] INFO root fetch - processPackages [bioimageio.spec]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.spec-0.5.2.post4.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - processPackages [bioimageio.spec]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.spec-0.5.2.post5.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - main [MainThread]: End processing [bioimageio.spec]: success
+[2024-05-15 13:33:39] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2024-05-15 13:33:39] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2024-05-15 13:33:39] INFO root fetch - main [MainThread]: Store serial: [23217002]
