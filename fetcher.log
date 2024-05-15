@@ -8352,3 +8352,15 @@
 [2024-05-15 04:31:08] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
 [2024-05-15 04:31:08] INFO root fetch - main [MainThread]: End processing [coretex]: success
 [2024-05-15 04:31:08] INFO root fetch - main [MainThread]: Store serial: [23211813]
+[2024-05-15 04:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211813]
+[2024-05-15 04:33:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 04:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msiaLex
+[2024-05-15 04:33:17] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 04:33:17] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/f2/43/a0079391d6321c0f997f64f6dbe82bbcc18f47691d6eea2eeed76cc31c04/msiaLex-0.3.8-py3-none-any.whl
+[2024-05-15 04:33:18] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c4/ec/b0365143d703c26f243284f98b3b53846593d6fe64b790991da8e7a8148c/msiaLex-0.3.9-py3-none-any.whl
+[2024-05-15 04:33:18] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 04:33:18] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 04:33:18] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.8-py3-none-any.whl.zip]
+[2024-05-15 04:33:18] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9-py3-none-any.whl.zip]
+[2024-05-15 04:33:18] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 04:33:18] INFO root fetch - main [MainThread]: Store serial: [23211816]
