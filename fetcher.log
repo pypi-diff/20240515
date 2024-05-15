@@ -3450,3 +3450,48 @@
 [2024-05-15 02:54:38] INFO root fetch - processPackages [smartsim]: Remove: archive file [/home/abi/fetcher/tmp/smartsim-0.7.0.tar.gz]
 [2024-05-15 02:54:38] INFO root fetch - main [MainThread]: End processing [smartsim]: success
 [2024-05-15 02:54:38] INFO root fetch - main [MainThread]: Store serial: [23210104]
+[2024-05-15 02:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210104]
+[2024-05-15 02:56:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liveflask
+[2024-05-15 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycde
+[2024-05-15 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-behavior-curriculum
+[2024-05-15 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2024-05-15 02:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citation-rabbot
+[2024-05-15 02:56:47] INFO root fetch - processPackages [aind-behavior-curriculum]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 02:56:47] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-05-15 02:56:47] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-15 02:56:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-15 02:56:47] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/99/b4/5fd4fc55ecc93df4b2859f1a2324d2eac66a3c9b0d123acc920c79a6e43b/aind_behavior_curriculum-0.0.8.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev989] Old Version: [0.3.1.dev983]
+[2024-05-15 02:56:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/0c/a3/0a5964d96614b0206cf8658aecedfda2c2efc3df978050cca34a1dd179d4/aind_behavior_curriculum-0.0.9.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/2a/0b/3909919e84f3791ca523be240a1399fcfe5f84bffc0270e86b6b7e7bdaff/pycde-0.3.1.dev983-cp39-cp39-win_amd64.whl
+[2024-05-15 02:56:47] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-05-15 02:56:47] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240515/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-05-15 02:56:47] INFO root fetch - processPackages [aind-behavior-curriculum]: executing diffoscope
+[2024-05-15 02:56:47] INFO root fetch - processPackages [aind-behavior-curriculum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_behavior_curriculum-0.0.8.tar.gz tmp/aind_behavior_curriculum-0.0.9.tar.gz --markdown 20240515/a/aind-behavior-curriculum/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 02:56:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-15 02:56:47] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-15 02:56:48] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-15 02:56:48] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240515/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-15 02:56:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-15 02:56:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240515/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-15 02:56:48] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-05-15 02:56:48] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-05-15 02:56:48] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-05-15 02:56:48] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.8.tar.gz]
+[2024-05-15 02:56:48] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.9.tar.gz]
+[2024-05-15 02:56:48] INFO root fetch - main [MainThread]: End processing [aind-behavior-curriculum]: success
+[2024-05-15 02:56:48] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-15 02:56:48] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-15 02:56:48] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-15 02:56:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-15 02:56:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-15 02:56:49] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-15 02:56:49] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/44/b3/96cafa7fe490562d3c825a76ddda3e3cd271c13ceb4e44e55bb2c1779da3/pycde-0.3.1.dev989-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 02:56:49] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21618967>=10485760
+[2024-05-15 02:56:49] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-05-15 02:56:49] INFO root fetch - main [MainThread]: Store serial: [23210120]
