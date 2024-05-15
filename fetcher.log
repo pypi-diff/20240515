@@ -2984,3 +2984,51 @@
 [2024-05-15 02:23:42] INFO root fetch - processPackages [lightspark]: Remove: archive file [/home/abi/fetcher/tmp/lightspark-2.7.1.zip]
 [2024-05-15 02:23:42] INFO root fetch - main [MainThread]: End processing [lightspark]: success
 [2024-05-15 02:23:42] INFO root fetch - main [MainThread]: Store serial: [23209917]
+[2024-05-15 02:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209917]
+[2024-05-15 02:25:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 02:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-eks
+[2024-05-15 02:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncdb
+[2024-05-15 02:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-05-15 02:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-serverless-clamscan
+[2024-05-15 02:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goodest
+[2024-05-15 02:25:51] INFO root fetch - processPackages [goodest]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-15 02:25:51] INFO root fetch - processPackages [asyncdb]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-15 02:25:51] INFO root fetch - processPackages [pulumi-eks]: New version: [2.4.0a1715729375] Old Version: [2.4.0a1715281916]
+[2024-05-15 02:25:51] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/80/b4/16d528d36a18bd9ec152f31f17347a4862d748b611da586492dd6e747bd0/asyncdb-2.7.4-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-15 02:25:51] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/1d/e4/3d72a5e973abe449c5d9dfff468abcd8e59627947d2b0fa78d3ddf136e37/goodest-1.5.0.tar.gz
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-15 02:25:51] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/51/62/7d23683f17c6fa9ee9339a218717b4928e9a2097236b184e9196d2f9e993/pulumi_eks-2.4.0a1715281916.tar.gz
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240515/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-15 02:25:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240515/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-15 02:25:51] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/4f/c8/bee7d081ebba88bd3a3b1579f25630e054d877d9337f83249da53a500511/asyncdb-2.7.5-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-15 02:25:51] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2024-05-15 02:25:51] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.7.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/asyncdb-2.7.5-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240515/a/asyncdb/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-05-15 02:25:51] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/c4/20/04f13fd4d3529eed6f84db2bfe0538e22b1e73f94525f879065811b37581/pulumi_eks-2.4.0a1715729375.tar.gz
+[2024-05-15 02:25:52] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/4a/45/a662d445b2411983dc59f9381e2a5198ade53d105a197fdc48b6344d9467/goodest-1.6.0.tar.gz
+[2024-05-15 02:25:52] INFO root fetch - processPackages [pulumi-eks]: executing diffoscope
+[2024-05-15 02:25:52] INFO root fetch - processPackages [pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_eks-2.4.0a1715281916.tar.gz tmp/pulumi_eks-2.4.0a1715729375.tar.gz --markdown 20240515/p/pulumi-eks/2.4.0a1715281916-2.4.0a1715729375/README.md --exclude *.pyd
+[2024-05-15 02:25:52] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-15 02:25:52] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.5.0.tar.gz tmp/goodest-1.6.0.tar.gz --markdown 20240515/g/goodest/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-15 02:25:52] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-15 02:25:52] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-15 02:25:52] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-15 02:25:52] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-15 02:25:52] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-15 02:25:52] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-15 02:25:52] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.7.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-15 02:25:52] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.7.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-15 02:25:52] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2024-05-15 02:25:52] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-2.4.0a1715281916.tar.gz]
+[2024-05-15 02:25:52] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-2.4.0a1715729375.tar.gz]
+[2024-05-15 02:25:52] INFO root fetch - main [MainThread]: End processing [pulumi-eks]: success
+[2024-05-15 02:25:57] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.5.0.tar.gz]
+[2024-05-15 02:25:57] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.6.0.tar.gz]
+[2024-05-15 02:25:57] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-15 02:25:57] INFO root fetch - main [MainThread]: Store serial: [23209945]
