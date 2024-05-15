@@ -13871,3 +13871,102 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:33:17] INFO root fetch - processPackages [gravitino]: Remove: archive file [/home/abi/fetcher/tmp/gravitino-0.5.0.dev9.tar.gz]
 [2024-05-15 09:33:17] INFO root fetch - main [MainThread]: End processing [gravitino]: success
 [2024-05-15 09:33:17] INFO root fetch - main [MainThread]: Store serial: [23214128]
+[2024-05-15 09:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214128]
+[2024-05-15 09:35:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastinference-llm
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ip-check
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiqc-sgr
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-hcloud
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-utils-dev
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyright
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-http
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythfinder
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ImageDimensionCheck
+[2024-05-15 09:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-gitlab
+[2024-05-15 09:35:28] INFO root fetch - processPackages [ip-check]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pythfinder]: New version: [0.0.3.9] Old Version: [0.0.3.8]
+[2024-05-15 09:35:28] WARNING root fetch - processPackages [ImageDimensionCheck]: Skipping, unable to determine old version
+[2024-05-15 09:35:28] INFO root fetch - processPackages [ImageDimensionCheck]: Start processing: odoo-addon-rma
+[2024-05-15 09:35:28] INFO root fetch - main [MainThread]: End processing [ImageDimensionCheck] error
+[2024-05-15 09:35:28] WARNING root fetch - processPackages [fastinference-llm]: Skipping, unable to determine old version
+[2024-05-15 09:35:28] INFO root fetch - processPackages [fastinference-llm]: Start processing: paicorelib
+[2024-05-15 09:35:28] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/4f/bc/8f93473fc062ec46cf44a05e46fa9e3a7ac3b5a097f35d23b32207df0e42/ip_check-1.6.0-py3-none-any.whl
+[2024-05-15 09:35:28] INFO root fetch - main [MainThread]: End processing [fastinference-llm] error
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/1d/78/53eb0872682a35a6a45a2adbef0a041ee29d6e59a1abdfaf472bdc6ec2bb/pythfinder-0.0.3.8.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pyright]: New version: [1.1.363] Old Version: [1.1.362]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [multiqc-sgr]: New version: [1.22.post0] Old Version: [1.21.4]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1715757618] Old Version: [0.1.0a1715337278]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [odoo-addon-rma]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.2.0.2]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [paicorelib]: New version: [1.1.0rc1] Old Version: [1.0.0rc1]
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/d5/36/327472a9984e2b82cb4e80492f95965aa46da9c9696f968aa754e35a2a61/pyright-1.1.362.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/1e/07/774b403f1904f805e413b5a2044d4cfa15e713f26679b69fc738e9e9b7ba/multiqc_sgr-1.21.4.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/34/40/795f08501af2159bda8bebab2caf5301d1458db385cc3f0012616090c036/pulumi_http-0.1.0a1715337278.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/b3/fd/8899b8f395f1d6828cc2120babf604cb5903efd26e0dc73f3242fdef65db/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl
+[2024-05-15 09:35:28] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/41/52/ad53a2c33c1439eaa8db81755542651385401969fab7d1e5796d42f4b3b0/ip_check-1.6.1-py3-none-any.whl
+[2024-05-15 09:35:28] INFO root fetch - processPackages [paicorelib]: Downloading https://files.pythonhosted.org/packages/66/b5/55f8b40d8fc4ce56dcf697da58098faf6d33a680ef8bf71eb24a459542c0/paicorelib-1.0.0rc1.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-05-15 09:35:28] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.6.0-py3-none-any.whl.zip tmp/ip_check-1.6.1-py3-none-any.whl.zip --markdown 20240515/i/ip-check/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-15 09:35:28] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-05-15 09:35:28] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240515/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/ca/fb/9986e759f902d027678f426d4e27199b31e330af382019695f4f4ad22590/pyright-1.1.363.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/07/a2/5af198d7f1c8395aac85d29b146be49ebaa33e43adfec94bda8e8c297bd3/pythfinder-0.0.3.9.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/60/56/05e5b58413b30edfbc5f8c2caad0acc1ae6cb79b96a2acbaf4330ed3704f/pulumi_http-0.1.0a1715757618.tar.gz
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-05-15 09:35:28] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.362.tar.gz tmp/pyright-1.1.363.tar.gz --markdown 20240515/p/pyright/1.1.362-1.1.363/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240515/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1715337278.tar.gz tmp/pulumi_http-0.1.0a1715757618.tar.gz --markdown 20240515/p/pulumi-http/0.1.0a1715337278-0.1.0a1715757618/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/7c/6e/d282fd34a6c142f910166e6132b8e59684ee95354c6b8da93c39a1d14b83/multiqc_sgr-1.22.post0.tar.gz
+[2024-05-15 09:35:29] INFO root fetch - processPackages [paicorelib]: Downloading https://files.pythonhosted.org/packages/23/36/b9cf4d0e75b9d4f9880274aef058c4ffa7cf85360c53ea55222353893f5c/paicorelib-1.1.0rc1.tar.gz
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-05-15 09:35:29] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/9e/66/7cc9cfcb394c21e75162287e62a93ac085a06c5c7b659eca30133be20e0f/odoo_addon_rma-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 09:35:29] INFO root fetch - processPackages [paicorelib]: executing diffoscope
+[2024-05-15 09:35:29] INFO root fetch - processPackages [paicorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paicorelib-1.0.0rc1.tar.gz tmp/paicorelib-1.1.0rc1.tar.gz --markdown 20240515/p/paicorelib/1.0.0rc1-1.1.0rc1/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2024-05-15 09:35:29] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_rma-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-rma/16.0.1.2.0.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240515/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pythfinder]: executing diffoscope
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pythfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythfinder-0.0.3.8.tar.gz tmp/pythfinder-0.0.3.9.tar.gz --markdown 20240515/p/pythfinder/0.0.3.8-0.0.3.9/README.md --exclude *.pyd
+[2024-05-15 09:35:29] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-05-15 09:35:29] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-05-15 09:35:29] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-05-15 09:35:29] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.0-py3-none-any.whl.zip]
+[2024-05-15 09:35:29] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.1-py3-none-any.whl.zip]
+[2024-05-15 09:35:29] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.362.tar.gz]
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.363.tar.gz]
+[2024-05-15 09:35:29] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715337278.tar.gz]
+[2024-05-15 09:35:29] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715757618.tar.gz]
+[2024-05-15 09:35:29] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-15 09:35:30] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-15 09:35:30] INFO root fetch - processPackages [multiqc-sgr]: executing diffoscope
+[2024-05-15 09:35:30] INFO root fetch - processPackages [multiqc-sgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiqc_sgr-1.21.4.tar.gz tmp/multiqc_sgr-1.22.post0.tar.gz --markdown 20240515/m/multiqc-sgr/1.21.4-1.22.post0/README.md --exclude *.pyd
+[2024-05-15 09:35:30] INFO root fetch - processPackages [paicorelib]: Remove: archive file [/home/abi/fetcher/tmp/paicorelib-1.0.0rc1.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - processPackages [paicorelib]: Remove: archive file [/home/abi/fetcher/tmp/paicorelib-1.1.0rc1.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - main [MainThread]: End processing [paicorelib]: success
+[2024-05-15 09:35:30] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-15 09:35:30] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 09:35:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2024-05-15 09:35:30] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.8.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.9.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
+[2024-05-15 09:35:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-05-15 09:35:30] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-15 09:35:35] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.21.4.tar.gz]
+[2024-05-15 09:35:35] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
+[2024-05-15 09:35:35] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
+[2024-05-15 09:35:35] INFO root fetch - main [MainThread]: Store serial: [23214162]
