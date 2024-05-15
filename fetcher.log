@@ -22454,3 +22454,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:50:34] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.1.tar.gz]
 [2024-05-15 14:50:34] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
 [2024-05-15 14:50:34] INFO root fetch - main [MainThread]: Store serial: [23217821]
+[2024-05-15 14:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217821]
+[2024-05-15 14:52:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 14:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rubberduckie
+[2024-05-15 14:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resc-backend
+[2024-05-15 14:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcmatch
+[2024-05-15 14:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokun
+[2024-05-15 14:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-qrcode
+[2024-05-15 14:52:43] INFO root fetch - processPackages [rubberduckie]: New version: [2024.5.1] Old Version: [2023.7.1]
+[2024-05-15 14:52:43] INFO root fetch - processPackages [tokun]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-15 14:52:43] INFO root fetch - processPackages [resc-backend]: New version: [4.0.0] Old Version: [3.2.0]
+[2024-05-15 14:52:43] INFO root fetch - processPackages [netbox-qrcode]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 14:52:43] INFO root fetch - processPackages [wcmatch]: New version: [8.5.2] Old Version: [8.5.1]
+[2024-05-15 14:52:43] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/7e/68/e2a87245e3f037362f6d774e75ff8fccd0822a8a63e2c7772e6378453317/rubberduckie-2023.7.1-py3-none-any.whl
+[2024-05-15 14:52:43] INFO root fetch - processPackages [tokun]: Downloading https://files.pythonhosted.org/packages/9c/05/86ba7661badd52fcd1189ed430b2c259da1e1b64414b18ec2494b467e318/tokun-0.3.4.tar.gz
+[2024-05-15 14:52:43] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/88/a2/ad5344efe2f18c3fd85c35f764e12ee7c395b74add26fe4a52443e67ca0d/resc_backend-3.2.0.tar.gz
+[2024-05-15 14:52:43] INFO root fetch - processPackages [wcmatch]: Downloading https://files.pythonhosted.org/packages/38/c6/0c5f324561c9396868d6badf571590c1a7802a81180c3097e4dfdc2f35c0/wcmatch-8.5.1.tar.gz
+[2024-05-15 14:52:43] INFO root fetch - processPackages [netbox-qrcode]: Downloading https://files.pythonhosted.org/packages/b6/71/447b1cb18a78e109aa5abca8520df55f1968d6de85200d39682e56f75ca3/netbox-qrcode-0.0.8.tar.gz
+[2024-05-15 14:52:43] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/e6/ac/5cfccfc6aca10c7ad4f7a7d2f1ae986be150a9c6c867fdf375fa2f645576/rubberduckie-2024.5.1-py3-none-any.whl
+[2024-05-15 14:52:43] INFO root fetch - processPackages [tokun]: Downloading https://files.pythonhosted.org/packages/c9/b8/80f0df799fb16e4113acfacd90b46dbe878393220f2830a80b09d4207cac/tokun-0.3.5.tar.gz
+[2024-05-15 14:52:43] INFO root fetch - processPackages [rubberduckie]: executing diffoscope
+[2024-05-15 14:52:43] INFO root fetch - processPackages [rubberduckie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubberduckie-2023.7.1-py3-none-any.whl.zip tmp/rubberduckie-2024.5.1-py3-none-any.whl.zip --markdown 20240515/r/rubberduckie/2023.7.1-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 14:52:43] INFO root fetch - processPackages [tokun]: executing diffoscope
+[2024-05-15 14:52:43] INFO root fetch - processPackages [tokun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokun-0.3.4.tar.gz tmp/tokun-0.3.5.tar.gz --markdown 20240515/t/tokun/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-15 14:52:43] INFO root fetch - processPackages [wcmatch]: Downloading https://files.pythonhosted.org/packages/ea/c4/55e0d36da61d7b8b2a49fd273e6b296fd5e8471c72ebbe438635d1af3968/wcmatch-8.5.2.tar.gz
+[2024-05-15 14:52:43] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/14/1e/6e1264e90a1095c8de72b810c6a6e519b36ac221b65789a7b664ba638e08/resc_backend-4.0.0.tar.gz
+[2024-05-15 14:52:44] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-15 14:52:44] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.2.0.tar.gz tmp/resc_backend-4.0.0.tar.gz --markdown 20240515/r/resc-backend/3.2.0-4.0.0/README.md --exclude *.pyd
+[2024-05-15 14:52:44] INFO root fetch - processPackages [wcmatch]: executing diffoscope
+[2024-05-15 14:52:44] INFO root fetch - processPackages [wcmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcmatch-8.5.1.tar.gz tmp/wcmatch-8.5.2.tar.gz --markdown 20240515/w/wcmatch/8.5.1-8.5.2/README.md --exclude *.pyd
+[2024-05-15 14:52:44] INFO root fetch - processPackages [netbox-qrcode]: Downloading https://files.pythonhosted.org/packages/99/a5/9d9f2bab794aed834414b8563e963b7eeb1e834474e165c4c7812a3a6624/netbox-qrcode-0.0.9.tar.gz
+[2024-05-15 14:52:44] INFO root fetch - processPackages [tokun]: Remove: archive file [/home/abi/fetcher/tmp/tokun-0.3.4.tar.gz]
+[2024-05-15 14:52:44] INFO root fetch - processPackages [tokun]: Remove: archive file [/home/abi/fetcher/tmp/tokun-0.3.5.tar.gz]
+[2024-05-15 14:52:44] INFO root fetch - main [MainThread]: End processing [tokun]: success
+[2024-05-15 14:52:44] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2023.7.1-py3-none-any.whl.zip]
+[2024-05-15 14:52:44] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2024.5.1-py3-none-any.whl.zip]
+[2024-05-15 14:52:44] INFO root fetch - main [MainThread]: End processing [rubberduckie]: success
+[2024-05-15 14:52:44] INFO root fetch - processPackages [netbox-qrcode]: executing diffoscope
+[2024-05-15 14:52:44] INFO root fetch - processPackages [netbox-qrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-qrcode-0.0.8.tar.gz tmp/netbox-qrcode-0.0.9.tar.gz --markdown 20240515/n/netbox-qrcode/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:52:44] INFO root fetch - processPackages [wcmatch]: Remove: archive file [/home/abi/fetcher/tmp/wcmatch-8.5.1.tar.gz]
+[2024-05-15 14:52:44] INFO root fetch - processPackages [wcmatch]: Remove: archive file [/home/abi/fetcher/tmp/wcmatch-8.5.2.tar.gz]
+[2024-05-15 14:52:44] INFO root fetch - main [MainThread]: End processing [wcmatch]: success
+[2024-05-15 14:52:45] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.2.0.tar.gz]
+[2024-05-15 14:52:45] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-4.0.0.tar.gz]
+[2024-05-15 14:52:45] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-15 14:52:45] INFO root fetch - processPackages [netbox-qrcode]: Remove: archive file [/home/abi/fetcher/tmp/netbox-qrcode-0.0.8.tar.gz]
+[2024-05-15 14:52:45] INFO root fetch - processPackages [netbox-qrcode]: Remove: archive file [/home/abi/fetcher/tmp/netbox-qrcode-0.0.9.tar.gz]
+[2024-05-15 14:52:45] INFO root fetch - main [MainThread]: End processing [netbox-qrcode]: success
+[2024-05-15 14:52:45] INFO root fetch - main [MainThread]: Store serial: [23217838]
