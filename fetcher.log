@@ -21120,3 +21120,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:07:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
 [2024-05-15 14:07:11] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2024-05-15 14:07:11] INFO root fetch - main [MainThread]: Store serial: [23217284]
+[2024-05-15 14:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217284]
+[2024-05-15 14:09:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MASSIVEChem
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blurry-cli
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctapipe
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graas-observability-utility
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inception-reports
+[2024-05-15 14:09:21] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-15 14:09:21] INFO root fetch - processPackages [MASSIVEChem]: New version: [3.0] Old Version: [2.5]
+[2024-05-15 14:09:21] INFO root fetch - processPackages [inception-reports]: New version: [0.3] Old Version: [0.2]
+[2024-05-15 14:09:21] INFO root fetch - processPackages [blurry-cli]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-15 14:09:21] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-15 14:09:21] INFO root fetch - processPackages [ctapipe]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-15 14:09:21] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-05-15 14:09:21] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/56/a4/246640d42ef7b6a0c3914527d18464cc209b30a44633ef22e9b3c8a78e85/massivechem-2.5.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [blurry-cli]: Downloading https://files.pythonhosted.org/packages/29/ef/51b9c9373f5e0531d4d7c44f984d654f79b72b5347e687e830b0563f7b1a/blurry_cli-0.8.1.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/12/52/fdca6e2609ea0fede514bcdb5a11f6277382264ad9a681ba868680fadac1/ctapipe-0.8.0.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [inception-reports]: Downloading https://files.pythonhosted.org/packages/e4/1c/dcefb23607cb76c8f132d0b36069d0f341ce30ce8bbc698ae31dc1dbf324/inception_reports-0.2.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/03/93/a3249853bd5335785459a0527ac8fc3f73c68a29e6e1181e8c673b8eb7ee/graas-observability-utility-1.6.5.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-15 14:09:22] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240515/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-15 14:09:22] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/6e/bf/c2930eef1cb914ded583ec89233f1090be8004c0786a700d80001784fe8e/massivechem-3.0.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [inception-reports]: Downloading https://files.pythonhosted.org/packages/7d/0b/a188ff07d136bc83ec06639c2a3fab4d3df1d709d5fe4d9121655359dfde/inception_reports-0.3.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/91/7f/aa047fa35633d7b69371274579d08f7d22e2c305263aa6a95d939e00279c/graas-observability-utility-1.6.6.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [blurry-cli]: Downloading https://files.pythonhosted.org/packages/9e/53/465bfa1d6899c46131a0eb8e3bf15431b40349bf2403467abdbd62978f82/blurry_cli-0.8.2.tar.gz
+[2024-05-15 14:09:22] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-15 14:09:22] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-2.5.tar.gz tmp/massivechem-3.0.tar.gz --markdown 20240515/M/MASSIVEChem/2.5-3.0/README.md --exclude *.pyd
+[2024-05-15 14:09:22] INFO root fetch - processPackages [blurry-cli]: executing diffoscope
+[2024-05-15 14:09:22] INFO root fetch - processPackages [blurry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blurry_cli-0.8.1.tar.gz tmp/blurry_cli-0.8.2.tar.gz --markdown 20240515/b/blurry-cli/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-15 14:09:22] INFO root fetch - processPackages [inception-reports]: executing diffoscope
+[2024-05-15 14:09:22] INFO root fetch - processPackages [inception-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inception_reports-0.2.tar.gz tmp/inception_reports-0.3.tar.gz --markdown 20240515/i/inception-reports/0.2-0.3/README.md --exclude *.pyd
+[2024-05-15 14:09:22] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-05-15 14:09:22] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.6.5.tar.gz tmp/graas-observability-utility-1.6.6.tar.gz --markdown 20240515/g/graas-observability-utility/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-05-15 14:09:23] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-15 14:09:23] INFO root fetch - processPackages [blurry-cli]: Remove: archive file [/home/abi/fetcher/tmp/blurry_cli-0.8.1.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - processPackages [blurry-cli]: Remove: archive file [/home/abi/fetcher/tmp/blurry_cli-0.8.2.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - main [MainThread]: End processing [blurry-cli]: success
+[2024-05-15 14:09:23] INFO root fetch - processPackages [inception-reports]: Remove: archive file [/home/abi/fetcher/tmp/inception_reports-0.2.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - processPackages [inception-reports]: Remove: archive file [/home/abi/fetcher/tmp/inception_reports-0.3.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - main [MainThread]: End processing [inception-reports]: success
+[2024-05-15 14:09:23] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.5.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.6.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-05-15 14:09:23] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-2.5.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.0.tar.gz]
+[2024-05-15 14:09:23] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-15 14:09:24] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/04/8c/09554f91c5de9d06950b469a382199c0a690474b62285f6c4a4ce12bb950/ctapipe-0.9.1.tar.gz
+[2024-05-15 14:09:24] INFO root fetch - processPackages [ctapipe]: executing diffoscope
+[2024-05-15 14:09:24] INFO root fetch - processPackages [ctapipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctapipe-0.8.0.tar.gz tmp/ctapipe-0.9.1.tar.gz --markdown 20240515/c/ctapipe/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 14:09:26] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.8.0.tar.gz]
+[2024-05-15 14:09:26] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.9.1.tar.gz]
+[2024-05-15 14:09:26] INFO root fetch - main [MainThread]: End processing [ctapipe]: success
+[2024-05-15 14:09:26] INFO root fetch - main [MainThread]: Store serial: [23217304]
