@@ -3387,3 +3387,27 @@
 [2024-05-15 02:49:58] INFO root fetch - processPackages [pyview-web]: Remove: archive file [/home/abi/fetcher/tmp/pyview_web-0.0.8a0.tar.gz]
 [2024-05-15 02:49:58] INFO root fetch - main [MainThread]: End processing [pyview-web]: success
 [2024-05-15 02:49:58] INFO root fetch - main [MainThread]: Store serial: [23210072]
+[2024-05-15 02:52:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210072]
+[2024-05-15 02:52:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-05-15 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-lint-gitlab
+[2024-05-15 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webchanges
+[2024-05-15 02:52:06] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-15 02:52:07] WARNING root fetch - processPackages [ansible-lint-gitlab]: Skipping, unable to determine old version
+[2024-05-15 02:52:07] INFO root fetch - main [MainThread]: End processing [ansible-lint-gitlab] error
+[2024-05-15 02:52:07] INFO root fetch - processPackages [webchanges]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-15 02:52:07] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-15 02:52:07] INFO root fetch - processPackages [webchanges]: Downloading https://files.pythonhosted.org/packages/3a/da/8ad85216768f581c8731f21db668f2100807c6746b4cbd86b49a52f4530d/webchanges-3.9.1-py3-none-any.whl
+[2024-05-15 02:52:07] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-15 02:52:07] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-15 02:52:07] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240515/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-15 02:52:07] INFO root fetch - processPackages [webchanges]: Downloading https://files.pythonhosted.org/packages/29/d4/4af55d7368e67b485c2dcb70df83495442f37e316d5c178d889b7a140ad2/webchanges-3.9.2-py3-none-any.whl
+[2024-05-15 02:52:08] INFO root fetch - processPackages [webchanges]: executing diffoscope
+[2024-05-15 02:52:08] INFO root fetch - processPackages [webchanges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webchanges-3.9.1-py3-none-any.whl.zip tmp/webchanges-3.9.2-py3-none-any.whl.zip --markdown 20240515/w/webchanges/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-15 02:52:08] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.1-py3-none-any.whl.zip]
+[2024-05-15 02:52:08] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.2-py3-none-any.whl.zip]
+[2024-05-15 02:52:08] INFO root fetch - main [MainThread]: End processing [webchanges]: success
+[2024-05-15 02:52:26] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-15 02:52:26] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-15 02:52:26] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-15 02:52:26] INFO root fetch - main [MainThread]: Store serial: [23210084]
