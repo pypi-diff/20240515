@@ -17727,3 +17727,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:46:34] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
 [2024-05-15 11:46:34] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
 [2024-05-15 11:46:34] INFO root fetch - main [MainThread]: Store serial: [23215801]
+[2024-05-15 11:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215801]
+[2024-05-15 11:48:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-drive-sdk
+[2024-05-15 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tailscale
+[2024-05-15 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mvtec-halcon
+[2024-05-15 11:48:44] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-15 11:48:44] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-15 11:48:44] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-05-15 11:48:44] INFO root fetch - processPackages [mvtec-halcon]: New version: [24050.0.0] Old Version: [23110.0.1]
+[2024-05-15 11:48:44] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-15 11:48:44] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-05-15 11:48:44] INFO root fetch - processPackages [mvtec-halcon]: Downloading https://files.pythonhosted.org/packages/a9/13/4063274c900a0ec15249322aa5fb686f758ead2f0d3f2434d4e6cf2407ef/mvtec_halcon-23110.0.1.tar.gz
+[2024-05-15 11:48:45] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-05-15 11:48:45] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240515/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-15 11:48:45] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-15 11:48:45] INFO root fetch - processPackages [mvtec-halcon]: Downloading https://files.pythonhosted.org/packages/95/ea/d187a58565a0f1fccfa3ecda1193217d24f06458c145eabf37430c315383/mvtec_halcon-24050.0.0.tar.gz
+[2024-05-15 11:48:45] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-15 11:48:45] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240515/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-15 11:48:45] INFO root fetch - processPackages [mvtec-halcon]: executing diffoscope
+[2024-05-15 11:48:45] INFO root fetch - processPackages [mvtec-halcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvtec_halcon-23110.0.1.tar.gz tmp/mvtec_halcon-24050.0.0.tar.gz --markdown 20240515/m/mvtec-halcon/23110.0.1-24050.0.0/README.md --exclude *.pyd
+[2024-05-15 11:48:45] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-05-15 11:48:45] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-05-15 11:48:45] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-05-15 11:48:46] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-15 11:48:46] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-15 11:48:46] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-15 11:48:48] INFO root fetch - processPackages [mvtec-halcon]: Remove: archive file [/home/abi/fetcher/tmp/mvtec_halcon-23110.0.1.tar.gz]
+[2024-05-15 11:48:48] INFO root fetch - processPackages [mvtec-halcon]: Remove: archive file [/home/abi/fetcher/tmp/mvtec_halcon-24050.0.0.tar.gz]
+[2024-05-15 11:48:48] INFO root fetch - main [MainThread]: End processing [mvtec-halcon]: success
+[2024-05-15 11:48:48] INFO root fetch - main [MainThread]: Store serial: [23215811]
