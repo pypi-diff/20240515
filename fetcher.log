@@ -3309,3 +3309,33 @@
 [2024-05-15 02:45:37] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405140044.tar.gz]
 [2024-05-15 02:45:37] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-15 02:45:37] INFO root fetch - main [MainThread]: Store serial: [23210048]
+[2024-05-15 02:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210048]
+[2024-05-15 02:47:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyplot-toolbox
+[2024-05-15 02:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-15 02:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-15 02:47:46] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 02:47:46] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-15 02:47:46] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 02:47:46] INFO root fetch - processPackages [easyplot-toolbox]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-15 02:47:46] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-15 02:47:46] INFO root fetch - processPackages [easyplot-toolbox]: Downloading https://files.pythonhosted.org/packages/77/00/87435b93dd51ef3c3fbb13e66e7b68a9e75f3df91e88fd768110aa4d4df1/easyplot_toolbox-1.1.0.tar.gz
+[2024-05-15 02:47:46] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 02:47:47] INFO root fetch - processPackages [easyplot-toolbox]: Downloading https://files.pythonhosted.org/packages/af/68/7156fb759c69438abc0fdcdd766f9978b4737b4000533773721d9d4995d9/easyplot_toolbox-1.1.1.tar.gz
+[2024-05-15 02:47:47] INFO root fetch - processPackages [easyplot-toolbox]: executing diffoscope
+[2024-05-15 02:47:47] INFO root fetch - processPackages [easyplot-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyplot_toolbox-1.1.0.tar.gz tmp/easyplot_toolbox-1.1.1.tar.gz --markdown 20240515/e/easyplot-toolbox/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240515/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 02:47:47] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 02:47:47] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 02:47:47] INFO root fetch - processPackages [easyplot-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/easyplot_toolbox-1.1.0.tar.gz]
+[2024-05-15 02:47:47] INFO root fetch - processPackages [easyplot-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/easyplot_toolbox-1.1.1.tar.gz]
+[2024-05-15 02:47:47] INFO root fetch - main [MainThread]: End processing [easyplot-toolbox]: success
+[2024-05-15 02:47:48] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-15 02:47:48] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-15 02:47:48] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-15 02:47:48] INFO root fetch - main [MainThread]: Store serial: [23210057]
