@@ -15271,3 +15271,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:22:50] INFO root fetch - processPackages [envoxyd]: Remove: archive file [/home/abi/fetcher/tmp/envoxyd-0.1.9.tar.gz]
 [2024-05-15 10:22:50] INFO root fetch - main [MainThread]: End processing [envoxyd]: success
 [2024-05-15 10:22:50] INFO root fetch - main [MainThread]: Store serial: [23214742]
+[2024-05-15 10:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214742]
+[2024-05-15 10:24:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 10:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acetone-nnet
+[2024-05-15 10:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lycoris-lora
+[2024-05-15 10:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neko-aa
+[2024-05-15 10:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firex-flame-ui
+[2024-05-15 10:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-lifestream
+[2024-05-15 10:25:00] INFO root fetch - processPackages [firex-flame-ui]: New version: [0.5] Old Version: [0.4]
+[2024-05-15 10:25:00] INFO root fetch - processPackages [acetone-nnet]: New version: [0.2.3.dev1] Old Version: [0.2.3]
+[2024-05-15 10:25:00] INFO root fetch - processPackages [pytorch-lifestream]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-15 10:25:00] WARNING root fetch - processPackages [neko-aa]: Skipping, unable to determine old version
+[2024-05-15 10:25:00] INFO root fetch - main [MainThread]: End processing [neko-aa] error
+[2024-05-15 10:25:00] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev9] Old Version: [2.3.0.dev8]
+[2024-05-15 10:25:00] INFO root fetch - processPackages [firex-flame-ui]: Downloading https://files.pythonhosted.org/packages/16/35/e5827a063bd5bc86bcfb1203dcfe119f3d65f5bbd5a6242765b475767f0f/firex_flame_ui-0.4.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/16/cf/f8d27adf6e74fc838c45890685f13551c312e517e2be2fc8b2e13d144846/acetone_nnet-0.2.3.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/fd/72/d0edd03383ce2316c5371dd33d304a06c68bdf13c9c717c8ec7bc02b7be5/lycoris_lora-2.3.0.dev8.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [pytorch-lifestream]: Downloading https://files.pythonhosted.org/packages/9b/3c/d4bd82f8844e91a51c0eaa259527d472e8f6b54b724b86f238b17831543b/pytorch-lifestream-0.5.3.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d4/d5/d92dacf164cc1953931fe5c2ff9c6eb31c5aa5485db12317676a3551fb4e/acetone_nnet-0.2.3.dev1.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [firex-flame-ui]: Downloading https://files.pythonhosted.org/packages/df/b9/4a36f6c021003eb03a13e164b40b96cd12546c19265317674e26e3f26452/firex_flame_ui-0.5.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [pytorch-lifestream]: Downloading https://files.pythonhosted.org/packages/c7/87/d395e834cb8156ce4e88272c66239d914563cc368a8b6fd94809c0561d85/pytorch-lifestream-0.6.0.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/d2/76/b9b8612cf8e9e812055d7f98dec84386109b39d02af8977ab7cea3d3d785/lycoris_lora-2.3.0.dev9.tar.gz
+[2024-05-15 10:25:00] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-15 10:25:00] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.2.3.tar.gz tmp/acetone_nnet-0.2.3.dev1.tar.gz --markdown 20240515/a/acetone-nnet/0.2.3-0.2.3.dev1/README.md --exclude *.pyd
+[2024-05-15 10:25:00] INFO root fetch - processPackages [firex-flame-ui]: executing diffoscope
+[2024-05-15 10:25:00] INFO root fetch - processPackages [firex-flame-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firex_flame_ui-0.4.tar.gz tmp/firex_flame_ui-0.5.tar.gz --markdown 20240515/f/firex-flame-ui/0.4-0.5/README.md --exclude *.pyd
+[2024-05-15 10:25:00] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-05-15 10:25:00] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev8.tar.gz tmp/lycoris_lora-2.3.0.dev9.tar.gz --markdown 20240515/l/lycoris-lora/2.3.0.dev8-2.3.0.dev9/README.md --exclude *.pyd
+[2024-05-15 10:25:00] INFO root fetch - processPackages [pytorch-lifestream]: executing diffoscope
+[2024-05-15 10:25:00] INFO root fetch - processPackages [pytorch-lifestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-lifestream-0.5.3.tar.gz tmp/pytorch-lifestream-0.6.0.tar.gz --markdown 20240515/p/pytorch-lifestream/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-15 10:25:01] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev8.tar.gz]
+[2024-05-15 10:25:01] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev9.tar.gz]
+[2024-05-15 10:25:01] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-05-15 10:25:01] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.3.tar.gz]
+[2024-05-15 10:25:01] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.3.dev1.tar.gz]
+[2024-05-15 10:25:01] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-15 10:25:02] INFO root fetch - processPackages [pytorch-lifestream]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-lifestream-0.5.3.tar.gz]
+[2024-05-15 10:25:02] INFO root fetch - processPackages [pytorch-lifestream]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-lifestream-0.6.0.tar.gz]
+[2024-05-15 10:25:02] INFO root fetch - main [MainThread]: End processing [pytorch-lifestream]: success
+[2024-05-15 10:25:07] INFO root fetch - processPackages [firex-flame-ui]: Remove: archive file [/home/abi/fetcher/tmp/firex_flame_ui-0.4.tar.gz]
+[2024-05-15 10:25:07] INFO root fetch - processPackages [firex-flame-ui]: Remove: archive file [/home/abi/fetcher/tmp/firex_flame_ui-0.5.tar.gz]
+[2024-05-15 10:25:07] INFO root fetch - main [MainThread]: End processing [firex-flame-ui]: success
+[2024-05-15 10:25:07] INFO root fetch - main [MainThread]: Store serial: [23214758]
