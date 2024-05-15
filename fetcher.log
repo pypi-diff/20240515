@@ -2616,3 +2616,77 @@
 [2024-05-15 02:08:17] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
 [2024-05-15 02:08:17] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-05-15 02:08:17] INFO root fetch - main [MainThread]: Store serial: [23209731]
+[2024-05-15 02:10:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209731]
+[2024-05-15 02:10:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aka-data-prep
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antimatter-engine
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rustitude
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antimatter-engine
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antimatter
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: virus-muerto
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parameterframe
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glbuild
+[2024-05-15 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cspyce
+[2024-05-15 02:10:35] INFO root fetch - processPackages [aka-data-prep]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 02:10:35] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-15 02:10:35] WARNING root fetch - processPackages [glbuild]: Skipping, unable to determine old version
+[2024-05-15 02:10:35] INFO root fetch - processPackages [glbuild]: Start processing: id8-blade
+[2024-05-15 02:10:35] INFO root fetch - main [MainThread]: End processing [glbuild] error
+[2024-05-15 02:10:35] INFO root fetch - processPackages [parameterframe]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 02:10:35] INFO root fetch - processPackages [rustitude]: New version: [0.4.0] Old Version: [0.3.4]
+[2024-05-15 02:10:35] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/70/97/6439c52c882d79bdb7f4d90a1ef60a792c33aba678ff7a001c13c1383804/aka-data-prep-0.1.0.tar.gz
+[2024-05-15 02:10:35] INFO root fetch - processPackages [antimatter]: New version: [1.0.0] Old Version: [0.2.2]
+[2024-05-15 02:10:35] WARNING root fetch - processPackages [virus-muerto]: Skipping, unable to determine old version
+[2024-05-15 02:10:35] INFO root fetch - main [MainThread]: End processing [virus-muerto] error
+[2024-05-15 02:10:35] INFO root fetch - processPackages [antimatter-engine]: New version: [1.0.0] Old Version: [0.2.2]
+[2024-05-15 02:10:35] INFO root fetch - processPackages [antimatter-engine]: New version: [1.0.0] Old Version: [0.2.2]
+[2024-05-15 02:10:35] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-15 02:10:35] WARNING root fetch - processPackages [id8-blade]: Skipping, unable to determine old version
+[2024-05-15 02:10:35] INFO root fetch - main [MainThread]: End processing [id8-blade] error
+[2024-05-15 02:10:35] INFO root fetch - processPackages [cspyce]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-15 02:10:35] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/d6/33/e30971a41a6ce04f9878bba8078efd68d639701484139cf2021b55c00f8b/rustitude-0.3.4.tar.gz
+[2024-05-15 02:10:35] INFO root fetch - processPackages [antimatter]: Downloading https://files.pythonhosted.org/packages/12/a1/385c7b7b7d9d532029f6424153783a1411d66d002e00428eaceb01170d6a/antimatter-0.2.2-py3-none-any.whl
+[2024-05-15 02:10:35] INFO root fetch - processPackages [antimatter-engine]: Downloading https://files.pythonhosted.org/packages/4f/5e/217e576761ace4391f98b0dd8c96a7cc8d878f9f6687c218eb07b98d9b84/antimatter_engine-0.2.2-cp312-cp312-manylinux_2_34_x86_64.whl
+[2024-05-15 02:10:35] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/cd/1d/ea80b4a87f28dff0398e1afa837d21288538ee64ada5cbd7121e92614f5f/parameterframe-0.1.2.tar.gz
+[2024-05-15 02:10:35] INFO root fetch - processPackages [antimatter-engine]: Downloading https://files.pythonhosted.org/packages/4f/5e/217e576761ace4391f98b0dd8c96a7cc8d878f9f6687c218eb07b98d9b84/antimatter_engine-0.2.2-cp312-cp312-manylinux_2_34_x86_64.whl
+[2024-05-15 02:10:35] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/e5/2e/9251d3abbeee4d8026907657e7ce28400cfa93ded685878e48aef42a7b5a/aka-data-prep-0.1.1.tar.gz
+[2024-05-15 02:10:35] INFO root fetch - processPackages [cspyce]: Downloading https://files.pythonhosted.org/packages/dc/80/822c867a1ee6ecfd3144e9adc7fef6c447c959502e1e28601a8b49945ce9/cspyce-2.2.5.tar.gz
+[2024-05-15 02:10:35] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-15 02:10:35] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka-data-prep-0.1.0.tar.gz tmp/aka-data-prep-0.1.1.tar.gz --markdown 20240515/a/aka-data-prep/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 02:10:35] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-15 02:10:35] WARNING root fetch - processPackages [cspyce]: Skipping package: exceeds size limit 59411744>=10485760
+[2024-05-15 02:10:35] INFO root fetch - main [MainThread]: End processing [cspyce] error
+[2024-05-15 02:10:36] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/bf/35/a2bc74049820b1006a0a018b45653735fa8bb8430c3f6e8c1a924ac75747/parameterframe-0.1.3.tar.gz
+[2024-05-15 02:10:36] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/00/cf/e06748f052ae92047277c4030a032affff2b65446b589ef45a0edc6aaedf/rustitude-0.4.0.tar.gz
+[2024-05-15 02:10:36] INFO root fetch - processPackages [antimatter]: Downloading https://files.pythonhosted.org/packages/91/60/e9654644152dde0f2d0853f25b3835b2616ed0c638616ee8b7f7ecfe8600/antimatter-1.0.0-py3-none-any.whl
+[2024-05-15 02:10:36] INFO root fetch - processPackages [parameterframe]: executing diffoscope
+[2024-05-15 02:10:36] INFO root fetch - processPackages [parameterframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameterframe-0.1.2.tar.gz tmp/parameterframe-0.1.3.tar.gz --markdown 20240515/p/parameterframe/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 02:10:36] INFO root fetch - processPackages [rustitude]: executing diffoscope
+[2024-05-15 02:10:36] INFO root fetch - processPackages [rustitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustitude-0.3.4.tar.gz tmp/rustitude-0.4.0.tar.gz --markdown 20240515/r/rustitude/0.3.4-0.4.0/README.md --exclude *.pyd
+[2024-05-15 02:10:36] INFO root fetch - processPackages [antimatter]: executing diffoscope
+[2024-05-15 02:10:36] INFO root fetch - processPackages [antimatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimatter-0.2.2-py3-none-any.whl.zip tmp/antimatter-1.0.0-py3-none-any.whl.zip --markdown 20240515/a/antimatter/0.2.2-1.0.0/README.md --exclude *.pyd
+[2024-05-15 02:10:36] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.1.0.tar.gz]
+[2024-05-15 02:10:36] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.1.1.tar.gz]
+[2024-05-15 02:10:36] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-15 02:10:36] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.1.2.tar.gz]
+[2024-05-15 02:10:36] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.1.3.tar.gz]
+[2024-05-15 02:10:36] INFO root fetch - main [MainThread]: End processing [parameterframe]: success
+[2024-05-15 02:10:36] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.3.4.tar.gz]
+[2024-05-15 02:10:36] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.4.0.tar.gz]
+[2024-05-15 02:10:36] INFO root fetch - main [MainThread]: End processing [rustitude]: success
+[2024-05-15 02:10:37] INFO root fetch - processPackages [antimatter-engine]: Downloading https://files.pythonhosted.org/packages/c3/16/76a7c8903c2c612316504e90749583e0f3ad14b716b3d55b1f9823b3e238/antimatter_engine-1.0.0-cp39-cp39-manylinux_2_34_x86_64.whl
+[2024-05-15 02:10:37] INFO root fetch - processPackages [antimatter-engine]: Downloading https://files.pythonhosted.org/packages/c3/16/76a7c8903c2c612316504e90749583e0f3ad14b716b3d55b1f9823b3e238/antimatter_engine-1.0.0-cp39-cp39-manylinux_2_34_x86_64.whl
+[2024-05-15 02:10:37] WARNING root fetch - processPackages [antimatter-engine]: Skipping package: exceeds size limit 10512836>=10485760
+[2024-05-15 02:10:37] WARNING root fetch - processPackages [antimatter-engine]: Skipping package: exceeds size limit 10512836>=10485760
+[2024-05-15 02:10:37] INFO root fetch - main [MainThread]: End processing [antimatter-engine] error
+[2024-05-15 02:10:37] INFO root fetch - main [MainThread]: End processing [antimatter-engine] error
+[2024-05-15 02:10:37] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-15 02:10:37] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240515/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-15 02:10:38] INFO root fetch - processPackages [antimatter]: Remove: archive file [/home/abi/fetcher/tmp/antimatter-0.2.2-py3-none-any.whl.zip]
+[2024-05-15 02:10:38] INFO root fetch - processPackages [antimatter]: Remove: archive file [/home/abi/fetcher/tmp/antimatter-1.0.0-py3-none-any.whl.zip]
+[2024-05-15 02:10:38] INFO root fetch - main [MainThread]: End processing [antimatter]: success
+[2024-05-15 02:10:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-15 02:10:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-15 02:10:38] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-15 02:10:38] INFO root fetch - main [MainThread]: Store serial: [23209806]
