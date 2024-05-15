@@ -20519,3 +20519,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:40:15] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
 [2024-05-15 13:40:15] INFO root fetch - main [MainThread]: End processing [amsdal]: success
 [2024-05-15 13:40:15] INFO root fetch - main [MainThread]: Store serial: [23217059]
+[2024-05-15 13:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217059]
+[2024-05-15 13:42:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotipy-anon
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragstack-ai-langflow
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: approck-fastapi-utils
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Files.com
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkrcomponents
+[2024-05-15 13:42:25] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [spotipy-anon]: New version: [1.3] Old Version: [1.2]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [approck-fastapi-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [pkrcomponents]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [spotipy-anon]: Downloading https://files.pythonhosted.org/packages/4a/ef/b335aef7c2d3d937cbd454d6f8cbafe78f535878e4ff46665d7b93b98866/spotipy_anon-1.2.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ragstack-ai-langflow]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-15 13:42:25] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/ea/4b/3ebf04de2feba1ee47ebed7fa7b04ecb62e29802e4e814e9f52eed2eb21f/pkrcomponents-1.4.0.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [approck-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/df/9f/e9d4066ddb835d9230cbc7401a0fceedc19ece7959a5eae2de58bd36f329/approck_fastapi_utils-0.1.3.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ragstack-ai-langflow]: Downloading https://files.pythonhosted.org/packages/7a/2d/9239f62d96986c73d097b8981b58bc756b44abcfef718ebed7ba037e0d41/ragstack_ai_langflow-0.0.2.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [spotipy-anon]: Downloading https://files.pythonhosted.org/packages/7c/9b/8b1aa8bdf7f2ae20728cafff4f44bf1d1141a0b065af3048ca3ca81443f1/spotipy_anon-1.3.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [approck-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/80/ca/fe901c16a56cd82b419c10288b336326ede08cf7513d67135460699abafc/approck_fastapi_utils-0.1.4.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [spotipy-anon]: executing diffoscope
+[2024-05-15 13:42:25] INFO root fetch - processPackages [spotipy-anon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotipy_anon-1.2.tar.gz tmp/spotipy_anon-1.3.tar.gz --markdown 20240515/s/spotipy-anon/1.2-1.3/README.md --exclude *.pyd
+[2024-05-15 13:42:25] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/79/36/d1048c3b6df8ce40fdc8a7b4bc5155ce01ff6bbcf6254683bb47f8dfa016/pkrcomponents-1.4.1.tar.gz
+[2024-05-15 13:42:25] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-15 13:42:25] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240515/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-15 13:42:25] INFO root fetch - processPackages [approck-fastapi-utils]: executing diffoscope
+[2024-05-15 13:42:25] INFO root fetch - processPackages [approck-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approck_fastapi_utils-0.1.3.tar.gz tmp/approck_fastapi_utils-0.1.4.tar.gz --markdown 20240515/a/approck-fastapi-utils/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-15 13:42:25] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-15 13:42:25] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.4.0.tar.gz tmp/pkrcomponents-1.4.1.tar.gz --markdown 20240515/p/pkrcomponents/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-15 13:42:25] INFO root fetch - processPackages [ragstack-ai-langflow]: Downloading https://files.pythonhosted.org/packages/ae/34/22cc7b0e74704aa7070070185c0776336f2dc5c5e459d1185e76605d6035/ragstack_ai_langflow-0.0.3.tar.gz
+[2024-05-15 13:42:26] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 13:42:26] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-05-15 13:42:26] INFO root fetch - processPackages [ragstack-ai-langflow]: executing diffoscope
+[2024-05-15 13:42:26] INFO root fetch - processPackages [ragstack-ai-langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragstack_ai_langflow-0.0.2.tar.gz tmp/ragstack_ai_langflow-0.0.3.tar.gz --markdown 20240515/r/ragstack-ai-langflow/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 13:42:26] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 13:42:26] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 13:42:26] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-05-15 13:42:26] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240515/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-15 13:42:26] INFO root fetch - processPackages [spotipy-anon]: Remove: archive file [/home/abi/fetcher/tmp/spotipy_anon-1.2.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - processPackages [spotipy-anon]: Remove: archive file [/home/abi/fetcher/tmp/spotipy_anon-1.3.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - main [MainThread]: End processing [spotipy-anon]: success
+[2024-05-15 13:42:26] INFO root fetch - processPackages [approck-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_fastapi_utils-0.1.3.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - processPackages [approck-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_fastapi_utils-0.1.4.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - main [MainThread]: End processing [approck-fastapi-utils]: success
+[2024-05-15 13:42:26] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.4.0.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.4.1.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-15 13:42:26] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 13:42:26] INFO root fetch - processPackages [ragstack-ai-langflow]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow-0.0.2.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - processPackages [ragstack-ai-langflow]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow-0.0.3.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow]: success
+[2024-05-15 13:42:26] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-15 13:42:26] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-15 13:42:27] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-05-15 13:42:27] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-05-15 13:42:27] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-05-15 13:42:27] INFO root fetch - main [MainThread]: Store serial: [23217088]
