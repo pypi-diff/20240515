@@ -19978,3 +19978,81 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:20:45] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-15 13:20:45] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-15 13:20:45] INFO root fetch - main [MainThread]: Store serial: [23216833]
+[2024-05-15 13:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216833]
+[2024-05-15 13:22:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-reverse-charge
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-fatturapa-out-oss
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-it-fatturapa-out-rc
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-it-fatturapa-out
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rooki
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-elaboration
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scipion-em-cistem
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csvg
+[2024-05-15 13:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: up42-py
+[2024-05-15 13:22:54] WARNING root fetch - processPackages [csvg]: Skipping, unable to determine old version
+[2024-05-15 13:22:54] INFO root fetch - main [MainThread]: End processing [csvg] error
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.3]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: New version: [16.0.1.0.9] Old Version: [16.0.1.0.8.4]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.5]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [scipion-em-cistem]: New version: [3.9.1] Old Version: [3.9]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.5.1] Old Version: [16.0.1.5.0.2]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [rooki]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [up42-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/ea/5b/7c8feabd87828a8056bed31f307b7c21b80d9312e150dd76a76b24262973/odoo_addon_l10n_it_reverse_charge-16.0.1.0.2.3-py3-none-any.whl
+[2024-05-15 13:22:54] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/9c/24/cd9f8f9b17095826caaf72f927f2a58e6bdbceba821e5892fd7c3de2b133/up42_py-1.0.1.tar.gz
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: Downloading https://files.pythonhosted.org/packages/d9/8c/939769c18ab5da7a42fc4f60ac16543810f14f976ff57a513c490faab02a/odoo_addon_l10n_it_fatturapa_out_oss-16.0.1.0.1.5-py3-none-any.whl
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/cd/27/d0d0dc1d320f971989100c3561957aa4d4bf1d768dd75728d424df94cd33/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.8.4-py3-none-any.whl
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: Downloading https://files.pythonhosted.org/packages/d9/ce/9629b26cf30680212dbc3d5c70e24b5ef1f8840f0ae603d092ebf10884e4/odoo_addon_l10n_it_fatturapa_out_rc-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-15 13:22:54] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/a3/29/2684867cd523ff48ac5143d688c2b44d44d539105a6312640a0315c76476/odoo_addon_sale_elaboration-16.0.1.5.0.2-py3-none-any.whl
+[2024-05-15 13:22:54] INFO root fetch - processPackages [rooki]: Downloading https://files.pythonhosted.org/packages/42/f3/52ea1ebbfc773659e7757356b320e37a4a294bcb777e09257ed644dc0aa8/rooki-0.6.1.tar.gz
+[2024-05-15 13:22:54] INFO root fetch - processPackages [scipion-em-cistem]: Downloading https://files.pythonhosted.org/packages/4b/f1/2de7c0e3a23879211c1d1e0188c51cfd03484eb89d73d0aa558a97fd12d8/scipion-em-cistem-3.9.tar.gz
+[2024-05-15 13:22:55] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/ba/b1/eec10b23f1f1cb59325586760871ed3824c712dbf92e381166b4d1c93609/up42_py-1.0.2.tar.gz
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/ea/7d/859e967cccc0c454795d350488afb09851df1490a37885eeeabbc8610355/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3-py3-none-any.whl
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: Downloading https://files.pythonhosted.org/packages/d3/cd/f9bd39b60c96bd3f6419b7126cbf0a7ed35fa28370dfa3dabcfbbc6ce0a8/odoo_addon_l10n_it_fatturapa_out_oss-16.0.1.0.2-py3-none-any.whl
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: Downloading https://files.pythonhosted.org/packages/51/7a/b2ae75a4828ae8c3c3c35f5489cb83e9712d04b892dc0336d3613efc301a/odoo_addon_l10n_it_fatturapa_out_rc-16.0.1.0.1-py3-none-any.whl
+[2024-05-15 13:22:55] INFO root fetch - processPackages [rooki]: Downloading https://files.pythonhosted.org/packages/8a/a8/c587a4cd12a4bb74a59c7f587d4f860f10f0c7dad8eb2f7c1141978b35f1/rooki-0.6.2.tar.gz
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_out_oss-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_out_oss-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-it-fatturapa-out-oss/16.0.1.0.1.5-16.0.1.0.2/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/44/1a/ddd4b586980544f351e74b13d2b252644007dbaf11389e48843fc5b0590f/odoo_addon_sale_elaboration-16.0.1.5.1-py3-none-any.whl
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-it-reverse-charge/16.0.1.0.2.3-16.0.1.0.3/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [up42-py]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [up42-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up42_py-1.0.1.tar.gz tmp/up42_py-1.0.2.tar.gz --markdown 20240515/u/up42-py/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/ad/83/f0a0c9d811882d654cdae124f8b48300045daf19fece98499ce419030b08/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.9-py3-none-any.whl
+[2024-05-15 13:22:55] INFO root fetch - processPackages [rooki]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [rooki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooki-0.6.1.tar.gz tmp/rooki-0.6.2.tar.gz --markdown 20240515/r/rooki/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_out_rc-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_out_rc-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-it-fatturapa-out-rc/16.0.1.0.0.7-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [scipion-em-cistem]: Downloading https://files.pythonhosted.org/packages/4d/25/9f99b7cc46d22f44298589eee3c0c7f3fb0914460a5a690d9285bf880192/scipion-em-cistem-3.9.1.tar.gz
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.5.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.5.1-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-sale-elaboration/16.0.1.5.0.2-16.0.1.5.1/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [scipion-em-cistem]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [scipion-em-cistem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cistem-3.9.tar.gz tmp/scipion-em-cistem-3.9.1.tar.gz --markdown 20240515/s/scipion-em-cistem/3.9-3.9.1/README.md --exclude *.pyd
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2024-05-15 13:22:55] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.8.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.9-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-it-fatturapa-out/16.0.1.0.8.4-16.0.1.0.9/README.md --exclude *.pyd
+[2024-05-15 13:22:56] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42_py-1.0.1.tar.gz]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42_py-1.0.2.tar.gz]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [up42-py]: success
+[2024-05-15 13:22:56] INFO root fetch - processPackages [rooki]: Remove: archive file [/home/abi/fetcher/tmp/rooki-0.6.1.tar.gz]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [rooki]: Remove: archive file [/home/abi/fetcher/tmp/rooki-0.6.2.tar.gz]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [rooki]: success
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out_oss-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out_oss-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out-oss]: success
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out_rc-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out-rc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out_rc-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out-rc]: success
+[2024-05-15 13:22:56] INFO root fetch - processPackages [scipion-em-cistem]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cistem-3.9.tar.gz]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.5.0.2-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.5.1-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [scipion-em-cistem]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cistem-3.9.1.tar.gz]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [scipion-em-cistem]: success
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-reverse-charge]: success
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.8.4-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.9-py3-none-any.whl.zip]
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out]: success
+[2024-05-15 13:22:56] INFO root fetch - main [MainThread]: Store serial: [23216854]
