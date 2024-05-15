@@ -22910,3 +22910,24 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:08:15] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.0.0.tar.gz]
 [2024-05-15 15:08:15] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
 [2024-05-15 15:08:15] INFO root fetch - main [MainThread]: Store serial: [23218012]
+[2024-05-15 15:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218012]
+[2024-05-15 15:10:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 15:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hstream
+[2024-05-15 15:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiktok-captcha-solver
+[2024-05-15 15:10:24] INFO root fetch - processPackages [hstream]: New version: [0.1.51] Old Version: [0.1.50]
+[2024-05-15 15:10:24] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/da/d4/e2be08ed2dc676ad77004d72c7e81ce636781be883f7484c370ab9d8b662/hstream-0.1.50.tar.gz
+[2024-05-15 15:10:24] INFO root fetch - processPackages [tiktok-captcha-solver]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 15:10:24] INFO root fetch - processPackages [tiktok-captcha-solver]: Downloading https://files.pythonhosted.org/packages/38/31/49f409c033efc0f46373cd2852af82c427c0b092969f428e21a09f0bdd00/tiktok_captcha_solver-0.0.4.tar.gz
+[2024-05-15 15:10:24] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/22/58/f85f254871fb1b188bda9ed329b9a010451d63b5ebfb1a882650274d576a/hstream-0.1.51.tar.gz
+[2024-05-15 15:10:25] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-15 15:10:25] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.50.tar.gz tmp/hstream-0.1.51.tar.gz --markdown 20240515/h/hstream/0.1.50-0.1.51/README.md --exclude *.pyd
+[2024-05-15 15:10:25] INFO root fetch - processPackages [tiktok-captcha-solver]: Downloading https://files.pythonhosted.org/packages/33/84/383973c3134d3390d5c4e0193121389bf0805b8bcef99e6040df65ac1135/tiktok_captcha_solver-0.0.5.tar.gz
+[2024-05-15 15:10:25] INFO root fetch - processPackages [tiktok-captcha-solver]: executing diffoscope
+[2024-05-15 15:10:25] INFO root fetch - processPackages [tiktok-captcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktok_captcha_solver-0.0.4.tar.gz tmp/tiktok_captcha_solver-0.0.5.tar.gz --markdown 20240515/t/tiktok-captcha-solver/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 15:10:25] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.50.tar.gz]
+[2024-05-15 15:10:25] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.51.tar.gz]
+[2024-05-15 15:10:25] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-15 15:10:25] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.4.tar.gz]
+[2024-05-15 15:10:25] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.5.tar.gz]
+[2024-05-15 15:10:25] INFO root fetch - main [MainThread]: End processing [tiktok-captcha-solver]: success
+[2024-05-15 15:10:25] INFO root fetch - main [MainThread]: Store serial: [23218023]
