@@ -22978,3 +22978,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:12:37] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.2.dev2-py3-none-any.whl.zip]
 [2024-05-15 15:12:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-geo-assign]: success
 [2024-05-15 15:12:37] INFO root fetch - main [MainThread]: Store serial: [23218044]
+[2024-05-15 15:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218044]
+[2024-05-15 15:14:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 15:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increase
+[2024-05-15 15:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aesrepeat
+[2024-05-15 15:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yellowbox-statsd
+[2024-05-15 15:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: green-ysr
+[2024-05-15 15:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-15 15:14:47] WARNING root fetch - processPackages [aesrepeat]: Skipping, unable to determine old version
+[2024-05-15 15:14:47] INFO root fetch - main [MainThread]: End processing [aesrepeat] error
+[2024-05-15 15:14:47] INFO root fetch - processPackages [increase]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-15 15:14:47] INFO root fetch - processPackages [green-ysr]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 15:14:47] INFO root fetch - processPackages [yellowbox-statsd]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 15:14:47] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.9] Old Version: [2024.5.15]
+[2024-05-15 15:14:47] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/38/04/23245208877a10fba93c724199da0ea129bcdee0336c4a86f3be0888834e/increase-0.8.1.tar.gz
+[2024-05-15 15:14:47] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/1a/6a/5de86dea875be9fcef6b43681726b17f96b0e28a561f8e521c9e6b0d31d3/fbgemm_gpu_nightly_cpu-2024.5.15-cp38-cp38-manylinux2014_x86_64.whl
+[2024-05-15 15:14:47] INFO root fetch - processPackages [yellowbox-statsd]: Downloading https://files.pythonhosted.org/packages/5a/18/a23b18b68f406cb1f1cbfa3c5bc1d09e5845e7c95170ecb850efa993acda/yellowbox_statsd-0.1.1.tar.gz
+[2024-05-15 15:14:47] INFO root fetch - processPackages [green-ysr]: Downloading https://files.pythonhosted.org/packages/5c/11/95e91f0340a95e2d09831d951d82ae8de9dabede2fa6729c8edbc341e657/green_ysr-0.0.4.tar.gz
+[2024-05-15 15:14:47] INFO root fetch - processPackages [green-ysr]: Downloading https://files.pythonhosted.org/packages/bd/26/55d2c4c828f69f18242289fa628df03e0f531427460ee73666dad2aaed35/green_ysr-0.0.5.tar.gz
+[2024-05-15 15:14:47] INFO root fetch - processPackages [yellowbox-statsd]: Downloading https://files.pythonhosted.org/packages/d8/ce/7aed6dc5fcbb3ee3dbc93554975587c97867bc6a4d602f9ca58af7128de3/yellowbox_statsd-0.1.2.tar.gz
+[2024-05-15 15:14:47] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/35/1a/9728c759dc28ac734c6c3220f0abf89c385a19f2c0b2edab7e7707dd5fe5/increase-0.9.0.tar.gz
+[2024-05-15 15:14:48] INFO root fetch - processPackages [green-ysr]: executing diffoscope
+[2024-05-15 15:14:48] INFO root fetch - processPackages [green-ysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/green_ysr-0.0.4.tar.gz tmp/green_ysr-0.0.5.tar.gz --markdown 20240515/g/green-ysr/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 15:14:48] INFO root fetch - processPackages [increase]: executing diffoscope
+[2024-05-15 15:14:48] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.8.1.tar.gz tmp/increase-0.9.0.tar.gz --markdown 20240515/i/increase/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-15 15:14:48] INFO root fetch - processPackages [yellowbox-statsd]: executing diffoscope
+[2024-05-15 15:14:48] INFO root fetch - processPackages [yellowbox-statsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox_statsd-0.1.1.tar.gz tmp/yellowbox_statsd-0.1.2.tar.gz --markdown 20240515/y/yellowbox-statsd/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 15:14:48] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/34/33/65604f909cf0830076814afa9f0dceaa2c308165d02d78b5b11cc85f8d10/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-15 15:14:48] INFO root fetch - processPackages [green-ysr]: Remove: archive file [/home/abi/fetcher/tmp/green_ysr-0.0.4.tar.gz]
+[2024-05-15 15:14:48] INFO root fetch - processPackages [green-ysr]: Remove: archive file [/home/abi/fetcher/tmp/green_ysr-0.0.5.tar.gz]
+[2024-05-15 15:14:48] INFO root fetch - main [MainThread]: End processing [green-ysr]: success
+[2024-05-15 15:14:48] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-15 15:14:48] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.15-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240515/f/fbgemm-gpu-nightly-cpu/2024.5.15-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 15:14:48] INFO root fetch - processPackages [yellowbox-statsd]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox_statsd-0.1.1.tar.gz]
+[2024-05-15 15:14:48] INFO root fetch - processPackages [yellowbox-statsd]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox_statsd-0.1.2.tar.gz]
+[2024-05-15 15:14:48] INFO root fetch - main [MainThread]: End processing [yellowbox-statsd]: success
+[2024-05-15 15:14:49] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
+[2024-05-15 15:14:49] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.9.0.tar.gz]
+[2024-05-15 15:14:49] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2024-05-15 15:15:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.15-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-05-15 15:15:28] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-15 15:15:28] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-15 15:15:28] INFO root fetch - main [MainThread]: Store serial: [23218067]
