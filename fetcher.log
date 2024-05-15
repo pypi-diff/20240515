@@ -21318,3 +21318,54 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:15:59] INFO root fetch - processPackages [exoml]: Remove: archive file [/home/abi/fetcher/tmp/exoml-0.1.9.tar.gz]
 [2024-05-15 14:15:59] INFO root fetch - main [MainThread]: End processing [exoml]: success
 [2024-05-15 14:15:59] INFO root fetch - main [MainThread]: Store serial: [23217355]
+[2024-05-15 14:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217355]
+[2024-05-15 14:18:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 14:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meapy
+[2024-05-15 14:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tikzplotly
+[2024-05-15 14:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-archive
+[2024-05-15 14:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blurry-cli
+[2024-05-15 14:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-testing-platform
+[2024-05-15 14:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cnparser
+[2024-05-15 14:18:09] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-15 14:18:09] INFO root fetch - processPackages [blurry-cli]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-15 14:18:09] INFO root fetch - processPackages [meapy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 14:18:09] INFO root fetch - processPackages [tikzplotly]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 14:18:09] INFO root fetch - processPackages [blurry-cli]: Downloading https://files.pythonhosted.org/packages/29/ef/51b9c9373f5e0531d4d7c44f984d654f79b72b5347e687e830b0563f7b1a/blurry_cli-0.8.1.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [cnparser]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-15 14:18:09] WARNING root fetch - processPackages [simple-archive]: Skipping, unable to determine old version
+[2024-05-15 14:18:09] INFO root fetch - main [MainThread]: End processing [simple-archive] error
+[2024-05-15 14:18:09] INFO root fetch - processPackages [meapy]: Downloading https://files.pythonhosted.org/packages/95/8a/6bb531d896a064e84af3b9b9c759cf10a074c7a9d6ed1c330728ac8304ba/meapy-0.0.8.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [tikzplotly]: Downloading https://files.pythonhosted.org/packages/27/ee/f1d2ba49672933609fc8cef10e395ee49f322d7958422b850753393892e4/tikzplotly-0.1.5.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [cnparser]: Downloading https://files.pythonhosted.org/packages/e4/74/68f364c56355bf2f3a14a253a20300efe5ed92024a1e7b08615de5e8aa74/cnparser-1.4.5.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [blurry-cli]: Downloading https://files.pythonhosted.org/packages/9e/53/465bfa1d6899c46131a0eb8e3bf15431b40349bf2403467abdbd62978f82/blurry_cli-0.8.2.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-05-15 14:18:09] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240515/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-15 14:18:09] INFO root fetch - processPackages [blurry-cli]: executing diffoscope
+[2024-05-15 14:18:09] INFO root fetch - processPackages [blurry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blurry_cli-0.8.1.tar.gz tmp/blurry_cli-0.8.2.tar.gz --markdown 20240515/b/blurry-cli/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-15 14:18:09] INFO root fetch - processPackages [meapy]: Downloading https://files.pythonhosted.org/packages/e5/f3/69852593c645a11d7888cf289b349bffcaeb7914fdb1e1e46690b513b489/meapy-0.0.9.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [tikzplotly]: Downloading https://files.pythonhosted.org/packages/74/29/ef96375b0670856e76816e1395039c75217e8f2b9bdf06189dc9be3e768c/tikzplotly-0.1.6.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [cnparser]: Downloading https://files.pythonhosted.org/packages/6a/78/93e7fb4b1a7be135e39f9d5151429f89317408d2c71a5c2c2b3789dfae2a/cnparser-1.4.6.tar.gz
+[2024-05-15 14:18:09] INFO root fetch - processPackages [meapy]: executing diffoscope
+[2024-05-15 14:18:09] INFO root fetch - processPackages [meapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meapy-0.0.8.tar.gz tmp/meapy-0.0.9.tar.gz --markdown 20240515/m/meapy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:18:09] INFO root fetch - processPackages [cnparser]: executing diffoscope
+[2024-05-15 14:18:09] INFO root fetch - processPackages [cnparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnparser-1.4.5.tar.gz tmp/cnparser-1.4.6.tar.gz --markdown 20240515/c/cnparser/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-15 14:18:09] INFO root fetch - processPackages [tikzplotly]: executing diffoscope
+[2024-05-15 14:18:09] INFO root fetch - processPackages [tikzplotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tikzplotly-0.1.5.tar.gz tmp/tikzplotly-0.1.6.tar.gz --markdown 20240515/t/tikzplotly/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 14:18:10] INFO root fetch - processPackages [blurry-cli]: Remove: archive file [/home/abi/fetcher/tmp/blurry_cli-0.8.1.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - processPackages [blurry-cli]: Remove: archive file [/home/abi/fetcher/tmp/blurry_cli-0.8.2.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - main [MainThread]: End processing [blurry-cli]: success
+[2024-05-15 14:18:10] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-05-15 14:18:10] INFO root fetch - processPackages [cnparser]: Remove: archive file [/home/abi/fetcher/tmp/cnparser-1.4.5.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - processPackages [cnparser]: Remove: archive file [/home/abi/fetcher/tmp/cnparser-1.4.6.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - main [MainThread]: End processing [cnparser]: success
+[2024-05-15 14:18:10] INFO root fetch - processPackages [meapy]: Remove: archive file [/home/abi/fetcher/tmp/meapy-0.0.8.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - processPackages [meapy]: Remove: archive file [/home/abi/fetcher/tmp/meapy-0.0.9.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - main [MainThread]: End processing [meapy]: success
+[2024-05-15 14:18:10] INFO root fetch - processPackages [tikzplotly]: Remove: archive file [/home/abi/fetcher/tmp/tikzplotly-0.1.5.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - processPackages [tikzplotly]: Remove: archive file [/home/abi/fetcher/tmp/tikzplotly-0.1.6.tar.gz]
+[2024-05-15 14:18:10] INFO root fetch - main [MainThread]: End processing [tikzplotly]: success
+[2024-05-15 14:18:10] INFO root fetch - main [MainThread]: Store serial: [23217376]
