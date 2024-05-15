@@ -10840,3 +10840,36 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:04:55] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.9.tar.gz]
 [2024-05-15 07:04:55] INFO root fetch - main [MainThread]: End processing [qis]: success
 [2024-05-15 07:04:55] INFO root fetch - main [MainThread]: Store serial: [23212927]
+[2024-05-15 07:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212927]
+[2024-05-15 07:07:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 07:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jccrypto
+[2024-05-15 07:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2024-05-15 07:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: execlib
+[2024-05-15 07:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-acs-email
+[2024-05-15 07:07:04] INFO root fetch - processPackages [jccrypto]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-15 07:07:04] WARNING root fetch - processPackages [execlib]: Skipping, unable to determine old version
+[2024-05-15 07:07:04] INFO root fetch - main [MainThread]: End processing [execlib] error
+[2024-05-15 07:07:04] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240514] Old Version: [0.1.2.dev20240513]
+[2024-05-15 07:07:04] INFO root fetch - processPackages [django-acs-email]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 07:07:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/39/02/a27762af9d13f2a91a4643c53d72658cdf6ea624d06cc1040cf7e22c2908/rapid_pe-0.1.2.dev20240513.tar.gz
+[2024-05-15 07:07:04] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/79/8e/6039a8fa1ea2c9c2863eefe0a7731f4915dba3b2f12e0e8c37acd4dc791a/jccrypto-1.1.1-py3-none-any.whl
+[2024-05-15 07:07:04] INFO root fetch - processPackages [django-acs-email]: Downloading https://files.pythonhosted.org/packages/8c/38/2c8695faeeae6010c9cd8245db1f74fcabd76d29e82477ae04bb452166d5/django_acs_email-0.0.3.tar.gz
+[2024-05-15 07:07:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/a2/b1/4c4f1ea1c75227ae41b9640d64814a503ef8de701b12b8444cbda5b58d4d/rapid_pe-0.1.2.dev20240514.tar.gz
+[2024-05-15 07:07:04] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/9b/6c/fb87598972ac1eb45b63d328bb91b6e1143331882f548777d8fb664e0f7f/jccrypto-1.2.0-py3-none-any.whl
+[2024-05-15 07:07:04] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-15 07:07:04] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240513.tar.gz tmp/rapid_pe-0.1.2.dev20240514.tar.gz --markdown 20240515/r/rapid-pe/0.1.2.dev20240513-0.1.2.dev20240514/README.md --exclude *.pyd
+[2024-05-15 07:07:04] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-15 07:07:04] INFO root fetch - processPackages [django-acs-email]: Downloading https://files.pythonhosted.org/packages/eb/a7/11af27021d69e3669d56909a7e25a8bdd23ea8e7869476e899e3e5b1483d/django_acs_email-0.0.4.tar.gz
+[2024-05-15 07:07:04] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.1.1-py3-none-any.whl.zip tmp/jccrypto-1.2.0-py3-none-any.whl.zip --markdown 20240515/j/jccrypto/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-15 07:07:04] INFO root fetch - processPackages [django-acs-email]: executing diffoscope
+[2024-05-15 07:07:04] INFO root fetch - processPackages [django-acs-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_acs_email-0.0.3.tar.gz tmp/django_acs_email-0.0.4.tar.gz --markdown 20240515/d/django-acs-email/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 07:07:05] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.1.1-py3-none-any.whl.zip]
+[2024-05-15 07:07:05] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.2.0-py3-none-any.whl.zip]
+[2024-05-15 07:07:05] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-15 07:07:05] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240513.tar.gz]
+[2024-05-15 07:07:05] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240514.tar.gz]
+[2024-05-15 07:07:05] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-15 07:07:05] INFO root fetch - processPackages [django-acs-email]: Remove: archive file [/home/abi/fetcher/tmp/django_acs_email-0.0.3.tar.gz]
+[2024-05-15 07:07:05] INFO root fetch - processPackages [django-acs-email]: Remove: archive file [/home/abi/fetcher/tmp/django_acs_email-0.0.4.tar.gz]
+[2024-05-15 07:07:05] INFO root fetch - main [MainThread]: End processing [django-acs-email]: success
+[2024-05-15 07:07:05] INFO root fetch - main [MainThread]: Store serial: [23212942]
