@@ -18910,3 +18910,81 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:31:24] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.6.0-py3-none-any.whl.zip]
 [2024-05-15 12:31:24] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
 [2024-05-15 12:31:24] INFO root fetch - main [MainThread]: Store serial: [23216435]
+[2024-05-15 12:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216435]
+[2024-05-15 12:33:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annet
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitrika
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythfinder
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vanguard-api
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-api-utils
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyaxml
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apsg
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mns-common
+[2024-05-15 12:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yellowbox-snowglobe
+[2024-05-15 12:33:35] INFO root fetch - processPackages [pythfinder]: New version: [0.0.3.9] Old Version: [0.0.3.8]
+[2024-05-15 12:33:35] WARNING root fetch - processPackages [aitrika]: Skipping, unable to determine old version
+[2024-05-15 12:33:35] INFO root fetch - main [MainThread]: End processing [aitrika] error
+[2024-05-15 12:33:35] INFO root fetch - processPackages [mns-common]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/1d/78/53eb0872682a35a6a45a2adbef0a041ee29d6e59a1abdfaf472bdc6ec2bb/pythfinder-0.0.3.8.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [pyaxml]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [ul-api-utils]: New version: [7.9.4] Old Version: [7.9.3]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [yellowbox-snowglobe]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [vanguard-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [apsg]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-15 12:33:35] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/1b/7f/fd22ab0380ed7c2a819b92fcc6a13e1a04ac716aae4bedb27f5952378631/mns_common-1.0.9.8.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [pyaxml]: Downloading https://files.pythonhosted.org/packages/c0/93/2076b4a996b62473dadb74afd56da843ed169b077e00f1617be8c7b94bff/pyaxml-0.0.7.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/1b/26/bc28db5039bc22a6221a8e40063cad7ac8e6d7dd8ece68fce4a1764ac247/ul-api-utils-7.9.3.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [vanguard-api]: Downloading https://files.pythonhosted.org/packages/63/31/34f2b2b5e5d96b82a3ce83425212f2f31eee1bf082d36b57316647a3bf3c/vanguard_api-0.0.7.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [yellowbox-snowglobe]: Downloading https://files.pythonhosted.org/packages/35/39/070fb40849e3189a7b948fb0dc58385108cb3026f4cab8886f7f095e6734/yellowbox_snowglobe-0.2.4.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/07/a2/5af198d7f1c8395aac85d29b146be49ebaa33e43adfec94bda8e8c297bd3/pythfinder-0.0.3.9.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [apsg]: Downloading https://files.pythonhosted.org/packages/8f/77/a832d270f2a0cf36e9cde9b36509f98ef7aab5563895920b2fd61dc40a99/apsg-1.1.4.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/91/c6/24758f7e69364e0bb350d703ea46c3b9295aa8db10bb92712816645adf40/mns_common-1.0.9.9.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-15 12:33:35] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.9.8.tar.gz tmp/mns_common-1.0.9.9.tar.gz --markdown 20240515/m/mns-common/1.0.9.8-1.0.9.9/README.md --exclude *.pyd
+[2024-05-15 12:33:35] INFO root fetch - processPackages [vanguard-api]: Downloading https://files.pythonhosted.org/packages/bf/01/f3142b9ae3df5174924ff149c15779604a991bf31ed23805a8c739f43327/vanguard_api-0.0.8.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/29/0b/8a2ba2a86b3ddbe7c178f064a609c1fbc9fa585799bc4569b25cc90473bb/ul-api-utils-7.9.4.tar.gz
+[2024-05-15 12:33:35] INFO root fetch - processPackages [pyaxml]: Downloading https://files.pythonhosted.org/packages/68/5e/5d18356575009aeb4e6f686c9d83994d31b177a8462c265dee522204725c/pyaxml-0.0.8.tar.gz
+[2024-05-15 12:33:36] INFO root fetch - processPackages [vanguard-api]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [vanguard-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanguard_api-0.0.7.tar.gz tmp/vanguard_api-0.0.8.tar.gz --markdown 20240515/v/vanguard-api/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [apsg]: Downloading https://files.pythonhosted.org/packages/01/23/20aec5603b61f844cf564a81a4fb0a2d1b2d0aa85b8dbe6092aad6e3ba32/apsg-1.1.5.tar.gz
+[2024-05-15 12:33:36] INFO root fetch - processPackages [yellowbox-snowglobe]: Downloading https://files.pythonhosted.org/packages/93/af/a2e976ad79bc9f304443e51958f539d2686396e76cfbb89e3793c56d0ea0/yellowbox_snowglobe-0.2.5.tar.gz
+[2024-05-15 12:33:36] INFO root fetch - processPackages [pyaxml]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [pyaxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaxml-0.0.7.tar.gz tmp/pyaxml-0.0.8.tar.gz --markdown 20240515/p/pyaxml/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.9.3.tar.gz tmp/ul-api-utils-7.9.4.tar.gz --markdown 20240515/u/ul-api-utils/7.9.3-7.9.4/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [pythfinder]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [pythfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythfinder-0.0.3.8.tar.gz tmp/pythfinder-0.0.3.9.tar.gz --markdown 20240515/p/pythfinder/0.0.3.8-0.0.3.9/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240515/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [yellowbox-snowglobe]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [yellowbox-snowglobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox_snowglobe-0.2.4.tar.gz tmp/yellowbox_snowglobe-0.2.5.tar.gz --markdown 20240515/y/yellowbox-snowglobe/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [apsg]: executing diffoscope
+[2024-05-15 12:33:36] INFO root fetch - processPackages [apsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apsg-1.1.4.tar.gz tmp/apsg-1.1.5.tar.gz --markdown 20240515/a/apsg/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-15 12:33:36] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.8.tar.gz]
+[2024-05-15 12:33:36] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.9.tar.gz]
+[2024-05-15 12:33:36] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-15 12:33:36] INFO root fetch - processPackages [vanguard-api]: Remove: archive file [/home/abi/fetcher/tmp/vanguard_api-0.0.7.tar.gz]
+[2024-05-15 12:33:36] INFO root fetch - processPackages [vanguard-api]: Remove: archive file [/home/abi/fetcher/tmp/vanguard_api-0.0.8.tar.gz]
+[2024-05-15 12:33:36] INFO root fetch - main [MainThread]: End processing [vanguard-api]: success
+[2024-05-15 12:33:36] INFO root fetch - processPackages [pyaxml]: Remove: archive file [/home/abi/fetcher/tmp/pyaxml-0.0.7.tar.gz]
+[2024-05-15 12:33:36] INFO root fetch - processPackages [pyaxml]: Remove: archive file [/home/abi/fetcher/tmp/pyaxml-0.0.8.tar.gz]
+[2024-05-15 12:33:36] INFO root fetch - main [MainThread]: End processing [pyaxml]: success
+[2024-05-15 12:33:37] INFO root fetch - processPackages [yellowbox-snowglobe]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox_snowglobe-0.2.4.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - processPackages [yellowbox-snowglobe]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox_snowglobe-0.2.5.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - main [MainThread]: End processing [yellowbox-snowglobe]: success
+[2024-05-15 12:33:37] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.3.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.4.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-05-15 12:33:37] INFO root fetch - processPackages [apsg]: Remove: archive file [/home/abi/fetcher/tmp/apsg-1.1.4.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - processPackages [apsg]: Remove: archive file [/home/abi/fetcher/tmp/apsg-1.1.5.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - main [MainThread]: End processing [apsg]: success
+[2024-05-15 12:33:37] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-15 12:33:37] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.8.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.9.tar.gz]
+[2024-05-15 12:33:37] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
+[2024-05-15 12:33:37] INFO root fetch - main [MainThread]: Store serial: [23216462]
