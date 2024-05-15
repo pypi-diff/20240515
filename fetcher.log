@@ -9014,3 +9014,27 @@
 [2024-05-15 05:19:28] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
 [2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [misleep]: success
 [2024-05-15 05:19:28] INFO root fetch - main [MainThread]: Store serial: [23212083]
+[2024-05-15 05:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212083]
+[2024-05-15 05:21:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 05:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-cv-nightly
+[2024-05-15 05:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-tingwu20230930
+[2024-05-15 05:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xfbin
+[2024-05-15 05:21:37] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-15 05:21:37] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-15 05:21:37] WARNING root fetch - processPackages [xfbin]: Skipping, unable to determine old version
+[2024-05-15 05:21:37] INFO root fetch - main [MainThread]: End processing [xfbin] error
+[2024-05-15 05:21:37] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-15 05:21:37] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-15 05:21:37] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Downloading https://files.pythonhosted.org/packages/bb/20/4c82afcb063e0c038ff228c6e90ddfa9b743b76cac0d0b0a733b56fb57d7/alibabacloud_tingwu20230930-2.0.8.tar.gz
+[2024-05-15 05:21:38] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-15 05:21:38] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240515/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-15 05:21:38] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Downloading https://files.pythonhosted.org/packages/4d/f1/1d3f16f3f1d3023667069138f556cff4375f360b5a25d8eff3dfc9d6e484/alibabacloud_tingwu20230930-2.0.9.tar.gz
+[2024-05-15 05:21:38] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: executing diffoscope
+[2024-05-15 05:21:38] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tingwu20230930-2.0.8.tar.gz tmp/alibabacloud_tingwu20230930-2.0.9.tar.gz --markdown 20240515/a/alibabacloud-tingwu20230930/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-15 05:21:38] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930-2.0.8.tar.gz]
+[2024-05-15 05:21:38] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930-2.0.9.tar.gz]
+[2024-05-15 05:21:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-tingwu20230930]: success
+[2024-05-15 05:21:39] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-15 05:21:39] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-15 05:21:39] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-15 05:21:39] INFO root fetch - main [MainThread]: Store serial: [23212093]
