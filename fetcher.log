@@ -12849,3 +12849,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:46:23] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.7.tar.gz]
 [2024-05-15 08:46:23] INFO root fetch - main [MainThread]: End processing [gpu4pyscf]: success
 [2024-05-15 08:46:23] INFO root fetch - main [MainThread]: Store serial: [23213725]
+[2024-05-15 08:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213725]
+[2024-05-15 08:48:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 08:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs2
+[2024-05-15 08:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jccrypto
+[2024-05-15 08:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karp-lex-types
+[2024-05-15 08:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleipnirgroup-jormungandr
+[2024-05-15 08:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-httpfile
+[2024-05-15 08:48:33] INFO root fetch - processPackages [jccrypto]: New version: [1.4.0] Old Version: [1.3.2]
+[2024-05-15 08:48:33] INFO root fetch - processPackages [karp-lex-types]: New version: [0.6.4] Old Version: [0.6.2]
+[2024-05-15 08:48:33] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-15 08:48:33] WARNING root fetch - processPackages [python-httpfile]: Skipping, unable to determine old version
+[2024-05-15 08:48:33] INFO root fetch - main [MainThread]: End processing [python-httpfile] error
+[2024-05-15 08:48:33] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-15 08:48:33] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/bb/89/dad6f43c4db38bab1de60ba7296c40bc2c979ce4b018ab2508df10b6875e/jccrypto-1.3.2-py3-none-any.whl
+[2024-05-15 08:48:33] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/3a/3a/8256bdb0ec2e8125542ff38617d6dd2665a82e525dc30f7e1f8269a736b4/karp_lex_types-0.6.2.tar.gz
+[2024-05-15 08:48:33] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-15 08:48:33] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-05-15 08:48:34] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/d2/8a/fbd2d0187828fe9a168dc6146204946d6201cce7a45a87e8ee39c8817f41/karp_lex_types-0.6.4.tar.gz
+[2024-05-15 08:48:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-15 08:48:34] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/f9/51/fbf9ff3472be6d09f7650b63228bd374c2e1cc7492043d737a4d4a1c53ab/jccrypto-1.4.0-py3-none-any.whl
+[2024-05-15 08:48:34] INFO root fetch - processPackages [karp-lex-types]: executing diffoscope
+[2024-05-15 08:48:34] INFO root fetch - processPackages [karp-lex-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp_lex_types-0.6.2.tar.gz tmp/karp_lex_types-0.6.4.tar.gz --markdown 20240515/k/karp-lex-types/0.6.2-0.6.4/README.md --exclude *.pyd
+[2024-05-15 08:48:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-15 08:48:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240515/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-15 08:48:34] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-15 08:48:34] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.3.2-py3-none-any.whl.zip tmp/jccrypto-1.4.0-py3-none-any.whl.zip --markdown 20240515/j/jccrypto/1.3.2-1.4.0/README.md --exclude *.pyd
+[2024-05-15 08:48:34] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-05-15 08:48:34] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.3.2-py3-none-any.whl.zip]
+[2024-05-15 08:48:34] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.4.0-py3-none-any.whl.zip]
+[2024-05-15 08:48:34] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-15 08:48:34] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-05-15 08:48:34] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240515/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-15 08:48:34] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.6.2.tar.gz]
+[2024-05-15 08:48:34] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.6.4.tar.gz]
+[2024-05-15 08:48:34] INFO root fetch - main [MainThread]: End processing [karp-lex-types]: success
+[2024-05-15 08:48:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-15 08:48:34] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-15 08:48:34] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-15 08:48:37] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-05-15 08:48:37] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-05-15 08:48:37] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-05-15 08:48:37] INFO root fetch - main [MainThread]: Store serial: [23213750]
