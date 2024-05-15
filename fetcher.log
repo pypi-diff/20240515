@@ -12013,3 +12013,78 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:02:01] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715751886.tar.gz]
 [2024-05-15 08:02:01] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-15 08:02:01] INFO root fetch - main [MainThread]: Store serial: [23213426]
+[2024-05-15 08:04:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213426]
+[2024-05-15 08:04:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-base
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visualgo
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-libs
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-whd
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-auth0
+[2024-05-15 08:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-oci
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2395.0] Old Version: [1.2394.0]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2395.0] Old Version: [1.2394.0]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2395.0] Old Version: [1.2394.0]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [visualgo]: New version: [2024.5.15] Old Version: [2024.5.13]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1715752070] Old Version: [3.4.0a1715335294]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/c0/74/7840decab0d1b21e88918922feecf6aa16f4067cd1acf21003bc0d23d0fd/gardener_cicd_base-1.2394.0.tar.gz
+[2024-05-15 08:04:11] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c5/13/87488056def3276cba12912a377e96e3199382cddf592168a8243d6f2994/gardener_cicd_dso-1.2394.0.tar.gz
+[2024-05-15 08:04:11] INFO root fetch - processPackages [visualgo]: Downloading https://files.pythonhosted.org/packages/eb/1b/c2022910cfc31959cd5d2993cdffbf2894028c9491b4f391c0fba8adfe2f/visualgo-2024.5.13.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/50/de/382efa4486a69d99c9bc42b4bd3e227bea1a08dc3c42becc188db873a72d/gardener_cicd_cli-1.2394.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/51/0e/fd0a9b752f2fa9d9acd0c6f31f27b0c98be57b30a98abdf496c7d719ac42/pulumi_auth0-3.4.0a1715335294.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/95/c8/0316d4442f71751b320a51d3cf6fd599644dc5e86856ac7afff4f771fcfd/gardener_cicd_libs-1.2395.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/5f/e8/82f6d05f9d67f2c33dab0a966bad9e73d4742a6c3a4c09b3b8ef398a5da7/gardener_cicd_whd-1.2395.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/d6/36/236a22d3e1a7dc1269fb70531cf80b9558b101522abf6d6846877472708f/gardener_cicd_base-1.2395.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [visualgo]: Downloading https://files.pythonhosted.org/packages/1c/13/29f449ece54e824338a50c277f2877602e1fa9bdfaf1ce76d530a9f0a248/visualgo-2024.5.15.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/80/be/b0432ac6c60b44417bc5af7492b0332ca39317a71c2f1dd13f280d7e69fd/gardener_cicd_dso-1.2395.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/22/6d/d3d11c025189808591c5d2f7a2a09d3c85aa89e352b97cf2a4b12d0e1ad4/gardener_cicd_cli-1.2395.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/42/7b/b2397a8eb61ea39c6e695f4ccf09f8072bbf130dd0dce507ce2a1d31f311/pulumi_auth0-3.4.0a1715752070.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/a0/8d/f353dda0e972839021f0664bc69d28659d2b125521f434bb26796cd5aede/gardener_cicd_whd-1.2396.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2394.0.tar.gz tmp/gardener_cicd_base-1.2395.0.tar.gz --markdown 20240515/g/gardener-cicd-base/1.2394.0-1.2395.0/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/47/e5/f2ec997ef825cf5dda0db49c7e79a5331763d34c8a270848fd548fffbd6e/gardener_cicd_libs-1.2396.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [visualgo]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [visualgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualgo-2024.5.13.tar.gz tmp/visualgo-2024.5.15.tar.gz --markdown 20240515/v/visualgo/2024.5.13-2024.5.15/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2394.0.tar.gz tmp/gardener_cicd_dso-1.2395.0.tar.gz --markdown 20240515/g/gardener-cicd-dso/1.2394.0-1.2395.0/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2394.0.tar.gz tmp/gardener_cicd_cli-1.2395.0.tar.gz --markdown 20240515/g/gardener-cicd-cli/1.2394.0-1.2395.0/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2395.0.tar.gz tmp/gardener_cicd_whd-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-whd/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1715335294.tar.gz tmp/pulumi_auth0-3.4.0a1715752070.tar.gz --markdown 20240515/p/pulumi-auth0/3.4.0a1715335294-3.4.0a1715752070/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2395.0.tar.gz tmp/gardener_cicd_libs-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-libs/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-15 08:04:12] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240515/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2394.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2395.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2394.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2395.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2394.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2395.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2395.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2396.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [visualgo]: Remove: archive file [/home/abi/fetcher/tmp/visualgo-2024.5.13.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [visualgo]: Remove: archive file [/home/abi/fetcher/tmp/visualgo-2024.5.15.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [visualgo]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715335294.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715752070.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2395.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2396.0.tar.gz]
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-15 08:04:13] INFO root fetch - main [MainThread]: Store serial: [23213450]
