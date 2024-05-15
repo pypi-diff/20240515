@@ -10917,3 +10917,18 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:13:32] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.50-py3-none-any.whl.zip]
 [2024-05-15 07:13:32] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
 [2024-05-15 07:13:32] INFO root fetch - main [MainThread]: Store serial: [23212965]
+[2024-05-15 07:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212965]
+[2024-05-15 07:15:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 07:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: todoclist
+[2024-05-15 07:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvprocessor
+[2024-05-15 07:15:40] INFO root fetch - processPackages [cvprocessor]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-15 07:15:40] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 07:15:40] WARNING root fetch - processPackages [todoclist]: Skipping, unable to determine old version
+[2024-05-15 07:15:40] INFO root fetch - main [MainThread]: End processing [todoclist] error
+[2024-05-15 07:15:41] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/32/cd/2b1f66ded51b8b8c09ea657cac9b280a3abd3b8cbf2cb4e42062d6947351/cvprocessor-0.6.0.tar.gz
+[2024-05-15 07:15:41] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 07:15:41] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.9.tar.gz tmp/cvprocessor-0.6.0.tar.gz --markdown 20240515/c/cvprocessor/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-15 07:15:41] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 07:15:41] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.0.tar.gz]
+[2024-05-15 07:15:41] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 07:15:41] INFO root fetch - main [MainThread]: Store serial: [23212973]
