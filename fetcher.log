@@ -17579,3 +17579,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:39:58] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-4.0.2.tar.gz]
 [2024-05-15 11:39:58] INFO root fetch - main [MainThread]: End processing [nxstools]: success
 [2024-05-15 11:39:58] INFO root fetch - main [MainThread]: Store serial: [23215747]
+[2024-05-15 11:42:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215747]
+[2024-05-15 11:42:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 11:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AllFilesReader
+[2024-05-15 11:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkrcomponents
+[2024-05-15 11:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kpops
+[2024-05-15 11:42:08] INFO root fetch - processPackages [pkrcomponents]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-15 11:42:09] WARNING root fetch - processPackages [AllFilesReader]: Skipping, unable to determine old version
+[2024-05-15 11:42:09] INFO root fetch - main [MainThread]: End processing [AllFilesReader] error
+[2024-05-15 11:42:09] INFO root fetch - processPackages [kpops]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-15 11:42:09] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/83/b1/5249f191ec0d997527455bec4fd614b1099463d23a83b30c67261e70cb3c/pkrcomponents-1.3.1.tar.gz
+[2024-05-15 11:42:09] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/a3/de/6acf56bf8e1128566bef12792598f380ff2e783068c73af28656622067e1/kpops-5.0.0.tar.gz
+[2024-05-15 11:42:09] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/7e/f9/cd4f18240546ac315309c015348a35fb940a409d2692be54947c73995107/pkrcomponents-1.3.2.tar.gz
+[2024-05-15 11:42:09] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-15 11:42:09] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.3.1.tar.gz tmp/pkrcomponents-1.3.2.tar.gz --markdown 20240515/p/pkrcomponents/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-15 11:42:09] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/c1/de/c00639cb6c57c215b0320cf502631c97d6411d989fda8195a675828ccea5/kpops-5.0.1-py3-none-any.whl
+[2024-05-15 11:42:10] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.3.1.tar.gz]
+[2024-05-15 11:42:10] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.3.2.tar.gz]
+[2024-05-15 11:42:10] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-15 11:42:10] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2024-05-15 11:42:10] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-5.0.0.tar.gz tmp/kpops-5.0.1-py3-none-any.whl.zip --markdown 20240515/k/kpops/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-15 11:42:10] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.0.tar.gz]
+[2024-05-15 11:42:10] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.1-py3-none-any.whl.zip]
+[2024-05-15 11:42:10] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2024-05-15 11:42:10] INFO root fetch - main [MainThread]: Store serial: [23215756]
