@@ -9965,3 +9965,42 @@
 [2024-05-15 06:21:08] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.3.tar.gz]
 [2024-05-15 06:21:08] INFO root fetch - main [MainThread]: End processing [py50]: success
 [2024-05-15 06:21:08] INFO root fetch - main [MainThread]: Store serial: [23212542]
+[2024-05-15 06:23:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212542]
+[2024-05-15 06:23:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 06:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RootsWeatherProject
+[2024-05-15 06:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sortipy
+[2024-05-15 06:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flashlight-text
+[2024-05-15 06:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: advanced_navigation
+[2024-05-15 06:23:17] INFO root fetch - processPackages [sortipy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 06:23:17] INFO root fetch - processPackages [sortipy]: Downloading https://files.pythonhosted.org/packages/39/f1/14b96583d2e02c20a2f7fba8286c8298a9e0c8d58efdee7addbf33154ae8/sortipy-0.0.4.tar.gz
+[2024-05-15 06:23:17] INFO root fetch - processPackages [RootsWeatherProject]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 06:23:17] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.60] Old Version: [0.1.51]
+[2024-05-15 06:23:17] INFO root fetch - processPackages [RootsWeatherProject]: Downloading https://files.pythonhosted.org/packages/57/2b/d399c6ce521a2611c508dc3be13438c383c4618b3178fb9fe7f903a303e9/RootsWeatherProject-1.0.8.tar.gz
+[2024-05-15 06:23:17] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/5e/05/ce39716e0f3158eb14aa1a6bea2cc730da47ad01e27856f607e3e908fec8/advanced_navigation-0.1.51.tar.gz
+[2024-05-15 06:23:17] INFO root fetch - processPackages [sortipy]: Downloading https://files.pythonhosted.org/packages/50/8d/9302bdcc40cb0137974ea2e32f1bae604cd862fc1d11e0acd860d0808d10/sortipy-0.0.5.tar.gz
+[2024-05-15 06:23:17] INFO root fetch - processPackages [sortipy]: executing diffoscope
+[2024-05-15 06:23:17] INFO root fetch - processPackages [sortipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortipy-0.0.4.tar.gz tmp/sortipy-0.0.5.tar.gz --markdown 20240515/s/sortipy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 06:23:17] INFO root fetch - processPackages [RootsWeatherProject]: Downloading https://files.pythonhosted.org/packages/9b/a2/69301f3fbd872cb70af32b4f907b1e6efd171cd213e2f017930007c14da7/RootsWeatherProject-1.0.9.tar.gz
+[2024-05-15 06:23:18] INFO root fetch - processPackages [flashlight-text]: New version: [0.0.8.dev309] Old Version: [0.0.8.dev308]
+[2024-05-15 06:23:18] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/a2/7e/fdaa224fcf56b5f7ca20816f90f288ec581ef52630580554e1416fc40258/advanced_navigation-0.1.60.tar.gz
+[2024-05-15 06:23:18] INFO root fetch - processPackages [RootsWeatherProject]: executing diffoscope
+[2024-05-15 06:23:18] INFO root fetch - processPackages [RootsWeatherProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RootsWeatherProject-1.0.8.tar.gz tmp/RootsWeatherProject-1.0.9.tar.gz --markdown 20240515/R/RootsWeatherProject/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 06:23:18] INFO root fetch - processPackages [flashlight-text]: Downloading https://files.pythonhosted.org/packages/9d/ff/e27ac6de562e03c301c460b72021f8053513a3da8d5933215fe58db0b602/flashlight_text-0.0.8.dev308.tar.gz
+[2024-05-15 06:23:18] INFO root fetch - processPackages [sortipy]: Remove: archive file [/home/abi/fetcher/tmp/sortipy-0.0.4.tar.gz]
+[2024-05-15 06:23:18] INFO root fetch - processPackages [sortipy]: Remove: archive file [/home/abi/fetcher/tmp/sortipy-0.0.5.tar.gz]
+[2024-05-15 06:23:18] INFO root fetch - main [MainThread]: End processing [sortipy]: success
+[2024-05-15 06:23:18] INFO root fetch - processPackages [RootsWeatherProject]: Remove: archive file [/home/abi/fetcher/tmp/RootsWeatherProject-1.0.8.tar.gz]
+[2024-05-15 06:23:18] INFO root fetch - processPackages [RootsWeatherProject]: Remove: archive file [/home/abi/fetcher/tmp/RootsWeatherProject-1.0.9.tar.gz]
+[2024-05-15 06:23:18] INFO root fetch - main [MainThread]: End processing [RootsWeatherProject]: success
+[2024-05-15 06:23:18] INFO root fetch - processPackages [flashlight-text]: Downloading https://files.pythonhosted.org/packages/ae/10/367fa3920b1471436714c15cd2f591feacf5d726a82432befc2739619787/flashlight_text-0.0.8.dev309-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 06:23:20] INFO root fetch - processPackages [flashlight-text]: executing diffoscope
+[2024-05-15 06:23:20] INFO root fetch - processPackages [flashlight-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashlight_text-0.0.8.dev308.tar.gz tmp/flashlight_text-0.0.8.dev309-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240515/f/flashlight-text/0.0.8.dev308-0.0.8.dev309/README.md --exclude *.pyd
+[2024-05-15 06:23:21] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-15 06:23:21] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.51.tar.gz tmp/advanced_navigation-0.1.60.tar.gz --markdown 20240515/a/advanced_navigation/0.1.51-0.1.60/README.md --exclude *.pyd
+[2024-05-15 06:23:21] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight_text-0.0.8.dev308.tar.gz]
+[2024-05-15 06:23:21] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight_text-0.0.8.dev309-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-15 06:23:21] INFO root fetch - main [MainThread]: End processing [flashlight-text]: success
+[2024-05-15 06:23:21] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.51.tar.gz]
+[2024-05-15 06:23:21] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.60.tar.gz]
+[2024-05-15 06:23:21] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-15 06:23:21] INFO root fetch - main [MainThread]: Store serial: [23212612]
