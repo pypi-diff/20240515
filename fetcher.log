@@ -17414,3 +17414,102 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:35:15] INFO root fetch - processPackages [breez-sdk]: Remove: archive file [/home/abi/fetcher/tmp/breez_sdk-0.4.1rc2-cp39-cp39-win_amd64.whl.zip]
 [2024-05-15 11:35:15] INFO root fetch - main [MainThread]: End processing [breez-sdk]: success
 [2024-05-15 11:35:15] INFO root fetch - main [MainThread]: Store serial: [23215642]
+[2024-05-15 11:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215642]
+[2024-05-15 11:37:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poselib
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lungo-cli
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-splunk
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satsure-core-test
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fetchmail-attach-from-folder
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycti
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkout-sdk
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fivesimbiz-api
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-xiao
+[2024-05-15 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glasswall
+[2024-05-15 11:37:42] INFO root fetch - processPackages [poselib]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [satsure-core-test]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [langchain-xiao]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [glasswall]: New version: [5.2.1] Old Version: [5.2.0]
+[2024-05-15 11:37:42] WARNING root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Skipping, unable to determine old version
+[2024-05-15 11:37:42] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Start processing: abstract-pandas
+[2024-05-15 11:37:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-fetchmail-attach-from-folder] error
+[2024-05-15 11:37:42] INFO root fetch - processPackages [poselib]: Downloading https://files.pythonhosted.org/packages/ee/cc/943d17b6e9cfb0ee9db2619915d5e696e1f4ad1d8e1cb02eb33641244f14/poselib-2.0.1-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-15 11:37:42] INFO root fetch - processPackages [checkout-sdk]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-15 11:37:42] WARNING root fetch - processPackages [fivesimbiz-api]: Skipping, unable to determine old version
+[2024-05-15 11:37:42] INFO root fetch - processPackages [fivesimbiz-api]: Start processing: autotuning_methodology
+[2024-05-15 11:37:42] INFO root fetch - main [MainThread]: End processing [fivesimbiz-api] error
+[2024-05-15 11:37:42] INFO root fetch - processPackages [lungo-cli]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/2e/75/8014a5458979ef3bbeba8cf874027d731bb8fee13177a5b1a523becdc177/satsure_core_test-0.1.3.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [pycti]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1715764710] Old Version: [1.3.0a1715339478]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/9f/b1/336de29d6097863fb84102ca8d3823fff21ea617f80c21208ad648e1fa9d/langchain_xiao-0.0.1.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.81]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/dc/d6/09cadf61f142d5a342491e788f3cc43e97362171153717e3f01f2e478a75/glasswall-5.2.0.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [checkout-sdk]: Downloading https://files.pythonhosted.org/packages/81/6c/b890e8e9347fa479236d467c61e4b2934c3f348459e4cbee9b87e1dd54dd/checkout_sdk-3.0.8.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [autotuning_methodology]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-05-15 11:37:42] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/0f/d2/4b9456810aed12bb45dbd3c3764dd3a28b760019167919d0babd9ddd6c97/pycti-6.1.0.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [lungo-cli]: Downloading https://files.pythonhosted.org/packages/cc/3a/078c1b373e1c84c1f484950b6f4377aa923612fb8a004cb5e56535f9577b/lungo_cli-0.3.0.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/9d/04/21021e556d60ef84871806ee30b083fd1e0153473adbf0725eb9fa6dfbd2/pulumi_splunk-1.3.0a1715339478.tar.gz
+[2024-05-15 11:37:42] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/67/09/f5e322a401a314ab692d8e7d0139cac10089a0d3bde07f04c47b96f67b5f/langchain_xiao-0.0.2.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [poselib]: Downloading https://files.pythonhosted.org/packages/ec/f0/0b39988b1dc4087970533edfdc9eba96d1db83e74306c6502587a1614eaa/poselib-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 11:37:43] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/c0/a5/f897220c0329aa2ce7bdbf88a7d7b43125d64a8dceee6e2de396ae610ed5/satsure_core_test-0.1.4.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/85/76/8b7cca8d2fcde093f8f0120335f6b28eceb96db2f4b0f02cba1411fb0d5f/abstract_pandas-0.0.0.81.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [autotuning_methodology]: Downloading https://files.pythonhosted.org/packages/1c/85/c467d50b99b234ff7b8312ba1eddca3779233dbf5c56fd77db104a6d03fc/autotuning_methodology-1.0.0b1.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [langchain-xiao]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [langchain-xiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_xiao-0.0.1.tar.gz tmp/langchain_xiao-0.0.2.tar.gz --markdown 20240515/l/langchain-xiao/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.1.3.tar.gz tmp/satsure_core_test-0.1.4.tar.gz --markdown 20240515/s/satsure-core-test/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [checkout-sdk]: Downloading https://files.pythonhosted.org/packages/65/05/32db90c3f69103015cb4a447b78b571b64eae773985b466e11aaf95e91e5/checkout_sdk-3.0.9.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [poselib]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [poselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poselib-2.0.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/poselib-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240515/p/poselib/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/fe/2d/330096d4378d591e0a40c7ff7f5399c19c22d20621abf48be67034ef56fe/pycti-6.1.1.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/c4/2a/9a7a2aede2f0f26bdd96211e877687598ab51787a8d706f7d7e8d778b275/glasswall-5.2.1-py3-none-any.whl
+[2024-05-15 11:37:43] INFO root fetch - processPackages [checkout-sdk]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [checkout-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkout_sdk-3.0.8.tar.gz tmp/checkout_sdk-3.0.9.tar.gz --markdown 20240515/c/checkout-sdk/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/6f/36/bdc3bd7d541eb5e8f23ed90312cedc52bb549063de35fee7a13e90b364bd/pulumi_splunk-1.3.0a1715764710.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.81.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.81-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [lungo-cli]: Downloading https://files.pythonhosted.org/packages/9a/b7/2f9256115316cbe87c48ede7d4ffe636de36e7b1e80bc49ff2eac0f8eb67/lungo_cli-0.4.0.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-5.2.0.tar.gz tmp/glasswall-5.2.1-py3-none-any.whl.zip --markdown 20240515/g/glasswall/5.2.0-5.2.1/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1715339478.tar.gz tmp/pulumi_splunk-1.3.0a1715764710.tar.gz --markdown 20240515/p/pulumi-splunk/1.3.0a1715339478-1.3.0a1715764710/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-6.1.0.tar.gz tmp/pycti-6.1.1.tar.gz --markdown 20240515/p/pycti/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-15 11:37:43] INFO root fetch - processPackages [autotuning_methodology]: Downloading https://files.pythonhosted.org/packages/65/87/09b6a600bdb9b63e3d290e416e36bde9ef408682beb84dc9a1f4b2e681e7/autotuning_methodology-1.0.0b2.tar.gz
+[2024-05-15 11:37:43] INFO root fetch - processPackages [lungo-cli]: executing diffoscope
+[2024-05-15 11:37:43] INFO root fetch - processPackages [lungo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lungo_cli-0.3.0.tar.gz tmp/lungo_cli-0.4.0.tar.gz --markdown 20240515/l/lungo-cli/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-15 11:37:44] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.1.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.2.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [langchain-xiao]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.3.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.4.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [poselib]: Remove: archive file [/home/abi/fetcher/tmp/poselib-2.0.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [poselib]: Remove: archive file [/home/abi/fetcher/tmp/poselib-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [poselib]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.81.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.2.0.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.2.1-py3-none-any.whl.zip]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715339478.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715764710.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [checkout-sdk]: Remove: archive file [/home/abi/fetcher/tmp/checkout_sdk-3.0.8.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [checkout-sdk]: Remove: archive file [/home/abi/fetcher/tmp/checkout_sdk-3.0.9.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [checkout-sdk]: success
+[2024-05-15 11:37:44] INFO root fetch - processPackages [autotuning_methodology]: executing diffoscope
+[2024-05-15 11:37:44] INFO root fetch - processPackages [autotuning_methodology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotuning_methodology-1.0.0b1.tar.gz tmp/autotuning_methodology-1.0.0b2.tar.gz --markdown 20240515/a/autotuning_methodology/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-05-15 11:37:44] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.0.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.1.tar.gz]
+[2024-05-15 11:37:44] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2024-05-15 11:37:45] INFO root fetch - processPackages [lungo-cli]: Remove: archive file [/home/abi/fetcher/tmp/lungo_cli-0.3.0.tar.gz]
+[2024-05-15 11:37:45] INFO root fetch - processPackages [lungo-cli]: Remove: archive file [/home/abi/fetcher/tmp/lungo_cli-0.4.0.tar.gz]
+[2024-05-15 11:37:45] INFO root fetch - main [MainThread]: End processing [lungo-cli]: success
+[2024-05-15 11:37:46] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b1.tar.gz]
+[2024-05-15 11:37:46] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b2.tar.gz]
+[2024-05-15 11:37:46] INFO root fetch - main [MainThread]: End processing [autotuning_methodology]: success
+[2024-05-15 11:37:46] INFO root fetch - main [MainThread]: Store serial: [23215726]
