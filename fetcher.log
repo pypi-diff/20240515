@@ -15313,3 +15313,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:25:07] INFO root fetch - processPackages [firex-flame-ui]: Remove: archive file [/home/abi/fetcher/tmp/firex_flame_ui-0.5.tar.gz]
 [2024-05-15 10:25:07] INFO root fetch - main [MainThread]: End processing [firex-flame-ui]: success
 [2024-05-15 10:25:07] INFO root fetch - main [MainThread]: Store serial: [23214758]
+[2024-05-15 10:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214758]
+[2024-05-15 10:27:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 10:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compas-fea2
+[2024-05-15 10:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcmds
+[2024-05-15 10:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duwi-smarthome-sdk
+[2024-05-15 10:27:17] WARNING root fetch - processPackages [duwi-smarthome-sdk]: Skipping, unable to determine old version
+[2024-05-15 10:27:17] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk] error
+[2024-05-15 10:27:17] INFO root fetch - processPackages [compas-fea2]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-15 10:27:17] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.85]
+[2024-05-15 10:27:18] INFO root fetch - processPackages [compas-fea2]: Downloading https://files.pythonhosted.org/packages/96/5c/4812554eb4bb055f51b33051137f3c1d153f6e851ddc82d622bdc676eaaa/compas_fea2-0.2.0.tar.gz
+[2024-05-15 10:27:18] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/32/f1/d164c94056401039854b6324e74c492d49fc5b736960f31ae92537a66bad/zcmds-1.4.85.tar.gz
+[2024-05-15 10:27:18] INFO root fetch - processPackages [compas-fea2]: Downloading https://files.pythonhosted.org/packages/0c/45/87b7ccfc368d417c387319357e5f5d2aaf511ed36909f81f0479c342a77f/compas_fea2-0.2.1.tar.gz
+[2024-05-15 10:27:18] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-05-15 10:27:18] INFO root fetch - processPackages [compas-fea2]: executing diffoscope
+[2024-05-15 10:27:18] INFO root fetch - processPackages [compas-fea2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_fea2-0.2.0.tar.gz tmp/compas_fea2-0.2.1.tar.gz --markdown 20240515/c/compas-fea2/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-15 10:27:18] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-05-15 10:27:18] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.85.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240515/z/zcmds/1.4.85-1.4.9/README.md --exclude *.pyd
+[2024-05-15 10:27:19] INFO root fetch - processPackages [compas-fea2]: Remove: archive file [/home/abi/fetcher/tmp/compas_fea2-0.2.0.tar.gz]
+[2024-05-15 10:27:19] INFO root fetch - processPackages [compas-fea2]: Remove: archive file [/home/abi/fetcher/tmp/compas_fea2-0.2.1.tar.gz]
+[2024-05-15 10:27:19] INFO root fetch - main [MainThread]: End processing [compas-fea2]: success
+[2024-05-15 10:27:19] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.85.tar.gz]
+[2024-05-15 10:27:19] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-05-15 10:27:19] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-05-15 10:27:19] INFO root fetch - main [MainThread]: Store serial: [23214768]
