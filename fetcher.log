@@ -7802,3 +7802,51 @@
 [2024-05-15 04:02:28] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpcinstant20230701-1.0.2-py3-none-any.whl.zip]
 [2024-05-15 04:02:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpcinstant20230701]: success
 [2024-05-15 04:02:28] INFO root fetch - main [MainThread]: Store serial: [23211592]
+[2024-05-15 04:04:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211592]
+[2024-05-15 04:04:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 04:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ehpcinstant20230701
+[2024-05-15 04:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dm20151123
+[2024-05-15 04:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: di-compression
+[2024-05-15 04:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ecs20140526
+[2024-05-15 04:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-aimiaobi20230801
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: Downloading https://files.pythonhosted.org/packages/76/12/04786839b7a8bfb949cb9318e1bfe2c8a628f774adc23401b6ec9ae1b9f7/alibabacloud_ehpcinstant20230701-1.0.1.tar.gz
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-15 04:04:37] INFO root fetch - processPackages [di-compression]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-ecs20140526]: New version: [4.1.5] Old Version: [4.1.4]
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-dm20151123]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: Downloading https://files.pythonhosted.org/packages/6b/45/ddf59034fa5256b107bb81d5781e6a1626339f4af093e4170b8f459b370f/alibabacloud_ehpcinstant20230701-1.0.2-py3-none-any.whl
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Downloading https://files.pythonhosted.org/packages/21/6e/0906d66a2c8de83ee751d9d4fbd3718e6824afab163a37a191613b16416c/alibabacloud_aimiaobi20230801-1.5.0.tar.gz
+[2024-05-15 04:04:37] INFO root fetch - processPackages [di-compression]: Downloading https://files.pythonhosted.org/packages/97/91/cdd4a401b2984dc8a17cdca6c6e3319ea7c04458928559b97360fddd1cc3/di_compression-0.0.3.tar.gz
+[2024-05-15 04:04:37] INFO root fetch - processPackages [alibabacloud-dm20151123]: Downloading https://files.pythonhosted.org/packages/0f/05/63849bf0baf35bf8161319af51d28aa1a3117ef14c4b8b1d2fc590e0aab2/alibabacloud_dm20151123-1.1.0.tar.gz
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/7e/34/d4de649b68a21f36e86b9e383d52df895787dbe84c3e0f53248bb187211e/alibabacloud_ecs20140526-4.1.4.tar.gz
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: executing diffoscope
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ehpcinstant20230701-1.0.1.tar.gz tmp/alibabacloud_ehpcinstant20230701-1.0.2-py3-none-any.whl.zip --markdown 20240515/a/alibabacloud-ehpcinstant20230701/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 04:04:38] INFO root fetch - processPackages [di-compression]: Downloading https://files.pythonhosted.org/packages/7d/a7/ee72fb66e2b3285b4790336409420d4761aa87619e273786e214d70aba9f/di-compression-0.0.4.tar.gz
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Downloading https://files.pythonhosted.org/packages/f0/6b/441f2ab57888c421ed007320fa8a9f49e51897d489857494d2b10b463dd6/alibabacloud_aimiaobi20230801-1.6.0.tar.gz
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-dm20151123]: Downloading https://files.pythonhosted.org/packages/87/e8/d28207aedef40de5f029a3c6f8b12b491e3c1edd6f12bfabc6aef99216e8/alibabacloud_dm20151123-1.1.1.tar.gz
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/7a/6f/c98e1a7891ab2851b75366fbe0c11f458ed5bbcdeeee7f28c44421075a83/alibabacloud_ecs20140526-4.1.5.tar.gz
+[2024-05-15 04:04:38] INFO root fetch - processPackages [di-compression]: executing diffoscope
+[2024-05-15 04:04:38] INFO root fetch - processPackages [di-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/di_compression-0.0.3.tar.gz tmp/di-compression-0.0.4.tar.gz --markdown 20240515/d/di-compression/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: executing diffoscope
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aimiaobi20230801-1.5.0.tar.gz tmp/alibabacloud_aimiaobi20230801-1.6.0.tar.gz --markdown 20240515/a/alibabacloud-aimiaobi20230801/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-dm20151123]: executing diffoscope
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-dm20151123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dm20151123-1.1.0.tar.gz tmp/alibabacloud_dm20151123-1.1.1.tar.gz --markdown 20240515/a/alibabacloud-dm20151123/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ecs20140526]: executing diffoscope
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ecs20140526]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526-4.1.4.tar.gz tmp/alibabacloud_ecs20140526-4.1.5.tar.gz --markdown 20240515/a/alibabacloud-ecs20140526/4.1.4-4.1.5/README.md --exclude *.pyd
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpcinstant20230701-1.0.1.tar.gz]
+[2024-05-15 04:04:38] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpcinstant20230701-1.0.2-py3-none-any.whl.zip]
+[2024-05-15 04:04:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpcinstant20230701]: success
+[2024-05-15 04:04:38] INFO root fetch - processPackages [di-compression]: Remove: archive file [/home/abi/fetcher/tmp/di_compression-0.0.3.tar.gz]
+[2024-05-15 04:04:38] INFO root fetch - processPackages [di-compression]: Remove: archive file [/home/abi/fetcher/tmp/di-compression-0.0.4.tar.gz]
+[2024-05-15 04:04:38] INFO root fetch - main [MainThread]: End processing [di-compression]: success
+[2024-05-15 04:04:39] INFO root fetch - processPackages [alibabacloud-dm20151123]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dm20151123-1.1.0.tar.gz]
+[2024-05-15 04:04:39] INFO root fetch - processPackages [alibabacloud-dm20151123]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dm20151123-1.1.1.tar.gz]
+[2024-05-15 04:04:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-dm20151123]: success
+[2024-05-15 04:04:39] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aimiaobi20230801-1.5.0.tar.gz]
+[2024-05-15 04:04:39] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aimiaobi20230801-1.6.0.tar.gz]
+[2024-05-15 04:04:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-aimiaobi20230801]: success
+[2024-05-15 04:04:42] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.1.4.tar.gz]
+[2024-05-15 04:04:42] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.1.5.tar.gz]
+[2024-05-15 04:04:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
+[2024-05-15 04:04:42] INFO root fetch - main [MainThread]: Store serial: [23211611]
