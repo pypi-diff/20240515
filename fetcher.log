@@ -10890,3 +10890,30 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:11:21] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.50-py3-none-any.whl.zip]
 [2024-05-15 07:11:21] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
 [2024-05-15 07:11:21] INFO root fetch - main [MainThread]: Store serial: [23212951]
+[2024-05-15 07:13:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212951]
+[2024-05-15 07:13:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fivesimbizapi
+[2024-05-15 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-hms-library
+[2024-05-15 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socketsecurity
+[2024-05-15 07:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: traffic-anomaly
+[2024-05-15 07:13:30] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.50] Old Version: [0.0.49]
+[2024-05-15 07:13:30] WARNING root fetch - processPackages [traffic-anomaly]: Skipping, unable to determine old version
+[2024-05-15 07:13:30] INFO root fetch - main [MainThread]: End processing [traffic-anomaly] error
+[2024-05-15 07:13:30] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/89/d1/c8073da29cf4fdbb6ed7d9b9a3165e6a92407fce7eb70951663c59ad4782/socketsecurity-0.0.49-py3-none-any.whl
+[2024-05-15 07:13:30] WARNING root fetch - processPackages [fivesimbizapi]: Skipping, unable to determine old version
+[2024-05-15 07:13:30] INFO root fetch - main [MainThread]: End processing [fivesimbizapi] error
+[2024-05-15 07:13:30] INFO root fetch - processPackages [common-hms-library]: New version: [1.0] Old Version: [0.1]
+[2024-05-15 07:13:30] INFO root fetch - processPackages [common-hms-library]: Downloading https://files.pythonhosted.org/packages/68/9f/2dcdc2479c2c884ccb4f62225c952ce7bfed60c1e1c9108ffa5602d1a4eb/common_hms_library-0.1.tar.gz
+[2024-05-15 07:13:30] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/48/cc/c9641b61c7d53349d289bc35db19d1f5bc6f1e39fd66786126c7bb6b1ee0/socketsecurity-0.0.50-py3-none-any.whl
+[2024-05-15 07:13:31] INFO root fetch - processPackages [common-hms-library]: Downloading https://files.pythonhosted.org/packages/10/9d/145e4043f232b41e139d887abbecbba5b0f2596456371b0b1096cc03a26f/common_hms_library-1.0.tar.gz
+[2024-05-15 07:13:31] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-15 07:13:31] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.49-py3-none-any.whl.zip tmp/socketsecurity-0.0.50-py3-none-any.whl.zip --markdown 20240515/s/socketsecurity/0.0.49-0.0.50/README.md --exclude *.pyd
+[2024-05-15 07:13:31] INFO root fetch - processPackages [common-hms-library]: executing diffoscope
+[2024-05-15 07:13:31] INFO root fetch - processPackages [common-hms-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_hms_library-0.1.tar.gz tmp/common_hms_library-1.0.tar.gz --markdown 20240515/c/common-hms-library/0.1-1.0/README.md --exclude *.pyd
+[2024-05-15 07:13:31] INFO root fetch - processPackages [common-hms-library]: Remove: archive file [/home/abi/fetcher/tmp/common_hms_library-0.1.tar.gz]
+[2024-05-15 07:13:31] INFO root fetch - processPackages [common-hms-library]: Remove: archive file [/home/abi/fetcher/tmp/common_hms_library-1.0.tar.gz]
+[2024-05-15 07:13:31] INFO root fetch - main [MainThread]: End processing [common-hms-library]: success
+[2024-05-15 07:13:32] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.49-py3-none-any.whl.zip]
+[2024-05-15 07:13:32] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.50-py3-none-any.whl.zip]
+[2024-05-15 07:13:32] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-15 07:13:32] INFO root fetch - main [MainThread]: Store serial: [23212965]
