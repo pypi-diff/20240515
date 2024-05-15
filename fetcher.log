@@ -9148,3 +9148,42 @@
 [2024-05-15 05:28:11] INFO root fetch - processPackages [meme-generator]: Remove: archive file [/home/abi/fetcher/tmp/meme_generator-0.0.9.tar.gz]
 [2024-05-15 05:28:11] INFO root fetch - main [MainThread]: End processing [meme-generator]: success
 [2024-05-15 05:28:11] INFO root fetch - main [MainThread]: Store serial: [23212148]
+[2024-05-15 05:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212148]
+[2024-05-15 05:30:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 05:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-databricks
+[2024-05-15 05:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2024-05-15 05:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dekdjtools
+[2024-05-15 05:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: korean-regex
+[2024-05-15 05:30:20] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-15 05:30:20] INFO root fetch - processPackages [korean-regex]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-15 05:30:20] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 05:30:20] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-15 05:30:20] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-15 05:30:21] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-15 05:30:21] INFO root fetch - processPackages [korean-regex]: Downloading https://files.pythonhosted.org/packages/62/77/73d18a103fcf8b899e0e5a8caa3748dcd98774fc2b1ef7e950d826331f3c/korean_regex-0.0.3.tar.gz
+[2024-05-15 05:30:21] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/22/e6/a37602f6c892854f281c7bb4adc106276e2457550f978d3876eae5aff44f/cdktf-cdktf-provider-databricks-9.0.2.tar.gz
+[2024-05-15 05:30:21] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-15 05:30:21] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-15 05:30:21] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240515/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-15 05:30:21] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-15 05:30:21] INFO root fetch - processPackages [korean-regex]: Downloading https://files.pythonhosted.org/packages/38/c3/567c9d79678d21b6d2518ffbbc4ef4a49f4dd98958fd35d5c05383bcfdf2/korean_regex-0.1.0.tar.gz
+[2024-05-15 05:30:21] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-15 05:30:21] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240515/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 05:30:21] INFO root fetch - processPackages [korean-regex]: executing diffoscope
+[2024-05-15 05:30:21] INFO root fetch - processPackages [korean-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/korean_regex-0.0.3.tar.gz tmp/korean_regex-0.1.0.tar.gz --markdown 20240515/k/korean-regex/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-15 05:30:22] INFO root fetch - processPackages [korean-regex]: Remove: archive file [/home/abi/fetcher/tmp/korean_regex-0.0.3.tar.gz]
+[2024-05-15 05:30:22] INFO root fetch - processPackages [korean-regex]: Remove: archive file [/home/abi/fetcher/tmp/korean_regex-0.1.0.tar.gz]
+[2024-05-15 05:30:22] INFO root fetch - main [MainThread]: End processing [korean-regex]: success
+[2024-05-15 05:30:22] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-15 05:30:22] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-15 05:30:22] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-15 05:30:22] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-15 05:30:22] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-15 05:30:22] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-15 05:30:24] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/cc/3a/8e28dd4a45c0a00150d822d03862c508cb6c485bb959ef5ce80e1adb4448/cdktf-cdktf-provider-databricks-9.0.3.tar.gz
+[2024-05-15 05:30:24] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2024-05-15 05:30:24] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz --markdown 20240515/c/cdktf-cdktf-provider-databricks/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-15 05:30:28] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
+[2024-05-15 05:30:28] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
+[2024-05-15 05:30:28] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2024-05-15 05:30:28] INFO root fetch - main [MainThread]: Store serial: [23212160]
