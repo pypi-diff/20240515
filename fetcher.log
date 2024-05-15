@@ -8524,3 +8524,30 @@
 [2024-05-15 04:46:27] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-4.0.1.tar.gz]
 [2024-05-15 04:46:27] INFO root fetch - main [MainThread]: End processing [scottbrian-utils]: success
 [2024-05-15 04:46:27] INFO root fetch - main [MainThread]: Store serial: [23211903]
+[2024-05-15 04:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211903]
+[2024-05-15 04:48:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 04:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt-idax-adapter
+[2024-05-15 04:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titandevice
+[2024-05-15 04:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformer-engine-build-tools-tmp1
+[2024-05-15 04:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ltm-process
+[2024-05-15 04:48:35] WARNING root fetch - processPackages [ltm-process]: Skipping, unable to determine old version
+[2024-05-15 04:48:35] INFO root fetch - main [MainThread]: End processing [ltm-process] error
+[2024-05-15 04:48:35] INFO root fetch - processPackages [ccxt-idax-adapter]: New version: [4.3.23] Old Version: [4.3.22]
+[2024-05-15 04:48:35] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/cc/05/3f095072a6f992ef5e5e0e36d1f34f28ea5b1fc30261adf82e717aef6cab/ccxt-idax-adapter-4.3.22.tar.gz
+[2024-05-15 04:48:35] INFO root fetch - processPackages [titandevice]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-15 04:48:35] WARNING root fetch - processPackages [transformer-engine-build-tools-tmp1]: Skipping, unable to determine old version
+[2024-05-15 04:48:35] INFO root fetch - main [MainThread]: End processing [transformer-engine-build-tools-tmp1] error
+[2024-05-15 04:48:36] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/d4/3f/4ed2ed04be61f5c6770bbf985fb86afe7cee1984aa25a5a94252294e8bee/titandevice-0.3.9.tar.gz
+[2024-05-15 04:48:36] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/eb/11/2501ef69093ecebe647f9287ca707e92c049fd2a49b361f4b58ccd43af6b/ccxt-idax-adapter-4.3.23.tar.gz
+[2024-05-15 04:48:36] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/c5/f5/34fe27f8def47a90bea7df3babb075747645a6ea449aeb775695bc15ddd2/titandevice-0.4.0.tar.gz
+[2024-05-15 04:48:36] INFO root fetch - processPackages [titandevice]: executing diffoscope
+[2024-05-15 04:48:36] INFO root fetch - processPackages [titandevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titandevice-0.3.9.tar.gz tmp/titandevice-0.4.0.tar.gz --markdown 20240515/t/titandevice/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-15 04:48:36] INFO root fetch - processPackages [ccxt-idax-adapter]: executing diffoscope
+[2024-05-15 04:48:36] INFO root fetch - processPackages [ccxt-idax-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-idax-adapter-4.3.22.tar.gz tmp/ccxt-idax-adapter-4.3.23.tar.gz --markdown 20240515/c/ccxt-idax-adapter/4.3.22-4.3.23/README.md --exclude *.pyd
+[2024-05-15 04:48:37] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.3.9.tar.gz]
+[2024-05-15 04:48:37] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.4.0.tar.gz]
+[2024-05-15 04:48:37] INFO root fetch - main [MainThread]: End processing [titandevice]: success
+[2024-05-15 04:48:40] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.22.tar.gz]
+[2024-05-15 04:48:40] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.23.tar.gz]
+[2024-05-15 04:48:40] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
+[2024-05-15 04:48:40] INFO root fetch - main [MainThread]: Store serial: [23211915]
