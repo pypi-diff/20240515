@@ -18808,3 +18808,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:24:51] INFO root fetch - processPackages [spider-admin-pro]: Remove: archive file [/home/abi/fetcher/tmp/spider-admin-pro-2.0.9.tar.gz]
 [2024-05-15 12:24:51] INFO root fetch - main [MainThread]: End processing [spider-admin-pro]: success
 [2024-05-15 12:24:51] INFO root fetch - main [MainThread]: Store serial: [23216402]
+[2024-05-15 12:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216402]
+[2024-05-15 12:27:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-15 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitrika
+[2024-05-15 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iclean
+[2024-05-15 12:27:01] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.89]
+[2024-05-15 12:27:01] WARNING root fetch - processPackages [aitrika]: Skipping, unable to determine old version
+[2024-05-15 12:27:01] INFO root fetch - main [MainThread]: End processing [aitrika] error
+[2024-05-15 12:27:01] INFO root fetch - processPackages [iclean]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 12:27:01] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/da/fd/866adf365b40071af2712146e7b064eec9c1ef0b59f146a3ede40c776ce3/abstract_pandas-0.0.0.89.tar.gz
+[2024-05-15 12:27:02] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 12:27:02] INFO root fetch - processPackages [iclean]: Downloading https://files.pythonhosted.org/packages/8e/35/69fb0618dcfe9dec63657a15698f2e88d27b7da6a59dbb91534db40068d2/iclean-0.0.2.tar.gz
+[2024-05-15 12:27:02] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:27:02] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.89.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.89-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 12:27:02] INFO root fetch - processPackages [iclean]: Downloading https://files.pythonhosted.org/packages/2a/55/a6c207f09f85ebce736fdb032d3262cb31788847d2b3f2a30422fa98a3c4/iclean-0.0.3.tar.gz
+[2024-05-15 12:27:02] INFO root fetch - processPackages [iclean]: executing diffoscope
+[2024-05-15 12:27:02] INFO root fetch - processPackages [iclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iclean-0.0.2.tar.gz tmp/iclean-0.0.3.tar.gz --markdown 20240515/i/iclean/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 12:27:02] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.89.tar.gz]
+[2024-05-15 12:27:02] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 12:27:02] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:27:03] INFO root fetch - processPackages [iclean]: Remove: archive file [/home/abi/fetcher/tmp/iclean-0.0.2.tar.gz]
+[2024-05-15 12:27:03] INFO root fetch - processPackages [iclean]: Remove: archive file [/home/abi/fetcher/tmp/iclean-0.0.3.tar.gz]
+[2024-05-15 12:27:03] INFO root fetch - main [MainThread]: End processing [iclean]: success
+[2024-05-15 12:27:03] INFO root fetch - main [MainThread]: Store serial: [23216413]
