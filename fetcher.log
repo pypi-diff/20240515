@@ -19213,3 +19213,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:42:27] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
 [2024-05-15 12:42:27] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-05-15 12:42:27] INFO root fetch - main [MainThread]: Store serial: [23216538]
+[2024-05-15 12:44:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216538]
+[2024-05-15 12:44:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 12:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-timesheet-line-exclude
+[2024-05-15 12:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satsure-core-test
+[2024-05-15 12:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-pandas
+[2024-05-15 12:44:36] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.94] Old Version: [0.0.0.93]
+[2024-05-15 12:44:36] INFO root fetch - processPackages [satsure-core-test]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 12:44:36] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.2]
+[2024-05-15 12:44:36] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/34/d5/d965f2031e179570189f47f4943027bdbcd8fffce7eccf7c09550855934f/abstract_pandas-0.0.0.93.tar.gz
+[2024-05-15 12:44:36] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/dd/49/138df2de9dd8fd8f33ea2f646503156e82b1f1127a1373974fe82e0798c3/satsure_core_test-0.1.5.tar.gz
+[2024-05-15 12:44:36] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: Downloading https://files.pythonhosted.org/packages/84/87/3bbf3dce83ac4272ea3fce12627f9e5b3e532278d522f3f2204573feda7e/odoo_addon_sale_timesheet_line_exclude-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 12:44:37] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/4c/74/3d03746d84098e0edc18b4f421d2fd88dd8838de94d1b21034f974be89e5/satsure_core_test-0.1.6.tar.gz
+[2024-05-15 12:44:37] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/51/c3/92a395b225ad7726347dcc5834f815e522d228cddbe6845dfad401c6fa4f/abstract_pandas-0.0.0.94.tar.gz
+[2024-05-15 12:44:37] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: Downloading https://files.pythonhosted.org/packages/51/43/44467f5a36d5395a9f3bb25adb34983a3c9c40175c618bfc2065d508437d/odoo_addon_sale_timesheet_line_exclude-17.0.1.1.0-py3-none-any.whl
+[2024-05-15 12:44:37] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-15 12:44:37] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.1.5.tar.gz tmp/satsure_core_test-0.1.6.tar.gz --markdown 20240515/s/satsure-core-test/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 12:44:37] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:44:37] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.93.tar.gz tmp/abstract_pandas-0.0.0.94.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.93-0.0.0.94/README.md --exclude *.pyd
+[2024-05-15 12:44:37] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: executing diffoscope
+[2024-05-15 12:44:37] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_timesheet_line_exclude-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_timesheet_line_exclude-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-sale-timesheet-line-exclude/17.0.1.0.0.2-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-15 12:44:37] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.93.tar.gz]
+[2024-05-15 12:44:37] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.94.tar.gz]
+[2024-05-15 12:44:37] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:44:37] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_line_exclude-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 12:44:37] INFO root fetch - processPackages [odoo-addon-sale-timesheet-line-exclude]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_line_exclude-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-15 12:44:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-timesheet-line-exclude]: success
+[2024-05-15 12:44:38] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.5.tar.gz]
+[2024-05-15 12:44:38] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.6.tar.gz]
+[2024-05-15 12:44:38] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-15 12:44:38] INFO root fetch - main [MainThread]: Store serial: [23216546]
