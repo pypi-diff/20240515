@@ -10327,3 +10327,51 @@
 [2024-05-15 06:43:07] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.1.2.tar.gz]
 [2024-05-15 06:43:07] INFO root fetch - main [MainThread]: End processing [RPICommLink]: success
 [2024-05-15 06:43:07] INFO root fetch - main [MainThread]: Store serial: [23212724]
+[2024-05-15 06:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212724]
+[2024-05-15 06:45:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 06:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msiaLex
+[2024-05-15 06:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LdShell
+[2024-05-15 06:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: item-matching
+[2024-05-15 06:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmachine
+[2024-05-15 06:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowclient
+[2024-05-15 06:45:16] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 06:45:16] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.5] Old Version: [0.3.9.4]
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-15 06:45:16] INFO root fetch - processPackages [LdShell]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-15 06:45:16] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-05-15 06:45:16] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/ff/e3/fb1ed44c481c2e8737800f50f26110d9a407fdcf9f33a4b0b421a5986c27/msiaLex-0.3.9.4-py3-none-any.whl
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-15 06:45:16] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/d9/4e/47a7124cc0924a97508eff1f0e7438359c0916b416faa163b2c2683ec0c1/LdShell-2.0.3.tar.gz
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-15 06:45:16] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-15 06:45:16] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/18/70/193233e28e19c00fb5a7cb824b3bbe3ec13f73827464e1ecae78bc0089cd/msiaLex-0.3.9.5-py3-none-any.whl
+[2024-05-15 06:45:16] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-05-15 06:45:16] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240515/i/item-matching/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-15 06:45:16] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240515/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-15 06:45:16] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/5c/d4/ee4eda52807ecd03b305bff6a630c0c6d8207073a5441808279971b6b79d/LdShell-2.0.4.tar.gz
+[2024-05-15 06:45:17] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-15 06:45:17] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 06:45:17] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.4-py3-none-any.whl.zip tmp/msiaLex-0.3.9.5-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.4-0.3.9.5/README.md --exclude *.pyd
+[2024-05-15 06:45:17] INFO root fetch - processPackages [LdShell]: executing diffoscope
+[2024-05-15 06:45:17] INFO root fetch - processPackages [LdShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LdShell-2.0.3.tar.gz tmp/LdShell-2.0.4.tar.gz --markdown 20240515/L/LdShell/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-15 06:45:17] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-15 06:45:17] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240515/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-15 06:45:17] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-05-15 06:45:17] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-05-15 06:45:17] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-05-15 06:45:17] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-15 06:45:17] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-15 06:45:17] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-15 06:45:17] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.4-py3-none-any.whl.zip]
+[2024-05-15 06:45:17] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.5-py3-none-any.whl.zip]
+[2024-05-15 06:45:17] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 06:45:17] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-2.0.3.tar.gz]
+[2024-05-15 06:45:17] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-2.0.4.tar.gz]
+[2024-05-15 06:45:17] INFO root fetch - main [MainThread]: End processing [LdShell]: success
+[2024-05-15 06:45:18] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-15 06:45:18] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-15 06:45:18] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-15 06:45:18] INFO root fetch - main [MainThread]: Store serial: [23212735]
