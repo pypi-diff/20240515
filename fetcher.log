@@ -9836,3 +9836,25 @@
 [2024-05-15 06:09:57] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-15 06:09:57] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-15 06:09:57] INFO root fetch - main [MainThread]: Store serial: [23212502]
+[2024-05-15 06:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212502]
+[2024-05-15 06:12:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 06:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-05-15 06:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjected
+[2024-05-15 06:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlacaFipy
+[2024-05-15 06:12:05] WARNING root fetch - processPackages [PlacaFipy]: Skipping, unable to determine old version
+[2024-05-15 06:12:05] INFO root fetch - main [MainThread]: End processing [PlacaFipy] error
+[2024-05-15 06:12:05] INFO root fetch - processPackages [pinjected]: New version: [0.2.65] Old Version: [0.2.64]
+[2024-05-15 06:12:05] INFO root fetch - processPackages [pinjected]: New version: [0.2.65] Old Version: [0.2.64]
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/e5/c3/d28f6842ad9d788aec58686e1e23f15942f4a4587481085a6d951bae7944/pinjected-0.2.64.tar.gz
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/e5/c3/d28f6842ad9d788aec58686e1e23f15942f4a4587481085a6d951bae7944/pinjected-0.2.64.tar.gz
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/1b/dc/793ae0b4beb6b166fd1da38f7c0ddc2a7ad4db12f837475b7dff70047b73/pinjected-0.2.65.tar.gz
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/1b/dc/793ae0b4beb6b166fd1da38f7c0ddc2a7ad4db12f837475b7dff70047b73/pinjected-0.2.65.tar.gz
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.64.tar.gz tmp/pinjected-0.2.65.tar.gz --markdown 20240515/p/pinjected/0.2.64-0.2.65/README.md --exclude *.pyd
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-15 06:12:06] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.64.tar.gz tmp/pinjected-0.2.65.tar.gz --markdown 20240515/p/pinjected/0.2.64-0.2.65/README.md --exclude *.pyd
+[2024-05-15 06:12:07] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.64.tar.gz]
+[2024-05-15 06:12:07] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.65.tar.gz]
+[2024-05-15 06:12:07] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-15 06:12:07] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-15 06:12:07] INFO root fetch - main [MainThread]: Store serial: [23212511]
