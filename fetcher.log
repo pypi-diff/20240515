@@ -15079,3 +15079,39 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:14:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-15 10:14:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-15 10:14:05] INFO root fetch - main [MainThread]: Store serial: [23214672]
+[2024-05-15 10:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214672]
+[2024-05-15 10:16:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-kookit
+[2024-05-15 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-myfatoorah
+[2024-05-15 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: silver_octo_potato
+[2024-05-15 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glampy
+[2024-05-15 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-minio
+[2024-05-15 10:16:14] INFO root fetch - processPackages [silver_octo_potato]: New version: [0.2.2] Old Version: [0.1.4]
+[2024-05-15 10:16:14] INFO root fetch - processPackages [silver_octo_potato]: Downloading https://files.pythonhosted.org/packages/ba/f2/3b6b01e58f61a889b6759cff082ddc63bec10777000fad54b4a6327a616a/silver_octo_potato-0.1.4.tar.gz
+[2024-05-15 10:16:14] WARNING root fetch - processPackages [python-myfatoorah]: Skipping, unable to determine old version
+[2024-05-15 10:16:14] INFO root fetch - main [MainThread]: End processing [python-myfatoorah] error
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pytest-kookit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 10:16:14] WARNING root fetch - processPackages [glampy]: Skipping, unable to determine old version
+[2024-05-15 10:16:14] INFO root fetch - main [MainThread]: End processing [glampy] error
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/c3/af/7849621c9fa917dcaa7b278bba93ab79615e928275b6cedaebf8d9a64fd6/pytest_kookit-0.1.1.tar.gz
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-15 10:16:14] INFO root fetch - processPackages [silver_octo_potato]: Downloading https://files.pythonhosted.org/packages/7a/7a/2d59fd79a50d43ae7ef1cc9b517faf8c0c76ade4943de81a35bdc6b7e761/silver_octo_potato-0.2.2.tar.gz
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/51/56/47e20d0eca77f9c0bfee5cdb9014fcf77b5b09653814d4e2426013624b92/pytest_kookit-0.1.2.tar.gz
+[2024-05-15 10:16:14] INFO root fetch - processPackages [silver_octo_potato]: executing diffoscope
+[2024-05-15 10:16:14] INFO root fetch - processPackages [silver_octo_potato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silver_octo_potato-0.1.4.tar.gz tmp/silver_octo_potato-0.2.2.tar.gz --markdown 20240515/s/silver_octo_potato/0.1.4-0.2.2/README.md --exclude *.pyd
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pytest-kookit]: executing diffoscope
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pytest-kookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_kookit-0.1.1.tar.gz tmp/pytest_kookit-0.1.2.tar.gz --markdown 20240515/p/pytest-kookit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-15 10:16:14] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240515/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-15 10:16:15] INFO root fetch - processPackages [silver_octo_potato]: Remove: archive file [/home/abi/fetcher/tmp/silver_octo_potato-0.1.4.tar.gz]
+[2024-05-15 10:16:15] INFO root fetch - processPackages [silver_octo_potato]: Remove: archive file [/home/abi/fetcher/tmp/silver_octo_potato-0.2.2.tar.gz]
+[2024-05-15 10:16:15] INFO root fetch - main [MainThread]: End processing [silver_octo_potato]: success
+[2024-05-15 10:16:15] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.1.tar.gz]
+[2024-05-15 10:16:15] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.2.tar.gz]
+[2024-05-15 10:16:15] INFO root fetch - main [MainThread]: End processing [pytest-kookit]: success
+[2024-05-15 10:16:15] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-15 10:16:15] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-15 10:16:15] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-15 10:16:15] INFO root fetch - main [MainThread]: Store serial: [23214688]
