@@ -17348,3 +17348,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:32:18] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.7.0.tar.gz]
 [2024-05-15 11:32:18] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
 [2024-05-15 11:32:18] INFO root fetch - main [MainThread]: Store serial: [23215592]
+[2024-05-15 11:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215592]
+[2024-05-15 11:34:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: article-to-podcast
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlee
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breez-sdk
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fm-actor
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyswrd
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-snowflake
+[2024-05-15 11:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poselib
+[2024-05-15 11:34:29] INFO root fetch - processPackages [article-to-podcast]: New version: [0.1.6] Old Version: [0.1]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b9] Old Version: [0.0.3b8]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [fm-actor]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [breez-sdk]: New version: [0.4.1rc2] Old Version: [0.4.1]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [pyswrd]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [poselib]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-15 11:34:29] INFO root fetch - processPackages [article-to-podcast]: Downloading https://files.pythonhosted.org/packages/ec/74/a50bf97718cd6558c610c172510b99877c7078d0729434abc2cf9831792e/article_to_podcast-0.1.tar.gz
+[2024-05-15 11:34:29] INFO root fetch - processPackages [fm-actor]: Downloading https://files.pythonhosted.org/packages/2d/74/3a0a0739a9693e9d993264203d1cb9afba00487e996f219f1f7f17a6ad5c/fm_actor-0.1.0.tar.gz
+[2024-05-15 11:34:29] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/9f/72/688eb2e27a31cb96a74e93e99a90d6fe1cf7353cce9f00adbde3974adb74/crawlee-0.0.3b8.tar.gz
+[2024-05-15 11:34:29] INFO root fetch - processPackages [breez-sdk]: Downloading https://files.pythonhosted.org/packages/bc/3c/5639e768203b9b15b0fdeb8c0c2557877c0b87e8a2c5930b30fed691481d/breez_sdk-0.4.1-cp39-cp39-win_amd64.whl
+[2024-05-15 11:34:29] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-15 11:34:29] INFO root fetch - processPackages [poselib]: Downloading https://files.pythonhosted.org/packages/ee/cc/943d17b6e9cfb0ee9db2619915d5e696e1f4ad1d8e1cb02eb33641244f14/poselib-2.0.1-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-15 11:34:29] INFO root fetch - processPackages [pyswrd]: Downloading https://files.pythonhosted.org/packages/73/1f/7a3a61908cdf8a6ccdb2a5bbf4aaced24ffbfcdc725ae474f034c6288f20/pyswrd-0.1.1.tar.gz
+[2024-05-15 11:34:29] INFO root fetch - processPackages [article-to-podcast]: Downloading https://files.pythonhosted.org/packages/42/07/20eccf1ba7ffd37b55eb1b6a111aebd3da71bf388e41d7954ce0ebe6832e/article_to_podcast-0.1.6.tar.gz
+[2024-05-15 11:34:29] INFO root fetch - processPackages [fm-actor]: Downloading https://files.pythonhosted.org/packages/37/77/9a391ef45e07d49b183f15fcdc0062a5c9219ab64d88355ce453d818aac7/fm_actor-0.2.0-py3-none-any.whl
+[2024-05-15 11:34:29] INFO root fetch - processPackages [article-to-podcast]: executing diffoscope
+[2024-05-15 11:34:29] INFO root fetch - processPackages [article-to-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/article_to_podcast-0.1.tar.gz tmp/article_to_podcast-0.1.6.tar.gz --markdown 20240515/a/article-to-podcast/0.1-0.1.6/README.md --exclude *.pyd
+[2024-05-15 11:34:29] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/84/03/9368bf77c453e6b5e03fac8250e51113b079ed2408053fc99d1e551fe02f/crawlee-0.0.3b9.tar.gz
+[2024-05-15 11:34:30] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-15 11:34:30] INFO root fetch - processPackages [fm-actor]: executing diffoscope
+[2024-05-15 11:34:30] INFO root fetch - processPackages [fm-actor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fm_actor-0.1.0.tar.gz tmp/fm_actor-0.2.0-py3-none-any.whl.zip --markdown 20240515/f/fm-actor/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-15 11:34:30] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-15 11:34:30] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b8.tar.gz tmp/crawlee-0.0.3b9.tar.gz --markdown 20240515/c/crawlee/0.0.3b8-0.0.3b9/README.md --exclude *.pyd
+[2024-05-15 11:34:30] INFO root fetch - processPackages [poselib]: Downloading https://files.pythonhosted.org/packages/ec/f0/0b39988b1dc4087970533edfdc9eba96d1db83e74306c6502587a1614eaa/poselib-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 11:34:30] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-15 11:34:30] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240515/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-15 11:34:30] INFO root fetch - processPackages [pyswrd]: Downloading https://files.pythonhosted.org/packages/a0/45/c508e94eec47b644d5b1053efe90c8567a67117f04af48347912df0a96a4/pyswrd-0.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 11:34:30] INFO root fetch - processPackages [fm-actor]: Remove: archive file [/home/abi/fetcher/tmp/fm_actor-0.1.0.tar.gz]
+[2024-05-15 11:34:30] INFO root fetch - processPackages [fm-actor]: Remove: archive file [/home/abi/fetcher/tmp/fm_actor-0.2.0-py3-none-any.whl.zip]
+[2024-05-15 11:34:30] INFO root fetch - main [MainThread]: End processing [fm-actor]: success
+[2024-05-15 11:34:30] INFO root fetch - processPackages [article-to-podcast]: Remove: archive file [/home/abi/fetcher/tmp/article_to_podcast-0.1.tar.gz]
+[2024-05-15 11:34:30] INFO root fetch - processPackages [article-to-podcast]: Remove: archive file [/home/abi/fetcher/tmp/article_to_podcast-0.1.6.tar.gz]
+[2024-05-15 11:34:30] INFO root fetch - main [MainThread]: End processing [article-to-podcast]: success
+[2024-05-15 11:34:30] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b8.tar.gz]
+[2024-05-15 11:34:30] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
+[2024-05-15 11:34:30] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-15 11:34:31] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-15 11:34:31] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-15 11:34:31] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-15 11:34:31] INFO root fetch - processPackages [breez-sdk]: Downloading https://files.pythonhosted.org/packages/8f/17/5a57757cb4462ee4fda0871095dddd58a49c9a8be08574dee633233572ae/breez_sdk-0.4.1rc2-cp39-cp39-win_amd64.whl
+[2024-05-15 11:34:31] INFO root fetch - processPackages [poselib]: executing diffoscope
+[2024-05-15 11:34:31] INFO root fetch - processPackages [poselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poselib-2.0.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/poselib-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240515/p/poselib/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-15 11:34:31] INFO root fetch - processPackages [breez-sdk]: executing diffoscope
+[2024-05-15 11:34:31] INFO root fetch - processPackages [breez-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breez_sdk-0.4.1-cp39-cp39-win_amd64.whl.zip tmp/breez_sdk-0.4.1rc2-cp39-cp39-win_amd64.whl.zip --markdown 20240515/b/breez-sdk/0.4.1-0.4.1rc2/README.md --exclude *.pyd
+[2024-05-15 11:34:31] INFO root fetch - processPackages [pyswrd]: executing diffoscope
+[2024-05-15 11:34:31] INFO root fetch - processPackages [pyswrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswrd-0.1.1.tar.gz tmp/pyswrd-0.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240515/p/pyswrd/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-15 11:34:32] INFO root fetch - processPackages [poselib]: Remove: archive file [/home/abi/fetcher/tmp/poselib-2.0.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-15 11:34:32] INFO root fetch - processPackages [poselib]: Remove: archive file [/home/abi/fetcher/tmp/poselib-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-15 11:34:32] INFO root fetch - main [MainThread]: End processing [poselib]: success
+[2024-05-15 11:34:36] INFO root fetch - processPackages [pyswrd]: Remove: archive file [/home/abi/fetcher/tmp/pyswrd-0.1.1.tar.gz]
+[2024-05-15 11:34:36] INFO root fetch - processPackages [pyswrd]: Remove: archive file [/home/abi/fetcher/tmp/pyswrd-0.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-15 11:34:36] INFO root fetch - main [MainThread]: End processing [pyswrd]: success
+[2024-05-15 11:35:15] INFO root fetch - processPackages [breez-sdk]: Remove: archive file [/home/abi/fetcher/tmp/breez_sdk-0.4.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 11:35:15] INFO root fetch - processPackages [breez-sdk]: Remove: archive file [/home/abi/fetcher/tmp/breez_sdk-0.4.1rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 11:35:15] INFO root fetch - main [MainThread]: End processing [breez-sdk]: success
+[2024-05-15 11:35:15] INFO root fetch - main [MainThread]: Store serial: [23215642]
