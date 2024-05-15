@@ -14755,3 +14755,75 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:05:15] INFO root fetch - processPackages [kaxe]: Remove: archive file [/home/abi/fetcher/tmp/kaxe-0.1.4.tar.gz]
 [2024-05-15 10:05:15] INFO root fetch - main [MainThread]: End processing [kaxe]: success
 [2024-05-15 10:05:15] INFO root fetch - main [MainThread]: Store serial: [23214547]
+[2024-05-15 10:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214547]
+[2024-05-15 10:07:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saes6-jerry
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluto-client
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: screenshotpath
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utils-ai-nuuuwan
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: koalafix
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-linode
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyter-rfb
+[2024-05-15 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: person-local
+[2024-05-15 10:07:24] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:07:24] INFO root fetch - processPackages [utils-ai-nuuuwan]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-15 10:07:24] WARNING root fetch - processPackages [screenshotpath]: Skipping, unable to determine old version
+[2024-05-15 10:07:24] INFO root fetch - main [MainThread]: End processing [screenshotpath] error
+[2024-05-15 10:07:24] INFO root fetch - processPackages [mns-common]: New version: [1.0.9.8] Old Version: [1.0.9.7]
+[2024-05-15 10:07:24] INFO root fetch - processPackages [jupyter-rfb]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-15 10:07:24] INFO root fetch - processPackages [utils-ai-nuuuwan]: Downloading https://files.pythonhosted.org/packages/05/61/ea9d6da73219d5709064012a5e11c7224482a351740afcd61c613c48d510/utils_ai_nuuuwan-1.0.2.tar.gz
+[2024-05-15 10:07:24] INFO root fetch - processPackages [pluto-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:07:24] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/98/32/cd382be4186b243553195538f0baf4e312a539a4769f0e74f128ae119307/saes6-jerry-0.0.8.tar.gz
+[2024-05-15 10:07:24] WARNING root fetch - processPackages [koalafix]: Skipping, unable to determine old version
+[2024-05-15 10:07:24] INFO root fetch - main [MainThread]: End processing [koalafix] error
+[2024-05-15 10:07:24] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/b5/45/8ad3435df87a78d04b18926360ced4f3f30be5d5663a8311e094371bc4c2/mns_common-1.0.9.7.tar.gz
+[2024-05-15 10:07:24] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-15 10:07:24] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/9a/b4/fc3db6c9de530a5bd7b27a8409d47f89cce89495dc6684d7439b79411b44/pluto_client-0.0.8.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [jupyter-rfb]: Downloading https://files.pythonhosted.org/packages/12/5b/aae8d02b9bb5613adaad2bfcffbbf1e48e5900be8ffe8905f3f3215c1b43/jupyter_rfb-0.4.3.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/3d/fa/f060aeb0eb6de108545bf7746fa5bfc0c2916359802d8eea58819b21fd4d/saes6-jerry-0.0.9.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [utils-ai-nuuuwan]: Downloading https://files.pythonhosted.org/packages/b0/47/a47f3f09ccd37acc17138921a26413a6cd6d7cfb2ec79b99e4cc6a5557f8/utils_ai_nuuuwan-1.0.3.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/1b/7f/fd22ab0380ed7c2a819b92fcc6a13e1a04ac716aae4bedb27f5952378631/mns_common-1.0.9.8.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.8.tar.gz tmp/saes6-jerry-0.0.9.tar.gz --markdown 20240515/s/saes6-jerry/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [utils-ai-nuuuwan]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [utils-ai-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_ai_nuuuwan-1.0.2.tar.gz tmp/utils_ai_nuuuwan-1.0.3.tar.gz --markdown 20240515/u/utils-ai-nuuuwan/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [jupyter-rfb]: Downloading https://files.pythonhosted.org/packages/07/56/3a7b31c84cb7528ca4615b88c104ed13a2193fe3c47ca121ebd581e89766/jupyter_rfb-0.4.4.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/56/38/7b25b598a400edb65031f93b6b67d415a4a09d7af536c684551beb2e61f1/pluto_client-0.0.9.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.9.7.tar.gz tmp/mns_common-1.0.9.8.tar.gz --markdown 20240515/m/mns-common/1.0.9.7-1.0.9.8/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pluto-client]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pluto-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_client-0.0.8.tar.gz tmp/pluto_client-0.0.9.tar.gz --markdown 20240515/p/pluto-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [jupyter-rfb]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [jupyter-rfb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_rfb-0.4.3.tar.gz tmp/jupyter_rfb-0.4.4.tar.gz --markdown 20240515/j/jupyter-rfb/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240515/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-15 10:07:25] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240515/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-15 10:07:25] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.8.tar.gz]
+[2024-05-15 10:07:25] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.9.tar.gz]
+[2024-05-15 10:07:25] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-15 10:07:25] INFO root fetch - processPackages [utils-ai-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_ai_nuuuwan-1.0.2.tar.gz]
+[2024-05-15 10:07:25] INFO root fetch - processPackages [utils-ai-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_ai_nuuuwan-1.0.3.tar.gz]
+[2024-05-15 10:07:25] INFO root fetch - main [MainThread]: End processing [utils-ai-nuuuwan]: success
+[2024-05-15 10:07:26] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.8.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.9.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - main [MainThread]: End processing [pluto-client]: success
+[2024-05-15 10:07:26] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.7.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.8.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-15 10:07:26] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-15 10:07:26] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-15 10:07:26] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-15 10:07:27] INFO root fetch - processPackages [jupyter-rfb]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rfb-0.4.3.tar.gz]
+[2024-05-15 10:07:27] INFO root fetch - processPackages [jupyter-rfb]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rfb-0.4.4.tar.gz]
+[2024-05-15 10:07:27] INFO root fetch - main [MainThread]: End processing [jupyter-rfb]: success
+[2024-05-15 10:07:27] INFO root fetch - main [MainThread]: Store serial: [23214575]
