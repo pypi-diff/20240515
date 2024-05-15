@@ -22502,3 +22502,78 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:52:45] INFO root fetch - processPackages [netbox-qrcode]: Remove: archive file [/home/abi/fetcher/tmp/netbox-qrcode-0.0.9.tar.gz]
 [2024-05-15 14:52:45] INFO root fetch - main [MainThread]: End processing [netbox-qrcode]: success
 [2024-05-15 14:52:45] INFO root fetch - main [MainThread]: Store serial: [23217838]
+[2024-05-15 14:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217838]
+[2024-05-15 14:54:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eodc
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langtrace-python-sdk
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubberduckie
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fcaptcha
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: giger
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: l2dexapi
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fcaptcha
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud-run-flask-template
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sarus-data-spec-public
+[2024-05-15 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glampy
+[2024-05-15 14:54:56] WARNING root fetch - processPackages [fcaptcha]: Skipping, unable to determine old version
+[2024-05-15 14:54:56] INFO root fetch - main [MainThread]: End processing [fcaptcha] error
+[2024-05-15 14:54:56] WARNING root fetch - processPackages [cloud-run-flask-template]: Skipping, unable to determine old version
+[2024-05-15 14:54:56] INFO root fetch - main [MainThread]: End processing [cloud-run-flask-template] error
+[2024-05-15 14:54:56] INFO root fetch - processPackages [giger]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-15 14:54:56] WARNING root fetch - processPackages [fcaptcha]: Skipping, unable to determine old version
+[2024-05-15 14:54:56] INFO root fetch - main [MainThread]: End processing [fcaptcha] error
+[2024-05-15 14:54:56] INFO root fetch - processPackages [l2dexapi]: New version: [1.2] Old Version: [1.1]
+[2024-05-15 14:54:56] INFO root fetch - processPackages [rubberduckie]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-15 14:54:56] INFO root fetch - processPackages [glampy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-15 14:54:56] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-15 14:54:56] INFO root fetch - processPackages [giger]: Downloading https://files.pythonhosted.org/packages/40/40/736b147c36c3cf42b49e981e8731d8381a6697100a16f90672ebbdc3bb9c/giger-0.1.9.tar.gz
+[2024-05-15 14:54:56] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev7] Old Version: [4.0.0.dev6]
+[2024-05-15 14:54:56] INFO root fetch - processPackages [eodc]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-15 14:54:56] INFO root fetch - processPackages [l2dexapi]: Downloading https://files.pythonhosted.org/packages/d8/b7/30ac6d33236a23f0be0d4fcc549cc7ddaaf2dca998ace359646888cbb7b7/l2dexapi-1.1.tar.gz
+[2024-05-15 14:54:56] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/e6/ac/5cfccfc6aca10c7ad4f7a7d2f1ae986be150a9c6c867fdf375fa2f645576/rubberduckie-2024.5.1-py3-none-any.whl
+[2024-05-15 14:54:56] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/4e/a1/4234e4253e7d58624c4089de4f77882a98c23353e40fee009a181d9617a4/langtrace_python_sdk-2.0.5.tar.gz
+[2024-05-15 14:54:56] INFO root fetch - processPackages [glampy]: Downloading https://files.pythonhosted.org/packages/3c/73/b5e8b04619b3ae1f64d58048e09bbc7ceb6e3ae60edb23e5c77f64fa17fb/glampy-0.1.0.tar.gz
+[2024-05-15 14:54:56] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/11/5b/5ec7d3ebf6dd927385fc8787642fe7ff486efeed29aa2c51e59272162529/eodc-2024.5.0.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [l2dexapi]: Downloading https://files.pythonhosted.org/packages/e6/29/1b44e29e90b4f7cabd460448ba415335d8042a109a478f5de0b8f8fac2a5/l2dexapi-1.2.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/17/70/21593ee00ed9d18ba68d66438aba73c0b41ac6534a1aa9f55c9fa9bfce5b/rubberduckie-2024.5.2-py3-none-any.whl
+[2024-05-15 14:54:57] INFO root fetch - processPackages [l2dexapi]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [l2dexapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2dexapi-1.1.tar.gz tmp/l2dexapi-1.2.tar.gz --markdown 20240515/l/l2dexapi/1.1-1.2/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/24/cc/50466f4c79d0e90b1919fc315c8dfae4202db4765f90a9dd379d2e811831/langtrace_python_sdk-2.0.6.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [giger]: Downloading https://files.pythonhosted.org/packages/51/59/68f817d90c7c80c3f441edadc1032f83aadaad853ca98cba533ab03ad07d/giger-0.2.0.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [rubberduckie]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [rubberduckie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubberduckie-2024.5.1-py3-none-any.whl.zip tmp/rubberduckie-2024.5.2-py3-none-any.whl.zip --markdown 20240515/r/rubberduckie/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/d0/17/9cb8e0807c2db0df7770d826f6084a9fe06a9c685c39465779d45e65730e/eodc-2024.5.1.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [glampy]: Downloading https://files.pythonhosted.org/packages/d0/13/7d4a5db16ef7bdc16af2eaad9220bd27a66c949dfbc52767186c6dbaf359/glampy-0.2.0.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2024.5.0.tar.gz tmp/eodc-2024.5.1.tar.gz --markdown 20240515/e/eodc/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [giger]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [glampy]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [glampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glampy-0.1.0.tar.gz tmp/glampy-0.2.0.tar.gz --markdown 20240515/g/glampy/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [giger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giger-0.1.9.tar.gz tmp/giger-0.2.0.tar.gz --markdown 20240515/g/giger/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/f6/99/d909eddfce9898580710206fe0c587b65b62f709404cf829d9a4d17d7b1d/sarus_data_spec_public-4.0.0.dev7.tar.gz
+[2024-05-15 14:54:57] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.0.5.tar.gz tmp/langtrace_python_sdk-2.0.6.tar.gz --markdown 20240515/l/langtrace-python-sdk/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-15 14:54:57] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz --markdown 20240515/s/sarus-data-spec-public/4.0.0.dev6-4.0.0.dev7/README.md --exclude *.pyd
+[2024-05-15 14:54:57] INFO root fetch - processPackages [l2dexapi]: Remove: archive file [/home/abi/fetcher/tmp/l2dexapi-1.1.tar.gz]
+[2024-05-15 14:54:57] INFO root fetch - processPackages [l2dexapi]: Remove: archive file [/home/abi/fetcher/tmp/l2dexapi-1.2.tar.gz]
+[2024-05-15 14:54:57] INFO root fetch - main [MainThread]: End processing [l2dexapi]: success
+[2024-05-15 14:54:58] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2024.5.1-py3-none-any.whl.zip]
+[2024-05-15 14:54:58] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2024.5.2-py3-none-any.whl.zip]
+[2024-05-15 14:54:58] INFO root fetch - main [MainThread]: End processing [rubberduckie]: success
+[2024-05-15 14:54:58] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.0.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.1.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2024-05-15 14:54:58] INFO root fetch - processPackages [glampy]: Remove: archive file [/home/abi/fetcher/tmp/glampy-0.1.0.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - processPackages [glampy]: Remove: archive file [/home/abi/fetcher/tmp/glampy-0.2.0.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - main [MainThread]: End processing [glampy]: success
+[2024-05-15 14:54:58] INFO root fetch - processPackages [giger]: Remove: archive file [/home/abi/fetcher/tmp/giger-0.1.9.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - processPackages [giger]: Remove: archive file [/home/abi/fetcher/tmp/giger-0.2.0.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - main [MainThread]: End processing [giger]: success
+[2024-05-15 14:54:58] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.5.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.6.tar.gz]
+[2024-05-15 14:54:58] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-15 14:54:59] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-05-15 14:54:59] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz]
+[2024-05-15 14:54:59] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-15 14:54:59] INFO root fetch - main [MainThread]: Store serial: [23217871]
