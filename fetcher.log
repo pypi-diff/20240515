@@ -3411,3 +3411,42 @@
 [2024-05-15 02:52:26] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-15 02:52:26] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-15 02:52:26] INFO root fetch - main [MainThread]: Store serial: [23210084]
+[2024-05-15 02:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210084]
+[2024-05-15 02:54:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 02:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartsim
+[2024-05-15 02:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cleanse-speech
+[2024-05-15 02:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tgqSim
+[2024-05-15 02:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tooly
+[2024-05-15 02:54:35] INFO root fetch - processPackages [tgqSim]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-15 02:54:35] INFO root fetch - processPackages [tooly]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 02:54:35] INFO root fetch - processPackages [cleanse-speech]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 02:54:35] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/b0/03/c6a394d5bf1e454977fceefdecccd0a6c1f616f94357533833ba42f8ae90/tooly-0.1.8.tar.gz
+[2024-05-15 02:54:35] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/b4/94/807c69034c477b99bc8137a170d657eb8ed4403b5d5a85adbcab871ce383/tgqSim-0.1.7.tar.gz
+[2024-05-15 02:54:35] INFO root fetch - processPackages [smartsim]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-15 02:54:35] INFO root fetch - processPackages [cleanse-speech]: Downloading https://files.pythonhosted.org/packages/1b/40/f6650b386837bee5617fa6a8a8898cdebdb35a4da9475bd61781eceff021/cleanse_speech-0.1.0.tar.gz
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/16/8c/0307c58b299057a50de718a1422867fb34e4a3bc4df955a74f14b40afa6b/tooly-0.1.9.tar.gz
+[2024-05-15 02:54:36] INFO root fetch - processPackages [smartsim]: Downloading https://files.pythonhosted.org/packages/fd/d8/ccca56eea60b1917d061012a24e28edcf0c4662f50a08ad4928200a81b13/smartsim-0.6.2.tar.gz
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/e4/6a/6f438313af4e868b80aca3f58f059d7200f3ac6c0e1f1b695a22d1dffe11/tgqSim-0.1.8.tar.gz
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.8.tar.gz tmp/tooly-0.1.9.tar.gz --markdown 20240515/t/tooly/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 02:54:36] INFO root fetch - processPackages [cleanse-speech]: Downloading https://files.pythonhosted.org/packages/c7/49/d20944d45c514f5e89347f86969fe9a92c45702138a4b56539702c36c2d2/cleanse_speech-0.1.1.tar.gz
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.7.tar.gz tmp/tgqSim-0.1.8.tar.gz --markdown 20240515/t/tgqSim/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-15 02:54:36] INFO root fetch - processPackages [cleanse-speech]: executing diffoscope
+[2024-05-15 02:54:36] INFO root fetch - processPackages [cleanse-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanse_speech-0.1.0.tar.gz tmp/cleanse_speech-0.1.1.tar.gz --markdown 20240515/c/cleanse-speech/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 02:54:36] INFO root fetch - processPackages [smartsim]: Downloading https://files.pythonhosted.org/packages/c4/9b/548b8ff20b69d2821ea1cb0ee753c52c1dc3a767cc8ccd502ff173db2388/smartsim-0.7.0.tar.gz
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.8.tar.gz]
+[2024-05-15 02:54:36] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.9.tar.gz]
+[2024-05-15 02:54:36] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-05-15 02:54:36] INFO root fetch - processPackages [smartsim]: executing diffoscope
+[2024-05-15 02:54:36] INFO root fetch - processPackages [smartsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsim-0.6.2.tar.gz tmp/smartsim-0.7.0.tar.gz --markdown 20240515/s/smartsim/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-15 02:54:36] INFO root fetch - processPackages [cleanse-speech]: Remove: archive file [/home/abi/fetcher/tmp/cleanse_speech-0.1.0.tar.gz]
+[2024-05-15 02:54:36] INFO root fetch - processPackages [cleanse-speech]: Remove: archive file [/home/abi/fetcher/tmp/cleanse_speech-0.1.1.tar.gz]
+[2024-05-15 02:54:36] INFO root fetch - main [MainThread]: End processing [cleanse-speech]: success
+[2024-05-15 02:54:37] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.7.tar.gz]
+[2024-05-15 02:54:37] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.8.tar.gz]
+[2024-05-15 02:54:37] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-15 02:54:38] INFO root fetch - processPackages [smartsim]: Remove: archive file [/home/abi/fetcher/tmp/smartsim-0.6.2.tar.gz]
+[2024-05-15 02:54:38] INFO root fetch - processPackages [smartsim]: Remove: archive file [/home/abi/fetcher/tmp/smartsim-0.7.0.tar.gz]
+[2024-05-15 02:54:38] INFO root fetch - main [MainThread]: End processing [smartsim]: success
+[2024-05-15 02:54:38] INFO root fetch - main [MainThread]: Store serial: [23210104]
