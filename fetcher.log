@@ -3495,3 +3495,33 @@
 [2024-05-15 02:56:49] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21618967>=10485760
 [2024-05-15 02:56:49] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2024-05-15 02:56:49] INFO root fetch - main [MainThread]: Store serial: [23210120]
+[2024-05-15 02:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210120]
+[2024-05-15 02:58:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tooly
+[2024-05-15 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-15 02:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elemental-tools
+[2024-05-15 02:58:57] INFO root fetch - processPackages [tooly]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 02:58:57] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-15 02:58:57] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/b0/03/c6a394d5bf1e454977fceefdecccd0a6c1f616f94357533833ba42f8ae90/tooly-0.1.8.tar.gz
+[2024-05-15 02:58:57] INFO root fetch - processPackages [elemental-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 02:58:57] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/5e/cb/457938e6e55c08582e514016294207a22ef3af2ed3224fabe44454ff4a90/nonebot_plugin_tetris_stats-1.2.4.tar.gz
+[2024-05-15 02:58:58] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/16/8c/0307c58b299057a50de718a1422867fb34e4a3bc4df955a74f14b40afa6b/tooly-0.1.9.tar.gz
+[2024-05-15 02:58:58] INFO root fetch - processPackages [elemental-tools]: Downloading https://files.pythonhosted.org/packages/2f/ed/4ddcb450a8eba594e49daa3ee280982053979054b328987e3001625aaed8/elemental_tools-0.0.3-py3-none-any.whl
+[2024-05-15 02:58:58] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-05-15 02:58:58] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.8.tar.gz tmp/tooly-0.1.9.tar.gz --markdown 20240515/t/tooly/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 02:58:58] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/81/8e/5734af45c87d09555352c8b25addfe957a816b71056da2c28a1a19905bf7/nonebot_plugin_tetris_stats-1.2.5.tar.gz
+[2024-05-15 02:58:58] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-15 02:58:58] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.2.4.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.5.tar.gz --markdown 20240515/n/nonebot-plugin-tetris-stats/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-15 02:58:58] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.8.tar.gz]
+[2024-05-15 02:58:58] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.9.tar.gz]
+[2024-05-15 02:58:58] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-05-15 02:58:58] INFO root fetch - processPackages [elemental-tools]: Downloading https://files.pythonhosted.org/packages/2d/74/099588f294e3bf0c6b2b40a00cde34dbfeccd2e62d79d8da4aa3325afe61/elemental_tools-0.0.4-py3-none-any.whl
+[2024-05-15 02:58:58] INFO root fetch - processPackages [elemental-tools]: executing diffoscope
+[2024-05-15 02:58:58] INFO root fetch - processPackages [elemental-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elemental_tools-0.0.3-py3-none-any.whl.zip tmp/elemental_tools-0.0.4-py3-none-any.whl.zip --markdown 20240515/e/elemental-tools/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 02:58:58] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.4.tar.gz]
+[2024-05-15 02:58:58] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.5.tar.gz]
+[2024-05-15 02:58:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-15 02:58:59] INFO root fetch - processPackages [elemental-tools]: Remove: archive file [/home/abi/fetcher/tmp/elemental_tools-0.0.3-py3-none-any.whl.zip]
+[2024-05-15 02:58:59] INFO root fetch - processPackages [elemental-tools]: Remove: archive file [/home/abi/fetcher/tmp/elemental_tools-0.0.4-py3-none-any.whl.zip]
+[2024-05-15 02:58:59] INFO root fetch - main [MainThread]: End processing [elemental-tools]: success
+[2024-05-15 02:58:59] INFO root fetch - main [MainThread]: Store serial: [23210129]
