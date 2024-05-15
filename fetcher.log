@@ -8040,3 +8040,33 @@
 [2024-05-15 04:14:10] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.6.0.post20240515-py3-none-any.whl.zip]
 [2024-05-15 04:14:10] INFO root fetch - main [MainThread]: End processing [brainpy]: success
 [2024-05-15 04:14:10] INFO root fetch - main [MainThread]: Store serial: [23211679]
+[2024-05-15 04:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211679]
+[2024-05-15 04:16:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeharvest
+[2024-05-15 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-math
+[2024-05-15 04:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-05-15 04:16:20] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 04:16:20] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 04:16:20] INFO root fetch - processPackages [homeharvest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 04:16:20] INFO root fetch - processPackages [mo-math]: New version: [7.627.24136] Old Version: [7.623.24125]
+[2024-05-15 04:16:20] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 04:16:20] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/ee/35/82f17de156d1492ba0d7f70a81ed3e1f7ab03e7c2ff18bdee5221afa91e5/homeharvest-0.3.8.tar.gz
+[2024-05-15 04:16:20] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/81/61/4445b143c097306c4967b215319d22fe972431d26f743b76f474859846bb/mo_math-7.623.24125.tar.gz
+[2024-05-15 04:16:20] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 04:16:20] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 04:16:21] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/14/3a/bcc101a19e2e5e446203d0d2bd533ee0645cf7ab9697bb8e9dc45c839790/homeharvest-0.3.9.tar.gz
+[2024-05-15 04:16:21] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/76/40/16258bf8fe6d3ccdd509c4cc9a9473c9bd48f236877f9e6732eea42abc1d/mo_math-7.627.24136.tar.gz
+[2024-05-15 04:16:21] INFO root fetch - processPackages [homeharvest]: executing diffoscope
+[2024-05-15 04:16:21] INFO root fetch - processPackages [homeharvest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeharvest-0.3.8.tar.gz tmp/homeharvest-0.3.9.tar.gz --markdown 20240515/h/homeharvest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 04:16:21] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-05-15 04:16:21] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.623.24125.tar.gz tmp/mo_math-7.627.24136.tar.gz --markdown 20240515/m/mo-math/7.623.24125-7.627.24136/README.md --exclude *.pyd
+[2024-05-15 04:16:21] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.8.tar.gz]
+[2024-05-15 04:16:21] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.9.tar.gz]
+[2024-05-15 04:16:21] INFO root fetch - main [MainThread]: End processing [homeharvest]: success
+[2024-05-15 04:16:21] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.623.24125.tar.gz]
+[2024-05-15 04:16:21] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.627.24136.tar.gz]
+[2024-05-15 04:16:21] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-05-15 04:16:22] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 04:16:22] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 04:16:22] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 04:16:22] INFO root fetch - main [MainThread]: Store serial: [23211688]
