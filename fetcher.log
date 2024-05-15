@@ -19426,3 +19426,29 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:57:42] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.5.0b2.tar.gz]
 [2024-05-15 12:57:42] INFO root fetch - main [MainThread]: End processing [batou]: success
 [2024-05-15 12:57:42] INFO root fetch - main [MainThread]: Store serial: [23216599]
+[2024-05-15 12:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216599]
+[2024-05-15 12:59:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prtpy
+[2024-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdi-rust-python-tools
+[2024-05-15 12:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentMET4FOF
+[2024-05-15 12:59:52] INFO root fetch - processPackages [prtpy]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-15 12:59:52] INFO root fetch - processPackages [tdi-rust-python-tools]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-15 12:59:52] INFO root fetch - processPackages [agentMET4FOF]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-15 12:59:52] INFO root fetch - processPackages [prtpy]: Downloading https://files.pythonhosted.org/packages/fe/d8/35cfdec67854f45e4260dce17c466ccf53eceea31194b857cdd811aba5f4/prtpy-0.8.2.tar.gz
+[2024-05-15 12:59:52] INFO root fetch - processPackages [tdi-rust-python-tools]: Downloading https://files.pythonhosted.org/packages/bd/12/4e59ab067a809175d1211d940abf84e63092410b029cc79b450d1e65aa2b/tdi_rust_python_tools-0.3.0.tar.gz
+[2024-05-15 12:59:52] INFO root fetch - processPackages [agentMET4FOF]: Downloading https://files.pythonhosted.org/packages/df/f7/36ddf66e5889e0be8e701648d325c87ab0099a4eaf6cff988074cd1f28e3/agentMET4FOF-0.8.1.tar.gz
+[2024-05-15 12:59:52] WARNING root fetch - processPackages [tdi-rust-python-tools]: Skipping package: exceeds size limit 12822263>=10485760
+[2024-05-15 12:59:52] INFO root fetch - main [MainThread]: End processing [tdi-rust-python-tools] error
+[2024-05-15 12:59:52] INFO root fetch - processPackages [prtpy]: Downloading https://files.pythonhosted.org/packages/3d/23/907d3b406c8a9b506d11008163c0de10d7c643f91311fc3cd8d71228ab2a/prtpy-0.8.3.tar.gz
+[2024-05-15 12:59:52] INFO root fetch - processPackages [prtpy]: executing diffoscope
+[2024-05-15 12:59:52] INFO root fetch - processPackages [prtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prtpy-0.8.2.tar.gz tmp/prtpy-0.8.3.tar.gz --markdown 20240515/p/prtpy/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-15 12:59:52] INFO root fetch - processPackages [agentMET4FOF]: Downloading https://files.pythonhosted.org/packages/3c/2c/afbdfafa7b2ab90929635c0f0fc045592f28ffcfa20cb7da8f8ae33f2e06/agentMET4FOF-0.9.0.tar.gz
+[2024-05-15 12:59:53] INFO root fetch - processPackages [agentMET4FOF]: executing diffoscope
+[2024-05-15 12:59:53] INFO root fetch - processPackages [agentMET4FOF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentMET4FOF-0.8.1.tar.gz tmp/agentMET4FOF-0.9.0.tar.gz --markdown 20240515/a/agentMET4FOF/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-15 12:59:53] INFO root fetch - processPackages [prtpy]: Remove: archive file [/home/abi/fetcher/tmp/prtpy-0.8.2.tar.gz]
+[2024-05-15 12:59:53] INFO root fetch - processPackages [prtpy]: Remove: archive file [/home/abi/fetcher/tmp/prtpy-0.8.3.tar.gz]
+[2024-05-15 12:59:53] INFO root fetch - main [MainThread]: End processing [prtpy]: success
+[2024-05-15 12:59:54] INFO root fetch - processPackages [agentMET4FOF]: Remove: archive file [/home/abi/fetcher/tmp/agentMET4FOF-0.8.1.tar.gz]
+[2024-05-15 12:59:54] INFO root fetch - processPackages [agentMET4FOF]: Remove: archive file [/home/abi/fetcher/tmp/agentMET4FOF-0.9.0.tar.gz]
+[2024-05-15 12:59:54] INFO root fetch - main [MainThread]: End processing [agentMET4FOF]: success
+[2024-05-15 12:59:54] INFO root fetch - main [MainThread]: Store serial: [23216608]
