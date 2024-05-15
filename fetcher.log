@@ -9499,3 +9499,76 @@
 [2024-05-15 05:45:44] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-47.0.0-py3-none-any.whl.zip]
 [2024-05-15 05:45:44] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
 [2024-05-15 05:45:44] INFO root fetch - main [MainThread]: Store serial: [23212338]
+[2024-05-15 05:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212338]
+[2024-05-15 05:47:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marqo
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlacaFipy
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galileo-protect
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dex-adaptors
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bambooai
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parallel-sparse-tools
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-dms
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foundation-cancer-image-biomarker
+[2024-05-15 05:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-dms-auto-classification
+[2024-05-15 05:47:55] INFO root fetch - processPackages [galileo-protect]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.6.1] Old Version: [16.0.1.6.0.6]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [dex-adaptors]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [marqo]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-15 05:47:55] WARNING root fetch - processPackages [PlacaFipy]: Skipping, unable to determine old version
+[2024-05-15 05:47:55] INFO root fetch - main [MainThread]: End processing [PlacaFipy] error
+[2024-05-15 05:47:55] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/39/9f/0ce9b8c507168c6ee27504177981c3dfb71378bcf99954f1d5d11ae3a5b8/galileo_protect-0.6.1.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [parallel-sparse-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/ff/33/41aa2ba53260f6c7f75ef94700fbf8baacba9cd8d6b9cfb4aa2bb1ea8921/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-15 05:47:55] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/f8/3b/426e8446476c73fa4b11e3a3a3ea3c4758cb84a2707b50eacf0599355fbc/foundation_cancer_image_biomarker-1.0.1a1.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/d6/5e/46576c21c6d10ec0b5b0394aab7ac71affdfb3ba700a6c142ddbc7fee590/odoo_addon_dms-16.0.1.6.0.6-py3-none-any.whl
+[2024-05-15 05:47:55] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/f8/e8/14c6df437de55fb659be5b795167ac92ec2d573aec4851975474205239fe/marqo-3.3.0.tar.gz
+[2024-05-15 05:47:55] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15664706>=10485760
+[2024-05-15 05:47:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-05-15 05:47:55] INFO root fetch - processPackages [dex-adaptors]: Downloading https://files.pythonhosted.org/packages/8e/f0/f8296262d4f27edfc770365c37613b6abca20bd93c959d3ac8bc793b6a39/dex-adaptors-0.0.1.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/26/b1/e932621c9886aad219081af49d0a6bce8ea3cbb98280ef7ac8f8288a4b7e/galileo_protect-0.7.0.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/77/3a/cbadc6a843ee08375039e1d2225e644ee150803cb2e67739e45a9efd4c79/odoo_addon_dms_auto_classification-16.0.1.1.0-py3-none-any.whl
+[2024-05-15 05:47:55] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/ec/df/9a97e410d926edbf328c60db316800e8863afc6fc89a8278e816535f76f9/foundation_cancer_image_biomarker-1.0.1a2.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-05-15 05:47:55] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.6.1.tar.gz tmp/galileo_protect-0.7.0.tar.gz --markdown 20240515/g/galileo-protect/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-15 05:47:55] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2024-05-15 05:47:55] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-1.0.1a1.tar.gz tmp/foundation_cancer_image_biomarker-1.0.1a2.tar.gz --markdown 20240515/f/foundation-cancer-image-biomarker/1.0.1a1-1.0.1a2/README.md --exclude *.pyd
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-05-15 05:47:55] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-dms-auto-classification/16.0.1.0.0.5-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-15 05:47:55] INFO root fetch - processPackages [parallel-sparse-tools]: Downloading https://files.pythonhosted.org/packages/6d/2c/a19c8ff917b4ae9b31676597830ee4c37a5fa59791dcb9e69aec087b54e1/parallel_sparse_tools-0.1.1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-05-15 05:47:55] INFO root fetch - processPackages [dex-adaptors]: Downloading https://files.pythonhosted.org/packages/a3/df/883785f380c1d12d6c7fe84c0334b6017f6e4da9d15725eb8494629ead5f/dex-adaptors-0.0.2.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/cd/a7/4aa18c024c0256c86865ccc9fb1a2915a15ddc6cbd45ae9963d0db1b2b22/marqo-3.4.0.tar.gz
+[2024-05-15 05:47:55] INFO root fetch - processPackages [dex-adaptors]: executing diffoscope
+[2024-05-15 05:47:55] INFO root fetch - processPackages [dex-adaptors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dex-adaptors-0.0.1.tar.gz tmp/dex-adaptors-0.0.2.tar.gz --markdown 20240515/d/dex-adaptors/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 05:47:55] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2024-05-15 05:47:55] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-3.3.0.tar.gz tmp/marqo-3.4.0.tar.gz --markdown 20240515/m/marqo/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-15 05:47:56] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-15 05:47:56] INFO root fetch - processPackages [parallel-sparse-tools]: executing diffoscope
+[2024-05-15 05:47:56] INFO root fetch - processPackages [parallel-sparse-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel-sparse-tools-0.1.0.tar.gz tmp/parallel_sparse_tools-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20240515/p/parallel-sparse-tools/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 05:47:56] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-15 05:47:56] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240515/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 05:47:56] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.6.1.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.7.0.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-05-15 05:47:56] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-1.0.1a1.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-1.0.1a2.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2024-05-15 05:47:56] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-15 05:47:56] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-15 05:47:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-05-15 05:47:56] INFO root fetch - processPackages [dex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/dex-adaptors-0.0.1.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - processPackages [dex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/dex-adaptors-0.0.2.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - main [MainThread]: End processing [dex-adaptors]: success
+[2024-05-15 05:47:56] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-15 05:47:56] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.3.0.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.4.0.tar.gz]
+[2024-05-15 05:47:56] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2024-05-15 05:47:58] INFO root fetch - processPackages [parallel-sparse-tools]: Remove: archive file [/home/abi/fetcher/tmp/parallel-sparse-tools-0.1.0.tar.gz]
+[2024-05-15 05:47:58] INFO root fetch - processPackages [parallel-sparse-tools]: Remove: archive file [/home/abi/fetcher/tmp/parallel_sparse_tools-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-05-15 05:47:58] INFO root fetch - main [MainThread]: End processing [parallel-sparse-tools]: success
+[2024-05-15 05:47:58] INFO root fetch - main [MainThread]: Store serial: [23212373]
