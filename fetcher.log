@@ -8491,3 +8491,36 @@
 [2024-05-15 04:44:16] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.23.tar.gz]
 [2024-05-15 04:44:16] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
 [2024-05-15 04:44:16] INFO root fetch - main [MainThread]: Store serial: [23211888]
+[2024-05-15 04:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211888]
+[2024-05-15 04:46:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 04:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-15 04:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt-custom-idax-adapter
+[2024-05-15 04:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scottbrian-utils
+[2024-05-15 04:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: download-center
+[2024-05-15 04:46:25] INFO root fetch - processPackages [download-center]: New version: [5.3.5] Old Version: [5.3.3]
+[2024-05-15 04:46:25] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/8a/65/583e78ab26ee02f762ff9d1b2d47a8ff5fef3b138b60f1af81c72b4f6433/download-center-5.3.3.tar.gz
+[2024-05-15 04:46:25] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 04:46:25] ERROR root fetch - processPackages [ccxt-custom-idax-adapter]: Unable to get metadata: No such project 'ccxt-custom-idax-adapter'
+[2024-05-15 04:46:25] INFO root fetch - main [MainThread]: End processing [ccxt-custom-idax-adapter] error
+[2024-05-15 04:46:25] INFO root fetch - processPackages [scottbrian-utils]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-15 04:46:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/61/19/493aac647b8e3df4fde85b20cde9c44e0d20209b8b0efd6396a454719245/OperationBattleshipCommonUtilities-0.4.8.tar.gz
+[2024-05-15 04:46:26] INFO root fetch - processPackages [scottbrian-utils]: Downloading https://files.pythonhosted.org/packages/e3/a8/c4b174fb696fff15f0ae80591568edd7f6ed4ec9d3362a6f880872e8b110/scottbrian_utils-4.0.0.tar.gz
+[2024-05-15 04:46:26] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/a6/13/0ae5f186eaa32ff2e3c6b2e65d1c9b583f34c6792ddbc3d41dce818b7a12/download-center-5.3.5.tar.gz
+[2024-05-15 04:46:26] INFO root fetch - processPackages [download-center]: executing diffoscope
+[2024-05-15 04:46:26] INFO root fetch - processPackages [download-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download-center-5.3.3.tar.gz tmp/download-center-5.3.5.tar.gz --markdown 20240515/d/download-center/5.3.3-5.3.5/README.md --exclude *.pyd
+[2024-05-15 04:46:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/fe/be/3631aa82c0edcad3232063f07860ab05a73d670fcf42b589d7cb039f0ed9/OperationBattleshipCommonUtilities-0.4.9.tar.gz
+[2024-05-15 04:46:26] INFO root fetch - processPackages [scottbrian-utils]: Downloading https://files.pythonhosted.org/packages/6c/94/712895b85f387e5af5b25b81d7ee36393e89a3930f194c053f31a1897f46/scottbrian_utils-4.0.1.tar.gz
+[2024-05-15 04:46:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-15 04:46:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz --markdown 20240515/O/OperationBattleshipCommonUtilities/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 04:46:26] INFO root fetch - processPackages [scottbrian-utils]: executing diffoscope
+[2024-05-15 04:46:26] INFO root fetch - processPackages [scottbrian-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scottbrian_utils-4.0.0.tar.gz tmp/scottbrian_utils-4.0.1.tar.gz --markdown 20240515/s/scottbrian-utils/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-15 04:46:26] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.3.tar.gz]
+[2024-05-15 04:46:26] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.5.tar.gz]
+[2024-05-15 04:46:27] INFO root fetch - main [MainThread]: End processing [download-center]: success
+[2024-05-15 04:46:27] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz]
+[2024-05-15 04:46:27] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz]
+[2024-05-15 04:46:27] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-15 04:46:27] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-4.0.0.tar.gz]
+[2024-05-15 04:46:27] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-4.0.1.tar.gz]
+[2024-05-15 04:46:27] INFO root fetch - main [MainThread]: End processing [scottbrian-utils]: success
+[2024-05-15 04:46:27] INFO root fetch - main [MainThread]: Store serial: [23211903]
