@@ -20735,3 +20735,42 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:46:54] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
 [2024-05-15 13:46:54] INFO root fetch - main [MainThread]: End processing [synrbl]: success
 [2024-05-15 13:46:54] INFO root fetch - main [MainThread]: Store serial: [23217135]
+[2024-05-15 13:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217135]
+[2024-05-15 13:49:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 13:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aTeam-PySparkLibrary
+[2024-05-15 13:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coguard-cli
+[2024-05-15 13:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-aliding20230426
+[2024-05-15 13:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smaht-submitr
+[2024-05-15 13:49:04] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-15 13:49:04] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 13:49:04] INFO root fetch - processPackages [coguard-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 13:49:04] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b3] Old Version: [0.8.1]
+[2024-05-15 13:49:04] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [coguard-cli]: Downloading https://files.pythonhosted.org/packages/b8/73/d9cba4d8c7d0f8c97547575fe2a6b760566e5cc0331c1e7ca04b0f494d8a/coguard-cli-0.2.8.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/09/15/90b0ebc00ec07036a014aec74cf0d3a71cd4c90ca9dd21963f9454b64b34/smaht_submitr-0.8.1.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [coguard-cli]: Downloading https://files.pythonhosted.org/packages/f1/d5/774d6c77526935394608b2fcb80ea9eabb52f7db94ff28edebe5ba23721e/coguard-cli-0.2.9.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/cf/f0/bd505d3e00e5ce670b01eb4fe0b2e746e1cb78e7fe7f92dddaad5be4dc5e/smaht_submitr-0.8.2.1b3.tar.gz
+[2024-05-15 13:49:04] INFO root fetch - processPackages [coguard-cli]: executing diffoscope
+[2024-05-15 13:49:04] INFO root fetch - processPackages [coguard-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coguard-cli-0.2.8.tar.gz tmp/coguard-cli-0.2.9.tar.gz --markdown 20240515/c/coguard-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 13:49:04] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-15 13:49:04] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240515/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-15 13:49:04] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-05-15 13:49:04] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240515/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 13:49:04] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-15 13:49:04] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.1.tar.gz tmp/smaht_submitr-0.8.2.1b3.tar.gz --markdown 20240515/s/smaht-submitr/0.8.1-0.8.2.1b3/README.md --exclude *.pyd
+[2024-05-15 13:49:05] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-05-15 13:49:05] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-15 13:49:05] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.8.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.9.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - main [MainThread]: End processing [coguard-cli]: success
+[2024-05-15 13:49:05] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.1.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b3.tar.gz]
+[2024-05-15 13:49:05] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-15 13:49:05] INFO root fetch - main [MainThread]: Store serial: [23217148]
