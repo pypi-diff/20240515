@@ -3092,3 +3092,54 @@
 [2024-05-15 02:28:08] INFO root fetch - processPackages [pdrive]: Remove: archive file [/home/abi/fetcher/tmp/pdrive-0.8.0.tar.gz]
 [2024-05-15 02:28:08] INFO root fetch - main [MainThread]: End processing [pdrive]: success
 [2024-05-15 02:28:08] INFO root fetch - main [MainThread]: Store serial: [23209969]
+[2024-05-15 02:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209969]
+[2024-05-15 02:30:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 02:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-05-15 02:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openECCI
+[2024-05-15 02:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-05-15 02:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: great-expectations-cloud
+[2024-05-15 02:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamdal-protos
+[2024-05-15 02:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-rabbot
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-15 02:30:17] INFO root fetch - processPackages [great-expectations-cloud]: New version: [20240515.0.dev0] Old Version: [20240513.0.dev0]
+[2024-05-15 02:30:17] INFO root fetch - processPackages [streamdal-protos]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 02:30:17] WARNING root fetch - processPackages [openECCI]: Skipping, unable to determine old version
+[2024-05-15 02:30:17] INFO root fetch - main [MainThread]: End processing [openECCI] error
+[2024-05-15 02:30:17] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [streamdal-protos]: Downloading https://files.pythonhosted.org/packages/9a/85/875a0cc63e8eaf03e7f69179dd43e59be5de746f533facf0e93f83fe7733/streamdal-protos-0.1.8.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/ea/34/2fb3f5594294ccd3a49d6c653700a4c6d6c37578a9db12e486af7cfaea94/great_expectations_cloud-20240513.0.dev0.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240515/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-15 02:30:17] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240515/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-15 02:30:17] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/40/ff/d26f9caeec90b0b426e31533843b3b396a0b30320fdb4c80960f694eff61/great_expectations_cloud-20240515.0.dev0.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [streamdal-protos]: Downloading https://files.pythonhosted.org/packages/ff/9a/d64c17f9a456cd7f5e0c324fea4495da769fdfd48b5f1db3436a44190bfa/streamdal-protos-0.1.9.tar.gz
+[2024-05-15 02:30:17] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-05-15 02:30:18] INFO root fetch - processPackages [great-expectations-cloud]: executing diffoscope
+[2024-05-15 02:30:18] INFO root fetch - processPackages [great-expectations-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_cloud-20240513.0.dev0.tar.gz tmp/great_expectations_cloud-20240515.0.dev0.tar.gz --markdown 20240515/g/great-expectations-cloud/20240513.0.dev0-20240515.0.dev0/README.md --exclude *.pyd
+[2024-05-15 02:30:18] INFO root fetch - processPackages [streamdal-protos]: executing diffoscope
+[2024-05-15 02:30:18] INFO root fetch - processPackages [streamdal-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdal-protos-0.1.8.tar.gz tmp/streamdal-protos-0.1.9.tar.gz --markdown 20240515/s/streamdal-protos/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 02:30:18] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-05-15 02:30:18] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240515/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-05-15 02:30:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-15 02:30:18] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-15 02:30:18] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240513.0.dev0.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240515.0.dev0.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
+[2024-05-15 02:30:18] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-05-15 02:30:18] INFO root fetch - processPackages [streamdal-protos]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-protos-0.1.8.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - processPackages [streamdal-protos]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-protos-0.1.9.tar.gz]
+[2024-05-15 02:30:18] INFO root fetch - main [MainThread]: End processing [streamdal-protos]: success
+[2024-05-15 02:30:18] INFO root fetch - main [MainThread]: Store serial: [23209990]
