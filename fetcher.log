@@ -3525,3 +3525,39 @@
 [2024-05-15 02:58:59] INFO root fetch - processPackages [elemental-tools]: Remove: archive file [/home/abi/fetcher/tmp/elemental_tools-0.0.4-py3-none-any.whl.zip]
 [2024-05-15 02:58:59] INFO root fetch - main [MainThread]: End processing [elemental-tools]: success
 [2024-05-15 02:58:59] INFO root fetch - main [MainThread]: Store serial: [23210129]
+[2024-05-15 03:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210129]
+[2024-05-15 03:01:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 03:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powerbi-api
+[2024-05-15 03:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zetamarkets-py
+[2024-05-15 03:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stldim
+[2024-05-15 03:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-simplewebsite-deploy
+[2024-05-15 03:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvprocessor
+[2024-05-15 03:01:08] WARNING root fetch - processPackages [powerbi-api]: Skipping, unable to determine old version
+[2024-05-15 03:01:08] INFO root fetch - main [MainThread]: End processing [powerbi-api] error
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 03:01:08] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 03:01:08] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.82]
+[2024-05-15 03:01:08] WARNING root fetch - processPackages [stldim]: Skipping, unable to determine old version
+[2024-05-15 03:01:08] INFO root fetch - main [MainThread]: End processing [stldim] error
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/b1/c8/04c8df1d45f9e28e97c30568e1462fccdf13d611a7144d5f93a417298e99/cdk-simplewebsite-deploy-2.0.82.tar.gz
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 03:01:08] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-15 03:01:08] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-05-15 03:01:08] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240515/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2024-05-15 03:01:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.82.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20240515/c/cdk-simplewebsite-deploy/2.0.82-2.0.9/README.md --exclude *.pyd
+[2024-05-15 03:01:09] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 03:01:09] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 03:01:09] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 03:01:09] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.82.tar.gz]
+[2024-05-15 03:01:09] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2024-05-15 03:01:09] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2024-05-15 03:01:14] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-15 03:01:14] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-15 03:01:14] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-05-15 03:01:14] INFO root fetch - main [MainThread]: Store serial: [23210146]
