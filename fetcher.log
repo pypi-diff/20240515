@@ -21665,3 +21665,30 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:29:19] INFO root fetch - processPackages [jupyterlab-translate]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_translate-1.3.7.tar.gz]
 [2024-05-15 14:29:19] INFO root fetch - main [MainThread]: End processing [jupyterlab-translate]: success
 [2024-05-15 14:29:19] INFO root fetch - main [MainThread]: Store serial: [23217489]
+[2024-05-15 14:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217489]
+[2024-05-15 14:31:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glampy
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello-wolf-software
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ATCForm
+[2024-05-15 14:31:29] WARNING root fetch - processPackages [glampy]: Skipping, unable to determine old version
+[2024-05-15 14:31:29] INFO root fetch - main [MainThread]: End processing [glampy] error
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ATCForm]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-15 14:31:29] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 14:31:29] WARNING root fetch - processPackages [hello-wolf-software]: Skipping, unable to determine old version
+[2024-05-15 14:31:29] INFO root fetch - main [MainThread]: End processing [hello-wolf-software] error
+[2024-05-15 14:31:29] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ATCForm]: Downloading https://files.pythonhosted.org/packages/ff/6f/b2efb1e1fa420837f23d33605f0cfe869073750240452a3c2c72681c8f7b/atcform-0.1.3.tar.gz
+[2024-05-15 14:31:29] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 14:31:29] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 14:31:29] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:31:29] INFO root fetch - processPackages [ATCForm]: Downloading https://files.pythonhosted.org/packages/78/91/f05812e953f94e3aad7da570ecf8b3dc19cdbc3b793f4c5661d7e0af1d00/atcform-0.1.4.tar.gz
+[2024-05-15 14:31:30] INFO root fetch - processPackages [ATCForm]: executing diffoscope
+[2024-05-15 14:31:30] INFO root fetch - processPackages [ATCForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atcform-0.1.3.tar.gz tmp/atcform-0.1.4.tar.gz --markdown 20240515/A/ATCForm/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-15 14:31:30] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 14:31:30] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 14:31:30] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 14:31:30] INFO root fetch - processPackages [ATCForm]: Remove: archive file [/home/abi/fetcher/tmp/atcform-0.1.3.tar.gz]
+[2024-05-15 14:31:30] INFO root fetch - processPackages [ATCForm]: Remove: archive file [/home/abi/fetcher/tmp/atcform-0.1.4.tar.gz]
+[2024-05-15 14:31:30] INFO root fetch - main [MainThread]: End processing [ATCForm]: success
+[2024-05-15 14:31:30] INFO root fetch - main [MainThread]: Store serial: [23217503]
