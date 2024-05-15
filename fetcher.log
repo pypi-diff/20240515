@@ -10315,3 +10315,15 @@
 [2024-05-15 06:40:57] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.4-py3-none-any.whl.zip]
 [2024-05-15 06:40:57] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
 [2024-05-15 06:40:57] INFO root fetch - main [MainThread]: Store serial: [23212722]
+[2024-05-15 06:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212722]
+[2024-05-15 06:43:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 06:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RPICommLink
+[2024-05-15 06:43:06] INFO root fetch - processPackages [RPICommLink]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-15 06:43:06] INFO root fetch - processPackages [RPICommLink]: Downloading https://files.pythonhosted.org/packages/63/61/a911e592cf4100952f11a99b13932bc4624a3b926c136b547a2db446f0f9/RPICommLink-1.1.1.tar.gz
+[2024-05-15 06:43:06] INFO root fetch - processPackages [RPICommLink]: Downloading https://files.pythonhosted.org/packages/89/7f/e7f96c657936ff2c59d73de6813b3e59226533fdf3fbc074f335155d61ad/RPICommLink-1.1.2.tar.gz
+[2024-05-15 06:43:07] INFO root fetch - processPackages [RPICommLink]: executing diffoscope
+[2024-05-15 06:43:07] INFO root fetch - processPackages [RPICommLink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RPICommLink-1.1.1.tar.gz tmp/RPICommLink-1.1.2.tar.gz --markdown 20240515/R/RPICommLink/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-15 06:43:07] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.1.1.tar.gz]
+[2024-05-15 06:43:07] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.1.2.tar.gz]
+[2024-05-15 06:43:07] INFO root fetch - main [MainThread]: End processing [RPICommLink]: success
+[2024-05-15 06:43:07] INFO root fetch - main [MainThread]: Store serial: [23212724]
