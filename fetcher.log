@@ -20913,3 +20913,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:56:13] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.29.tar.gz]
 [2024-05-15 13:56:13] INFO root fetch - main [MainThread]: End processing [spm1d]: success
 [2024-05-15 13:56:13] INFO root fetch - main [MainThread]: Store serial: [23217210]
+[2024-05-15 13:58:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217210]
+[2024-05-15 13:58:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 13:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-determinacy
+[2024-05-15 13:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ovh
+[2024-05-15 13:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-shapes
+[2024-05-15 13:58:23] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 13:58:23] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 13:58:23] INFO root fetch - processPackages [local-determinacy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 13:58:23] INFO root fetch - processPackages [pulumi-ovh]: New version: [0.44.0] Old Version: [0.43.1]
+[2024-05-15 13:58:23] INFO root fetch - processPackages [pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/1f/9a/97ca8a7b257667c82d9a0948156a2ae3c9706dacafc5ac61d6acd4bc0bd6/pulumi_ovh-0.43.1.tar.gz
+[2024-05-15 13:58:23] INFO root fetch - processPackages [local-determinacy]: Downloading https://files.pythonhosted.org/packages/0a/31/06f9bfc63cbe555dd8cea33488ddbe0455ab3a06c6807bfdfdf8c51f924d/local_determinacy-0.1.2.tar.gz
+[2024-05-15 13:58:23] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 13:58:23] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 13:58:23] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 13:58:23] INFO root fetch - processPackages [local-determinacy]: Downloading https://files.pythonhosted.org/packages/34/2c/f5aee006a494d5119df702d63c973c459aa646ea160b17d30b049d50bafc/local_determinacy-0.1.3.tar.gz
+[2024-05-15 13:58:23] INFO root fetch - processPackages [pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/d7/8c/afe56afd9ce19652faec859c36e39a4f65f8f50d6f29bc2be4f13dc70d0a/pulumi_ovh-0.44.0.tar.gz
+[2024-05-15 13:58:24] INFO root fetch - processPackages [local-determinacy]: executing diffoscope
+[2024-05-15 13:58:24] INFO root fetch - processPackages [local-determinacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_determinacy-0.1.2.tar.gz tmp/local_determinacy-0.1.3.tar.gz --markdown 20240515/l/local-determinacy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 13:58:24] INFO root fetch - processPackages [pulumi-ovh]: executing diffoscope
+[2024-05-15 13:58:24] INFO root fetch - processPackages [pulumi-ovh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ovh-0.43.1.tar.gz tmp/pulumi_ovh-0.44.0.tar.gz --markdown 20240515/p/pulumi-ovh/0.43.1-0.44.0/README.md --exclude *.pyd
+[2024-05-15 13:58:24] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 13:58:24] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 13:58:24] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 13:58:24] INFO root fetch - processPackages [local-determinacy]: Remove: archive file [/home/abi/fetcher/tmp/local_determinacy-0.1.2.tar.gz]
+[2024-05-15 13:58:24] INFO root fetch - processPackages [local-determinacy]: Remove: archive file [/home/abi/fetcher/tmp/local_determinacy-0.1.3.tar.gz]
+[2024-05-15 13:58:24] INFO root fetch - main [MainThread]: End processing [local-determinacy]: success
+[2024-05-15 13:58:27] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.43.1.tar.gz]
+[2024-05-15 13:58:27] INFO root fetch - processPackages [pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ovh-0.44.0.tar.gz]
+[2024-05-15 13:58:27] INFO root fetch - main [MainThread]: End processing [pulumi-ovh]: success
+[2024-05-15 13:58:27] INFO root fetch - main [MainThread]: Store serial: [23217221]
