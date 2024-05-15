@@ -3270,3 +3270,42 @@
 [2024-05-15 02:43:19] INFO root fetch - processPackages [recom]: Remove: archive file [/home/abi/fetcher/tmp/recom-0.0.2.tar.gz]
 [2024-05-15 02:43:19] INFO root fetch - main [MainThread]: End processing [recom]: success
 [2024-05-15 02:43:19] INFO root fetch - main [MainThread]: Store serial: [23210036]
+[2024-05-15 02:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210036]
+[2024-05-15 02:45:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 02:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g4f
+[2024-05-15 02:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-15 02:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rigging
+[2024-05-15 02:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WrenchCL
+[2024-05-15 02:45:28] INFO root fetch - processPackages [WrenchCL]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 02:45:28] INFO root fetch - processPackages [g4f]: New version: [0.3.1.0] Old Version: [0.3.0.9]
+[2024-05-15 02:45:28] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405140044] Old Version: [4.9.4.dev202405130044]
+[2024-05-15 02:45:28] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/87/f9/7f51730e93d225ecce864b661baefc6ecc78e3a7cb766a189da723991fc3/WrenchCL-1.9.0.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [rigging]: New version: [1.0.0rc0] Old Version: [1.0.0]
+[2024-05-15 02:45:28] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/2c/00/9f6ea1af13a524a347d3aaebe40c60d90e66b4530092b5b2d9a3b8211ca7/tfds-nightly-4.9.4.dev202405130044.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/60/b7/2d59208f003722b373b966d18ca7169b7980755bb1dae49d2d7204769830/rigging-1.0.0.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/8e/ad/50aebdb0621058ec246a8b2ca6dfc99245538fdf6cc5f51a677007b34bd2/g4f-0.3.0.9.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/2f/a0/42f64feda8dbe3981a5af310bec189cfbb0bbb8caca905d6b6de3d6687e0/WrenchCL-1.9.1.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [WrenchCL]: executing diffoscope
+[2024-05-15 02:45:28] INFO root fetch - processPackages [WrenchCL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WrenchCL-1.9.0.tar.gz tmp/WrenchCL-1.9.1.tar.gz --markdown 20240515/W/WrenchCL/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 02:45:28] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/39/1f/6ae9e4cf318ce01528ceda8ed581feb48d8fe61ce6bd55c0a3ca0d5af745/tfds-nightly-4.9.4.dev202405140044.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/87/d9/a0799133ca52d5722a82798eac35fba31d72939f23234fbf7848e46cce48/rigging-1.0.0rc0.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/39/d7/be3f21dfcac47d1d0ff2a9b5ab08449063564eecad3aee39bd5b93c8ce8f/g4f-0.3.1.0.tar.gz
+[2024-05-15 02:45:28] INFO root fetch - processPackages [rigging]: executing diffoscope
+[2024-05-15 02:45:28] INFO root fetch - processPackages [rigging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigging-1.0.0.tar.gz tmp/rigging-1.0.0rc0.tar.gz --markdown 20240515/r/rigging/1.0.0-1.0.0rc0/README.md --exclude *.pyd
+[2024-05-15 02:45:29] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-05-15 02:45:29] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.3.0.9.tar.gz tmp/g4f-0.3.1.0.tar.gz --markdown 20240515/g/g4f/0.3.0.9-0.3.1.0/README.md --exclude *.pyd
+[2024-05-15 02:45:29] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-15 02:45:29] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405130044.tar.gz tmp/tfds-nightly-4.9.4.dev202405140044.tar.gz --markdown 20240515/t/tfds-nightly/4.9.4.dev202405130044-4.9.4.dev202405140044/README.md --exclude *.pyd
+[2024-05-15 02:45:29] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-1.9.0.tar.gz]
+[2024-05-15 02:45:29] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-1.9.1.tar.gz]
+[2024-05-15 02:45:29] INFO root fetch - main [MainThread]: End processing [WrenchCL]: success
+[2024-05-15 02:45:29] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.0.0.tar.gz]
+[2024-05-15 02:45:29] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.0.0rc0.tar.gz]
+[2024-05-15 02:45:29] INFO root fetch - main [MainThread]: End processing [rigging]: success
+[2024-05-15 02:45:30] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.0.9.tar.gz]
+[2024-05-15 02:45:30] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.1.0.tar.gz]
+[2024-05-15 02:45:30] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-05-15 02:45:37] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405130044.tar.gz]
+[2024-05-15 02:45:37] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405140044.tar.gz]
+[2024-05-15 02:45:37] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-15 02:45:37] INFO root fetch - main [MainThread]: Store serial: [23210048]
