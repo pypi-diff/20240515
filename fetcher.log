@@ -19405,3 +19405,24 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:55:32] INFO root fetch - processPackages [QTPYGUI]: Remove: archive file [/home/abi/fetcher/tmp/QTPYGUI-1.0.0b2-py3-none-any.whl.zip]
 [2024-05-15 12:55:32] INFO root fetch - main [MainThread]: End processing [QTPYGUI]: success
 [2024-05-15 12:55:32] INFO root fetch - main [MainThread]: Store serial: [23216594]
+[2024-05-15 12:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216594]
+[2024-05-15 12:57:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 12:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: batou
+[2024-05-15 12:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-stale-dependencies
+[2024-05-15 12:57:41] INFO root fetch - processPackages [poetry-stale-dependencies]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 12:57:41] INFO root fetch - processPackages [batou]: New version: [2.5.0b2] Old Version: [2.5.0b1]
+[2024-05-15 12:57:41] INFO root fetch - processPackages [poetry-stale-dependencies]: Downloading https://files.pythonhosted.org/packages/1b/a1/0af4bbe050a616bb5b737dd69d0a7fc30a03ecede0c760e6fd2b6f773f1c/poetry_stale_dependencies-0.2.1.tar.gz
+[2024-05-15 12:57:41] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/a4/9c/7e4b87ba46edb6428e8684909e85dec8394270db62f813857529be30a1cb/batou-2.5.0b1.tar.gz
+[2024-05-15 12:57:41] INFO root fetch - processPackages [poetry-stale-dependencies]: Downloading https://files.pythonhosted.org/packages/41/62/790f73d61b85879a97e0781e215be3221c4a3b6b5a34630ce95edd79c00a/poetry_stale_dependencies-0.2.2.tar.gz
+[2024-05-15 12:57:41] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/a8/f5/1ac887ea301e07987166025f73b34dc875cfc2d65da0ca069cd41dfa003b/batou-2.5.0b2.tar.gz
+[2024-05-15 12:57:41] INFO root fetch - processPackages [poetry-stale-dependencies]: executing diffoscope
+[2024-05-15 12:57:41] INFO root fetch - processPackages [poetry-stale-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_stale_dependencies-0.2.1.tar.gz tmp/poetry_stale_dependencies-0.2.2.tar.gz --markdown 20240515/p/poetry-stale-dependencies/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 12:57:41] INFO root fetch - processPackages [batou]: executing diffoscope
+[2024-05-15 12:57:41] INFO root fetch - processPackages [batou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batou-2.5.0b1.tar.gz tmp/batou-2.5.0b2.tar.gz --markdown 20240515/b/batou/2.5.0b1-2.5.0b2/README.md --exclude *.pyd
+[2024-05-15 12:57:42] INFO root fetch - processPackages [poetry-stale-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/poetry_stale_dependencies-0.2.1.tar.gz]
+[2024-05-15 12:57:42] INFO root fetch - processPackages [poetry-stale-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/poetry_stale_dependencies-0.2.2.tar.gz]
+[2024-05-15 12:57:42] INFO root fetch - main [MainThread]: End processing [poetry-stale-dependencies]: success
+[2024-05-15 12:57:42] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.5.0b1.tar.gz]
+[2024-05-15 12:57:42] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.5.0b2.tar.gz]
+[2024-05-15 12:57:42] INFO root fetch - main [MainThread]: End processing [batou]: success
+[2024-05-15 12:57:42] INFO root fetch - main [MainThread]: Store serial: [23216599]
