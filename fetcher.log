@@ -19549,3 +19549,11 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:04:20] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.48-py3-none-any.whl.zip]
 [2024-05-15 13:04:20] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-05-15 13:04:20] INFO root fetch - main [MainThread]: Store serial: [23216640]
+[2024-05-15 13:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216640]
+[2024-05-15 13:06:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 13:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gma
+[2024-05-15 13:06:30] INFO root fetch - processPackages [gma]: New version: [2.0.9.1] Old Version: [2.0.9]
+[2024-05-15 13:06:30] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/55/51/943e91051466f50c1b35bbf617401fea788d1aedbabf9e17b5a8a0fa881f/gma-2.0.9-cp39-cp39-win_amd64.whl
+[2024-05-15 13:06:30] WARNING root fetch - processPackages [gma]: Skipping package: exceeds size limit 31823109>=10485760
+[2024-05-15 13:06:30] INFO root fetch - main [MainThread]: End processing [gma] error
+[2024-05-15 13:06:30] INFO root fetch - main [MainThread]: Store serial: [23216645]
