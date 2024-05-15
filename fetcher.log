@@ -7741,3 +7741,11 @@
 [2024-05-15 03:51:45] WARNING root fetch - processPackages [geoarrow-rust-core]: Skipping package: exceeds size limit 15832378>=10485760
 [2024-05-15 03:51:45] INFO root fetch - main [MainThread]: End processing [geoarrow-rust-core] error
 [2024-05-15 03:51:45] INFO root fetch - main [MainThread]: Store serial: [23211564]
+[2024-05-15 03:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211564]
+[2024-05-15 03:53:54] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-15 03:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211569]
+[2024-05-15 03:55:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 03:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LearnHowToPackage-hsr
+[2024-05-15 03:55:59] WARNING root fetch - processPackages [LearnHowToPackage-hsr]: Skipping, unable to determine old version
+[2024-05-15 03:55:59] INFO root fetch - main [MainThread]: End processing [LearnHowToPackage-hsr] error
+[2024-05-15 03:55:59] INFO root fetch - main [MainThread]: Store serial: [23211574]
