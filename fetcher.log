@@ -8954,3 +8954,63 @@
 [2024-05-15 05:17:17] INFO root fetch - processPackages [sxs]: Remove: archive file [/home/abi/fetcher/tmp/sxs-2023.0.0.tar.gz]
 [2024-05-15 05:17:17] INFO root fetch - main [MainThread]: End processing [sxs]: success
 [2024-05-15 05:17:17] INFO root fetch - main [MainThread]: Store serial: [23212063]
+[2024-05-15 05:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212063]
+[2024-05-15 05:19:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ok-script
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-tingwu
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oebuild
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: platformdirs
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qlv-client
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diffusion-tools
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: misleep
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 05:19:26] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 05:19:26] INFO root fetch - processPackages [platformdirs]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-15 05:19:26] INFO root fetch - processPackages [qlv-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-15 05:19:26] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-15 05:19:26] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-15 05:19:26] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-15 05:19:26] WARNING root fetch - processPackages [diffusion-tools]: Skipping, unable to determine old version
+[2024-05-15 05:19:26] INFO root fetch - main [MainThread]: End processing [diffusion-tools] error
+[2024-05-15 05:19:26] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-15 05:19:26] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/69/75/31f3d75e4f27dd0255f8cee0db8d74fb4684914cedd1c8af5c1ccf31f734/qlv-client-0.2.7.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/ad/50/d592d3482aa2bc78002e65bc3d7fa25bcdf02e0a6a92b4b5aad653952d75/qlv-client-0.2.8.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-15 05:19:27] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Downloading https://files.pythonhosted.org/packages/ad/a4/32c7c130ed6261d62513fc932efc1653004e68c39583277cbb9213f75e32/aliyun-python-sdk-tingwu-1.0.5.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/96/dc/c1d911bf5bb0fdc58cc05010e9f3efe3b67970cef779ba7fbc3183b987a8/platformdirs-4.2.0.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-05-15 05:19:27] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.2.7.tar.gz tmp/qlv-client-0.2.8.tar.gz --markdown 20240515/q/qlv-client/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-15 05:19:27] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-15 05:19:27] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240515/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 05:19:27] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-15 05:19:27] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240515/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 05:19:27] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/b2/e4/2856bf61e54d7e3a03dd00d0c1b5fa86e6081e8f262eb91befbe64d20937/platformdirs-4.2.1.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Downloading https://files.pythonhosted.org/packages/e8/1a/e08117dd464fcf9428e93710e678774a4d934a024cd8dc6fe55571669fd3/aliyun-python-sdk-tingwu-1.0.6.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2024-05-15 05:19:27] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-4.2.0.tar.gz tmp/platformdirs-4.2.1.tar.gz --markdown 20240515/p/platformdirs/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-15 05:19:27] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-15 05:19:27] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: executing diffoscope
+[2024-05-15 05:19:27] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-tingwu-1.0.5.tar.gz tmp/aliyun-python-sdk-tingwu-1.0.6.tar.gz --markdown 20240515/a/aliyun-python-sdk-tingwu/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-15 05:19:27] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-15 05:19:27] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240515/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-15 05:19:28] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.7.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.2.8.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-05-15 05:19:28] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-15 05:19:28] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-15 05:19:28] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-15 05:19:28] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tingwu-1.0.5.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tingwu-1.0.6.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-tingwu]: success
+[2024-05-15 05:19:28] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-4.2.0.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-4.2.1.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2024-05-15 05:19:28] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-15 05:19:28] INFO root fetch - main [MainThread]: Store serial: [23212083]
