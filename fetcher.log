@@ -8452,3 +8452,30 @@
 [2024-05-15 04:39:53] INFO root fetch - processPackages [dify-knowledge-pipline]: Remove: archive file [/home/abi/fetcher/tmp/dify_knowledge_pipline-0.1.4.tar.gz]
 [2024-05-15 04:39:53] INFO root fetch - main [MainThread]: End processing [dify-knowledge-pipline]: success
 [2024-05-15 04:39:53] INFO root fetch - main [MainThread]: Store serial: [23211867]
+[2024-05-15 04:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211867]
+[2024-05-15 04:42:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 04:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scDiffusion
+[2024-05-15 04:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configzen
+[2024-05-15 04:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: podgenai
+[2024-05-15 04:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cntools
+[2024-05-15 04:42:01] INFO root fetch - processPackages [cntools]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-15 04:42:01] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/6c/a3/cc6e43da4e5150da4f19021ecfc388d734267085523cd02c34eb43135964/cntools-2.1.3.tar.gz
+[2024-05-15 04:42:01] WARNING root fetch - processPackages [scDiffusion]: Skipping, unable to determine old version
+[2024-05-15 04:42:01] INFO root fetch - main [MainThread]: End processing [scDiffusion] error
+[2024-05-15 04:42:01] WARNING root fetch - processPackages [podgenai]: Skipping, unable to determine old version
+[2024-05-15 04:42:01] INFO root fetch - main [MainThread]: End processing [podgenai] error
+[2024-05-15 04:42:01] INFO root fetch - processPackages [configzen]: New version: [1.0.0a0] Old Version: [0.9.0]
+[2024-05-15 04:42:02] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/0f/55/1f74ccd3fc279dc05b3013a5214e0ca11fe5538c9f66c785eb30d42367a8/configzen-0.9.0.tar.gz
+[2024-05-15 04:42:02] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/21/8f/a723792cfd91b295210bfc9bd60b79591a3b97fcc933a1025937d58d5941/cntools-2.1.4.tar.gz
+[2024-05-15 04:42:02] INFO root fetch - processPackages [cntools]: executing diffoscope
+[2024-05-15 04:42:02] INFO root fetch - processPackages [cntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntools-2.1.3.tar.gz tmp/cntools-2.1.4.tar.gz --markdown 20240515/c/cntools/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-15 04:42:02] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/af/ab/f163edc095503dd8a25e8aa4408b0b29060f5a27f4013bdaea7d73b9b5ba/configzen-1.0.0a0.tar.gz
+[2024-05-15 04:42:02] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2024-05-15 04:42:02] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.9.0.tar.gz tmp/configzen-1.0.0a0.tar.gz --markdown 20240515/c/configzen/0.9.0-1.0.0a0/README.md --exclude *.pyd
+[2024-05-15 04:42:03] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.9.0.tar.gz]
+[2024-05-15 04:42:03] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-1.0.0a0.tar.gz]
+[2024-05-15 04:42:03] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2024-05-15 04:42:03] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.3.tar.gz]
+[2024-05-15 04:42:03] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.4.tar.gz]
+[2024-05-15 04:42:03] INFO root fetch - main [MainThread]: End processing [cntools]: success
+[2024-05-15 04:42:03] INFO root fetch - main [MainThread]: Store serial: [23211885]
