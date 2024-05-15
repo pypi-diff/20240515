@@ -14154,3 +14154,129 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:45:26] ERROR root fetch - processPackages [secretflow-serving-lib]: Timeout during execution of pkgdiff
 [2024-05-15 09:45:26] INFO root fetch - main [MainThread]: End processing [secretflow-serving-lib] error
 [2024-05-15 09:45:26] INFO root fetch - main [MainThread]: Store serial: [23214237]
+[2024-05-15 09:47:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214237]
+[2024-05-15 09:47:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign-borea
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clipassgen
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mns-common
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Glances
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-city
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prompeteer
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpioc
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GPTPlugins4All
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: general-operator
+[2024-05-15 09:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pystencils
+[2024-05-15 09:47:35] INFO root fetch - processPackages [prompeteer]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-15 09:47:35] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 09:47:35] INFO root fetch - processPackages [mns-common]: New version: [1.0.9.6] Old Version: [1.0.9.5]
+[2024-05-15 09:47:36] WARNING root fetch - processPackages [ign-borea]: Skipping, unable to determine old version
+[2024-05-15 09:47:36] INFO root fetch - processPackages [ign-borea]: Start processing: yunxiao
+[2024-05-15 09:47:36] INFO root fetch - main [MainThread]: End processing [ign-borea] error
+[2024-05-15 09:47:36] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/68/89/f368195d68c4d5ed45ca41fdc5cb14db3ee2944b3265c80d5037f63741a3/prompeteer-0.1.6.tar.gz
+[2024-05-15 09:47:36] WARNING root fetch - processPackages [clipassgen]: Skipping, unable to determine old version
+[2024-05-15 09:47:36] INFO root fetch - processPackages [clipassgen]: Start processing: lbmpy
+[2024-05-15 09:47:36] INFO root fetch - main [MainThread]: End processing [clipassgen] error
+[2024-05-15 09:47:36] INFO root fetch - processPackages [general-operator]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: New version: [17.0.1.3.0] Old Version: [17.0.1.2.1]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [gpioc]: New version: [1.1] Old Version: [0.2]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [pystencils]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [Glances]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/09/1a/91ceb7d964abe497d6d410e66e7328230c79e81a4e66111535f8bcfc6bed/mns_common-1.0.9.5.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [yunxiao]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [general-operator]: Downloading https://files.pythonhosted.org/packages/1f/9c/6d26f03672b366232a37098d35e2027358c0f1dfbac051e4ffa70d14be52/general_operator-0.1.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [lbmpy]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-15 09:47:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Downloading https://files.pythonhosted.org/packages/c8/e9/240e90583db02275ef55bcab12f3bcd6fb2adceebd092dcb1da107fe54de/odoo_addon_l10n_ro_city-17.0.1.2.1-py3-none-any.whl
+[2024-05-15 09:47:36] INFO root fetch - processPackages [pystencils]: Downloading https://files.pythonhosted.org/packages/83/27/6110363980b253d17b1f4e1a584c8922a0ad438e41324d6ce2cdab212c1c/pystencils-1.3.3.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/85/a7/49f61ec20c2f14464dc93a06bf6f56193f7645de319fd0fa6960c8cb639e/glances-4.0.2.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [gpioc]: Downloading https://files.pythonhosted.org/packages/56/1d/4b884c9c2038660bf0e73387536db5335f44aec40a2eae3cece771a2ff0d/gpioc-0.2.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/91/30/7dab021fbebcbc8a948535a3259771c4ba186e097cba0298a6fc3e09bfad/yunxiao-0.5.8.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/f8/58/c78756b508eec41591d2ca35c7a3d5773352827f6f3885e5b3ed6351623c/prompeteer-0.1.7.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/f0/1d/0beb2a4d45322bd18808515b82f413d4028b758fba8deaed7d8e129fb4e8/mns_common-1.0.9.6.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [lbmpy]: Downloading https://files.pythonhosted.org/packages/47/53/002e3b2d3c6d3be61ccdf1d475667ad256f301076475b91b4116740a370b/lbmpy-1.3.3.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [general-operator]: Downloading https://files.pythonhosted.org/packages/c3/a6/47d7ccb88505bab60af64a8e347ea0a9f40c42d39b42d12239e5bb97241b/general_operator-0.1.1.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.6.tar.gz tmp/prompeteer-0.1.7.tar.gz --markdown 20240515/p/prompeteer/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240515/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.9.5.tar.gz tmp/mns_common-1.0.9.6.tar.gz --markdown 20240515/m/mns-common/1.0.9.5-1.0.9.6/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [general-operator]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [general-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_operator-0.1.tar.gz tmp/general_operator-0.1.1.tar.gz --markdown 20240515/g/general-operator/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Downloading https://files.pythonhosted.org/packages/67/01/d1b3ff446b558bd07ebd48cb8fa6c88482e7d94771ac500a37869b890d4e/odoo_addon_l10n_ro_city-17.0.1.3.0-py3-none-any.whl
+[2024-05-15 09:47:36] INFO root fetch - processPackages [gpioc]: Downloading https://files.pythonhosted.org/packages/bd/d5/76f534f9123fa328b9b8e7a6bbca23df82c92b55054576d27e7410634a9b/gpioc-1.1.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/65/ea/8d09efecced01316117ff8cca25d25d952fb19ccfc4d0fa3a890e60f9eb1/yunxiao-0.5.9.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [pystencils]: Downloading https://files.pythonhosted.org/packages/8d/54/867a7d3cfdc6630ae693c133d5f45cde0fb590562231c4c71ee180e82ea0/pystencils-1.3.4.tar.gz
+[2024-05-15 09:47:36] INFO root fetch - processPackages [gpioc]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [gpioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpioc-0.2.tar.gz tmp/gpioc-1.1.tar.gz --markdown 20240515/g/gpioc/0.2-1.1/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_city-17.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_city-17.0.1.3.0-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-ro-city/17.0.1.2.1-17.0.1.3.0/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-05-15 09:47:36] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.5.8.tar.gz tmp/yunxiao-0.5.9.tar.gz --markdown 20240515/y/yunxiao/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 09:47:36] INFO root fetch - processPackages [lbmpy]: Downloading https://files.pythonhosted.org/packages/ec/0c/e25492ec76cb0558fe593b03d92bd015d772d1c241ab3a07c5c372d75c0b/lbmpy-1.3.4.tar.gz
+[2024-05-15 09:47:37] INFO root fetch - processPackages [pystencils]: executing diffoscope
+[2024-05-15 09:47:37] INFO root fetch - processPackages [pystencils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystencils-1.3.3.tar.gz tmp/pystencils-1.3.4.tar.gz --markdown 20240515/p/pystencils/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-15 09:47:37] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/74/c5/8f2ab456c1a4634aca2dd8ceb65c304f5c8c9297c4c5fdce03c2ababab97/glances-4.0.3.tar.gz
+[2024-05-15 09:47:37] INFO root fetch - processPackages [lbmpy]: executing diffoscope
+[2024-05-15 09:47:37] INFO root fetch - processPackages [lbmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbmpy-1.3.3.tar.gz tmp/lbmpy-1.3.4.tar.gz --markdown 20240515/l/lbmpy/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-15 09:47:37] INFO root fetch - processPackages [Glances]: executing diffoscope
+[2024-05-15 09:47:37] INFO root fetch - processPackages [Glances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glances-4.0.2.tar.gz tmp/glances-4.0.3.tar.gz --markdown 20240515/G/Glances/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-05-15 09:47:37] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.6.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.7.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [prompeteer]: Start processing: genflowly-lambda-utils
+[2024-05-15 09:47:37] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 09:47:37] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [GPTPlugins4All]: Start processing: th2-grpc-data-provider
+[2024-05-15 09:47:37] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-15 09:47:37] INFO root fetch - processPackages [genflowly-lambda-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [general-operator]: Remove: archive file [/home/abi/fetcher/tmp/general_operator-0.1.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [general-operator]: Remove: archive file [/home/abi/fetcher/tmp/general_operator-0.1.1.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [general-operator]: Start processing: eodc-faas-sen2like
+[2024-05-15 09:47:37] INFO root fetch - main [MainThread]: End processing [general-operator]: success
+[2024-05-15 09:47:37] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.5.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.9.6.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-15 09:47:37] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [gpioc]: Remove: archive file [/home/abi/fetcher/tmp/gpioc-0.2.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [gpioc]: Remove: archive file [/home/abi/fetcher/tmp/gpioc-1.1.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - main [MainThread]: End processing [gpioc]: success
+[2024-05-15 09:47:37] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/02/bd/f996beddeb2bfbd5baac980e234b401f8e51960513996733ebcdb70c555a/eodc_faas_sen2like-2024.5.0.tar.gz
+[2024-05-15 09:47:37] INFO root fetch - processPackages [genflowly-lambda-utils]: Downloading https://files.pythonhosted.org/packages/f4/0a/9b7e0982faecea197785d21c612339e2513835765ccbf9472d9d5e2a4d09/genflowly_lambda_utils-0.0.8.tar.gz
+[2024-05-15 09:47:37] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.8.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.9.tar.gz]
+[2024-05-15 09:47:37] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-05-15 09:47:37] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/04/d7/430f42739e21677a2e07f138ba8b734840044be7943fd9ab041e36c1fab6/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz
+[2024-05-15 09:47:38] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/60/db/a05cc88316ab4022e2afbd32a206d743b9c9cea22e95038a4ae8dd553f28/eodc_faas_sen2like-2024.5.1.tar.gz
+[2024-05-15 09:47:38] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2024-05-15 09:47:38] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2024.5.0.tar.gz tmp/eodc_faas_sen2like-2024.5.1.tar.gz --markdown 20240515/e/eodc-faas-sen2like/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 09:47:38] INFO root fetch - processPackages [genflowly-lambda-utils]: Downloading https://files.pythonhosted.org/packages/1f/3a/4d88b66cbf0b7958e9d907f43515fd66ebdb7b181fdb280153c999456997/genflowly_lambda_utils-0.0.9.tar.gz
+[2024-05-15 09:47:38] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/2a/a3/045f6fb25a9114a9febeb0a29222e49f4e0de65cfc6d87a1ba52585fec8d/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz
+[2024-05-15 09:47:38] INFO root fetch - processPackages [pystencils]: Remove: archive file [/home/abi/fetcher/tmp/pystencils-1.3.3.tar.gz]
+[2024-05-15 09:47:38] INFO root fetch - processPackages [pystencils]: Remove: archive file [/home/abi/fetcher/tmp/pystencils-1.3.4.tar.gz]
+[2024-05-15 09:47:38] INFO root fetch - main [MainThread]: End processing [pystencils]: success
+[2024-05-15 09:47:38] INFO root fetch - processPackages [genflowly-lambda-utils]: executing diffoscope
+[2024-05-15 09:47:38] INFO root fetch - processPackages [genflowly-lambda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genflowly_lambda_utils-0.0.8.tar.gz tmp/genflowly_lambda_utils-0.0.9.tar.gz --markdown 20240515/g/genflowly-lambda-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 09:47:38] INFO root fetch - processPackages [lbmpy]: Remove: archive file [/home/abi/fetcher/tmp/lbmpy-1.3.3.tar.gz]
+[2024-05-15 09:47:38] INFO root fetch - processPackages [lbmpy]: Remove: archive file [/home/abi/fetcher/tmp/lbmpy-1.3.4.tar.gz]
+[2024-05-15 09:47:38] INFO root fetch - main [MainThread]: End processing [lbmpy]: success
+[2024-05-15 09:47:38] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2024-05-15 09:47:38] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20240515/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/README.md --exclude *.pyd
+[2024-05-15 09:47:38] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.5.0.tar.gz]
+[2024-05-15 09:47:38] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.5.1.tar.gz]
+[2024-05-15 09:47:38] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2024-05-15 09:47:39] INFO root fetch - processPackages [genflowly-lambda-utils]: Remove: archive file [/home/abi/fetcher/tmp/genflowly_lambda_utils-0.0.8.tar.gz]
+[2024-05-15 09:47:39] INFO root fetch - processPackages [genflowly-lambda-utils]: Remove: archive file [/home/abi/fetcher/tmp/genflowly_lambda_utils-0.0.9.tar.gz]
+[2024-05-15 09:47:39] INFO root fetch - main [MainThread]: End processing [genflowly-lambda-utils]: success
+[2024-05-15 09:47:39] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz]
+[2024-05-15 09:47:39] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz]
+[2024-05-15 09:47:39] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2024-05-15 09:47:39] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.2.tar.gz]
+[2024-05-15 09:47:39] INFO root fetch - processPackages [Glances]: Remove: archive file [/home/abi/fetcher/tmp/glances-4.0.3.tar.gz]
+[2024-05-15 09:47:39] INFO root fetch - main [MainThread]: End processing [Glances]: success
+[2024-05-15 09:47:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_city-17.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-15 09:47:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_city-17.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-15 09:47:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-city]: success
+[2024-05-15 09:47:42] INFO root fetch - main [MainThread]: Store serial: [23214291]
