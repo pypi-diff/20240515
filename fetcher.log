@@ -22865,3 +22865,48 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:06:04] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.4.tar.gz]
 [2024-05-15 15:06:04] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
 [2024-05-15 15:06:04] INFO root fetch - main [MainThread]: Store serial: [23217988]
+[2024-05-15 15:08:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217988]
+[2024-05-15 15:08:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-calculator-new
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezyli-utils
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotivelabs-cli
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imio.pyutils
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapegraphai
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: txt2udp
+[2024-05-15 15:08:13] INFO root fetch - processPackages [scrapegraphai]: New version: [1.0.0] Old Version: [0.9.0b8]
+[2024-05-15 15:08:13] WARNING root fetch - processPackages [py-calculator-new]: Skipping, unable to determine old version
+[2024-05-15 15:08:13] INFO root fetch - main [MainThread]: End processing [py-calculator-new] error
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ezyli-utils]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-15 15:08:13] INFO root fetch - processPackages [imio.pyutils]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 15:08:13] WARNING root fetch - processPackages [txt2udp]: Skipping, unable to determine old version
+[2024-05-15 15:08:13] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 15:08:13] INFO root fetch - main [MainThread]: End processing [txt2udp] error
+[2024-05-15 15:08:13] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/e8/f4/c60696cf15fae6617f4351065cbc78d635ceedaf932079ea2bfdcd1822ec/scrapegraphai-0.9.0b8.tar.gz
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ezyli-utils]: Downloading https://files.pythonhosted.org/packages/e8/f8/1a0cd2b73036a2001e480e43280749f54586d45690bb355eeb2b3a647cce/ezyli_utils-2.0.6.tar.gz
+[2024-05-15 15:08:13] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/b3/86/79158f1d54bbd4666e4dd926c7def6129db6845eaeab0b086b8b24303b49/imio.pyutils-1.0.1.tar.gz
+[2024-05-15 15:08:13] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/3b/fd/79e7ba716a05f515a6a688ad2370dff4d07c2222729e76ae6c60674682da/remotivelabs_cli-0.0.8.tar.gz
+[2024-05-15 15:08:13] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/e3/57/b13284456f7b9444936fef7a856c173248936168c273ffc9281c32c06161/scrapegraphai-1.0.0.tar.gz
+[2024-05-15 15:08:13] INFO root fetch - processPackages [ezyli-utils]: Downloading https://files.pythonhosted.org/packages/07/56/1d18d2999d02cbd09b239934224b967d8f81dab5e21c12b0e6a5c686dcd4/ezyli_utils-2.0.7.tar.gz
+[2024-05-15 15:08:13] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/c6/4c/a37ea837c8e721c39964d986fb74385469415ee5bb75fb43eeb6375d0e60/imio_pyutils-1.0.2.tar.gz
+[2024-05-15 15:08:14] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/0c/3e/84ff7ca9531958216971482f3794fba3c060ca8d5817d6d05e8b1fefdfa4/remotivelabs_cli-0.0.9.tar.gz
+[2024-05-15 15:08:14] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2024-05-15 15:08:14] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.8.tar.gz tmp/remotivelabs_cli-0.0.9.tar.gz --markdown 20240515/r/remotivelabs-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 15:08:14] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-15 15:08:14] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b8.tar.gz tmp/scrapegraphai-1.0.0.tar.gz --markdown 20240515/s/scrapegraphai/0.9.0b8-1.0.0/README.md --exclude *.pyd
+[2024-05-15 15:08:14] INFO root fetch - processPackages [ezyli-utils]: executing diffoscope
+[2024-05-15 15:08:14] INFO root fetch - processPackages [ezyli-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyli_utils-2.0.6.tar.gz tmp/ezyli_utils-2.0.7.tar.gz --markdown 20240515/e/ezyli-utils/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-15 15:08:14] INFO root fetch - processPackages [imio.pyutils]: executing diffoscope
+[2024-05-15 15:08:14] INFO root fetch - processPackages [imio.pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.pyutils-1.0.1.tar.gz tmp/imio_pyutils-1.0.2.tar.gz --markdown 20240515/i/imio.pyutils/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 15:08:14] INFO root fetch - processPackages [ezyli-utils]: Remove: archive file [/home/abi/fetcher/tmp/ezyli_utils-2.0.6.tar.gz]
+[2024-05-15 15:08:14] INFO root fetch - processPackages [ezyli-utils]: Remove: archive file [/home/abi/fetcher/tmp/ezyli_utils-2.0.7.tar.gz]
+[2024-05-15 15:08:14] INFO root fetch - main [MainThread]: End processing [ezyli-utils]: success
+[2024-05-15 15:08:14] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.8.tar.gz]
+[2024-05-15 15:08:14] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.9.tar.gz]
+[2024-05-15 15:08:14] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2024-05-15 15:08:14] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio.pyutils-1.0.1.tar.gz]
+[2024-05-15 15:08:14] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio_pyutils-1.0.2.tar.gz]
+[2024-05-15 15:08:14] INFO root fetch - main [MainThread]: End processing [imio.pyutils]: success
+[2024-05-15 15:08:15] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b8.tar.gz]
+[2024-05-15 15:08:15] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.0.0.tar.gz]
+[2024-05-15 15:08:15] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-15 15:08:15] INFO root fetch - main [MainThread]: Store serial: [23218012]
