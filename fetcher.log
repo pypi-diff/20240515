@@ -20056,3 +20056,41 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:22:56] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.9-py3-none-any.whl.zip]
 [2024-05-15 13:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out]: success
 [2024-05-15 13:22:56] INFO root fetch - main [MainThread]: Store serial: [23216854]
+[2024-05-15 13:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216854]
+[2024-05-15 13:25:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyywxocr
+[2024-05-15 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragstack-ai-langflow-base
+[2024-05-15 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-05-15 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-scheduler-sdk
+[2024-05-15 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2024-05-15 13:25:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-15 13:25:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/6b/ef/0e5e2bf8731f3152b7e4404e949e6b486640a148eb9f0dd3b5ed640498c7/lusid_scheduler_sdk-2.1.8.tar.gz
+[2024-05-15 13:25:07] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240515] Old Version: [2.5.0b20240514]
+[2024-05-15 13:25:07] INFO root fetch - processPackages [ragstack-ai-langflow-base]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 13:25:07] WARNING root fetch - processPackages [lyywxocr]: Skipping, unable to determine old version
+[2024-05-15 13:25:07] INFO root fetch - main [MainThread]: End processing [lyywxocr] error
+[2024-05-15 13:25:07] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Downloading https://files.pythonhosted.org/packages/16/b2/a0036ccd41d05ebc070f506a71b0978ac8bb024cc433bd71743b7a26ed67/ragstack_ai_langflow_base-0.0.2.tar.gz
+[2024-05-15 13:25:07] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/f8/77/4c484bf8216789e6e0aa081e2999095fc3dfb364134b03c92f8bcd9b73d7/bigdl_core_xe_21-2.5.0b20240514-cp39-cp39-win_amd64.whl
+[2024-05-15 13:25:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/a9/0e/72910a0879803eddcf20b66f36524a8440dc160f3c4f7397200de2d3e7a6/lusid_scheduler_sdk-2.1.9.tar.gz
+[2024-05-15 13:25:07] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 30240046>=10485760
+[2024-05-15 13:25:07] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-15 13:25:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-05-15 13:25:07] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.1.8.tar.gz tmp/lusid_scheduler_sdk-2.1.9.tar.gz --markdown 20240515/l/lusid-scheduler-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-15 13:25:07] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-15 13:25:07] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-15 13:25:08] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Downloading https://files.pythonhosted.org/packages/eb/31/85a4f979d1d9aa60de05d2c9c1e5ff761fa180f9d64e720b897602619ca1/ragstack_ai_langflow_base-0.0.3.tar.gz
+[2024-05-15 13:25:08] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.8.tar.gz]
+[2024-05-15 13:25:08] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.9.tar.gz]
+[2024-05-15 13:25:08] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-05-15 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-15 13:25:08] INFO root fetch - processPackages [ragstack-ai-langflow-base]: executing diffoscope
+[2024-05-15 13:25:08] INFO root fetch - processPackages [ragstack-ai-langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragstack_ai_langflow_base-0.0.2.tar.gz tmp/ragstack_ai_langflow_base-0.0.3.tar.gz --markdown 20240515/r/ragstack-ai-langflow-base/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-15 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240515/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 13:25:09] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 13:25:09] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 13:25:09] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-15 13:27:00] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.2.tar.gz]
+[2024-05-15 13:27:00] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.3.tar.gz]
+[2024-05-15 13:27:00] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
+[2024-05-15 13:27:00] INFO root fetch - main [MainThread]: Store serial: [23216870]
