@@ -7383,3 +7383,9 @@
 [2024-05-15 03:24:10] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.5.tar.gz]
 [2024-05-15 03:24:10] INFO root fetch - main [MainThread]: End processing [rubpy]: success
 [2024-05-15 03:24:10] INFO root fetch - main [MainThread]: Store serial: [23211107]
+[2024-05-15 03:26:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211107]
+[2024-05-15 03:26:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 03:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CenStats
+[2024-05-15 03:26:19] WARNING root fetch - processPackages [CenStats]: Skipping, unable to determine old version
+[2024-05-15 03:26:19] INFO root fetch - main [MainThread]: End processing [CenStats] error
+[2024-05-15 03:26:19] INFO root fetch - main [MainThread]: Store serial: [23211175]
