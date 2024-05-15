@@ -22751,3 +22751,66 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:01:42] INFO root fetch - processPackages [piccolo-theme]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_theme-0.9.0.tar.gz]
 [2024-05-15 15:01:42] INFO root fetch - main [MainThread]: End processing [piccolo-theme]: success
 [2024-05-15 15:01:42] INFO root fetch - main [MainThread]: Store serial: [23217934]
+[2024-05-15 15:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217934]
+[2024-05-15 15:03:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: L2dvEXApi
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smarthome-sdk-test
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insight-plugin
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: murfey
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellplot
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkrcomponents
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gov-uk-dashboards
+[2024-05-15 15:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geo-inference
+[2024-05-15 15:03:51] INFO root fetch - processPackages [pkrcomponents]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-15 15:03:51] INFO root fetch - processPackages [geo-inference]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-15 15:03:51] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-15 15:03:51] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/79/36/d1048c3b6df8ce40fdc8a7b4bc5155ce01ff6bbcf6254683bb47f8dfa016/pkrcomponents-1.4.1.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [cellplot]: New version: [1.8] Old Version: [1.7]
+[2024-05-15 15:03:51] WARNING root fetch - processPackages [L2dvEXApi]: Skipping, unable to determine old version
+[2024-05-15 15:03:51] INFO root fetch - main [MainThread]: End processing [L2dvEXApi] error
+[2024-05-15 15:03:51] ERROR root fetch - processPackages [duwi-smarthome-sdk-test]: Unable to get metadata: No such project 'duwi-smarthome-sdk-test'
+[2024-05-15 15:03:51] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-test] error
+[2024-05-15 15:03:51] INFO root fetch - processPackages [insight-plugin]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-15 15:03:51] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 15:03:51] INFO root fetch - processPackages [geo-inference]: Downloading https://files.pythonhosted.org/packages/ab/7f/bc7c577eb64386dd62846555259ed4d88bfcad009bee7fac7e160685c9c8/geo_inference-2.0.0.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/bf/5c/d5851c258dfc85fe9874f8e94acc91b537cfb10db648e703b3aafdf39bed/insight_plugin-1.4.0.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [cellplot]: Downloading https://files.pythonhosted.org/packages/cd/36/1f3fe8d8f0726716114c1e9770cdb579fb7a4c155b4b577a1241cf64f367/cellplot-1.7.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/3f/6e/984051e985af717ffe93aef48dd0023b8f4e2dcdb01779613947e224b0d8/pkrcomponents-1.4.2.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [geo-inference]: Downloading https://files.pythonhosted.org/packages/89/f0/935acd265d01ad94ffa588e5e5bac3238bada7412033df40db4b7e0cd222/geo_inference-2.0.1.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-15 15:03:51] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.4.1.tar.gz tmp/pkrcomponents-1.4.2.tar.gz --markdown 20240515/p/pkrcomponents/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-15 15:03:51] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-05-15 15:03:51] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240515/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-15 15:03:51] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/64/fc/17f0da3cfbb86ae2e021fd5784dd40ee26001692e873508dc047a90ae71f/insight_plugin-1.5.0.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [cellplot]: Downloading https://files.pythonhosted.org/packages/75/90/735c0dd9dfe517144ba381d344f39c7dfbdf3bd5a88bb92a0592f064422f/cellplot-1.8.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-05-15 15:03:51] INFO root fetch - processPackages [geo-inference]: executing diffoscope
+[2024-05-15 15:03:51] INFO root fetch - processPackages [geo-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_inference-2.0.0.tar.gz tmp/geo_inference-2.0.1.tar.gz --markdown 20240515/g/geo-inference/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-15 15:03:51] INFO root fetch - processPackages [insight-plugin]: executing diffoscope
+[2024-05-15 15:03:51] INFO root fetch - processPackages [insight-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight_plugin-1.4.0.tar.gz tmp/insight_plugin-1.5.0.tar.gz --markdown 20240515/i/insight-plugin/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-15 15:03:52] INFO root fetch - processPackages [cellplot]: executing diffoscope
+[2024-05-15 15:03:52] INFO root fetch - processPackages [cellplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellplot-1.7.tar.gz tmp/cellplot-1.8.tar.gz --markdown 20240515/c/cellplot/1.7-1.8/README.md --exclude *.pyd
+[2024-05-15 15:03:52] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-05-15 15:03:52] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240515/m/murfey/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 15:03:52] INFO root fetch - processPackages [geo-inference]: Remove: archive file [/home/abi/fetcher/tmp/geo_inference-2.0.0.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - processPackages [geo-inference]: Remove: archive file [/home/abi/fetcher/tmp/geo_inference-2.0.1.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: End processing [geo-inference]: success
+[2024-05-15 15:03:52] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.4.1.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.4.2.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-15 15:03:52] INFO root fetch - processPackages [cellplot]: Remove: archive file [/home/abi/fetcher/tmp/cellplot-1.7.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - processPackages [cellplot]: Remove: archive file [/home/abi/fetcher/tmp/cellplot-1.8.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: End processing [cellplot]: success
+[2024-05-15 15:03:52] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-05-15 15:03:52] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.4.0.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.5.0.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: End processing [insight-plugin]: success
+[2024-05-15 15:03:52] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-05-15 15:03:52] INFO root fetch - main [MainThread]: Store serial: [23217968]
