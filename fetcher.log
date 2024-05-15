@@ -12418,3 +12418,36 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:24:18] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka_winsvc-2.2.2-cp311-cp311-win_amd64.whl.zip]
 [2024-05-15 08:24:18] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2024-05-15 08:24:18] INFO root fetch - main [MainThread]: Store serial: [23213558]
+[2024-05-15 08:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213558]
+[2024-05-15 08:26:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 08:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compas-model
+[2024-05-15 08:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: continuedfractions
+[2024-05-15 08:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-mate
+[2024-05-15 08:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-congruity
+[2024-05-15 08:26:28] INFO root fetch - processPackages [compas-model]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-15 08:26:28] INFO root fetch - processPackages [continuedfractions]: New version: [0.12.2] Old Version: [0.12.1]
+[2024-05-15 08:26:28] INFO root fetch - processPackages [compas-model]: Downloading https://files.pythonhosted.org/packages/be/3a/baf024b821cdbc4b5ee7f97552163a4dbcdc945616592b7c988736b83411/compas_model-0.4.1.tar.gz
+[2024-05-15 08:26:28] INFO root fetch - processPackages [continuedfractions]: Downloading https://files.pythonhosted.org/packages/99/b6/e355f4855ac4343910e782768bd2922e8bb427d8fe47ea9930f647d3054a/continuedfractions-0.12.1.tar.gz
+[2024-05-15 08:26:28] WARNING root fetch - processPackages [spark-congruity]: Skipping, unable to determine old version
+[2024-05-15 08:26:28] INFO root fetch - main [MainThread]: End processing [spark-congruity] error
+[2024-05-15 08:26:28] INFO root fetch - processPackages [sqlalchemy-mate]: New version: [2.0.0.0] Old Version: [1.4.28.4]
+[2024-05-15 08:26:28] INFO root fetch - processPackages [sqlalchemy-mate]: Downloading https://files.pythonhosted.org/packages/58/77/8b260cc7620fbfd9b295d1a5a99c8f3cd0a62a9edbdb0773dcc45fe0d4dc/sqlalchemy_mate-1.4.28.4.tar.gz
+[2024-05-15 08:26:28] INFO root fetch - processPackages [compas-model]: Downloading https://files.pythonhosted.org/packages/fe/08/50b95d9daf0bed91de1751c6d1ef6ef38326081b8d72d4e2e1dc6bf4ddba/compas_model-0.4.2.tar.gz
+[2024-05-15 08:26:28] INFO root fetch - processPackages [continuedfractions]: Downloading https://files.pythonhosted.org/packages/f6/9f/51d5e55a069351d286ff0c810eb43526fbc7ef4e2f72f13215ef900048f9/continuedfractions-0.12.2.tar.gz
+[2024-05-15 08:26:28] INFO root fetch - processPackages [compas-model]: executing diffoscope
+[2024-05-15 08:26:28] INFO root fetch - processPackages [compas-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_model-0.4.1.tar.gz tmp/compas_model-0.4.2.tar.gz --markdown 20240515/c/compas-model/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-15 08:26:29] INFO root fetch - processPackages [continuedfractions]: executing diffoscope
+[2024-05-15 08:26:29] INFO root fetch - processPackages [continuedfractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuedfractions-0.12.1.tar.gz tmp/continuedfractions-0.12.2.tar.gz --markdown 20240515/c/continuedfractions/0.12.1-0.12.2/README.md --exclude *.pyd
+[2024-05-15 08:26:29] INFO root fetch - processPackages [sqlalchemy-mate]: Downloading https://files.pythonhosted.org/packages/7d/e6/62aa62270b5bf806f6ed03401d87c25f45d1988f5a1863c270d1881fd3e2/sqlalchemy_mate-2.0.0.0.tar.gz
+[2024-05-15 08:26:29] INFO root fetch - processPackages [sqlalchemy-mate]: executing diffoscope
+[2024-05-15 08:26:29] INFO root fetch - processPackages [sqlalchemy-mate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_mate-1.4.28.4.tar.gz tmp/sqlalchemy_mate-2.0.0.0.tar.gz --markdown 20240515/s/sqlalchemy-mate/1.4.28.4-2.0.0.0/README.md --exclude *.pyd
+[2024-05-15 08:26:29] INFO root fetch - processPackages [continuedfractions]: Remove: archive file [/home/abi/fetcher/tmp/continuedfractions-0.12.1.tar.gz]
+[2024-05-15 08:26:29] INFO root fetch - processPackages [continuedfractions]: Remove: archive file [/home/abi/fetcher/tmp/continuedfractions-0.12.2.tar.gz]
+[2024-05-15 08:26:29] INFO root fetch - main [MainThread]: End processing [continuedfractions]: success
+[2024-05-15 08:26:29] INFO root fetch - processPackages [compas-model]: Remove: archive file [/home/abi/fetcher/tmp/compas_model-0.4.1.tar.gz]
+[2024-05-15 08:26:29] INFO root fetch - processPackages [compas-model]: Remove: archive file [/home/abi/fetcher/tmp/compas_model-0.4.2.tar.gz]
+[2024-05-15 08:26:29] INFO root fetch - main [MainThread]: End processing [compas-model]: success
+[2024-05-15 08:26:29] INFO root fetch - processPackages [sqlalchemy-mate]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mate-1.4.28.4.tar.gz]
+[2024-05-15 08:26:29] INFO root fetch - processPackages [sqlalchemy-mate]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_mate-2.0.0.0.tar.gz]
+[2024-05-15 08:26:29] INFO root fetch - main [MainThread]: End processing [sqlalchemy-mate]: success
+[2024-05-15 08:26:30] INFO root fetch - main [MainThread]: Store serial: [23213575]
