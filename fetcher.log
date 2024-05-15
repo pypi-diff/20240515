@@ -9695,3 +9695,32 @@
 [2024-05-15 05:56:54] INFO root fetch - processPackages [mat3ra-code]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_code-2024.5.15.post0.tar.gz]
 [2024-05-15 05:56:54] INFO root fetch - main [MainThread]: End processing [mat3ra-code]: success
 [2024-05-15 05:56:54] INFO root fetch - main [MainThread]: Store serial: [23212454]
+[2024-05-15 05:58:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212454]
+[2024-05-15 05:59:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-15 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-google
+[2024-05-15 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tgqSim
+[2024-05-15 05:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocsf-pydantic
+[2024-05-15 05:59:03] INFO root fetch - processPackages [tgqSim]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 05:59:03] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405150127] Old Version: [1.0.0.dev202405140127]
+[2024-05-15 05:59:03] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-05-15 05:59:03] WARNING root fetch - processPackages [ocsf-pydantic]: Skipping, unable to determine old version
+[2024-05-15 05:59:03] INFO root fetch - main [MainThread]: End processing [ocsf-pydantic] error
+[2024-05-15 05:59:03] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/1e/ef/371bba8484077672fff3b718f015c1bb2029508dfb7bf632905257687db1/onediff-1.0.0.dev202405140127.tar.gz
+[2024-05-15 05:59:03] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/38/8e/fcb0358ec1a555837d4cad74bbe97207bd6fe247dc32a5f79b90aaaac8b8/cdktf-cdktf-provider-google-9.0.4.tar.gz
+[2024-05-15 05:59:03] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 22123916>=10485760
+[2024-05-15 05:59:03] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2024-05-15 05:59:03] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/e4/6a/6f438313af4e868b80aca3f58f059d7200f3ac6c0e1f1b695a22d1dffe11/tgqSim-0.1.8.tar.gz
+[2024-05-15 05:59:03] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/1e/b2/8e8b967a4e77359315cba5a76774c457b0f4d2da743ad2aaebf6b22c1ce2/onediff-1.0.0.dev202405150127.tar.gz
+[2024-05-15 05:59:03] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-15 05:59:03] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405140127.tar.gz tmp/onediff-1.0.0.dev202405150127.tar.gz --markdown 20240515/o/onediff/1.0.0.dev202405140127-1.0.0.dev202405150127/README.md --exclude *.pyd
+[2024-05-15 05:59:03] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/e0/0c/6cdec0e0d272ed3feb99c07fc7b54982d54759ba43541fe9d7cde1642b52/tgqSim-0.1.9.tar.gz
+[2024-05-15 05:59:03] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-15 05:59:03] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.8.tar.gz tmp/tgqSim-0.1.9.tar.gz --markdown 20240515/t/tgqSim/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 05:59:04] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.8.tar.gz]
+[2024-05-15 05:59:04] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.9.tar.gz]
+[2024-05-15 05:59:04] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-15 05:59:04] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405140127.tar.gz]
+[2024-05-15 05:59:04] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405150127.tar.gz]
+[2024-05-15 05:59:04] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-15 05:59:04] INFO root fetch - main [MainThread]: Store serial: [23212469]
