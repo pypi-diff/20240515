@@ -9258,3 +9258,24 @@
 [2024-05-15 05:34:53] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
 [2024-05-15 05:34:53] INFO root fetch - main [MainThread]: End processing [bolero] error
 [2024-05-15 05:34:53] INFO root fetch - main [MainThread]: Store serial: [23212187]
+[2024-05-15 05:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212187]
+[2024-05-15 05:37:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-command-line
+[2024-05-15 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-crm-stage-probability
+[2024-05-15 05:37:01] INFO root fetch - processPackages [gpt-command-line]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 05:37:01] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-15 05:37:01] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/a9/48/9aa5727bc1fab01d96371777601e3592ee6bf8bd7d2fa959eeeeddb2cf66/gpt-command-line-0.1.5.tar.gz
+[2024-05-15 05:37:01] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Downloading https://files.pythonhosted.org/packages/56/d8/c898c237aafdb469967734f49a0a359ba8e1402606751e7666e0605a00bd/odoo_addon_crm_stage_probability-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-15 05:37:03] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/4e/5c/779fb00705f01361ef6dced378dc808923ae6d6bfcd2289030885edb424b/gpt_command_line-0.1.6.tar.gz
+[2024-05-15 05:37:03] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Downloading https://files.pythonhosted.org/packages/73/c8/171d370fab36d54cc69a05e7d4faa68548e70f5c4d6bcbb1353eabad1c07/odoo_addon_crm_stage_probability-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 05:37:03] INFO root fetch - processPackages [gpt-command-line]: executing diffoscope
+[2024-05-15 05:37:03] INFO root fetch - processPackages [gpt-command-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-command-line-0.1.5.tar.gz tmp/gpt_command_line-0.1.6.tar.gz --markdown 20240515/g/gpt-command-line/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 05:37:03] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: executing diffoscope
+[2024-05-15 05:37:03] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_stage_probability-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_crm_stage_probability-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-crm-stage-probability/16.0.1.0.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-15 05:37:04] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.5.tar.gz]
+[2024-05-15 05:37:04] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt_command_line-0.1.6.tar.gz]
+[2024-05-15 05:37:04] INFO root fetch - main [MainThread]: End processing [gpt-command-line]: success
+[2024-05-15 05:37:04] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_stage_probability-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-15 05:37:04] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_stage_probability-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 05:37:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-stage-probability]: success
+[2024-05-15 05:37:04] INFO root fetch - main [MainThread]: Store serial: [23212192]
