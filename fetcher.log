@@ -12304,3 +12304,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240515.tar.gz]
 [2024-05-15 08:17:27] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-15 08:17:27] INFO root fetch - main [MainThread]: Store serial: [23213527]
+[2024-05-15 08:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213527]
+[2024-05-15 08:19:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 08:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aonet
+[2024-05-15 08:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbopenapi
+[2024-05-15 08:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datalibro-backend
+[2024-05-15 08:19:52] INFO root fetch - processPackages [aonet]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 08:19:52] INFO root fetch - processPackages [dbopenapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 08:19:52] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-15 08:19:52] INFO root fetch - processPackages [dbopenapi]: Downloading https://files.pythonhosted.org/packages/a4/a4/ecef38518e31637af9835adb0f423e07e1ffb2f8c57704b1c5d2a7619db8/dbopenapi-0.0.4.tar.gz
+[2024-05-15 08:19:52] INFO root fetch - processPackages [aonet]: Downloading https://files.pythonhosted.org/packages/02/1c/a5e5cfb0008d2e97d115a1bebcc3b0af464e6a74de371d4ae65059f834bd/aonet-1.0.1.tar.gz
+[2024-05-15 08:19:52] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/37/81/8355379433a92ec1b30cb79a952946b94f4ee69f9a22bb9b174a02f73f2d/datalibro_backend-1.1.7.tar.gz
+[2024-05-15 08:19:52] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/12/94/7789805d4c4219d6c5a4712efe63dc6fcd077c208f395d1d331455c4fa34/datalibro_backend-1.1.8.tar.gz
+[2024-05-15 08:19:52] INFO root fetch - processPackages [dbopenapi]: Downloading https://files.pythonhosted.org/packages/05/df/caa8c5d1fcf0c762e1e2d2f50fbe1a932a8c82b98ec52ef606ac6b8fb182/dbopenapi-0.0.5.tar.gz
+[2024-05-15 08:19:52] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-15 08:19:52] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.7.tar.gz tmp/datalibro_backend-1.1.8.tar.gz --markdown 20240515/d/datalibro-backend/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-15 08:19:52] INFO root fetch - processPackages [dbopenapi]: executing diffoscope
+[2024-05-15 08:19:52] INFO root fetch - processPackages [dbopenapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbopenapi-0.0.4.tar.gz tmp/dbopenapi-0.0.5.tar.gz --markdown 20240515/d/dbopenapi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 08:19:53] INFO root fetch - processPackages [aonet]: Downloading https://files.pythonhosted.org/packages/5d/cd/716a75b5f0d57cec891c8d9cce550b4f0186e5b6ff65049d0344ee537eca/aonet-1.0.2.tar.gz
+[2024-05-15 08:19:53] INFO root fetch - processPackages [aonet]: executing diffoscope
+[2024-05-15 08:19:53] INFO root fetch - processPackages [aonet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aonet-1.0.1.tar.gz tmp/aonet-1.0.2.tar.gz --markdown 20240515/a/aonet/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 08:19:53] INFO root fetch - processPackages [dbopenapi]: Remove: archive file [/home/abi/fetcher/tmp/dbopenapi-0.0.4.tar.gz]
+[2024-05-15 08:19:53] INFO root fetch - processPackages [dbopenapi]: Remove: archive file [/home/abi/fetcher/tmp/dbopenapi-0.0.5.tar.gz]
+[2024-05-15 08:19:53] INFO root fetch - main [MainThread]: End processing [dbopenapi]: success
+[2024-05-15 08:19:53] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.7.tar.gz]
+[2024-05-15 08:19:53] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.8.tar.gz]
+[2024-05-15 08:19:53] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-15 08:19:53] INFO root fetch - processPackages [aonet]: Remove: archive file [/home/abi/fetcher/tmp/aonet-1.0.1.tar.gz]
+[2024-05-15 08:19:53] INFO root fetch - processPackages [aonet]: Remove: archive file [/home/abi/fetcher/tmp/aonet-1.0.2.tar.gz]
+[2024-05-15 08:19:53] INFO root fetch - main [MainThread]: End processing [aonet]: success
+[2024-05-15 08:19:53] INFO root fetch - main [MainThread]: Store serial: [23213535]
