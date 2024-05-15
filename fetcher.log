@@ -8479,3 +8479,15 @@
 [2024-05-15 04:42:03] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.4.tar.gz]
 [2024-05-15 04:42:03] INFO root fetch - main [MainThread]: End processing [cntools]: success
 [2024-05-15 04:42:03] INFO root fetch - main [MainThread]: Store serial: [23211885]
+[2024-05-15 04:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211885]
+[2024-05-15 04:44:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 04:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt-idax-adapter
+[2024-05-15 04:44:11] INFO root fetch - processPackages [ccxt-idax-adapter]: New version: [4.3.23] Old Version: [4.3.22]
+[2024-05-15 04:44:12] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/cc/05/3f095072a6f992ef5e5e0e36d1f34f28ea5b1fc30261adf82e717aef6cab/ccxt-idax-adapter-4.3.22.tar.gz
+[2024-05-15 04:44:12] INFO root fetch - processPackages [ccxt-idax-adapter]: Downloading https://files.pythonhosted.org/packages/eb/11/2501ef69093ecebe647f9287ca707e92c049fd2a49b361f4b58ccd43af6b/ccxt-idax-adapter-4.3.23.tar.gz
+[2024-05-15 04:44:13] INFO root fetch - processPackages [ccxt-idax-adapter]: executing diffoscope
+[2024-05-15 04:44:13] INFO root fetch - processPackages [ccxt-idax-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-idax-adapter-4.3.22.tar.gz tmp/ccxt-idax-adapter-4.3.23.tar.gz --markdown 20240515/c/ccxt-idax-adapter/4.3.22-4.3.23/README.md --exclude *.pyd
+[2024-05-15 04:44:16] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.22.tar.gz]
+[2024-05-15 04:44:16] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.23.tar.gz]
+[2024-05-15 04:44:16] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
+[2024-05-15 04:44:16] INFO root fetch - main [MainThread]: Store serial: [23211888]
