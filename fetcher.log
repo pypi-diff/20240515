@@ -16626,3 +16626,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:07:25] INFO root fetch - processPackages [thermopack]: Remove: archive file [/home/abi/fetcher/tmp/thermopack-2.2.3-py3-none-macosx_11_0_arm64.whl.zip]
 [2024-05-15 11:07:25] INFO root fetch - main [MainThread]: End processing [thermopack]: success
 [2024-05-15 11:07:25] INFO root fetch - main [MainThread]: Store serial: [23215289]
+[2024-05-15 11:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215289]
+[2024-05-15 11:09:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDIOPT
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ETS-CookBook
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-xiao
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-es-account-statement-import-n43
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtn-tools-pro
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlitgo
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: walledai
+[2024-05-15 11:09:41] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.1] Old Version: [1.0.0.1.0]
+[2024-05-15 11:09:41] INFO root fetch - processPackages [walledai]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2024-05-15 11:09:41] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.3]
+[2024-05-15 11:09:41] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/f0/1a/9c59b969260e55c70356aed35d337113027431e2aa5a339a356ca1fcb430/xtn-tools-pro-1.0.0.1.0.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/f3/ee/6eb6f58e174738640e4e87b03565aef9b981fa3d5a652a891c346e1c8240/walledai-0.8.0a0.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [streamlitgo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 11:09:41] INFO root fetch - processPackages [langchain-xiao]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-15 11:09:41] WARNING root fetch - processPackages [pyDIOPT]: Skipping, unable to determine old version
+[2024-05-15 11:09:41] INFO root fetch - main [MainThread]: End processing [pyDIOPT] error
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ETS-CookBook]: New version: [1.0.9a0] Old Version: [1.0.9]
+[2024-05-15 11:09:41] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/5a/3f/c6e129dbc06f848a2f72a81babd056b108b45e9d68327fea9d5cda5ea265/walledai-0.9.0a0.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [streamlitgo]: Downloading https://files.pythonhosted.org/packages/f8/ee/c77c19e1b7186f2f86f112dc36fad266a529b1a2426660fe7907e5f791ce/streamlitgo-0.1.0.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/9f/b1/336de29d6097863fb84102ca8d3823fff21ea617f80c21208ad648e1fa9d/langchain_xiao-0.0.1.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/43/06/29da449adb8ce838fee8a99888bfb64e05bf44cd0778e1fd409250642450/ETS_CookBook-1.0.9.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/e9/eb/c3160f4bfa7ee3eaebe195ef12e77e37537339075075f203851bb06e83bf/xtn-tools-pro-1.0.0.1.1.tar.gz
+[2024-05-15 11:09:41] INFO root fetch - processPackages [walledai]: executing diffoscope
+[2024-05-15 11:09:41] INFO root fetch - processPackages [walledai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walledai-0.8.0a0.tar.gz tmp/walledai-0.9.0a0.tar.gz --markdown 20240515/w/walledai/0.8.0a0-0.9.0a0/README.md --exclude *.pyd
+[2024-05-15 11:09:41] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-15 11:09:41] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.1.0.tar.gz tmp/xtn-tools-pro-1.0.0.1.1.tar.gz --markdown 20240515/x/xtn-tools-pro/1.0.0.1.0-1.0.0.1.1/README.md --exclude *.pyd
+[2024-05-15 11:09:41] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: Downloading https://files.pythonhosted.org/packages/02/aa/d7b71bb8ffe1ce4e988b96f9262e42bb87b728cdb49dc1ad308bdddce81e/odoo_addon_l10n_es_account_statement_import_n43-16.0.1.0.3-py3-none-any.whl
+[2024-05-15 11:09:42] INFO root fetch - processPackages [streamlitgo]: Downloading https://files.pythonhosted.org/packages/88/9b/5f09bdde1b9e689759f0a57c58e6d31b920088d140284ab4d9cbefe96e5d/streamlitgo-0.1.1.tar.gz
+[2024-05-15 11:09:42] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/67/09/f5e322a401a314ab692d8e7d0139cac10089a0d3bde07f04c47b96f67b5f/langchain_xiao-0.0.2.tar.gz
+[2024-05-15 11:09:42] INFO root fetch - processPackages [streamlitgo]: executing diffoscope
+[2024-05-15 11:09:42] INFO root fetch - processPackages [streamlitgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitgo-0.1.0.tar.gz tmp/streamlitgo-0.1.1.tar.gz --markdown 20240515/s/streamlitgo/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 11:09:42] INFO root fetch - processPackages [langchain-xiao]: executing diffoscope
+[2024-05-15 11:09:42] INFO root fetch - processPackages [langchain-xiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_xiao-0.0.1.tar.gz tmp/langchain_xiao-0.0.2.tar.gz --markdown 20240515/l/langchain-xiao/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-15 11:09:42] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: Downloading https://files.pythonhosted.org/packages/95/04/96f80f2069908c1276491efcd7ebb68785e0b881f415f3f43ebf156eaa2b/odoo_addon_l10n_es_account_statement_import_n43-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 11:09:42] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/09/fa/90d5886284c7be6ea9ec8bc00d3c061d39084492a13408c258798891c1cf/ETS_CookBook-1.0.9a0.tar.gz
+[2024-05-15 11:09:42] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: executing diffoscope
+[2024-05-15 11:09:42] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_account_statement_import_n43-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_account_statement_import_n43-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-es-account-statement-import-n43/16.0.1.0.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-15 11:09:42] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.8.0a0.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.9.0a0.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - main [MainThread]: End processing [walledai]: success
+[2024-05-15 11:09:42] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.0.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.1.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-15 11:09:42] INFO root fetch - processPackages [streamlitgo]: Remove: archive file [/home/abi/fetcher/tmp/streamlitgo-0.1.0.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - processPackages [streamlitgo]: Remove: archive file [/home/abi/fetcher/tmp/streamlitgo-0.1.1.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - main [MainThread]: End processing [streamlitgo]: success
+[2024-05-15 11:09:42] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.1.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.2.tar.gz]
+[2024-05-15 11:09:42] INFO root fetch - main [MainThread]: End processing [langchain-xiao]: success
+[2024-05-15 11:09:42] INFO root fetch - processPackages [ETS-CookBook]: executing diffoscope
+[2024-05-15 11:09:42] INFO root fetch - processPackages [ETS-CookBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ETS_CookBook-1.0.9.tar.gz tmp/ETS_CookBook-1.0.9a0.tar.gz --markdown 20240515/E/ETS-CookBook/1.0.9-1.0.9a0/README.md --exclude *.pyd
+[2024-05-15 11:09:43] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_account_statement_import_n43-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-15 11:09:43] INFO root fetch - processPackages [odoo-addon-l10n-es-account-statement-import-n43]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_account_statement_import_n43-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 11:09:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-account-statement-import-n43]: success
+[2024-05-15 11:09:43] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9.tar.gz]
+[2024-05-15 11:09:43] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9a0.tar.gz]
+[2024-05-15 11:09:43] INFO root fetch - main [MainThread]: End processing [ETS-CookBook]: success
+[2024-05-15 11:09:43] INFO root fetch - main [MainThread]: Store serial: [23215312]
