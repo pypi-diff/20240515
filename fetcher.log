@@ -11144,3 +11144,24 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:33:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240513-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-05-15 07:33:21] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-15 07:33:21] INFO root fetch - main [MainThread]: Store serial: [23213057]
+[2024-05-15 07:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213057]
+[2024-05-15 07:35:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Furious-GUI
+[2024-05-15 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-hms-library
+[2024-05-15 07:35:33] INFO root fetch - processPackages [Furious-GUI]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-15 07:35:33] INFO root fetch - processPackages [common-hms-library]: New version: [1.1] Old Version: [1.0]
+[2024-05-15 07:35:33] INFO root fetch - processPackages [common-hms-library]: Downloading https://files.pythonhosted.org/packages/10/9d/145e4043f232b41e139d887abbecbba5b0f2596456371b0b1096cc03a26f/common_hms_library-1.0.tar.gz
+[2024-05-15 07:35:33] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/54/02/bc230c4101e9d936343c9da89f9b9a039ab914e596b8a120c3249af44722/Furious-GUI-0.4.4.tar.gz
+[2024-05-15 07:35:33] INFO root fetch - processPackages [common-hms-library]: Downloading https://files.pythonhosted.org/packages/62/d3/710ea11afc65aa74355f7520677f18fc611d6ca3422690270597bce1e5e1/common_hms_library-1.1.tar.gz
+[2024-05-15 07:35:34] INFO root fetch - processPackages [common-hms-library]: executing diffoscope
+[2024-05-15 07:35:34] INFO root fetch - processPackages [common-hms-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_hms_library-1.0.tar.gz tmp/common_hms_library-1.1.tar.gz --markdown 20240515/c/common-hms-library/1.0-1.1/README.md --exclude *.pyd
+[2024-05-15 07:35:34] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/72/64/39f212b24064450bb434a5a0e55b9f1443db3147ec2b7011d25cc8405773/Furious-GUI-0.4.5.tar.gz
+[2024-05-15 07:35:34] INFO root fetch - processPackages [common-hms-library]: Remove: archive file [/home/abi/fetcher/tmp/common_hms_library-1.0.tar.gz]
+[2024-05-15 07:35:34] INFO root fetch - processPackages [common-hms-library]: Remove: archive file [/home/abi/fetcher/tmp/common_hms_library-1.1.tar.gz]
+[2024-05-15 07:35:34] INFO root fetch - main [MainThread]: End processing [common-hms-library]: success
+[2024-05-15 07:35:35] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2024-05-15 07:35:35] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.4.4.tar.gz tmp/Furious-GUI-0.4.5.tar.gz --markdown 20240515/F/Furious-GUI/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-15 07:35:38] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.4.tar.gz]
+[2024-05-15 07:35:38] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.5.tar.gz]
+[2024-05-15 07:35:38] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2024-05-15 07:35:38] INFO root fetch - main [MainThread]: Store serial: [23213071]
