@@ -8425,3 +8425,15 @@
 [2024-05-15 04:35:31] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.4.9.tar.gz]
 [2024-05-15 04:35:31] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2024-05-15 04:35:31] INFO root fetch - main [MainThread]: Store serial: [23211843]
+[2024-05-15 04:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211843]
+[2024-05-15 04:37:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 04:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-skill-parrot
+[2024-05-15 04:37:42] INFO root fetch - processPackages [ovos-skill-parrot]: New version: [0.0.1a1] Old Version: [0.0.0a2]
+[2024-05-15 04:37:42] INFO root fetch - processPackages [ovos-skill-parrot]: Downloading https://files.pythonhosted.org/packages/1c/c0/cd4a5d89f9e1d5d6f95a10169569195e7e3aad7cb4d89917c85d2ee493e3/ovos_skill_parrot-0.0.0a2-py3-none-any.whl
+[2024-05-15 04:37:43] INFO root fetch - processPackages [ovos-skill-parrot]: Downloading https://files.pythonhosted.org/packages/d8/7e/3fe98089d4f16a081dc0c7548bc01fe6f83acd26b190d624c78b71e83032/ovos_skill_parrot-0.0.1a1-py3-none-any.whl
+[2024-05-15 04:37:43] INFO root fetch - processPackages [ovos-skill-parrot]: executing diffoscope
+[2024-05-15 04:37:43] INFO root fetch - processPackages [ovos-skill-parrot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_parrot-0.0.0a2-py3-none-any.whl.zip tmp/ovos_skill_parrot-0.0.1a1-py3-none-any.whl.zip --markdown 20240515/o/ovos-skill-parrot/0.0.0a2-0.0.1a1/README.md --exclude *.pyd
+[2024-05-15 04:37:43] INFO root fetch - processPackages [ovos-skill-parrot]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_parrot-0.0.0a2-py3-none-any.whl.zip]
+[2024-05-15 04:37:43] INFO root fetch - processPackages [ovos-skill-parrot]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_parrot-0.0.1a1-py3-none-any.whl.zip]
+[2024-05-15 04:37:43] INFO root fetch - main [MainThread]: End processing [ovos-skill-parrot]: success
+[2024-05-15 04:37:43] INFO root fetch - main [MainThread]: Store serial: [23211847]
