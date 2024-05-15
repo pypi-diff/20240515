@@ -10247,3 +10247,56 @@
 [2024-05-15 06:36:33] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.7.tar.gz]
 [2024-05-15 06:36:33] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
 [2024-05-15 06:36:33] INFO root fetch - main [MainThread]: Store serial: [23212694]
+[2024-05-15 06:38:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212694]
+[2024-05-15 06:38:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 06:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu-api-python
+[2024-05-15 06:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-05-15 06:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2024-05-15 06:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2024-05-15 06:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcery-nightly
+[2024-05-15 06:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: item-matching
+[2024-05-15 06:38:42] INFO root fetch - processPackages [tsugu-api-python]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-15 06:38:42] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/b2/ad/ef530219109d4e03aa6bea74492387e191161ed22f0538f4ea5d52c83454/tsugu-api-python-1.0.4.tar.gz
+[2024-05-15 06:38:42] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-15 06:38:42] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 06:38:42] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 06:38:42] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 06:38:42] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-15 06:38:42] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/1a/35/98b1b6267eccbb29f3b1686b9c096cc87c6e86f45ac32b47059fd74c294b/tsugu-api-python-1.1.0.tar.gz
+[2024-05-15 06:38:42] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-05-15 06:38:42] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-15 06:38:42] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-15 06:38:42] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-15 06:38:42] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-15 06:38:42] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-15 06:38:43] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-15 06:38:43] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-1.0.4.tar.gz tmp/tsugu-api-python-1.1.0.tar.gz --markdown 20240515/t/tsugu-api-python/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-15 06:38:43] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-15 06:38:43] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-05-15 06:38:43] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-15 06:38:43] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-15 06:38:43] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-05-15 06:38:43] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240515/i/item-matching/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 06:38:43] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-15 06:38:43] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-15 06:38:43] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240515/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 06:38:43] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-15 06:38:43] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240515/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 06:38:43] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-15 06:38:43] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240515/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-15 06:38:43] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.0.4.tar.gz]
+[2024-05-15 06:38:43] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.0.tar.gz]
+[2024-05-15 06:38:43] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-15 06:38:44] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-15 06:38:44] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-15 06:38:44] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-15 06:38:44] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-15 06:38:44] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-15 06:38:44] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-15 06:38:44] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-05-15 06:38:44] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-05-15 06:38:44] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-05-15 06:38:47] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-15 06:38:47] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-15 06:38:47] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-15 06:38:47] INFO root fetch - main [MainThread]: Store serial: [23212715]
