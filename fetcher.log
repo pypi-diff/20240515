@@ -22631,3 +22631,66 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:57:14] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
 [2024-05-15 14:57:14] INFO root fetch - main [MainThread]: End processing [galv]: success
 [2024-05-15 14:57:14] INFO root fetch - main [MainThread]: Store serial: [23217889]
+[2024-05-15 14:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217889]
+[2024-05-15 14:59:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eodc-faas-openeo
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ascat
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erp-apis-temp
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbi-vizdata
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: setuptools-betterproto
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heflwr
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-hx-yinying
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ufit
+[2024-05-15 14:59:25] INFO root fetch - processPackages [erp-apis-temp]: New version: [1.0.13] Old Version: [1.0.12]
+[2024-05-15 14:59:25] INFO root fetch - processPackages [heflwr]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 14:59:25] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/82/d1/720bc429360b98d53d51b8caafd89f365b7bada8e2aff92419b203622b3a/erp_apis_temp-1.0.12-py3-none-any.whl
+[2024-05-15 14:59:25] WARNING root fetch - processPackages [pbi-vizdata]: Skipping, unable to determine old version
+[2024-05-15 14:59:25] INFO root fetch - main [MainThread]: End processing [pbi-vizdata] error
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ufit]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-15 14:59:25] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [1.2.13] Old Version: [1.2.12]
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ascat]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-05-15 14:59:25] WARNING root fetch - processPackages [setuptools-betterproto]: Skipping, unable to determine old version
+[2024-05-15 14:59:25] INFO root fetch - main [MainThread]: End processing [setuptools-betterproto] error
+[2024-05-15 14:59:25] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-15 14:59:25] INFO root fetch - processPackages [heflwr]: Downloading https://files.pythonhosted.org/packages/75/07/dd065e3f6765bec19c8b163209a0a57c97a4a2ba713dd8bb9b1e06356ebb/heflwr-0.1.2.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ascat]: Downloading https://files.pythonhosted.org/packages/4b/82/b83a00dbad25aff7d4f182edf7bfc8f6229f538073de49635dd9b8cab613/ascat-2.3.1.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/c9/e7/0a559bb7b49e3011eb84e0f5c7e648aa7b345ef2a9f592304f634abb360f/erp_apis_temp-1.0.13-py3-none-any.whl
+[2024-05-15 14:59:25] INFO root fetch - processPackages [ufit]: Downloading https://files.pythonhosted.org/packages/7a/7b/d8425d631b916bd29fa67df3ddb51a7f01e8b84927b77c1d6a6b4739d51a/ufit-1.8.2.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/cf/12/34a5dff06da44189e5d1be206da8773d328e82abbefb2f9caf929347f6cb/nonebot-plugin-hx-yinying-1.2.12.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [erp-apis-temp]: executing diffoscope
+[2024-05-15 14:59:25] INFO root fetch - processPackages [erp-apis-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis_temp-1.0.12-py3-none-any.whl.zip tmp/erp_apis_temp-1.0.13-py3-none-any.whl.zip --markdown 20240515/e/erp-apis-temp/1.0.12-1.0.13/README.md --exclude *.pyd
+[2024-05-15 14:59:25] INFO root fetch - processPackages [heflwr]: Downloading https://files.pythonhosted.org/packages/03/d3/ae1c111541a4eb974e9404d0f34b56ff54f955bcea9efa17c380a9c8690a/heflwr-0.1.3.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/70/a2/67861a0850781907e58d3018eb24cc9a315713ff6b39c0d686305dfc2295/eodc_faas_openeo-2024.5.9.tar.gz
+[2024-05-15 14:59:25] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/09/d9/8563f0acaf24879109119ac3fec028e4e49cf6ae8df4e5212a608bb0e57e/nonebot-plugin-hx-yinying-1.2.13.tar.gz
+[2024-05-15 14:59:26] INFO root fetch - processPackages [heflwr]: executing diffoscope
+[2024-05-15 14:59:26] INFO root fetch - processPackages [heflwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heflwr-0.1.2.tar.gz tmp/heflwr-0.1.3.tar.gz --markdown 20240515/h/heflwr/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 14:59:26] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-15 14:59:26] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.8.tar.gz tmp/eodc_faas_openeo-2024.5.9.tar.gz --markdown 20240515/e/eodc-faas-openeo/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 14:59:26] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-05-15 14:59:26] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-1.2.12.tar.gz tmp/nonebot-plugin-hx-yinying-1.2.13.tar.gz --markdown 20240515/n/nonebot-plugin-hx-yinying/1.2.12-1.2.13/README.md --exclude *.pyd
+[2024-05-15 14:59:26] INFO root fetch - processPackages [ufit]: Downloading https://files.pythonhosted.org/packages/c0/02/0ba3cab13230d91b72255d5befe11b17f11cc6b3e25ed2345ed73f7e1071/ufit-1.9.0.tar.gz
+[2024-05-15 14:59:26] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.12-py3-none-any.whl.zip]
+[2024-05-15 14:59:26] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.13-py3-none-any.whl.zip]
+[2024-05-15 14:59:26] INFO root fetch - main [MainThread]: End processing [erp-apis-temp]: success
+[2024-05-15 14:59:26] INFO root fetch - processPackages [ufit]: executing diffoscope
+[2024-05-15 14:59:26] INFO root fetch - processPackages [ufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufit-1.8.2.tar.gz tmp/ufit-1.9.0.tar.gz --markdown 20240515/u/ufit/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-05-15 14:59:26] INFO root fetch - processPackages [ascat]: Downloading https://files.pythonhosted.org/packages/8f/d7/23990823db69e209e15f5bc473ca1bac23dc3b79bacbdb97dfd86ce3292d/ascat-2.4.0.tar.gz
+[2024-05-15 14:59:26] INFO root fetch - processPackages [heflwr]: Remove: archive file [/home/abi/fetcher/tmp/heflwr-0.1.2.tar.gz]
+[2024-05-15 14:59:26] INFO root fetch - processPackages [heflwr]: Remove: archive file [/home/abi/fetcher/tmp/heflwr-0.1.3.tar.gz]
+[2024-05-15 14:59:26] INFO root fetch - main [MainThread]: End processing [heflwr]: success
+[2024-05-15 14:59:26] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-15 14:59:26] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.9.tar.gz]
+[2024-05-15 14:59:26] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-15 14:59:26] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.2.12.tar.gz]
+[2024-05-15 14:59:26] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.2.13.tar.gz]
+[2024-05-15 14:59:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-05-15 14:59:27] INFO root fetch - processPackages [ascat]: executing diffoscope
+[2024-05-15 14:59:27] INFO root fetch - processPackages [ascat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascat-2.3.1.tar.gz tmp/ascat-2.4.0.tar.gz --markdown 20240515/a/ascat/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-05-15 14:59:27] INFO root fetch - processPackages [ufit]: Remove: archive file [/home/abi/fetcher/tmp/ufit-1.8.2.tar.gz]
+[2024-05-15 14:59:27] INFO root fetch - processPackages [ufit]: Remove: archive file [/home/abi/fetcher/tmp/ufit-1.9.0.tar.gz]
+[2024-05-15 14:59:27] INFO root fetch - main [MainThread]: End processing [ufit]: success
+[2024-05-15 14:59:29] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.3.1.tar.gz]
+[2024-05-15 14:59:29] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.0.tar.gz]
+[2024-05-15 14:59:29] INFO root fetch - main [MainThread]: End processing [ascat]: success
+[2024-05-15 14:59:29] INFO root fetch - main [MainThread]: Store serial: [23217915]
