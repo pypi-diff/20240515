@@ -8604,3 +8604,33 @@
 [2024-05-15 04:52:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-05-15 04:52:56] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-05-15 04:52:56] INFO root fetch - main [MainThread]: Store serial: [23211937]
+[2024-05-15 04:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211937]
+[2024-05-15 04:55:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 04:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htt
+[2024-05-15 04:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erp-apis-temp
+[2024-05-15 04:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-tradier-client
+[2024-05-15 04:55:05] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-05-15 04:55:05] INFO root fetch - processPackages [fast-tradier-client]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-15 04:55:05] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-05-15 04:55:05] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/73/77/513d04a01ccc07f3ffabecca9a12ff34c7d9696f5ca34665358ea0dbd781/fast_tradier_client-1.0.6.tar.gz
+[2024-05-15 04:55:05] INFO root fetch - processPackages [erp-apis-temp]: New version: [1.0.13] Old Version: [1.0.12]
+[2024-05-15 04:55:05] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/44/b7/09022e56c90ed4b5560a9775d035ded5bc432a38db61afe7185b01151d58/fast_tradier_client-1.0.7.tar.gz
+[2024-05-15 04:55:05] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/82/d1/720bc429360b98d53d51b8caafd89f365b7bada8e2aff92419b203622b3a/erp_apis_temp-1.0.12-py3-none-any.whl
+[2024-05-15 04:55:05] INFO root fetch - processPackages [fast-tradier-client]: executing diffoscope
+[2024-05-15 04:55:05] INFO root fetch - processPackages [fast-tradier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tradier_client-1.0.6.tar.gz tmp/fast_tradier_client-1.0.7.tar.gz --markdown 20240515/f/fast-tradier-client/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-15 04:55:05] INFO root fetch - processPackages [erp-apis-temp]: Downloading https://files.pythonhosted.org/packages/c9/e7/0a559bb7b49e3011eb84e0f5c7e648aa7b345ef2a9f592304f634abb360f/erp_apis_temp-1.0.13-py3-none-any.whl
+[2024-05-15 04:55:05] INFO root fetch - processPackages [erp-apis-temp]: executing diffoscope
+[2024-05-15 04:55:05] INFO root fetch - processPackages [erp-apis-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis_temp-1.0.12-py3-none-any.whl.zip tmp/erp_apis_temp-1.0.13-py3-none-any.whl.zip --markdown 20240515/e/erp-apis-temp/1.0.12-1.0.13/README.md --exclude *.pyd
+[2024-05-15 04:55:06] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-1.0.6.tar.gz]
+[2024-05-15 04:55:06] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-1.0.7.tar.gz]
+[2024-05-15 04:55:06] INFO root fetch - main [MainThread]: End processing [fast-tradier-client]: success
+[2024-05-15 04:55:06] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.12-py3-none-any.whl.zip]
+[2024-05-15 04:55:06] INFO root fetch - processPackages [erp-apis-temp]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis_temp-1.0.13-py3-none-any.whl.zip]
+[2024-05-15 04:55:06] INFO root fetch - main [MainThread]: End processing [erp-apis-temp]: success
+[2024-05-15 04:55:08] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-05-15 04:55:08] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-05-15 04:55:08] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240515/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-05-15 04:55:08] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-05-15 04:55:08] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-05-15 04:55:08] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-05-15 04:55:08] INFO root fetch - main [MainThread]: Store serial: [23211945]
