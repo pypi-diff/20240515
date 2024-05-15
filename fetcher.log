@@ -17919,3 +17919,39 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:55:30] INFO root fetch - processPackages [vis4d]: Remove: archive file [/home/abi/fetcher/tmp/vis4d-0.1.1.tar.gz]
 [2024-05-15 11:55:30] INFO root fetch - main [MainThread]: End processing [vis4d]: success
 [2024-05-15 11:55:30] INFO root fetch - main [MainThread]: Store serial: [23215926]
+[2024-05-15 11:57:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215926]
+[2024-05-15 11:57:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 11:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-venafi
+[2024-05-15 11:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twogroups-heatmap
+[2024-05-15 11:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb2workflow
+[2024-05-15 11:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu121
+[2024-05-15 11:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QTPYGUI
+[2024-05-15 11:57:39] WARNING root fetch - processPackages [twogroups-heatmap]: Skipping, unable to determine old version
+[2024-05-15 11:57:39] INFO root fetch - main [MainThread]: End processing [twogroups-heatmap] error
+[2024-05-15 11:57:39] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.4.dev20240515] Old Version: [0.2.4.dev20240514]
+[2024-05-15 11:57:39] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-15 11:57:39] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-15 11:57:39] WARNING root fetch - processPackages [QTPYGUI]: Skipping, unable to determine old version
+[2024-05-15 11:57:39] INFO root fetch - main [MainThread]: End processing [QTPYGUI] error
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/35/99/65b421b0edc4175a5c5f72e2ae3649bbd3527dbd406edfe0c555b0263515/nvfuser_cu121-0.2.4.dev20240514.tar.gz
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/7f/3b/11144848db715f6a36c1b4556e04a8a599986fe66fe77e94cbdfab641ebc/nb2workflow-1.3.8.tar.gz
+[2024-05-15 11:57:40] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/fc/8e/0ddc11bef13b1d0ec866945262f5487e10c6ec3ac268744480f4b09593f3/nvfuser_cu121-0.2.4.dev20240515.tar.gz
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/2f/4a/9716cb3189e1dce858fa737e50cd60c9dee030f82fbe62a49495486fe26e/nb2workflow-1.3.9.tar.gz
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.4.dev20240514.tar.gz tmp/nvfuser_cu121-0.2.4.dev20240515.tar.gz --markdown 20240515/n/nvfuser-cu121/0.2.4.dev20240514-0.2.4.dev20240515/README.md --exclude *.pyd
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2024-05-15 11:57:40] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20240515/n/nb2workflow/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-15 11:57:40] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-15 11:57:40] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-15 11:57:40] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240515/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-15 11:57:41] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.8.tar.gz]
+[2024-05-15 11:57:41] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.9.tar.gz]
+[2024-05-15 11:57:41] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2024-05-15 11:57:41] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.4.dev20240514.tar.gz]
+[2024-05-15 11:57:41] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.4.dev20240515.tar.gz]
+[2024-05-15 11:57:41] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-15 11:57:41] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-15 11:57:41] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-15 11:57:41] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-15 11:57:41] INFO root fetch - main [MainThread]: Store serial: [23215942]
