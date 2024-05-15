@@ -8751,3 +8751,51 @@
 [2024-05-15 05:03:52] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.40.tar.gz]
 [2024-05-15 05:03:52] INFO root fetch - main [MainThread]: End processing [PheTK]: success
 [2024-05-15 05:03:52] INFO root fetch - main [MainThread]: Store serial: [23211987]
+[2024-05-15 05:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211987]
+[2024-05-15 05:06:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 05:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crossword-puzzle
+[2024-05-15 05:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-agent
+[2024-05-15 05:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoto-api
+[2024-05-15 05:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: okn-py-updater
+[2024-05-15 05:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ullm
+[2024-05-15 05:06:00] INFO root fetch - processPackages [okn-py-updater]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-15 05:06:01] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 05:06:01] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-15 05:06:01] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/31/2e/6b527f0557ab956d4fe44831a765ec7fd66f180c034ad3a9efd6c5b9d57d/okn_py_updater-2.0.1.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/c5/bee3c33015d11d67f3f901d1f3881d70760a9791585e00e2e0e3b72e1f48/docmesh_agent-0.0.2.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.70] Old Version: [1.2.69]
+[2024-05-15 05:06:01] INFO root fetch - processPackages [ullm]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-15 05:06:01] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/c3/c6/d8ffd43a58523154baa3646af6669ccc4174706289446c0ab44f2d3b245c/docmesh_agent-0.0.3.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/dc/05/0d23f2646c90726ba7cb399b8ec8cb22ee63ca3b23d7425cf53d85a0182d/okn_py_updater-2.0.2.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/6b/0d/ac0cd9050bd900a448f1810e1de923abaa453a4ab5a6b8865c4e3c07ad24/crossword_puzzle-1.2.69.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/6f/cc/42b01b7ad4c47fb06bb6dc9833f4729123e50223056c4601686e5c88177d/ullm-0.1.3.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [okn-py-updater]: executing diffoscope
+[2024-05-15 05:06:01] INFO root fetch - processPackages [okn-py-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okn_py_updater-2.0.1.tar.gz tmp/okn_py_updater-2.0.2.tar.gz --markdown 20240515/o/okn-py-updater/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-15 05:06:01] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-15 05:06:01] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.2.tar.gz tmp/docmesh_agent-0.0.3.tar.gz --markdown 20240515/d/docmesh-agent/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 05:06:01] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [ullm]: Downloading https://files.pythonhosted.org/packages/89/66/5be57760450ec83052322400a4d77da04abfe6286aaef8a4ac218f3be353/ullm-0.2.0.tar.gz
+[2024-05-15 05:06:01] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-15 05:06:01] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240515/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-15 05:06:01] INFO root fetch - processPackages [ullm]: executing diffoscope
+[2024-05-15 05:06:01] INFO root fetch - processPackages [ullm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ullm-0.1.3.tar.gz tmp/ullm-0.2.0.tar.gz --markdown 20240515/u/ullm/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-15 05:06:02] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.1.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.2.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
+[2024-05-15 05:06:02] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.2.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.3.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-15 05:06:02] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/52/7b/48e604553c996fe403187e07c1cd88e753e7989760176cfdc541835ebab0/crossword_puzzle-1.2.70.tar.gz
+[2024-05-15 05:06:02] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-15 05:06:02] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.1.3.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - processPackages [ullm]: Remove: archive file [/home/abi/fetcher/tmp/ullm-0.2.0.tar.gz]
+[2024-05-15 05:06:02] INFO root fetch - main [MainThread]: End processing [ullm]: success
+[2024-05-15 05:06:02] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-15 05:06:02] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.69.tar.gz tmp/crossword_puzzle-1.2.70.tar.gz --markdown 20240515/c/crossword-puzzle/1.2.69-1.2.70/README.md --exclude *.pyd
+[2024-05-15 05:06:23] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.69.tar.gz]
+[2024-05-15 05:06:23] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.70.tar.gz]
+[2024-05-15 05:06:23] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-15 05:06:23] INFO root fetch - main [MainThread]: Store serial: [23212005]
