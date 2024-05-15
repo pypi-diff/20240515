@@ -21480,3 +21480,66 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:22:33] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.9-py3-none-any.whl.zip]
 [2024-05-15 14:22:33] INFO root fetch - main [MainThread]: End processing [lumipy]: success
 [2024-05-15 14:22:33] INFO root fetch - main [MainThread]: Store serial: [23217416]
+[2024-05-15 14:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217416]
+[2024-05-15 14:24:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-read-db
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PITpip
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radicalbit-platform-sdk
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unico_device_setuper
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onion-clustering
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: juham
+[2024-05-15 14:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: playpty
+[2024-05-15 14:24:42] INFO root fetch - processPackages [onion-clustering]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 14:24:42] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.9.dev9095248208] Old Version: [0.0.9.dev9066081604]
+[2024-05-15 14:24:42] WARNING root fetch - processPackages [juham]: Skipping, unable to determine old version
+[2024-05-15 14:24:42] INFO root fetch - main [MainThread]: End processing [juham] error
+[2024-05-15 14:24:42] WARNING root fetch - processPackages [radicalbit-platform-sdk]: Skipping, unable to determine old version
+[2024-05-15 14:24:42] INFO root fetch - main [MainThread]: End processing [radicalbit-platform-sdk] error
+[2024-05-15 14:24:42] INFO root fetch - processPackages [PITpip]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-15 14:24:42] INFO root fetch - processPackages [unico_device_setuper]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-15 14:24:42] INFO root fetch - processPackages [playpty]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 14:24:42] INFO root fetch - processPackages [swarmtube]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-05-15 14:24:42] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/f4/ad/8e62811c8a9924c578906d6d94a1cf1511dfff633d840431632e94d3fec6/th2_grpc_read_db-0.0.9.dev9066081604.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/6d/8f/3d1bca47947cb248ccbaeeef6b03a85b4bed36d6b6ef5c715a5559f9ca5d/onion_clustering-0.2.1.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/78/f7/08460a9b662b0fc50eb864ac067b71a81e30c6e2ded2122866f767b387e4/unico_device_setuper-0.3.1.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [PITpip]: Downloading https://files.pythonhosted.org/packages/87/9e/74c7b6063d4cc22440aaf956327a11095da2781448de7f977fdedfb2b0f2/pitpip-1.3.0.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/80/a3/5d817e0c91c5c2264986143cabe06b9109b63b7a21b85907769dc5db95b6/swarmtube-0.1.40-py2.py3-none-any.whl
+[2024-05-15 14:24:42] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/da/4d/38611c50010dc8b7030baccdf13a2899d97038c8061de51bd5aaf6f42b24/th2_grpc_read_db-0.0.9.dev9095248208.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [playpty]: Downloading https://files.pythonhosted.org/packages/d3/a8/4d423390627ad01a9693b5059f8cd32734639e97ceb5744e4074ec053e80/playpty-0.1.0.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/49/69/c9207b7220a13bdfb465af3b953f1b4dc0a0cdbc95232a91b576f720fe3d/onion_clustering-0.2.2.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-05-15 14:24:42] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.9.dev9066081604.tar.gz tmp/th2_grpc_read_db-0.0.9.dev9095248208.tar.gz --markdown 20240515/t/th2-grpc-read-db/0.0.9.dev9066081604-0.0.9.dev9095248208/README.md --exclude *.pyd
+[2024-05-15 14:24:42] INFO root fetch - processPackages [unico_device_setuper]: Downloading https://files.pythonhosted.org/packages/ac/7a/daac7d2992844da54c75734c360c654a413db5d939236aa781f50a41dcfc/unico_device_setuper-0.4.0.tar.gz
+[2024-05-15 14:24:42] INFO root fetch - processPackages [onion-clustering]: executing diffoscope
+[2024-05-15 14:24:42] INFO root fetch - processPackages [onion-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_clustering-0.2.1.tar.gz tmp/onion_clustering-0.2.2.tar.gz --markdown 20240515/o/onion-clustering/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 14:24:42] INFO root fetch - processPackages [PITpip]: Downloading https://files.pythonhosted.org/packages/1f/4c/793e17626884216e7829623194b1fef550dc375e847ae46c8c689a385855/pitpip-1.4.0.tar.gz
+[2024-05-15 14:24:43] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/f5/8d/28bbc24e7b037514c4142ccb2bd6dd11f8d601f5bc209bb93b8efcb1bd52/swarmtube-0.1.41-py2.py3-none-any.whl
+[2024-05-15 14:24:43] INFO root fetch - processPackages [unico_device_setuper]: executing diffoscope
+[2024-05-15 14:24:43] INFO root fetch - processPackages [unico_device_setuper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unico_device_setuper-0.3.1.tar.gz tmp/unico_device_setuper-0.4.0.tar.gz --markdown 20240515/u/unico_device_setuper/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-15 14:24:43] INFO root fetch - processPackages [PITpip]: executing diffoscope
+[2024-05-15 14:24:43] INFO root fetch - processPackages [PITpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitpip-1.3.0.tar.gz tmp/pitpip-1.4.0.tar.gz --markdown 20240515/P/PITpip/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-15 14:24:43] INFO root fetch - processPackages [playpty]: Downloading https://files.pythonhosted.org/packages/e5/5a/d28f97d4a7cd0076f76c38442916e4a0164c8525fcec3bd12352fb86cee5/playpty-0.1.1.tar.gz
+[2024-05-15 14:24:43] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-15 14:24:43] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.40-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.41-py2.py3-none-any.whl.zip --markdown 20240515/s/swarmtube/0.1.40-0.1.41/README.md --exclude *.pyd
+[2024-05-15 14:24:43] INFO root fetch - processPackages [playpty]: executing diffoscope
+[2024-05-15 14:24:43] INFO root fetch - processPackages [playpty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playpty-0.1.0.tar.gz tmp/playpty-0.1.1.tar.gz --markdown 20240515/p/playpty/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 14:24:43] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9.dev9066081604.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9.dev9095248208.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-05-15 14:24:43] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.1.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.2.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - main [MainThread]: End processing [onion-clustering]: success
+[2024-05-15 14:24:43] INFO root fetch - processPackages [PITpip]: Remove: archive file [/home/abi/fetcher/tmp/pitpip-1.3.0.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - processPackages [PITpip]: Remove: archive file [/home/abi/fetcher/tmp/pitpip-1.4.0.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - main [MainThread]: End processing [PITpip]: success
+[2024-05-15 14:24:43] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.40-py2.py3-none-any.whl.zip]
+[2024-05-15 14:24:43] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.41-py2.py3-none-any.whl.zip]
+[2024-05-15 14:24:43] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-15 14:24:43] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.3.1.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - processPackages [unico_device_setuper]: Remove: archive file [/home/abi/fetcher/tmp/unico_device_setuper-0.4.0.tar.gz]
+[2024-05-15 14:24:43] INFO root fetch - main [MainThread]: End processing [unico_device_setuper]: success
+[2024-05-15 14:24:44] INFO root fetch - processPackages [playpty]: Remove: archive file [/home/abi/fetcher/tmp/playpty-0.1.0.tar.gz]
+[2024-05-15 14:24:44] INFO root fetch - processPackages [playpty]: Remove: archive file [/home/abi/fetcher/tmp/playpty-0.1.1.tar.gz]
+[2024-05-15 14:24:44] INFO root fetch - main [MainThread]: End processing [playpty]: success
+[2024-05-15 14:24:44] INFO root fetch - main [MainThread]: Store serial: [23217441]
