@@ -10500,3 +10500,119 @@
 [2024-05-15 06:53:58] INFO root fetch - processPackages [rapid-paraformer]: Remove: archive file [/home/abi/fetcher/tmp/rapid_paraformer-2.0.5-py3-none-any.whl.zip]
 [2024-05-15 06:53:58] INFO root fetch - main [MainThread]: End processing [rapid-paraformer]: success
 [2024-05-15 06:53:58] INFO root fetch - main [MainThread]: Store serial: [23212782]
+[2024-05-15 06:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212782]
+[2024-05-15 06:56:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aideate-blade
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyAlgoEngine
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdo-sdk-python
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coolbg
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lanraragi-api
+[2024-05-15 06:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: instructlab-quantize
+[2024-05-15 06:56:07] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-15 06:56:07] WARNING root fetch - processPackages [aideate-blade]: Skipping, unable to determine old version
+[2024-05-15 06:56:07] INFO root fetch - main [MainThread]: End processing [aideate-blade] error
+[2024-05-15 06:56:07] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 06:56:07] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-15 06:56:07] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-15 06:56:07] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.3.9.post4] Old Version: [0.3.9.post2]
+[2024-05-15 06:56:07] WARNING root fetch - processPackages [lanraragi-api]: Skipping, unable to determine old version
+[2024-05-15 06:56:07] INFO root fetch - main [MainThread]: End processing [lanraragi-api] error
+[2024-05-15 06:56:07] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 06:56:07] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-15 06:56:07] INFO root fetch - processPackages [instructlab-quantize]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 06:56:07] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/5b/dd/c9215edffe96a24a457d718e4ac1d33011306cb42a50ca2ff5465250308b/PyAlgoEngine-0.3.9.post2.tar.gz
+[2024-05-15 06:56:07] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 06:56:07] INFO root fetch - processPackages [instructlab-quantize]: Downloading https://files.pythonhosted.org/packages/fe/00/8d4c9c20e5d969b46755eb8b2148e073b334dad0d7f8596cc98ded6d6352/instructlab_quantize-0.0.4.tar.gz
+[2024-05-15 06:56:08] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-15 06:56:08] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 06:56:08] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 06:56:08] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-15 06:56:08] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-15 06:56:08] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240515/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-15 06:56:08] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-15 06:56:08] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240515/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-15 06:56:08] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/8d/d7/9cc3d830ab0d313eb7f729e762812f1fa37406b140275ab38f82bb3ddf47/PyAlgoEngine-0.3.9.post4.tar.gz
+[2024-05-15 06:56:08] INFO root fetch - processPackages [instructlab-quantize]: Downloading https://files.pythonhosted.org/packages/b2/0e/d622308bb7a978ee9f0b3a1183bf9220ad9eabcbb06fb5999e5a8acf0ca5/instructlab_quantize-0.0.5-py3-none-any.whl
+[2024-05-15 06:56:08] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2024-05-15 06:56:08] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.9.post2.tar.gz tmp/PyAlgoEngine-0.3.9.post4.tar.gz --markdown 20240515/P/PyAlgoEngine/0.3.9.post2-0.3.9.post4/README.md --exclude *.pyd
+[2024-05-15 06:56:08] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-15 06:56:08] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-15 06:56:08] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-15 06:56:08] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post2.tar.gz]
+[2024-05-15 06:56:08] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post4.tar.gz]
+[2024-05-15 06:56:08] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2024-05-15 06:56:09] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-15 06:56:09] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-15 06:56:09] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-15 06:56:09] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 06:56:09] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 06:56:09] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 06:56:09] INFO root fetch - processPackages [instructlab-quantize]: executing diffoscope
+[2024-05-15 06:56:09] INFO root fetch - processPackages [instructlab-quantize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructlab_quantize-0.0.4.tar.gz tmp/instructlab_quantize-0.0.5-py3-none-any.whl.zip --markdown 20240515/i/instructlab-quantize/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 06:56:10] ERROR root fetch - processPackages [instructlab-quantize]: Diffoscope failed: time="2024-05-15T06:56:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/tar.py", line 39, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 133, in list_libarchive
+    with libarchive.file_reader(path) as archive:
+  File "/usr/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 85, in file_reader
+    ffi.read_open_filename_w(archive_p, path, block_size)
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcode=-30, archive_p=139732466015632)
+
+[2024-05-15 06:56:10] INFO root fetch - main [MainThread]: End processing [instructlab-quantize] error
+[2024-05-15 06:56:10] INFO root fetch - main [MainThread]: Store serial: [23212799]
