@@ -9918,3 +9918,15 @@
 [2024-05-15 06:16:46] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.8.0.tar.gz]
 [2024-05-15 06:16:46] INFO root fetch - main [MainThread]: End processing [goodest]: success
 [2024-05-15 06:16:46] INFO root fetch - main [MainThread]: Store serial: [23212527]
+[2024-05-15 06:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212527]
+[2024-05-15 06:18:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 06:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neo-fairy-client
+[2024-05-15 06:18:57] INFO root fetch - processPackages [neo-fairy-client]: New version: [3.7.1.1] Old Version: [3.6.2.3]
+[2024-05-15 06:18:57] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/ad/b5/ad9e84a92a7b6deda55bee7714b4cf8cb7f78ec1c4598036e5bddc924d66/neo-fairy-client-3.6.2.3.tar.gz
+[2024-05-15 06:18:57] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/f4/54/5f17db7db365fe9841b60a8d952dc0a60b89abaf539d0c83bbb16f036445/neo_fairy_client-3.7.1.1.tar.gz
+[2024-05-15 06:18:58] INFO root fetch - processPackages [neo-fairy-client]: executing diffoscope
+[2024-05-15 06:18:58] INFO root fetch - processPackages [neo-fairy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-fairy-client-3.6.2.3.tar.gz tmp/neo_fairy_client-3.7.1.1.tar.gz --markdown 20240515/n/neo-fairy-client/3.6.2.3-3.7.1.1/README.md --exclude *.pyd
+[2024-05-15 06:18:58] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.6.2.3.tar.gz]
+[2024-05-15 06:18:58] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo_fairy_client-3.7.1.1.tar.gz]
+[2024-05-15 06:18:58] INFO root fetch - main [MainThread]: End processing [neo-fairy-client]: success
+[2024-05-15 06:18:58] INFO root fetch - main [MainThread]: Store serial: [23212530]
