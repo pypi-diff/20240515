@@ -2690,3 +2690,42 @@
 [2024-05-15 02:10:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-15 02:10:38] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-15 02:10:38] INFO root fetch - main [MainThread]: Store serial: [23209806]
+[2024-05-15 02:12:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209806]
+[2024-05-15 02:12:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 02:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-05-15 02:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-15 02:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: martian-adapters
+[2024-05-15 02:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: walledai
+[2024-05-15 02:12:46] INFO root fetch - processPackages [martian-adapters]: New version: [5.1.2] Old Version: [5.1.1]
+[2024-05-15 02:12:46] INFO root fetch - processPackages [walledai]: New version: [0.7.0a0] Old Version: [0.6.0a0]
+[2024-05-15 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240514.post1051] Old Version: [1.5.0.20240513.post1109]
+[2024-05-15 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-15 02:12:47] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/14/3d/b0ff0b1b0c4f4f011ac5ae52f3d33bfc43eb932c4a121e6f6ab83f6cb569/martian_adapters-5.1.1.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/5e/78/2aed9674a49f032ed7e6a9b4e6459311fe84dd4beb5b0d6616cfcccaf06b/mct-quantizers-nightly-1.5.0.20240513.post1109.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/c5/3d/cb57a48efe63096a2d60292b9ec2705e512b3877df85422b64550b697e86/walledai-0.6.0a0.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-15 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240515/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-15 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/88/d2/922a425a4cd9bbd16e617872f739cca45fef067ece820a0b4b6923b0b4d6/mct-quantizers-nightly-1.5.0.20240514.post1051.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/b3/7a/48d823d42c89eb0a8bae7efcdbaf3cc166374599af5d0f0074fe2def2798/walledai-0.7.0a0.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-15 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240513.post1109.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240514.post1051.tar.gz --markdown 20240515/m/mct-quantizers-nightly/1.5.0.20240513.post1109-1.5.0.20240514.post1051/README.md --exclude *.pyd
+[2024-05-15 02:12:47] INFO root fetch - processPackages [walledai]: executing diffoscope
+[2024-05-15 02:12:47] INFO root fetch - processPackages [walledai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walledai-0.6.0a0.tar.gz tmp/walledai-0.7.0a0.tar.gz --markdown 20240515/w/walledai/0.6.0a0-0.7.0a0/README.md --exclude *.pyd
+[2024-05-15 02:12:47] INFO root fetch - processPackages [martian-adapters]: Downloading https://files.pythonhosted.org/packages/d3/99/a3f5fc055f3d82d91a923ffa1c92325aa4c175ab949eb021a3966ab58d2f/martian_adapters-5.1.2.tar.gz
+[2024-05-15 02:12:47] INFO root fetch - processPackages [martian-adapters]: executing diffoscope
+[2024-05-15 02:12:47] INFO root fetch - processPackages [martian-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martian_adapters-5.1.1.tar.gz tmp/martian_adapters-5.1.2.tar.gz --markdown 20240515/m/martian-adapters/5.1.1-5.1.2/README.md --exclude *.pyd
+[2024-05-15 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-15 02:12:48] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.6.0a0.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.7.0a0.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - main [MainThread]: End processing [walledai]: success
+[2024-05-15 02:12:48] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240513.post1109.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240514.post1051.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-15 02:12:48] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.1.1.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - processPackages [martian-adapters]: Remove: archive file [/home/abi/fetcher/tmp/martian_adapters-5.1.2.tar.gz]
+[2024-05-15 02:12:48] INFO root fetch - main [MainThread]: End processing [martian-adapters]: success
+[2024-05-15 02:12:48] INFO root fetch - main [MainThread]: Store serial: [23209828]
