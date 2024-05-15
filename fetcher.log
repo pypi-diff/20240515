@@ -2809,3 +2809,42 @@
 [2024-05-15 02:15:00] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.5.6-py3-none-any.whl.zip]
 [2024-05-15 02:15:00] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-15 02:15:00] INFO root fetch - main [MainThread]: Store serial: [23209859]
+[2024-05-15 02:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209859]
+[2024-05-15 02:17:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 02:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-15 02:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-behavior-curriculum
+[2024-05-15 02:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-15 02:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.appsync-utils
+[2024-05-15 02:17:09] INFO root fetch - processPackages [aind-behavior-curriculum]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-15 02:17:09] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/99/b4/5fd4fc55ecc93df4b2859f1a2324d2eac66a3c9b0d123acc920c79a6e43b/aind_behavior_curriculum-0.0.8.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/0c/a3/0a5964d96614b0206cf8658aecedfda2c2efc3df978050cca34a1dd179d4/aind_behavior_curriculum-0.0.9.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240515/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-15 02:17:09] INFO root fetch - processPackages [aind-behavior-curriculum]: executing diffoscope
+[2024-05-15 02:17:09] INFO root fetch - processPackages [aind-behavior-curriculum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_behavior_curriculum-0.0.8.tar.gz tmp/aind_behavior_curriculum-0.0.9.tar.gz --markdown 20240515/a/aind-behavior-curriculum/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240515/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-15 02:17:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240515/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-15 02:17:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-15 02:17:10] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.8.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.9.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - main [MainThread]: End processing [aind-behavior-curriculum]: success
+[2024-05-15 02:17:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-15 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-15 02:17:10] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-15 02:17:10] INFO root fetch - main [MainThread]: Store serial: [23209874]
