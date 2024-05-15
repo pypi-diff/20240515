@@ -10437,3 +10437,33 @@
 [2024-05-15 06:49:38] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.3-py3-none-any.whl.zip]
 [2024-05-15 06:49:38] INFO root fetch - main [MainThread]: End processing [almgroad]: success
 [2024-05-15 06:49:38] INFO root fetch - main [MainThread]: Store serial: [23212761]
+[2024-05-15 06:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212761]
+[2024-05-15 06:51:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 06:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-15 06:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efax
+[2024-05-15 06:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypothesis
+[2024-05-15 06:51:47] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 06:51:47] INFO root fetch - processPackages [hypothesis]: New version: [6.99.9] Old Version: [6.99.8]
+[2024-05-15 06:51:47] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 06:51:47] INFO root fetch - processPackages [efax]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 06:51:47] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/d0/49/c41dfc6bca0eb0af93b2ecef16e99aa41f9a25e4bed45bfc37cb97018f93/hypothesis-6.99.8.tar.gz
+[2024-05-15 06:51:47] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 06:51:47] INFO root fetch - processPackages [efax]: Downloading https://files.pythonhosted.org/packages/b0/d3/88cf57bd21b97ce0af97e91d814a97737f5278b22981e6339b869ec2b35a/efax-1.9.0.tar.gz
+[2024-05-15 06:51:47] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/ac/92/326716e57f625acc4f38608fd73f88985561fd58ee6df19d44230d70bba0/hypothesis-6.99.9.tar.gz
+[2024-05-15 06:51:47] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 06:51:47] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 06:51:47] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2024-05-15 06:51:47] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.99.8.tar.gz tmp/hypothesis-6.99.9.tar.gz --markdown 20240515/h/hypothesis/6.99.8-6.99.9/README.md --exclude *.pyd
+[2024-05-15 06:51:47] INFO root fetch - processPackages [efax]: Downloading https://files.pythonhosted.org/packages/45/ae/9fd314ec092ce76a4044da94da01a98a1ff79c6ede08742ef86a83aea5be/efax-1.9.1.tar.gz
+[2024-05-15 06:51:48] INFO root fetch - processPackages [efax]: executing diffoscope
+[2024-05-15 06:51:48] INFO root fetch - processPackages [efax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efax-1.9.0.tar.gz tmp/efax-1.9.1.tar.gz --markdown 20240515/e/efax/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 06:51:48] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 06:51:48] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 06:51:48] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 06:51:48] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.8.tar.gz]
+[2024-05-15 06:51:48] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.9.tar.gz]
+[2024-05-15 06:51:48] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2024-05-15 06:51:48] INFO root fetch - processPackages [efax]: Remove: archive file [/home/abi/fetcher/tmp/efax-1.9.0.tar.gz]
+[2024-05-15 06:51:48] INFO root fetch - processPackages [efax]: Remove: archive file [/home/abi/fetcher/tmp/efax-1.9.1.tar.gz]
+[2024-05-15 06:51:48] INFO root fetch - main [MainThread]: End processing [efax]: success
+[2024-05-15 06:51:48] INFO root fetch - main [MainThread]: Store serial: [23212770]
