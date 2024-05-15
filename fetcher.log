@@ -9787,3 +9787,24 @@
 [2024-05-15 06:05:37] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.1.tar.gz]
 [2024-05-15 06:05:37] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
 [2024-05-15 06:05:37] INFO root fetch - main [MainThread]: Store serial: [23212488]
+[2024-05-15 06:07:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212488]
+[2024-05-15 06:07:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 06:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlc-run
+[2024-05-15 06:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2024-05-15 06:07:46] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-15 06:07:46] INFO root fetch - processPackages [dlc-run]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-15 06:07:46] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-15 06:07:46] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/b2/ef/486c867a809a44b5e29834f64612823dace99ef33f262928c9e5eead3eab/dlc_run-0.0.3.tar.gz
+[2024-05-15 06:07:46] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-15 06:07:46] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-15 06:07:46] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240515/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-15 06:07:46] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/2e/c5/db9d8131757821614d908dd54152e2c21619fe19e219e853eeeffd836184/dlc_run-0.0.4.tar.gz
+[2024-05-15 06:07:47] INFO root fetch - processPackages [dlc-run]: executing diffoscope
+[2024-05-15 06:07:47] INFO root fetch - processPackages [dlc-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlc_run-0.0.3.tar.gz tmp/dlc_run-0.0.4.tar.gz --markdown 20240515/d/dlc-run/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-15 06:07:47] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-15 06:07:47] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-15 06:07:47] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-15 06:07:47] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.3.tar.gz]
+[2024-05-15 06:07:47] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.4.tar.gz]
+[2024-05-15 06:07:47] INFO root fetch - main [MainThread]: End processing [dlc-run]: success
+[2024-05-15 06:07:47] INFO root fetch - main [MainThread]: Store serial: [23212494]
