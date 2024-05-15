@@ -9757,3 +9757,33 @@
 [2024-05-15 06:03:26] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
 [2024-05-15 06:03:26] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
 [2024-05-15 06:03:26] INFO root fetch - main [MainThread]: Store serial: [23212480]
+[2024-05-15 06:05:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212480]
+[2024-05-15 06:05:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 06:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-05-15 06:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txm-sandbox
+[2024-05-15 06:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citation-rabbot
+[2024-05-15 06:05:35] INFO root fetch - processPackages [pinjected]: New version: [0.2.62] Old Version: [0.2.61]
+[2024-05-15 06:05:35] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-05-15 06:05:35] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.1] Old Version: [0.3.0.post7]
+[2024-05-15 06:05:35] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/7e/f1/c6e527e120f3a2e70ead9897ada81099ffd15f52249f25188597a1f4aa35/pinjected-0.2.61.tar.gz
+[2024-05-15 06:05:36] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-05-15 06:05:36] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/52/75/f53026b1b2f89c6bb8b8c65080ada66d81ff868e036ad74eeaf8393c7371/txm_sandbox-0.3.0.post7.tar.gz
+[2024-05-15 06:05:36] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-05-15 06:05:36] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/3d/a9/de9159a38bc04679846d432e59b4d8abea9216ffbf25081d4214607ec1be/pinjected-0.2.62.tar.gz
+[2024-05-15 06:05:36] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-05-15 06:05:36] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240515/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-05-15 06:05:36] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-15 06:05:36] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.61.tar.gz tmp/pinjected-0.2.62.tar.gz --markdown 20240515/p/pinjected/0.2.61-0.2.62/README.md --exclude *.pyd
+[2024-05-15 06:05:36] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/39/86/abac6a5427cbebbc9c26c77c09eccb7c728f11caca8f89a8815a0a67b887/txm_sandbox-0.3.1.tar.gz
+[2024-05-15 06:05:36] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-05-15 06:05:36] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txm_sandbox-0.3.0.post7.tar.gz tmp/txm_sandbox-0.3.1.tar.gz --markdown 20240515/t/txm-sandbox/0.3.0.post7-0.3.1/README.md --exclude *.pyd
+[2024-05-15 06:05:36] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-05-15 06:05:36] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-05-15 06:05:36] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-05-15 06:05:37] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.61.tar.gz]
+[2024-05-15 06:05:37] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.62.tar.gz]
+[2024-05-15 06:05:37] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-15 06:05:37] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post7.tar.gz]
+[2024-05-15 06:05:37] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.1.tar.gz]
+[2024-05-15 06:05:37] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-05-15 06:05:37] INFO root fetch - main [MainThread]: Store serial: [23212488]
