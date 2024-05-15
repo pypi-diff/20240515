@@ -15157,3 +15157,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:18:25] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.6.tar.gz]
 [2024-05-15 10:18:25] INFO root fetch - main [MainThread]: End processing [crlfi]: success
 [2024-05-15 10:18:25] INFO root fetch - main [MainThread]: Store serial: [23214702]
+[2024-05-15 10:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214702]
+[2024-05-15 10:20:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: queue-worker-local
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: envoxy
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ooui
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msiaLex
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ketacli
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-bench
+[2024-05-15 10:20:34] INFO root fetch - processPackages [llm-bench]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 10:20:34] INFO root fetch - processPackages [ooui]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-15 10:20:34] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.7] Old Version: [0.3.9.6]
+[2024-05-15 10:20:34] INFO root fetch - processPackages [queue-worker-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:20:35] INFO root fetch - processPackages [envoxy]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 10:20:35] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/77/85/4955a41a4c8227d966fa3c9fca55b395226534a6cbd78dbb06aa2d461ae0/msiaLex-0.3.9.6-py3-none-any.whl
+[2024-05-15 10:20:35] INFO root fetch - processPackages [queue-worker-local]: Downloading https://files.pythonhosted.org/packages/7f/d9/fa0def6b3a566ced04835c9ae35bd0c97f2e24eec77224b0908e1a709b35/queue-worker-local-0.0.8.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ketacli]: New version: [0.9] Old Version: [0.8]
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/19/63/a82cec8f2bcba9a919e12a177e4ac8fe0b8dbb335641334b2a7b49ed4cdc/ooui-0.9.1.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [llm-bench]: Downloading https://files.pythonhosted.org/packages/e4/1e/96e8e21a12cce6b75d40ef58ee187c01da8c44ea854f32fe4678648dcb90/llm_bench-0.4.8.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [envoxy]: Downloading https://files.pythonhosted.org/packages/43/1b/e48fa7aff9097a34d06d46ca0a2977537c361e3594f76a9e00b5ea435fac/envoxy-0.2.8.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/26/21/56d65bb9c164a4fda18b7374277a8c8235463d0e639ec6f3b77630516473/ketacli-0.8.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [queue-worker-local]: Downloading https://files.pythonhosted.org/packages/e7/be/a67b2e43f60298d9c8a3f8953b2cab611ed6508ecc046a1d9189e6ef932a/queue-worker-local-0.0.9.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/1e/76/fc613086d64039c24e9547455b70e4bb30d0c6a679f3a619913189d50973/msiaLex-0.3.9.7-py3-none-any.whl
+[2024-05-15 10:20:35] INFO root fetch - processPackages [queue-worker-local]: executing diffoscope
+[2024-05-15 10:20:35] INFO root fetch - processPackages [queue-worker-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue-worker-local-0.0.8.tar.gz tmp/queue-worker-local-0.0.9.tar.gz --markdown 20240515/q/queue-worker-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:20:35] INFO root fetch - processPackages [llm-bench]: Downloading https://files.pythonhosted.org/packages/e4/75/2d98ade554705da63eb2766a12984f3f6fc8b6925b37f796ffa48846b3ef/llm_bench-0.4.9.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/27/ff/967d8abcfde18c1acc3ce10dea6831200f6cff06e43fff700081fad6b780/ooui-0.9.2.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 10:20:35] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.6-py3-none-any.whl.zip tmp/msiaLex-0.3.9.7-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.6-0.3.9.7/README.md --exclude *.pyd
+[2024-05-15 10:20:35] INFO root fetch - processPackages [llm-bench]: executing diffoscope
+[2024-05-15 10:20:35] INFO root fetch - processPackages [llm-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_bench-0.4.8.tar.gz tmp/llm_bench-0.4.9.tar.gz --markdown 20240515/l/llm-bench/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 10:20:35] INFO root fetch - processPackages [envoxy]: Downloading https://files.pythonhosted.org/packages/34/ce/cac97ad586f6adcf7c011112cc7532820dcd1915b0adf898ea58ae6c0f4c/envoxy-0.2.9.tar.gz
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.9.1.tar.gz tmp/ooui-0.9.2.tar.gz --markdown 20240515/o/ooui/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-15 10:20:35] INFO root fetch - processPackages [envoxy]: executing diffoscope
+[2024-05-15 10:20:35] INFO root fetch - processPackages [envoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoxy-0.2.8.tar.gz tmp/envoxy-0.2.9.tar.gz --markdown 20240515/e/envoxy/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 10:20:35] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/a9/f4/d17557b1ae241bb7d49f310e2d6dca5c0bc3fae2f46dd05d76b0ac740d16/ketacli-0.9.tar.gz
+[2024-05-15 10:20:36] INFO root fetch - processPackages [queue-worker-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-worker-local-0.0.8.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - processPackages [queue-worker-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-worker-local-0.0.9.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [queue-worker-local]: success
+[2024-05-15 10:20:36] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.6-py3-none-any.whl.zip]
+[2024-05-15 10:20:36] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.7-py3-none-any.whl.zip]
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 10:20:36] INFO root fetch - processPackages [ketacli]: executing diffoscope
+[2024-05-15 10:20:36] INFO root fetch - processPackages [ketacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ketacli-0.8.tar.gz tmp/ketacli-0.9.tar.gz --markdown 20240515/k/ketacli/0.8-0.9/README.md --exclude *.pyd
+[2024-05-15 10:20:36] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.9.1.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.9.2.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-15 10:20:36] INFO root fetch - processPackages [llm-bench]: Remove: archive file [/home/abi/fetcher/tmp/llm_bench-0.4.8.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - processPackages [llm-bench]: Remove: archive file [/home/abi/fetcher/tmp/llm_bench-0.4.9.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [llm-bench]: success
+[2024-05-15 10:20:36] INFO root fetch - processPackages [envoxy]: Remove: archive file [/home/abi/fetcher/tmp/envoxy-0.2.8.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - processPackages [envoxy]: Remove: archive file [/home/abi/fetcher/tmp/envoxy-0.2.9.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [envoxy]: success
+[2024-05-15 10:20:36] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.8.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.9.tar.gz]
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [ketacli]: success
+[2024-05-15 10:20:36] INFO root fetch - main [MainThread]: Store serial: [23214721]
