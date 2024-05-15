@@ -15742,3 +15742,96 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:40:40] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.92.tar.gz]
 [2024-05-15 10:40:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-15 10:40:40] INFO root fetch - main [MainThread]: Store serial: [23214937]
+[2024-05-15 10:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214937]
+[2024-05-15 10:42:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orquestra-sdk
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: engineai.sdk
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-sen2like
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: borneo-client-python
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xtn-tools-pro
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funasr
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transstellar-antd
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audbcards
+[2024-05-15 10:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyDetektia
+[2024-05-15 10:42:50] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.0.8] Old Version: [1.0.0.0.7]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [transstellar-antd]: New version: [0.4.0] Old Version: [0.2.0]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [borneo-client-python]: New version: [3.10.6] Old Version: [3.10.5]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/9d/5c/bfe4187e39a0fa0b0bce0f5507f000f0f4ddad44285490961373d0b72e09/transstellar_antd-0.2.0.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [audbcards]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [pyDetektia]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.64.0] Old Version: [0.63.0]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [engineai.sdk]: New version: [0.92.0] Old Version: [0.87.2]
+[2024-05-15 10:42:50] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/20/3a/b549968353bbea01eb5c0593f437f7f097e8b6aab274d9f57e5980d4a3bd/xtn-tools-pro-1.0.0.0.7.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/60/db/a05cc88316ab4022e2afbd32a206d743b9c9cea22e95038a4ae8dd553f28/eodc_faas_sen2like-2024.5.1.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/e9/e3/898ee67de29b29b788a33748d98fb873368e55d0f53f5a7e0f709b7aa566/borneo_client_python-3.10.5.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [audbcards]: Downloading https://files.pythonhosted.org/packages/12/5d/82ea71d70cd6bcbfa2d1e36f6a2a0aaf5f7fe0039d867d980ecb73af065b/audbcards-0.1.0.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [pyDetektia]: Downloading https://files.pythonhosted.org/packages/5a/6d/8aa276f24c1e20034c8e6e4a633d0c45cbb2a9ec49457333953742df93bf/pyDetektia-2.0.0.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [engineai.sdk]: Downloading https://files.pythonhosted.org/packages/6d/e4/e7ed78ad63fb4018551e60b0547eb659875fc11a81b3e1b2dcf51617d221/engineai_sdk-0.87.2.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/9c/bc/b7ff1a460fda088c1c71b8c598647e57f928114086f08097c17a9bba0381/orquestra_sdk-0.63.0-py3-none-any.whl
+[2024-05-15 10:42:50] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/62/55/159493dc331b3dbe6da99f183db94ca08cc0615c2fd58c2468686972a03c/transstellar_antd-0.4.0.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/29/b9/d0d37ef3adf69227d6f8280f176882444fc87183b757b66d490f4df8d5b0/xtn-tools-pro-1.0.0.0.8.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/68/c6/ad39a6b5d9193db6a9f873fb313fdda4ede752b28b042518599dbfcd23b4/eodc_faas_sen2like-2024.5.2.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/53/2b/e5c1698fbe744730de459fda87c01bdd46b02043174ab586fcdc48a100ef/borneo_client_python-3.10.6.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-15 10:42:50] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.2.0.tar.gz tmp/transstellar_antd-0.4.0.tar.gz --markdown 20240515/t/transstellar-antd/0.2.0-0.4.0/README.md --exclude *.pyd
+[2024-05-15 10:42:50] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-15 10:42:50] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240515/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-15 10:42:50] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-15 10:42:50] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.0.7.tar.gz tmp/xtn-tools-pro-1.0.0.0.8.tar.gz --markdown 20240515/x/xtn-tools-pro/1.0.0.0.7-1.0.0.0.8/README.md --exclude *.pyd
+[2024-05-15 10:42:50] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2024-05-15 10:42:50] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2024.5.1.tar.gz tmp/eodc_faas_sen2like-2024.5.2.tar.gz --markdown 20240515/e/eodc-faas-sen2like/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-15 10:42:50] INFO root fetch - processPackages [audbcards]: Downloading https://files.pythonhosted.org/packages/e0/46/9b9b8e1b532cf3779f7a7ba208547f8f1d53c7bbdf13552f52efa1277138/audbcards-0.2.0.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [borneo-client-python]: executing diffoscope
+[2024-05-15 10:42:50] INFO root fetch - processPackages [borneo-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_client_python-3.10.5.tar.gz tmp/borneo_client_python-3.10.6.tar.gz --markdown 20240515/b/borneo-client-python/3.10.5-3.10.6/README.md --exclude *.pyd
+[2024-05-15 10:42:50] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/7d/9b/d08379ad5cc03c60e5c243f4d37dcfe5afe18426d96019d6626b6399a8ed/orquestra_sdk-0.64.0-py3-none-any.whl
+[2024-05-15 10:42:50] INFO root fetch - processPackages [pyDetektia]: Downloading https://files.pythonhosted.org/packages/de/ca/99148c5eae9170453640b8d328b82051f8a509d87169e52d100ef60ed786/pyDetektia-2.0.1.tar.gz
+[2024-05-15 10:42:50] INFO root fetch - processPackages [engineai.sdk]: Downloading https://files.pythonhosted.org/packages/03/5d/108b52e1bf88c7d869969213e10e77ec747948ecf05a91395937da3d329f/engineai_sdk-0.92.0.tar.gz
+[2024-05-15 10:42:51] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-05-15 10:42:51] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240515/f/funasr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 10:42:51] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2024-05-15 10:42:51] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra_sdk-0.63.0-py3-none-any.whl.zip tmp/orquestra_sdk-0.64.0-py3-none-any.whl.zip --markdown 20240515/o/orquestra-sdk/0.63.0-0.64.0/README.md --exclude *.pyd
+[2024-05-15 10:42:51] INFO root fetch - processPackages [pyDetektia]: executing diffoscope
+[2024-05-15 10:42:51] INFO root fetch - processPackages [pyDetektia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDetektia-2.0.0.tar.gz tmp/pyDetektia-2.0.1.tar.gz --markdown 20240515/p/pyDetektia/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-15 10:42:51] INFO root fetch - processPackages [audbcards]: executing diffoscope
+[2024-05-15 10:42:51] INFO root fetch - processPackages [audbcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audbcards-0.1.0.tar.gz tmp/audbcards-0.2.0.tar.gz --markdown 20240515/a/audbcards/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-15 10:42:51] INFO root fetch - processPackages [engineai.sdk]: executing diffoscope
+[2024-05-15 10:42:51] INFO root fetch - processPackages [engineai.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engineai_sdk-0.87.2.tar.gz tmp/engineai_sdk-0.92.0.tar.gz --markdown 20240515/e/engineai.sdk/0.87.2-0.92.0/README.md --exclude *.pyd
+[2024-05-15 10:42:51] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.5.1.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.5.2.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2024-05-15 10:42:51] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.7.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.8.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-15 10:42:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-15 10:42:51] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.2.0.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.4.0.tar.gz]
+[2024-05-15 10:42:51] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-15 10:42:52] INFO root fetch - processPackages [pyDetektia]: Remove: archive file [/home/abi/fetcher/tmp/pyDetektia-2.0.0.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - processPackages [pyDetektia]: Remove: archive file [/home/abi/fetcher/tmp/pyDetektia-2.0.1.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - main [MainThread]: End processing [pyDetektia]: success
+[2024-05-15 10:42:52] INFO root fetch - processPackages [audbcards]: Remove: archive file [/home/abi/fetcher/tmp/audbcards-0.1.0.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - processPackages [audbcards]: Remove: archive file [/home/abi/fetcher/tmp/audbcards-0.2.0.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - main [MainThread]: End processing [audbcards]: success
+[2024-05-15 10:42:52] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.5.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.6.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - main [MainThread]: End processing [borneo-client-python]: success
+[2024-05-15 10:42:52] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.63.0-py3-none-any.whl.zip]
+[2024-05-15 10:42:52] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.64.0-py3-none-any.whl.zip]
+[2024-05-15 10:42:52] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2024-05-15 10:42:52] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-05-15 10:42:52] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-05-15 10:42:53] INFO root fetch - processPackages [engineai.sdk]: Remove: archive file [/home/abi/fetcher/tmp/engineai_sdk-0.87.2.tar.gz]
+[2024-05-15 10:42:53] INFO root fetch - processPackages [engineai.sdk]: Remove: archive file [/home/abi/fetcher/tmp/engineai_sdk-0.92.0.tar.gz]
+[2024-05-15 10:42:53] INFO root fetch - main [MainThread]: End processing [engineai.sdk]: success
+[2024-05-15 10:42:53] INFO root fetch - main [MainThread]: Store serial: [23214975]
