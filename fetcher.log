@@ -19809,3 +19809,46 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:14:04] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-05-15 13:14:04] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-05-15 13:14:04] INFO root fetch - main [MainThread]: Store serial: [23216738]
+[2024-05-15 13:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216738]
+[2024-05-15 13:16:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpusage
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-nightly
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-cpp
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ImageDimensionCheck
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tulona
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jinns
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ImageDimensionCheck]: New version: [1.4.0] Old Version: [1.3]
+[2024-05-15 13:16:13] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240515] Old Version: [2.5.0b20240514]
+[2024-05-15 13:16:13] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/c9/9a/de71506c20efb79b9680fd04f2a6e029260739369e8bd59b0b42eeccdf93/ImageDimensionCheck-1.3-py3-none-any.whl
+[2024-05-15 13:16:13] ERROR root fetch - processPackages [gpusage]: Unable to get metadata: No such project 'gpusage'
+[2024-05-15 13:16:13] INFO root fetch - main [MainThread]: End processing [gpusage] error
+[2024-05-15 13:16:13] INFO root fetch - processPackages [tulona]: New version: [0.7.8] Old Version: [0.7.6]
+[2024-05-15 13:16:13] INFO root fetch - processPackages [jinns]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-15 13:16:14] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/63/19/131e7d5ad640b29ba6a37e7bc612a19d865d45dd8b914d9942c612da8d28/bigdl_core_cpp-2.5.0b20240514-py3-none-win_amd64.whl
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-15 13:16:14] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33300210>=10485760
+[2024-05-15 13:16:14] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/90/55/cc085253f0fd9ac36b91a470ef0c6ae1199ab2b7a53ccdf5f7d1bc593a50/tulona-0.7.6.tar.gz
+[2024-05-15 13:16:14] INFO root fetch - processPackages [jinns]: Downloading https://files.pythonhosted.org/packages/2d/60/cf1c5b2f1c2b88b60e33564c04ac5daeb16e4448df8eda3cf9a6e59add17/jinns-0.8.6.tar.gz
+[2024-05-15 13:16:14] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/9f/57/88691e036442930c932cecd3b601d903ca5c83024c1057642e7d9f30b8b3/ImageDimensionCheck-1.4.0-py3-none-any.whl
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-15 13:16:14] INFO root fetch - processPackages [ImageDimensionCheck]: executing diffoscope
+[2024-05-15 13:16:14] INFO root fetch - processPackages [ImageDimensionCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageDimensionCheck-1.3-py3-none-any.whl.zip tmp/ImageDimensionCheck-1.4.0-py3-none-any.whl.zip --markdown 20240515/I/ImageDimensionCheck/1.3-1.4.0/README.md --exclude *.pyd
+[2024-05-15 13:16:14] WARNING root fetch - processPackages [jinns]: Skipping package: exceeds size limit 18039914>=10485760
+[2024-05-15 13:16:14] INFO root fetch - main [MainThread]: End processing [jinns] error
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/fd/4e/04af3138caf4b6d7b2b12a9adbff2710ee2b4240c341fe2b3dcfe8ce3fd5/tulona-0.7.8.tar.gz
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-15 13:16:14] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.3-py3-none-any.whl.zip]
+[2024-05-15 13:16:14] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.4.0-py3-none-any.whl.zip]
+[2024-05-15 13:16:14] INFO root fetch - main [MainThread]: End processing [ImageDimensionCheck]: success
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-05-15 13:16:14] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.7.6.tar.gz tmp/tulona-0.7.8.tar.gz --markdown 20240515/t/tulona/0.7.6-0.7.8/README.md --exclude *.pyd
+[2024-05-15 13:16:15] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-15 13:16:15] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240515/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-15 13:16:15] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.6.tar.gz]
+[2024-05-15 13:16:15] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.8.tar.gz]
+[2024-05-15 13:16:15] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-05-15 13:16:16] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-15 13:16:16] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-15 13:16:16] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-15 13:16:16] INFO root fetch - main [MainThread]: Store serial: [23216756]
