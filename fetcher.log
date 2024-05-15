@@ -10300,3 +10300,18 @@
 [2024-05-15 06:38:47] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-05-15 06:38:47] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-05-15 06:38:47] INFO root fetch - main [MainThread]: Store serial: [23212715]
+[2024-05-15 06:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212715]
+[2024-05-15 06:40:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-init
+[2024-05-15 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msiaLex
+[2024-05-15 06:40:56] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.4] Old Version: [0.3.9.3]
+[2024-05-15 06:40:56] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/fe/45/9b7af2fc241541bf700c74362cc500842ecb5caed24e3bef3a8b34070b34/msiaLex-0.3.9.3-py3-none-any.whl
+[2024-05-15 06:40:56] WARNING root fetch - processPackages [pydantic-init]: Skipping, unable to determine old version
+[2024-05-15 06:40:56] INFO root fetch - main [MainThread]: End processing [pydantic-init] error
+[2024-05-15 06:40:56] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/ff/e3/fb1ed44c481c2e8737800f50f26110d9a407fdcf9f33a4b0b421a5986c27/msiaLex-0.3.9.4-py3-none-any.whl
+[2024-05-15 06:40:56] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 06:40:56] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.3-py3-none-any.whl.zip tmp/msiaLex-0.3.9.4-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.3-0.3.9.4/README.md --exclude *.pyd
+[2024-05-15 06:40:57] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.3-py3-none-any.whl.zip]
+[2024-05-15 06:40:57] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.4-py3-none-any.whl.zip]
+[2024-05-15 06:40:57] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 06:40:57] INFO root fetch - main [MainThread]: Store serial: [23212722]
