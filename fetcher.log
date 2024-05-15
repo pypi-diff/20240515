@@ -18853,3 +18853,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:29:13] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.90.tar.gz]
 [2024-05-15 12:29:13] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
 [2024-05-15 12:29:13] INFO root fetch - main [MainThread]: Store serial: [23216419]
+[2024-05-15 12:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216419]
+[2024-05-15 12:31:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ado_wrapper
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod349
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prot2d
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: olive-ai
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Akinator-python
+[2024-05-15 12:31:21] INFO root fetch - processPackages [Akinator-python]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ado_wrapper]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-05-15 12:31:21] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/a7/6b/ad1a8bfa6cc979a528c236a789a876736771dc948c487293d58bde1f9ee1/Akinator-python-1.2.0.tar.gz
+[2024-05-15 12:31:21] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/1d/b3/afd3877282bc5ca62bc115b739170f0d4c8c809a54b3364d8f58009b884e/ado_wrapper-1.7.1.tar.gz
+[2024-05-15 12:31:21] INFO root fetch - processPackages [olive-ai]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-15 12:31:21] INFO root fetch - processPackages [prot2d]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-15 12:31:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.3.1]
+[2024-05-15 12:31:21] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.4.1b9]
+[2024-05-15 12:31:22] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/ee/51/803ac746da71b918598e9e5cce5ef58e663cc6dc8c71d22562d12fe90023/Akinator-python-1.2.1.tar.gz
+[2024-05-15 12:31:22] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/c4/84/ceb86542dd3dd0e326ab91938388f462b9d1bfa9dd906bd828a6602a07f0/ado_wrapper-1.8.0.tar.gz
+[2024-05-15 12:31:22] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ab/80/64152621f2e387ed0dff6f4fbf31f5b2e11f4dfe300d598bbfb27dfd25b5/dcicutils-8.8.4.1b9.tar.gz
+[2024-05-15 12:31:22] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/67/be/d1cebf003089f725ce20dae835787c7c0ffe7159be078c153dbcb7ac9e0a/olive_ai-0.5.2-py3-none-any.whl
+[2024-05-15 12:31:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/1f/45/27ba82eb16eab11ecf4cdb962132ca2e27a96ed853c54ea4c37dfe8f1d55/odoo_addon_l10n_es_aeat_mod349-16.0.1.3.1-py3-none-any.whl
+[2024-05-15 12:31:22] INFO root fetch - processPackages [prot2d]: Downloading https://files.pythonhosted.org/packages/be/8c/e662062f2274600f596b2556e9a8216faa8cce5df429fed6a1d79c0c0980/prot2d-0.4.2.tar.gz
+[2024-05-15 12:31:22] INFO root fetch - processPackages [Akinator-python]: executing diffoscope
+[2024-05-15 12:31:22] INFO root fetch - processPackages [Akinator-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akinator-python-1.2.0.tar.gz tmp/Akinator-python-1.2.1.tar.gz --markdown 20240515/A/Akinator-python/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-15 12:31:22] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-05-15 12:31:22] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.7.1.tar.gz tmp/ado_wrapper-1.8.0.tar.gz --markdown 20240515/a/ado_wrapper/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-05-15 12:31:22] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-15 12:31:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/cd/e7/7b2e37803066f71507fbde348d78a8fb1907725cd52731f634386f3a425a/odoo_addon_l10n_es_aeat_mod349-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 12:31:22] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/21/7e/a2e4bd3763ad0c78fdbdc144f84c051115f76421d7783b4072e9b5aefea1/olive_ai-0.6.0-py3-none-any.whl
+[2024-05-15 12:31:22] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-15 12:31:22] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.1b9.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240515/d/dcicutils/8.8.4.1b9-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-15 12:31:22] INFO root fetch - processPackages [olive-ai]: executing diffoscope
+[2024-05-15 12:31:22] INFO root fetch - processPackages [olive-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olive_ai-0.5.2-py3-none-any.whl.zip tmp/olive_ai-0.6.0-py3-none-any.whl.zip --markdown 20240515/o/olive-ai/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-15 12:31:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: executing diffoscope
+[2024-05-15 12:31:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod349-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-l10n-es-aeat-mod349/16.0.1.3.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-15 12:31:22] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.2.0.tar.gz]
+[2024-05-15 12:31:22] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.2.1.tar.gz]
+[2024-05-15 12:31:22] INFO root fetch - main [MainThread]: End processing [Akinator-python]: success
+[2024-05-15 12:31:22] INFO root fetch - processPackages [prot2d]: Downloading https://files.pythonhosted.org/packages/02/db/269862f0c5368e9e0c9e4a5f40d48e7f1a2a6bde458a7b98e2a2970742a1/prot2d-0.5.0.tar.gz
+[2024-05-15 12:31:22] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.7.1.tar.gz]
+[2024-05-15 12:31:22] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.8.0.tar.gz]
+[2024-05-15 12:31:22] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-05-15 12:31:23] INFO root fetch - processPackages [prot2d]: executing diffoscope
+[2024-05-15 12:31:23] INFO root fetch - processPackages [prot2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prot2d-0.4.2.tar.gz tmp/prot2d-0.5.0.tar.gz --markdown 20240515/p/prot2d/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-15 12:31:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.3.1-py3-none-any.whl.zip]
+[2024-05-15 12:31:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod349-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 12:31:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod349]: success
+[2024-05-15 12:31:23] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b9.tar.gz]
+[2024-05-15 12:31:23] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-15 12:31:23] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-15 12:31:24] INFO root fetch - processPackages [prot2d]: Remove: archive file [/home/abi/fetcher/tmp/prot2d-0.4.2.tar.gz]
+[2024-05-15 12:31:24] INFO root fetch - processPackages [prot2d]: Remove: archive file [/home/abi/fetcher/tmp/prot2d-0.5.0.tar.gz]
+[2024-05-15 12:31:24] INFO root fetch - main [MainThread]: End processing [prot2d]: success
+[2024-05-15 12:31:24] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.5.2-py3-none-any.whl.zip]
+[2024-05-15 12:31:24] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.6.0-py3-none-any.whl.zip]
+[2024-05-15 12:31:24] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
+[2024-05-15 12:31:24] INFO root fetch - main [MainThread]: Store serial: [23216435]
