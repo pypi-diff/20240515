@@ -17955,3 +17955,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:57:41] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
 [2024-05-15 11:57:41] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
 [2024-05-15 11:57:41] INFO root fetch - main [MainThread]: Store serial: [23215942]
+[2024-05-15 11:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215942]
+[2024-05-15 11:59:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 11:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storey
+[2024-05-15 11:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hshdgyq-test
+[2024-05-15 11:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vault
+[2024-05-15 11:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywxdll
+[2024-05-15 11:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-15 11:59:51] INFO root fetch - processPackages [pywxdll]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-15 11:59:51] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.83]
+[2024-05-15 11:59:51] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/25/c6/14c736ff6d2698333bfdd57d295fb9e4e31e4d0dc9add5393b5a251f468a/pywxdll-0.2.1.tar.gz
+[2024-05-15 11:59:51] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-15 11:59:51] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715765997] Old Version: [6.2.0a1715339765]
+[2024-05-15 11:59:51] WARNING root fetch - processPackages [hshdgyq-test]: Skipping, unable to determine old version
+[2024-05-15 11:59:51] INFO root fetch - main [MainThread]: End processing [hshdgyq-test] error
+[2024-05-15 11:59:51] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/bf/1f/3bd30971bf5a8e6bbca3b0affab47a7ac1e26cb476221a426fb3d5b114f7/abstract_pandas-0.0.0.83.tar.gz
+[2024-05-15 11:59:51] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-05-15 11:59:51] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/5e/e7/f9df2d80c9c5f22f23afab3709db0500698b3e2979793d6079463fce5f6d/pywxdll-0.2.3.tar.gz
+[2024-05-15 11:59:51] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/2f/da/3ffb0fc2c862eabf74983c2f85fd36bbc909155981bd4876bf64a5e61f6e/pulumi_vault-6.2.0a1715339765.tar.gz
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pywxdll]: executing diffoscope
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pywxdll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdll-0.2.1.tar.gz tmp/pywxdll-0.2.3.tar.gz --markdown 20240515/p/pywxdll/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-15 11:59:52] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 11:59:52] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 11:59:52] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.83.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.83-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:59:52] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e1/97/9b5ffc05c4fc05bd2ad035672eed7d514384642009928a08d8332deb26ac/pulumi_vault-6.2.0a1715765997.tar.gz
+[2024-05-15 11:59:52] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-05-15 11:59:52] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240515/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715339765.tar.gz tmp/pulumi_vault-6.2.0a1715765997.tar.gz --markdown 20240515/p/pulumi-vault/6.2.0a1715339765-6.2.0a1715765997/README.md --exclude *.pyd
+[2024-05-15 11:59:52] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.83.tar.gz]
+[2024-05-15 11:59:52] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 11:59:52] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pywxdll]: Remove: archive file [/home/abi/fetcher/tmp/pywxdll-0.2.1.tar.gz]
+[2024-05-15 11:59:52] INFO root fetch - processPackages [pywxdll]: Remove: archive file [/home/abi/fetcher/tmp/pywxdll-0.2.3.tar.gz]
+[2024-05-15 11:59:52] INFO root fetch - main [MainThread]: End processing [pywxdll]: success
+[2024-05-15 11:59:53] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-05-15 11:59:53] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-05-15 11:59:53] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-05-15 11:59:54] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715339765.tar.gz]
+[2024-05-15 11:59:54] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715765997.tar.gz]
+[2024-05-15 11:59:54] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-15 11:59:54] INFO root fetch - main [MainThread]: Store serial: [23215961]
