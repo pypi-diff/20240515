@@ -18541,3 +18541,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:13:52] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.5.tar.gz]
 [2024-05-15 12:13:52] INFO root fetch - main [MainThread]: End processing [brynq-sdk-leapsome]: success
 [2024-05-15 12:13:52] INFO root fetch - main [MainThread]: Store serial: [23216308]
+[2024-05-15 12:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216308]
+[2024-05-15 12:16:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-dialog-size
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsciences
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-pandas
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ESSMTools
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brynq-sdk-leapsome
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlitgo
+[2024-05-15 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-app-dev
+[2024-05-15 12:16:01] INFO root fetch - processPackages [streamlitgo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 12:16:01] INFO root fetch - processPackages [brynq-sdk-leapsome]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-15 12:16:01] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.5] Old Version: [0.5.5.4]
+[2024-05-15 12:16:01] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.86]
+[2024-05-15 12:16:01] WARNING root fetch - processPackages [ESSMTools]: Skipping, unable to determine old version
+[2024-05-15 12:16:01] INFO root fetch - main [MainThread]: End processing [ESSMTools] error
+[2024-05-15 12:16:01] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-15 12:16:01] INFO root fetch - processPackages [streamlitgo]: Downloading https://files.pythonhosted.org/packages/f8/ee/c77c19e1b7186f2f86f112dc36fad266a529b1a2426660fe7907e5f791ce/streamlitgo-0.1.0.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [brynq-sdk-leapsome]: Downloading https://files.pythonhosted.org/packages/15/d7/97d7afd00d43ca019a58728ec5429666d524efbd1b2ce2f817f702dad3c8/brynq_sdk_leapsome-1.0.4.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a9/33/c0699352b44447b5c9b9782e063aa0252d7734f5157a73f225497c692ab8/imsciences-0.5.5.4.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [py-app-dev]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-15 12:16:01] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/a8/43/51c4ed41dd800a44412d58c993591181a731e53ea8946da53c752964f16d/abstract_pandas-0.0.0.86.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [py-app-dev]: Downloading https://files.pythonhosted.org/packages/07/45/aca965930ef8515ef5600c5aa2ea79cdf35c4feb503ebc8974cdeb44e0fd/py_app_dev-2.2.0.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/d1/63/fe7153027ac1c3bb4270898636bba49c7298f201cdec74ad242640548242/odoo_addon_web_dialog_size-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-15 12:16:01] INFO root fetch - processPackages [streamlitgo]: Downloading https://files.pythonhosted.org/packages/88/9b/5f09bdde1b9e689759f0a57c58e6d31b920088d140284ab4d9cbefe96e5d/streamlitgo-0.1.1.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [brynq-sdk-leapsome]: Downloading https://files.pythonhosted.org/packages/7b/fa/3a44ee46e07d1c176484eac02311435b5603c76d96f6ad17383df537b844/brynq_sdk_leapsome-1.0.5.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a9/a4/1add228d89ba592026fb93679d72d9b47381437f2d9535edba6d3fcb7d25/imsciences-0.5.5.5.tar.gz
+[2024-05-15 12:16:01] INFO root fetch - processPackages [brynq-sdk-leapsome]: executing diffoscope
+[2024-05-15 12:16:01] INFO root fetch - processPackages [brynq-sdk-leapsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_leapsome-1.0.4.tar.gz tmp/brynq_sdk_leapsome-1.0.5.tar.gz --markdown 20240515/b/brynq-sdk-leapsome/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-15 12:16:01] INFO root fetch - processPackages [streamlitgo]: executing diffoscope
+[2024-05-15 12:16:01] INFO root fetch - processPackages [streamlitgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitgo-0.1.0.tar.gz tmp/streamlitgo-0.1.1.tar.gz --markdown 20240515/s/streamlitgo/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 12:16:02] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:16:02] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.86.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.86-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 12:16:02] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-15 12:16:02] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.5.4.tar.gz tmp/imsciences-0.5.5.5.tar.gz --markdown 20240515/i/imsciences/0.5.5.4-0.5.5.5/README.md --exclude *.pyd
+[2024-05-15 12:16:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/55/c4/23c24d15637ec6bc37fd1181a68b61f0ad6d680ecc2df5a952067ebfe2ce/odoo_addon_web_dialog_size-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-15 12:16:02] INFO root fetch - processPackages [py-app-dev]: Downloading https://files.pythonhosted.org/packages/6b/8d/3f41ae9ac8bb9706f5a82df596ee675c467ddd46ff9688ccd62255e0d5c3/py_app_dev-2.3.0.tar.gz
+[2024-05-15 12:16:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: executing diffoscope
+[2024-05-15 12:16:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_dialog_size-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_web_dialog_size-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-web-dialog-size/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-15 12:16:02] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.4.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.5.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - main [MainThread]: End processing [brynq-sdk-leapsome]: success
+[2024-05-15 12:16:02] INFO root fetch - processPackages [streamlitgo]: Remove: archive file [/home/abi/fetcher/tmp/streamlitgo-0.1.0.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - processPackages [streamlitgo]: Remove: archive file [/home/abi/fetcher/tmp/streamlitgo-0.1.1.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - main [MainThread]: End processing [streamlitgo]: success
+[2024-05-15 12:16:02] INFO root fetch - processPackages [py-app-dev]: executing diffoscope
+[2024-05-15 12:16:02] INFO root fetch - processPackages [py-app-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_app_dev-2.2.0.tar.gz tmp/py_app_dev-2.3.0.tar.gz --markdown 20240515/p/py-app-dev/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-15 12:16:02] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.86.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:16:02] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.4.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.5.tar.gz]
+[2024-05-15 12:16:02] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-15 12:16:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-15 12:16:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-15 12:16:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-dialog-size]: success
+[2024-05-15 12:16:03] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.2.0.tar.gz]
+[2024-05-15 12:16:03] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.3.0.tar.gz]
+[2024-05-15 12:16:03] INFO root fetch - main [MainThread]: End processing [py-app-dev]: success
+[2024-05-15 12:16:03] INFO root fetch - main [MainThread]: Store serial: [23216329]
