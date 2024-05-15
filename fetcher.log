@@ -12334,3 +12334,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:19:53] INFO root fetch - processPackages [aonet]: Remove: archive file [/home/abi/fetcher/tmp/aonet-1.0.2.tar.gz]
 [2024-05-15 08:19:53] INFO root fetch - main [MainThread]: End processing [aonet]: success
 [2024-05-15 08:19:53] INFO root fetch - main [MainThread]: Store serial: [23213535]
+[2024-05-15 08:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213535]
+[2024-05-15 08:22:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 08:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-multi-bulk-updater
+[2024-05-15 08:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-product-supplierinfo-for-customer-sale
+[2024-05-15 08:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlxu
+[2024-05-15 08:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jms-storage
+[2024-05-15 08:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxalio-studio-tools
+[2024-05-15 08:22:02] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev5]
+[2024-05-15 08:22:02] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-15 08:22:03] INFO root fetch - processPackages [mlxu]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 08:22:03] WARNING root fetch - processPackages [django-multi-bulk-updater]: Skipping, unable to determine old version
+[2024-05-15 08:22:03] INFO root fetch - main [MainThread]: End processing [django-multi-bulk-updater] error
+[2024-05-15 08:22:03] INFO root fetch - processPackages [jms-storage]: New version: [0.0.9] Old Version: [0.0.58]
+[2024-05-15 08:22:03] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/29/43/3142dcc8f8aebee7611c3b2ce5c35e49b426f5984b83efca327612678dcb/cxalio_studio_tools-0.2.2.tar.gz
+[2024-05-15 08:22:03] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Downloading https://files.pythonhosted.org/packages/42/a8/6612140b0a027a41dcfe86d71b18c8155ff89484c558b194b888331ad3e1/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.1.1.dev5-py3-none-any.whl
+[2024-05-15 08:22:03] INFO root fetch - processPackages [mlxu]: Downloading https://files.pythonhosted.org/packages/d4/40/f4df23c10a2b819136449ffee8c740e62f6a05f4288a12777d50c1b06567/mlxu-0.1.8.tar.gz
+[2024-05-15 08:22:03] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/6e/7f/536712fd7dca7363359a96aece6189db03152c7098f767791795fbf84f8e/jms-storage-0.0.58.tar.gz
+[2024-05-15 08:22:03] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/30/61/4bd576d0f31a830b68940a7344d7eebd5993bb4496c9960e33462ed4f254/cxalio_studio_tools-0.2.3.tar.gz
+[2024-05-15 08:22:03] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Downloading https://files.pythonhosted.org/packages/4e/a4/957da79d0fde392c97801fa8ad51eec54fcfc935818e92d0a1842439e714/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.0-py3-none-any.whl
+[2024-05-15 08:22:03] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-15 08:22:03] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.2.2.tar.gz tmp/cxalio_studio_tools-0.2.3.tar.gz --markdown 20240515/c/cxalio-studio-tools/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-15 08:22:03] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: executing diffoscope
+[2024-05-15 08:22:03] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.0-py3-none-any.whl.zip --markdown 20240515/o/odoo14-addon-product-supplierinfo-for-customer-sale/14.0.1.1.1.dev5-14.0.1.2.0/README.md --exclude *.pyd
+[2024-05-15 08:22:03] INFO root fetch - processPackages [mlxu]: Downloading https://files.pythonhosted.org/packages/d3/da/da0d47ee44b85fd2f900b13a917b425d58d8ddf496bee7da0902dd4f0e37/mlxu-0.1.9.tar.gz
+[2024-05-15 08:22:03] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/e5/fe/4fc0396d4a55b575307fcabe6631c50a2563cb2d9bd4af2ca7414c1dd1af/jms-storage-0.0.9.tar.gz
+[2024-05-15 08:22:03] INFO root fetch - processPackages [mlxu]: executing diffoscope
+[2024-05-15 08:22:03] INFO root fetch - processPackages [mlxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlxu-0.1.8.tar.gz tmp/mlxu-0.1.9.tar.gz --markdown 20240515/m/mlxu/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 08:22:03] INFO root fetch - processPackages [jms-storage]: executing diffoscope
+[2024-05-15 08:22:03] INFO root fetch - processPackages [jms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jms-storage-0.0.58.tar.gz tmp/jms-storage-0.0.9.tar.gz --markdown 20240515/j/jms-storage/0.0.58-0.0.9/README.md --exclude *.pyd
+[2024-05-15 08:22:04] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2024-05-15 08:22:04] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-15 08:22:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-sale]: success
+[2024-05-15 08:22:04] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.2.tar.gz]
+[2024-05-15 08:22:04] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.3.tar.gz]
+[2024-05-15 08:22:04] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-15 08:22:04] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.58.tar.gz]
+[2024-05-15 08:22:04] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.9.tar.gz]
+[2024-05-15 08:22:04] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
+[2024-05-15 08:22:04] INFO root fetch - processPackages [mlxu]: Remove: archive file [/home/abi/fetcher/tmp/mlxu-0.1.8.tar.gz]
+[2024-05-15 08:22:04] INFO root fetch - processPackages [mlxu]: Remove: archive file [/home/abi/fetcher/tmp/mlxu-0.1.9.tar.gz]
+[2024-05-15 08:22:04] INFO root fetch - main [MainThread]: End processing [mlxu]: success
+[2024-05-15 08:22:04] INFO root fetch - main [MainThread]: Store serial: [23213547]
