@@ -19288,3 +19288,24 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:48:58] INFO root fetch - processPackages [python-esios]: Remove: archive file [/home/abi/fetcher/tmp/python_esios-0.1.4.tar.gz]
 [2024-05-15 12:48:58] INFO root fetch - main [MainThread]: End processing [python-esios]: success
 [2024-05-15 12:48:58] INFO root fetch - main [MainThread]: Store serial: [23216562]
+[2024-05-15 12:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216562]
+[2024-05-15 12:51:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osparc-filecomms
+[2024-05-15 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fb-tools
+[2024-05-15 12:51:08] INFO root fetch - processPackages [fb-tools]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-15 12:51:08] INFO root fetch - processPackages [osparc-filecomms]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-15 12:51:08] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/13/82/8b651631a16376eb3324a709fb76b09110c50bb4c39e64f1b53c8c3cb8b4/fb_tools-2.5.0.tar.gz
+[2024-05-15 12:51:08] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/81/cc/010a1250b54660464ec879dc289d2c117d38c7710ddb3b369d20fc2ce6f8/osparc_filecomms-1.0.3-py2.py3-none-any.whl
+[2024-05-15 12:51:09] INFO root fetch - processPackages [fb-tools]: Downloading https://files.pythonhosted.org/packages/60/b9/923071d3727fc7904cfd610bb04e68432c220de9ad58ef0944c27eed610f/fb_tools-2.5.1.tar.gz
+[2024-05-15 12:51:09] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/f3/a5/972c2c09f155328dfc404be6bb22ca71f5698cba5547fcfd73944996fdb4/osparc_filecomms-1.0.4-py2.py3-none-any.whl
+[2024-05-15 12:51:09] INFO root fetch - processPackages [fb-tools]: executing diffoscope
+[2024-05-15 12:51:09] INFO root fetch - processPackages [fb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_tools-2.5.0.tar.gz tmp/fb_tools-2.5.1.tar.gz --markdown 20240515/f/fb-tools/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-15 12:51:09] INFO root fetch - processPackages [osparc-filecomms]: executing diffoscope
+[2024-05-15 12:51:09] INFO root fetch - processPackages [osparc-filecomms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osparc_filecomms-1.0.3-py2.py3-none-any.whl.zip tmp/osparc_filecomms-1.0.4-py2.py3-none-any.whl.zip --markdown 20240515/o/osparc-filecomms/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-15 12:51:09] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-1.0.3-py2.py3-none-any.whl.zip]
+[2024-05-15 12:51:09] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-1.0.4-py2.py3-none-any.whl.zip]
+[2024-05-15 12:51:09] INFO root fetch - main [MainThread]: End processing [osparc-filecomms]: success
+[2024-05-15 12:51:10] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.5.0.tar.gz]
+[2024-05-15 12:51:10] INFO root fetch - processPackages [fb-tools]: Remove: archive file [/home/abi/fetcher/tmp/fb_tools-2.5.1.tar.gz]
+[2024-05-15 12:51:10] INFO root fetch - main [MainThread]: End processing [fb-tools]: success
+[2024-05-15 12:51:10] INFO root fetch - main [MainThread]: Store serial: [23216567]
