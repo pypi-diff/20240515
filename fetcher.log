@@ -17757,3 +17757,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:48:48] INFO root fetch - processPackages [mvtec-halcon]: Remove: archive file [/home/abi/fetcher/tmp/mvtec_halcon-24050.0.0.tar.gz]
 [2024-05-15 11:48:48] INFO root fetch - main [MainThread]: End processing [mvtec-halcon]: success
 [2024-05-15 11:48:48] INFO root fetch - main [MainThread]: Store serial: [23215811]
+[2024-05-15 11:50:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215811]
+[2024-05-15 11:51:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 11:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scipy-doctest
+[2024-05-15 11:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-dockerize-plugin
+[2024-05-15 11:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-django-kits
+[2024-05-15 11:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khemia
+[2024-05-15 11:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-tls
+[2024-05-15 11:51:03] INFO root fetch - processPackages [poetry-dockerize-plugin]: New version: [1.0.0] Old Version: [0.6.1]
+[2024-05-15 11:51:03] INFO root fetch - processPackages [poetry-dockerize-plugin]: Downloading https://files.pythonhosted.org/packages/df/37/b728be3add10a22372c90cc6913657d08dd85ee12eeca2e697cf7ce1536c/poetry_dockerize_plugin-0.6.1.tar.gz
+[2024-05-15 11:51:03] INFO root fetch - processPackages [khemia]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 11:51:03] INFO root fetch - processPackages [evo-django-kits]: New version: [0.0.2] Old Version: [0.0.15]
+[2024-05-15 11:51:03] WARNING root fetch - processPackages [scipy-doctest]: Skipping, unable to determine old version
+[2024-05-15 11:51:03] INFO root fetch - main [MainThread]: End processing [scipy-doctest] error
+[2024-05-15 11:51:03] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1715765706] Old Version: [5.1.0a1715339720]
+[2024-05-15 11:51:03] INFO root fetch - processPackages [khemia]: Downloading https://files.pythonhosted.org/packages/c5/a4/a4c6c8c29e4c174250c018d8f05c9d53c7161cead191a4e18e1ea3a7b803/khemia-0.1.0.tar.gz
+[2024-05-15 11:51:03] INFO root fetch - processPackages [evo-django-kits]: Downloading https://files.pythonhosted.org/packages/20/cf/817584b257ac86d88b8ee12fe4da1bc99c35427caee30b0f07228989c8a1/evo_django_kits-0.0.15.tar.gz
+[2024-05-15 11:51:03] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/13/1c/5b37e91df32dcdff669482bf31a8432681816b08c4783f77f06a1e4f156e/pulumi_tls-5.1.0a1715339720.tar.gz
+[2024-05-15 11:51:03] INFO root fetch - processPackages [poetry-dockerize-plugin]: Downloading https://files.pythonhosted.org/packages/e8/d2/d40a996611e29f09545110530c080561472832542ca9050da96dc6b8ad69/poetry_dockerize_plugin-1.0.0.tar.gz
+[2024-05-15 11:51:03] INFO root fetch - processPackages [poetry-dockerize-plugin]: executing diffoscope
+[2024-05-15 11:51:03] INFO root fetch - processPackages [poetry-dockerize-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_dockerize_plugin-0.6.1.tar.gz tmp/poetry_dockerize_plugin-1.0.0.tar.gz --markdown 20240515/p/poetry-dockerize-plugin/0.6.1-1.0.0/README.md --exclude *.pyd
+[2024-05-15 11:51:03] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/fb/6a/e4a06f007ab9d4bea52cfb29ae3bf00837fd4dd5d3c8bd2a837065c4d6d0/pulumi_tls-5.1.0a1715765706.tar.gz
+[2024-05-15 11:51:04] INFO root fetch - processPackages [khemia]: Downloading https://files.pythonhosted.org/packages/2f/f0/6c5a7e966aaa50f10f50980fe93cf5ad0d499c35b3c7dadd97835d8b4193/khemia-0.1.1.tar.gz
+[2024-05-15 11:51:04] INFO root fetch - processPackages [evo-django-kits]: Downloading https://files.pythonhosted.org/packages/d4/0a/30d3602f416cb80a9ece840905ab1f4217b1a4e947c468975f7e39a7a7e0/evo_django_kits-0.0.2.tar.gz
+[2024-05-15 11:51:04] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-15 11:51:04] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1715339720.tar.gz tmp/pulumi_tls-5.1.0a1715765706.tar.gz --markdown 20240515/p/pulumi-tls/5.1.0a1715339720-5.1.0a1715765706/README.md --exclude *.pyd
+[2024-05-15 11:51:04] INFO root fetch - processPackages [khemia]: executing diffoscope
+[2024-05-15 11:51:04] INFO root fetch - processPackages [khemia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khemia-0.1.0.tar.gz tmp/khemia-0.1.1.tar.gz --markdown 20240515/k/khemia/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 11:51:04] INFO root fetch - processPackages [evo-django-kits]: executing diffoscope
+[2024-05-15 11:51:04] INFO root fetch - processPackages [evo-django-kits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_django_kits-0.0.15.tar.gz tmp/evo_django_kits-0.0.2.tar.gz --markdown 20240515/e/evo-django-kits/0.0.15-0.0.2/README.md --exclude *.pyd
+[2024-05-15 11:51:04] INFO root fetch - processPackages [poetry-dockerize-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dockerize_plugin-0.6.1.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - processPackages [poetry-dockerize-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dockerize_plugin-1.0.0.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - main [MainThread]: End processing [poetry-dockerize-plugin]: success
+[2024-05-15 11:51:04] INFO root fetch - processPackages [khemia]: Remove: archive file [/home/abi/fetcher/tmp/khemia-0.1.0.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - processPackages [khemia]: Remove: archive file [/home/abi/fetcher/tmp/khemia-0.1.1.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - main [MainThread]: End processing [khemia]: success
+[2024-05-15 11:51:04] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715339720.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715765706.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-15 11:51:04] INFO root fetch - processPackages [evo-django-kits]: Remove: archive file [/home/abi/fetcher/tmp/evo_django_kits-0.0.15.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - processPackages [evo-django-kits]: Remove: archive file [/home/abi/fetcher/tmp/evo_django_kits-0.0.2.tar.gz]
+[2024-05-15 11:51:04] INFO root fetch - main [MainThread]: End processing [evo-django-kits]: success
+[2024-05-15 11:51:04] INFO root fetch - main [MainThread]: Store serial: [23215828]
