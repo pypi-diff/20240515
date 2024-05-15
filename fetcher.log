@@ -21225,3 +21225,48 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:11:37] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-15 14:11:37] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-15 14:11:37] INFO root fetch - main [MainThread]: Store serial: [23217320]
+[2024-05-15 14:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217320]
+[2024-05-15 14:13:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 14:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enabler-keitaro-inc
+[2024-05-15 14:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bowtie-json-schema
+[2024-05-15 14:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weather_provider_api
+[2024-05-15 14:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslactionspotting
+[2024-05-15 14:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dve-lumipy-testing
+[2024-05-15 14:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-eval-pro
+[2024-05-15 14:13:46] INFO root fetch - processPackages [weather_provider_api]: New version: [2.52.38] Old Version: [2.51.37]
+[2024-05-15 14:13:46] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2024.5.9] Old Version: [2024.5.7]
+[2024-05-15 14:13:46] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 14:13:46] WARNING root fetch - processPackages [enabler-keitaro-inc]: Skipping, unable to determine old version
+[2024-05-15 14:13:46] INFO root fetch - main [MainThread]: End processing [enabler-keitaro-inc] error
+[2024-05-15 14:13:46] INFO root fetch - processPackages [oslactionspotting]: New version: [0.1.9] Old Version: [0.1.2]
+[2024-05-15 14:13:47] WARNING root fetch - processPackages [ml-eval-pro]: Skipping, unable to determine old version
+[2024-05-15 14:13:47] INFO root fetch - main [MainThread]: End processing [ml-eval-pro] error
+[2024-05-15 14:13:47] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/3d/f3/7bd85d5a42412a30670cfa637a6ed1f56298a186a4fe7ee32ff6a5b92cbe/weather_provider_api-2.51.37.tar.gz
+[2024-05-15 14:13:47] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/58/ba/f44a7fc6211fb929c6a40fad8291d1ff6db5187c14a86964e20180fb2063/bowtie_json_schema-2024.5.7.tar.gz
+[2024-05-15 14:13:47] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-15 14:13:47] INFO root fetch - processPackages [oslactionspotting]: Downloading https://files.pythonhosted.org/packages/a4/cf/83c95aad2a391ecd4bf744f916c251a580998568a44948eea17ff94c460a/oslactionspotting-0.1.2.tar.gz
+[2024-05-15 14:13:47] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/d5/23/9823a8796ca7e29cc86deb4a1a192671bc1de8366676e2681f01271bdb1f/weather_provider_api-2.52.38.tar.gz
+[2024-05-15 14:13:47] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/19/be/db415e0b8e6d9540002be64795c98eafec0ae54d673702b93bbcccff35b8/bowtie_json_schema-2024.5.9.tar.gz
+[2024-05-15 14:13:47] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-15 14:13:47] INFO root fetch - processPackages [weather_provider_api]: executing diffoscope
+[2024-05-15 14:13:47] INFO root fetch - processPackages [weather_provider_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_provider_api-2.51.37.tar.gz tmp/weather_provider_api-2.52.38.tar.gz --markdown 20240515/w/weather_provider_api/2.51.37-2.52.38/README.md --exclude *.pyd
+[2024-05-15 14:13:47] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2024-05-15 14:13:47] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2024.5.7.tar.gz tmp/bowtie_json_schema-2024.5.9.tar.gz --markdown 20240515/b/bowtie-json-schema/2024.5.7-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 14:13:47] INFO root fetch - processPackages [oslactionspotting]: Downloading https://files.pythonhosted.org/packages/ba/1a/f8edb102189ad007296f3e538b49701d74d7a097f25d698c0c4c2c40579e/oslactionspotting-0.1.9.tar.gz
+[2024-05-15 14:13:47] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-15 14:13:47] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240515/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 14:13:47] INFO root fetch - processPackages [oslactionspotting]: executing diffoscope
+[2024-05-15 14:13:47] INFO root fetch - processPackages [oslactionspotting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslactionspotting-0.1.2.tar.gz tmp/oslactionspotting-0.1.9.tar.gz --markdown 20240515/o/oslactionspotting/0.1.2-0.1.9/README.md --exclude *.pyd
+[2024-05-15 14:13:48] INFO root fetch - processPackages [oslactionspotting]: Remove: archive file [/home/abi/fetcher/tmp/oslactionspotting-0.1.2.tar.gz]
+[2024-05-15 14:13:48] INFO root fetch - processPackages [oslactionspotting]: Remove: archive file [/home/abi/fetcher/tmp/oslactionspotting-0.1.9.tar.gz]
+[2024-05-15 14:13:48] INFO root fetch - main [MainThread]: End processing [oslactionspotting]: success
+[2024-05-15 14:13:48] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.51.37.tar.gz]
+[2024-05-15 14:13:48] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.52.38.tar.gz]
+[2024-05-15 14:13:48] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
+[2024-05-15 14:13:48] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.7.tar.gz]
+[2024-05-15 14:13:48] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.9.tar.gz]
+[2024-05-15 14:13:48] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2024-05-15 14:13:48] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-15 14:13:48] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-15 14:13:48] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-15 14:13:48] INFO root fetch - main [MainThread]: Store serial: [23217340]
