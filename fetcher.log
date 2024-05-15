@@ -20774,3 +20774,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:49:05] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b3.tar.gz]
 [2024-05-15 13:49:05] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-05-15 13:49:05] INFO root fetch - main [MainThread]: Store serial: [23217148]
+[2024-05-15 13:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217148]
+[2024-05-15 13:51:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 13:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgartools
+[2024-05-15 13:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskcluster
+[2024-05-15 13:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynpdc
+[2024-05-15 13:51:14] INFO root fetch - processPackages [pynpdc]: New version: [0.14.0] Old Version: [0.13.2]
+[2024-05-15 13:51:14] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-15 13:51:14] INFO root fetch - processPackages [pynpdc]: Downloading https://files.pythonhosted.org/packages/9b/33/b6349c68aeb977174c81ee93ad39cf8ea144569dee8f4f690d7b0c98abc7/pynpdc-0.13.2.tar.gz
+[2024-05-15 13:51:14] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-05-15 13:51:15] INFO root fetch - processPackages [taskcluster]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-05-15 13:51:15] INFO root fetch - processPackages [pynpdc]: Downloading https://files.pythonhosted.org/packages/20/52/aa65b5e992fb01f6d438fca3758f18471d80b6b4172ed00c941b77a97108/pynpdc-0.14.0.tar.gz
+[2024-05-15 13:51:15] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-05-15 13:51:15] INFO root fetch - processPackages [taskcluster]: Downloading https://files.pythonhosted.org/packages/47/75/ffba5fae55fde34812e5912ddb8c29a676c663053222da69083ad3e32af3/taskcluster-7.0.0.tar.gz
+[2024-05-15 13:51:15] INFO root fetch - processPackages [pynpdc]: executing diffoscope
+[2024-05-15 13:51:15] INFO root fetch - processPackages [pynpdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynpdc-0.13.2.tar.gz tmp/pynpdc-0.14.0.tar.gz --markdown 20240515/p/pynpdc/0.13.2-0.14.0/README.md --exclude *.pyd
+[2024-05-15 13:51:15] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-05-15 13:51:15] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240515/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-15 13:51:15] INFO root fetch - processPackages [taskcluster]: Downloading https://files.pythonhosted.org/packages/c6/a9/2a20af412902aed28c5add3b8592c17665d4649886c0edcf7abca4dcc44c/taskcluster-7.0.1.tar.gz
+[2024-05-15 13:51:15] INFO root fetch - processPackages [pynpdc]: Remove: archive file [/home/abi/fetcher/tmp/pynpdc-0.13.2.tar.gz]
+[2024-05-15 13:51:15] INFO root fetch - processPackages [pynpdc]: Remove: archive file [/home/abi/fetcher/tmp/pynpdc-0.14.0.tar.gz]
+[2024-05-15 13:51:15] INFO root fetch - main [MainThread]: End processing [pynpdc]: success
+[2024-05-15 13:51:15] INFO root fetch - processPackages [taskcluster]: executing diffoscope
+[2024-05-15 13:51:15] INFO root fetch - processPackages [taskcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskcluster-7.0.0.tar.gz tmp/taskcluster-7.0.1.tar.gz --markdown 20240515/t/taskcluster/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-05-15 13:51:16] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-05-15 13:51:16] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-05-15 13:51:16] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-05-15 13:51:16] INFO root fetch - processPackages [taskcluster]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-7.0.0.tar.gz]
+[2024-05-15 13:51:16] INFO root fetch - processPackages [taskcluster]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-7.0.1.tar.gz]
+[2024-05-15 13:51:16] INFO root fetch - main [MainThread]: End processing [taskcluster]: success
+[2024-05-15 13:51:16] INFO root fetch - main [MainThread]: Store serial: [23217167]
