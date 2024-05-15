@@ -16086,3 +16086,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:51:46] INFO root fetch - processPackages [xsar]: Remove: archive file [/home/abi/fetcher/tmp/xsar-2024.5.15.tar.gz]
 [2024-05-15 10:51:46] INFO root fetch - main [MainThread]: End processing [xsar]: success
 [2024-05-15 10:51:46] INFO root fetch - main [MainThread]: Store serial: [23215074]
+[2024-05-15 10:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215074]
+[2024-05-15 10:53:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-onelogin
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zalando-kubectl
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-utils
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weasel
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: general-navigation
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xtn-tools-pro
+[2024-05-15 10:53:55] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.0.9] Old Version: [1.0.0.0.8]
+[2024-05-15 10:53:55] INFO root fetch - processPackages [general-navigation]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-15 10:53:55] INFO root fetch - processPackages [weasel]: New version: [0.4.0] Old Version: [0.3.4]
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc6] Old Version: [66.0.0rc5]
+[2024-05-15 10:53:55] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/29/b9/d0d37ef3adf69227d6f8280f176882444fc87183b757b66d490f4df8d5b0/xtn-tools-pro-1.0.0.0.8.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/52/6c/aef86fbc4fb02b592cd7d5608237fdc1acfe72b0789878521874bfab21b3/general_navigation-0.2.0.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/a3/15/5be22cbde3fa1704da51951bb0b3dcdf33a7930449e156440e518df11391/weasel-0.3.4.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-05-15 10:53:55] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1715762143] Old Version: [0.7.0a1715338486]
+[2024-05-15 10:53:55] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ba/12/c08fd8b4f06cc9178c226ae733fca85e8ef667426e8f30343869aad8b64f/ccs-digitalmarketplace-utils-66.0.0rc5.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/e7/ed/44d312fe4025cfb1554c795e78daef51ba16c28123e094e949ec8bd36f3c/pulumi_onelogin-0.7.0a1715338486.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/0f/80/5f2c61ee8ad8e81008570a8ef30be5e5be646db303bf22bb132c3d09bc75/weasel-0.4.0.tar.gz
+[2024-05-15 10:53:55] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/0d/94/f635bccfe540028ee563e4857433c40230a0246f91230437c0b978220695/general_navigation-0.2.1.tar.gz
+[2024-05-15 10:53:56] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/de/a9/9ab72e3b65abb472d77511a3f05af2570bc6879434dac47851bd841b5dde/xtn-tools-pro-1.0.0.0.9.tar.gz
+[2024-05-15 10:53:56] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/bb/2a/b67d05ced921440c2442cf7fe058c343dcaaa12a1d748c1fa915350b148f/ccs-digitalmarketplace-utils-66.0.0rc6.tar.gz
+[2024-05-15 10:53:56] INFO root fetch - processPackages [general-navigation]: executing diffoscope
+[2024-05-15 10:53:56] INFO root fetch - processPackages [general-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_navigation-0.2.0.tar.gz tmp/general_navigation-0.2.1.tar.gz --markdown 20240515/g/general-navigation/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-15 10:53:56] INFO root fetch - processPackages [weasel]: executing diffoscope
+[2024-05-15 10:53:56] INFO root fetch - processPackages [weasel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasel-0.3.4.tar.gz tmp/weasel-0.4.0.tar.gz --markdown 20240515/w/weasel/0.3.4-0.4.0/README.md --exclude *.pyd
+[2024-05-15 10:53:56] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/dc/d0/1d2e7ab3197b3257b45f430542175598a8591d5156dd83d9cc147ab92549/pulumi_onelogin-0.7.0a1715762143.tar.gz
+[2024-05-15 10:53:56] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-15 10:53:56] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.0.8.tar.gz tmp/xtn-tools-pro-1.0.0.0.9.tar.gz --markdown 20240515/x/xtn-tools-pro/1.0.0.0.8-1.0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:53:56] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-05-15 10:53:56] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-05-15 10:53:56] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-66.0.0rc5.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc6.tar.gz --markdown 20240515/c/ccs-digitalmarketplace-utils/66.0.0rc5-66.0.0rc6/README.md --exclude *.pyd
+[2024-05-15 10:53:56] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-15 10:53:56] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1715338486.tar.gz tmp/pulumi_onelogin-0.7.0a1715762143.tar.gz --markdown 20240515/p/pulumi-onelogin/0.7.0a1715338486-0.7.0a1715762143/README.md --exclude *.pyd
+[2024-05-15 10:53:56] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-05-15 10:53:56] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240515/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-05-15 10:53:56] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.8.tar.gz]
+[2024-05-15 10:53:56] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.9.tar.gz]
+[2024-05-15 10:53:56] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-15 10:53:56] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.3.4.tar.gz]
+[2024-05-15 10:53:56] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.4.0.tar.gz]
+[2024-05-15 10:53:56] INFO root fetch - main [MainThread]: End processing [weasel]: success
+[2024-05-15 10:53:56] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc5.tar.gz]
+[2024-05-15 10:53:56] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc6.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-05-15 10:53:57] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-05-15 10:53:57] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715338486.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715762143.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-15 10:53:57] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.2.0.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.2.1.tar.gz]
+[2024-05-15 10:53:57] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
+[2024-05-15 10:53:57] INFO root fetch - main [MainThread]: Store serial: [23215090]
