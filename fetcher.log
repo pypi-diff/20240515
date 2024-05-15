@@ -7850,3 +7850,45 @@
 [2024-05-15 04:04:42] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.1.5.tar.gz]
 [2024-05-15 04:04:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
 [2024-05-15 04:04:42] INFO root fetch - main [MainThread]: Store serial: [23211611]
+[2024-05-15 04:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211611]
+[2024-05-15 04:06:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 04:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-cs20151215
+[2024-05-15 04:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ccc20200701
+[2024-05-15 04:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-das20200116
+[2024-05-15 04:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: general-calculator-zsd
+[2024-05-15 04:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyVRL
+[2024-05-15 04:06:54] INFO root fetch - processPackages [alibabacloud-ccc20200701]: New version: [2.7.0] Old Version: [2.4.1]
+[2024-05-15 04:06:54] WARNING root fetch - processPackages [pyVRL]: Skipping, unable to determine old version
+[2024-05-15 04:06:54] INFO root fetch - main [MainThread]: End processing [pyVRL] error
+[2024-05-15 04:06:54] INFO root fetch - processPackages [alibabacloud-cs20151215]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-15 04:06:54] INFO root fetch - processPackages [general-calculator-zsd]: New version: [1.4.8.9] Old Version: [1.4.8.8]
+[2024-05-15 04:06:54] INFO root fetch - processPackages [alibabacloud-das20200116]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-15 04:06:54] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/74/f3/4a27ffb49ff6106c1e90417aba0122ab5b2e7cbd09d5792aad2455cda0db/alibabacloud_ccc20200701-2.4.1.tar.gz
+[2024-05-15 04:06:54] INFO root fetch - processPackages [alibabacloud-das20200116]: Downloading https://files.pythonhosted.org/packages/17/30/a03f241f9ebf10d3fa1e2e27efca33b728346ae07b095929f97d0246f169/alibabacloud_das20200116-2.4.0.tar.gz
+[2024-05-15 04:06:54] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/f8/e8/1c6aa3fc0d666045a61d9269ea5c470a265ace39b4ef90fdfdade095bf44/general_calculator_zsd-1.4.8.8.tar.gz
+[2024-05-15 04:06:54] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/eb/ed/c226dc42752264371c5ab574560605813891aef845e07872533d0d8e91bb/alibabacloud_cs20151215-4.0.8.tar.gz
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/d0/25/a7584571fb4acbdaac5a90572964a34eb31d1acc949e36c93c2bcc253d3c/alibabacloud_ccc20200701-2.7.0.tar.gz
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-das20200116]: Downloading https://files.pythonhosted.org/packages/88/cf/57e1c7904e3818b4a75d593e12d743aec2a8259af72f3183194a254ebc77/alibabacloud_das20200116-2.4.1.tar.gz
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/18/17/962ed54f8c3f981b60f0763e4be8b26959ffa5e2a576cb1494d8afef646c/alibabacloud_cs20151215-4.0.9.tar.gz
+[2024-05-15 04:06:55] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/94/c1/2f2f03de4cf155491cef473872bacbae0754f9d6ef886395e61987f0acac/general_calculator_zsd-1.4.8.9.tar.gz
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-ccc20200701]: executing diffoscope
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-ccc20200701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701-2.4.1.tar.gz tmp/alibabacloud_ccc20200701-2.7.0.tar.gz --markdown 20240515/a/alibabacloud-ccc20200701/2.4.1-2.7.0/README.md --exclude *.pyd
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-das20200116]: executing diffoscope
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-das20200116]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_das20200116-2.4.0.tar.gz tmp/alibabacloud_das20200116-2.4.1.tar.gz --markdown 20240515/a/alibabacloud-das20200116/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-cs20151215]: executing diffoscope
+[2024-05-15 04:06:55] INFO root fetch - processPackages [alibabacloud-cs20151215]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cs20151215-4.0.8.tar.gz tmp/alibabacloud_cs20151215-4.0.9.tar.gz --markdown 20240515/a/alibabacloud-cs20151215/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-15 04:06:55] INFO root fetch - processPackages [general-calculator-zsd]: executing diffoscope
+[2024-05-15 04:06:55] INFO root fetch - processPackages [general-calculator-zsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_calculator_zsd-1.4.8.8.tar.gz tmp/general_calculator_zsd-1.4.8.9.tar.gz --markdown 20240515/g/general-calculator-zsd/1.4.8.8-1.4.8.9/README.md --exclude *.pyd
+[2024-05-15 04:06:55] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.4.8.8.tar.gz]
+[2024-05-15 04:06:55] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.4.8.9.tar.gz]
+[2024-05-15 04:06:55] INFO root fetch - main [MainThread]: End processing [general-calculator-zsd]: success
+[2024-05-15 04:06:56] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-4.0.8.tar.gz]
+[2024-05-15 04:06:56] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-4.0.9.tar.gz]
+[2024-05-15 04:06:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-cs20151215]: success
+[2024-05-15 04:06:57] INFO root fetch - processPackages [alibabacloud-das20200116]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_das20200116-2.4.0.tar.gz]
+[2024-05-15 04:06:57] INFO root fetch - processPackages [alibabacloud-das20200116]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_das20200116-2.4.1.tar.gz]
+[2024-05-15 04:06:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-das20200116]: success
+[2024-05-15 04:06:57] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.4.1.tar.gz]
+[2024-05-15 04:06:57] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.7.0.tar.gz]
+[2024-05-15 04:06:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
+[2024-05-15 04:06:57] INFO root fetch - main [MainThread]: Store serial: [23211628]
