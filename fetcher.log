@@ -14884,3 +14884,87 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:09:39] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.1.1.tar.gz]
 [2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
 [2024-05-15 10:09:39] INFO root fetch - main [MainThread]: Store serial: [23214594]
+[2024-05-15 10:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214594]
+[2024-05-15 10:11:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ETH-GTD-cli
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtn-tools-pro
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ImageDimensionCheck
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypcd4
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tgqSim
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prompeteer
+[2024-05-15 10:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2024-05-15 10:11:49] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.0.7] Old Version: [1.0.0.0.6]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [prompeteer]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ImageDimensionCheck]: New version: [1.1] Old Version: [1.0]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post501] Old Version: [3.1.0.post500]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post501] Old Version: [3.1.0.post500]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post501] Old Version: [3.1.0.post500]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [pypcd4]: New version: [1.0.1.dev0] Old Version: [0.4.9]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [tgqSim]: New version: [0.2.6] Old Version: [0.1.9]
+[2024-05-15 10:11:49] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/4c/e9/1a4cee9fb968a54e1300d56d030974b3db333e53eb55cb1f594c674f3cd9/prompeteer-0.1.9.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/da/e0/927e8d16b248d014ce6e67f0aa1f3dd987545c37da53d797b16f76fc5286/xtn-tools-pro-1.0.0.0.6.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/a0/67/e068e8cf2661e84cb4908aa0c9250abdbdbd1e438adc1ba2dd6bb568b959/nucliadb_dataset-3.1.0.post500-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/23/31/3a6dfb8cc307742d5a63f8db6795da83dc10512d572b4a8dfdf5621c7275/nucliadb_models-3.1.0.post500-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/96/a4/15ef88ff352872c71498c8cbc030dd5ef403c50117fab2e5da590922ae3e/ImageDimensionCheck-1.0-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b4/af/83e5e3de31e023d6f7514b8d5482de33ef15f9a01cc04aa0271e1d95e079/nucliadb-3.1.0.post500-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/fa/bf/f37225e39cf80233dda242202230d3aa7858202e0130177c173dff3cccac/eth_gtd_cli-0.0.5.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [pypcd4]: Downloading https://files.pythonhosted.org/packages/c7/b3/30daefc6d71b5695dae9433a88d4bc5d7b239d30c114ec1cff1a1c5bfd17/pypcd4-0.4.9.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/e0/0c/6cdec0e0d272ed3feb99c07fc7b54982d54759ba43541fe9d7cde1642b52/tgqSim-0.1.9.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/20/3a/b549968353bbea01eb5c0593f437f7f097e8b6aab274d9f57e5980d4a3bd/xtn-tools-pro-1.0.0.0.7.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/d4/a0/5f56c1016e0ead56d8225957e5793be204cb6d78b014f9644c9dba8c4ff8/prompeteer-0.2.0.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-15 10:11:49] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.0.6.tar.gz tmp/xtn-tools-pro-1.0.0.0.7.tar.gz --markdown 20240515/x/xtn-tools-pro/1.0.0.0.6-1.0.0.0.7/README.md --exclude *.pyd
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/79/ce/ea054537d3759e9294785636347f1005f9ddd775cb8f80a002db04203195/nucliadb_dataset-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/0a/8d/63e6119310b72653f99c5644ecd51b0cf0243db7c74056204e67f913b717/ImageDimensionCheck-1.1-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 10:11:49] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.9.tar.gz tmp/prompeteer-0.2.0.tar.gz --markdown 20240515/p/prompeteer/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/42/66/346f4bb17a26067cccb288f1cdfc23552c2a8c4020359d5e09bf331ca79a/nucliadb_models-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/6a/74/b21a71d538176d49ec154051347ee067a9f4c12f713be212c60f0982d748/eth_gtd_cli-0.0.6.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ImageDimensionCheck]: executing diffoscope
+[2024-05-15 10:11:49] INFO root fetch - processPackages [ImageDimensionCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageDimensionCheck-1.0-py3-none-any.whl.zip tmp/ImageDimensionCheck-1.1-py3-none-any.whl.zip --markdown 20240515/I/ImageDimensionCheck/1.0-1.1/README.md --exclude *.pyd
+[2024-05-15 10:11:49] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/84/d4/8fb7cec4c82deba8a79ef1a5978827549e7d42b8004619b0e781591f6c1f/tgqSim-0.2.6.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-15 10:11:49] INFO root fetch - processPackages [pypcd4]: Downloading https://files.pythonhosted.org/packages/d0/d3/ecca1acd6d8b1877d6a0c7a6c527bb5fb7dba7d807356be2b1c0f1161576/pypcd4-1.0.1.dev0.tar.gz
+[2024-05-15 10:11:49] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post500-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post501-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-dataset/3.1.0.post500-3.1.0.post501/README.md --exclude *.pyd
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post500-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post501-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-models/3.1.0.post500-3.1.0.post501/README.md --exclude *.pyd
+[2024-05-15 10:11:50] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-15 10:11:50] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.5.tar.gz tmp/eth_gtd_cli-0.0.6.tar.gz --markdown 20240515/E/ETH-GTD-cli/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/18/bd/e6f0ce7a856b34cdf9c51b19da590a61d19e77f3b8b95cf6d4e386eeb17e/nucliadb-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:11:50] INFO root fetch - processPackages [pypcd4]: executing diffoscope
+[2024-05-15 10:11:50] INFO root fetch - processPackages [pypcd4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcd4-0.4.9.tar.gz tmp/pypcd4-1.0.1.dev0.tar.gz --markdown 20240515/p/pypcd4/0.4.9-1.0.1.dev0/README.md --exclude *.pyd
+[2024-05-15 10:11:50] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-15 10:11:50] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.9.tar.gz tmp/tgqSim-0.2.6.tar.gz --markdown 20240515/t/tgqSim/0.1.9-0.2.6/README.md --exclude *.pyd
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post500-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post501-py3-none-any.whl.zip --markdown 20240515/n/nucliadb/3.1.0.post500-3.1.0.post501/README.md --exclude *.pyd
+[2024-05-15 10:11:50] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.6.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.7.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-15 10:11:50] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.0-py3-none-any.whl.zip]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.1-py3-none-any.whl.zip]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [ImageDimensionCheck]: success
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post500-py3-none-any.whl.zip]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-15 10:11:50] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.9.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.2.0.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 10:11:50] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.5.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.6.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post500-py3-none-any.whl.zip]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-15 10:11:50] INFO root fetch - processPackages [pypcd4]: Remove: archive file [/home/abi/fetcher/tmp/pypcd4-0.4.9.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - processPackages [pypcd4]: Remove: archive file [/home/abi/fetcher/tmp/pypcd4-1.0.1.dev0.tar.gz]
+[2024-05-15 10:11:50] INFO root fetch - main [MainThread]: End processing [pypcd4]: success
+[2024-05-15 10:11:51] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.9.tar.gz]
+[2024-05-15 10:11:51] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.2.6.tar.gz]
+[2024-05-15 10:11:51] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-15 10:11:52] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post500-py3-none-any.whl.zip]
+[2024-05-15 10:11:52] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:11:52] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-15 10:11:52] INFO root fetch - main [MainThread]: Store serial: [23214618]
