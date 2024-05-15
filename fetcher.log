@@ -13331,3 +13331,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:09:08] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-15 09:09:08] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-15 09:09:08] INFO root fetch - main [MainThread]: Store serial: [23213910]
+[2024-05-15 09:11:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213910]
+[2024-05-15 09:11:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymrm
+[2024-05-15 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-external
+[2024-05-15 09:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-15 09:11:18] INFO root fetch - processPackages [cvprocessor]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-15 09:11:18] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/32/cd/2b1f66ded51b8b8c09ea657cac9b280a3abd3b8cbf2cb4e42062d6947351/cvprocessor-0.6.0.tar.gz
+[2024-05-15 09:11:18] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1715756124] Old Version: [0.1.0a1715336687]
+[2024-05-15 09:11:18] INFO root fetch - processPackages [pymrm]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-15 09:11:18] INFO root fetch - processPackages [pymrm]: Downloading https://files.pythonhosted.org/packages/4a/27/ea8f763322a7182d81e33328db3fc41d15cfaef4d12ba4a64fdfcc3ed931/pymrm-1.3.4.tar.gz
+[2024-05-15 09:11:18] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/79/87/05cd6b96d42d5d7b4ec9a6e947b15e79c97462aa8c6a97567218b28d4d5e/pulumi_external-0.1.0a1715336687.tar.gz
+[2024-05-15 09:11:18] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/92/26/dcb436203203770abc773bd3965845eea6dce86b51be240a48777aa62adf/cvprocessor-0.6.1.tar.gz
+[2024-05-15 09:11:18] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 09:11:18] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.6.0.tar.gz tmp/cvprocessor-0.6.1.tar.gz --markdown 20240515/c/cvprocessor/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-15 09:11:18] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/ef/a0/08dd402dad2602b2d92b30da48fb3aeca1cb902bd3f7bca042c549e2c8bf/pulumi_external-0.1.0a1715756124.tar.gz
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1715336687.tar.gz tmp/pulumi_external-0.1.0a1715756124.tar.gz --markdown 20240515/p/pulumi-external/0.1.0a1715336687-0.1.0a1715756124/README.md --exclude *.pyd
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pymrm]: Downloading https://files.pythonhosted.org/packages/4c/05/e69741d687fed6b757401d029fccbe367c65c42b89e6a112fdac6f4b5300/pymrm-1.3.5.tar.gz
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pymrm]: executing diffoscope
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pymrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymrm-1.3.4.tar.gz tmp/pymrm-1.3.5.tar.gz --markdown 20240515/p/pymrm/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-15 09:11:19] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.0.tar.gz]
+[2024-05-15 09:11:19] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.1.tar.gz]
+[2024-05-15 09:11:19] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715336687.tar.gz]
+[2024-05-15 09:11:19] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715756124.tar.gz]
+[2024-05-15 09:11:19] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-15 09:11:20] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.4.tar.gz]
+[2024-05-15 09:11:20] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.5.tar.gz]
+[2024-05-15 09:11:20] INFO root fetch - main [MainThread]: End processing [pymrm]: success
+[2024-05-15 09:11:20] INFO root fetch - main [MainThread]: Store serial: [23213915]
