@@ -3143,3 +3143,33 @@
 [2024-05-15 02:30:18] INFO root fetch - processPackages [streamdal-protos]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-protos-0.1.9.tar.gz]
 [2024-05-15 02:30:18] INFO root fetch - main [MainThread]: End processing [streamdal-protos]: success
 [2024-05-15 02:30:18] INFO root fetch - main [MainThread]: Store serial: [23209990]
+[2024-05-15 02:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209990]
+[2024-05-15 02:32:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docugami-langchain
+[2024-05-15 02:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-05-15 02:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Python-Education-Tools
+[2024-05-15 02:32:27] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.9rc6] Old Version: [0.0.9rc5]
+[2024-05-15 02:32:27] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240514] Old Version: [0.1.5.dev20240513]
+[2024-05-15 02:32:27] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/65/ce/042d3ab22b6bdc42f2da8b584ffdfea8f9b53fa770f3c6c6a73cff9aa232/docugami_langchain-0.0.9rc5.tar.gz
+[2024-05-15 02:32:27] INFO root fetch - processPackages [Python-Education-Tools]: New version: [24.5.8] Old Version: [24.5.3]
+[2024-05-15 02:32:27] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/db/93/b2fcaa603a696d276e16e41f749f7dbacec2fe1554cf71aa0bad2b1c34c9/aeppl_nightly-0.1.5.dev20240513.tar.gz
+[2024-05-15 02:32:27] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/ec/7d/7fad5e1c1d01bdfb140c30b35b0db72f1c70642002c0ed8c8f67d5922957/docugami_langchain-0.0.9rc6.tar.gz
+[2024-05-15 02:32:27] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/f9/94/1a054bf5a1f5c7c4dcc779cd3e6a2beb54a735ddc01c6ea4684e814c46ba/Python_Education_Tools-24.5.3-py3-none-any.whl
+[2024-05-15 02:32:27] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-05-15 02:32:27] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.9rc5.tar.gz tmp/docugami_langchain-0.0.9rc6.tar.gz --markdown 20240515/d/docugami-langchain/0.0.9rc5-0.0.9rc6/README.md --exclude *.pyd
+[2024-05-15 02:32:27] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/15/ef/e5d534e74aa16eee8be9238374f434ecaf99ba047ef98a8f9f7c819c2caf/aeppl_nightly-0.1.5.dev20240514.tar.gz
+[2024-05-15 02:32:28] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-15 02:32:28] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240513.tar.gz tmp/aeppl_nightly-0.1.5.dev20240514.tar.gz --markdown 20240515/a/aeppl-nightly/0.1.5.dev20240513-0.1.5.dev20240514/README.md --exclude *.pyd
+[2024-05-15 02:32:28] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc5.tar.gz]
+[2024-05-15 02:32:28] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc6.tar.gz]
+[2024-05-15 02:32:28] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-05-15 02:32:28] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240513.tar.gz]
+[2024-05-15 02:32:28] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240514.tar.gz]
+[2024-05-15 02:32:28] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-15 02:32:29] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/42/3c/1f2f6573ad9661f267e29c6b9dc46f6e0c80fa8555e8c52475fb718fd47d/Python_Education_Tools-24.5.8-py3-none-any.whl
+[2024-05-15 02:32:29] INFO root fetch - processPackages [Python-Education-Tools]: executing diffoscope
+[2024-05-15 02:32:29] INFO root fetch - processPackages [Python-Education-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip --markdown 20240515/P/Python-Education-Tools/24.5.3-24.5.8/README.md --exclude *.pyd
+[2024-05-15 02:32:30] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip]
+[2024-05-15 02:32:30] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
+[2024-05-15 02:32:30] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
+[2024-05-15 02:32:30] INFO root fetch - main [MainThread]: Store serial: [23209998]
