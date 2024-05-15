@@ -18652,3 +18652,54 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:18:15] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.0.0.tar.gz]
 [2024-05-15 12:18:15] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
 [2024-05-15 12:18:15] INFO root fetch - main [MainThread]: Store serial: [23216346]
+[2024-05-15 12:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216346]
+[2024-05-15 12:20:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 12:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-prep-toolkit-kfp
+[2024-05-15 12:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fepydas
+[2024-05-15 12:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmat-tools
+[2024-05-15 12:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Fr1997v011
+[2024-05-15 12:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qgis-plugin-manager
+[2024-05-15 12:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: init-flask
+[2024-05-15 12:20:23] INFO root fetch - processPackages [fepydas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 12:20:24] INFO root fetch - processPackages [kmat-tools]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-15 12:20:24] INFO root fetch - processPackages [kmat-tools]: Downloading https://files.pythonhosted.org/packages/01/d2/43fb8735d659fb67e1aacb50144e6f6ab38ad4fc7945ebf66f275de41975/kmat_tools-0.0.6.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-15 12:20:24] INFO root fetch - processPackages [qgis-plugin-manager]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-15 12:20:24] WARNING root fetch - processPackages [init-flask]: Skipping, unable to determine old version
+[2024-05-15 12:20:24] INFO root fetch - main [MainThread]: End processing [init-flask] error
+[2024-05-15 12:20:24] INFO root fetch - processPackages [Fr1997v011]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-15 12:20:24] INFO root fetch - processPackages [fepydas]: Downloading https://files.pythonhosted.org/packages/67/aa/5455fa612630af617db49fd2cf93771b99a09bdad9eb568c0c0fa236274d/fepydas-0.0.8-py3-none-any.whl
+[2024-05-15 12:20:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/77/32/e1870ff2cf3cfa8aa67341ed691e5828aa67e0420b4dad5cc2db29038c25/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [qgis-plugin-manager]: Downloading https://files.pythonhosted.org/packages/3b/e9/035f91d0b0b541996393cc827db8f5997d72f7f982bfebed4870a094ae1a/qgis-plugin-manager-1.6.2.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/ac/ce/2ceb746d5681dd87bcd52db83a02dd30d55cc2a42288c0ade3348e12431c/Fr1997v011-1.5.3.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [kmat-tools]: Downloading https://files.pythonhosted.org/packages/62/ee/225d6d5c7b8a2ae8f6223d79c093ea4657236161f82eb276430891d4ae4e/kmat_tools-0.0.9.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [fepydas]: Downloading https://files.pythonhosted.org/packages/e6/ad/e21a21306ef0aca1779c67976c3e9bfd4af16955a95f448bb0c2ee4b32aa/fepydas-0.0.9.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [kmat-tools]: executing diffoscope
+[2024-05-15 12:20:24] INFO root fetch - processPackages [kmat-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmat_tools-0.0.6.tar.gz tmp/kmat_tools-0.0.9.tar.gz --markdown 20240515/k/kmat-tools/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-15 12:20:24] INFO root fetch - processPackages [qgis-plugin-manager]: Downloading https://files.pythonhosted.org/packages/6a/4e/a6cf46ad4cb25e89f9b17cd5b240d838262b5ef10d2fc533d1aeca15996b/qgis-plugin-manager-1.6.3.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-15 12:20:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz --markdown 20240515/d/data-prep-toolkit-kfp/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-15 12:20:24] INFO root fetch - processPackages [fepydas]: executing diffoscope
+[2024-05-15 12:20:24] INFO root fetch - processPackages [fepydas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fepydas-0.0.8-py3-none-any.whl.zip tmp/fepydas-0.0.9.tar.gz --markdown 20240515/f/fepydas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 12:20:24] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/dc/88/88f569828e7f0e0e81a20cf0f79b5abdec7a9913baa8481677133ff66194/Fr1997v011-1.5.4.tar.gz
+[2024-05-15 12:20:24] INFO root fetch - processPackages [qgis-plugin-manager]: executing diffoscope
+[2024-05-15 12:20:24] INFO root fetch - processPackages [qgis-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-plugin-manager-1.6.2.tar.gz tmp/qgis-plugin-manager-1.6.3.tar.gz --markdown 20240515/q/qgis-plugin-manager/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-15 12:20:24] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-15 12:20:24] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.5.3.tar.gz tmp/Fr1997v011-1.5.4.tar.gz --markdown 20240515/F/Fr1997v011/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-15 12:20:25] INFO root fetch - processPackages [fepydas]: Remove: archive file [/home/abi/fetcher/tmp/fepydas-0.0.8-py3-none-any.whl.zip]
+[2024-05-15 12:20:25] INFO root fetch - processPackages [fepydas]: Remove: archive file [/home/abi/fetcher/tmp/fepydas-0.0.9.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - main [MainThread]: End processing [fepydas]: success
+[2024-05-15 12:20:25] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-15 12:20:25] INFO root fetch - processPackages [qgis-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-manager-1.6.2.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - processPackages [qgis-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-manager-1.6.3.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - main [MainThread]: End processing [qgis-plugin-manager]: success
+[2024-05-15 12:20:25] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.5.3.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.5.4.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-15 12:20:25] INFO root fetch - processPackages [kmat-tools]: Remove: archive file [/home/abi/fetcher/tmp/kmat_tools-0.0.6.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - processPackages [kmat-tools]: Remove: archive file [/home/abi/fetcher/tmp/kmat_tools-0.0.9.tar.gz]
+[2024-05-15 12:20:25] INFO root fetch - main [MainThread]: End processing [kmat-tools]: success
+[2024-05-15 12:20:25] INFO root fetch - main [MainThread]: Store serial: [23216362]
