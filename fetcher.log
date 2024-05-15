@@ -14361,3 +14361,102 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:52:05] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715758278.tar.gz]
 [2024-05-15 09:52:05] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
 [2024-05-15 09:52:05] INFO root fetch - main [MainThread]: Store serial: [23214346]
+[2024-05-15 09:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214346]
+[2024-05-15 09:54:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencvv
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kilmlogger
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-paginate
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utils-nuuuwan
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ensure-packages
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ign-borea
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rocksdict
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kong
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prompeteer
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dycw-utilities
+[2024-05-15 09:54:14] WARNING root fetch - processPackages [ign-borea]: Skipping, unable to determine old version
+[2024-05-15 09:54:14] INFO root fetch - processPackages [prompeteer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ign-borea]: Start processing: JsonsPract
+[2024-05-15 09:54:14] INFO root fetch - main [MainThread]: End processing [ign-borea] error
+[2024-05-15 09:54:14] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [JsonsPract]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [python-paginate]: New version: [2024.5.15] Old Version: [2024.4.19]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [kilmlogger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [opencvv]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 09:54:14] WARNING root fetch - processPackages [ensure-packages]: Skipping, unable to determine old version
+[2024-05-15 09:54:14] INFO root fetch - processPackages [ensure-packages]: Start processing: python-trading212-alinalihassan
+[2024-05-15 09:54:14] INFO root fetch - main [MainThread]: End processing [ensure-packages] error
+[2024-05-15 09:54:14] INFO root fetch - processPackages [utils-nuuuwan]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1715758468] Old Version: [4.6.0a1715337461]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [rocksdict]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/e5/08/61d835e0394a83d1f9081282fe301710241d4a6327944783b414174f88c2/prompeteer-0.1.8.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [JsonsPract]: Downloading https://files.pythonhosted.org/packages/c1/dc/a2f019044af2200896a90d7f66d9a30553a50e42b9a6bb2aaa39feb24b16/JsonsPract-0.0.2.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [python-trading212-alinalihassan]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-15 09:54:14] INFO root fetch - processPackages [python-paginate]: Downloading https://files.pythonhosted.org/packages/6c/04/282e285e187fd2de9bdfa6796b0f56fb9834d136cc9ee657d736c8b4abe2/python_paginate-2024.4.19.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/c2/d3/02d583711bd244538f5576dc61859e71ff9ba4faa947cdf90fbd3f69d8ec/kilmlogger-0.0.8.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [opencvv]: Downloading https://files.pythonhosted.org/packages/a1/a0/d6dc16f5f182dbcdf46b6658fa59dbf68e6a9149cf17f2ac211c3eab0ad0/opencvv-0.1.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [utils-nuuuwan]: Downloading https://files.pythonhosted.org/packages/cf/3f/7b47edfda9d8f2a494176c041491323300c838e41bf34a3894bb58fcab01/utils-nuuuwan-2.0.8.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/a2/1e/d62b3d6c8318ae0f3613f51e00a99ceb29a9a33187511a5bf03e40c8c84e/pulumi_kong-4.6.0a1715337461.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [rocksdict]: Downloading https://files.pythonhosted.org/packages/01/c2/eeba179cdbdd2715588bed5fac4bd6422da9b03fd039e650655f193b4b33/rocksdict-0.3.8-cp39-none-win_amd64.whl
+[2024-05-15 09:54:14] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/4c/e9/1a4cee9fb968a54e1300d56d030974b3db333e53eb55cb1f594c674f3cd9/prompeteer-0.1.9.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [python-trading212-alinalihassan]: Downloading https://files.pythonhosted.org/packages/99/61/af4ce1e558a7a5f9f8f2e3e5cfb6eae004af7388fbcb3e8085e24de18f92/python_trading212_alinalihassan-2.0.4.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [JsonsPract]: Downloading https://files.pythonhosted.org/packages/01/b8/71eb3b1b5e5d9a1f07652c07c6421db9e10ceedb55eaf44f4cb0c355db0e/JsonsPract-0.0.3.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-15 09:54:14] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240515/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-15 09:54:14] INFO root fetch - processPackages [python-paginate]: Downloading https://files.pythonhosted.org/packages/50/5f/39fb0c88a6b642e794c4eef58eca914b9b6dfe65644d6995a39dc58b7caf/python_paginate-2024.5.15.tar.gz
+[2024-05-15 09:54:14] INFO root fetch - processPackages [JsonsPract]: executing diffoscope
+[2024-05-15 09:54:14] INFO root fetch - processPackages [JsonsPract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonsPract-0.0.2.tar.gz tmp/JsonsPract-0.0.3.tar.gz --markdown 20240515/J/JsonsPract/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 09:54:14] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 09:54:14] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.8.tar.gz tmp/prompeteer-0.1.9.tar.gz --markdown 20240515/p/prompeteer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/81/61/c6e2ccb23089fad8ec80bbd9e825578f4726f3dd9244183ce10dc6e224a1/kilmlogger-0.0.9.tar.gz
+[2024-05-15 09:54:15] INFO root fetch - processPackages [opencvv]: Downloading https://files.pythonhosted.org/packages/e4/31/b39c28221dbdfa4a0c43b2854fe7a6d6d937154f9f6cbee59d7517ea24c4/opencvv-0.2.tar.gz
+[2024-05-15 09:54:15] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/f6/d2/b6fbb0b97f2487146dc270d89c52a67f266caf53b5c3512e21791a76314f/pulumi_kong-4.6.0a1715758468.tar.gz
+[2024-05-15 09:54:15] INFO root fetch - processPackages [utils-nuuuwan]: Downloading https://files.pythonhosted.org/packages/6c/9f/749ec55e291a5d9977a7b14bcc18358cf51dae3cd2a2bf64f02982c86138/utils-nuuuwan-2.0.9.tar.gz
+[2024-05-15 09:54:15] INFO root fetch - processPackages [python-paginate]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [python-paginate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_paginate-2024.4.19.tar.gz tmp/python_paginate-2024.5.15.tar.gz --markdown 20240515/p/python-paginate/2024.4.19-2024.5.15/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [kilmlogger]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [kilmlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilmlogger-0.0.8.tar.gz tmp/kilmlogger-0.0.9.tar.gz --markdown 20240515/k/kilmlogger/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [opencvv]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [opencvv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencvv-0.1.tar.gz tmp/opencvv-0.2.tar.gz --markdown 20240515/o/opencvv/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [python-trading212-alinalihassan]: Downloading https://files.pythonhosted.org/packages/93/0c/aaa44d4bde38284541c877f0df135211a5c07653a29caa9885c6a2850d73/python_trading212_alinalihassan-2.0.5.tar.gz
+[2024-05-15 09:54:15] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1715337461.tar.gz tmp/pulumi_kong-4.6.0a1715758468.tar.gz --markdown 20240515/p/pulumi-kong/4.6.0a1715337461-4.6.0a1715758468/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [utils-nuuuwan]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [utils-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils-nuuuwan-2.0.8.tar.gz tmp/utils-nuuuwan-2.0.9.tar.gz --markdown 20240515/u/utils-nuuuwan/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [rocksdict]: Downloading https://files.pythonhosted.org/packages/e8/d7/7426579e89b1acfb373defdc6de2392d6f433d314f88a11bf83e407ffe44/rocksdict-0.3.9-cp39-none-win_amd64.whl
+[2024-05-15 09:54:15] INFO root fetch - processPackages [python-trading212-alinalihassan]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [python-trading212-alinalihassan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_trading212_alinalihassan-2.0.4.tar.gz tmp/python_trading212_alinalihassan-2.0.5.tar.gz --markdown 20240515/p/python-trading212-alinalihassan/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [rocksdict]: executing diffoscope
+[2024-05-15 09:54:15] INFO root fetch - processPackages [rocksdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocksdict-0.3.8-cp39-none-win_amd64.whl.zip tmp/rocksdict-0.3.9-cp39-none-win_amd64.whl.zip --markdown 20240515/r/rocksdict/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 09:54:15] INFO root fetch - processPackages [JsonsPract]: Remove: archive file [/home/abi/fetcher/tmp/JsonsPract-0.0.2.tar.gz]
+[2024-05-15 09:54:15] INFO root fetch - processPackages [JsonsPract]: Remove: archive file [/home/abi/fetcher/tmp/JsonsPract-0.0.3.tar.gz]
+[2024-05-15 09:54:15] INFO root fetch - main [MainThread]: End processing [JsonsPract]: success
+[2024-05-15 09:54:15] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.8.tar.gz]
+[2024-05-15 09:54:15] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.9.tar.gz]
+[2024-05-15 09:54:15] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [opencvv]: Remove: archive file [/home/abi/fetcher/tmp/opencvv-0.1.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [opencvv]: Remove: archive file [/home/abi/fetcher/tmp/opencvv-0.2.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [opencvv]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [python-paginate]: Remove: archive file [/home/abi/fetcher/tmp/python_paginate-2024.4.19.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [python-paginate]: Remove: archive file [/home/abi/fetcher/tmp/python_paginate-2024.5.15.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [python-paginate]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.8.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.9.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [kilmlogger]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [utils-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils-nuuuwan-2.0.8.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [utils-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils-nuuuwan-2.0.9.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [utils-nuuuwan]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715337461.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715758468.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [python-trading212-alinalihassan]: Remove: archive file [/home/abi/fetcher/tmp/python_trading212_alinalihassan-2.0.4.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [python-trading212-alinalihassan]: Remove: archive file [/home/abi/fetcher/tmp/python_trading212_alinalihassan-2.0.5.tar.gz]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [python-trading212-alinalihassan]: success
+[2024-05-15 09:54:16] INFO root fetch - processPackages [rocksdict]: Remove: archive file [/home/abi/fetcher/tmp/rocksdict-0.3.8-cp39-none-win_amd64.whl.zip]
+[2024-05-15 09:54:16] INFO root fetch - processPackages [rocksdict]: Remove: archive file [/home/abi/fetcher/tmp/rocksdict-0.3.9-cp39-none-win_amd64.whl.zip]
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: End processing [rocksdict]: success
+[2024-05-15 09:54:16] INFO root fetch - main [MainThread]: Store serial: [23214409]
