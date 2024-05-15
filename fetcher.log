@@ -10052,3 +10052,38 @@
 [2024-05-15 06:25:32] INFO root fetch - processPackages [clodoo]: Remove: archive file [/home/abi/fetcher/tmp/clodoo-2.0.9.tar.gz]
 [2024-05-15 06:25:32] INFO root fetch - main [MainThread]: End processing [clodoo]: success
 [2024-05-15 06:25:32] INFO root fetch - main [MainThread]: Store serial: [23212629]
+[2024-05-15 06:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212629]
+[2024-05-15 06:27:41] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-15 06:29:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212629]
+[2024-05-15 06:29:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 06:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vectara-skunk-client
+[2024-05-15 06:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BiblioDig
+[2024-05-15 06:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esphome
+[2024-05-15 06:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fazah
+[2024-05-15 06:29:46] INFO root fetch - processPackages [esphome]: New version: [2024.5.0b5] Old Version: [2024.5.0b4]
+[2024-05-15 06:29:47] WARNING root fetch - processPackages [BiblioDig]: Skipping, unable to determine old version
+[2024-05-15 06:29:47] INFO root fetch - main [MainThread]: End processing [BiblioDig] error
+[2024-05-15 06:29:47] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/00/f0/db312483f5b1547aa4a5216c340956b96a9906f878dd0e899b3186b78313/esphome-2024.5.0b4.tar.gz
+[2024-05-15 06:29:47] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 06:29:47] INFO root fetch - processPackages [fazah]: New version: [3.29] Old Version: [3.27]
+[2024-05-15 06:29:47] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/44/6a/3f99055e438423c216b1facaf114e87a2da8681a01a9809424abd1e41f28/vectara-skunk-client-0.4.8.tar.gz
+[2024-05-15 06:29:47] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/d8/ed/c30ee75029a0a8132bab0b99e74cb989eed230b0ede570913c965188be42/fazah-3.27.tar.gz
+[2024-05-15 06:29:47] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/d1/2a/c820a195e96630185ae00212388227f0fd66ba73dc31e3e4564a1151ee26/esphome-2024.5.0b5.tar.gz
+[2024-05-15 06:29:47] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-05-15 06:29:47] INFO root fetch - processPackages [fazah]: Downloading https://files.pythonhosted.org/packages/df/d5/9727f260a5d7a7bcbd6ba157c423120e907a052db00396aec8bbf08cf8f2/fazah-3.29.tar.gz
+[2024-05-15 06:29:47] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-05-15 06:29:47] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.8.tar.gz tmp/vectara-skunk-client-0.4.9.tar.gz --markdown 20240515/v/vectara-skunk-client/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 06:29:47] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-15 06:29:47] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.0b4.tar.gz tmp/esphome-2024.5.0b5.tar.gz --markdown 20240515/e/esphome/2024.5.0b4-2024.5.0b5/README.md --exclude *.pyd
+[2024-05-15 06:29:48] INFO root fetch - processPackages [fazah]: executing diffoscope
+[2024-05-15 06:29:48] INFO root fetch - processPackages [fazah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazah-3.27.tar.gz tmp/fazah-3.29.tar.gz --markdown 20240515/f/fazah/3.27-3.29/README.md --exclude *.pyd
+[2024-05-15 06:29:48] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.8.tar.gz]
+[2024-05-15 06:29:48] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-05-15 06:29:48] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-05-15 06:29:48] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.27.tar.gz]
+[2024-05-15 06:29:48] INFO root fetch - processPackages [fazah]: Remove: archive file [/home/abi/fetcher/tmp/fazah-3.29.tar.gz]
+[2024-05-15 06:29:48] INFO root fetch - main [MainThread]: End processing [fazah]: success
+[2024-05-15 06:30:00] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b4.tar.gz]
+[2024-05-15 06:30:00] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b5.tar.gz]
+[2024-05-15 06:30:00] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-15 06:30:00] INFO root fetch - main [MainThread]: Store serial: [23212645]
