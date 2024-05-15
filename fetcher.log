@@ -3561,3 +3561,45 @@
 [2024-05-15 03:01:14] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-15 03:01:14] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-15 03:01:14] INFO root fetch - main [MainThread]: Store serial: [23210146]
+[2024-05-15 03:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210146]
+[2024-05-15 03:03:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-15 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama_tools
+[2024-05-15 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdnmon
+[2024-05-15 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yatta-py
+[2024-05-15 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mass-composition
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cdnmon]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 03:03:23] INFO root fetch - processPackages [mass-composition]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 03:03:23] WARNING root fetch - processPackages [yatta-py]: Skipping, unable to determine old version
+[2024-05-15 03:03:23] INFO root fetch - main [MainThread]: End processing [yatta-py] error
+[2024-05-15 03:03:23] INFO root fetch - processPackages [llama_tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 03:03:23] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/ac/d8/a7a7fc02d215c0b82f15700da97b7dff1935b484e48f6f90564e9253daef/mass_composition-0.4.8.tar.gz
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/22/1c/f21768d030b6ac78adb20ba11e9ae2e19f8b35d0c212513f88ae2c9284cd/cdnmon-0.3.1.tar.gz
+[2024-05-15 03:03:23] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a8/55/43247b59a289e0459a611874224f09597a28f206ece4c888349b83d661bb/llama_tools-0.1.8.tar.gz
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 03:03:23] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4b/cd/caf2aa726cf95d02b127329aa5f4ada331061389c9565c8746f5f4bb1212/mass_composition-0.4.9.tar.gz
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 03:03:23] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-15 03:03:23] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.4.8.tar.gz tmp/mass_composition-0.4.9.tar.gz --markdown 20240515/m/mass-composition/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 03:03:23] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/b8/86/3212ff24cde1783b0922aeb78ecdfa9f0dfd81bd3bf7bfc676a61e501804/cdnmon-0.4.0.tar.gz
+[2024-05-15 03:03:24] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/b1/c0/71823f5e8c32246c13f14ee35afae675e0119488af8210d0d305c5d9dc5c/llama_tools-0.1.9.tar.gz
+[2024-05-15 03:03:24] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2024-05-15 03:03:24] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.3.1.tar.gz tmp/cdnmon-0.4.0.tar.gz --markdown 20240515/c/cdnmon/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-15 03:03:24] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-15 03:03:24] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.8.tar.gz tmp/llama_tools-0.1.9.tar.gz --markdown 20240515/l/llama_tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 03:03:24] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.3.1.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.4.0.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2024-05-15 03:03:24] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 03:03:24] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.8.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.9.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-15 03:03:24] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.8.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.9.tar.gz]
+[2024-05-15 03:03:24] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-15 03:03:24] INFO root fetch - main [MainThread]: Store serial: [23210163]
