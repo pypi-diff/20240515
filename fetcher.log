@@ -15115,3 +15115,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:16:15] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
 [2024-05-15 10:16:15] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
 [2024-05-15 10:16:15] INFO root fetch - main [MainThread]: Store serial: [23214688]
+[2024-05-15 10:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214688]
+[2024-05-15 10:18:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 10:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2024-05-15 10:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: l2m2
+[2024-05-15 10:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-data-provider
+[2024-05-15 10:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duwi-smart-sdk
+[2024-05-15 10:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crlfi
+[2024-05-15 10:18:24] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2024-05-15 10:18:24] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-15 10:18:24] WARNING root fetch - processPackages [duwi-smart-sdk]: Skipping, unable to determine old version
+[2024-05-15 10:18:24] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk] error
+[2024-05-15 10:18:24] INFO root fetch - processPackages [crlfi]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-15 10:18:24] INFO root fetch - processPackages [l2m2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:18:24] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/04/d7/430f42739e21677a2e07f138ba8b734840044be7943fd9ab041e36c1fab6/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz
+[2024-05-15 10:18:24] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-15 10:18:24] INFO root fetch - processPackages [crlfi]: Downloading https://files.pythonhosted.org/packages/71/a5/bcac8eaaf4113b7db01776a39d32edef4689ad8a9e5e3250a2881019f01f/crlfi-0.0.5.tar.gz
+[2024-05-15 10:18:24] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/7f/d9/56c6f685d611068059bd5a3578bbb0aad1b305b1842dc2c8904cc123b945/l2m2-0.0.8.tar.gz
+[2024-05-15 10:18:24] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/2a/a3/045f6fb25a9114a9febeb0a29222e49f4e0de65cfc6d87a1ba52585fec8d/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz
+[2024-05-15 10:18:24] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-15 10:18:25] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2024-05-15 10:18:25] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20240515/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/README.md --exclude *.pyd
+[2024-05-15 10:18:25] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-15 10:18:25] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240515/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-15 10:18:25] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/cc/a2/dbe134061914f7906a58b526cdf405e02c2a78096e5d90fc4eb5b326176c/l2m2-0.0.9.tar.gz
+[2024-05-15 10:18:25] INFO root fetch - processPackages [crlfi]: Downloading https://files.pythonhosted.org/packages/50/88/2965d47ea33bfd0d3841f55af094430e1a9ca53906d930d13f898f1e3dfb/crlfi-0.0.6.tar.gz
+[2024-05-15 10:18:25] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-05-15 10:18:25] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.8.tar.gz tmp/l2m2-0.0.9.tar.gz --markdown 20240515/l/l2m2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:18:25] INFO root fetch - processPackages [crlfi]: executing diffoscope
+[2024-05-15 10:18:25] INFO root fetch - processPackages [crlfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crlfi-0.0.5.tar.gz tmp/crlfi-0.0.6.tar.gz --markdown 20240515/c/crlfi/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-15 10:18:25] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-15 10:18:25] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2024-05-15 10:18:25] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.8.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.9.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-05-15 10:18:25] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.5.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - processPackages [crlfi]: Remove: archive file [/home/abi/fetcher/tmp/crlfi-0.0.6.tar.gz]
+[2024-05-15 10:18:25] INFO root fetch - main [MainThread]: End processing [crlfi]: success
+[2024-05-15 10:18:25] INFO root fetch - main [MainThread]: Store serial: [23214702]
