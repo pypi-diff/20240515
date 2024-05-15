@@ -21767,3 +21767,89 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:34:46] INFO root fetch - processPackages [qat]: Remove: archive file [/home/abi/fetcher/tmp/qat-1.1.0.tar.gz]
 [2024-05-15 14:34:46] INFO root fetch - main [MainThread]: End processing [qat]: success
 [2024-05-15 14:34:46] INFO root fetch - main [MainThread]: Store serial: [23217526]
+[2024-05-15 14:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217526]
+[2024-05-15 14:37:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvisjs
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wuji
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-docker
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ffre
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RNAlysis
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miraihttpapi
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skimpy
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask_cognito_lib
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unipress
+[2024-05-15 14:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynanovna
+[2024-05-15 14:37:14] INFO root fetch - processPackages [flask_cognito_lib]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [unipress]: New version: [1.3] Old Version: [1.1]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [unipress]: Downloading https://files.pythonhosted.org/packages/0d/a0/92ae298e9921f1a0bb54d9082f453747b9d347abacfb9d5800e8bd90c5e7/unipress-1.1.tar.gz
+[2024-05-15 14:37:14] WARNING root fetch - processPackages [miraihttpapi]: Skipping, unable to determine old version
+[2024-05-15 14:37:14] INFO root fetch - processPackages [miraihttpapi]: Start processing: b2sdk
+[2024-05-15 14:37:14] INFO root fetch - main [MainThread]: End processing [miraihttpapi] error
+[2024-05-15 14:37:14] INFO root fetch - processPackages [skimpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pynanovna]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-15 14:37:14] WARNING root fetch - processPackages [ffre]: Skipping, unable to determine old version
+[2024-05-15 14:37:14] INFO root fetch - main [MainThread]: End processing [ffre] error
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pulumi-docker]: New version: [4.7.0a1705628423] Old Version: [4.7.0a1705607229]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pyvisjs]: New version: [1.0.0b1] Old Version: [1.0.0a1]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [RNAlysis]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [flask_cognito_lib]: Downloading https://files.pythonhosted.org/packages/30/a4/f8a12f71f9ef0f77ee600ada720a32d1cd53aa4204fbb8eff6f5c339ebdd/flask_cognito_lib-1.6.1.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pynanovna]: Downloading https://files.pythonhosted.org/packages/39/9c/59e01f812d2ffe7eebe72c8fa07d3ee4be25680ec46ef24a4719d651498e/pynanovna-0.0.6.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [skimpy]: Downloading https://files.pythonhosted.org/packages/14/d9/6514275b715513665ba0f8f84ec81e5537c6ed66127ccb43bba9dcd193b9/skimpy-0.0.8.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [b2sdk]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/ad/b1/25bc902169c7e5a83123bae622c41d4788dc289466c80a9870091b0df38d/pyvisjs-1.0.0a1.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [RNAlysis]: Downloading https://files.pythonhosted.org/packages/69/e0/db2608b5a2e864fe0d9241a5e95cbd2141494a88611759931bc8226b490c/RNAlysis-3.9.1.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/60/4d/20db01394ae207e38e34244a087a77010c3163b5176d5ed60b9e938b94df/pulumi_docker-4.7.0a1705607229.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [unipress]: Downloading https://files.pythonhosted.org/packages/19/e8/5ba6732751c863af0be4dcaed3d5dc65496be0e7c6a7ef16e07f6ab01642/unipress-1.3.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-15 14:37:14] WARNING root fetch - processPackages [RNAlysis]: Skipping package: exceeds size limit 66398177>=10485760
+[2024-05-15 14:37:14] INFO root fetch - main [MainThread]: End processing [RNAlysis] error
+[2024-05-15 14:37:14] INFO root fetch - processPackages [unipress]: executing diffoscope
+[2024-05-15 14:37:14] INFO root fetch - processPackages [unipress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipress-1.1.tar.gz tmp/unipress-1.3.tar.gz --markdown 20240515/u/unipress/1.1-1.3/README.md --exclude *.pyd
+[2024-05-15 14:37:14] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/4d/86/493a4dfa458401bfd22944b9b3cc21d6722df5210cf0825fbc1c8210ebde/b2sdk-2.2.1.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-15 14:37:14] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240515/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 14:37:14] INFO root fetch - processPackages [flask_cognito_lib]: Downloading https://files.pythonhosted.org/packages/ac/41/fcac01eef7b3aef3b08d33ade89c591be714020e968167331d8e02458475/flask_cognito_lib-1.6.2.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/a0/d7/882e334dab5436d2c759cd7ee3da7d060b1d8a82524ffaec868ee15f4ddd/pyvisjs-1.0.0b1.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pynanovna]: Downloading https://files.pythonhosted.org/packages/45/8c/7251606e8daf25b7e44036260d30f9684a9b4758aff4c78fac0e715803c8/pynanovna-0.0.7.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [skimpy]: Downloading https://files.pythonhosted.org/packages/1c/cb/0bf059896cc95ab4907581def792b2510adc21fdb1a52cf5876578779b5e/skimpy-0.0.9.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [flask_cognito_lib]: executing diffoscope
+[2024-05-15 14:37:14] INFO root fetch - processPackages [flask_cognito_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cognito_lib-1.6.1.tar.gz tmp/flask_cognito_lib-1.6.2.tar.gz --markdown 20240515/f/flask_cognito_lib/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/93/a866b50173039bae813e131505cf7ed97c33cb79c113926b2b63dfd1caf2/pulumi_docker-4.7.0a1705628423.tar.gz
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pyvisjs]: executing diffoscope
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pyvisjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisjs-1.0.0a1.tar.gz tmp/pyvisjs-1.0.0b1.tar.gz --markdown 20240515/p/pyvisjs/1.0.0a1-1.0.0b1/README.md --exclude *.pyd
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2024-05-15 14:37:14] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.7.0a1705607229.tar.gz tmp/pulumi_docker-4.7.0a1705628423.tar.gz --markdown 20240515/p/pulumi-docker/4.7.0a1705607229-4.7.0a1705628423/README.md --exclude *.pyd
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pynanovna]: executing diffoscope
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pynanovna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynanovna-0.0.6.tar.gz tmp/pynanovna-0.0.7.tar.gz --markdown 20240515/p/pynanovna/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-15 14:37:15] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/c5/48/c4ea740b86dae595ab0f3a03de24ff5918bc9c9dc0ea8ca7dede2097af5d/b2sdk-2.3.0.tar.gz
+[2024-05-15 14:37:15] INFO root fetch - processPackages [skimpy]: executing diffoscope
+[2024-05-15 14:37:15] INFO root fetch - processPackages [skimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skimpy-0.0.8.tar.gz tmp/skimpy-0.0.9.tar.gz --markdown 20240515/s/skimpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:37:15] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-15 14:37:15] INFO root fetch - processPackages [unipress]: Remove: archive file [/home/abi/fetcher/tmp/unipress-1.1.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - processPackages [unipress]: Remove: archive file [/home/abi/fetcher/tmp/unipress-1.3.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - main [MainThread]: End processing [unipress]: success
+[2024-05-15 14:37:15] INFO root fetch - processPackages [flask_cognito_lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.6.1.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - processPackages [flask_cognito_lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.6.2.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - main [MainThread]: End processing [flask_cognito_lib]: success
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0a1.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b1.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - main [MainThread]: End processing [pyvisjs]: success
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pynanovna]: Remove: archive file [/home/abi/fetcher/tmp/pynanovna-0.0.6.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pynanovna]: Remove: archive file [/home/abi/fetcher/tmp/pynanovna-0.0.7.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - main [MainThread]: End processing [pynanovna]: success
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705607229.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705628423.tar.gz]
+[2024-05-15 14:37:15] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2024-05-15 14:37:15] INFO root fetch - processPackages [b2sdk]: executing diffoscope
+[2024-05-15 14:37:15] INFO root fetch - processPackages [b2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sdk-2.2.1.tar.gz tmp/b2sdk-2.3.0.tar.gz --markdown 20240515/b/b2sdk/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-15 14:37:16] INFO root fetch - processPackages [skimpy]: Remove: archive file [/home/abi/fetcher/tmp/skimpy-0.0.8.tar.gz]
+[2024-05-15 14:37:16] INFO root fetch - processPackages [skimpy]: Remove: archive file [/home/abi/fetcher/tmp/skimpy-0.0.9.tar.gz]
+[2024-05-15 14:37:16] INFO root fetch - main [MainThread]: End processing [skimpy]: success
+[2024-05-15 14:37:16] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.2.1.tar.gz]
+[2024-05-15 14:37:16] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.3.0.tar.gz]
+[2024-05-15 14:37:16] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
+[2024-05-15 14:37:16] INFO root fetch - main [MainThread]: Store serial: [23217561]
