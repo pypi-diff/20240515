@@ -11879,3 +11879,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:53:16] INFO root fetch - processPackages [odoo-addon-project-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_role-16.0.1.0.4-py3-none-any.whl.zip]
 [2024-05-15 07:53:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
 [2024-05-15 07:53:16] INFO root fetch - main [MainThread]: Store serial: [23213325]
+[2024-05-15 07:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213325]
+[2024-05-15 07:55:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 07:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parasys
+[2024-05-15 07:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-purchase-reporting
+[2024-05-15 07:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniogre
+[2024-05-15 07:55:25] WARNING root fetch - processPackages [parasys]: Skipping, unable to determine old version
+[2024-05-15 07:55:25] INFO root fetch - main [MainThread]: End processing [parasys] error
+[2024-05-15 07:55:25] INFO root fetch - processPackages [miniogre]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-15 07:55:25] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: New version: [16.0.20240406.0] Old Version: [16.0.20240401.0]
+[2024-05-15 07:55:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Downloading https://files.pythonhosted.org/packages/c4/4c/ebdcad3223d58da4ecda2ded1c9c5fe9162b4a4bdbeb1e1a200119aa302e/odoo_addons_oca_purchase_reporting-16.0.20240401.0-py3-none-any.whl
+[2024-05-15 07:55:26] INFO root fetch - processPackages [miniogre]: Downloading https://files.pythonhosted.org/packages/45/15/469c0befc3365b8dd38d08b5dc5efeb870c93fc396244db78db3005ddb1b/miniogre-0.6.0.tar.gz
+[2024-05-15 07:55:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Downloading https://files.pythonhosted.org/packages/a5/c4/8895412a3121d72e76af6ab60f42e91ddfcc0c85d199c36262ce947e47e2/odoo_addons_oca_purchase_reporting-16.0.20240406.0-py3-none-any.whl
+[2024-05-15 07:55:26] INFO root fetch - processPackages [miniogre]: Downloading https://files.pythonhosted.org/packages/21/69/cddd61c5810564265e7da2002ace497e036ad295e7d947cd1d894d6c3a48/miniogre-0.7.0.tar.gz
+[2024-05-15 07:55:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: executing diffoscope
+[2024-05-15 07:55:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_reporting-16.0.20240401.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_reporting-16.0.20240406.0-py3-none-any.whl.zip --markdown 20240515/o/odoo-addons-oca-purchase-reporting/16.0.20240401.0-16.0.20240406.0/README.md --exclude *.pyd
+[2024-05-15 07:55:26] INFO root fetch - processPackages [miniogre]: executing diffoscope
+[2024-05-15 07:55:26] INFO root fetch - processPackages [miniogre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniogre-0.6.0.tar.gz tmp/miniogre-0.7.0.tar.gz --markdown 20240515/m/miniogre/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-15 07:55:27] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_reporting-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-05-15 07:55:27] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_reporting-16.0.20240406.0-py3-none-any.whl.zip]
+[2024-05-15 07:55:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-reporting]: success
+[2024-05-15 07:55:27] INFO root fetch - processPackages [miniogre]: Remove: archive file [/home/abi/fetcher/tmp/miniogre-0.6.0.tar.gz]
+[2024-05-15 07:55:27] INFO root fetch - processPackages [miniogre]: Remove: archive file [/home/abi/fetcher/tmp/miniogre-0.7.0.tar.gz]
+[2024-05-15 07:55:27] INFO root fetch - main [MainThread]: End processing [miniogre]: success
+[2024-05-15 07:55:27] INFO root fetch - main [MainThread]: Store serial: [23213337]
