@@ -8551,3 +8551,56 @@
 [2024-05-15 04:48:40] INFO root fetch - processPackages [ccxt-idax-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-adapter-4.3.23.tar.gz]
 [2024-05-15 04:48:40] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter]: success
 [2024-05-15 04:48:40] INFO root fetch - main [MainThread]: Store serial: [23211915]
+[2024-05-15 04:50:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211915]
+[2024-05-15 04:50:48] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-15 04:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211919]
+[2024-05-15 04:52:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2024-05-15 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-account-invoice-line-report
+[2024-05-15 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: real-estate-realtor-com-imp-local
+[2024-05-15 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: podgenai
+[2024-05-15 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtlink
+[2024-05-15 04:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docugami-langchain
+[2024-05-15 04:52:54] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.9rc7] Old Version: [0.0.9rc6]
+[2024-05-15 04:52:54] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 04:52:54] WARNING root fetch - processPackages [podgenai]: Skipping, unable to determine old version
+[2024-05-15 04:52:54] INFO root fetch - main [MainThread]: End processing [podgenai] error
+[2024-05-15 04:52:54] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-05-15 04:52:54] INFO root fetch - processPackages [qtlink]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-15 04:52:54] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-15 04:52:54] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/ec/7d/7fad5e1c1d01bdfb140c30b35b0db72f1c70642002c0ed8c8f67d5922957/docugami_langchain-0.0.9rc6.tar.gz
+[2024-05-15 04:52:54] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Downloading https://files.pythonhosted.org/packages/c1/80/a3d17edee231e315519bb9882baf52ba258109631d9c6b7624d4a7f9aae9/real_estate_realtor_com_imp_local-0.0.7.tar.gz
+[2024-05-15 04:52:54] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: Downloading https://files.pythonhosted.org/packages/df/05/d697b7e0c36d920f71a051e0c0b98c09869bdf1b807b3aab4ab430f5326c/odoo14_addon_account_invoice_line_report-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-15 04:52:54] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/1e/2a/f0afa86db08fe930e88a52c94dd976db8e567ae3c3a0de8acf7e89709ec4/qtlink-1.2.8.tar.gz
+[2024-05-15 04:52:54] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-15 04:52:54] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Downloading https://files.pythonhosted.org/packages/08/41/02cbf2328d74ce1b8873617c1e9e1ccc1c69230bae594f9d8f517af2ef9b/real_estate_realtor_com_imp_local-0.0.8.tar.gz
+[2024-05-15 04:52:54] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/e9/4e/41dad14f34cdcdb303f777c3027d8beffdebdd4acdd4dc1061f97c1019bc/docugami_langchain-0.0.9rc7.tar.gz
+[2024-05-15 04:52:54] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: executing diffoscope
+[2024-05-15 04:52:54] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/real_estate_realtor_com_imp_local-0.0.7.tar.gz tmp/real_estate_realtor_com_imp_local-0.0.8.tar.gz --markdown 20240515/r/real-estate-realtor-com-imp-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 04:52:54] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-05-15 04:52:54] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.9rc6.tar.gz tmp/docugami_langchain-0.0.9rc7.tar.gz --markdown 20240515/d/docugami-langchain/0.0.9rc6-0.0.9rc7/README.md --exclude *.pyd
+[2024-05-15 04:52:54] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: Downloading https://files.pythonhosted.org/packages/b6/46/2ee9d6d88228aa4071ebf2df9d9e3a8ec2f7d3cd8f037a3e9a86669110ef/odoo14_addon_account_invoice_line_report-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-15 04:52:54] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/c6/3c/4a0be6b1937e94fb3f97d962bbc6d21c5edd24d70451ae48565dd4dc2fe8/qtlink-1.2.9.tar.gz
+[2024-05-15 04:52:55] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-15 04:52:55] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-05-15 04:52:55] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.8.tar.gz tmp/qtlink-1.2.9.tar.gz --markdown 20240515/q/qtlink/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-15 04:52:55] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: executing diffoscope
+[2024-05-15 04:52:55] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_line_report-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_line_report-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240515/o/odoo14-addon-account-invoice-line-report/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-15 04:52:55] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-15 04:52:55] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240515/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-15 04:52:55] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/real_estate_realtor_com_imp_local-0.0.7.tar.gz]
+[2024-05-15 04:52:55] INFO root fetch - processPackages [real-estate-realtor-com-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/real_estate_realtor_com_imp_local-0.0.8.tar.gz]
+[2024-05-15 04:52:55] INFO root fetch - main [MainThread]: End processing [real-estate-realtor-com-imp-local]: success
+[2024-05-15 04:52:55] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc6.tar.gz]
+[2024-05-15 04:52:55] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc7.tar.gz]
+[2024-05-15 04:52:55] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-05-15 04:52:55] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.8.tar.gz]
+[2024-05-15 04:52:55] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.9.tar.gz]
+[2024-05-15 04:52:55] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-05-15 04:52:55] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_line_report-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-15 04:52:55] INFO root fetch - processPackages [odoo14-addon-account-invoice-line-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_line_report-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-15 04:52:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-line-report]: success
+[2024-05-15 04:52:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-15 04:52:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-15 04:52:56] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-15 04:52:56] INFO root fetch - main [MainThread]: Store serial: [23211937]
