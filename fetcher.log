@@ -9098,3 +9098,23 @@
 [2024-05-15 05:23:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051403.tar.gz]
 [2024-05-15 05:23:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-15 05:23:51] INFO root fetch - main [MainThread]: Store serial: [23212112]
+[2024-05-15 05:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212112]
+[2024-05-15 05:26:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 05:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipline-reloaded
+[2024-05-15 05:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titandevice
+[2024-05-15 05:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Examen-Libreria
+[2024-05-15 05:26:00] INFO root fetch - processPackages [titandevice]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-15 05:26:00] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/c5/f5/34fe27f8def47a90bea7df3babb075747645a6ea449aeb775695bc15ddd2/titandevice-0.4.0.tar.gz
+[2024-05-15 05:26:00] WARNING root fetch - processPackages [Examen-Libreria]: Skipping, unable to determine old version
+[2024-05-15 05:26:00] INFO root fetch - main [MainThread]: End processing [Examen-Libreria] error
+[2024-05-15 05:26:00] INFO root fetch - processPackages [zipline-reloaded]: New version: [3.1.dev4] Old Version: [3.0.4]
+[2024-05-15 05:26:00] INFO root fetch - processPackages [zipline-reloaded]: Downloading https://files.pythonhosted.org/packages/8e/3f/5443301d56426febe64c72f5e00755a240743680d01df44dbc1862cc98a3/zipline_reloaded-3.0.4.tar.gz
+[2024-05-15 05:26:00] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/bb/7f/442c46f9b1e52c135418914025bb202814dd77b11b62bb45de8bc174c55f/titandevice-0.4.1.tar.gz
+[2024-05-15 05:26:00] WARNING root fetch - processPackages [zipline-reloaded]: Skipping package: exceeds size limit 12096710>=10485760
+[2024-05-15 05:26:00] INFO root fetch - main [MainThread]: End processing [zipline-reloaded] error
+[2024-05-15 05:26:00] INFO root fetch - processPackages [titandevice]: executing diffoscope
+[2024-05-15 05:26:00] INFO root fetch - processPackages [titandevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titandevice-0.4.0.tar.gz tmp/titandevice-0.4.1.tar.gz --markdown 20240515/t/titandevice/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-15 05:26:01] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.4.0.tar.gz]
+[2024-05-15 05:26:01] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.4.1.tar.gz]
+[2024-05-15 05:26:01] INFO root fetch - main [MainThread]: End processing [titandevice]: success
+[2024-05-15 05:26:01] INFO root fetch - main [MainThread]: Store serial: [23212139]
