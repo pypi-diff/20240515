@@ -7478,3 +7478,30 @@
 [2024-05-15 03:33:04] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.35.tar.gz]
 [2024-05-15 03:33:04] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
 [2024-05-15 03:33:04] INFO root fetch - main [MainThread]: Store serial: [23211392]
+[2024-05-15 03:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211392]
+[2024-05-15 03:35:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 03:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okn-py-updater
+[2024-05-15 03:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: silver_octo_potato
+[2024-05-15 03:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fytok
+[2024-05-15 03:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvprocessor
+[2024-05-15 03:35:13] WARNING root fetch - processPackages [silver_octo_potato]: Skipping, unable to determine old version
+[2024-05-15 03:35:13] INFO root fetch - main [MainThread]: End processing [silver_octo_potato] error
+[2024-05-15 03:35:13] INFO root fetch - processPackages [okn-py-updater]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-15 03:35:13] WARNING root fetch - processPackages [fytok]: Skipping, unable to determine old version
+[2024-05-15 03:35:13] INFO root fetch - main [MainThread]: End processing [fytok] error
+[2024-05-15 03:35:13] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 03:35:13] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/31/2e/6b527f0557ab956d4fe44831a765ec7fd66f180c034ad3a9efd6c5b9d57d/okn_py_updater-2.0.1.tar.gz
+[2024-05-15 03:35:13] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 03:35:13] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 03:35:13] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/dc/05/0d23f2646c90726ba7cb399b8ec8cb22ee63ca3b23d7425cf53d85a0182d/okn_py_updater-2.0.2.tar.gz
+[2024-05-15 03:35:14] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 03:35:14] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 03:35:14] INFO root fetch - processPackages [okn-py-updater]: executing diffoscope
+[2024-05-15 03:35:14] INFO root fetch - processPackages [okn-py-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okn_py_updater-2.0.1.tar.gz tmp/okn_py_updater-2.0.2.tar.gz --markdown 20240515/o/okn-py-updater/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-15 03:35:14] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.1.tar.gz]
+[2024-05-15 03:35:14] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 03:35:14] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.2.tar.gz]
+[2024-05-15 03:35:14] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 03:35:14] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
+[2024-05-15 03:35:14] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 03:35:14] INFO root fetch - main [MainThread]: Store serial: [23211458]
