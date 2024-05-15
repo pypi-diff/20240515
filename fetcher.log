@@ -3199,3 +3199,29 @@
 [2024-05-15 02:34:40] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc_geo-0.4.5.tar.gz]
 [2024-05-15 02:34:40] INFO root fetch - main [MainThread]: End processing [odc-geo]: success
 [2024-05-15 02:34:40] INFO root fetch - main [MainThread]: Store serial: [23210007]
+[2024-05-15 02:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23210007]
+[2024-05-15 02:36:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ray-cpp
+[2024-05-15 02:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: walledai
+[2024-05-15 02:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-behavior-curriculum
+[2024-05-15 02:36:48] INFO root fetch - processPackages [walledai]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2024-05-15 02:36:48] INFO root fetch - processPackages [aind-behavior-curriculum]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 02:36:48] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/99/b4/5fd4fc55ecc93df4b2859f1a2324d2eac66a3c9b0d123acc920c79a6e43b/aind_behavior_curriculum-0.0.8.tar.gz
+[2024-05-15 02:36:48] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/f3/ee/6eb6f58e174738640e4e87b03565aef9b981fa3d5a652a891c346e1c8240/walledai-0.8.0a0.tar.gz
+[2024-05-15 02:36:48] INFO root fetch - processPackages [ray-cpp]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-15 02:36:49] INFO root fetch - processPackages [ray-cpp]: Downloading https://files.pythonhosted.org/packages/6a/2e/c9e89160e721b0ed7a43091e48c090a4fb2c81ec223bea7a5227fd7195bb/ray_cpp-2.9.2-cp39-cp39-win_amd64.whl
+[2024-05-15 02:36:49] INFO root fetch - processPackages [aind-behavior-curriculum]: Downloading https://files.pythonhosted.org/packages/0c/a3/0a5964d96614b0206cf8658aecedfda2c2efc3df978050cca34a1dd179d4/aind_behavior_curriculum-0.0.9.tar.gz
+[2024-05-15 02:36:49] WARNING root fetch - processPackages [ray-cpp]: Skipping package: exceeds size limit 22195717>=10485760
+[2024-05-15 02:36:49] INFO root fetch - main [MainThread]: End processing [ray-cpp] error
+[2024-05-15 02:36:49] INFO root fetch - processPackages [aind-behavior-curriculum]: executing diffoscope
+[2024-05-15 02:36:49] INFO root fetch - processPackages [aind-behavior-curriculum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_behavior_curriculum-0.0.8.tar.gz tmp/aind_behavior_curriculum-0.0.9.tar.gz --markdown 20240515/a/aind-behavior-curriculum/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 02:36:49] INFO root fetch - processPackages [walledai]: Downloading https://files.pythonhosted.org/packages/5a/3f/c6e129dbc06f848a2f72a81babd056b108b45e9d68327fea9d5cda5ea265/walledai-0.9.0a0.tar.gz
+[2024-05-15 02:36:49] INFO root fetch - processPackages [walledai]: executing diffoscope
+[2024-05-15 02:36:49] INFO root fetch - processPackages [walledai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walledai-0.8.0a0.tar.gz tmp/walledai-0.9.0a0.tar.gz --markdown 20240515/w/walledai/0.8.0a0-0.9.0a0/README.md --exclude *.pyd
+[2024-05-15 02:36:50] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.8.tar.gz]
+[2024-05-15 02:36:50] INFO root fetch - processPackages [aind-behavior-curriculum]: Remove: archive file [/home/abi/fetcher/tmp/aind_behavior_curriculum-0.0.9.tar.gz]
+[2024-05-15 02:36:50] INFO root fetch - main [MainThread]: End processing [aind-behavior-curriculum]: success
+[2024-05-15 02:36:50] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.8.0a0.tar.gz]
+[2024-05-15 02:36:50] INFO root fetch - processPackages [walledai]: Remove: archive file [/home/abi/fetcher/tmp/walledai-0.9.0a0.tar.gz]
+[2024-05-15 02:36:50] INFO root fetch - main [MainThread]: End processing [walledai]: success
+[2024-05-15 02:36:50] INFO root fetch - main [MainThread]: Store serial: [23210024]
