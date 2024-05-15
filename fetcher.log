@@ -9584,3 +9584,24 @@
 [2024-05-15 05:50:10] INFO root fetch - processPackages [liechains]: Remove: archive file [/home/abi/fetcher/tmp/liechains-0.3.0.tar.gz]
 [2024-05-15 05:50:10] INFO root fetch - main [MainThread]: End processing [liechains]: success
 [2024-05-15 05:50:10] INFO root fetch - main [MainThread]: Store serial: [23212378]
+[2024-05-15 05:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212378]
+[2024-05-15 05:52:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 05:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-ad
+[2024-05-15 05:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymycobot
+[2024-05-15 05:52:18] INFO root fetch - processPackages [pih-ad]: New version: [0.16] Old Version: [0.15]
+[2024-05-15 05:52:18] INFO root fetch - processPackages [pymycobot]: New version: [3.5.0b1] Old Version: [3.4.7b1]
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/54/04/797ba6da6c0c68c03a6d15e20935b43d9a46f6252618a4c367f1698c4e36/pih-ad-0.15.tar.gz
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/62/56/b1c82e1acf3bc99705ce9c26810578c8325f045fbf1777650d92800aee45/pymycobot-3.4.7b1.tar.gz
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/2c/45/593204226924be64fee1f1ea4430fd5629c684dbfffd942e400b1f77749f/pih-ad-0.16.tar.gz
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/2b/34/6d0ffea532ca06cb7ea28efdfcea0dfcf2ba93ab61a828157273a14994fb/pymycobot-3.5.0b1.tar.gz
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pih-ad]: executing diffoscope
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pih-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ad-0.15.tar.gz tmp/pih-ad-0.16.tar.gz --markdown 20240515/p/pih-ad/0.15-0.16/README.md --exclude *.pyd
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2024-05-15 05:52:19] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.4.7b1.tar.gz tmp/pymycobot-3.5.0b1.tar.gz --markdown 20240515/p/pymycobot/3.4.7b1-3.5.0b1/README.md --exclude *.pyd
+[2024-05-15 05:52:20] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.15.tar.gz]
+[2024-05-15 05:52:20] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.16.tar.gz]
+[2024-05-15 05:52:20] INFO root fetch - main [MainThread]: End processing [pih-ad]: success
+[2024-05-15 05:52:20] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.4.7b1.tar.gz]
+[2024-05-15 05:52:20] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.5.0b1.tar.gz]
+[2024-05-15 05:52:20] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2024-05-15 05:52:20] INFO root fetch - main [MainThread]: Store serial: [23212384]
