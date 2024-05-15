@@ -10999,3 +10999,42 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:24:16] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
 [2024-05-15 07:24:16] INFO root fetch - main [MainThread]: End processing [kyutils]: success
 [2024-05-15 07:24:16] INFO root fetch - main [MainThread]: Store serial: [23213013]
+[2024-05-15 07:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213013]
+[2024-05-15 07:26:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 07:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythfinder
+[2024-05-15 07:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kyutils
+[2024-05-15 07:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-05-15 07:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltacat
+[2024-05-15 07:26:25] INFO root fetch - processPackages [pythfinder]: New version: [0.0.3.8] Old Version: [0.0.3.7]
+[2024-05-15 07:26:25] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 07:26:25] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 07:26:25] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/4c/cc/2ccfcad1e5c0fb8d999e6a6fbee27ca17a9f1fe3cb103795166b087f2622/pythfinder-0.0.3.7.tar.gz
+[2024-05-15 07:26:25] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-05-15 07:26:25] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 07:26:26] INFO root fetch - processPackages [deltacat]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-15 07:26:26] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-05-15 07:26:26] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/04/de/f5ea9041b6bc7a65d6c98e281cf1accce83d86b2f0bd20c4b00b97c12087/deltacat-1.1.4.tar.gz
+[2024-05-15 07:26:26] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-05-15 07:26:26] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240515/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 07:26:26] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 07:26:26] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 07:26:26] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 07:26:26] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/85/82/19b89e0bdf497fcb53261e798f943cbce54f7d1a139a63426edab348d23e/deltacat-1.1.5.tar.gz
+[2024-05-15 07:26:26] INFO root fetch - processPackages [pythfinder]: Downloading https://files.pythonhosted.org/packages/1d/78/53eb0872682a35a6a45a2adbef0a041ee29d6e59a1abdfaf472bdc6ec2bb/pythfinder-0.0.3.8.tar.gz
+[2024-05-15 07:26:26] INFO root fetch - processPackages [deltacat]: executing diffoscope
+[2024-05-15 07:26:26] INFO root fetch - processPackages [deltacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltacat-1.1.4.tar.gz tmp/deltacat-1.1.5.tar.gz --markdown 20240515/d/deltacat/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-15 07:26:26] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.8.tar.gz]
+[2024-05-15 07:26:26] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
+[2024-05-15 07:26:26] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-05-15 07:26:27] INFO root fetch - processPackages [pythfinder]: executing diffoscope
+[2024-05-15 07:26:27] INFO root fetch - processPackages [pythfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythfinder-0.0.3.7.tar.gz tmp/pythfinder-0.0.3.8.tar.gz --markdown 20240515/p/pythfinder/0.0.3.7-0.0.3.8/README.md --exclude *.pyd
+[2024-05-15 07:26:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 07:26:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 07:26:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 07:26:27] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.4.tar.gz]
+[2024-05-15 07:26:27] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.5.tar.gz]
+[2024-05-15 07:26:27] INFO root fetch - main [MainThread]: End processing [deltacat]: success
+[2024-05-15 07:26:28] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.7.tar.gz]
+[2024-05-15 07:26:28] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.8.tar.gz]
+[2024-05-15 07:26:28] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
+[2024-05-15 07:26:28] INFO root fetch - main [MainThread]: Store serial: [23213025]
