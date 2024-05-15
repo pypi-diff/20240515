@@ -22577,3 +22577,57 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:54:59] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz]
 [2024-05-15 14:54:59] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2024-05-15 14:54:59] INFO root fetch - main [MainThread]: Store serial: [23217871]
+[2024-05-15 14:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217871]
+[2024-05-15 14:57:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 14:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text2story
+[2024-05-15 14:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shakenbreak
+[2024-05-15 14:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galv
+[2024-05-15 14:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-cloud
+[2024-05-15 14:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coveralls
+[2024-05-15 14:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eurmlsdk
+[2024-05-15 14:57:09] INFO root fetch - processPackages [galv]: New version: [2.1.9] Old Version: [2.1.30]
+[2024-05-15 14:57:09] INFO root fetch - processPackages [acryl-datahub-cloud]: New version: [0.3.2rc9] Old Version: [0.3.2rc8]
+[2024-05-15 14:57:09] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/8c/34/0ac46c0016b6d395b9e08c97137a35a48a32c50f64d2e1c188582f3aedb8/acryl_datahub_cloud-0.3.2rc8.tar.gz
+[2024-05-15 14:57:09] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.85] Old Version: [0.0.84]
+[2024-05-15 14:57:09] INFO root fetch - processPackages [coveralls]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-15 14:57:09] INFO root fetch - processPackages [shakenbreak]: New version: [3.3.3] Old Version: [3.3.1]
+[2024-05-15 14:57:09] INFO root fetch - processPackages [text2story]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-15 14:57:09] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/35/77/a3d3c1536516db0e06e14ccf1db3e5c84671e1ac0eff2467462c49ec6d79/galv-2.1.30.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/16/2d/3a64f89af8f8eed7972a92cbc5e8ce82c1445224c131f568ff768f68acbe/text2story-1.4.8.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [coveralls]: Downloading https://files.pythonhosted.org/packages/97/14/7906489e8b225cfd9e667da2d424cdf92e4f93a19358587cf83960c80a25/coveralls-4.0.0.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [shakenbreak]: Downloading https://files.pythonhosted.org/packages/f3/b3/5f01bc14015bd6dd6c1a1af2d3670177b0c97ae5e38fbb02fe8e3b266e00/shakenbreak-3.3.1.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/d6/2f/6e9b63b896dbcb5e951ac6f75cf49db1413881dcce39125da20a42c0b741/eurmlsdk-0.0.84.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/b8/0b/d4417c37709cf81423d1204af54c886d20a8ea4ffaef0717f4924309ff26/galv-2.1.9.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/f8/d8/1e88c6de8e078deee9f13099e2364a2466bc062f1085fa3cf0d831ccffa0/acryl_datahub_cloud-0.3.2rc9.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [galv]: executing diffoscope
+[2024-05-15 14:57:10] INFO root fetch - processPackages [galv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv-2.1.30.tar.gz tmp/galv-2.1.9.tar.gz --markdown 20240515/g/galv/2.1.30-2.1.9/README.md --exclude *.pyd
+[2024-05-15 14:57:10] INFO root fetch - processPackages [coveralls]: Downloading https://files.pythonhosted.org/packages/61/75/a454fb443eb6a053833f61603a432ffbd7dd6ae53a11159bacfadb9d6219/coveralls-4.0.1.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/ce/f1/aa511b46040a2b7a79703c3c9b670b5a0e5a1458d7876c67db8d968192e9/eurmlsdk-0.0.85.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [acryl-datahub-cloud]: executing diffoscope
+[2024-05-15 14:57:10] INFO root fetch - processPackages [acryl-datahub-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz --markdown 20240515/a/acryl-datahub-cloud/0.3.2rc8-0.3.2rc9/README.md --exclude *.pyd
+[2024-05-15 14:57:10] INFO root fetch - processPackages [coveralls]: executing diffoscope
+[2024-05-15 14:57:10] INFO root fetch - processPackages [coveralls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveralls-4.0.0.tar.gz tmp/coveralls-4.0.1.tar.gz --markdown 20240515/c/coveralls/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-15 14:57:10] INFO root fetch - processPackages [shakenbreak]: Downloading https://files.pythonhosted.org/packages/70/d0/0527c69887631e529a4348fbf0974c7b154f83a68d4783ac6f76112a3311/shakenbreak-3.3.3.tar.gz
+[2024-05-15 14:57:10] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-15 14:57:10] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.84.tar.gz tmp/eurmlsdk-0.0.85.tar.gz --markdown 20240515/e/eurmlsdk/0.0.84-0.0.85/README.md --exclude *.pyd
+[2024-05-15 14:57:10] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/cf/65/6b13ecb054b5522066c11ea378b7fab9d87a8c211c910a4dee73697a9b3e/text2story-1.4.9.tar.gz
+[2024-05-15 14:57:10] WARNING root fetch - processPackages [shakenbreak]: Skipping package: exceeds size limit 36907847>=10485760
+[2024-05-15 14:57:10] INFO root fetch - main [MainThread]: End processing [shakenbreak] error
+[2024-05-15 14:57:11] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2024-05-15 14:57:11] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.4.8.tar.gz tmp/text2story-1.4.9.tar.gz --markdown 20240515/t/text2story/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-15 14:57:11] INFO root fetch - processPackages [coveralls]: Remove: archive file [/home/abi/fetcher/tmp/coveralls-4.0.0.tar.gz]
+[2024-05-15 14:57:11] INFO root fetch - processPackages [coveralls]: Remove: archive file [/home/abi/fetcher/tmp/coveralls-4.0.1.tar.gz]
+[2024-05-15 14:57:11] INFO root fetch - main [MainThread]: End processing [coveralls]: success
+[2024-05-15 14:57:11] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.84.tar.gz]
+[2024-05-15 14:57:11] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.85.tar.gz]
+[2024-05-15 14:57:11] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-15 14:57:11] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz]
+[2024-05-15 14:57:11] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz]
+[2024-05-15 14:57:11] INFO root fetch - main [MainThread]: End processing [acryl-datahub-cloud]: success
+[2024-05-15 14:57:12] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.8.tar.gz]
+[2024-05-15 14:57:12] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.9.tar.gz]
+[2024-05-15 14:57:12] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2024-05-15 14:57:14] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.30.tar.gz]
+[2024-05-15 14:57:14] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
+[2024-05-15 14:57:14] INFO root fetch - main [MainThread]: End processing [galv]: success
+[2024-05-15 14:57:14] INFO root fetch - main [MainThread]: Store serial: [23217889]
