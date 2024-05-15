@@ -2517,3 +2517,15 @@
 [2024-05-15 02:00:53] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-4.0.0b0-py3-none-any.whl.zip]
 [2024-05-15 02:00:53] INFO root fetch - main [MainThread]: End processing [seed-farmer]: success
 [2024-05-15 02:00:53] INFO root fetch - main [MainThread]: Store serial: [23209688]
+[2024-05-15 02:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209688]
+[2024-05-15 02:03:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 02:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opengamedata-api-utils
+[2024-05-15 02:03:02] INFO root fetch - processPackages [opengamedata-api-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-15 02:03:02] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/52/55/d16141239419565e8b3b77f56bf18d09fa4b063acd3c7479a305c23b50d4/opengamedata_api_utils-1.0.0.tar.gz
+[2024-05-15 02:03:02] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/56/73/aa59077b015710be26ff218a6865bdda1c916c66ebeaf8af2397010ded7c/opengamedata_api_utils-1.0.1.tar.gz
+[2024-05-15 02:03:03] INFO root fetch - processPackages [opengamedata-api-utils]: executing diffoscope
+[2024-05-15 02:03:03] INFO root fetch - processPackages [opengamedata-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_api_utils-1.0.0.tar.gz tmp/opengamedata_api_utils-1.0.1.tar.gz --markdown 20240515/o/opengamedata-api-utils/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-15 02:03:03] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.0.tar.gz]
+[2024-05-15 02:03:03] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.1.tar.gz]
+[2024-05-15 02:03:03] INFO root fetch - main [MainThread]: End processing [opengamedata-api-utils]: success
+[2024-05-15 02:03:03] INFO root fetch - main [MainThread]: Store serial: [23209691]
