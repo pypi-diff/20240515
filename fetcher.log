@@ -7966,3 +7966,77 @@
 [2024-05-15 04:11:56] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-9.4.0.tar.gz]
 [2024-05-15 04:11:56] INFO root fetch - main [MainThread]: End processing [stellar-sdk]: success
 [2024-05-15 04:11:56] INFO root fetch - main [MainThread]: Store serial: [23211655]
+[2024-05-15 04:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211655]
+[2024-05-15 04:14:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cameo-geo-query
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QtMDi
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-dots
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: explorateur
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainpy
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf2tf
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-kwargs
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ip-check
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cameo-geo-query]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-15 04:14:05] WARNING root fetch - processPackages [explorateur]: Skipping, unable to determine old version
+[2024-05-15 04:14:05] INFO root fetch - main [MainThread]: End processing [explorateur] error
+[2024-05-15 04:14:05] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [mo-kwargs]: New version: [7.627.24136] Old Version: [7.623.24125]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/77/87/5899bc584955458fd1ec54d6a29a164ff1551e41947359d622a5289c7b02/cameo_geo_query-1.0.7.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [QtMDi]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cf2tf]: New version: [0.8.1a2] Old Version: [0.8.1a1]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [mo-dots]: New version: [9.606.24115] Old Version: [9.605.24115]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [brainpy]: New version: [2.6.0.post20240515] Old Version: [2.6.0]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ip-check]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/c0/97/58868a2cf5de3a0ed6c033a295ad565a7a767580d6bcf83031afa1f6b2ec/cameo_geo_query-1.0.8.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [QtMDi]: Downloading https://files.pythonhosted.org/packages/98/57/71d4d051a7c8618ccee73a34338e30c1be6a674b0053904f67260261180b/QtMDi-1.1.8.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/2d/a4/51c899f9038588e9917a8895af38cdfa78586d0e067feba5ec1d5e7e4ded/mo_kwargs-7.623.24125.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/4d/a9/8e36072952cbc32bafedc74089860c93b370a34651e37f25874a7892a288/cf2tf-0.8.1a1.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/c1/78/500bc80bd2febc9c1dd08390617553bf8eb583859830968121d99c41760a/mo_dots-9.605.24115.tar.gz
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cameo-geo-query]: executing diffoscope
+[2024-05-15 04:14:05] INFO root fetch - processPackages [cameo-geo-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameo_geo_query-1.0.7.tar.gz tmp/cameo_geo_query-1.0.8.tar.gz --markdown 20240515/c/cameo-geo-query/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-15 04:14:05] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/4f/bc/8f93473fc062ec46cf44a05e46fa9e3a7ac3b5a097f35d23b32207df0e42/ip_check-1.6.0-py3-none-any.whl
+[2024-05-15 04:14:05] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/15/3f/fcc19140da7395227909e91b4a4bba7e60a5d9c644b4babc232f46250679/brainpy-2.6.0-py3-none-any.whl
+[2024-05-15 04:14:05] WARNING root fetch - processPackages [QtMDi]: Skipping package: exceeds size limit 25247034>=10485760
+[2024-05-15 04:14:05] INFO root fetch - main [MainThread]: End processing [QtMDi] error
+[2024-05-15 04:14:06] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-15 04:14:06] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240515/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-15 04:14:06] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/ba/09/92f563fb418f6aa1f9aade5e4c189c3aaa52a41f5ac3863759540543f93b/mo_kwargs-7.627.24136.tar.gz
+[2024-05-15 04:14:06] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/42/8e/94cfc18130797e927786c31387f1f2eeddf985a3f8e7fe6ab734c69a8267/cf2tf-0.8.1a2.tar.gz
+[2024-05-15 04:14:06] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/41/52/ad53a2c33c1439eaa8db81755542651385401969fab7d1e5796d42f4b3b0/ip_check-1.6.1-py3-none-any.whl
+[2024-05-15 04:14:06] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-05-15 04:14:06] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.623.24125.tar.gz tmp/mo_kwargs-7.627.24136.tar.gz --markdown 20240515/m/mo-kwargs/7.623.24125-7.627.24136/README.md --exclude *.pyd
+[2024-05-15 04:14:06] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/f8/dc/84f400b07ff7e625ed0a1cd5d5c32e0c005c96adb0775006a16bd08426d7/brainpy-2.6.0.post20240515-py3-none-any.whl
+[2024-05-15 04:14:06] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/62/60/27b3dbfd973f17e5e448be2a9a9d96cea0e25479810b1ba253056fa3f295/mo_dots-9.606.24115.tar.gz
+[2024-05-15 04:14:06] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-05-15 04:14:06] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.7.tar.gz]
+[2024-05-15 04:14:06] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.6.0-py3-none-any.whl.zip tmp/ip_check-1.6.1-py3-none-any.whl.zip --markdown 20240515/i/ip-check/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-15 04:14:06] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-15 04:14:06] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.8.1a1.tar.gz tmp/cf2tf-0.8.1a2.tar.gz --markdown 20240515/c/cf2tf/0.8.1a1-0.8.1a2/README.md --exclude *.pyd
+[2024-05-15 04:14:06] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.8.tar.gz]
+[2024-05-15 04:14:06] INFO root fetch - main [MainThread]: End processing [cameo-geo-query]: success
+[2024-05-15 04:14:06] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-05-15 04:14:06] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.605.24115.tar.gz tmp/mo_dots-9.606.24115.tar.gz --markdown 20240515/m/mo-dots/9.605.24115-9.606.24115/README.md --exclude *.pyd
+[2024-05-15 04:14:06] INFO root fetch - processPackages [brainpy]: executing diffoscope
+[2024-05-15 04:14:06] INFO root fetch - processPackages [brainpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainpy-2.6.0-py3-none-any.whl.zip tmp/brainpy-2.6.0.post20240515-py3-none-any.whl.zip --markdown 20240515/b/brainpy/2.6.0-2.6.0.post20240515/README.md --exclude *.pyd
+[2024-05-15 04:14:06] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-15 04:14:06] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-15 04:14:06] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-15 04:14:07] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.623.24125.tar.gz]
+[2024-05-15 04:14:07] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.627.24136.tar.gz]
+[2024-05-15 04:14:07] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-05-15 04:14:07] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.0-py3-none-any.whl.zip]
+[2024-05-15 04:14:07] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.1-py3-none-any.whl.zip]
+[2024-05-15 04:14:07] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-05-15 04:14:07] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a1.tar.gz]
+[2024-05-15 04:14:07] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a2.tar.gz]
+[2024-05-15 04:14:07] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-15 04:14:07] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.605.24115.tar.gz]
+[2024-05-15 04:14:07] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.606.24115.tar.gz]
+[2024-05-15 04:14:07] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-05-15 04:14:10] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.6.0-py3-none-any.whl.zip]
+[2024-05-15 04:14:10] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.6.0.post20240515-py3-none-any.whl.zip]
+[2024-05-15 04:14:10] INFO root fetch - main [MainThread]: End processing [brainpy]: success
+[2024-05-15 04:14:10] INFO root fetch - main [MainThread]: Store serial: [23211679]
