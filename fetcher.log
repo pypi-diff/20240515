@@ -16794,3 +16794,94 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:14:18] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.5.tar.gz]
 [2024-05-15 11:14:18] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-05-15 11:14:18] INFO root fetch - main [MainThread]: Store serial: [23215348]
+[2024-05-15 11:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215348]
+[2024-05-15 11:16:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 11:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs-quant
+[2024-05-15 11:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-15 11:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtn-tools-pro
+[2024-05-15 11:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenomApis
+[2024-05-15 11:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-05-15 11:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splunktaucclib
+[2024-05-15 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avoca
+[2024-05-15 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lupin-grognard
+[2024-05-15 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adapta
+[2024-05-15 11:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: movement
+[2024-05-15 11:16:28] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.3] Old Version: [1.0.0.1.2]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [movement]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [avoca]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/b8/66/b5f619bc6f6f4205710a729254d95668acee3af9d46384d95ebdfd992597/xtn-tools-pro-1.0.0.1.2.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [lupin-grognard]: New version: [2.1.0.dev0] Old Version: [2.0.0]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [splunktaucclib]: New version: [6.1.1] Old Version: [6.1.0b1]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [gs-quant]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 11:16:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [splunktaucclib]: Downloading https://files.pythonhosted.org/packages/ed/ec/9a6d4f887ef944b1d8e4a8d4adf6c11b26e4d8b8c3cc46c1f996d0f7dc8f/splunktaucclib-6.1.0b1.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [avoca]: Downloading https://files.pythonhosted.org/packages/02/ea/eaf2a594f852164e5b3c337e4267ef2eb15adac7df091d4d494370412311/avoca-0.4.1.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [movement]: Downloading https://files.pythonhosted.org/packages/ff/62/4105fdfa7dafa0287d5d4c43e4638ffbf28c210f724fe41199dbfeaf1c4d/movement-0.0.8.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/00/4b/c152b70b14cfd4530d6a06f4a6d40ea6c3359f73e23d43f2e0ffed702c68/lupin-grognard-2.0.0.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/a8/22/ccb70839873a816734ed7fe4a20a50658f4061e8379cdae45a21e643297a/gs_quant-1.0.8.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-15 11:16:28] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/85/67/c1eabafaafa6f0e7e58dd7e2179067c48b632f77444f885faaf05b74a741/xtn-tools-pro-1.0.0.1.3.tar.gz
+[2024-05-15 11:16:29] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-15 11:16:29] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240515/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240515/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.1.2.tar.gz tmp/xtn-tools-pro-1.0.0.1.3.tar.gz --markdown 20240515/x/xtn-tools-pro/1.0.0.1.2-1.0.0.1.3/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240515/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240515/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [avoca]: Downloading https://files.pythonhosted.org/packages/b1/75/f67be5276f27a517f9a96d6a05d8e6ed97be7f73db8e983cabab04a4effd/avoca-0.4.2.tar.gz
+[2024-05-15 11:16:29] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/11/e5/e0df1db174ee225dc5439845bb1e22d64a19d2a0c182a82eb8093fdd061a/lupin_grognard-2.1.0.dev0.tar.gz
+[2024-05-15 11:16:29] INFO root fetch - processPackages [splunktaucclib]: Downloading https://files.pythonhosted.org/packages/42/83/941516207396968d52df6e69ac02ffff5e4174964b14d6260f9ea1035826/splunktaucclib-6.1.1-py3-none-any.whl
+[2024-05-15 11:16:29] INFO root fetch - processPackages [movement]: Downloading https://files.pythonhosted.org/packages/45/ca/2086e87d1ec4ac50f21170a6ccc575f7e169fdd366c69b46832f6e7b0a0c/movement-0.0.9.tar.gz
+[2024-05-15 11:16:29] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/36/ec/d3b4336a4612dcf07a05e896931bb06e76482967f438ed53953017d5c2fd/gs_quant-1.0.9.tar.gz
+[2024-05-15 11:16:29] INFO root fetch - processPackages [avoca]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [avoca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avoca-0.4.1.tar.gz tmp/avoca-0.4.2.tar.gz --markdown 20240515/a/avoca/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [splunktaucclib]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [splunktaucclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunktaucclib-6.1.0b1.tar.gz tmp/splunktaucclib-6.1.1-py3-none-any.whl.zip --markdown 20240515/s/splunktaucclib/6.1.0b1-6.1.1/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-2.0.0.tar.gz tmp/lupin_grognard-2.1.0.dev0.tar.gz --markdown 20240515/l/lupin-grognard/2.0.0-2.1.0.dev0/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [movement]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [movement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movement-0.0.8.tar.gz tmp/movement-0.0.9.tar.gz --markdown 20240515/m/movement/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2024-05-15 11:16:29] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-1.0.8.tar.gz tmp/gs_quant-1.0.9.tar.gz --markdown 20240515/g/gs-quant/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 11:16:29] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.2.tar.gz]
+[2024-05-15 11:16:29] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.3.tar.gz]
+[2024-05-15 11:16:29] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [splunktaucclib]: Remove: archive file [/home/abi/fetcher/tmp/splunktaucclib-6.1.0b1.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [splunktaucclib]: Remove: archive file [/home/abi/fetcher/tmp/splunktaucclib-6.1.1-py3-none-any.whl.zip]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [splunktaucclib]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [movement]: Remove: archive file [/home/abi/fetcher/tmp/movement-0.0.8.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [movement]: Remove: archive file [/home/abi/fetcher/tmp/movement-0.0.9.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [movement]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [avoca]: Remove: archive file [/home/abi/fetcher/tmp/avoca-0.4.1.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [avoca]: Remove: archive file [/home/abi/fetcher/tmp/avoca-0.4.2.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [avoca]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-2.0.0.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin_grognard-2.1.0.dev0.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2024-05-15 11:16:30] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-15 11:16:30] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-15 11:16:31] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.8.tar.gz]
+[2024-05-15 11:16:31] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
+[2024-05-15 11:16:31] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2024-05-15 11:16:31] INFO root fetch - main [MainThread]: Store serial: [23215377]
