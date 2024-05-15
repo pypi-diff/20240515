@@ -17216,3 +17216,78 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 11:27:43] INFO root fetch - processPackages [kolla]: Remove: archive file [/home/abi/fetcher/tmp/kolla-9.4.0.tar.gz]
 [2024-05-15 11:27:43] INFO root fetch - main [MainThread]: End processing [kolla]: success
 [2024-05-15 11:27:43] INFO root fetch - main [MainThread]: Store serial: [23215530]
+[2024-05-15 11:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215530]
+[2024-05-15 11:29:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-screen-stats
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: development-tool
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolla-ansible
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xmlplot
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msiaLex
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyncview
+[2024-05-15 11:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grasp_planning
+[2024-05-15 11:29:52] INFO root fetch - processPackages [pyncview]: New version: [0.99.38] Old Version: [0.99.36]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [grasp_planning]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [pyncview]: Downloading https://files.pythonhosted.org/packages/0a/db/bf786bc3b9917f13c2b5530493be5c693f7e00b3b2a338f1d8f923e9807a/pyncview-0.99.36-py3-none-any.whl
+[2024-05-15 11:29:52] INFO root fetch - processPackages [xmlplot]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [development-tool]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-15 11:29:52] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-05-15 11:29:52] INFO root fetch - processPackages [kolla-ansible]: New version: [9.3.2] Old Version: [9.3.1]
+[2024-05-15 11:29:52] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-15 11:29:52] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/87/53/62c18e68a715e1f836f425fb63fad64382cfc80ace4e7c0227df77965226/grasp_planning-0.5.1.tar.gz
+[2024-05-15 11:29:52] INFO root fetch - processPackages [xmlplot]: Downloading https://files.pythonhosted.org/packages/36/3a/bdd939b56dee81dfb6c9dc1bc79de6268cd522dd8c1e5f9ca32be4d6510f/xmlplot-0.9.8-py2-none-any.whl
+[2024-05-15 11:29:52] INFO root fetch - processPackages [kolla-ansible]: Downloading https://files.pythonhosted.org/packages/74/0b/bfca147a775d60e4a0e3f2f0acfc31b86b049a4d58eb9c9fc004411109a2/kolla-ansible-9.3.1.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [pyncview]: Downloading https://files.pythonhosted.org/packages/29/e0/d9ea40dfb912a022d968ae3d5b4995ccb6a578296375a1352306c403225c/pyncview-0.99.38.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/66/6b/0b1503f6269d3bbace3f8f0e1e626e6aea615faca80d99f78d21174a3cf0/development-tool-0.4.3.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-15 11:29:53] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [pyncview]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [pyncview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncview-0.99.36-py3-none-any.whl.zip tmp/pyncview-0.99.38.tar.gz --markdown 20240515/p/pyncview/0.99.36-0.99.38/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240515/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240515/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/b3/8a/f903c7e4e3a22d3a896b680da97b6163037ce9bbf0e60104f80d4d4d82ea/grasp_planning-0.5.2.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [xmlplot]: Downloading https://files.pythonhosted.org/packages/cd/e0/e9f674e73bcc89db87f5edcab241e06eb24d28d4c24b526043d06b646408/xmlplot-0.9.9-py2-none-any.whl
+[2024-05-15 11:29:53] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.5.1.tar.gz tmp/grasp_planning-0.5.2.tar.gz --markdown 20240515/g/grasp_planning/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [xmlplot]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [xmlplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlplot-0.9.8-py2-none-any.whl.zip tmp/xmlplot-0.9.9-py2-none-any.whl.zip --markdown 20240515/x/xmlplot/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/3a/4c/97d2d8ee34d4c7b70651321f7bb5d332b3dc1f3211eced1b64b0404bfc40/development-tool-0.4.4.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [kolla-ansible]: Downloading https://files.pythonhosted.org/packages/42/40/b1d9731255943574e8388c077aab6f04e206dde9dad17c26dfb2001df162/kolla-ansible-9.3.2.tar.gz
+[2024-05-15 11:29:53] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.4.3.tar.gz tmp/development-tool-0.4.4.tar.gz --markdown 20240515/d/development-tool/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [kolla-ansible]: executing diffoscope
+[2024-05-15 11:29:53] INFO root fetch - processPackages [kolla-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolla-ansible-9.3.1.tar.gz tmp/kolla-ansible-9.3.2.tar.gz --markdown 20240515/k/kolla-ansible/9.3.1-9.3.2/README.md --exclude *.pyd
+[2024-05-15 11:29:53] INFO root fetch - processPackages [pyncview]: Remove: archive file [/home/abi/fetcher/tmp/pyncview-0.99.36-py3-none-any.whl.zip]
+[2024-05-15 11:29:53] INFO root fetch - processPackages [pyncview]: Remove: archive file [/home/abi/fetcher/tmp/pyncview-0.99.38.tar.gz]
+[2024-05-15 11:29:53] INFO root fetch - main [MainThread]: End processing [pyncview]: success
+[2024-05-15 11:29:54] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-15 11:29:54] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-15 11:29:54] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 11:29:54] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.1.tar.gz]
+[2024-05-15 11:29:54] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.2.tar.gz]
+[2024-05-15 11:29:54] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-15 11:29:54] INFO root fetch - processPackages [xmlplot]: Remove: archive file [/home/abi/fetcher/tmp/xmlplot-0.9.8-py2-none-any.whl.zip]
+[2024-05-15 11:29:54] INFO root fetch - processPackages [xmlplot]: Remove: archive file [/home/abi/fetcher/tmp/xmlplot-0.9.9-py2-none-any.whl.zip]
+[2024-05-15 11:29:54] INFO root fetch - main [MainThread]: End processing [xmlplot]: success
+[2024-05-15 11:29:54] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-15 11:29:54] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-15 11:29:54] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-15 11:29:54] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.4.3.tar.gz]
+[2024-05-15 11:29:54] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.4.4.tar.gz]
+[2024-05-15 11:29:54] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-05-15 11:30:00] INFO root fetch - processPackages [kolla-ansible]: Remove: archive file [/home/abi/fetcher/tmp/kolla-ansible-9.3.1.tar.gz]
+[2024-05-15 11:30:00] INFO root fetch - processPackages [kolla-ansible]: Remove: archive file [/home/abi/fetcher/tmp/kolla-ansible-9.3.2.tar.gz]
+[2024-05-15 11:30:00] INFO root fetch - main [MainThread]: End processing [kolla-ansible]: success
+[2024-05-15 11:30:06] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-05-15 11:30:06] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-05-15 11:30:06] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-05-15 11:30:06] INFO root fetch - main [MainThread]: Store serial: [23215552]
