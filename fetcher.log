@@ -21000,3 +21000,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:00:38] INFO root fetch - processPackages [freva-deployment]: Remove: archive file [/home/abi/fetcher/tmp/freva_deployment-2309.0.1.tar.gz]
 [2024-05-15 14:00:38] INFO root fetch - main [MainThread]: End processing [freva-deployment]: success
 [2024-05-15 14:00:38] INFO root fetch - main [MainThread]: Store serial: [23217238]
+[2024-05-15 14:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217238]
+[2024-05-15 14:02:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 14:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hstream
+[2024-05-15 14:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finsec
+[2024-05-15 14:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: locust
+[2024-05-15 14:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indi-pylibcamera
+[2024-05-15 14:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: script-house
+[2024-05-15 14:02:47] INFO root fetch - processPackages [finsec]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 14:02:47] INFO root fetch - processPackages [indi-pylibcamera]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-15 14:02:47] INFO root fetch - processPackages [hstream]: New version: [0.1.49] Old Version: [0.1.48]
+[2024-05-15 14:02:47] WARNING root fetch - processPackages [script-house]: Skipping, unable to determine old version
+[2024-05-15 14:02:47] INFO root fetch - main [MainThread]: End processing [script-house] error
+[2024-05-15 14:02:47] INFO root fetch - processPackages [finsec]: Downloading https://files.pythonhosted.org/packages/5b/f9/f030bcd72d5dc5a8a2462a954f42a5e99754e99dc31280ad379af8cbc3be/finsec-0.0.8.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-15 14:02:47] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/50/a5/584365234126508771eb9ccd362d23f7aa77630456731fd33f89ee58005e/hstream-0.1.48.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/c2/6b/a8c8c4f5b39ddc24a4e81aea53d924faec67c0d5fe92a1ee6695941a7a22/indi_pylibcamera-2.6.3.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [finsec]: Downloading https://files.pythonhosted.org/packages/eb/b2/f023d67c9dca023d8be0e1f79591d0b60ea45b9f677bcbed2730827d2a47/finsec-0.0.9.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/d8/61/e05ce2f408742cccdf49e7c40b0c4e0569d93ea10a890148afe8a837ac63/hstream-0.1.49.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/0e/f8/dcfe328b94560ddd859d7304fd3144101a7149ca1f992c928a2f3dae9ae7/indi_pylibcamera-2.6.4.tar.gz
+[2024-05-15 14:02:47] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-15 14:02:47] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.48.tar.gz tmp/hstream-0.1.49.tar.gz --markdown 20240515/h/hstream/0.1.48-0.1.49/README.md --exclude *.pyd
+[2024-05-15 14:02:47] INFO root fetch - processPackages [finsec]: executing diffoscope
+[2024-05-15 14:02:47] INFO root fetch - processPackages [finsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finsec-0.0.8.tar.gz tmp/finsec-0.0.9.tar.gz --markdown 20240515/f/finsec/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:02:48] INFO root fetch - processPackages [indi-pylibcamera]: executing diffoscope
+[2024-05-15 14:02:48] INFO root fetch - processPackages [indi-pylibcamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indi_pylibcamera-2.6.3.tar.gz tmp/indi_pylibcamera-2.6.4.tar.gz --markdown 20240515/i/indi-pylibcamera/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-05-15 14:02:48] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-15 14:02:48] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-15 14:02:48] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240515/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-15 14:02:48] INFO root fetch - processPackages [finsec]: Remove: archive file [/home/abi/fetcher/tmp/finsec-0.0.8.tar.gz]
+[2024-05-15 14:02:48] INFO root fetch - processPackages [finsec]: Remove: archive file [/home/abi/fetcher/tmp/finsec-0.0.9.tar.gz]
+[2024-05-15 14:02:48] INFO root fetch - main [MainThread]: End processing [finsec]: success
+[2024-05-15 14:02:48] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.48.tar.gz]
+[2024-05-15 14:02:48] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.49.tar.gz]
+[2024-05-15 14:02:48] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-15 14:02:48] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.3.tar.gz]
+[2024-05-15 14:02:48] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.4.tar.gz]
+[2024-05-15 14:02:48] INFO root fetch - main [MainThread]: End processing [indi-pylibcamera]: success
+[2024-05-15 14:02:50] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-15 14:02:50] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-15 14:02:50] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-15 14:02:50] INFO root fetch - main [MainThread]: Store serial: [23217251]
