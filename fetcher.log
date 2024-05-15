@@ -2905,3 +2905,47 @@
 [2024-05-15 02:19:21] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
 [2024-05-15 02:19:21] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
 [2024-05-15 02:19:21] INFO root fetch - main [MainThread]: Store serial: [23209892]
+[2024-05-15 02:21:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209892]
+[2024-05-15 02:21:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 02:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icpp-pro
+[2024-05-15 02:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WrenchCL
+[2024-05-15 02:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdrive
+[2024-05-15 02:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cr-constructs
+[2024-05-15 02:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2024-05-15 02:21:30] INFO root fetch - processPackages [pdrive]: New version: [0.7.3] Old Version: [0.7.1]
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-15 02:21:30] INFO root fetch - processPackages [icpp-pro]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-15 02:21:30] INFO root fetch - processPackages [WrenchCL]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.456] Old Version: [2.1.455]
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [pdrive]: Downloading https://files.pythonhosted.org/packages/c7/52/d505d4ab2f5ab77a2c18d0ce65d7ff9ec52cce9f22891f7ca4b36e9a7f92/pdrive-0.7.1.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [icpp-pro]: Downloading https://files.pythonhosted.org/packages/dc/47/4541f22316ce826bc7229e26dcbf66680b25146d5ad9a5d2089e071798ec/icpp-pro-3.8.1.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/9d/25/0dd4b1b148ac3ccb42ddd5b22b4962ad92cba829ed47894b1326c6c40644/cdk-cr-constructs-2.1.455.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/87/f9/7f51730e93d225ecce864b661baefc6ecc78e3a7cb766a189da723991fc3/WrenchCL-1.9.0.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-15 02:21:30] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15165907>=10485760
+[2024-05-15 02:21:30] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-15 02:21:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240515/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-15 02:21:30] INFO root fetch - processPackages [pdrive]: Downloading https://files.pythonhosted.org/packages/48/41/66b1bb859538acf9cf7aab0afe6f482e2e6bc787f16034db9f8d89eec988/pdrive-0.7.3.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/2f/a0/42f64feda8dbe3981a5af310bec189cfbb0bbb8caca905d6b6de3d6687e0/WrenchCL-1.9.1.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [icpp-pro]: Downloading https://files.pythonhosted.org/packages/a1/6f/4cf007d1dd1884a73edb2cb9cac7f11ab7ce7c9aa57c7618eb3b480b3e3e/icpp-pro-3.9.0.tar.gz
+[2024-05-15 02:21:30] INFO root fetch - processPackages [WrenchCL]: executing diffoscope
+[2024-05-15 02:21:30] INFO root fetch - processPackages [WrenchCL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WrenchCL-1.9.0.tar.gz tmp/WrenchCL-1.9.1.tar.gz --markdown 20240515/W/WrenchCL/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 02:21:31] INFO root fetch - processPackages [pdrive]: executing diffoscope
+[2024-05-15 02:21:31] INFO root fetch - processPackages [pdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdrive-0.7.1.tar.gz tmp/pdrive-0.7.3.tar.gz --markdown 20240515/p/pdrive/0.7.1-0.7.3/README.md --exclude *.pyd
+[2024-05-15 02:21:31] INFO root fetch - processPackages [icpp-pro]: executing diffoscope
+[2024-05-15 02:21:31] INFO root fetch - processPackages [icpp-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp-pro-3.8.1.tar.gz tmp/icpp-pro-3.9.0.tar.gz --markdown 20240515/i/icpp-pro/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-05-15 02:21:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-15 02:21:31] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-1.9.0.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-1.9.1.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - main [MainThread]: End processing [WrenchCL]: success
+[2024-05-15 02:21:31] INFO root fetch - processPackages [icpp-pro]: Remove: archive file [/home/abi/fetcher/tmp/icpp-pro-3.8.1.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - processPackages [icpp-pro]: Remove: archive file [/home/abi/fetcher/tmp/icpp-pro-3.9.0.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - main [MainThread]: End processing [icpp-pro]: success
+[2024-05-15 02:21:31] INFO root fetch - processPackages [pdrive]: Remove: archive file [/home/abi/fetcher/tmp/pdrive-0.7.1.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - processPackages [pdrive]: Remove: archive file [/home/abi/fetcher/tmp/pdrive-0.7.3.tar.gz]
+[2024-05-15 02:21:31] INFO root fetch - main [MainThread]: End processing [pdrive]: success
+[2024-05-15 02:21:31] INFO root fetch - main [MainThread]: Store serial: [23209903]
