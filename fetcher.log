@@ -11165,3 +11165,90 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:35:38] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.5.tar.gz]
 [2024-05-15 07:35:38] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2024-05-15 07:35:38] INFO root fetch - main [MainThread]: Store serial: [23213071]
+[2024-05-15 07:37:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213071]
+[2024-05-15 07:37:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlbot-flatbuffers
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gsloc
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartpasslib
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rocksdict
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jccrypto
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agentUniverse
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-mongodb
+[2024-05-15 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pg-sync-roles
+[2024-05-15 07:37:47] WARNING root fetch - processPackages [gsloc]: Skipping, unable to determine old version
+[2024-05-15 07:37:47] INFO root fetch - main [MainThread]: End processing [gsloc] error
+[2024-05-15 07:37:47] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [jccrypto]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/61/19/493aac647b8e3df4fde85b20cde9c44e0d20209b8b0efd6396a454719245/OperationBattleshipCommonUtilities-0.4.8.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [smartpasslib]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [agentUniverse]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [tap-mongodb]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [rlbot-flatbuffers]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/7c/fb/c79d69c168d136a015416576d9ba58501beb4d0bcc203c68d8e6c52d1a6e/jccrypto-1.2.1-py3-none-any.whl
+[2024-05-15 07:37:47] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/81/8e/5734af45c87d09555352c8b25addfe957a816b71056da2c28a1a19905bf7/nonebot_plugin_tetris_stats-1.2.5.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/d7/e8/09497654395b192ecde59d383b1358b1d001f9ada336ebf1ec80ad2ba7a7/rlbot_flatbuffers-0.3.5.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [rocksdict]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-15 07:37:47] INFO root fetch - processPackages [smartpasslib]: Downloading https://files.pythonhosted.org/packages/3c/1c/e077e79c615dcd95aaa80bb8c45efc0da9a68482abc23d66221eee1e2575/smartpasslib-0.3.0.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/8f/f1/dec3d82fcf1f2d503df4b610c8d8c396b8803b38a69afec6de344fef459d/agentuniverse-0.0.5.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [tap-mongodb]: Downloading https://files.pythonhosted.org/packages/6f/45/90dc3af5fe0f0745cbdaed6f61aa3175392c2d2785f5b57db5b88e03731f/tap-mongodb-3.1.1.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/fe/be/3631aa82c0edcad3232063f07860ab05a73d670fcf42b589d7cb039f0ed9/OperationBattleshipCommonUtilities-0.4.9.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/89/61/7e7934659b785030d4cde7ea40d8e83bc84df27f94784e91ca7f09b918c6/jccrypto-1.3.0-py3-none-any.whl
+[2024-05-15 07:37:47] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-15 07:37:47] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz --markdown 20240515/O/OperationBattleshipCommonUtilities/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 07:37:47] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/2c/38/eafa11bc257edf07a90634d634f0208a9a672adbcc7c8f754879e7f3801d/nonebot_plugin_tetris_stats-1.2.6.tar.gz
+[2024-05-15 07:37:47] INFO root fetch - processPackages [rocksdict]: Downloading https://files.pythonhosted.org/packages/01/c2/eeba179cdbdd2715588bed5fac4bd6422da9b03fd039e650655f193b4b33/rocksdict-0.3.8-cp39-none-win_amd64.whl
+[2024-05-15 07:37:47] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-15 07:37:47] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240515/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 07:37:47] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-15 07:37:47] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.2.1-py3-none-any.whl.zip tmp/jccrypto-1.3.0-py3-none-any.whl.zip --markdown 20240515/j/jccrypto/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-15 07:37:47] INFO root fetch - processPackages [smartpasslib]: Downloading https://files.pythonhosted.org/packages/5a/92/e2da01978f87fe671d6317f80dee2a3e4e232bde75560b606458d481afd9/smartpasslib-0.4.0.tar.gz
+[2024-05-15 07:37:48] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-15 07:37:48] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.2.5.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.6.tar.gz --markdown 20240515/n/nonebot-plugin-tetris-stats/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-15 07:37:48] INFO root fetch - processPackages [smartpasslib]: executing diffoscope
+[2024-05-15 07:37:48] INFO root fetch - processPackages [smartpasslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpasslib-0.3.0.tar.gz tmp/smartpasslib-0.4.0.tar.gz --markdown 20240515/s/smartpasslib/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-15 07:37:48] INFO root fetch - processPackages [tap-mongodb]: Downloading https://files.pythonhosted.org/packages/94/7a/046096d38dd93fb5d232c0314cc3a34967b853f3e6982dc9c3d725fa46fa/tap-mongodb-3.1.2.tar.gz
+[2024-05-15 07:37:48] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/e0/32/2b27459e515ebb9fc82d0233caaedb25a8f836a0f53c01e33e16c762261e/agentuniverse-0.0.6.tar.gz
+[2024-05-15 07:37:48] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/02/93/41bb064c2745f9fd613b60e934aa29442267f436de2b7e6b7c59edbbeb61/rlbot_flatbuffers-0.3.6.tar.gz
+[2024-05-15 07:37:48] INFO root fetch - processPackages [tap-mongodb]: executing diffoscope
+[2024-05-15 07:37:48] INFO root fetch - processPackages [tap-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mongodb-3.1.1.tar.gz tmp/tap-mongodb-3.1.2.tar.gz --markdown 20240515/t/tap-mongodb/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-05-15 07:37:48] INFO root fetch - processPackages [agentUniverse]: executing diffoscope
+[2024-05-15 07:37:48] INFO root fetch - processPackages [agentUniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentuniverse-0.0.5.tar.gz tmp/agentuniverse-0.0.6.tar.gz --markdown 20240515/a/agentUniverse/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-15 07:37:48] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.2.1-py3-none-any.whl.zip]
+[2024-05-15 07:37:48] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.3.0-py3-none-any.whl.zip]
+[2024-05-15 07:37:48] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-15 07:37:48] INFO root fetch - processPackages [rlbot-flatbuffers]: executing diffoscope
+[2024-05-15 07:37:48] INFO root fetch - processPackages [rlbot-flatbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_flatbuffers-0.3.5.tar.gz tmp/rlbot_flatbuffers-0.3.6.tar.gz --markdown 20240515/r/rlbot-flatbuffers/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-15 07:37:48] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-15 07:37:48] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.9.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-15 07:37:48] INFO root fetch - processPackages [smartpasslib]: Remove: archive file [/home/abi/fetcher/tmp/smartpasslib-0.3.0.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - processPackages [smartpasslib]: Remove: archive file [/home/abi/fetcher/tmp/smartpasslib-0.4.0.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - main [MainThread]: End processing [smartpasslib]: success
+[2024-05-15 07:37:48] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.5.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.6.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-15 07:37:48] INFO root fetch - processPackages [tap-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tap-mongodb-3.1.1.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - processPackages [tap-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tap-mongodb-3.1.2.tar.gz]
+[2024-05-15 07:37:48] INFO root fetch - main [MainThread]: End processing [tap-mongodb]: success
+[2024-05-15 07:37:49] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.5.tar.gz]
+[2024-05-15 07:37:49] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.6.tar.gz]
+[2024-05-15 07:37:49] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
+[2024-05-15 07:37:49] INFO root fetch - processPackages [rocksdict]: Downloading https://files.pythonhosted.org/packages/e8/d7/7426579e89b1acfb373defdc6de2392d6f433d314f88a11bf83e407ffe44/rocksdict-0.3.9-cp39-none-win_amd64.whl
+[2024-05-15 07:37:50] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.5.tar.gz]
+[2024-05-15 07:37:50] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.6.tar.gz]
+[2024-05-15 07:37:50] INFO root fetch - main [MainThread]: End processing [rlbot-flatbuffers]: success
+[2024-05-15 07:37:50] INFO root fetch - processPackages [rocksdict]: executing diffoscope
+[2024-05-15 07:37:50] INFO root fetch - processPackages [rocksdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocksdict-0.3.8-cp39-none-win_amd64.whl.zip tmp/rocksdict-0.3.9-cp39-none-win_amd64.whl.zip --markdown 20240515/r/rocksdict/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-15 07:37:51] INFO root fetch - processPackages [rocksdict]: Remove: archive file [/home/abi/fetcher/tmp/rocksdict-0.3.8-cp39-none-win_amd64.whl.zip]
+[2024-05-15 07:37:51] INFO root fetch - processPackages [rocksdict]: Remove: archive file [/home/abi/fetcher/tmp/rocksdict-0.3.9-cp39-none-win_amd64.whl.zip]
+[2024-05-15 07:37:51] INFO root fetch - main [MainThread]: End processing [rocksdict]: success
+[2024-05-15 07:37:51] INFO root fetch - main [MainThread]: Store serial: [23213131]
