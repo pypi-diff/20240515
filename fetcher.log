@@ -15895,3 +15895,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:45:04] INFO root fetch - processPackages [xmlplot]: Remove: archive file [/home/abi/fetcher/tmp/xmlplot-0.9.9-py2-none-any.whl.zip]
 [2024-05-15 10:45:04] INFO root fetch - main [MainThread]: End processing [xmlplot]: success
 [2024-05-15 10:45:04] INFO root fetch - main [MainThread]: Store serial: [23214997]
+[2024-05-15 10:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214997]
+[2024-05-15 10:47:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 10:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2024-05-15 10:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-15 10:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2024-05-15 10:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywebframework-uz
+[2024-05-15 10:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galv
+[2024-05-15 10:47:14] INFO root fetch - processPackages [galv]: New version: [2.1.9] Old Version: [2.1.29]
+[2024-05-15 10:47:14] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-15 10:47:14] WARNING root fetch - processPackages [pywebframework-uz]: Skipping, unable to determine old version
+[2024-05-15 10:47:14] INFO root fetch - main [MainThread]: End processing [pywebframework-uz] error
+[2024-05-15 10:47:14] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/63/0b/eae11194ed9b6f0428a373fa4b7a8f9af7b600012fec69c3c6d769b0b593/galv-2.1.29.tar.gz
+[2024-05-15 10:47:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-15 10:47:14] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240515] Old Version: [2.17.0.dev20240514]
+[2024-05-15 10:47:14] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/b8/0b/d4417c37709cf81423d1204af54c886d20a8ea4ffaef0717f4924309ff26/galv-2.1.9.tar.gz
+[2024-05-15 10:47:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-15 10:47:14] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f5/d3/8f6a70bb294804ba979225b8f6f2f8692792397e4cfcf8468d5a0589aa56/tf_nightly_cpu-2.17.0.dev20240514-cp39-cp39-win_amd64.whl
+[2024-05-15 10:47:14] INFO root fetch - processPackages [galv]: executing diffoscope
+[2024-05-15 10:47:14] INFO root fetch - processPackages [galv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv-2.1.29.tar.gz tmp/galv-2.1.9.tar.gz --markdown 20240515/g/galv/2.1.29-2.1.9/README.md --exclude *.pyd
+[2024-05-15 10:47:15] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/06/a2/1822976b31e17299bae87372c17ff8c4e2bf9acb0182bc6d7ce88c6eaff4/tf_nightly_cpu-2.17.0.dev20240515-cp39-cp39-win_amd64.whl
+[2024-05-15 10:47:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-15 10:47:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-15 10:47:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240515/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-15 10:47:15] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-15 10:47:15] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-15 10:47:15] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240515-cp39-cp39-win_amd64.whl.zip --markdown 20240515/t/tf-nightly-cpu/2.17.0.dev20240514-2.17.0.dev20240515/README.md --exclude *.pyd
+[2024-05-15 10:47:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-15 10:47:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-15 10:47:15] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-15 10:47:15] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 10:47:15] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240515-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 10:47:15] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-15 10:47:16] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-15 10:47:16] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-15 10:47:16] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240515/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-15 10:47:18] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-15 10:47:18] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-15 10:47:18] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-15 10:47:18] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.29.tar.gz]
+[2024-05-15 10:47:18] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
+[2024-05-15 10:47:18] INFO root fetch - main [MainThread]: End processing [galv]: success
+[2024-05-15 10:47:18] INFO root fetch - main [MainThread]: Store serial: [23215016]
