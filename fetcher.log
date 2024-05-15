@@ -19452,3 +19452,42 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:59:54] INFO root fetch - processPackages [agentMET4FOF]: Remove: archive file [/home/abi/fetcher/tmp/agentMET4FOF-0.9.0.tar.gz]
 [2024-05-15 12:59:54] INFO root fetch - main [MainThread]: End processing [agentMET4FOF]: success
 [2024-05-15 12:59:54] INFO root fetch - main [MainThread]: Store serial: [23216608]
+[2024-05-15 13:01:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216608]
+[2024-05-15 13:02:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 13:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frequenz-channels
+[2024-05-15 13:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lakefs-sdk
+[2024-05-15 13:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakefs-client
+[2024-05-15 13:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otpcr
+[2024-05-15 13:02:03] INFO root fetch - processPackages [frequenz-channels]: New version: [1.0.0rc1] Old Version: [1.0.0b2]
+[2024-05-15 13:02:03] INFO root fetch - processPackages [lakefs-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 13:02:03] INFO root fetch - processPackages [otpcr]: New version: [9] Old Version: [8]
+[2024-05-15 13:02:03] INFO root fetch - processPackages [lakefs-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 13:02:03] INFO root fetch - processPackages [frequenz-channels]: Downloading https://files.pythonhosted.org/packages/4d/c3/425c2f458eefe484a92a51c0fc660023c09dd15195f9f47c744d394b5b76/frequenz-channels-1.0.0b2.tar.gz
+[2024-05-15 13:02:03] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/57/be/a4450c759e43b20b40f85c0bb00fb07959df9d30e7555c87ec6683a285d8/lakefs-sdk-1.9.0.tar.gz
+[2024-05-15 13:02:04] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/37/0b/8bd06d4112258b1b2c7a9453b3a01eae742c0312cd1f9fdac10d84e634b6/otpcr-8.tar.gz
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/b5/8b/0e57e5ca7f72b64dcd56587dff33da866b14e4d1dd505d5c315efc513c08/lakefs-client-1.9.0.tar.gz
+[2024-05-15 13:02:04] INFO root fetch - processPackages [frequenz-channels]: Downloading https://files.pythonhosted.org/packages/5b/c2/378f42d361d4cdc0c0c60654c72a9d02061a2847d2a8b0ac19a2e9651896/frequenz-channels-1.0.0rc1.tar.gz
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/5e0682fc74d8210e18babfe0e44ebb9eee4c4f86cb6a012c84ba0b18fcc2/lakefs-sdk-1.9.1.tar.gz
+[2024-05-15 13:02:04] INFO root fetch - processPackages [frequenz-channels]: executing diffoscope
+[2024-05-15 13:02:04] INFO root fetch - processPackages [frequenz-channels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-channels-1.0.0b2.tar.gz tmp/frequenz-channels-1.0.0rc1.tar.gz --markdown 20240515/f/frequenz-channels/1.0.0b2-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/71/39/dbe6ee4e66e711c97a1ccfa218019d31013870cb273ac42fd4ac3f84928b/lakefs-client-1.9.1.tar.gz
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-sdk]: executing diffoscope
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-sdk-1.9.0.tar.gz tmp/lakefs-sdk-1.9.1.tar.gz --markdown 20240515/l/lakefs-sdk/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2024-05-15 13:02:04] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-1.9.0.tar.gz tmp/lakefs-client-1.9.1.tar.gz --markdown 20240515/l/lakefs-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 13:02:04] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/54/7e/af8cf1cb765a2f3cb2416931b8e932571cea62c675981c5a5ae52fc76702/otpcr-9.tar.gz
+[2024-05-15 13:02:05] INFO root fetch - processPackages [frequenz-channels]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-channels-1.0.0b2.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - processPackages [frequenz-channels]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-channels-1.0.0rc1.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - main [MainThread]: End processing [frequenz-channels]: success
+[2024-05-15 13:02:05] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-05-15 13:02:05] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-8.tar.gz tmp/otpcr-9.tar.gz --markdown 20240515/o/otpcr/8-9/README.md --exclude *.pyd
+[2024-05-15 13:02:05] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.0.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
+[2024-05-15 13:02:05] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-8.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-9.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-05-15 13:02:05] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.0.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
+[2024-05-15 13:02:05] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2024-05-15 13:02:05] INFO root fetch - main [MainThread]: Store serial: [23216619]
