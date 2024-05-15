@@ -8256,3 +8256,99 @@
 [2024-05-15 04:28:57] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
 [2024-05-15 04:28:57] INFO root fetch - main [MainThread]: End processing [dbgear]: success
 [2024-05-15 04:28:57] INFO root fetch - main [MainThread]: Store serial: [23211775]
+[2024-05-15 04:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211775]
+[2024-05-15 04:31:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: que-binary
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transformer-engine-build-tools-tmp
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-pro
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sindri
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvprocessor
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TurtleMol
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aegis-tools
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: que-binary
+[2024-05-15 04:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qtmodel
+[2024-05-15 04:31:06] WARNING root fetch - processPackages [que-binary]: Skipping, unable to determine old version
+[2024-05-15 04:31:06] INFO root fetch - processPackages [que-binary]: Start processing: ltm-process
+[2024-05-15 04:31:06] INFO root fetch - main [MainThread]: End processing [que-binary] error
+[2024-05-15 04:31:06] WARNING root fetch - processPackages [que-binary]: Skipping, unable to determine old version
+[2024-05-15 04:31:06] INFO root fetch - processPackages [que-binary]: Start processing: swarmauri
+[2024-05-15 04:31:06] INFO root fetch - main [MainThread]: End processing [que-binary] error
+[2024-05-15 04:31:06] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [yplib]: New version: [5.7.4] Old Version: [5.7.3]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 04:31:06] WARNING root fetch - processPackages [transformer-engine-build-tools-tmp]: Skipping, unable to determine old version
+[2024-05-15 04:31:06] INFO root fetch - processPackages [transformer-engine-build-tools-tmp]: Start processing: coretex
+[2024-05-15 04:31:06] INFO root fetch - main [MainThread]: End processing [transformer-engine-build-tools-tmp] error
+[2024-05-15 04:31:06] INFO root fetch - processPackages [TurtleMol]: New version: [0.post0.dev1] Old Version: [0.3.0]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [aegis-tools]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [sindri]: New version: [0.1.0a24] Old Version: [0.1.0a23]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [qtmodel]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-15 04:31:06] WARNING root fetch - processPackages [ltm-process]: Skipping, unable to determine old version
+[2024-05-15 04:31:06] INFO root fetch - main [MainThread]: End processing [ltm-process] error
+[2024-05-15 04:31:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/09/a5/04bff3d2e3a13029e46422ca20e4684149a9515b479852cc21c8e69a2674/yplib-5.7.3.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-15 04:31:06] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [TurtleMol]: Downloading https://files.pythonhosted.org/packages/8b/10/5e239c16df32e20f59c66ee4f24ce7eb207c917c40e9b681d91f9ff73469/turtlemol-0.3.0.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/4f/5c/793ef63ba1e23e5aaad8abcc8fa46c2e90164bdca5ca40e72959b2679623/aegis-tools-2.6.3.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [sindri]: Downloading https://files.pythonhosted.org/packages/4e/a5/d717ad4463bcd7d0bf4083a5e01cbb57181db5f6224f558f1319fb1e5619/sindri-0.1.0a23.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/27/26/51c9ea7e4aa417fd3485740917cbfcce87431fa8f22ca7345dd0873ddc35/qtmodel-0.2.9.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f3/8d/7b5879e375320a7a59bdac4eb034f421823708e949537a5950c4c3adc6e4/yplib-5.7.4.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-05-15 04:31:06] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 04:31:06] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 04:31:06] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-15 04:31:06] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.7.3.tar.gz tmp/yplib-5.7.4.tar.gz --markdown 20240515/y/yplib/5.7.3-5.7.4/README.md --exclude *.pyd
+[2024-05-15 04:31:06] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-15 04:31:06] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240515/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 04:31:06] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 04:31:06] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 04:31:06] INFO root fetch - processPackages [TurtleMol]: Downloading https://files.pythonhosted.org/packages/85/26/c181553ebd7379a1782ad49e73e4a363c5aaacea060cbfe207fafffa170e/TurtleMol-0.post0.dev1.tar.gz
+[2024-05-15 04:31:07] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-05-15 04:31:07] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240515/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-15 04:31:07] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/bd/47/01fc0ce638969ded223a249a324bc455d0dc5aa21de846be3f4091c91547/aegis-tools-2.6.4.tar.gz
+[2024-05-15 04:31:07] INFO root fetch - processPackages [sindri]: Downloading https://files.pythonhosted.org/packages/3f/13/e5c044fa94c67eb35be9b30aefb3e94c05846dc8cfea26799665cc24e5ee/sindri-0.1.0a24.tar.gz
+[2024-05-15 04:31:07] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/07/d5/da5da089b5c0a97e166256d1586210950c76e54b1b1c0d3e81e223abd8a1/qtmodel-0.3.0.tar.gz
+[2024-05-15 04:31:07] INFO root fetch - processPackages [TurtleMol]: executing diffoscope
+[2024-05-15 04:31:07] INFO root fetch - processPackages [TurtleMol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turtlemol-0.3.0.tar.gz tmp/TurtleMol-0.post0.dev1.tar.gz --markdown 20240515/T/TurtleMol/0.3.0-0.post0.dev1/README.md --exclude *.pyd
+[2024-05-15 04:31:07] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-05-15 04:31:07] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.6.3.tar.gz tmp/aegis-tools-2.6.4.tar.gz --markdown 20240515/a/aegis-tools/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-05-15 04:31:07] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-15 04:31:07] INFO root fetch - processPackages [sindri]: executing diffoscope
+[2024-05-15 04:31:07] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.9.tar.gz tmp/qtmodel-0.3.0.tar.gz --markdown 20240515/q/qtmodel/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-15 04:31:07] INFO root fetch - processPackages [sindri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sindri-0.1.0a23.tar.gz tmp/sindri-0.1.0a24.tar.gz --markdown 20240515/s/sindri/0.1.0a23-0.1.0a24/README.md --exclude *.pyd
+[2024-05-15 04:31:07] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-15 04:31:07] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 04:31:07] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.3.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.4.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-15 04:31:07] INFO root fetch - processPackages [sindri]: Remove: archive file [/home/abi/fetcher/tmp/sindri-0.1.0a23.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - processPackages [sindri]: Remove: archive file [/home/abi/fetcher/tmp/sindri-0.1.0a24.tar.gz]
+[2024-05-15 04:31:07] INFO root fetch - main [MainThread]: End processing [sindri]: success
+[2024-05-15 04:31:08] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.9.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.0.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-15 04:31:08] INFO root fetch - processPackages [TurtleMol]: Remove: archive file [/home/abi/fetcher/tmp/turtlemol-0.3.0.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - processPackages [TurtleMol]: Remove: archive file [/home/abi/fetcher/tmp/TurtleMol-0.post0.dev1.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - main [MainThread]: End processing [TurtleMol]: success
+[2024-05-15 04:31:08] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.6.3.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.6.4.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-05-15 04:31:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 04:31:08] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-05-15 04:31:08] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-05-15 04:31:08] INFO root fetch - main [MainThread]: Store serial: [23211813]
