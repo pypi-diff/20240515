@@ -12238,3 +12238,69 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:15:09] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715752747.tar.gz]
 [2024-05-15 08:15:09] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-05-15 08:15:09] INFO root fetch - main [MainThread]: Store serial: [23213507]
+[2024-05-15 08:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213507]
+[2024-05-15 08:17:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valmi-connector-lib
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solarlog-cli
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-llama
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: increff-runner
+[2024-05-15 08:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-civo
+[2024-05-15 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240514] Old Version: [20240511]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/f9/1b/4dc66e42d9c55c20e96f82898d05723d39b7e2980b0ef01f04af9e680d4d/fake_bpy_module-20240511.tar.gz
+[2024-05-15 08:17:18] INFO root fetch - processPackages [solarlog-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240515] Old Version: [20240514]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715752908] Old Version: [2.4.0a1715356631]
+[2024-05-15 08:17:18] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-15 08:17:18] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8d/2b/f31ed315a0ce22c90f41379ab0ca642761b83b68e07781ca6c536fe20041/fake_bpy_module_latest-20240514.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [solarlog-cli]: Downloading https://files.pythonhosted.org/packages/b8/87/0fd9b8bb098069559cefffcad6648d1b3423ebb8a590d5af7244b0cb6315/solarlog_cli-0.1.4.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b6/6d/6634bf7d3bfc8f9790161f6e486d47e0f29e14b782f28de3efdc9716f084/pulumi_civo-2.4.0a1715356631.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/84/d3/a023c43329868806e8698f7e4e4698c89df2723d02da9f662a172d5c35a9/fake_bpy_module-20240514.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-15 08:17:19] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240515/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-15 08:17:19] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240515/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-15 08:17:19] INFO root fetch - processPackages [solarlog-cli]: Downloading https://files.pythonhosted.org/packages/75/ca/e78d0fc58c09b29cfd3cbc291733573096da473f10d402edc754cf6b75ae/solarlog_cli-0.1.5.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240511.tar.gz tmp/fake_bpy_module-20240514.tar.gz --markdown 20240515/f/fake-bpy-module/20240511-20240514/README.md --exclude *.pyd
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d9/57/355d2b95a0b7cb626c834a6f7e77674a5e748fb3be373f2cfec8629af7b9/fake_bpy_module_latest-20240515.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/90/ca/b58c5783f46a6a55bbc75f63c8c98c3f4ae6050a4daba38a7b6bc6a92a1a/pulumi_civo-2.4.0a1715752908.tar.gz
+[2024-05-15 08:17:19] INFO root fetch - processPackages [solarlog-cli]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [solarlog-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarlog_cli-0.1.4.tar.gz tmp/solarlog_cli-0.1.5.tar.gz --markdown 20240515/s/solarlog-cli/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-15 08:17:19] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240515/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 08:17:19] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715356631.tar.gz tmp/pulumi_civo-2.4.0a1715752908.tar.gz --markdown 20240515/p/pulumi-civo/2.4.0a1715356631-2.4.0a1715752908/README.md --exclude *.pyd
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-15 08:17:19] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240514.tar.gz tmp/fake_bpy_module_latest-20240515.tar.gz --markdown 20240515/f/fake-bpy-module-latest/20240514-20240515/README.md --exclude *.pyd
+[2024-05-15 08:17:20] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-15 08:17:20] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-15 08:17:20] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-15 08:17:20] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-15 08:17:20] INFO root fetch - processPackages [solarlog-cli]: Remove: archive file [/home/abi/fetcher/tmp/solarlog_cli-0.1.4.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - processPackages [solarlog-cli]: Remove: archive file [/home/abi/fetcher/tmp/solarlog_cli-0.1.5.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - main [MainThread]: End processing [solarlog-cli]: success
+[2024-05-15 08:17:20] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-15 08:17:20] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715356631.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715752908.tar.gz]
+[2024-05-15 08:17:20] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-15 08:17:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240511.tar.gz]
+[2024-05-15 08:17:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240514.tar.gz]
+[2024-05-15 08:17:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-15 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240514.tar.gz]
+[2024-05-15 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240515.tar.gz]
+[2024-05-15 08:17:27] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-15 08:17:27] INFO root fetch - main [MainThread]: Store serial: [23213527]
