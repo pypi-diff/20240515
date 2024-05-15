@@ -15937,3 +15937,102 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:47:18] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
 [2024-05-15 10:47:18] INFO root fetch - main [MainThread]: End processing [galv]: success
 [2024-05-15 10:47:18] INFO root fetch - main [MainThread]: Store serial: [23215016]
+[2024-05-15 10:49:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215016]
+[2024-05-15 10:49:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almgroad
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: warskald
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycrux
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbpy
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: th2-grpc-lw-data-provider
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydicomutils
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyncview
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sft-data-generator
+[2024-05-15 10:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbpack
+[2024-05-15 10:49:29] INFO root fetch - processPackages [almgroad]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-15 10:49:29] WARNING root fetch - processPackages [warskald]: Skipping, unable to determine old version
+[2024-05-15 10:49:29] INFO root fetch - processPackages [warskald]: Start processing: qgis-plugin-manager
+[2024-05-15 10:49:29] INFO root fetch - main [MainThread]: End processing [warskald] error
+[2024-05-15 10:49:29] INFO root fetch - processPackages [vbpy]: New version: [1.1] Old Version: [1.0]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [pycrux]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [pyncview]: New version: [0.99.38] Old Version: [0.99.36]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/95/8f/1ded5ae6854f30abf9074025f95b7eb2ef8556c785b39100e51a44eea809/almgroad-0.0.4-py3-none-any.whl
+[2024-05-15 10:49:29] WARNING root fetch - processPackages [sft-data-generator]: Skipping, unable to determine old version
+[2024-05-15 10:49:29] INFO root fetch - processPackages [sft-data-generator]: Start processing: tanu
+[2024-05-15 10:49:29] INFO root fetch - main [MainThread]: End processing [sft-data-generator] error
+[2024-05-15 10:49:29] INFO root fetch - processPackages [sbpack]: New version: [2024.5.7rc1] Old Version: [2024.2.2rc1]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [pydicomutils]: New version: [0.2.1] Old Version: [0.1.3]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.4.0.dev9065635110] Old Version: [2.4.0.dev9065606558]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [tanu]: New version: [0.1.4.3] Old Version: [0.1.4.2]
+[2024-05-15 10:49:29] INFO root fetch - processPackages [qgis-plugin-manager]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-15 10:49:30] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/e7/ad/c0a1f5790c7780e3a57795c8b2732353b1bf7bff14cef7261dd30ed04ef9/tanu-0.1.4.2.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/07/21/1e4d6ff9504f5fda830bad6d9d134dbff6d6d4bac693ee5c7d7ca0d9567e/vbpy-1.0.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pycrux]: Downloading https://files.pythonhosted.org/packages/64/cc/d6a65b293b217447bc25f2d58fae4902f8be43beeb67589b4db372b01a7a/pycrux-0.6.0.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pydicomutils]: Downloading https://files.pythonhosted.org/packages/17/ab/fb0bf0b86ee099881fb8f4b38fb46b31c89eba7d9a65ddfae8340ed07def/pydicomutils-0.1.3.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pyncview]: Downloading https://files.pythonhosted.org/packages/0a/db/bf786bc3b9917f13c2b5530493be5c693f7e00b3b2a338f1d8f923e9807a/pyncview-0.99.36-py3-none-any.whl
+[2024-05-15 10:49:30] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/b1/11/53b82303c07ef22008035ed04512ac0fb08f9913c466a98b029bafcc59ff/sbpack-2024.2.2rc1-py3-none-any.whl
+[2024-05-15 10:49:30] INFO root fetch - processPackages [qgis-plugin-manager]: Downloading https://files.pythonhosted.org/packages/ee/e9/9978e02de1eeb73c3bb217589dcc099abd35421aa14fd26bde6dadb1f551/qgis-plugin-manager-1.6.1.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-15 10:49:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/f1/c2/d3ba4618a30eb59a2fa2f9c8b4cf326629a78d7977089534cfec16e3e28c/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/b3/88/39aaa3b31e34eb4821212379875c7d205b99bdae1ace9c839e2eb21b9027/almgroad-0.0.5-py3-none-any.whl
+[2024-05-15 10:49:30] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/fe/6c/337ce0f3a6aa1f4ecb1abd1a2e38c2a1bc895ffbce58eb9f8e29a266e8d6/tanu-0.1.4.3.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [almgroad]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [almgroad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almgroad-0.0.4-py3-none-any.whl.zip tmp/almgroad-0.0.5-py3-none-any.whl.zip --markdown 20240515/a/almgroad/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.4.2.tar.gz tmp/tanu-0.1.4.3.tar.gz --markdown 20240515/t/tanu/0.1.4.2-0.1.4.3/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/4f/3e/a9b4e12126565b5e59fcffe764bea0716c182ed379ff195ac33a19cddbde/vbpy-1.1.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pyncview]: Downloading https://files.pythonhosted.org/packages/29/e0/d9ea40dfb912a022d968ae3d5b4995ccb6a578296375a1352306c403225c/pyncview-0.99.38.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pycrux]: Downloading https://files.pythonhosted.org/packages/bb/2f/ec67615cca7846adb050764c2fdd2972cdd84ca3791d385b76547ce26f83/pycrux-0.7.0.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [qgis-plugin-manager]: Downloading https://files.pythonhosted.org/packages/3b/e9/035f91d0b0b541996393cc827db8f5997d72f7f982bfebed4870a094ae1a/qgis-plugin-manager-1.6.2.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pydicomutils]: Downloading https://files.pythonhosted.org/packages/70/e2/6edf43323d90b50f02830006386db58471a915c9e36acd84c2ca886e2303/pydicomutils-0.2.1.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/7b/e8/9553d885a7ba5f953c82958831ccf5fb06fe37d214adac0632a86a67e9bf/sbpack-2024.5.7rc1-py3-none-any.whl
+[2024-05-15 10:49:30] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-1.0.tar.gz tmp/vbpy-1.1.tar.gz --markdown 20240515/v/vbpy/1.0-1.1/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/fc/15/9b14a1912af313d73a31f027276a0ea57a15628f9bee7890ec5675e361e0/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pyncview]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pyncview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncview-0.99.36-py3-none-any.whl.zip tmp/pyncview-0.99.38.tar.gz --markdown 20240515/p/pyncview/0.99.36-0.99.38/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pycrux]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pycrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrux-0.6.0.tar.gz tmp/pycrux-0.7.0.tar.gz --markdown 20240515/p/pycrux/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [qgis-plugin-manager]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [qgis-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-plugin-manager-1.6.1.tar.gz tmp/qgis-plugin-manager-1.6.2.tar.gz --markdown 20240515/q/qgis-plugin-manager/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pydicomutils]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [pydicomutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicomutils-0.1.3.tar.gz tmp/pydicomutils-0.2.1.tar.gz --markdown 20240515/p/pydicomutils/0.1.3-0.2.1/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [sbpack]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [sbpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbpack-2024.2.2rc1-py3-none-any.whl.zip tmp/sbpack-2024.5.7rc1-py3-none-any.whl.zip --markdown 20240515/s/sbpack/2024.2.2rc1-2024.5.7rc1/README.md --exclude *.pyd
+[2024-05-15 10:49:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2024-05-15 10:49:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz --markdown 20240515/t/th2-grpc-lw-data-provider/2.4.0.dev9065606558-2.4.0.dev9065635110/README.md --exclude *.pyd
+[2024-05-15 10:49:31] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-15 10:49:31] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.4-py3-none-any.whl.zip]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.5-py3-none-any.whl.zip]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [almgroad]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-15 10:49:31] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240515/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-15 10:49:31] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.2.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.3.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-1.0.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-1.1.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [pyncview]: Remove: archive file [/home/abi/fetcher/tmp/pyncview-0.99.36-py3-none-any.whl.zip]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [pycrux]: Remove: archive file [/home/abi/fetcher/tmp/pycrux-0.6.0.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [pycrux]: Remove: archive file [/home/abi/fetcher/tmp/pycrux-0.7.0.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [pyncview]: Remove: archive file [/home/abi/fetcher/tmp/pyncview-0.99.38.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [pycrux]: success
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [pyncview]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [qgis-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-manager-1.6.1.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [qgis-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-manager-1.6.2.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [qgis-plugin-manager]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [pydicomutils]: Remove: archive file [/home/abi/fetcher/tmp/pydicomutils-0.1.3.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [pydicomutils]: Remove: archive file [/home/abi/fetcher/tmp/pydicomutils-0.2.1.tar.gz]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [pydicomutils]: success
+[2024-05-15 10:49:31] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2024.2.2rc1-py3-none-any.whl.zip]
+[2024-05-15 10:49:31] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2024.5.7rc1-py3-none-any.whl.zip]
+[2024-05-15 10:49:31] INFO root fetch - main [MainThread]: End processing [sbpack]: success
+[2024-05-15 10:49:34] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-15 10:49:34] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-15 10:49:34] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-15 10:49:34] INFO root fetch - main [MainThread]: Store serial: [23215049]
