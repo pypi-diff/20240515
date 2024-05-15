@@ -3173,3 +3173,29 @@
 [2024-05-15 02:32:30] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
 [2024-05-15 02:32:30] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
 [2024-05-15 02:32:30] INFO root fetch - main [MainThread]: Store serial: [23209998]
+[2024-05-15 02:34:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209998]
+[2024-05-15 02:34:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 02:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: altscore-workflow-builder
+[2024-05-15 02:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpflib
+[2024-05-15 02:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odc-geo
+[2024-05-15 02:34:38] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-15 02:34:38] INFO root fetch - processPackages [altscore-workflow-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 02:34:38] INFO root fetch - processPackages [odc-geo]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-15 02:34:38] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-15 02:34:38] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-15 02:34:38] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-15 02:34:38] INFO root fetch - processPackages [altscore-workflow-builder]: Downloading https://files.pythonhosted.org/packages/f0/fa/89cca82209a4c117e11fbf9e81a7731baafe7d98942d787c62e02ca375da/altscore_workflow_builder-0.0.8.tar.gz
+[2024-05-15 02:34:38] INFO root fetch - processPackages [odc-geo]: Downloading https://files.pythonhosted.org/packages/72/54/455363b57f6b388478de41f5091015932e61503f1f64a062a0e3f11d4bce/odc_geo-0.4.4.tar.gz
+[2024-05-15 02:34:39] INFO root fetch - processPackages [odc-geo]: Downloading https://files.pythonhosted.org/packages/b5/f5/0472cbc14657506655e659a61d633be9a61d22b852ee5c905008a7e9a3b8/odc_geo-0.4.5.tar.gz
+[2024-05-15 02:34:39] INFO root fetch - processPackages [altscore-workflow-builder]: Downloading https://files.pythonhosted.org/packages/68/8d/c9a42a6d012c1a9fb9ef55b57e3251bfa8d248169a64513b839c30038528/altscore_workflow_builder-0.0.9.tar.gz
+[2024-05-15 02:34:39] INFO root fetch - processPackages [altscore-workflow-builder]: executing diffoscope
+[2024-05-15 02:34:39] INFO root fetch - processPackages [altscore-workflow-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore_workflow_builder-0.0.8.tar.gz tmp/altscore_workflow_builder-0.0.9.tar.gz --markdown 20240515/a/altscore-workflow-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 02:34:39] INFO root fetch - processPackages [odc-geo]: executing diffoscope
+[2024-05-15 02:34:39] INFO root fetch - processPackages [odc-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odc_geo-0.4.4.tar.gz tmp/odc_geo-0.4.5.tar.gz --markdown 20240515/o/odc-geo/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-15 02:34:39] INFO root fetch - processPackages [altscore-workflow-builder]: Remove: archive file [/home/abi/fetcher/tmp/altscore_workflow_builder-0.0.8.tar.gz]
+[2024-05-15 02:34:39] INFO root fetch - processPackages [altscore-workflow-builder]: Remove: archive file [/home/abi/fetcher/tmp/altscore_workflow_builder-0.0.9.tar.gz]
+[2024-05-15 02:34:39] INFO root fetch - main [MainThread]: End processing [altscore-workflow-builder]: success
+[2024-05-15 02:34:40] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc_geo-0.4.4.tar.gz]
+[2024-05-15 02:34:40] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc_geo-0.4.5.tar.gz]
+[2024-05-15 02:34:40] INFO root fetch - main [MainThread]: End processing [odc-geo]: success
+[2024-05-15 02:34:40] INFO root fetch - main [MainThread]: Store serial: [23210007]
