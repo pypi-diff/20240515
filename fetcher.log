@@ -22319,3 +22319,45 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:43:58] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240515-py3-none-win_amd64.whl.zip]
 [2024-05-15 14:43:58] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-15 14:43:58] INFO root fetch - main [MainThread]: Store serial: [23217763]
+[2024-05-15 14:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217763]
+[2024-05-15 14:46:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-15 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyland
+[2024-05-15 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotsos
+[2024-05-15 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enabler-keitaro-inc
+[2024-05-15 14:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-cost-allocation
+[2024-05-15 14:46:07] WARNING root fetch - processPackages [enabler-keitaro-inc]: Skipping, unable to determine old version
+[2024-05-15 14:46:07] INFO root fetch - main [MainThread]: End processing [enabler-keitaro-inc] error
+[2024-05-15 14:46:07] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-15 14:46:07] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-15 14:46:07] INFO root fetch - processPackages [cloud-cost-allocation]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 14:46:07] INFO root fetch - processPackages [easyland]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-15 14:46:07] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-15 14:46:07] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/b6/fa/85d2e2953219e300de3c7a79070f36d17e65fa7649298bc72a62ffaafcef/easyland-0.7.5.tar.gz
+[2024-05-15 14:46:07] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-15 14:46:07] INFO root fetch - processPackages [cloud-cost-allocation]: Downloading https://files.pythonhosted.org/packages/ea/a8/dbfda8bef8fc9d7e0cb5670b01970b09f05930d5f96bd6f2b417b59c5b6b/cloud-cost-allocation-1.0.8.tar.gz
+[2024-05-15 14:46:07] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-15 14:46:07] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-15 14:46:07] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240515/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:46:08] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/98/75/fc05da040561d1d6f8d07700a5d415ceb37334f1f98ccc94573882f58b8b/easyland-0.7.6.tar.gz
+[2024-05-15 14:46:08] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-15 14:46:08] INFO root fetch - processPackages [cloud-cost-allocation]: Downloading https://files.pythonhosted.org/packages/2e/c3/35519de9fec8665fc77d8943686c190de4baa7053fa0f1405a9edf94444c/cloud-cost-allocation-1.0.9.tar.gz
+[2024-05-15 14:46:08] INFO root fetch - processPackages [easyland]: executing diffoscope
+[2024-05-15 14:46:08] INFO root fetch - processPackages [easyland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyland-0.7.5.tar.gz tmp/easyland-0.7.6.tar.gz --markdown 20240515/e/easyland/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-15 14:46:08] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-15 14:46:08] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240515/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-15 14:46:08] INFO root fetch - processPackages [cloud-cost-allocation]: executing diffoscope
+[2024-05-15 14:46:08] INFO root fetch - processPackages [cloud-cost-allocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-cost-allocation-1.0.8.tar.gz tmp/cloud-cost-allocation-1.0.9.tar.gz --markdown 20240515/c/cloud-cost-allocation/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 14:46:08] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-15 14:46:08] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-15 14:46:08] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-15 14:46:08] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.5.tar.gz]
+[2024-05-15 14:46:08] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.6.tar.gz]
+[2024-05-15 14:46:08] INFO root fetch - main [MainThread]: End processing [easyland]: success
+[2024-05-15 14:46:09] INFO root fetch - processPackages [cloud-cost-allocation]: Remove: archive file [/home/abi/fetcher/tmp/cloud-cost-allocation-1.0.8.tar.gz]
+[2024-05-15 14:46:09] INFO root fetch - processPackages [cloud-cost-allocation]: Remove: archive file [/home/abi/fetcher/tmp/cloud-cost-allocation-1.0.9.tar.gz]
+[2024-05-15 14:46:09] INFO root fetch - main [MainThread]: End processing [cloud-cost-allocation]: success
+[2024-05-15 14:46:09] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-15 14:46:09] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-15 14:46:09] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-15 14:46:09] INFO root fetch - main [MainThread]: Store serial: [23217784]
