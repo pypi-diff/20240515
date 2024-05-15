@@ -19623,3 +19623,123 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:08:43] INFO root fetch - processPackages [goldenverba]: Remove: archive file [/home/abi/fetcher/tmp/goldenverba-0.4.0.tar.gz]
 [2024-05-15 13:08:43] INFO root fetch - main [MainThread]: End processing [goldenverba]: success
 [2024-05-15 13:08:43] INFO root fetch - main [MainThread]: Store serial: [23216669]
+[2024-05-15 13:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216669]
+[2024-05-15 13:10:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ClappScrapers
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polars-expr-transformer
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-models
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-protos
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-sdk
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-telemetry
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: approck-fastapi-utils
+[2024-05-15 13:10:52] INFO root fetch - processPackages [polars-expr-transformer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 13:10:52] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:52] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 13:10:52] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:52] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post503] Old Version: [3.1.0.post502]
+[2024-05-15 13:10:53] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-15 13:10:53] INFO root fetch - processPackages [approck-fastapi-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/4c/ca/76ee507c87d8fdbd6e90db44ab62057f47a29560d341eb96fdca65ce8949/nucliadb_utils-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/30/e8/b5a124517b8f4979dc00a8c14c2c65e33a77f1a3dd34d0d0bc2ad7c9742e/polars_expr_transformer-0.1.2.tar.gz
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a4/cf/c5b8208abbdafd4495d45de7851170923d13e4b288017c6c3aa7531c35ff/nucliadb_sdk-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/1c/88/71c57509d018394803f51b26c5be9bb4e971a2ecf2518d1419932210e1de/nucliadb_models-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/d9/f1/4d11571635571179578ba9230bb77f9d87b913906c92a66b11af980cf77f/nucliadb_telemetry-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/16/9c/d97a24368d219fe98020f9db382a40d1e2194e21ecb3a8fc2b6170e7870e/nucliadb-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/88/2b/aabf3c67c3a330283881d75bdc3b93f95e7fe9348ec08c67ea403f33a44c/nucliadb_dataset-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b1/5d/c386a8d9cd30ccc88f3abae7bc60c881fb7999630ee9c0b32b4386f0f326/nucliadb_protos-3.1.0.post502-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [approck-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/df/9f/e9d4066ddb835d9230cbc7401a0fceedc19ece7959a5eae2de58bd36f329/approck_fastapi_utils-0.1.3.tar.gz
+[2024-05-15 13:10:53] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-15 13:10:53] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/f5/eb/6e527ee3b9e813eab74652e3dd80a546adb96200deb80f62337709bd8f80/polars_expr_transformer-0.1.3.tar.gz
+[2024-05-15 13:10:53] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240515/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [polars-expr-transformer]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [polars-expr-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_expr_transformer-0.1.2.tar.gz tmp/polars_expr_transformer-0.1.3.tar.gz --markdown 20240515/p/polars-expr-transformer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/19/12/f14d7590752af1cb8efc6af26191b3412a91ccd81c2621f4a676d1ea6432/nucliadb_utils-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/40/88/e8968bf19f89832436f36a636e278b74f69d18af4e8a38efb8b505399c96/nucliadb_sdk-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/95/ab/2a04e13b0bfbdcbe0d362d952a0b1c3fade7ab2a1e0a5475b0e678fb161c/nucliadb_models-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f1/d7/3641897ffd2e8958c113ba9ca5e74e8a6c737579847e52645bfa3d0b662e/nucliadb_telemetry-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/4c/71/ac7419c54692f7339479b3c616661d1af54a75782488747ecf53a3a2b3a7/nucliadb_dataset-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/20/da/36a937ec806c7c57e5502cd0af3f4522b1863a9e6c3ecdc6e4546b6041d2/nucliadb-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/3a/56/10d37dce909001b5eb6789758dc9e9e36485b75b617fa624e377888e99f3/nucliadb_protos-3.1.0.post503-py3-none-any.whl
+[2024-05-15 13:10:53] INFO root fetch - processPackages [approck-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/80/ca/fe901c16a56cd82b419c10288b336326ede08cf7513d67135460699abafc/approck_fastapi_utils-0.1.4.tar.gz
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-utils/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-sdk/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-models/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-dataset/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-telemetry/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-protos/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [approck-fastapi-utils]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [approck-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approck_fastapi_utils-0.1.3.tar.gz tmp/approck_fastapi_utils-0.1.4.tar.gz --markdown 20240515/a/approck-fastapi-utils/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-15 13:10:53] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post502-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post503-py3-none-any.whl.zip --markdown 20240515/n/nucliadb/3.1.0.post502-3.1.0.post503/README.md --exclude *.pyd
+[2024-05-15 13:10:54] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [ClappScrapers]: Start processing: valmi-connector-lib
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-15 13:10:54] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.2.tar.gz]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.3.tar.gz]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [polars-expr-transformer]: Start processing: ImageDimensionCheck
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [polars-expr-transformer]: success
+[2024-05-15 13:10:54] INFO root fetch - processPackages [ImageDimensionCheck]: New version: [1.3] Old Version: [1.2]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-15 13:10:54] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/77/52/f5d526f08be76138abd611898ff2e918130b23179744c8a859e245f5b006/ImageDimensionCheck-1.2-py3-none-any.whl
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: promptflow-python-bundle
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-15 13:10:54] INFO root fetch - processPackages [approck-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_fastapi_utils-0.1.3.tar.gz]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [approck-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_fastapi_utils-0.1.4.tar.gz]
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [approck-fastapi-utils]: success
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-15 13:10:54] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-15 13:10:54] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-15 13:10:55] INFO root fetch - processPackages [promptflow-python-bundle]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-15 13:10:55] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:55] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:55] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-15 13:10:55] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:55] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:55] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-15 13:10:55] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-15 13:10:55] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240515/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-15 13:10:55] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/c9/9a/de71506c20efb79b9680fd04f2a6e029260739369e8bd59b0b42eeccdf93/ImageDimensionCheck-1.3-py3-none-any.whl
+[2024-05-15 13:10:55] INFO root fetch - processPackages [promptflow-python-bundle]: Downloading https://files.pythonhosted.org/packages/2a/25/3962c59092a486b4572e3529c6304df8db9d0f5ca140b975aa0bc9df9cbc/promptflow_python_bundle-0.1.0-py3-none-any.whl
+[2024-05-15 13:10:55] INFO root fetch - processPackages [ImageDimensionCheck]: executing diffoscope
+[2024-05-15 13:10:55] INFO root fetch - processPackages [ImageDimensionCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageDimensionCheck-1.2-py3-none-any.whl.zip tmp/ImageDimensionCheck-1.3-py3-none-any.whl.zip --markdown 20240515/I/ImageDimensionCheck/1.2-1.3/README.md --exclude *.pyd
+[2024-05-15 13:10:55] INFO root fetch - processPackages [promptflow-python-bundle]: Downloading https://files.pythonhosted.org/packages/8d/f0/2103e0d4ee9b8fff24f6d2ca8d16991f455052b45ec2493895fece4a6cdc/promptflow_python_bundle-0.2.0-py3-none-any.whl
+[2024-05-15 13:10:55] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-15 13:10:55] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-15 13:10:55] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-15 13:10:55] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.2-py3-none-any.whl.zip]
+[2024-05-15 13:10:55] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.3-py3-none-any.whl.zip]
+[2024-05-15 13:10:55] INFO root fetch - main [MainThread]: End processing [ImageDimensionCheck]: success
+[2024-05-15 13:10:55] INFO root fetch - processPackages [promptflow-python-bundle]: executing diffoscope
+[2024-05-15 13:10:55] INFO root fetch - processPackages [promptflow-python-bundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_python_bundle-0.1.0-py3-none-any.whl.zip tmp/promptflow_python_bundle-0.2.0-py3-none-any.whl.zip --markdown 20240515/p/promptflow-python-bundle/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-15 13:10:56] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 13:10:56] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post503-py3-none-any.whl.zip]
+[2024-05-15 13:10:56] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-15 13:10:56] INFO root fetch - processPackages [promptflow-python-bundle]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_python_bundle-0.1.0-py3-none-any.whl.zip]
+[2024-05-15 13:10:56] INFO root fetch - processPackages [promptflow-python-bundle]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_python_bundle-0.2.0-py3-none-any.whl.zip]
+[2024-05-15 13:10:56] INFO root fetch - main [MainThread]: End processing [promptflow-python-bundle]: success
+[2024-05-15 13:10:56] INFO root fetch - main [MainThread]: Store serial: [23216699]
