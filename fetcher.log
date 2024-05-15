@@ -14827,3 +14827,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:07:27] INFO root fetch - processPackages [jupyter-rfb]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rfb-0.4.4.tar.gz]
 [2024-05-15 10:07:27] INFO root fetch - main [MainThread]: End processing [jupyter-rfb]: success
 [2024-05-15 10:07:27] INFO root fetch - main [MainThread]: Store serial: [23214575]
+[2024-05-15 10:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214575]
+[2024-05-15 10:09:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 10:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuickStart-Rhy
+[2024-05-15 10:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcai-nova-utils
+[2024-05-15 10:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-05-15 10:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compas-viewer
+[2024-05-15 10:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-analytics-core
+[2024-05-15 10:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: general-navigation
+[2024-05-15 10:09:37] INFO root fetch - processPackages [compas-viewer]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-15 10:09:37] INFO root fetch - processPackages [general-navigation]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-15 10:09:37] INFO root fetch - processPackages [hcai-nova-utils]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-15 10:09:37] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240514] Old Version: [0.4.5.dev20240513]
+[2024-05-15 10:09:37] INFO root fetch - processPackages [compas-viewer]: Downloading https://files.pythonhosted.org/packages/a5/b9/25ee3d8ff9a275f7b37d65495ede4adef2ac4832d82a42e6040ab5b57912/compas_viewer-1.1.3.tar.gz
+[2024-05-15 10:09:37] INFO root fetch - processPackages [data-analytics-core]: New version: [1.0.27] Old Version: [1.0.26]
+[2024-05-15 10:09:37] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/cd/72/bf4767e59b00605b32a233cbb32dbb7becf96ade5da606bdf321106f8615/pyglove-0.4.5.dev20240513.tar.gz
+[2024-05-15 10:09:37] INFO root fetch - processPackages [QuickStart-Rhy]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-15 10:09:37] INFO root fetch - processPackages [hcai-nova-utils]: Downloading https://files.pythonhosted.org/packages/fe/d6/f29b12c15e8f5fd56cbdccc2870af80d0fc8518704a2fa2be1d247ae37cd/hcai-nova-utils-1.6.4.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/e8/e6/93b0e834e299a19d49c5b597babbd9f8d439421ab1637bfa455fbb1c67ad/general_navigation-0.1.0.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [QuickStart-Rhy]: Downloading https://files.pythonhosted.org/packages/00/46/101456ed92418b02a3448f81bb9d3ddcbc23c5f27de3115c47e5c966894c/quickstart_rhy-0.7.8.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [data-analytics-core]: Downloading https://files.pythonhosted.org/packages/8d/98/8a88b140f6cde2cd7418f1df4fbe8dde6b4cea0f58540a8b542cfa0cdb4d/data-analytics-core-1.0.26.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [hcai-nova-utils]: Downloading https://files.pythonhosted.org/packages/1f/ac/d05ae74734b5a6cce6e0ef284fd858ae46ba7a961d5f201c361f49189812/hcai-nova-utils-1.6.5.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [compas-viewer]: Downloading https://files.pythonhosted.org/packages/82/4c/84646d4d4c487ab61783e141ce1885bcb996726cafa01dac174ed3c8f57a/compas_viewer-1.1.4.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/11/c7/040711e7eb9ace162f72a2cebbbe9b7fa6aee3877c0bd7b2f73b3fd80675/pyglove-0.4.5.dev20240514.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/52/8b/70a45dfc4faafe941280db7328cf97c2c4b295222d95856a9e7b773b5f16/general_navigation-0.1.1.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [hcai-nova-utils]: executing diffoscope
+[2024-05-15 10:09:38] INFO root fetch - processPackages [hcai-nova-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-utils-1.6.4.tar.gz tmp/hcai-nova-utils-1.6.5.tar.gz --markdown 20240515/h/hcai-nova-utils/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-15 10:09:38] INFO root fetch - processPackages [data-analytics-core]: Downloading https://files.pythonhosted.org/packages/c3/94/a7eaccd2b5de0294909cfdd72232059078fe4df3026e6bb7346fec656f4f/data_analytics_core-1.0.27.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [QuickStart-Rhy]: Downloading https://files.pythonhosted.org/packages/43/c7/6584633c1cdbc2319103ff6d01806304284c6174ade9fde40e742085fa39/quickstart_rhy-0.7.9.tar.gz
+[2024-05-15 10:09:38] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-15 10:09:38] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240513.tar.gz tmp/pyglove-0.4.5.dev20240514.tar.gz --markdown 20240515/p/pyglove/0.4.5.dev20240513-0.4.5.dev20240514/README.md --exclude *.pyd
+[2024-05-15 10:09:38] INFO root fetch - processPackages [compas-viewer]: executing diffoscope
+[2024-05-15 10:09:38] INFO root fetch - processPackages [compas-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_viewer-1.1.3.tar.gz tmp/compas_viewer-1.1.4.tar.gz --markdown 20240515/c/compas-viewer/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-15 10:09:38] INFO root fetch - processPackages [general-navigation]: executing diffoscope
+[2024-05-15 10:09:38] INFO root fetch - processPackages [general-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_navigation-0.1.0.tar.gz tmp/general_navigation-0.1.1.tar.gz --markdown 20240515/g/general-navigation/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-15 10:09:38] INFO root fetch - processPackages [data-analytics-core]: executing diffoscope
+[2024-05-15 10:09:38] INFO root fetch - processPackages [data-analytics-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-analytics-core-1.0.26.tar.gz tmp/data_analytics_core-1.0.27.tar.gz --markdown 20240515/d/data-analytics-core/1.0.26-1.0.27/README.md --exclude *.pyd
+[2024-05-15 10:09:38] INFO root fetch - processPackages [QuickStart-Rhy]: executing diffoscope
+[2024-05-15 10:09:38] INFO root fetch - processPackages [QuickStart-Rhy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart_rhy-0.7.8.tar.gz tmp/quickstart_rhy-0.7.9.tar.gz --markdown 20240515/Q/QuickStart-Rhy/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-15 10:09:39] INFO root fetch - processPackages [hcai-nova-utils]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-utils-1.6.4.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - processPackages [hcai-nova-utils]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-utils-1.6.5.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [hcai-nova-utils]: success
+[2024-05-15 10:09:39] INFO root fetch - processPackages [data-analytics-core]: Remove: archive file [/home/abi/fetcher/tmp/data-analytics-core-1.0.26.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - processPackages [data-analytics-core]: Remove: archive file [/home/abi/fetcher/tmp/data_analytics_core-1.0.27.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [data-analytics-core]: success
+[2024-05-15 10:09:39] INFO root fetch - processPackages [compas-viewer]: Remove: archive file [/home/abi/fetcher/tmp/compas_viewer-1.1.3.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - processPackages [compas-viewer]: Remove: archive file [/home/abi/fetcher/tmp/compas_viewer-1.1.4.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [compas-viewer]: success
+[2024-05-15 10:09:39] INFO root fetch - processPackages [QuickStart-Rhy]: Remove: archive file [/home/abi/fetcher/tmp/quickstart_rhy-0.7.8.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - processPackages [QuickStart-Rhy]: Remove: archive file [/home/abi/fetcher/tmp/quickstart_rhy-0.7.9.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [QuickStart-Rhy]: success
+[2024-05-15 10:09:39] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240513.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240514.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-15 10:09:39] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.1.0.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.1.1.tar.gz]
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
+[2024-05-15 10:09:39] INFO root fetch - main [MainThread]: Store serial: [23214594]
