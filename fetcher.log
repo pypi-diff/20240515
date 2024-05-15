@@ -22140,3 +22140,137 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:39:32] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_pt_br-4.2.post0-py2.py3-none-any.whl.zip]
 [2024-05-15 14:39:32] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-pt-BR]: success
 [2024-05-15 14:39:32] INFO root fetch - main [MainThread]: Store serial: [23217652]
+[2024-05-15 14:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217652]
+[2024-05-15 14:41:41] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-language-pack-pt-BR
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-language-pack-ro-RO
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-language-pack-ru-RU
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-language-pack-tr-TR
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-language-pack-uk-UA
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-language-pack-vi-VN
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-language-pack-zh-CN
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-language-pack-zh-TW
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-pseudo-language-pack
+[2024-05-15 14:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Qubx
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [Qubx]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: Downloading https://files.pythonhosted.org/packages/cc/f2/ac68cdece7114737198c194ab3b4293537e3352f13b94adcaa0f87c3a43f/jupyterlab_language_pack_pt_br-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] WARNING root fetch - processPackages [jupyterlab-pseudo-language-pack]: Skipping, unable to determine old version
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-pseudo-language-pack]: Start processing: hugo
+[2024-05-15 14:41:42] INFO root fetch - main [MainThread]: End processing [jupyterlab-pseudo-language-pack] error
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/bc/82/6f17d1811dc0b040d333016579d472e807bb3a166de1de8d97f7ac5ad7fe/qubx-0.1.5.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: New version: [4.2.post0] Old Version: [4.1.post2]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [hugo]: New version: [0.126.0] Old Version: [0.125.7]
+[2024-05-15 14:41:42] INFO root fetch - processPackages [hugo]: Downloading https://files.pythonhosted.org/packages/94/48/3ca92d0a1d183b0035b299cb05910cf0847f273f22edf4bac99d2dd9358e/hugo-0.125.7.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: Downloading https://files.pythonhosted.org/packages/a3/d8/67b828da16dcce743516856d2f1395e306ee0b29fb7527a6506f7de0edb2/jupyterlab_language_pack_ru_ru-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: Downloading https://files.pythonhosted.org/packages/e0/0f/7d16123808ebb70dc0e699334a9f409f84de773088b337400d648b90692e/jupyterlab_language_pack_uk_ua-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: Downloading https://files.pythonhosted.org/packages/f3/6b/246bceb4146badf3fb51e612c494415a70e076a2e7605d2eaffcde08a06d/jupyterlab_language_pack_tr_tr-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: Downloading https://files.pythonhosted.org/packages/db/1f/b06b2a561eacbb7326b57017deb54cefb8ebe4e4106622af6c83e4f2dbf8/jupyterlab_language_pack_pt_br-4.2.post0-py2.py3-none-any.whl
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: Downloading https://files.pythonhosted.org/packages/cc/7c/c8df7d2ccfc85ad24e6213a9f0aeb5658bfface1a059841b3f34f4b89f0a/jupyterlab_language_pack_zh_cn-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: Downloading https://files.pythonhosted.org/packages/d2/98/581a638d80d4da62266f2e54560ce28246103b29a6d89be8a54e72590b47/jupyterlab_language_pack_zh_tw-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: Downloading https://files.pythonhosted.org/packages/ed/40/7b76b31ec0f0dffeddeba24a4604a007563fb2587b658f053f9d8045bc09/jupyterlab_language_pack_vi_vn-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: Downloading https://files.pythonhosted.org/packages/66/b4/3edca18df1659c622089a757e9c22da144f3009840722e449ecde08fdd5a/jupyterlab_language_pack_ro_ro-4.1.post2.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/6b/07/bb187e614845f84350f36f2112769419696de528653f44101ca8473718cf/qubx-0.1.6.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: executing diffoscope
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_pt_br-4.1.post2.tar.gz tmp/jupyterlab_language_pack_pt_br-4.2.post0-py2.py3-none-any.whl.zip --markdown 20240515/j/jupyterlab-language-pack-pt-BR/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:42] INFO root fetch - processPackages [hugo]: Downloading https://files.pythonhosted.org/packages/e8/2e/8a4dd8236f61a97683b8559a5942fea4ae63ecc36cfa0fab5d7d69cba298/hugo-0.126.0.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [Qubx]: executing diffoscope
+[2024-05-15 14:41:42] INFO root fetch - processPackages [Qubx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qubx-0.1.5.tar.gz tmp/qubx-0.1.6.tar.gz --markdown 20240515/Q/Qubx/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: Downloading https://files.pythonhosted.org/packages/d9/2e/f3d981b35dac1212c6b3d1509ae2d697af17756e2cda6cc2feed109720fc/jupyterlab_language_pack_ru_ru-4.2.post0.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: Downloading https://files.pythonhosted.org/packages/15/c4/b743694f06b28faf7296d71c70b422556952b006d3d6c7af9ed91e7d5090/jupyterlab_language_pack_uk_ua-4.2.post0.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [hugo]: executing diffoscope
+[2024-05-15 14:41:42] INFO root fetch - processPackages [hugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugo-0.125.7.tar.gz tmp/hugo-0.126.0.tar.gz --markdown 20240515/h/hugo/0.125.7-0.126.0/README.md --exclude *.pyd
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: Downloading https://files.pythonhosted.org/packages/22/b6/316571ef61288e14279d7ad312dc3d128321dc78b6282226e9044d2974b6/jupyterlab_language_pack_tr_tr-4.2.post0.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: Downloading https://files.pythonhosted.org/packages/d0/8d/e6070f4108c2a9b787f0c41295819a624edb3a07450c8fb0600befa35dd5/jupyterlab_language_pack_vi_vn-4.2.post0.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: Downloading https://files.pythonhosted.org/packages/d6/16/08b37052da4a1ec4e9a9316984964edf6ae889709b3e2f9706e9e5841d1b/jupyterlab_language_pack_zh_cn-4.2.post0.tar.gz
+[2024-05-15 14:41:42] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: Downloading https://files.pythonhosted.org/packages/1b/ac/380c81854a6232abd4852918c915bc8bf0b45ba28a095b811ac9cb1e7593/jupyterlab_language_pack_ro_ro-4.2.post0.tar.gz
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: Downloading https://files.pythonhosted.org/packages/3c/d8/f601ba83b3543fb0e965d766f30ef72ce425701b24d78ec42d3b2cdf527c/jupyterlab_language_pack_zh_tw-4.2.post0.tar.gz
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_uk_ua-4.1.post2.tar.gz tmp/jupyterlab_language_pack_uk_ua-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-uk-UA/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_vi_vn-4.1.post2.tar.gz tmp/jupyterlab_language_pack_vi_vn-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-vi-VN/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_ru_ru-4.1.post2.tar.gz tmp/jupyterlab_language_pack_ru_ru-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-ru-RU/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_ro_ro-4.1.post2.tar.gz tmp/jupyterlab_language_pack_ro_ro-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-ro-RO/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_tr_tr-4.1.post2.tar.gz tmp/jupyterlab_language_pack_tr_tr-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-tr-TR/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_zh_cn-4.1.post2.tar.gz tmp/jupyterlab_language_pack_zh_cn-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-zh-CN/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: executing diffoscope
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_language_pack_zh_tw-4.1.post2.tar.gz tmp/jupyterlab_language_pack_zh_tw-4.2.post0.tar.gz --markdown 20240515/j/jupyterlab-language-pack-zh-TW/4.1.post2-4.2.post0/README.md --exclude *.pyd
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_pt_br-4.1.post2.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_pt_br-4.2.post0-py2.py3-none-any.whl.zip]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-pt-BR]: Start processing: JsonPreprocessor
+[2024-05-15 14:41:43] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-pt-BR]: success
+[2024-05-15 14:41:43] INFO root fetch - processPackages [JsonPreprocessor]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.5.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.6.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [Qubx]: Start processing: pyatlan
+[2024-05-15 14:41:43] INFO root fetch - main [MainThread]: End processing [Qubx]: success
+[2024-05-15 14:41:43] INFO root fetch - processPackages [hugo]: Remove: archive file [/home/abi/fetcher/tmp/hugo-0.125.7.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [hugo]: Remove: archive file [/home/abi/fetcher/tmp/hugo-0.126.0.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [hugo]: Start processing: pytest-pt
+[2024-05-15 14:41:43] INFO root fetch - main [MainThread]: End processing [hugo]: success
+[2024-05-15 14:41:43] INFO root fetch - processPackages [pyatlan]: New version: [2.2.0] Old Version: [2.1.9]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/07/a3/c0688a9b45a2ec8d29a04f76db7e5f81013c90436937ceeb863af35a852f/JsonPreprocessor-0.5.0.tar.gz
+[2024-05-15 14:41:43] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/cb/d9/8838ab0d4510d6fca0a9fa78580a1f96c292cb0e04d6a477fac966788082/pyatlan-2.1.9.tar.gz
+[2024-05-15 14:41:43] WARNING root fetch - processPackages [pytest-pt]: Skipping, unable to determine old version
+[2024-05-15 14:41:43] INFO root fetch - processPackages [pytest-pt]: Start processing: idvpackage
+[2024-05-15 14:41:43] INFO root fetch - main [MainThread]: End processing [pytest-pt] error
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_uk_ua-4.1.post2.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_uk_ua-4.2.post0.tar.gz]
+[2024-05-15 14:41:43] INFO root fetch - processPackages [jupyterlab-language-pack-uk-UA]: Start processing: cloud-run-flask-template
+[2024-05-15 14:41:43] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-uk-UA]: success
+[2024-05-15 14:41:43] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-15 14:41:44] WARNING root fetch - processPackages [cloud-run-flask-template]: Skipping, unable to determine old version
+[2024-05-15 14:41:44] INFO root fetch - processPackages [cloud-run-flask-template]: Start processing: tensorcircuit-nightly
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [cloud-run-flask-template] error
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_ru_ru-4.1.post2.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-ru-RU]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_ru_ru-4.2.post0.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-ru-RU]: success
+[2024-05-15 14:41:44] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/60/1e/9326edf85a3aadbf6d37a83aeb3a8e81c26fe0ec5e23ca052501077e12db/JsonPreprocessor-0.6.1.tar.gz
+[2024-05-15 14:41:44] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-05-15 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/a5/0c/8a2ffb624b12317c3ca44988caa72fe25024f5b8d987f2cb835a7a70150f/pyatlan-2.2.0.tar.gz
+[2024-05-15 14:41:44] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_zh_tw-4.1.post2.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-zh-TW]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_zh_tw-4.2.post0.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-zh-TW]: success
+[2024-05-15 14:41:44] INFO root fetch - processPackages [JsonPreprocessor]: executing diffoscope
+[2024-05-15 14:41:44] INFO root fetch - processPackages [JsonPreprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonPreprocessor-0.5.0.tar.gz tmp/JsonPreprocessor-0.6.1.tar.gz --markdown 20240515/J/JsonPreprocessor/0.5.0-0.6.1/README.md --exclude *.pyd
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_ro_ro-4.1.post2.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-ro-RO]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_ro_ro-4.2.post0.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-ro-RO]: success
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_tr_tr-4.1.post2.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-tr-TR]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_tr_tr-4.2.post0.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-tr-TR]: success
+[2024-05-15 14:41:44] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-05-15 14:41:44] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.9.tar.gz tmp/pyatlan-2.2.0.tar.gz --markdown 20240515/p/pyatlan/2.1.9-2.2.0/README.md --exclude *.pyd
+[2024-05-15 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_vi_vn-4.1.post2.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-vi-VN]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_vi_vn-4.2.post0.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-vi-VN]: success
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_zh_cn-4.1.post2.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - processPackages [jupyterlab-language-pack-zh-CN]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_language_pack_zh_cn-4.2.post0.tar.gz]
+[2024-05-15 14:41:44] INFO root fetch - main [MainThread]: End processing [jupyterlab-language-pack-zh-CN]: success
+[2024-05-15 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-15 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-15 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240515/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-15 14:41:45] INFO root fetch - processPackages [JsonPreprocessor]: Remove: archive file [/home/abi/fetcher/tmp/JsonPreprocessor-0.5.0.tar.gz]
+[2024-05-15 14:41:45] INFO root fetch - processPackages [JsonPreprocessor]: Remove: archive file [/home/abi/fetcher/tmp/JsonPreprocessor-0.6.1.tar.gz]
+[2024-05-15 14:41:45] INFO root fetch - main [MainThread]: End processing [JsonPreprocessor]: success
+[2024-05-15 14:41:45] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-15 14:41:45] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-15 14:41:45] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-15 14:41:46] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.9.tar.gz]
+[2024-05-15 14:41:46] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.2.0.tar.gz]
+[2024-05-15 14:41:46] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-05-15 14:41:46] INFO root fetch - main [MainThread]: Store serial: [23217740]
