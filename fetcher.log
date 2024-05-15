@@ -18988,3 +18988,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 12:33:37] INFO root fetch - processPackages [pythfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythfinder-0.0.3.9.tar.gz]
 [2024-05-15 12:33:37] INFO root fetch - main [MainThread]: End processing [pythfinder]: success
 [2024-05-15 12:33:37] INFO root fetch - main [MainThread]: Store serial: [23216462]
+[2024-05-15 12:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216462]
+[2024-05-15 12:35:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elody
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odbc2deltalake
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdocr-rpc
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-pandas
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python_dev_utils
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avarnd
+[2024-05-15 12:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-plugin-lambda-build
+[2024-05-15 12:35:46] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.91] Old Version: [0.0.0.90]
+[2024-05-15 12:35:46] INFO root fetch - processPackages [python_dev_utils]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-15 12:35:46] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 12:35:46] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 12:35:46] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/19/5d/960bcf9ec4239ca100d0b13fbacadf8b3963724a181621eabc99f721e13e/abstract_pandas-0.0.0.90.tar.gz
+[2024-05-15 12:35:46] INFO root fetch - processPackages [pdocr-rpc]: New version: [2024.5.15] Old Version: [2024.5.14]
+[2024-05-15 12:35:46] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/bf/9c/97be3aea3abbbb1b368a41fbe4b12dbfa48a20e7764179f5b5279b4a94f5/python_dev_utils-1.8.4.tar.gz
+[2024-05-15 12:35:46] WARNING root fetch - processPackages [avarnd]: Skipping, unable to determine old version
+[2024-05-15 12:35:46] INFO root fetch - main [MainThread]: End processing [avarnd] error
+[2024-05-15 12:35:46] INFO root fetch - processPackages [poetry-plugin-lambda-build]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-15 12:35:46] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-05-15 12:35:46] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/1b/02/d7ec9458e80206ea60e867e6d920b396ded597d5e06c62a99cc03b385f31/pdocr_rpc-2024.5.14.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/9d/81/fcce852d5f70ff0eed4fdf8d81caecf33b56475d957349cfb344c4de2663/python_dev_utils-1.9.0.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/2d/e7/a443539ca085afccf508f2dd8519a1890fa7626173c63b45530891150d2d/poetry_plugin_lambda_build-0.5.3.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/c1/32/17318da8189e508202297e10fd736be2625f0cfe07a6d09b6b9f06a15931/abstract_pandas-0.0.0.91.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-15 12:35:47] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240515/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 12:35:47] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-15 12:35:47] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.8.4.tar.gz tmp/python_dev_utils-1.9.0.tar.gz --markdown 20240515/p/python_dev_utils/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-15 12:35:47] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-15 12:35:47] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.90.tar.gz tmp/abstract_pandas-0.0.0.91.tar.gz --markdown 20240515/a/abstract-pandas/0.0.0.90-0.0.0.91/README.md --exclude *.pyd
+[2024-05-15 12:35:47] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/4e/52/2a7b5930f36eeccfa80f604c09dbe0d7591a8f8d8da24e451ddcfeedea87/pdocr_rpc-2024.5.15.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-15 12:35:47] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240515/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 12:35:47] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2024-05-15 12:35:47] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr_rpc-2024.5.14.tar.gz tmp/pdocr_rpc-2024.5.15.tar.gz --markdown 20240515/p/pdocr-rpc/2024.5.14-2024.5.15/README.md --exclude *.pyd
+[2024-05-15 12:35:47] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/86/d1/20f62c090087c0682d1ed41abb5811285298d75c6d431fd1f2c8479caf77/poetry_plugin_lambda_build-0.5.5.tar.gz
+[2024-05-15 12:35:47] INFO root fetch - processPackages [poetry-plugin-lambda-build]: executing diffoscope
+[2024-05-15 12:35:47] INFO root fetch - processPackages [poetry-plugin-lambda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_lambda_build-0.5.3.tar.gz tmp/poetry_plugin_lambda_build-0.5.5.tar.gz --markdown 20240515/p/poetry-plugin-lambda-build/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-15 12:35:47] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-05-15 12:35:47] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-15 12:35:47] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-15 12:35:48] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.90.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.91.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-15 12:35:48] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.4.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.9.0.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-15 12:35:48] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-15 12:35:48] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2024.5.14.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2024.5.15.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2024-05-15 12:35:48] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.3.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.5.tar.gz]
+[2024-05-15 12:35:48] INFO root fetch - main [MainThread]: End processing [poetry-plugin-lambda-build]: success
+[2024-05-15 12:35:48] INFO root fetch - main [MainThread]: Store serial: [23216485]
