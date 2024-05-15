@@ -8118,3 +8118,90 @@
 [2024-05-15 04:20:42] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-15 04:20:42] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-15 04:20:42] INFO root fetch - main [MainThread]: Store serial: [23211707]
+[2024-05-15 04:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211707]
+[2024-05-15 04:22:50] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-15 04:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211708]
+[2024-05-15 04:24:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spyder-kernels
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskara
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karellen-llvm-clang
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: karellen-llvm-core
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: di-compression
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-ujson
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-pyflakes
+[2024-05-15 04:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-docker
+[2024-05-15 04:24:56] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.5.0.post27] Old Version: [18.1.5.0.post21]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.5.0.post27] Old Version: [18.1.5.0.post21]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [di-compression]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.5.0.post27] Old Version: [18.1.5.0.post21]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [types-ujson]: New version: [5.9.0.0] Old Version: [5.8.0.1]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [types-pyflakes]: New version: [3.2.0.20240515] Old Version: [3.2.0.20240106]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/6d/1f/b5ec46ee22ac5f5ed9f474dbc70c1f5a65586c2397adfa1f7e4e350fa7d0/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-15 04:24:56] INFO root fetch - processPackages [spyder-kernels]: New version: [3.0.0b6] Old Version: [3.0.0b5]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [di-compression]: Downloading https://files.pythonhosted.org/packages/7d/a7/ee72fb66e2b3285b4790336409420d4761aa87619e273786e214d70aba9f/di-compression-0.0.4.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240515] Old Version: [7.0.0.20240513]
+[2024-05-15 04:24:56] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/f2/1e/d51b47034dcbb2783b2ed40119aa293cabe9852c7a438a57388128e85201/karellen_llvm_core-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-15 04:24:56] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/ab/77/bef03995a6eb93a6f452a13ec23fe329e9262052f62ad33bc84f3485fba9/karellen_llvm_clang-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-15 04:24:56] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28599098>=10485760
+[2024-05-15 04:24:56] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-15 04:24:56] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/d3/3f/7ed90fc6fd2e419f525e9b9a707398b9c984b7a7ddf94133d8cf6d4c0703/types-ujson-5.8.0.1.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [types-pyflakes]: Downloading https://files.pythonhosted.org/packages/d2/0a/9fe142eae04e15526c7059b5b5ff484022e64962050ec07d639ea5f64901/types-pyflakes-3.2.0.20240106.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/20/13/305014da9ba38f13dfbb38ad954832d6029463d1cf97eab00873f778d682/types-docker-7.0.0.20240513.tar.gz
+[2024-05-15 04:24:56] INFO root fetch - processPackages [spyder-kernels]: Downloading https://files.pythonhosted.org/packages/25/32/1b730ee1c9caafb76cf2aaa12448a3fcfa3057ad51183578e9dc94d70662/spyder-kernels-3.0.0b5.tar.gz
+[2024-05-15 04:24:56] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78660850>=10485760
+[2024-05-15 04:24:56] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-15 04:24:57] INFO root fetch - processPackages [di-compression]: Downloading https://files.pythonhosted.org/packages/50/a4/dcb7e8971834fd2ba18c0cd97c49996cf2c20fccbc199152ec20c178eca5/di_compression-0.1.0.tar.gz
+[2024-05-15 04:24:57] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240515/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-15 04:24:57] INFO root fetch - processPackages [di-compression]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [di-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/di-compression-0.0.4.tar.gz tmp/di_compression-0.1.0.tar.gz --markdown 20240515/d/di-compression/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-15 04:24:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/96/10/7931090a9b2651f0488caa868794738e3e796bc747dd039f50d574e6a3e0/karellen_llvm_toolchain_tools-18.1.5.0.post27-py3-none-manylinux2014_x86_64.whl
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-pyflakes]: Downloading https://files.pythonhosted.org/packages/0a/b2/1ec29ed2eb6ecae87b4b2587f6e2d6c9633bdc342d5aca4cd59f52e8ecc5/types-pyflakes-3.2.0.20240515.tar.gz
+[2024-05-15 04:24:57] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-15 04:24:57] INFO root fetch - processPackages [spyder-kernels]: Downloading https://files.pythonhosted.org/packages/25/77/bfdd0cd6c37599dee968479eed2bbd18455491982424dcfb9761aef31945/spyder_kernels-3.0.0b6.tar.gz
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/58/9f/48d7477376bc1bf8952ec36cdbb9fbf2eed7f1464ee3b0ea6889e5cd5ad2/types-docker-7.0.0.20240515.tar.gz
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/d8/1f/42e3d3bb226580da1f1cbc5d89152b3c41ba01578157cba8e4df67c71cb0/types-ujson-5.9.0.0.tar.gz
+[2024-05-15 04:24:57] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240515/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-15 04:24:57] INFO root fetch - processPackages [spyder-kernels]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [spyder-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder-kernels-3.0.0b5.tar.gz tmp/spyder_kernels-3.0.0b6.tar.gz --markdown 20240515/s/spyder-kernels/3.0.0b5-3.0.0b6/README.md --exclude *.pyd
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-pyflakes]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-pyflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyflakes-3.2.0.20240106.tar.gz tmp/types-pyflakes-3.2.0.20240515.tar.gz --markdown 20240515/t/types-pyflakes/3.2.0.20240106-3.2.0.20240515/README.md --exclude *.pyd
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-ujson]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [types-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ujson-5.8.0.1.tar.gz tmp/types-ujson-5.9.0.0.tar.gz --markdown 20240515/t/types-ujson/5.8.0.1-5.9.0.0/README.md --exclude *.pyd
+[2024-05-15 04:24:57] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-15 04:24:57] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-15 04:24:57] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 04:24:57] INFO root fetch - processPackages [di-compression]: Remove: archive file [/home/abi/fetcher/tmp/di-compression-0.0.4.tar.gz]
+[2024-05-15 04:24:57] INFO root fetch - processPackages [di-compression]: Remove: archive file [/home/abi/fetcher/tmp/di_compression-0.1.0.tar.gz]
+[2024-05-15 04:24:57] INFO root fetch - main [MainThread]: End processing [di-compression]: success
+[2024-05-15 04:24:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-15 04:24:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.5.0.post27-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240515/k/karellen-llvm-toolchain-tools/18.1.5.0.post21-18.1.5.0.post27/README.md --exclude *.pyd
+[2024-05-15 04:24:58] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-15 04:24:58] INFO root fetch - processPackages [types-pyflakes]: Remove: archive file [/home/abi/fetcher/tmp/types-pyflakes-3.2.0.20240106.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - processPackages [types-pyflakes]: Remove: archive file [/home/abi/fetcher/tmp/types-pyflakes-3.2.0.20240515.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - main [MainThread]: End processing [types-pyflakes]: success
+[2024-05-15 04:24:58] INFO root fetch - processPackages [types-ujson]: Remove: archive file [/home/abi/fetcher/tmp/types-ujson-5.8.0.1.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - processPackages [types-ujson]: Remove: archive file [/home/abi/fetcher/tmp/types-ujson-5.9.0.0.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - main [MainThread]: End processing [types-ujson]: success
+[2024-05-15 04:24:58] INFO root fetch - processPackages [spyder-kernels]: Remove: archive file [/home/abi/fetcher/tmp/spyder-kernels-3.0.0b5.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - processPackages [spyder-kernels]: Remove: archive file [/home/abi/fetcher/tmp/spyder_kernels-3.0.0b6.tar.gz]
+[2024-05-15 04:24:58] INFO root fetch - main [MainThread]: End processing [spyder-kernels]: success
+[2024-05-15 04:25:02] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-15 04:25:02] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240513.tar.gz tmp/types-docker-7.0.0.20240515.tar.gz --markdown 20240515/t/types-docker/7.0.0.20240513-7.0.0.20240515/README.md --exclude *.pyd
+[2024-05-15 04:25:03] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240513.tar.gz]
+[2024-05-15 04:25:03] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240515.tar.gz]
+[2024-05-15 04:25:03] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-15 04:25:25] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-15 04:25:25] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post27-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-15 04:25:25] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-15 04:25:25] INFO root fetch - main [MainThread]: Store serial: [23211736]
