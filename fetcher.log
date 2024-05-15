@@ -22274,3 +22274,48 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:41:46] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.2.0.tar.gz]
 [2024-05-15 14:41:46] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2024-05-15 14:41:46] INFO root fetch - main [MainThread]: Store serial: [23217740]
+[2024-05-15 14:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217740]
+[2024-05-15 14:43:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HiFT
+[2024-05-15 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maplib
+[2024-05-15 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-llm
+[2024-05-15 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rubberduckie
+[2024-05-15 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello-wolf-software
+[2024-05-15 14:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyNUtools
+[2024-05-15 14:43:55] WARNING root fetch - processPackages [hello-wolf-software]: Skipping, unable to determine old version
+[2024-05-15 14:43:55] INFO root fetch - main [MainThread]: End processing [hello-wolf-software] error
+[2024-05-15 14:43:55] INFO root fetch - processPackages [rubberduckie]: New version: [2024.5.1] Old Version: [2023.7.1]
+[2024-05-15 14:43:55] INFO root fetch - processPackages [HiFT]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-15 14:43:55] INFO root fetch - processPackages [maplib]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-15 14:43:55] WARNING root fetch - processPackages [PyNUtools]: Skipping, unable to determine old version
+[2024-05-15 14:43:55] INFO root fetch - main [MainThread]: End processing [PyNUtools] error
+[2024-05-15 14:43:56] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240515] Old Version: [2.5.0b20240514]
+[2024-05-15 14:43:56] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/28/ee/c3a4e15eb9ae0cde75da5a9877eb4de7e8aa1f963db0462e1479df1fa160/maplib-0.8.8.tar.gz
+[2024-05-15 14:43:56] INFO root fetch - processPackages [HiFT]: Downloading https://files.pythonhosted.org/packages/98/cd/cfc1bf3b149f3078971b7adabfdebfd30d62b4e5b48c7bba9d38bbba2a55/HiFT-0.0.2.tar.gz
+[2024-05-15 14:43:56] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/7e/68/e2a87245e3f037362f6d774e75ff8fccd0822a8a63e2c7772e6378453317/rubberduckie-2023.7.1-py3-none-any.whl
+[2024-05-15 14:43:56] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/5e/6f/005bcd750a5dd2b3718639419ac14cf22d6b3932476509982070238d9141/bigdl_llm-2.5.0b20240514-py3-none-win_amd64.whl
+[2024-05-15 14:43:56] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/57/c6/3a2b9263ae5e94ddb7fccc9ad1c467e72f7addf9904521e330b8f2be99fc/maplib-0.8.9.tar.gz
+[2024-05-15 14:43:56] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/e6/ac/5cfccfc6aca10c7ad4f7a7d2f1ae986be150a9c6c867fdf375fa2f645576/rubberduckie-2024.5.1-py3-none-any.whl
+[2024-05-15 14:43:56] INFO root fetch - processPackages [HiFT]: Downloading https://files.pythonhosted.org/packages/67/39/3ebd5d6de692c4f766d244876cc808e4a05994cf01be00ce2b78b1292496/HiFT-0.0.3.tar.gz
+[2024-05-15 14:43:56] INFO root fetch - processPackages [rubberduckie]: executing diffoscope
+[2024-05-15 14:43:56] INFO root fetch - processPackages [rubberduckie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubberduckie-2023.7.1-py3-none-any.whl.zip tmp/rubberduckie-2024.5.1-py3-none-any.whl.zip --markdown 20240515/r/rubberduckie/2023.7.1-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 14:43:56] INFO root fetch - processPackages [maplib]: executing diffoscope
+[2024-05-15 14:43:56] INFO root fetch - processPackages [maplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maplib-0.8.8.tar.gz tmp/maplib-0.8.9.tar.gz --markdown 20240515/m/maplib/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-15 14:43:56] INFO root fetch - processPackages [HiFT]: executing diffoscope
+[2024-05-15 14:43:56] INFO root fetch - processPackages [HiFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HiFT-0.0.2.tar.gz tmp/HiFT-0.0.3.tar.gz --markdown 20240515/H/HiFT/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-15 14:43:56] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/1b/ac/f3f59a779e0e452d4eab0082595ef4c61b04cbacde66f6b73ad6ebc7e3ee/bigdl_llm-2.5.0b20240515-py3-none-win_amd64.whl
+[2024-05-15 14:43:57] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2023.7.1-py3-none-any.whl.zip]
+[2024-05-15 14:43:57] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2024.5.1-py3-none-any.whl.zip]
+[2024-05-15 14:43:57] INFO root fetch - main [MainThread]: End processing [rubberduckie]: success
+[2024-05-15 14:43:57] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-15 14:43:57] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240514-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240515-py3-none-win_amd64.whl.zip --markdown 20240515/b/bigdl-llm/2.5.0b20240514-2.5.0b20240515/README.md --exclude *.pyd
+[2024-05-15 14:43:57] INFO root fetch - processPackages [HiFT]: Remove: archive file [/home/abi/fetcher/tmp/HiFT-0.0.2.tar.gz]
+[2024-05-15 14:43:57] INFO root fetch - processPackages [HiFT]: Remove: archive file [/home/abi/fetcher/tmp/HiFT-0.0.3.tar.gz]
+[2024-05-15 14:43:57] INFO root fetch - main [MainThread]: End processing [HiFT]: success
+[2024-05-15 14:43:57] INFO root fetch - processPackages [maplib]: Remove: archive file [/home/abi/fetcher/tmp/maplib-0.8.8.tar.gz]
+[2024-05-15 14:43:57] INFO root fetch - processPackages [maplib]: Remove: archive file [/home/abi/fetcher/tmp/maplib-0.8.9.tar.gz]
+[2024-05-15 14:43:57] INFO root fetch - main [MainThread]: End processing [maplib]: success
+[2024-05-15 14:43:58] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240514-py3-none-win_amd64.whl.zip]
+[2024-05-15 14:43:58] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240515-py3-none-win_amd64.whl.zip]
+[2024-05-15 14:43:58] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-15 14:43:58] INFO root fetch - main [MainThread]: Store serial: [23217763]
