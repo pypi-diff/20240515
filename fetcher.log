@@ -15214,3 +15214,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:20:36] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.9.tar.gz]
 [2024-05-15 10:20:36] INFO root fetch - main [MainThread]: End processing [ketacli]: success
 [2024-05-15 10:20:36] INFO root fetch - main [MainThread]: Store serial: [23214721]
+[2024-05-15 10:22:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214721]
+[2024-05-15 10:22:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 10:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saes6-jerry
+[2024-05-15 10:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: envoxyd
+[2024-05-15 10:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-coder
+[2024-05-15 10:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spetlr
+[2024-05-15 10:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiform-validator
+[2024-05-15 10:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packitos
+[2024-05-15 10:22:45] INFO root fetch - processPackages [multiform-validator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:22:45] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:22:45] INFO root fetch - processPackages [multiform-validator]: Downloading https://files.pythonhosted.org/packages/bc/f1/17b51df0b15f60c939598c5f6e5fcaaa9e61fe14fa9a63b0412eb205c928/multiform_validator-0.0.8.tar.gz
+[2024-05-15 10:22:45] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/98/32/cd382be4186b243553195538f0baf4e312a539a4769f0e74f128ae119307/saes6-jerry-0.0.8.tar.gz
+[2024-05-15 10:22:45] INFO root fetch - processPackages [envoxyd]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 10:22:45] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 10:22:45] INFO root fetch - processPackages [spetlr]: New version: [5.1.6] Old Version: [5.1.4]
+[2024-05-15 10:22:45] INFO root fetch - processPackages [packitos]: New version: [0.97.0] Old Version: [0.96.0]
+[2024-05-15 10:22:45] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/5c/c3/2e6f250a619328ad4f13aec1a8fb9948336550a8e9bb85545083d6e02e07/spetlr-5.1.4.tar.gz
+[2024-05-15 10:22:45] INFO root fetch - processPackages [envoxyd]: Downloading https://files.pythonhosted.org/packages/e9/1b/79f4bbd5f632e35c9436e802ee55b558d8ed09b52479a77fa140f40150bf/envoxyd-0.1.8.tar.gz
+[2024-05-15 10:22:45] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-15 10:22:45] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/3d/fa/f060aeb0eb6de108545bf7746fa5bfc0c2916359802d8eea58819b21fd4d/saes6-jerry-0.0.9.tar.gz
+[2024-05-15 10:22:45] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/d0/b3/dea7cd604b5ca0ec35b07205b6fbd20effa1f9b193114cc020c3f836a299/packitos-0.96.0.tar.gz
+[2024-05-15 10:22:46] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-15 10:22:46] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.8.tar.gz tmp/saes6-jerry-0.0.9.tar.gz --markdown 20240515/s/saes6-jerry/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:22:46] INFO root fetch - processPackages [multiform-validator]: Downloading https://files.pythonhosted.org/packages/72/b1/a0683f95fd9c58913594ca1bb0afa39471fd31dab095830064d033f201e1/multiform_validator-0.0.9.tar.gz
+[2024-05-15 10:22:46] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-15 10:22:46] INFO root fetch - processPackages [multiform-validator]: executing diffoscope
+[2024-05-15 10:22:46] INFO root fetch - processPackages [multiform-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiform_validator-0.0.8.tar.gz tmp/multiform_validator-0.0.9.tar.gz --markdown 20240515/m/multiform-validator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:22:46] INFO root fetch - processPackages [envoxyd]: Downloading https://files.pythonhosted.org/packages/c8/99/b29935a98a6e40358447a17f5bc4d93f66bfc57a1b925cd2d8d3f244fd74/envoxyd-0.1.9.tar.gz
+[2024-05-15 10:22:46] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/e4/25/eb2b81ed1712f5811fb13a248ab1fa8a84da44e061bf43326beb6bb623e7/spetlr-5.1.6.tar.gz
+[2024-05-15 10:22:46] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-15 10:22:46] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240515/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 10:22:46] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2024-05-15 10:22:46] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-5.1.4.tar.gz tmp/spetlr-5.1.6.tar.gz --markdown 20240515/s/spetlr/5.1.4-5.1.6/README.md --exclude *.pyd
+[2024-05-15 10:22:46] INFO root fetch - processPackages [envoxyd]: executing diffoscope
+[2024-05-15 10:22:46] INFO root fetch - processPackages [envoxyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoxyd-0.1.8.tar.gz tmp/envoxyd-0.1.9.tar.gz --markdown 20240515/e/envoxyd/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 10:22:46] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.8.tar.gz]
+[2024-05-15 10:22:46] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.9.tar.gz]
+[2024-05-15 10:22:46] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-15 10:22:46] INFO root fetch - processPackages [multiform-validator]: Remove: archive file [/home/abi/fetcher/tmp/multiform_validator-0.0.8.tar.gz]
+[2024-05-15 10:22:46] INFO root fetch - processPackages [multiform-validator]: Remove: archive file [/home/abi/fetcher/tmp/multiform_validator-0.0.9.tar.gz]
+[2024-05-15 10:22:46] INFO root fetch - main [MainThread]: End processing [multiform-validator]: success
+[2024-05-15 10:22:46] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/ff/b6/549f193058b1c5da365e4f5e4ac2c883923b438ce8a04fc630d957375903/packitos-0.97.0.tar.gz
+[2024-05-15 10:22:47] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-15 10:22:47] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-15 10:22:47] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-15 10:22:47] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.4.tar.gz]
+[2024-05-15 10:22:47] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.6.tar.gz]
+[2024-05-15 10:22:47] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2024-05-15 10:22:48] INFO root fetch - processPackages [packitos]: executing diffoscope
+[2024-05-15 10:22:48] INFO root fetch - processPackages [packitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packitos-0.96.0.tar.gz tmp/packitos-0.97.0.tar.gz --markdown 20240515/p/packitos/0.96.0-0.97.0/README.md --exclude *.pyd
+[2024-05-15 10:22:50] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.96.0.tar.gz]
+[2024-05-15 10:22:50] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.97.0.tar.gz]
+[2024-05-15 10:22:50] INFO root fetch - main [MainThread]: End processing [packitos]: success
+[2024-05-15 10:22:50] INFO root fetch - processPackages [envoxyd]: Remove: archive file [/home/abi/fetcher/tmp/envoxyd-0.1.8.tar.gz]
+[2024-05-15 10:22:50] INFO root fetch - processPackages [envoxyd]: Remove: archive file [/home/abi/fetcher/tmp/envoxyd-0.1.9.tar.gz]
+[2024-05-15 10:22:50] INFO root fetch - main [MainThread]: End processing [envoxyd]: success
+[2024-05-15 10:22:50] INFO root fetch - main [MainThread]: Store serial: [23214742]
