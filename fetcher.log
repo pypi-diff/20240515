@@ -14337,3 +14337,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:49:54] INFO root fetch - processPackages [pyecm]: Remove: archive file [/home/abi/fetcher/tmp/pyecm-0.0.2.tar.gz]
 [2024-05-15 09:49:54] INFO root fetch - main [MainThread]: End processing [pyecm]: success
 [2024-05-15 09:49:54] INFO root fetch - main [MainThread]: Store serial: [23214334]
+[2024-05-15 09:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214334]
+[2024-05-15 09:52:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 09:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-keycloak
+[2024-05-15 09:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompeteer
+[2024-05-15 09:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: general-navigation
+[2024-05-15 09:52:03] INFO root fetch - processPackages [prompeteer]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-15 09:52:03] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/f8/58/c78756b508eec41591d2ca35c7a3d5773352827f6f3885e5b3ed6351623c/prompeteer-0.1.7.tar.gz
+[2024-05-15 09:52:03] WARNING root fetch - processPackages [general-navigation]: Skipping, unable to determine old version
+[2024-05-15 09:52:03] INFO root fetch - main [MainThread]: End processing [general-navigation] error
+[2024-05-15 09:52:03] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1715758278] Old Version: [5.4.0a1715337454]
+[2024-05-15 09:52:03] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/4a/87/0a7da863cbe4fc4e74398459add2bef3c11cd2b45184f561a3e3f83aec0b/pulumi_keycloak-5.4.0a1715337454.tar.gz
+[2024-05-15 09:52:03] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/e5/08/61d835e0394a83d1f9081282fe301710241d4a6327944783b414174f88c2/prompeteer-0.1.8.tar.gz
+[2024-05-15 09:52:03] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-15 09:52:03] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.1.7.tar.gz tmp/prompeteer-0.1.8.tar.gz --markdown 20240515/p/prompeteer/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-15 09:52:04] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/2a/b1/343aa1e3bdda74546fd06d386843bc8f45a89e73f785062472b7ea4fb963/pulumi_keycloak-5.4.0a1715758278.tar.gz
+[2024-05-15 09:52:04] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-15 09:52:04] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1715337454.tar.gz tmp/pulumi_keycloak-5.4.0a1715758278.tar.gz --markdown 20240515/p/pulumi-keycloak/5.4.0a1715337454-5.4.0a1715758278/README.md --exclude *.pyd
+[2024-05-15 09:52:04] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.7.tar.gz]
+[2024-05-15 09:52:04] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.8.tar.gz]
+[2024-05-15 09:52:04] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-15 09:52:05] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715337454.tar.gz]
+[2024-05-15 09:52:05] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715758278.tar.gz]
+[2024-05-15 09:52:05] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-15 09:52:05] INFO root fetch - main [MainThread]: Store serial: [23214346]
