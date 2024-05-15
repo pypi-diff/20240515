@@ -13065,3 +13065,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:58:09] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-15 08:58:09] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-15 08:58:09] INFO root fetch - main [MainThread]: Store serial: [23213812]
+[2024-05-15 09:00:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213812]
+[2024-05-15 09:00:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 09:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2024-05-15 09:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaxe
+[2024-05-15 09:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2024-05-15 09:00:18] INFO root fetch - processPackages [yplib]: New version: [5.7.8] Old Version: [5.7.7]
+[2024-05-15 09:00:18] INFO root fetch - processPackages [kaxe]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 09:00:19] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-15 09:00:19] INFO root fetch - processPackages [kaxe]: Downloading https://files.pythonhosted.org/packages/bb/00/28c8dfc8e2b87804ac6281d8834b8ec9cd23c8300f6efcf7946b693423c2/kaxe-0.1.1.tar.gz
+[2024-05-15 09:00:19] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/42/20/c63728abf631df58b5fe76fae8c64f0926f7896078a67f5546827bd724d6/yplib-5.7.7.tar.gz
+[2024-05-15 09:00:19] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-15 09:00:19] INFO root fetch - processPackages [kaxe]: Downloading https://files.pythonhosted.org/packages/80/9d/1ff77e34727b58ebf28d9f9ddf61e1c7d8bcbd9cf2f8a6a20e2d3bd42f8f/kaxe-0.1.2.tar.gz
+[2024-05-15 09:00:19] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/54/8bb8d2ccf2aace7bc339af2138f5bd6818a0841623f271dd17c0ac43f749/yplib-5.7.8.tar.gz
+[2024-05-15 09:00:19] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-15 09:00:19] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-15 09:00:19] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240515/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-15 09:00:19] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-15 09:00:19] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.7.7.tar.gz tmp/yplib-5.7.8.tar.gz --markdown 20240515/y/yplib/5.7.7-5.7.8/README.md --exclude *.pyd
+[2024-05-15 09:00:19] INFO root fetch - processPackages [kaxe]: executing diffoscope
+[2024-05-15 09:00:19] INFO root fetch - processPackages [kaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaxe-0.1.1.tar.gz tmp/kaxe-0.1.2.tar.gz --markdown 20240515/k/kaxe/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 09:00:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.7.tar.gz]
+[2024-05-15 09:00:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.8.tar.gz]
+[2024-05-15 09:00:20] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-15 09:00:20] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-15 09:00:20] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-15 09:00:20] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-15 09:00:21] INFO root fetch - processPackages [kaxe]: Remove: archive file [/home/abi/fetcher/tmp/kaxe-0.1.1.tar.gz]
+[2024-05-15 09:00:21] INFO root fetch - processPackages [kaxe]: Remove: archive file [/home/abi/fetcher/tmp/kaxe-0.1.2.tar.gz]
+[2024-05-15 09:00:21] INFO root fetch - main [MainThread]: End processing [kaxe]: success
+[2024-05-15 09:00:21] INFO root fetch - main [MainThread]: Store serial: [23213820]
