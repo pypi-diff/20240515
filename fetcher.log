@@ -21420,3 +21420,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:20:21] INFO root fetch - processPackages [molpipeline]: Remove: archive file [/home/abi/fetcher/tmp/molpipeline-0.8.1.tar.gz]
 [2024-05-15 14:20:21] INFO root fetch - main [MainThread]: End processing [molpipeline]: success
 [2024-05-15 14:20:21] INFO root fetch - main [MainThread]: Store serial: [23217397]
+[2024-05-15 14:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217397]
+[2024-05-15 14:22:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprpaper
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgutils
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumipy
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fs-base-multi-image
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fs-product-multi-image
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncmodels
+[2024-05-15 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agptools
+[2024-05-15 14:22:31] INFO root fetch - processPackages [fgutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 14:22:31] INFO root fetch - processPackages [lumipy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 14:22:31] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-05-15 14:22:31] WARNING root fetch - processPackages [pyprpaper]: Skipping, unable to determine old version
+[2024-05-15 14:22:31] INFO root fetch - main [MainThread]: End processing [pyprpaper] error
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-15 14:22:31] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 14:22:31] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 14:22:31] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/76/cd/25af7895f094ecdce8642b8eefbf5570e3f3251c3ad74ca6781ab765b529/lumipy-1.0.8-py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Downloading https://files.pythonhosted.org/packages/a9/db/ae7e2bcfe3e8277f6bb08df8be3cb5dededf137538680c63bb7831f3c9bb/odoo_addon_fs_product_multi_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Downloading https://files.pythonhosted.org/packages/f6/86/d95dd0d37abae0c23f2586ee7c29357fffdc714139004e056386b3601288/odoo_addon_fs_base_multi_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/b2/9e/61ac35415068272bad61fd205b44dd743d9c6e617901b23d6ed576442141/fgutils-0.0.9.tar.gz
+[2024-05-15 14:22:31] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-05-15 14:22:31] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.8.tar.gz tmp/fgutils-0.0.9.tar.gz --markdown 20240515/f/fgutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 14:22:31] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/af/13/4cc42c3e2deec28973c7b4dd4f45a865415a11d4da32c248fd3904f3babb/lumipy-1.0.9-py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Downloading https://files.pythonhosted.org/packages/31/06/cde81645a1dda11e70c796194fa1f735a124a69bbbb11996de7f3f14c9ea/odoo_addon_fs_base_multi_image-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Downloading https://files.pythonhosted.org/packages/27/76/918d85d09ec2ac32d34285be544e5aae9965013584f070919d04902cd736/odoo_addon_fs_product_multi_image-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-15 14:22:31] INFO root fetch - processPackages [lumipy]: executing diffoscope
+[2024-05-15 14:22:31] INFO root fetch - processPackages [lumipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumipy-1.0.8-py3-none-any.whl.zip tmp/lumipy-1.0.9-py3-none-any.whl.zip --markdown 20240515/l/lumipy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 14:22:31] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-15 14:22:31] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240515/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: executing diffoscope
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_base_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fs_base_multi_image-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-fs-base-multi-image/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: executing diffoscope
+[2024-05-15 14:22:31] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_product_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fs_product_multi_image-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-fs-product-multi-image/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-15 14:22:32] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-15 14:22:32] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240515/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 14:22:32] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-05-15 14:22:32] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.9.tar.gz]
+[2024-05-15 14:22:32] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-05-15 14:22:32] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - processPackages [odoo-addon-fs-base-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_image-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-base-multi-image]: success
+[2024-05-15 14:22:32] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-15 14:22:32] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - processPackages [odoo-addon-fs-product-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_multi_image-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-product-multi-image]: success
+[2024-05-15 14:22:32] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-15 14:22:32] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-15 14:22:33] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.8-py3-none-any.whl.zip]
+[2024-05-15 14:22:33] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.9-py3-none-any.whl.zip]
+[2024-05-15 14:22:33] INFO root fetch - main [MainThread]: End processing [lumipy]: success
+[2024-05-15 14:22:33] INFO root fetch - main [MainThread]: Store serial: [23217416]
