@@ -16143,3 +16143,132 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:53:57] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.2.1.tar.gz]
 [2024-05-15 10:53:57] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
 [2024-05-15 10:53:57] INFO root fetch - main [MainThread]: Store serial: [23215090]
+[2024-05-15 10:56:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215090]
+[2024-05-15 10:56:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtn-tools-pro
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-base
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-libs
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-whd
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-oci
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyprocessors-segment_renseignor
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: g3visu
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autodistill-gpt-4o
+[2024-05-15 10:56:06] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.0] Old Version: [1.0.0.0.9]
+[2024-05-15 10:56:06] WARNING root fetch - processPackages [g3visu]: Skipping, unable to determine old version
+[2024-05-15 10:56:06] INFO root fetch - processPackages [g3visu]: Start processing: ANASFV
+[2024-05-15 10:56:06] INFO root fetch - main [MainThread]: End processing [g3visu] error
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: New version: [0.5.8] Old Version: [0.5.4]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/de/a9/9ab72e3b65abb472d77511a3f05af2570bc6879434dac47851bd841b5dde/xtn-tools-pro-1.0.0.0.9.tar.gz
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2396.0] Old Version: [1.2395.0]
+[2024-05-15 10:56:06] WARNING root fetch - processPackages [autodistill-gpt-4o]: Skipping, unable to determine old version
+[2024-05-15 10:56:06] INFO root fetch - processPackages [autodistill-gpt-4o]: Start processing: th2-grpc-lw-data-provider
+[2024-05-15 10:56:06] INFO root fetch - main [MainThread]: End processing [autodistill-gpt-4o] error
+[2024-05-15 10:56:06] WARNING root fetch - processPackages [ANASFV]: Skipping, unable to determine old version
+[2024-05-15 10:56:06] INFO root fetch - processPackages [ANASFV]: Start processing: pytest-splunk-addon
+[2024-05-15 10:56:06] INFO root fetch - main [MainThread]: End processing [ANASFV] error
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/d6/36/236a22d3e1a7dc1269fb70531cf80b9558b101522abf6d6846877472708f/gardener_cicd_base-1.2395.0.tar.gz
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/95/c8/0316d4442f71751b320a51d3cf6fd599644dc5e86856ac7afff4f771fcfd/gardener_cicd_libs-1.2395.0.tar.gz
+[2024-05-15 10:56:06] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.4.0.dev9065635110] Old Version: [2.4.0.dev9065606558]
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/22/6d/d3d11c025189808591c5d2f7a2a09d3c85aa89e352b97cf2a4b12d0e1ad4/gardener_cicd_cli-1.2395.0.tar.gz
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/80/be/b0432ac6c60b44417bc5af7492b0332ca39317a71c2f1dd13f280d7e69fd/gardener_cicd_dso-1.2395.0.tar.gz
+[2024-05-15 10:56:06] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/5f/e8/82f6d05f9d67f2c33dab0a966bad9e73d4742a6c3a4c09b3b8ef398a5da7/gardener_cicd_whd-1.2395.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Downloading https://files.pythonhosted.org/packages/00/56/51b6c1455bbea7da296ce605e453d184f38744e318db5efcd0d0f07e9644/pyprocessors_segment_renseignor-0.5.4.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pytest-splunk-addon]: New version: [5.2.6b1] Old Version: [5.2.6]
+[2024-05-15 10:56:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/f1/c2/d3ba4618a30eb59a2fa2f9c8b4cf326629a78d7977089534cfec16e3e28c/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/f0/1a/9c59b969260e55c70356aed35d337113027431e2aa5a339a356ca1fcb430/xtn-tools-pro-1.0.0.1.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/a0/8d/f353dda0e972839021f0664bc69d28659d2b125521f434bb26796cd5aede/gardener_cicd_whd-1.2396.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pytest-splunk-addon]: Downloading https://files.pythonhosted.org/packages/5f/9d/3a759e6cba821c09e07a9697589043a69280190222db824dd0905e6d9465/pytest_splunk_addon-5.2.6.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/47/e5/f2ec997ef825cf5dda0db49c7e79a5331763d34c8a270848fd548fffbd6e/gardener_cicd_libs-1.2396.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/4a/2d/aa93fb440df001832d8191bbf5c0fcd938cf41f660935efdb1c4a6c46341/gardener_cicd_base-1.2396.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/fc/15/9b14a1912af313d73a31f027276a0ea57a15628f9bee7890ec5675e361e0/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/ce/88/c6ba221999627b092860d11e33bb22307bbe36d474f8edbb6af5bd4067b3/gardener_cicd_cli-1.2396.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240515/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.0.9.tar.gz tmp/xtn-tools-pro-1.0.0.1.0.tar.gz --markdown 20240515/x/xtn-tools-pro/1.0.0.0.9-1.0.0.1.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/80/2c/a1be0814b79b18766ffb39c8bc1343b6e5bf2fdb75dc9868483b34d21052/gardener_cicd_dso-1.2396.0.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2395.0.tar.gz tmp/gardener_cicd_whd-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-whd/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Downloading https://files.pythonhosted.org/packages/d5/27/74c9f1728e4cc8c94fb0b0963d4cd13b2f061b36f066aa5de8191d33fb4f/pyprocessors_segment_renseignor-0.5.8.tar.gz
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2395.0.tar.gz tmp/gardener_cicd_libs-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-libs/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz --markdown 20240515/t/th2-grpc-lw-data-provider/2.4.0.dev9065606558-2.4.0.dev9065635110/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2395.0.tar.gz tmp/gardener_cicd_base-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-base/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2395.0.tar.gz tmp/gardener_cicd_cli-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-cli/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2395.0.tar.gz tmp/gardener_cicd_dso-1.2396.0.tar.gz --markdown 20240515/g/gardener-cicd-dso/1.2395.0-1.2396.0/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: executing diffoscope
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_segment_renseignor-0.5.4.tar.gz tmp/pyprocessors_segment_renseignor-0.5.8.tar.gz --markdown 20240515/p/pyprocessors-segment_renseignor/0.5.4-0.5.8/README.md --exclude *.pyd
+[2024-05-15 10:56:07] INFO root fetch - processPackages [pytest-splunk-addon]: Downloading https://files.pythonhosted.org/packages/fd/a6/d4658b5fb59b95cbe73397c4a8260428d700d33d1868be5854cd182168af/pytest_splunk_addon-5.2.6b1.tar.gz
+[2024-05-15 10:56:08] INFO root fetch - processPackages [pytest-splunk-addon]: executing diffoscope
+[2024-05-15 10:56:08] INFO root fetch - processPackages [pytest-splunk-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_splunk_addon-5.2.6.tar.gz tmp/pytest_splunk_addon-5.2.6b1.tar.gz --markdown 20240515/p/pytest-splunk-addon/5.2.6-5.2.6b1/README.md --exclude *.pyd
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2395.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2396.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: scrapwithgpt
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-oci]: Start processing: data-horizon
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.9.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [xtn-tools-pro]: Start processing: xfem
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [scrapwithgpt]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [data-horizon]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_segment_renseignor-0.5.4.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_segment_renseignor-0.5.8.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [pyprocessors-segment_renseignor]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2395.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2396.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2395.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2396.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2395.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2396.0.tar.gz]
+[2024-05-15 10:56:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-15 10:56:08] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post72.dev0]
+[2024-05-15 10:56:08] INFO root fetch - processPackages [scrapwithgpt]: Downloading https://files.pythonhosted.org/packages/d7/29/c56b1939598d64308ef5f8ae6c02133603d830d6304bbe9e325e467509f7/scrapwithgpt-0.1.5.tar.gz
+[2024-05-15 10:56:08] INFO root fetch - processPackages [data-horizon]: Downloading https://files.pythonhosted.org/packages/72/13/9587427d31f7869364a3792afb6d8a4b9e36bb671e530de8638cf5e3167f/data_horizon-0.1.3.tar.gz
+[2024-05-15 10:56:08] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/87/fd/f4834c6ab5c429c6e4ef3593e3d68f12588c07888f4fd9eebc432448c459/xfem-2.1.2303.post72.dev0.tar.gz
+[2024-05-15 10:56:09] INFO root fetch - processPackages [pytest-splunk-addon]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon-5.2.6.tar.gz]
+[2024-05-15 10:56:09] INFO root fetch - processPackages [pytest-splunk-addon]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon-5.2.6b1.tar.gz]
+[2024-05-15 10:56:09] INFO root fetch - main [MainThread]: End processing [pytest-splunk-addon]: success
+[2024-05-15 10:56:09] INFO root fetch - processPackages [scrapwithgpt]: Downloading https://files.pythonhosted.org/packages/f6/de/afa3499d3b0c0299faef86706ebdf709de0802ed7da450fcad98ac85307f/scrapwithgpt-0.1.6.tar.gz
+[2024-05-15 10:56:09] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2395.0.tar.gz]
+[2024-05-15 10:56:09] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2396.0.tar.gz]
+[2024-05-15 10:56:09] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-15 10:56:09] INFO root fetch - processPackages [data-horizon]: Downloading https://files.pythonhosted.org/packages/d8/32/7e76de58a0b64adbfd5bf7cf9c903314b7e4081de4b76f2cb790b7f0c10d/data_horizon-0.2.0.tar.gz
+[2024-05-15 10:56:09] INFO root fetch - processPackages [scrapwithgpt]: executing diffoscope
+[2024-05-15 10:56:09] INFO root fetch - processPackages [scrapwithgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapwithgpt-0.1.5.tar.gz tmp/scrapwithgpt-0.1.6.tar.gz --markdown 20240515/s/scrapwithgpt/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-15 10:56:09] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-05-15 10:56:09] INFO root fetch - processPackages [data-horizon]: executing diffoscope
+[2024-05-15 10:56:09] INFO root fetch - processPackages [data-horizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_horizon-0.1.3.tar.gz tmp/data_horizon-0.2.0.tar.gz --markdown 20240515/d/data-horizon/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-15 10:56:09] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-05-15 10:56:09] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post72.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240515/x/xfem/2.1.2303.post72.dev0-2.1.2303.post8.dev0/README.md --exclude *.pyd
+[2024-05-15 10:56:09] INFO root fetch - processPackages [scrapwithgpt]: Remove: archive file [/home/abi/fetcher/tmp/scrapwithgpt-0.1.5.tar.gz]
+[2024-05-15 10:56:09] INFO root fetch - processPackages [scrapwithgpt]: Remove: archive file [/home/abi/fetcher/tmp/scrapwithgpt-0.1.6.tar.gz]
+[2024-05-15 10:56:09] INFO root fetch - main [MainThread]: End processing [scrapwithgpt]: success
+[2024-05-15 10:56:10] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.1.3.tar.gz]
+[2024-05-15 10:56:10] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.2.0.tar.gz]
+[2024-05-15 10:56:10] INFO root fetch - main [MainThread]: End processing [data-horizon]: success
+[2024-05-15 10:56:10] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post72.dev0.tar.gz]
+[2024-05-15 10:56:10] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-05-15 10:56:10] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-05-15 10:56:10] INFO root fetch - main [MainThread]: Store serial: [23215142]
