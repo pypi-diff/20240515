@@ -15638,3 +15638,15 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:36:10] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-15 10:36:10] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-15 10:36:10] INFO root fetch - main [MainThread]: Store serial: [23214875]
+[2024-05-15 10:38:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214875]
+[2024-05-15 10:38:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-15 10:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kan-gpt
+[2024-05-15 10:38:20] INFO root fetch - processPackages [kan-gpt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 10:38:20] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/14/57/d49d6ee68ce350824aa368b63f028b4232337c87335aba558d60d02f94c4/kan_gpt-1.0.1.tar.gz
+[2024-05-15 10:38:21] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/1f/28/d005e2ca3ca35ce5b8bc65b86438768d8eabc2b6f52e364eba9de3f56d2a/kan_gpt-1.0.2.tar.gz
+[2024-05-15 10:38:21] INFO root fetch - processPackages [kan-gpt]: executing diffoscope
+[2024-05-15 10:38:21] INFO root fetch - processPackages [kan-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kan_gpt-1.0.1.tar.gz tmp/kan_gpt-1.0.2.tar.gz --markdown 20240515/k/kan-gpt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 10:38:22] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.1.tar.gz]
+[2024-05-15 10:38:22] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.2.tar.gz]
+[2024-05-15 10:38:22] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
+[2024-05-15 10:38:22] INFO root fetch - main [MainThread]: Store serial: [23214878]
