@@ -23445,3 +23445,81 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:26:39] INFO root fetch - processPackages [pih-check]: Remove: archive file [/home/abi/fetcher/tmp/pih-check-0.15.1.tar.gz]
 [2024-05-15 15:26:39] INFO root fetch - main [MainThread]: End processing [pih-check]: success
 [2024-05-15 15:26:39] INFO root fetch - main [MainThread]: Store serial: [23218263]
+[2024-05-15 15:28:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218263]
+[2024-05-15 15:28:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandexcloud
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synrbl
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qfieldcloud-sdk
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-docker-plugin
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drawlib
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tableplus-db-urls
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aitrika
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d3vis-ipynb
+[2024-05-15 15:28:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SoccerNet
+[2024-05-15 15:28:48] INFO root fetch - processPackages [synrbl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/28/86/082dee5389753c8bd486879e55d26d3f2185a225fadf2f1fe4bb9beb9d85/synrbl-0.0.8.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-15 15:28:48] WARNING root fetch - processPackages [aitrika]: Skipping, unable to determine old version
+[2024-05-15 15:28:48] INFO root fetch - main [MainThread]: End processing [aitrika] error
+[2024-05-15 15:28:48] INFO root fetch - processPackages [tableplus-db-urls]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [qfieldcloud-sdk]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [d3vis-ipynb]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [drawlib]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [SoccerNet]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 15:28:48] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/20/b4/3f582b78a3281c68b3d3f143d0f6ef5130936f503f8f375c542aae1845ca/netbox_docker_plugin-1.8.1.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [qfieldcloud-sdk]: Downloading https://files.pythonhosted.org/packages/b2/60/695c96259b198c161d8c661f99cc8b975cfb16b1ea3bced8f87abb1e22b8/qfieldcloud-sdk-0.8.2.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [drawlib]: Downloading https://files.pythonhosted.org/packages/7a/9f/852be639a28b824cf19d833a27ecf49dac3d3a803d946c4dc254aeceadbf/drawlib-0.1.4.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [tableplus-db-urls]: Downloading https://files.pythonhosted.org/packages/5b/d9/0fe868d53a240fdb15dacf87d15eb6233b15c8cd330981ed3857e56be61f/tableplus_db_urls-0.1.1.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/29/5b/6779fbcf9e491917e56b4196f074fe323d5b9b9201977eea5cf2578e1627/d3vis_ipynb-0.2.1.tar.gz
+[2024-05-15 15:28:48] INFO root fetch - processPackages [SoccerNet]: Downloading https://files.pythonhosted.org/packages/04/da/cd4f5f04680eb54054e0812c6f40dc4eb99180ab175ecde103bc946d747c/SoccerNet-0.1.8.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/5c/22/f5f6d1874b599ff46d6155b4de52df7c7f58286b82037d3db18c4cb84902/synrbl-0.0.9.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [drawlib]: Downloading https://files.pythonhosted.org/packages/26/9b/43f4c0e1ee0f85ce24dba9fdd562801220abc365d43d7989a2197f5e2624/drawlib-0.1.5.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [tableplus-db-urls]: Downloading https://files.pythonhosted.org/packages/2f/64/f86e518c8d818c8e228870736d5db31dab2df1622f88b6aae16e21c2cfc3/tableplus_db_urls-0.1.2.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/4a/ad/385638ca220d588be2577e68e679ca6dbb2d14aac080d723104c408e542f/netbox_docker_plugin-1.9.0.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [qfieldcloud-sdk]: Downloading https://files.pythonhosted.org/packages/7c/e4/b016ed341d9d716a49c54ce61cec764ae97c09b965fd8ffe968582589adf/qfieldcloud_sdk-0.8.3.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [SoccerNet]: Downloading https://files.pythonhosted.org/packages/9d/92/72c8d3ee24e644311d9496e6725f9fe9ffd8f9f02dc9b5949b48031da40e/SoccerNet-0.1.9.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/24/69/d57ed88f62239765695761c10f76244ad875dcc676d58cda4f56f7043bf2/d3vis_ipynb-0.2.2.tar.gz
+[2024-05-15 15:28:49] INFO root fetch - processPackages [drawlib]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [drawlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawlib-0.1.4.tar.gz tmp/drawlib-0.1.5.tar.gz --markdown 20240515/d/drawlib/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [tableplus-db-urls]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [tableplus-db-urls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableplus_db_urls-0.1.1.tar.gz tmp/tableplus_db_urls-0.1.2.tar.gz --markdown 20240515/t/tableplus-db-urls/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_docker_plugin-1.8.1.tar.gz tmp/netbox_docker_plugin-1.9.0.tar.gz --markdown 20240515/n/netbox-docker-plugin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [qfieldcloud-sdk]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [qfieldcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qfieldcloud-sdk-0.8.2.tar.gz tmp/qfieldcloud_sdk-0.8.3.tar.gz --markdown 20240515/q/qfieldcloud-sdk/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.8.tar.gz tmp/synrbl-0.0.9.tar.gz --markdown 20240515/s/synrbl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240515/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [d3vis-ipynb]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [d3vis-ipynb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3vis_ipynb-0.2.1.tar.gz tmp/d3vis_ipynb-0.2.2.tar.gz --markdown 20240515/d/d3vis-ipynb/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 15:28:49] INFO root fetch - processPackages [SoccerNet]: executing diffoscope
+[2024-05-15 15:28:49] INFO root fetch - processPackages [SoccerNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoccerNet-0.1.8.tar.gz tmp/SoccerNet-0.1.9.tar.gz --markdown 20240515/S/SoccerNet/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 15:28:50] INFO root fetch - processPackages [qfieldcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qfieldcloud-sdk-0.8.2.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - processPackages [qfieldcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qfieldcloud_sdk-0.8.3.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - main [MainThread]: End processing [qfieldcloud-sdk]: success
+[2024-05-15 15:28:50] INFO root fetch - processPackages [SoccerNet]: Remove: archive file [/home/abi/fetcher/tmp/SoccerNet-0.1.8.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - processPackages [SoccerNet]: Remove: archive file [/home/abi/fetcher/tmp/SoccerNet-0.1.9.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - main [MainThread]: End processing [SoccerNet]: success
+[2024-05-15 15:28:50] INFO root fetch - processPackages [tableplus-db-urls]: Remove: archive file [/home/abi/fetcher/tmp/tableplus_db_urls-0.1.1.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - processPackages [tableplus-db-urls]: Remove: archive file [/home/abi/fetcher/tmp/tableplus_db_urls-0.1.2.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - main [MainThread]: End processing [tableplus-db-urls]: success
+[2024-05-15 15:28:50] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.8.1.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.9.0.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-05-15 15:28:50] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.4.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.5.tar.gz]
+[2024-05-15 15:28:50] INFO root fetch - main [MainThread]: End processing [drawlib]: success
+[2024-05-15 15:28:51] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.8.tar.gz]
+[2024-05-15 15:28:51] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
+[2024-05-15 15:28:51] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-05-15 15:28:52] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-15 15:28:52] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-15 15:28:52] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-15 15:28:53] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.1.tar.gz]
+[2024-05-15 15:28:53] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.2.tar.gz]
+[2024-05-15 15:28:53] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
+[2024-05-15 15:28:53] INFO root fetch - main [MainThread]: Store serial: [23218294]
