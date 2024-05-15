@@ -7505,3 +7505,36 @@
 [2024-05-15 03:35:14] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
 [2024-05-15 03:35:14] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
 [2024-05-15 03:35:14] INFO root fetch - main [MainThread]: Store serial: [23211458]
+[2024-05-15 03:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211458]
+[2024-05-15 03:37:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-create
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-order-archive
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: silver_octo_potato
+[2024-05-15 03:37:23] WARNING root fetch - processPackages [silver_octo_potato]: Skipping, unable to determine old version
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ansar-create]: New version: [0.1.86] Old Version: [0.1.85]
+[2024-05-15 03:37:23] INFO root fetch - main [MainThread]: End processing [silver_octo_potato] error
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.244] Old Version: [0.1.243]
+[2024-05-15 03:37:23] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.4]
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/c0/66/2c1b5c23da2426847bd9f40c0d2312fd91acae57419db0395bbd533d706f/ansar_connect-0.1.243.tar.gz
+[2024-05-15 03:37:23] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/6f/d8/565379db2f6844ee10f566683207db8f0be9a4dc4b8161e0ac4d1825e624/ansar_create-0.1.85.tar.gz
+[2024-05-15 03:37:23] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: Downloading https://files.pythonhosted.org/packages/5d/31/3b6c611dc7cf9e4fb17c73000909f9e8ca4e9f9140a16bc1d6d6d7124c29/odoo_addon_purchase_order_archive-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/d1/0b/9c54b17cba4d6fbafae1b1e2c27a708441b6cbefbeaa829d9face1fe68fd/ansar_connect-0.1.244.tar.gz
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/2b/d4/cc771dd816135b1b63546f639cb3cdb3217b539cbbe8fc3dc54679d2ce90/ansar_create-0.1.86.tar.gz
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.243.tar.gz tmp/ansar_connect-0.1.244.tar.gz --markdown 20240515/a/ansar-connect/0.1.243-0.1.244/README.md --exclude *.pyd
+[2024-05-15 03:37:24] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: Downloading https://files.pythonhosted.org/packages/aa/34/48662022924f5829609b918ec3271829a91cbd9643d15dffd0560c4d4881/odoo_addon_purchase_order_archive-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.85.tar.gz tmp/ansar_create-0.1.86.tar.gz --markdown 20240515/a/ansar-create/0.1.85-0.1.86/README.md --exclude *.pyd
+[2024-05-15 03:37:24] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: executing diffoscope
+[2024-05-15 03:37:24] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_archive-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_archive-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-purchase-order-archive/16.0.1.0.0.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.243.tar.gz]
+[2024-05-15 03:37:24] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.244.tar.gz]
+[2024-05-15 03:37:24] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-15 03:37:24] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_archive-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-15 03:37:24] INFO root fetch - processPackages [odoo-addon-purchase-order-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_archive-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-15 03:37:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-archive]: success
+[2024-05-15 03:37:25] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.85.tar.gz]
+[2024-05-15 03:37:25] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.86.tar.gz]
+[2024-05-15 03:37:25] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-15 03:37:25] INFO root fetch - main [MainThread]: Store serial: [23211470]
