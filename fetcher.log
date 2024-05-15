@@ -22931,3 +22931,50 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 15:10:25] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.5.tar.gz]
 [2024-05-15 15:10:25] INFO root fetch - main [MainThread]: End processing [tiktok-captcha-solver]: success
 [2024-05-15 15:10:25] INFO root fetch - main [MainThread]: Store serial: [23218023]
+[2024-05-15 15:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23218023]
+[2024-05-15 15:12:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 15:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contactsoftware-functions
+[2024-05-15 15:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robot-folders
+[2024-05-15 15:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aedev-git-repo-manager
+[2024-05-15 15:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-commission-geo-assign
+[2024-05-15 15:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eurmlsdk
+[2024-05-15 15:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langtest
+[2024-05-15 15:12:36] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-05-15 15:12:36] INFO root fetch - processPackages [aedev-git-repo-manager]: New version: [0.3.79] Old Version: [0.3.78]
+[2024-05-15 15:12:36] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: New version: [14.0.1.1.2.dev2] Old Version: [14.0.1.1.1.dev5]
+[2024-05-15 15:12:36] WARNING root fetch - processPackages [robot-folders]: Skipping, unable to determine old version
+[2024-05-15 15:12:36] INFO root fetch - main [MainThread]: End processing [robot-folders] error
+[2024-05-15 15:12:36] INFO root fetch - processPackages [contactsoftware-functions]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-15 15:12:36] INFO root fetch - processPackages [aedev-git-repo-manager]: Downloading https://files.pythonhosted.org/packages/81/d5/0275fda956738c57653692be45c86d9eedac1f971d9bfd10ae28aad9af63/aedev_git_repo_manager-0.3.78.tar.gz
+[2024-05-15 15:12:36] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/ce/f1/aa511b46040a2b7a79703c3c9b670b5a0e5a1458d7876c67db8d968192e9/eurmlsdk-0.0.85.tar.gz
+[2024-05-15 15:12:36] INFO root fetch - processPackages [langtest]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2024-05-15 15:12:36] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Downloading https://files.pythonhosted.org/packages/81/ce/0eeefb66ba21405246ed9ea787ccffa7a77b8d74c9a0ba8bdc06dca44d31/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl
+[2024-05-15 15:12:36] INFO root fetch - processPackages [contactsoftware-functions]: Downloading https://files.pythonhosted.org/packages/e0/09/d501eaf28e81aaeded3dee681de1256ee8b11768fa5b8470710c833f165a/contactsoftware_functions-0.6.0.tar.gz
+[2024-05-15 15:12:36] INFO root fetch - processPackages [aedev-git-repo-manager]: Downloading https://files.pythonhosted.org/packages/54/55/91a2eff4e15c096766cdcfe3f27f7ecc8ceae3db464f97608049dcdbefea/aedev_git_repo_manager-0.3.79.tar.gz
+[2024-05-15 15:12:36] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/72/96/71a7b5b0139db7fd2cc70956f496f514461cba17b9419f24926fc8033c93/langtest-2.2.0rc1.tar.gz
+[2024-05-15 15:12:36] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 19423950>=10485760
+[2024-05-15 15:12:36] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2024-05-15 15:12:36] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/0f/f3/afb837b8f2ac40e5d72fbfe0cdcc157eb91d3604a087ee165aff295fbc8d/eurmlsdk-0.0.86.tar.gz
+[2024-05-15 15:12:36] INFO root fetch - processPackages [aedev-git-repo-manager]: executing diffoscope
+[2024-05-15 15:12:36] INFO root fetch - processPackages [aedev-git-repo-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aedev_git_repo_manager-0.3.78.tar.gz tmp/aedev_git_repo_manager-0.3.79.tar.gz --markdown 20240515/a/aedev-git-repo-manager/0.3.78-0.3.79/README.md --exclude *.pyd
+[2024-05-15 15:12:36] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-15 15:12:36] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.85.tar.gz tmp/eurmlsdk-0.0.86.tar.gz --markdown 20240515/e/eurmlsdk/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-05-15 15:12:36] INFO root fetch - processPackages [contactsoftware-functions]: Downloading https://files.pythonhosted.org/packages/72/0c/49555e2923065041cd79e431b36afbe1764a86d1f77f16e8bebbfaaf29e5/contactsoftware_functions-0.7.0.tar.gz
+[2024-05-15 15:12:36] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Downloading https://files.pythonhosted.org/packages/38/a1/8facef0ddf27889456ba127b17b78e65491d7e0a2612f8d417b8e4864782/odoo14_addon_sale_commission_geo_assign-14.0.1.1.2.dev2-py3-none-any.whl
+[2024-05-15 15:12:36] INFO root fetch - processPackages [contactsoftware-functions]: executing diffoscope
+[2024-05-15 15:12:36] INFO root fetch - processPackages [contactsoftware-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contactsoftware_functions-0.6.0.tar.gz tmp/contactsoftware_functions-0.7.0.tar.gz --markdown 20240515/c/contactsoftware-functions/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-15 15:12:36] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: executing diffoscope
+[2024-05-15 15:12:36] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.2.dev2-py3-none-any.whl.zip --markdown 20240515/o/odoo14-addon-sale-commission-geo-assign/14.0.1.1.1.dev5-14.0.1.1.2.dev2/README.md --exclude *.pyd
+[2024-05-15 15:12:37] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.85.tar.gz]
+[2024-05-15 15:12:37] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.86.tar.gz]
+[2024-05-15 15:12:37] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-15 15:12:37] INFO root fetch - processPackages [contactsoftware-functions]: Remove: archive file [/home/abi/fetcher/tmp/contactsoftware_functions-0.6.0.tar.gz]
+[2024-05-15 15:12:37] INFO root fetch - processPackages [contactsoftware-functions]: Remove: archive file [/home/abi/fetcher/tmp/contactsoftware_functions-0.7.0.tar.gz]
+[2024-05-15 15:12:37] INFO root fetch - main [MainThread]: End processing [contactsoftware-functions]: success
+[2024-05-15 15:12:37] INFO root fetch - processPackages [aedev-git-repo-manager]: Remove: archive file [/home/abi/fetcher/tmp/aedev_git_repo_manager-0.3.78.tar.gz]
+[2024-05-15 15:12:37] INFO root fetch - processPackages [aedev-git-repo-manager]: Remove: archive file [/home/abi/fetcher/tmp/aedev_git_repo_manager-0.3.79.tar.gz]
+[2024-05-15 15:12:37] INFO root fetch - main [MainThread]: End processing [aedev-git-repo-manager]: success
+[2024-05-15 15:12:37] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2024-05-15 15:12:37] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.2.dev2-py3-none-any.whl.zip]
+[2024-05-15 15:12:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-geo-assign]: success
+[2024-05-15 15:12:37] INFO root fetch - main [MainThread]: Store serial: [23218044]
