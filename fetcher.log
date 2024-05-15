@@ -12100,3 +12100,30 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:06:24] INFO root fetch - processPackages [seqthetic]: Remove: archive file [/home/abi/fetcher/tmp/seqthetic-0.1.1.tar.gz]
 [2024-05-15 08:06:24] INFO root fetch - main [MainThread]: End processing [seqthetic]: success
 [2024-05-15 08:06:24] INFO root fetch - main [MainThread]: Store serial: [23213453]
+[2024-05-15 08:08:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213453]
+[2024-05-15 08:08:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 08:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxalio-studio-tools
+[2024-05-15 08:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ATCForm
+[2024-05-15 08:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmevaluator
+[2024-05-15 08:08:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: article-to-podcast
+[2024-05-15 08:08:34] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-15 08:08:34] WARNING root fetch - processPackages [article-to-podcast]: Skipping, unable to determine old version
+[2024-05-15 08:08:34] INFO root fetch - main [MainThread]: End processing [article-to-podcast] error
+[2024-05-15 08:08:34] INFO root fetch - processPackages [ATCForm]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-15 08:08:34] WARNING root fetch - processPackages [llmevaluator]: Skipping, unable to determine old version
+[2024-05-15 08:08:34] INFO root fetch - main [MainThread]: End processing [llmevaluator] error
+[2024-05-15 08:08:34] INFO root fetch - processPackages [ATCForm]: Downloading https://files.pythonhosted.org/packages/5e/05/b53d32899f6b6fc2fbb2def4901de62581ada76c83f7415724f46bae0610/atcform-0.1.2.tar.gz
+[2024-05-15 08:08:34] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/a0/61/03df2203abb08b77ef866a76d21a75bc531ae2593eb388b9ee4f6f8a4e26/cxalio_studio_tools-0.2.0.tar.gz
+[2024-05-15 08:08:34] INFO root fetch - processPackages [ATCForm]: Downloading https://files.pythonhosted.org/packages/ff/6f/b2efb1e1fa420837f23d33605f0cfe869073750240452a3c2c72681c8f7b/atcform-0.1.3.tar.gz
+[2024-05-15 08:08:34] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/07/95/65a6e6b450fafbaa7dfdc24fcea73d2acea5c6c058ecbf2ab4d0a84bbba9/cxalio_studio_tools-0.2.1.tar.gz
+[2024-05-15 08:08:34] INFO root fetch - processPackages [ATCForm]: executing diffoscope
+[2024-05-15 08:08:34] INFO root fetch - processPackages [ATCForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atcform-0.1.2.tar.gz tmp/atcform-0.1.3.tar.gz --markdown 20240515/A/ATCForm/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-15 08:08:34] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-15 08:08:34] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.2.0.tar.gz tmp/cxalio_studio_tools-0.2.1.tar.gz --markdown 20240515/c/cxalio-studio-tools/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-15 08:08:35] INFO root fetch - processPackages [ATCForm]: Remove: archive file [/home/abi/fetcher/tmp/atcform-0.1.2.tar.gz]
+[2024-05-15 08:08:35] INFO root fetch - processPackages [ATCForm]: Remove: archive file [/home/abi/fetcher/tmp/atcform-0.1.3.tar.gz]
+[2024-05-15 08:08:35] INFO root fetch - main [MainThread]: End processing [ATCForm]: success
+[2024-05-15 08:08:35] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.0.tar.gz]
+[2024-05-15 08:08:35] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.2.1.tar.gz]
+[2024-05-15 08:08:35] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-15 08:08:35] INFO root fetch - main [MainThread]: Store serial: [23213464]
