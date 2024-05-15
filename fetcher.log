@@ -11367,3 +11367,33 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:42:14] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715750416.tar.gz]
 [2024-05-15 07:42:14] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2024-05-15 07:42:14] INFO root fetch - main [MainThread]: Store serial: [23213194]
+[2024-05-15 07:44:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213194]
+[2024-05-15 07:44:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 07:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensr-test
+[2024-05-15 07:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptify
+[2024-05-15 07:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rippling-flux-sdk
+[2024-05-15 07:44:23] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-05-15 07:44:23] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-05-15 07:44:23] INFO root fetch - processPackages [opensr-test]: New version: [0.2.9] Old Version: [0.2.1]
+[2024-05-15 07:44:23] INFO root fetch - processPackages [gptify]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-15 07:44:23] INFO root fetch - processPackages [gptify]: Downloading https://files.pythonhosted.org/packages/d3/99/24429de4455c73f912e23761cb71b6bf9d21ccc26934747647e72dc843f6/gptify-0.3.3.tar.gz
+[2024-05-15 07:44:23] INFO root fetch - processPackages [opensr-test]: Downloading https://files.pythonhosted.org/packages/9a/9e/032f6c5bd9044f156c7800db17dae99024f051bf7382dcb225d193723b67/opensr-test-0.2.1.tar.gz
+[2024-05-15 07:44:23] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-05-15 07:44:23] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-05-15 07:44:23] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240515/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-05-15 07:44:24] INFO root fetch - processPackages [gptify]: Downloading https://files.pythonhosted.org/packages/e6/94/0514d5bddeda84a7a5771a9b8e591331fe9bd871e56a4407bd1cc331c695/gptify-0.3.4.tar.gz
+[2024-05-15 07:44:24] INFO root fetch - processPackages [opensr-test]: Downloading https://files.pythonhosted.org/packages/69/14/520a21aefdf2ae939d9ba7e0d33451b279c393f1ec0fefe54aaaa9840900/opensr_test-0.2.9.tar.gz
+[2024-05-15 07:44:24] INFO root fetch - processPackages [gptify]: executing diffoscope
+[2024-05-15 07:44:24] INFO root fetch - processPackages [gptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptify-0.3.3.tar.gz tmp/gptify-0.3.4.tar.gz --markdown 20240515/g/gptify/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-15 07:44:24] INFO root fetch - processPackages [opensr-test]: executing diffoscope
+[2024-05-15 07:44:24] INFO root fetch - processPackages [opensr-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-test-0.2.1.tar.gz tmp/opensr_test-0.2.9.tar.gz --markdown 20240515/o/opensr-test/0.2.1-0.2.9/README.md --exclude *.pyd
+[2024-05-15 07:44:24] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-05-15 07:44:24] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-05-15 07:44:24] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-05-15 07:44:24] INFO root fetch - processPackages [opensr-test]: Remove: archive file [/home/abi/fetcher/tmp/opensr-test-0.2.1.tar.gz]
+[2024-05-15 07:44:24] INFO root fetch - processPackages [opensr-test]: Remove: archive file [/home/abi/fetcher/tmp/opensr_test-0.2.9.tar.gz]
+[2024-05-15 07:44:24] INFO root fetch - main [MainThread]: End processing [opensr-test]: success
+[2024-05-15 07:44:24] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.3.tar.gz]
+[2024-05-15 07:44:24] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.4.tar.gz]
+[2024-05-15 07:44:24] INFO root fetch - main [MainThread]: End processing [gptify]: success
+[2024-05-15 07:44:24] INFO root fetch - main [MainThread]: Store serial: [23213205]
