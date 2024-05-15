@@ -21042,3 +21042,51 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:02:50] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-05-15 14:02:50] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-05-15 14:02:50] INFO root fetch - main [MainThread]: Store serial: [23217251]
+[2024-05-15 14:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217251]
+[2024-05-15 14:04:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: script-house
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mp2c
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imsciences
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-read-db
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-l10n-it-fatturapa-pec
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: retailtree
+[2024-05-15 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-br-mis-report
+[2024-05-15 14:04:59] INFO root fetch - processPackages [mp2c]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-15 14:04:59] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.6] Old Version: [0.5.5.5]
+[2024-05-15 14:04:59] WARNING root fetch - processPackages [script-house]: Skipping, unable to determine old version
+[2024-05-15 14:04:59] INFO root fetch - main [MainThread]: End processing [script-house] error
+[2024-05-15 14:04:59] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: New version: [12.0.2.2.1] Old Version: [12.0.2.2.0.99.dev3]
+[2024-05-15 14:04:59] WARNING root fetch - processPackages [retailtree]: Skipping, unable to determine old version
+[2024-05-15 14:04:59] INFO root fetch - main [MainThread]: End processing [retailtree] error
+[2024-05-15 14:04:59] INFO root fetch - processPackages [mp2c]: Downloading https://files.pythonhosted.org/packages/4a/79/292164426d5c75621a9f0703837564c36745c9e47cc1ca45c900ac983ae3/mp2c-0.0.2.tar.gz
+[2024-05-15 14:04:59] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a9/a4/1add228d89ba592026fb93679d72d9b47381437f2d9535edba6d3fcb7d25/imsciences-0.5.5.5.tar.gz
+[2024-05-15 14:04:59] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.9.dev9095248208] Old Version: [0.0.9.dev9066081604]
+[2024-05-15 14:04:59] WARNING root fetch - processPackages [odoo-addon-l10n-br-mis-report]: Skipping, unable to determine old version
+[2024-05-15 14:04:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-mis-report] error
+[2024-05-15 14:04:59] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/f4/ad/8e62811c8a9924c578906d6d94a1cf1511dfff633d840431632e94d3fec6/th2_grpc_read_db-0.0.9.dev9066081604.tar.gz
+[2024-05-15 14:04:59] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: Downloading https://files.pythonhosted.org/packages/fa/fe/4b415c4401532d776fa81f689476b14c426d79b4d4108a2130543e536c5b/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.0.99.dev3-py3-none-any.whl
+[2024-05-15 14:04:59] INFO root fetch - processPackages [mp2c]: Downloading https://files.pythonhosted.org/packages/b3/d9/97840dd2283c9992eebf60803ede5bad7a1db1482df8db4eb3328241b0ed/mp2c-0.1.0.tar.gz
+[2024-05-15 14:04:59] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/7d/42/e8dcc48e6281c503079de396f2df6b204fa854d5c983e87dabbd26a64e13/imsciences-0.5.5.6.tar.gz
+[2024-05-15 14:04:59] INFO root fetch - processPackages [mp2c]: executing diffoscope
+[2024-05-15 14:04:59] INFO root fetch - processPackages [mp2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp2c-0.0.2.tar.gz tmp/mp2c-0.1.0.tar.gz --markdown 20240515/m/mp2c/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-15 14:04:59] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-15 14:04:59] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.5.5.tar.gz tmp/imsciences-0.5.5.6.tar.gz --markdown 20240515/i/imsciences/0.5.5.5-0.5.5.6/README.md --exclude *.pyd
+[2024-05-15 14:04:59] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/da/4d/38611c50010dc8b7030baccdf13a2899d97038c8061de51bd5aaf6f42b24/th2_grpc_read_db-0.0.9.dev9095248208.tar.gz
+[2024-05-15 14:04:59] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: Downloading https://files.pythonhosted.org/packages/f6/d1/59f1dc23a6e90d355151a5a28e4ddd21027f9e7c752b5eac1de88d3c171f/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.1-py3-none-any.whl
+[2024-05-15 14:05:00] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-05-15 14:05:00] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.9.dev9066081604.tar.gz tmp/th2_grpc_read_db-0.0.9.dev9095248208.tar.gz --markdown 20240515/t/th2-grpc-read-db/0.0.9.dev9066081604-0.0.9.dev9095248208/README.md --exclude *.pyd
+[2024-05-15 14:05:00] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: executing diffoscope
+[2024-05-15 14:05:00] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.1-py3-none-any.whl.zip --markdown 20240515/o/odoo12-addon-l10n-it-fatturapa-pec/12.0.2.2.0.99.dev3-12.0.2.2.1/README.md --exclude *.pyd
+[2024-05-15 14:05:00] INFO root fetch - processPackages [mp2c]: Remove: archive file [/home/abi/fetcher/tmp/mp2c-0.0.2.tar.gz]
+[2024-05-15 14:05:00] INFO root fetch - processPackages [mp2c]: Remove: archive file [/home/abi/fetcher/tmp/mp2c-0.1.0.tar.gz]
+[2024-05-15 14:05:00] INFO root fetch - main [MainThread]: End processing [mp2c]: success
+[2024-05-15 14:05:00] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.5.tar.gz]
+[2024-05-15 14:05:00] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.6.tar.gz]
+[2024-05-15 14:05:00] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-15 14:05:00] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9.dev9066081604.tar.gz]
+[2024-05-15 14:05:00] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9.dev9095248208.tar.gz]
+[2024-05-15 14:05:00] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-05-15 14:05:00] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.0.99.dev3-py3-none-any.whl.zip]
+[2024-05-15 14:05:00] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa-pec]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_fatturapa_pec-12.0.2.2.1-py3-none-any.whl.zip]
+[2024-05-15 14:05:00] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-pec]: success
+[2024-05-15 14:05:00] INFO root fetch - main [MainThread]: Store serial: [23217266]
