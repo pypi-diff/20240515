@@ -22694,3 +22694,60 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 14:59:29] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.0.tar.gz]
 [2024-05-15 14:59:29] INFO root fetch - main [MainThread]: End processing [ascat]: success
 [2024-05-15 14:59:29] INFO root fetch - main [MainThread]: Store serial: [23217915]
+[2024-05-15 15:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23217915]
+[2024-05-15 15:01:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 15:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reolink-aio
+[2024-05-15 15:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arglite
+[2024-05-15 15:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hstream
+[2024-05-15 15:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-run-flask-template
+[2024-05-15 15:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piccolo-theme
+[2024-05-15 15:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-fluent
+[2024-05-15 15:01:40] INFO root fetch - processPackages [cloud-run-flask-template]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 15:01:40] INFO root fetch - processPackages [hstream]: New version: [0.1.50] Old Version: [0.1.49]
+[2024-05-15 15:01:40] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/d8/61/e05ce2f408742cccdf49e7c40b0c4e0569d93ea10a890148afe8a837ac63/hstream-0.1.49.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [pytest-fluent]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-15 15:01:40] INFO root fetch - processPackages [piccolo-theme]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-15 15:01:40] INFO root fetch - processPackages [arglite]: New version: [0.8.5] Old Version: [0.8.0]
+[2024-05-15 15:01:40] INFO root fetch - processPackages [reolink-aio]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-15 15:01:40] INFO root fetch - processPackages [cloud-run-flask-template]: Downloading https://files.pythonhosted.org/packages/14/b7/ff1ad6f5a4f07b1c13115bdd488b9b092a18caf2f8746664c5859db3e905/cloud_run_flask_template-0.1.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/1f/d7/21914426fa08720fe6cab52e2b7a86e18c7d50cd27fc1e32ee4c18598cb6/reolink_aio-0.8.8.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [arglite]: Downloading https://files.pythonhosted.org/packages/92/ab/aae8a89d80ad3039e9a2705625754d8086c51c03b2ee0c50d96aaf77dba8/arglite-0.8.0-py3-none-any.whl
+[2024-05-15 15:01:40] INFO root fetch - processPackages [pytest-fluent]: Downloading https://files.pythonhosted.org/packages/53/d9/ae0280c2775e6ac2f4495055096887fe8607d629d4f83e865cb6802b9668/pytest_fluent-0.3.0.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [piccolo-theme]: Downloading https://files.pythonhosted.org/packages/d1/33/b57cf3c1895b5f1def740efbe5c7feac8d7c1c8494c185ab7cb0a0f3c35b/piccolo_theme-0.8.1.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/da/d4/e2be08ed2dc676ad77004d72c7e81ce636781be883f7484c370ab9d8b662/hstream-0.1.50.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [cloud-run-flask-template]: Downloading https://files.pythonhosted.org/packages/c0/ff/8c58469298b1aecbad7bc98f66bd46c40caaeed00e222269c7010e816c30/cloud_run_flask_template-0.2.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-15 15:01:40] INFO root fetch - processPackages [arglite]: Downloading https://files.pythonhosted.org/packages/e0/b7/ddc0b46a9f4d50e0cc82ea8c516f5f3102c6af8c51881cbfed3842a05692/arglite-0.8.5-py3-none-any.whl
+[2024-05-15 15:01:40] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.49.tar.gz tmp/hstream-0.1.50.tar.gz --markdown 20240515/h/hstream/0.1.49-0.1.50/README.md --exclude *.pyd
+[2024-05-15 15:01:40] INFO root fetch - processPackages [cloud-run-flask-template]: executing diffoscope
+[2024-05-15 15:01:40] INFO root fetch - processPackages [cloud-run-flask-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_run_flask_template-0.1.tar.gz tmp/cloud_run_flask_template-0.2.tar.gz --markdown 20240515/c/cloud-run-flask-template/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 15:01:40] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/c4/de/060683746083241d72d842b723b3a9052bbe295f681bba314c4d32ad2a43/reolink_aio-0.8.9.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [pytest-fluent]: Downloading https://files.pythonhosted.org/packages/0e/d4/96da248a0fad90d984eb3943dba2daef3d5b87e48b85957877b4418b87a9/pytest_fluent-0.3.1.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [piccolo-theme]: Downloading https://files.pythonhosted.org/packages/3b/1c/44ec171e4c4361dd24d1cf258c3f971760d00d252d155a173e38b0bc273a/piccolo_theme-0.9.0.tar.gz
+[2024-05-15 15:01:40] INFO root fetch - processPackages [arglite]: executing diffoscope
+[2024-05-15 15:01:40] INFO root fetch - processPackages [arglite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arglite-0.8.0-py3-none-any.whl.zip tmp/arglite-0.8.5-py3-none-any.whl.zip --markdown 20240515/a/arglite/0.8.0-0.8.5/README.md --exclude *.pyd
+[2024-05-15 15:01:41] INFO root fetch - processPackages [pytest-fluent]: executing diffoscope
+[2024-05-15 15:01:41] INFO root fetch - processPackages [pytest-fluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_fluent-0.3.0.tar.gz tmp/pytest_fluent-0.3.1.tar.gz --markdown 20240515/p/pytest-fluent/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-15 15:01:41] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2024-05-15 15:01:41] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.8.8.tar.gz tmp/reolink_aio-0.8.9.tar.gz --markdown 20240515/r/reolink-aio/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-15 15:01:41] INFO root fetch - processPackages [piccolo-theme]: executing diffoscope
+[2024-05-15 15:01:41] INFO root fetch - processPackages [piccolo-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo_theme-0.8.1.tar.gz tmp/piccolo_theme-0.9.0.tar.gz --markdown 20240515/p/piccolo-theme/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-15 15:01:41] INFO root fetch - processPackages [cloud-run-flask-template]: Remove: archive file [/home/abi/fetcher/tmp/cloud_run_flask_template-0.1.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - processPackages [cloud-run-flask-template]: Remove: archive file [/home/abi/fetcher/tmp/cloud_run_flask_template-0.2.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - main [MainThread]: End processing [cloud-run-flask-template]: success
+[2024-05-15 15:01:41] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.49.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.50.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-15 15:01:41] INFO root fetch - processPackages [arglite]: Remove: archive file [/home/abi/fetcher/tmp/arglite-0.8.0-py3-none-any.whl.zip]
+[2024-05-15 15:01:41] INFO root fetch - processPackages [arglite]: Remove: archive file [/home/abi/fetcher/tmp/arglite-0.8.5-py3-none-any.whl.zip]
+[2024-05-15 15:01:41] INFO root fetch - main [MainThread]: End processing [arglite]: success
+[2024-05-15 15:01:41] INFO root fetch - processPackages [pytest-fluent]: Remove: archive file [/home/abi/fetcher/tmp/pytest_fluent-0.3.0.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - processPackages [pytest-fluent]: Remove: archive file [/home/abi/fetcher/tmp/pytest_fluent-0.3.1.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - main [MainThread]: End processing [pytest-fluent]: success
+[2024-05-15 15:01:41] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.8.8.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.8.9.tar.gz]
+[2024-05-15 15:01:41] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2024-05-15 15:01:42] INFO root fetch - processPackages [piccolo-theme]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_theme-0.8.1.tar.gz]
+[2024-05-15 15:01:42] INFO root fetch - processPackages [piccolo-theme]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_theme-0.9.0.tar.gz]
+[2024-05-15 15:01:42] INFO root fetch - main [MainThread]: End processing [piccolo-theme]: success
+[2024-05-15 15:01:42] INFO root fetch - main [MainThread]: Store serial: [23217934]
