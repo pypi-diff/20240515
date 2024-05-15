@@ -13598,3 +13598,56 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:22:19] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.4.2.tar.gz]
 [2024-05-15 09:22:19] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
 [2024-05-15 09:22:19] INFO root fetch - main [MainThread]: Store serial: [23214005]
+[2024-05-15 09:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214005]
+[2024-05-15 09:24:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-webservice
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tplinkrouterc6u
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tree-sitter-idl
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylibyear
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swa-gaussian
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langvae
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastdfs-client
+[2024-05-15 09:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-github
+[2024-05-15 09:24:28] INFO root fetch - processPackages [odoo-addon-webservice]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0.1]
+[2024-05-15 09:24:28] WARNING root fetch - processPackages [tree-sitter-idl]: Skipping, unable to determine old version
+[2024-05-15 09:24:28] INFO root fetch - main [MainThread]: End processing [tree-sitter-idl] error
+[2024-05-15 09:24:28] INFO root fetch - processPackages [tplinkrouterc6u]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-15 09:24:28] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/8b/27/6fba0cafbd9b7aee2bae3c0b670a972683664bceb6ef285b7c8b7bf26737/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-15 09:24:28] INFO root fetch - processPackages [swa-gaussian]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-15 09:24:28] WARNING root fetch - processPackages [pylibyear]: Skipping, unable to determine old version
+[2024-05-15 09:24:28] WARNING root fetch - processPackages [fastdfs-client]: Skipping, unable to determine old version
+[2024-05-15 09:24:28] INFO root fetch - main [MainThread]: End processing [pylibyear] error
+[2024-05-15 09:24:28] INFO root fetch - processPackages [langvae]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-15 09:24:28] INFO root fetch - main [MainThread]: End processing [fastdfs-client] error
+[2024-05-15 09:24:28] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1715757032] Old Version: [6.3.0a1715383921]
+[2024-05-15 09:24:29] INFO root fetch - processPackages [tplinkrouterc6u]: Downloading https://files.pythonhosted.org/packages/4f/bc/9d75e18cf14f425ca834a762dbe54f02bd36eb30c8c57b75093bea7c7284/tplinkrouterc6u-4.0.1.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [swa-gaussian]: Downloading https://files.pythonhosted.org/packages/ba/98/5830d26b255396106ed04d3b6361f2a2dd916a1c3e356d6178a8805f5293/swa_gaussian-0.1.4.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [langvae]: Downloading https://files.pythonhosted.org/packages/97/ba/ad583fcdb9fd5e17487dad2c6f88cf1870347329ce0d42bf4ea5455a001e/langvae-0.2.4.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/ac/d3/d006034e462fe46c574f911f8f8b4514c173a31d05c98bb112d6b3e0ddac/pulumi_github-6.3.0a1715383921.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/7b/da/d43f88d2f4c3a6f8517d32e81f7e11198adbf590cd0b03cac5a093af2b26/odoo_addon_webservice-16.0.1.3.0-py3-none-any.whl
+[2024-05-15 09:24:29] WARNING root fetch - processPackages [swa-gaussian]: Skipping package: exceeds size limit 36078752>=10485760
+[2024-05-15 09:24:29] INFO root fetch - main [MainThread]: End processing [swa-gaussian] error
+[2024-05-15 09:24:29] INFO root fetch - processPackages [odoo-addon-webservice]: executing diffoscope
+[2024-05-15 09:24:29] INFO root fetch - processPackages [odoo-addon-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_webservice-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240515/o/odoo-addon-webservice/16.0.1.2.0.1-16.0.1.3.0/README.md --exclude *.pyd
+[2024-05-15 09:24:29] INFO root fetch - processPackages [langvae]: Downloading https://files.pythonhosted.org/packages/01/a9/cd308c5182eb59e3d497a42556271f181e334ffd3ecf66688bb43daa78d2/langvae-0.2.5.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [tplinkrouterc6u]: Downloading https://files.pythonhosted.org/packages/cd/f2/b49fc666049882dc68e5edb7cd82514c46249cf79703494d09c93de64777/tplinkrouterc6u-4.0.2.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/34/1f/ce20d5e9984a6f83c3f1834e543590bad67c48839ab76e8fbf8d5990b54b/pulumi_github-6.3.0a1715757032.tar.gz
+[2024-05-15 09:24:29] INFO root fetch - processPackages [tplinkrouterc6u]: executing diffoscope
+[2024-05-15 09:24:29] INFO root fetch - processPackages [tplinkrouterc6u]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tplinkrouterc6u-4.0.1.tar.gz tmp/tplinkrouterc6u-4.0.2.tar.gz --markdown 20240515/t/tplinkrouterc6u/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-15 09:24:29] INFO root fetch - processPackages [langvae]: executing diffoscope
+[2024-05-15 09:24:29] INFO root fetch - processPackages [langvae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langvae-0.2.4.tar.gz tmp/langvae-0.2.5.tar.gz --markdown 20240515/l/langvae/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-15 09:24:29] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-15 09:24:29] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1715383921.tar.gz tmp/pulumi_github-6.3.0a1715757032.tar.gz --markdown 20240515/p/pulumi-github/6.3.0a1715383921-6.3.0a1715757032/README.md --exclude *.pyd
+[2024-05-15 09:24:30] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-15 09:24:30] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-15 09:24:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-webservice]: success
+[2024-05-15 09:24:30] INFO root fetch - processPackages [tplinkrouterc6u]: Remove: archive file [/home/abi/fetcher/tmp/tplinkrouterc6u-4.0.1.tar.gz]
+[2024-05-15 09:24:30] INFO root fetch - processPackages [tplinkrouterc6u]: Remove: archive file [/home/abi/fetcher/tmp/tplinkrouterc6u-4.0.2.tar.gz]
+[2024-05-15 09:24:30] INFO root fetch - main [MainThread]: End processing [tplinkrouterc6u]: success
+[2024-05-15 09:24:30] INFO root fetch - processPackages [langvae]: Remove: archive file [/home/abi/fetcher/tmp/langvae-0.2.4.tar.gz]
+[2024-05-15 09:24:30] INFO root fetch - processPackages [langvae]: Remove: archive file [/home/abi/fetcher/tmp/langvae-0.2.5.tar.gz]
+[2024-05-15 09:24:30] INFO root fetch - main [MainThread]: End processing [langvae]: success
+[2024-05-15 09:24:31] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715383921.tar.gz]
+[2024-05-15 09:24:31] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715757032.tar.gz]
+[2024-05-15 09:24:31] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-15 09:24:31] INFO root fetch - main [MainThread]: Store serial: [23214038]
