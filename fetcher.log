@@ -10976,3 +10976,26 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:22:07] INFO root fetch - processPackages [utils-ai-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_ai_nuuuwan-1.0.1.tar.gz]
 [2024-05-15 07:22:07] INFO root fetch - main [MainThread]: End processing [utils-ai-nuuuwan]: success
 [2024-05-15 07:22:07] INFO root fetch - main [MainThread]: Store serial: [23212999]
+[2024-05-15 07:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212999]
+[2024-05-15 07:24:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 07:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limmi-fhir-resources
+[2024-05-15 07:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkrcomponents
+[2024-05-15 07:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gsloc
+[2024-05-15 07:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kyutils
+[2024-05-15 07:24:15] INFO root fetch - processPackages [pkrcomponents]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-15 07:24:15] WARNING root fetch - processPackages [limmi-fhir-resources]: Skipping, unable to determine old version
+[2024-05-15 07:24:15] INFO root fetch - main [MainThread]: End processing [limmi-fhir-resources] error
+[2024-05-15 07:24:15] WARNING root fetch - processPackages [gsloc]: Skipping, unable to determine old version
+[2024-05-15 07:24:15] INFO root fetch - main [MainThread]: End processing [gsloc] error
+[2024-05-15 07:24:15] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 07:24:15] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/6b/e6/92bb30f9dc3624cf769cc5575b0eecd423b54de46711eea69eacc8dd7586/pkrcomponents-1.3.0.tar.gz
+[2024-05-15 07:24:15] WARNING root fetch - processPackages [pkrcomponents]: Skipping package: exceeds size limit 21262572>=10485760
+[2024-05-15 07:24:15] INFO root fetch - main [MainThread]: End processing [pkrcomponents] error
+[2024-05-15 07:24:15] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-05-15 07:24:16] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-05-15 07:24:16] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-05-15 07:24:16] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240515/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 07:24:16] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.8.tar.gz]
+[2024-05-15 07:24:16] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
+[2024-05-15 07:24:16] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-05-15 07:24:16] INFO root fetch - main [MainThread]: Store serial: [23213013]
