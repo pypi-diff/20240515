@@ -2949,3 +2949,38 @@
 [2024-05-15 02:21:31] INFO root fetch - processPackages [pdrive]: Remove: archive file [/home/abi/fetcher/tmp/pdrive-0.7.3.tar.gz]
 [2024-05-15 02:21:31] INFO root fetch - main [MainThread]: End processing [pdrive]: success
 [2024-05-15 02:21:31] INFO root fetch - main [MainThread]: Store serial: [23209903]
+[2024-05-15 02:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23209903]
+[2024-05-15 02:23:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-15 02:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-05-15 02:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightspark
+[2024-05-15 02:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEURON-nightly
+[2024-05-15 02:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drepr-v2
+[2024-05-15 02:23:40] INFO root fetch - processPackages [drepr-v2]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-15 02:23:40] INFO root fetch - processPackages [lightspark]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-15 02:23:40] INFO root fetch - processPackages [lightspark]: Downloading https://files.pythonhosted.org/packages/06/c7/693a1653a3e223c3b4719c81b59072283aeea37d19905b63a91ed3528e1f/lightspark-2.7.0.zip
+[2024-05-15 02:23:40] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/6c/2e/aaab46bdf05f782110fa8dfe7b35d40c0e174b4fc535b3522c985f30cf15/drepr_v2-1.3.4.tar.gz
+[2024-05-15 02:23:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-15 02:23:40] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev243] Old Version: [9.0a1.dev242]
+[2024-05-15 02:23:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-15 02:23:41] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/f6/ea/c70afa4250d3eff43500521642d8e3703beebc26755ee0c382fb8adc19bf/NEURON_nightly-9.0a1.dev242-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-15 02:23:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-15 02:23:41] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 26085225>=10485760
+[2024-05-15 02:23:41] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-05-15 02:23:41] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/1f/94/68868dcf490dc98f3ff2b501763ade2862ad3bfbed9209500b3c05f52d9f/drepr_v2-1.3.5.tar.gz
+[2024-05-15 02:23:41] INFO root fetch - processPackages [lightspark]: Downloading https://files.pythonhosted.org/packages/cf/24/c6d004caa40c30c0819dec9cb5e99457a11830e4b78d8dc703bdd9ae4d56/lightspark-2.7.1.zip
+[2024-05-15 02:23:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-15 02:23:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240515/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-15 02:23:41] INFO root fetch - processPackages [drepr-v2]: executing diffoscope
+[2024-05-15 02:23:41] INFO root fetch - processPackages [drepr-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drepr_v2-1.3.4.tar.gz tmp/drepr_v2-1.3.5.tar.gz --markdown 20240515/d/drepr-v2/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-15 02:23:41] INFO root fetch - processPackages [lightspark]: executing diffoscope
+[2024-05-15 02:23:41] INFO root fetch - processPackages [lightspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightspark-2.7.0.zip tmp/lightspark-2.7.1.zip --markdown 20240515/l/lightspark/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-15 02:23:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-15 02:23:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-15 02:23:41] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-15 02:23:41] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.4.tar.gz]
+[2024-05-15 02:23:41] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.5.tar.gz]
+[2024-05-15 02:23:41] INFO root fetch - main [MainThread]: End processing [drepr-v2]: success
+[2024-05-15 02:23:42] INFO root fetch - processPackages [lightspark]: Remove: archive file [/home/abi/fetcher/tmp/lightspark-2.7.0.zip]
+[2024-05-15 02:23:42] INFO root fetch - processPackages [lightspark]: Remove: archive file [/home/abi/fetcher/tmp/lightspark-2.7.1.zip]
+[2024-05-15 02:23:42] INFO root fetch - main [MainThread]: End processing [lightspark]: success
+[2024-05-15 02:23:42] INFO root fetch - main [MainThread]: Store serial: [23209917]
