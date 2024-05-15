@@ -9038,3 +9038,63 @@
 [2024-05-15 05:21:39] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-15 05:21:39] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-15 05:21:39] INFO root fetch - main [MainThread]: Store serial: [23212093]
+[2024-05-15 05:23:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212093]
+[2024-05-15 05:23:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botl
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrics-transcriber
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vr180-convert
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kscale-onshape-library
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docmesh-server
+[2024-05-15 05:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hjnwtx
+[2024-05-15 05:23:48] WARNING root fetch - processPackages [docmesh-server]: Skipping, unable to determine old version
+[2024-05-15 05:23:48] INFO root fetch - main [MainThread]: End processing [docmesh-server] error
+[2024-05-15 05:23:48] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024051403] Old Version: [3.3.3.dev2024051303]
+[2024-05-15 05:23:48] INFO root fetch - processPackages [hjnwtx]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-15 05:23:48] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-15 05:23:48] INFO root fetch - processPackages [botl]: New version: [120] Old Version: [112]
+[2024-05-15 05:23:48] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/f8/4c/da37219030948229a48db745d572a0cf37e45cfc9df1a45051199cbe1654/keras_nightly-3.3.3.dev2024051303.tar.gz
+[2024-05-15 05:23:48] INFO root fetch - processPackages [kscale-onshape-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 05:23:48] INFO root fetch - processPackages [vr180-convert]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-15 05:23:48] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/6b/d5/d9140b80bf8e27a1eca3b0096aef42c17db4c5bd70333f60639df9ba5652/lyrics_transcriber-0.8.0.tar.gz
+[2024-05-15 05:23:48] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/03/66/2aca4b659e16b83680ccd7b1b52cac6447c6d1f75e252e0013a7ae2910e6/botl-112.tar.gz
+[2024-05-15 05:23:48] INFO root fetch - processPackages [hjnwtx]: Downloading https://files.pythonhosted.org/packages/3e/84/c59d7f84acc8d3e2adef6118063a4f4c7af600233354020d6e6ef566d866/hjnwtx-0.1.6.tar.gz
+[2024-05-15 05:23:48] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/1f/a7/ff4550ae3ac6e215b95c992be4b1322605015b7811f21c1dc3842ba34e92/vr180_convert-0.2.1.tar.gz
+[2024-05-15 05:23:48] INFO root fetch - processPackages [kscale-onshape-library]: Downloading https://files.pythonhosted.org/packages/d0/c2/c408afad6367b05c79bc9f3cafd8909daef14209dc8f7dd603092c215860/kscale-onshape-library-0.0.8.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/23/71/7748fcec705cd96c5a049e6c3ac1480b25d5d450aaecc3863d116b6e4b28/keras_nightly-3.3.3.dev2024051403.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/30/8b/4172c6d66ebca8a607bc3f81b4b9293d93c82a34487aa19ecca24b24b054/botl-120.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-15 05:23:49] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024051303.tar.gz tmp/keras_nightly-3.3.3.dev2024051403.tar.gz --markdown 20240515/k/keras-nightly/3.3.3.dev2024051303-3.3.3.dev2024051403/README.md --exclude *.pyd
+[2024-05-15 05:23:49] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/39/79/c718969bc19474e23e1f7aa8568e889f3b3547a4bcd23a0fecb1f06b135d/lyrics_transcriber-0.9.1.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [hjnwtx]: Downloading https://files.pythonhosted.org/packages/0d/03/5318e26dff216cd1b0fbcb47d883f79881aab3bc35f71556258fe94e4f53/hjnwtx-0.1.7.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [kscale-onshape-library]: Downloading https://files.pythonhosted.org/packages/b8/ba/0ad3667141f51b70809cd76341f4c29386c8ab268630008689b1e3b36d2d/kscale-onshape-library-0.0.9.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/1e/da/e6305d2f6ff7abf8d86c5cf244ba6e1e475e98d774236a53739f324caefc/vr180_convert-0.2.2.tar.gz
+[2024-05-15 05:23:49] INFO root fetch - processPackages [botl]: executing diffoscope
+[2024-05-15 05:23:49] INFO root fetch - processPackages [botl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botl-112.tar.gz tmp/botl-120.tar.gz --markdown 20240515/b/botl/112-120/README.md --exclude *.pyd
+[2024-05-15 05:23:49] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2024-05-15 05:23:49] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.8.0.tar.gz tmp/lyrics_transcriber-0.9.1.tar.gz --markdown 20240515/l/lyrics-transcriber/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 05:23:49] INFO root fetch - processPackages [vr180-convert]: executing diffoscope
+[2024-05-15 05:23:49] INFO root fetch - processPackages [vr180-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vr180_convert-0.2.1.tar.gz tmp/vr180_convert-0.2.2.tar.gz --markdown 20240515/v/vr180-convert/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-15 05:23:49] INFO root fetch - processPackages [hjnwtx]: executing diffoscope
+[2024-05-15 05:23:49] INFO root fetch - processPackages [hjnwtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hjnwtx-0.1.6.tar.gz tmp/hjnwtx-0.1.7.tar.gz --markdown 20240515/h/hjnwtx/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-15 05:23:49] INFO root fetch - processPackages [kscale-onshape-library]: executing diffoscope
+[2024-05-15 05:23:49] INFO root fetch - processPackages [kscale-onshape-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kscale-onshape-library-0.0.8.tar.gz tmp/kscale-onshape-library-0.0.9.tar.gz --markdown 20240515/k/kscale-onshape-library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 05:23:50] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.2.1.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.2.2.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
+[2024-05-15 05:23:50] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.8.0.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.9.1.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2024-05-15 05:23:50] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-112.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-120.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - main [MainThread]: End processing [botl]: success
+[2024-05-15 05:23:50] INFO root fetch - processPackages [hjnwtx]: Remove: archive file [/home/abi/fetcher/tmp/hjnwtx-0.1.6.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - processPackages [hjnwtx]: Remove: archive file [/home/abi/fetcher/tmp/hjnwtx-0.1.7.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - main [MainThread]: End processing [hjnwtx]: success
+[2024-05-15 05:23:50] INFO root fetch - processPackages [kscale-onshape-library]: Remove: archive file [/home/abi/fetcher/tmp/kscale-onshape-library-0.0.8.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - processPackages [kscale-onshape-library]: Remove: archive file [/home/abi/fetcher/tmp/kscale-onshape-library-0.0.9.tar.gz]
+[2024-05-15 05:23:50] INFO root fetch - main [MainThread]: End processing [kscale-onshape-library]: success
+[2024-05-15 05:23:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051303.tar.gz]
+[2024-05-15 05:23:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051403.tar.gz]
+[2024-05-15 05:23:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-15 05:23:51] INFO root fetch - main [MainThread]: Store serial: [23212112]
