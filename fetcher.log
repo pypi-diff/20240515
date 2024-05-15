@@ -14968,3 +14968,114 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:11:52] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post501-py3-none-any.whl.zip]
 [2024-05-15 10:11:52] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-15 10:11:52] INFO root fetch - main [MainThread]: Store serial: [23214618]
+[2024-05-15 10:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23214618]
+[2024-05-15 10:14:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-sdk
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cashflower
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptulate
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-telemetry
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pianosdk
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bio2zarr
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwak-core
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2024-05-15 10:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-grpc-data-provider
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post501] Old Version: [3.1.0.post500]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post501] Old Version: [3.1.0.post500]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/6a/47/9eceb4a881d3b9bcd68e8bfd8bddc767dc865f44f96af68effe5482922f8/nucliadb_protos-3.1.0.post500-py3-none-any.whl
+[2024-05-15 10:14:01] WARNING root fetch - processPackages [pianosdk]: Skipping, unable to determine old version
+[2024-05-15 10:14:01] INFO root fetch - processPackages [pianosdk]: Start processing: th2-grpc-data-provider
+[2024-05-15 10:14:01] INFO root fetch - main [MainThread]: End processing [pianosdk] error
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/6e/64/32eaf7e755fd9906e6eb2e44b786572793f62d4ad8621ea5e761a7f88238/nucliadb_sdk-3.1.0.post500-py3-none-any.whl
+[2024-05-15 10:14:01] INFO root fetch - processPackages [promptulate]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/04/d7/430f42739e21677a2e07f138ba8b734840044be7943fd9ab041e36c1fab6/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [bio2zarr]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post502] Old Version: [3.1.0.post501]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [cashflower]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post502] Old Version: [3.1.0.post501]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: New version: [2.0.0.dev3800999250] Old Version: [2.0.0.dev3800923993]
+[2024-05-15 10:14:01] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/79/c8/f923c24d433b393cefb02de1adab5e235b34375a5246ccfea81321c71342/promptulate-1.9.0.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/dd/31/7442344ead34c0254577b1112e77c4791a34eca3b5f306008eb741e29149/bio2zarr-0.0.8.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/21/4e/f142f504e89631dbd20bbc9895b6e34631206b240e4ad70050c59cfeac74/nucliadb_telemetry-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/2a/a3/045f6fb25a9114a9febeb0a29222e49f4e0de65cfc6d87a1ba52585fec8d/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/73/21/2d67db1027b347bc3828ee36df6e6e8405c7aeeb53f3c5d2f140a3d90576/cashflower-0.7.0.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: Downloading https://files.pythonhosted.org/packages/2a/a3/045f6fb25a9114a9febeb0a29222e49f4e0de65cfc6d87a1ba52585fec8d/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/97/0f/da8476f3f9d10fc893359ba69a3f45b51a878d5d98bd7efd27289b5cfb2d/nucliadb_sdk-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/24/6d/9f56418ece9577b2e407e3aef24d0aff3c2fbc67b063b2ba85ae413c9bbd/nucliadb_protos-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20240515/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/README.md --exclude *.pyd
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: executing diffoscope
+[2024-05-15 10:14:01] INFO root fetch - processPackages [th2-grpc-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz --markdown 20240515/t/th2-grpc-data-provider/2.0.0.dev3800923993-2.0.0.dev3800999250/README.md --exclude *.pyd
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post500-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post501-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-sdk/3.1.0.post500-3.1.0.post501/README.md --exclude *.pyd
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/e6/92/0b3a0e544ec9f7540444f9142ce5aed1df09b3425f34f2be415e48cc25ee/nucliadb_utils-3.1.0.post501-py3-none-any.whl
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-15 10:14:01] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post500-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post501-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-protos/3.1.0.post500-3.1.0.post501/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/42/5e/24a2ff6654285a7e63449f1c4c60597a1c617a0bb121d4f95cde1b406f59/promptulate-1.9.1.tar.gz
+[2024-05-15 10:14:02] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/6e/c9/e0918f8b72d9e88ac86e68e7106aa27d4dc6fc72116f1080e0a91b4070a7/bio2zarr-0.0.9.tar.gz
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/d9/f1/4d11571635571179578ba9230bb77f9d87b913906c92a66b11af980cf77f/nucliadb_telemetry-3.1.0.post502-py3-none-any.whl
+[2024-05-15 10:14:02] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/a2/b8/0638c8e29e7a2f8552816a1ba1b7088b5fc787e441350c94065ac959a576/cashflower-0.7.1.tar.gz
+[2024-05-15 10:14:02] INFO root fetch - processPackages [promptulate]: executing diffoscope
+[2024-05-15 10:14:02] INFO root fetch - processPackages [promptulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptulate-1.9.0.tar.gz tmp/promptulate-1.9.1.tar.gz --markdown 20240515/p/promptulate/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post501-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post502-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-telemetry/3.1.0.post501-3.1.0.post502/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [bio2zarr]: executing diffoscope
+[2024-05-15 10:14:02] INFO root fetch - processPackages [bio2zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio2zarr-0.0.8.tar.gz tmp/bio2zarr-0.0.9.tar.gz --markdown 20240515/b/bio2zarr/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/4c/ca/76ee507c87d8fdbd6e90db44ab62057f47a29560d341eb96fdca65ce8949/nucliadb_utils-3.1.0.post502-py3-none-any.whl
+[2024-05-15 10:14:02] INFO root fetch - processPackages [cashflower]: executing diffoscope
+[2024-05-15 10:14:02] INFO root fetch - processPackages [cashflower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashflower-0.7.0.tar.gz tmp/cashflower-0.7.1.tar.gz --markdown 20240515/c/cashflower/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post501-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post502-py3-none-any.whl.zip --markdown 20240515/n/nucliadb-utils/3.1.0.post501-3.1.0.post502/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-15 10:14:02] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240515/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-15 10:14:02] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800923993.tar.gz]
+[2024-05-15 10:14:02] INFO root fetch - processPackages [th2-grpc-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_data_provider-2.0.0.dev3800999250.tar.gz]
+[2024-05-15 10:14:02] INFO root fetch - processPackages [th2-grpc-data-provider]: Start processing: ImageDimensionCheck
+[2024-05-15 10:14:02] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post500-py3-none-any.whl.zip]
+[2024-05-15 10:14:02] INFO root fetch - processPackages [th2-grpc-data-provider]: Start processing: msiaLex
+[2024-05-15 10:14:02] INFO root fetch - main [MainThread]: End processing [th2-grpc-data-provider]: success
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:14:02] INFO root fetch - processPackages [ImageDimensionCheck]: New version: [1.2] Old Version: [1.1]
+[2024-05-15 10:14:02] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post500-py3-none-any.whl.zip]
+[2024-05-15 10:14:02] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:14:02] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-15 10:14:03] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.6] Old Version: [0.3.9.5]
+[2024-05-15 10:14:03] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/0a/8d/63e6119310b72653f99c5644ecd51b0cf0243db7c74056204e67f913b717/ImageDimensionCheck-1.1-py3-none-any.whl
+[2024-05-15 10:14:03] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/18/70/193233e28e19c00fb5a7cb824b3bbe3ec13f73827464e1ecae78bc0089cd/msiaLex-0.3.9.5-py3-none-any.whl
+[2024-05-15 10:14:03] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:14:03] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 10:14:03] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-15 10:14:03] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.9.0.tar.gz]
+[2024-05-15 10:14:03] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.9.1.tar.gz]
+[2024-05-15 10:14:03] INFO root fetch - main [MainThread]: End processing [promptulate]: success
+[2024-05-15 10:14:03] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.8.tar.gz]
+[2024-05-15 10:14:03] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.9.tar.gz]
+[2024-05-15 10:14:03] INFO root fetch - main [MainThread]: End processing [bio2zarr]: success
+[2024-05-15 10:14:03] INFO root fetch - processPackages [ImageDimensionCheck]: Downloading https://files.pythonhosted.org/packages/77/52/f5d526f08be76138abd611898ff2e918130b23179744c8a859e245f5b006/ImageDimensionCheck-1.2-py3-none-any.whl
+[2024-05-15 10:14:03] INFO root fetch - processPackages [cashflower]: Remove: archive file [/home/abi/fetcher/tmp/cashflower-0.7.0.tar.gz]
+[2024-05-15 10:14:03] INFO root fetch - processPackages [cashflower]: Remove: archive file [/home/abi/fetcher/tmp/cashflower-0.7.1.tar.gz]
+[2024-05-15 10:14:03] INFO root fetch - main [MainThread]: End processing [cashflower]: success
+[2024-05-15 10:14:03] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post501-py3-none-any.whl.zip]
+[2024-05-15 10:14:03] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post502-py3-none-any.whl.zip]
+[2024-05-15 10:14:03] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-15 10:14:03] INFO root fetch - processPackages [ImageDimensionCheck]: executing diffoscope
+[2024-05-15 10:14:03] INFO root fetch - processPackages [ImageDimensionCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageDimensionCheck-1.1-py3-none-any.whl.zip tmp/ImageDimensionCheck-1.2-py3-none-any.whl.zip --markdown 20240515/I/ImageDimensionCheck/1.1-1.2/README.md --exclude *.pyd
+[2024-05-15 10:14:03] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/77/85/4955a41a4c8227d966fa3c9fca55b395226534a6cbd78dbb06aa2d461ae0/msiaLex-0.3.9.6-py3-none-any.whl
+[2024-05-15 10:14:03] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 10:14:03] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.5-py3-none-any.whl.zip tmp/msiaLex-0.3.9.6-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.5-0.3.9.6/README.md --exclude *.pyd
+[2024-05-15 10:14:04] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.1-py3-none-any.whl.zip]
+[2024-05-15 10:14:04] INFO root fetch - processPackages [ImageDimensionCheck]: Remove: archive file [/home/abi/fetcher/tmp/ImageDimensionCheck-1.2-py3-none-any.whl.zip]
+[2024-05-15 10:14:04] INFO root fetch - main [MainThread]: End processing [ImageDimensionCheck]: success
+[2024-05-15 10:14:04] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.5-py3-none-any.whl.zip]
+[2024-05-15 10:14:04] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.6-py3-none-any.whl.zip]
+[2024-05-15 10:14:04] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 10:14:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-15 10:14:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-15 10:14:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-15 10:14:05] INFO root fetch - main [MainThread]: Store serial: [23214672]
