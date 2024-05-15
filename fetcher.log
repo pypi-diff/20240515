@@ -12529,3 +12529,27 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:30:51] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
 [2024-05-15 08:30:51] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
 [2024-05-15 08:30:51] INFO root fetch - main [MainThread]: Store serial: [23213598]
+[2024-05-15 08:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213598]
+[2024-05-15 08:33:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-15 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2024-05-15 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-argtools
+[2024-05-15 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-alicloud
+[2024-05-15 08:33:01] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-15 08:33:01] INFO root fetch - processPackages [esphome]: New version: [2024.5.0b6] Old Version: [2024.5.0b5]
+[2024-05-15 08:33:01] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-15 08:33:01] WARNING root fetch - processPackages [python-argtools]: Skipping, unable to determine old version
+[2024-05-15 08:33:01] INFO root fetch - main [MainThread]: End processing [python-argtools] error
+[2024-05-15 08:33:01] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/d1/2a/c820a195e96630185ae00212388227f0fd66ba73dc31e3e4564a1151ee26/esphome-2024.5.0b5.tar.gz
+[2024-05-15 08:33:01] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-15 08:33:01] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/97/89/fb4885420b4a459df7655b289706f8ca16f80c7c6ff5c3028672a87d4df1/esphome-2024.5.0b6.tar.gz
+[2024-05-15 08:33:01] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-15 08:33:01] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240515/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-15 08:33:01] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-15 08:33:01] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.0b5.tar.gz tmp/esphome-2024.5.0b6.tar.gz --markdown 20240515/e/esphome/2024.5.0b5-2024.5.0b6/README.md --exclude *.pyd
+[2024-05-15 08:33:09] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-15 08:33:09] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-15 08:33:09] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-15 08:33:14] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b5.tar.gz]
+[2024-05-15 08:33:14] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b6.tar.gz]
+[2024-05-15 08:33:14] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-15 08:33:14] INFO root fetch - main [MainThread]: Store serial: [23213608]
