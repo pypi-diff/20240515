@@ -1,0 +1,236 @@
+# Comparing `tmp/odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2-py3-none-any.whl.zip` & `tmp/odoo13_addon_role_policy_hr_expense-13.0.1.1.0-py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,17 +1,17 @@
+-Zip file size: 16713 bytes, number of entries: 15
+--rw-r--r--  2.0 unx     3315 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/README.rst
+--rw-r--r--  2.0 unx       21 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/__init__.py
+--rw-r--r--  2.0 unx      492 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/__manifest__.py
+--rw-r--r--  2.0 unx      484 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/i18n/role_policy_hr_expense.pot
+--rw-r--r--  2.0 unx       19 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/models/__init__.py
+--rw-r--r--  2.0 unx      368 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/models/base.py
+--rw-r--r--  2.0 unx       40 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/readme/CONTRIBUTORS.rst
+--rw-r--r--  2.0 unx      274 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/readme/DESCRIPTION.rst
+--rw-r--r--  2.0 unx     4780 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/static/description/icon.png
+--rw-r--r--  2.0 unx    12655 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/static/description/index.html
+--rw-r--r--  2.0 unx      792 b- defN 24-May-08 14:44 odoo/addons/role_policy_hr_expense/views/menu.xml
+--rw-r--r--  2.0 unx     3897 b- defN 24-May-08 14:44 odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/METADATA
+--rw-r--r--  2.0 unx       92 b- defN 24-May-08 14:44 odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/WHEEL
+--rw-r--r--  2.0 unx        5 b- defN 24-May-08 14:44 odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/top_level.txt
+--rw-rw-r--  2.0 unx     1665 b- defN 24-May-08 14:44 odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/RECORD
+-15 files, 28899 bytes uncompressed, 13793 bytes compressed:  52.3%
++Zip file size: 16729 bytes, number of entries: 15
++-rw-r--r--  2.0 unx     3315 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/README.rst
++-rw-r--r--  2.0 unx       21 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/__init__.py
++-rw-r--r--  2.0 unx      495 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/__manifest__.py
++-rw-r--r--  2.0 unx      484 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/i18n/role_policy_hr_expense.pot
++-rw-r--r--  2.0 unx       19 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/models/__init__.py
++-rw-r--r--  2.0 unx      368 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/models/base.py
++-rw-r--r--  2.0 unx       40 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/readme/CONTRIBUTORS.rst
++-rw-r--r--  2.0 unx      274 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/readme/DESCRIPTION.rst
++-rw-r--r--  2.0 unx     4780 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/static/description/icon.png
++-rw-r--r--  2.0 unx    12655 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/static/description/index.html
++-rw-r--r--  2.0 unx     1095 b- defN 24-May-15 11:27 odoo/addons/role_policy_hr_expense/views/menu.xml
++-rw-r--r--  2.0 unx     3895 b- defN 24-May-15 11:27 odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/METADATA
++-rw-r--r--  2.0 unx       92 b- defN 24-May-15 11:27 odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/WHEEL
++-rw-r--r--  2.0 unx        5 b- defN 24-May-15 11:27 odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/top_level.txt
++-rw-rw-r--  2.0 unx     1646 b- defN 24-May-15 11:27 odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/RECORD
++15 files, 29184 bytes uncompressed, 13849 bytes compressed:  52.5%
+```
+
+## zipnote {}
+
+```diff
+@@ -27,20 +27,20 @@
+ 
+ Filename: odoo/addons/role_policy_hr_expense/static/description/index.html
+ Comment: 
+ 
+ Filename: odoo/addons/role_policy_hr_expense/views/menu.xml
+ Comment: 
+ 
+-Filename: odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/METADATA
++Filename: odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/METADATA
+ Comment: 
+ 
+-Filename: odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/WHEEL
++Filename: odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/top_level.txt
++Filename: odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/RECORD
++Filename: odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## odoo/addons/role_policy_hr_expense/README.rst
+
+```diff
+@@ -3,15 +3,15 @@
+ =======================
+ 
+ .. 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !! This file is generated by oca-gen-addon-readme !!
+    !! changes will be overwritten.                   !!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-   !! source digest: sha256:8e5b8ec4caee860812dfbdd0c47fb659f838f139110072775c2fb9cebd9916c6
++   !! source digest: sha256:fafefc7bce6a3fa26c2eceab7769a6dceee8b9f6da7486d7a3931646af7235f3
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+     :target: https://odoo-community.org/page/development-status
+     :alt: Beta
+ .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+```
+
+## odoo/addons/role_policy_hr_expense/__manifest__.py
+
+```diff
+@@ -1,16 +1,16 @@
+ # Copyright 2020-2024 Noviat
+ # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+ 
+ {
+     "name": "Role Policy HR Expenses",
+-    "version": "13.0.1.0.0",
++    "version": "13.0.1.1.0",
+     "license": "AGPL-3",
+     "author": "Noviat, Odoo Community Association (OCA)",
+     "website": "https://github.com/OCA/role-policy",
+     "category": "Tools",
+-    "depends": ["hr_expense", "role_policy"],
++    "depends": ["hr_expense", "role_policy_hr"],
+     "data": ["views/menu.xml"],
+     "maintainers": ["luc-demeyer"],
+     "installable": True,
+     "auto_install": True,
+ }
+```
+
+## odoo/addons/role_policy_hr_expense/static/description/index.html
+
+```diff
+@@ -362,15 +362,15 @@
+ <div class="document" id="role-policy-hr-expenses">
+ <h1 class="title">Role Policy HR Expenses</h1>
+ 
+ <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !! This file is generated by oca-gen-addon-readme !!
+ !! changes will be overwritten.                   !!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-!! source digest: sha256:8e5b8ec4caee860812dfbdd0c47fb659f838f139110072775c2fb9cebd9916c6
++!! source digest: sha256:fafefc7bce6a3fa26c2eceab7769a6dceee8b9f6da7486d7a3931646af7235f3
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+ <p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Beta" src="https://img.shields.io/badge/maturity-Beta-yellow.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/role-policy/tree/13.0/role_policy_hr_expense"><img alt="OCA/role-policy" src="https://img.shields.io/badge/github-OCA%2Frole--policy-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/role-policy-13-0/role-policy-13-0-role_policy_hr_expense"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/role-policy&amp;target_branch=13.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
+ <p>This module is recommended when using the <em>role_policy</em> app in combination with the Odoo standard addons hr module.</p>
+ <div class="line-block">
+ <div class="line"><br /></div>
+ </div>
+ <p>When this module is installed the expense notes will be available for all internal users without the need to add the menu items for expenses to his role.</p>
+```
+
+## odoo/addons/role_policy_hr_expense/views/menu.xml
+
+### odoo/addons/role_policy_hr_expense/views/menu.xml
+
+```diff
+@@ -9,8 +9,12 @@
+   </record>
+   <record id="hr_expense.menu_hr_expense_my_expenses_to_submit" model="ir.ui.menu">
+     <field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]"/>
+   </record>
+   <record id="hr_expense.menu_hr_expense_sheet_my_reports" model="ir.ui.menu">
+     <field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]"/>
+   </record>
++  <!-- make expense approval menu available for Team Approvers -->
++  <record id="hr_expense.menu_hr_expense_sheet_all_to_approve" model="ir.ui.menu">
++    <field name="groups_id" eval="[(6, 0, [ref('hr_expense.group_hr_expense_team_approver')])]"/>
++  </record>
+ </odoo>
+```
+
+## Comparing `odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/METADATA` & `odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/METADATA`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -1,34 +1,34 @@
+ Metadata-Version: 2.1
+ Name: odoo13-addon-role-policy-hr-expense
+-Version: 13.0.1.0.1.dev2
++Version: 13.0.1.1.0
+ Summary: Role Policy HR Expenses
+ Home-page: https://github.com/OCA/role-policy
+ Author: Noviat, Odoo Community Association (OCA)
+ Author-email: support@odoo-community.org
+ License: AGPL-3
+ Platform: UNKNOWN
+ Classifier: Programming Language :: Python
+ Classifier: Framework :: Odoo
+ Classifier: Framework :: Odoo :: 13.0
+ Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+ Requires-Python: >=3.5
+-Requires-Dist: odoo13-addon-role-policy
++Requires-Dist: odoo13-addon-role-policy-hr
+ Requires-Dist: odoo <13.1dev,>=13.0a
+ 
+ =======================
+ Role Policy HR Expenses
+ =======================
+ 
+ .. 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !! This file is generated by oca-gen-addon-readme !!
+    !! changes will be overwritten.                   !!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-   !! source digest: sha256:8e5b8ec4caee860812dfbdd0c47fb659f838f139110072775c2fb9cebd9916c6
++   !! source digest: sha256:fafefc7bce6a3fa26c2eceab7769a6dceee8b9f6da7486d7a3931646af7235f3
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+     :target: https://odoo-community.org/page/development-status
+     :alt: Beta
+ .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+```
+
+## Comparing `odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/RECORD` & `odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/RECORD`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+-odoo/addons/role_policy_hr_expense/README.rst,sha256=c2H3JJbwEtlfRlZJkF9HdK5vwfu4B1IMXwniJuXbMUY,3315
++odoo/addons/role_policy_hr_expense/README.rst,sha256=PxR34o4uY4e0IWJvmzgR_3Rz6XHtq_xEtOZB20koY0c,3315
+ odoo/addons/role_policy_hr_expense/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+-odoo/addons/role_policy_hr_expense/__manifest__.py,sha256=nUBe34QLe3L-a_gh5KVqOIbeeZLyfntSIwj98sX03K4,492
++odoo/addons/role_policy_hr_expense/__manifest__.py,sha256=Ms3I7B8rn-VS8AxVsADzUY3sqZWUCCnS2eR4tSBcSL8,495
+ odoo/addons/role_policy_hr_expense/i18n/role_policy_hr_expense.pot,sha256=TrCQBvq7wnZZ3l81qI-0Taon4f180re6iK1cerOl0r4,484
+ odoo/addons/role_policy_hr_expense/models/__init__.py,sha256=9pIQnc7H3xgVNpi7n3I18hg04S4IkX5mnAfl9cv7RBE,19
+ odoo/addons/role_policy_hr_expense/models/base.py,sha256=92shQ_Gm7rvF1KmQE5-u1CbBw0f2g_dlAKhgC6JKRfc,368
+ odoo/addons/role_policy_hr_expense/readme/CONTRIBUTORS.rst,sha256=drarrI869G_XlSo_ttS8wwAQmyP8_4iJJZqq830_NDs,40
+ odoo/addons/role_policy_hr_expense/readme/DESCRIPTION.rst,sha256=86-I4ffIxwV7rWYIYx2PpF1sq5ob9FFd_5KN8Uk-Iwk,274
+ odoo/addons/role_policy_hr_expense/static/description/icon.png,sha256=X9C0Uvjxu0_uY4JsVHT_AVoCrF3R2ITMRYSLz3pHeKU,4780
+-odoo/addons/role_policy_hr_expense/static/description/index.html,sha256=2ES8e9JYroO2JqVqj5AK0d9kBINwFXtZ0Y8dpHn_b-0,12655
+-odoo/addons/role_policy_hr_expense/views/menu.xml,sha256=XJT9SFx4nSzQimjDQUvYZ9C9h5cn79wj8z1DzEbCae0,792
+-odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/METADATA,sha256=61gnUK3iUsq4dJ8505HsCt7UxzfDvp3NZ_y3GoJRD-8,3897
+-odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+-odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+-odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2.dist-info/RECORD,,
++odoo/addons/role_policy_hr_expense/static/description/index.html,sha256=In45tGj9jWyHgGF7TyH_ysycgr7fXZ3lvRzCswt7XBs,12655
++odoo/addons/role_policy_hr_expense/views/menu.xml,sha256=Tv3HRGy9SixlJ7ePhqxV086H063-D1cvxWm4LojypaM,1095
++odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/METADATA,sha256=3nh1lpvvzkNQO8L22AW15z5bGyLxoxAtuGA3DBMCz4A,3895
++odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
++odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
++odoo13_addon_role_policy_hr_expense-13.0.1.1.0.dist-info/RECORD,,
+```
+

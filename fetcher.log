@@ -20094,3 +20094,153 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 13:27:00] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.3.tar.gz]
 [2024-05-15 13:27:00] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
 [2024-05-15 13:27:00] INFO root fetch - main [MainThread]: Store serial: [23216870]
+[2024-05-15 13:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23216870]
+[2024-05-15 13:29:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GrammarFlow
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xlsx-to-html-extractor
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monteprediction
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sabctools
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: forbidden
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kilmlogger
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-role-policy-hr-expense
+[2024-05-15 13:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bowtie-json-schema
+[2024-05-15 13:29:10] INFO root fetch - processPackages [monteprediction]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [forbidden]: New version: [11.1] Old Version: [11.0]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [kilmlogger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [GrammarFlow]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-15 13:29:10] WARNING root fetch - processPackages [xlsx-to-html-extractor]: Skipping, unable to determine old version
+[2024-05-15 13:29:10] INFO root fetch - processPackages [xlsx-to-html-extractor]: Start processing: polars-expr-transformer
+[2024-05-15 13:29:10] INFO root fetch - main [MainThread]: End processing [xlsx-to-html-extractor] error
+[2024-05-15 13:29:10] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev2]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [polars-expr-transformer]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/cf/f2/4009d0284192f2f871007c158b22d47a60fda3734a77f432ca66b96fddd1/forbidden-11.0.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/72/65/0e5db0bfdfa9d9120cb64c4ae011c2e39a8cc051ac9b195c658f6e06093f/monteprediction-1.0.8.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2024.5.9] Old Version: [2024.5.7]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [sabctools]: New version: [8.2.0] Old Version: [8.1.0]
+[2024-05-15 13:29:10] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/c2/d3/02d583711bd244538f5576dc61859e71ff9ba4faa947cdf90fbd3f69d8ec/kilmlogger-0.0.8.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [GrammarFlow]: Downloading https://files.pythonhosted.org/packages/5a/56/30bd7c25c4774f788b5422452470c11e08f7493d25d056265bc2c71158bb/GrammarFlow-0.0.7.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-15 13:29:10] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/99/fc/1e59361d97b4ff88d07f99bd2b2fe119f808fd325837e0e4c2c2ca9338b6/polars_expr_transformer-0.1.3.1.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: Downloading https://files.pythonhosted.org/packages/1c/97/3bbe0dcc352b9c17c82ec9a120bd2ef918e40b1e4181941ca40ea082f383/odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2-py3-none-any.whl
+[2024-05-15 13:29:10] INFO root fetch - processPackages [sabctools]: Downloading https://files.pythonhosted.org/packages/7b/d8/ec03e227399fd1f28d8fa2887540c270cd57ec94cceeff8797a3105271dc/sabctools-8.1.0.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/58/ba/f44a7fc6211fb929c6a40fad8291d1ff6db5187c14a86964e20180fb2063/bowtie_json_schema-2024.5.7.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/5f/93/f758156e7f6a3b1a4a13dc1a8bc6997757cf1b8852b1198ef946ead5ab2d/monteprediction-1.0.9.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/81/61/c6e2ccb23089fad8ec80bbd9e825578f4726f3dd9244183ce10dc6e224a1/kilmlogger-0.0.9.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/b2/5b/e2f0904b3c3b470f1c0432060b668f4d9cc8ee1f86ef8026c6d0e28e2063/forbidden-11.1.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [GrammarFlow]: Downloading https://files.pythonhosted.org/packages/b1/69/35306d121a4ba7ffee8eb8c9a0ebca25ff0d4f2d7636205d4fe3ae926aa3/GrammarFlow-0.0.8.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-15 13:29:10] INFO root fetch - processPackages [monteprediction]: executing diffoscope
+[2024-05-15 13:29:10] INFO root fetch - processPackages [monteprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monteprediction-1.0.8.tar.gz tmp/monteprediction-1.0.9.tar.gz --markdown 20240515/m/monteprediction/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-15 13:29:10] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-15 13:29:10] INFO root fetch - processPackages [forbidden]: executing diffoscope
+[2024-05-15 13:29:10] INFO root fetch - processPackages [forbidden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forbidden-11.0.tar.gz tmp/forbidden-11.1.tar.gz --markdown 20240515/f/forbidden/11.0-11.1/README.md --exclude *.pyd
+[2024-05-15 13:29:10] INFO root fetch - processPackages [kilmlogger]: executing diffoscope
+[2024-05-15 13:29:10] INFO root fetch - processPackages [kilmlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilmlogger-0.0.8.tar.gz tmp/kilmlogger-0.0.9.tar.gz --markdown 20240515/k/kilmlogger/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [GrammarFlow]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [GrammarFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrammarFlow-0.0.7.tar.gz tmp/GrammarFlow-0.0.8.tar.gz --markdown 20240515/G/GrammarFlow/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [polars-expr-transformer]: Downloading https://files.pythonhosted.org/packages/56/c8/eb085938b9295a796ba6517ed3cf56d4361f9d3cd7ce542864462301c043/polars_expr_transformer-0.1.3.2.tar.gz
+[2024-05-15 13:29:11] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: Downloading https://files.pythonhosted.org/packages/50/c6/9e2b95a62c148847a1b34d21660f705ae42ad7f438105f5c8ca7e1f0e813/odoo13_addon_role_policy_hr_expense-13.0.1.1.0-py3-none-any.whl
+[2024-05-15 13:29:11] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240515/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [sabctools]: Downloading https://files.pythonhosted.org/packages/e2/5a/73246dbbd6a14ad944fc741b3e6547a8e82c6ca3d982f9648df9fa626a0e/sabctools-8.2.0.tar.gz
+[2024-05-15 13:29:11] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240515/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_role_policy_hr_expense-13.0.1.1.0-py3-none-any.whl.zip --markdown 20240515/o/odoo13-addon-role-policy-hr-expense/13.0.1.0.1.dev2-13.0.1.1.0/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [polars-expr-transformer]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [polars-expr-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_expr_transformer-0.1.3.1.tar.gz tmp/polars_expr_transformer-0.1.3.2.tar.gz --markdown 20240515/p/polars-expr-transformer/0.1.3.1-0.1.3.2/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [sabctools]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/19/be/db415e0b8e6d9540002be64795c98eafec0ae54d673702b93bbcccff35b8/bowtie_json_schema-2024.5.9.tar.gz
+[2024-05-15 13:29:11] INFO root fetch - processPackages [sabctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabctools-8.1.0.tar.gz tmp/sabctools-8.2.0.tar.gz --markdown 20240515/s/sabctools/8.1.0-8.2.0/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2024-05-15 13:29:11] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2024.5.7.tar.gz tmp/bowtie_json_schema-2024.5.9.tar.gz --markdown 20240515/b/bowtie-json-schema/2024.5.7-2024.5.9/README.md --exclude *.pyd
+[2024-05-15 13:29:11] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.8.tar.gz]
+[2024-05-15 13:29:11] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.9.tar.gz]
+[2024-05-15 13:29:11] INFO root fetch - processPackages [kilmlogger]: Start processing: mapchete
+[2024-05-15 13:29:11] INFO root fetch - main [MainThread]: End processing [kilmlogger]: success
+[2024-05-15 13:29:11] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.8.tar.gz]
+[2024-05-15 13:29:11] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.9.tar.gz]
+[2024-05-15 13:29:11] INFO root fetch - processPackages [monteprediction]: Start processing: acryl-datahub
+[2024-05-15 13:29:11] INFO root fetch - main [MainThread]: End processing [monteprediction]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [mapchete]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-11.0.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-11.1.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [forbidden]: Start processing: pycognaize
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [forbidden]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [GrammarFlow]: Remove: archive file [/home/abi/fetcher/tmp/GrammarFlow-0.0.7.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [GrammarFlow]: Remove: archive file [/home/abi/fetcher/tmp/GrammarFlow-0.0.8.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [GrammarFlow]: Start processing: tgadmin
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [GrammarFlow]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_role_policy_hr_expense-13.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_role_policy_hr_expense-13.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [odoo13-addon-role-policy-hr-expense]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-role-policy-hr-expense]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.3.1.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [polars-expr-transformer]: Remove: archive file [/home/abi/fetcher/tmp/polars_expr_transformer-0.1.3.2.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [polars-expr-transformer]: Start processing: giger
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [polars-expr-transformer]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [giger]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [tgadmin]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/2d/fb/4ed4ec0cda25d54b357223774e96b22f1572434205473ee6e92ae347c6bf/mapchete-2024.5.0.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [giger]: Downloading https://files.pythonhosted.org/packages/05/ea/b11d4c30e3bb3dd139426dfbf9699f488dd304dcb1c05329596c1b369a0b/giger-0.1.8.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [tgadmin]: Downloading https://files.pythonhosted.org/packages/fe/4a/34c543e0a9ac7f255be467e887be04a2f008e6aee0781a855e47001805c3/tgadmin-0.9.0.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [sabctools]: Remove: archive file [/home/abi/fetcher/tmp/sabctools-8.1.0.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [sabctools]: Remove: archive file [/home/abi/fetcher/tmp/sabctools-8.2.0.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [sabctools]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/e2/6a/613de1f4d48d57312eb2a6809a5dc1e6a6004114535d2fb1a18c5a1803ad/mapchete-2024.5.1.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240515/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-15 13:29:12] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2024-05-15 13:29:12] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2024.5.0.tar.gz tmp/mapchete-2024.5.1.tar.gz --markdown 20240515/m/mapchete/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-15 13:29:12] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.7.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.9.tar.gz]
+[2024-05-15 13:29:12] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-15 13:29:12] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240515/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-15 13:29:12] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2024-05-15 13:29:13] INFO root fetch - processPackages [giger]: Downloading https://files.pythonhosted.org/packages/40/40/736b147c36c3cf42b49e981e8731d8381a6697100a16f90672ebbdc3bb9c/giger-0.1.9.tar.gz
+[2024-05-15 13:29:13] INFO root fetch - processPackages [tgadmin]: Downloading https://files.pythonhosted.org/packages/f2/4a/2c03348d72ed0c84bee0e4ac8b91940c3c1a6d510aebff8f06ed707b07c8/tgadmin-0.9.1.tar.gz
+[2024-05-15 13:29:13] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2024-05-15 13:29:13] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20240515/p/pycognaize/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-15 13:29:13] INFO root fetch - processPackages [giger]: executing diffoscope
+[2024-05-15 13:29:13] INFO root fetch - processPackages [giger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giger-0.1.8.tar.gz tmp/giger-0.1.9.tar.gz --markdown 20240515/g/giger/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-15 13:29:13] INFO root fetch - processPackages [tgadmin]: executing diffoscope
+[2024-05-15 13:29:13] INFO root fetch - processPackages [tgadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgadmin-0.9.0.tar.gz tmp/tgadmin-0.9.1.tar.gz --markdown 20240515/t/tgadmin/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 13:29:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-15 13:29:13] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-15 13:29:13] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-15 13:29:13] INFO root fetch - processPackages [tgadmin]: Remove: archive file [/home/abi/fetcher/tmp/tgadmin-0.9.0.tar.gz]
+[2024-05-15 13:29:13] INFO root fetch - processPackages [tgadmin]: Remove: archive file [/home/abi/fetcher/tmp/tgadmin-0.9.1.tar.gz]
+[2024-05-15 13:29:13] INFO root fetch - main [MainThread]: End processing [tgadmin]: success
+[2024-05-15 13:29:13] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2024-05-15 13:29:13] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2024-05-15 13:29:13] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2024-05-15 13:29:14] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.5.0.tar.gz]
+[2024-05-15 13:29:14] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.5.1.tar.gz]
+[2024-05-15 13:29:14] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2024-05-15 13:29:14] INFO root fetch - processPackages [giger]: Remove: archive file [/home/abi/fetcher/tmp/giger-0.1.8.tar.gz]
+[2024-05-15 13:29:14] INFO root fetch - processPackages [giger]: Remove: archive file [/home/abi/fetcher/tmp/giger-0.1.9.tar.gz]
+[2024-05-15 13:29:14] INFO root fetch - main [MainThread]: End processing [giger]: success
+[2024-05-15 13:29:15] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-15 13:29:15] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-15 13:29:15] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-15 13:29:15] INFO root fetch - main [MainThread]: Store serial: [23216946]
