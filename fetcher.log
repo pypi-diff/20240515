@@ -9897,3 +9897,24 @@
 [2024-05-15 06:14:17] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc9.tar.gz]
 [2024-05-15 06:14:17] INFO root fetch - main [MainThread]: End processing [tsugu]: success
 [2024-05-15 06:14:17] INFO root fetch - main [MainThread]: Store serial: [23212522]
+[2024-05-15 06:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23212522]
+[2024-05-15 06:16:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-15 06:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodest
+[2024-05-15 06:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socketsecurity
+[2024-05-15 06:16:26] INFO root fetch - processPackages [goodest]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-15 06:16:26] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.48] Old Version: [0.0.47]
+[2024-05-15 06:16:26] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/a5/25/f9109901391d0091f1e9fd65ed89c33b89e8e31cd355db7e6043b1a7eaff/goodest-1.7.0.tar.gz
+[2024-05-15 06:16:26] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/2f/b3/ceb30e49d54769a8a69131844a8493a8b944941cea9efe63438f7d70dddf/socketsecurity-0.0.47.tar.gz
+[2024-05-15 06:16:27] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/85/03/5adc39629ce341837ff77fa650cb958b05d9fea56b66422710d3401503b1/goodest-1.8.0.tar.gz
+[2024-05-15 06:16:27] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/24/dc/70e3924941556a78a2e7a95343193660d79e6b3e84bec956b3085cef7dc3/socketsecurity-0.0.48.tar.gz
+[2024-05-15 06:16:27] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-15 06:16:27] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.47.tar.gz tmp/socketsecurity-0.0.48.tar.gz --markdown 20240515/s/socketsecurity/0.0.47-0.0.48/README.md --exclude *.pyd
+[2024-05-15 06:16:27] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-15 06:16:27] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.7.0.tar.gz tmp/goodest-1.8.0.tar.gz --markdown 20240515/g/goodest/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-15 06:16:28] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.47.tar.gz]
+[2024-05-15 06:16:28] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.48.tar.gz]
+[2024-05-15 06:16:28] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-15 06:16:46] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.7.0.tar.gz]
+[2024-05-15 06:16:46] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.8.0.tar.gz]
+[2024-05-15 06:16:46] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-15 06:16:46] INFO root fetch - main [MainThread]: Store serial: [23212527]
