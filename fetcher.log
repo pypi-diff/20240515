@@ -11050,3 +11050,49 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 07:28:37] INFO root fetch - processPackages [onestop-opensign]: Remove: archive file [/home/abi/fetcher/tmp/onestop_opensign-0.1.5.tar.gz]
 [2024-05-15 07:28:37] INFO root fetch - main [MainThread]: End processing [onestop-opensign]: success
 [2024-05-15 07:28:37] INFO root fetch - main [MainThread]: Store serial: [23213027]
+[2024-05-15 07:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213027]
+[2024-05-15 07:30:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-15 07:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcloudrun-flask-python
+[2024-05-15 07:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gcloudrun-flask-python
+[2024-05-15 07:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fudstop
+[2024-05-15 07:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rra-tools
+[2024-05-15 07:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2024-05-15 07:30:46] INFO root fetch - processPackages [fudstop]: New version: [2.6.0] Old Version: [2.5.9]
+[2024-05-15 07:30:46] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-15 07:30:46] INFO root fetch - processPackages [gcloudrun-flask-python]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 07:30:46] INFO root fetch - processPackages [gcloudrun-flask-python]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 07:30:46] INFO root fetch - processPackages [rra-tools]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-15 07:30:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/f8/37/0ccff10ee8e477d59f3154091c7a8b91fd0d4c03bbd20df48739aee09d84/fudstop-2.5.9.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9e/b8/8afafd2cc1f54c793bb5e14cef2f4812152ade87c4bbf7720c63486791ad/gcloudrun_flask_python-0.1.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9e/b8/8afafd2cc1f54c793bb5e14cef2f4812152ade87c4bbf7720c63486791ad/gcloudrun_flask_python-0.1.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [rra-tools]: Downloading https://files.pythonhosted.org/packages/17/24/2991455d480ee5d33174e492b0e2e9da670a1dd1c400c001acd6bc94604e/rra_tools-1.0.6.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/58/97/c36ebcd35cdd77742dbd84faf1e4878454c14007210ecca62f83b001c62f/fudstop-2.6.0.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-15 07:30:47] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240515/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9d/e3/f9beff4571b378ab4ef80fd6c8feb121eaeee1d9874213dbf352d3443003/gcloudrun_flask_python-0.2.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: Downloading https://files.pythonhosted.org/packages/9d/e3/f9beff4571b378ab4ef80fd6c8feb121eaeee1d9874213dbf352d3443003/gcloudrun_flask_python-0.2.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [rra-tools]: Downloading https://files.pythonhosted.org/packages/f9/c8/7cf589dcf6f87bd2abb66a800ac4e51c510773837e2a64645bd01396de9a/rra_tools-1.0.7.tar.gz
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: executing diffoscope
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloudrun_flask_python-0.1.tar.gz tmp/gcloudrun_flask_python-0.2.tar.gz --markdown 20240515/g/gcloudrun-flask-python/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: executing diffoscope
+[2024-05-15 07:30:47] INFO root fetch - processPackages [gcloudrun-flask-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloudrun_flask_python-0.1.tar.gz tmp/gcloudrun_flask_python-0.2.tar.gz --markdown 20240515/g/gcloudrun-flask-python/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 07:30:47] INFO root fetch - processPackages [rra-tools]: executing diffoscope
+[2024-05-15 07:30:47] INFO root fetch - processPackages [rra-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rra_tools-1.0.6.tar.gz tmp/rra_tools-1.0.7.tar.gz --markdown 20240515/r/rra-tools/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-15 07:30:47] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-15 07:30:47] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.9.tar.gz tmp/fudstop-2.6.0.tar.gz --markdown 20240515/f/fudstop/2.5.9-2.6.0/README.md --exclude *.pyd
+[2024-05-15 07:30:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-15 07:30:48] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.1.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - processPackages [gcloudrun-flask-python]: Remove: archive file [/home/abi/fetcher/tmp/gcloudrun_flask_python-0.2.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - main [MainThread]: End processing [gcloudrun-flask-python]: success
+[2024-05-15 07:30:48] INFO root fetch - main [MainThread]: End processing [gcloudrun-flask-python]: success
+[2024-05-15 07:30:48] INFO root fetch - processPackages [rra-tools]: Remove: archive file [/home/abi/fetcher/tmp/rra_tools-1.0.6.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - processPackages [rra-tools]: Remove: archive file [/home/abi/fetcher/tmp/rra_tools-1.0.7.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - main [MainThread]: End processing [rra-tools]: success
+[2024-05-15 07:30:48] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.9.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.0.tar.gz]
+[2024-05-15 07:30:48] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-15 07:30:48] INFO root fetch - main [MainThread]: Store serial: [23213045]
