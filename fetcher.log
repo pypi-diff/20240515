@@ -16272,3 +16272,63 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 10:56:10] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
 [2024-05-15 10:56:10] INFO root fetch - main [MainThread]: End processing [xfem]: success
 [2024-05-15 10:56:10] INFO root fetch - main [MainThread]: Store serial: [23215142]
+[2024-05-15 10:58:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23215142]
+[2024-05-15 10:58:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-okta
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whiffle-client
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-openstack
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msiaLex
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niceml
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weather_provider_api
+[2024-05-15 10:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetryx
+[2024-05-15 10:58:19] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-15 10:58:19] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715762230] Old Version: [4.9.0a1715338646]
+[2024-05-15 10:58:19] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-15 10:58:19] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-15 10:58:19] ERROR root fetch - processPackages [poetryx]: Unable to get metadata: No such project 'poetryx'
+[2024-05-15 10:58:19] INFO root fetch - main [MainThread]: End processing [poetryx] error
+[2024-05-15 10:58:19] INFO root fetch - processPackages [niceml]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-15 10:58:19] INFO root fetch - processPackages [whiffle-client]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-15 10:58:19] INFO root fetch - processPackages [weather_provider_api]: New version: [2.52.38] Old Version: [2.51.37]
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f9/1c/1f51c296b5da171a437873707a9a54ce72b43ae7307a33b0ad20e413b077/pulumi_okta-4.9.0a1715338646.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-15 10:58:20] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/d4/82/f7d153cafd1a44f8c979a2aa8e4e9aae3d7517ef8e14f5d7cb0c0c1625fc/whiffle_client-0.3.2.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/f1/9e/4016171aac734a20af22493836767ec0d9e67f716312dfe1a92a1a4eab09/niceml-0.9.0.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/3d/f3/7bd85d5a42412a30670cfa637a6ed1f56298a186a4fe7ee32ff6a5b92cbe/weather_provider_api-2.51.37.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-15 10:58:20] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240515/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-15 10:58:20] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/d5/23/9823a8796ca7e29cc86deb4a1a192671bc1de8366676e2681f01271bdb1f/weather_provider_api-2.52.38.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/ed/e6/adf2cea21a4cd7c9a5795fcde429850b391def20b08331831cb55e3e6b21/whiffle_client-0.4.0.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/be/3f/66fdffc014641207e1aca7c6ff439bd15a65f8d27c9d5f000932c2c0264a/pulumi_okta-4.9.0a1715762230.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-15 10:58:20] INFO root fetch - processPackages [weather_provider_api]: executing diffoscope
+[2024-05-15 10:58:20] INFO root fetch - processPackages [weather_provider_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_provider_api-2.51.37.tar.gz tmp/weather_provider_api-2.52.38.tar.gz --markdown 20240515/w/weather_provider_api/2.51.37-2.52.38/README.md --exclude *.pyd
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1715338646.tar.gz tmp/pulumi_okta-4.9.0a1715762230.tar.gz --markdown 20240515/p/pulumi-okta/4.9.0a1715338646-4.9.0a1715762230/README.md --exclude *.pyd
+[2024-05-15 10:58:20] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2024-05-15 10:58:20] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.3.2.tar.gz tmp/whiffle_client-0.4.0.tar.gz --markdown 20240515/w/whiffle-client/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-15 10:58:20] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240515/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-15 10:58:20] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-15 10:58:20] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-15 10:58:20] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-15 10:58:21] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.3.2.tar.gz]
+[2024-05-15 10:58:21] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.4.0.tar.gz]
+[2024-05-15 10:58:21] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2024-05-15 10:58:21] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.51.37.tar.gz]
+[2024-05-15 10:58:21] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.52.38.tar.gz]
+[2024-05-15 10:58:21] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
+[2024-05-15 10:58:21] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715338646.tar.gz]
+[2024-05-15 10:58:21] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715762230.tar.gz]
+[2024-05-15 10:58:21] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-15 10:58:23] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-15 10:58:23] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-15 10:58:23] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-15 10:58:24] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/17/c6/f1ce8e83f1654ea1cc81e54c47d75906ba9042e03b122bcd4b45a836ebe2/niceml-0.9.1.tar.gz
+[2024-05-15 10:58:25] INFO root fetch - processPackages [niceml]: executing diffoscope
+[2024-05-15 10:58:25] INFO root fetch - processPackages [niceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niceml-0.9.0.tar.gz tmp/niceml-0.9.1.tar.gz --markdown 20240515/n/niceml/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-15 10:58:26] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.9.0.tar.gz]
+[2024-05-15 10:58:26] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.9.1.tar.gz]
+[2024-05-15 10:58:26] INFO root fetch - main [MainThread]: End processing [niceml]: success
+[2024-05-15 10:58:26] INFO root fetch - main [MainThread]: Store serial: [23215166]
