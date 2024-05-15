@@ -12796,3 +12796,56 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 08:44:12] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.67.tar.gz]
 [2024-05-15 08:44:12] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-15 08:44:12] INFO root fetch - main [MainThread]: Store serial: [23213705]
+[2024-05-15 08:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213705]
+[2024-05-15 08:46:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-15 08:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktest
+[2024-05-15 08:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-space-toolkit-physics
+[2024-05-15 08:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increff-runner
+[2024-05-15 08:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jccrypto
+[2024-05-15 08:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpu4pyscf
+[2024-05-15 08:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utils-ai-nuuuwan
+[2024-05-15 08:46:21] INFO root fetch - processPackages [jccrypto]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-15 08:46:21] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-15 08:46:21] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [6.0.6] Old Version: [6.0.5]
+[2024-05-15 08:46:21] INFO root fetch - processPackages [gpu4pyscf]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-15 08:46:21] INFO root fetch - processPackages [linktest]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-05-15 08:46:21] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/81/c5/93acfb64814e55e71d53359250b24608be50af2b48a063af81479720cdfb/jccrypto-1.3.1-py3-none-any.whl
+[2024-05-15 08:46:21] INFO root fetch - processPackages [utils-ai-nuuuwan]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-15 08:46:21] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-15 08:46:21] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/f5/94/c2dda7ac11274d04e595bc01d8a931cb9932e66c030a2e082d2bdb3780c4/open_space_toolkit_physics-6.0.5-py39-none-manylinux2014_x86_64.whl
+[2024-05-15 08:46:21] WARNING root fetch - processPackages [open-space-toolkit-physics]: Skipping package: exceeds size limit 33901112>=10485760
+[2024-05-15 08:46:21] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics] error
+[2024-05-15 08:46:21] INFO root fetch - processPackages [utils-ai-nuuuwan]: Downloading https://files.pythonhosted.org/packages/29/46/320274dd00c81c7528d79255e496c4185d82a31b0200485b63e7bd9e89b6/utils_ai_nuuuwan-1.0.1.tar.gz
+[2024-05-15 08:46:21] INFO root fetch - processPackages [gpu4pyscf]: Downloading https://files.pythonhosted.org/packages/9f/32/879d11d5f743d7eee26cf8e4aaaa858664222a48fa472ebe4be49fceb1d5/gpu4pyscf-0.7.6.tar.gz
+[2024-05-15 08:46:21] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/0a/1f/be2c7c11e6ac4d9d9cad4d0960f3d1b6d0fcf949cd07dfac63805838b644/linktest-2.8.1.tar.gz
+[2024-05-15 08:46:22] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-15 08:46:22] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/bb/89/dad6f43c4db38bab1de60ba7296c40bc2c979ce4b018ab2508df10b6875e/jccrypto-1.3.2-py3-none-any.whl
+[2024-05-15 08:46:22] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-15 08:46:22] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240515/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-15 08:46:22] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-15 08:46:22] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.3.1-py3-none-any.whl.zip tmp/jccrypto-1.3.2-py3-none-any.whl.zip --markdown 20240515/j/jccrypto/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-15 08:46:22] INFO root fetch - processPackages [utils-ai-nuuuwan]: Downloading https://files.pythonhosted.org/packages/05/61/ea9d6da73219d5709064012a5e11c7224482a351740afcd61c613c48d510/utils_ai_nuuuwan-1.0.2.tar.gz
+[2024-05-15 08:46:22] INFO root fetch - processPackages [gpu4pyscf]: Downloading https://files.pythonhosted.org/packages/94/a6/c5e6cdb40944439c7c7f5b1504ad21df5a7f7043b5a525c36bab899ceb7f/gpu4pyscf-0.7.7.tar.gz
+[2024-05-15 08:46:22] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/d3/69/3b1e285f9b24e3ad066df93cb93fbdddfe99d80a6fcb854db1890c79c91e/linktest-2.8.2.tar.gz
+[2024-05-15 08:46:22] INFO root fetch - processPackages [utils-ai-nuuuwan]: executing diffoscope
+[2024-05-15 08:46:22] INFO root fetch - processPackages [utils-ai-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_ai_nuuuwan-1.0.1.tar.gz tmp/utils_ai_nuuuwan-1.0.2.tar.gz --markdown 20240515/u/utils-ai-nuuuwan/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-15 08:46:22] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-15 08:46:22] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.8.1.tar.gz tmp/linktest-2.8.2.tar.gz --markdown 20240515/l/linktest/2.8.1-2.8.2/README.md --exclude *.pyd
+[2024-05-15 08:46:22] INFO root fetch - processPackages [gpu4pyscf]: executing diffoscope
+[2024-05-15 08:46:22] INFO root fetch - processPackages [gpu4pyscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpu4pyscf-0.7.6.tar.gz tmp/gpu4pyscf-0.7.7.tar.gz --markdown 20240515/g/gpu4pyscf/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-15 08:46:22] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.3.1-py3-none-any.whl.zip]
+[2024-05-15 08:46:22] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.3.2-py3-none-any.whl.zip]
+[2024-05-15 08:46:22] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-15 08:46:22] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-15 08:46:22] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-15 08:46:22] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-15 08:46:22] INFO root fetch - processPackages [utils-ai-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_ai_nuuuwan-1.0.1.tar.gz]
+[2024-05-15 08:46:22] INFO root fetch - processPackages [utils-ai-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_ai_nuuuwan-1.0.2.tar.gz]
+[2024-05-15 08:46:22] INFO root fetch - main [MainThread]: End processing [utils-ai-nuuuwan]: success
+[2024-05-15 08:46:23] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.8.1.tar.gz]
+[2024-05-15 08:46:23] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.8.2.tar.gz]
+[2024-05-15 08:46:23] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-15 08:46:23] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.6.tar.gz]
+[2024-05-15 08:46:23] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.7.tar.gz]
+[2024-05-15 08:46:23] INFO root fetch - main [MainThread]: End processing [gpu4pyscf]: success
+[2024-05-15 08:46:23] INFO root fetch - main [MainThread]: Store serial: [23213725]
