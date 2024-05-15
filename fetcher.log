@@ -7613,3 +7613,63 @@
 [2024-05-15 03:41:45] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz]
 [2024-05-15 03:41:45] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
 [2024-05-15 03:41:45] INFO root fetch - main [MainThread]: Store serial: [23211501]
+[2024-05-15 03:43:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23211501]
+[2024-05-15 03:43:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kmds
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdal
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ltmin-process
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xurpas-data-quality
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbgear
+[2024-05-15 03:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarmauri
+[2024-05-15 03:43:53] WARNING root fetch - processPackages [ltmin-process]: Skipping, unable to determine old version
+[2024-05-15 03:43:53] INFO root fetch - main [MainThread]: End processing [ltmin-process] error
+[2024-05-15 03:43:53] INFO root fetch - processPackages [dbgear]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-15 03:43:54] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-15 03:43:54] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/9f/10/570273f9f34a4ec34a2041efebabd687595f5462e3382f83da3d028f89bc/dbgear-0.8.0.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-15 03:43:54] INFO root fetch - processPackages [kmds]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-15 03:43:54] INFO root fetch - processPackages [pdal]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-05-15 03:43:54] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/7d/2c/aaa61891f3e4df7f696abbde7e1a9c5f389d0483440f65a6a2bc2947c3d6/xurpas_data_quality-0.0.6.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [pdal]: Downloading https://files.pythonhosted.org/packages/68/24/9c6e56012675167cc5c290599c852fc4c9a0b110625ae65ae6a9c4a18a37/pdal-3.4.1.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [kmds]: Downloading https://files.pythonhosted.org/packages/7f/7c/8b734e9b77c935693ccf84497f24a5e64996e9c8e9addb85a17be9eaffa5/kmds-0.2.7.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-15 03:43:54] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240515/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-15 03:43:54] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/5d/24/4e0120970a3c9e25945265b4b81efe98b9176ff9b6ee67596d8a53c7d4b7/dbgear-0.9.0.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/29/18/aff33d94b07ec5928cf67965ee76398a994851afd2a95a43a24e27f1ef3a/xurpas_data_quality-0.0.7.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [pdal]: Downloading https://files.pythonhosted.org/packages/23/4a/8712a862dbd3fa251a5da603f2f8cd6eafcb37652c4bf09e0f0214b92760/pdal-3.4.2.tar.gz
+[2024-05-15 03:43:54] INFO root fetch - processPackages [dbgear]: executing diffoscope
+[2024-05-15 03:43:54] INFO root fetch - processPackages [dbgear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgear-0.8.0.tar.gz tmp/dbgear-0.9.0.tar.gz --markdown 20240515/d/dbgear/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-15 03:43:54] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-15 03:43:54] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.6.tar.gz tmp/xurpas_data_quality-0.0.7.tar.gz --markdown 20240515/x/xurpas-data-quality/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-15 03:43:54] INFO root fetch - processPackages [pdal]: executing diffoscope
+[2024-05-15 03:43:54] INFO root fetch - processPackages [pdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdal-3.4.1.tar.gz tmp/pdal-3.4.2.tar.gz --markdown 20240515/p/pdal/3.4.1-3.4.2/README.md --exclude *.pyd
+[2024-05-15 03:43:55] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.6.tar.gz]
+[2024-05-15 03:43:55] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7.tar.gz]
+[2024-05-15 03:43:55] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-15 03:43:55] INFO root fetch - processPackages [pdal]: Remove: archive file [/home/abi/fetcher/tmp/pdal-3.4.1.tar.gz]
+[2024-05-15 03:43:55] INFO root fetch - processPackages [pdal]: Remove: archive file [/home/abi/fetcher/tmp/pdal-3.4.2.tar.gz]
+[2024-05-15 03:43:55] INFO root fetch - main [MainThread]: End processing [pdal]: success
+[2024-05-15 03:43:55] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-15 03:43:55] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-15 03:43:55] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-15 03:43:55] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-15 03:43:56] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-15 03:43:56] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-15 03:43:56] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-15 03:43:56] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240515/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-15 03:43:57] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 03:43:57] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-15 03:43:57] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-15 03:43:59] INFO root fetch - processPackages [kmds]: Downloading https://files.pythonhosted.org/packages/91/c0/164db4df4c881398cb5dddb4aecf8bfe0611811ae8f80dd7cd7ea0d63a99/kmds-0.2.9.tar.gz
+[2024-05-15 03:44:04] INFO root fetch - processPackages [kmds]: executing diffoscope
+[2024-05-15 03:44:04] INFO root fetch - processPackages [kmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmds-0.2.7.tar.gz tmp/kmds-0.2.9.tar.gz --markdown 20240515/k/kmds/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-15 03:44:08] INFO root fetch - processPackages [kmds]: Remove: archive file [/home/abi/fetcher/tmp/kmds-0.2.7.tar.gz]
+[2024-05-15 03:44:08] INFO root fetch - processPackages [kmds]: Remove: archive file [/home/abi/fetcher/tmp/kmds-0.2.9.tar.gz]
+[2024-05-15 03:44:08] INFO root fetch - main [MainThread]: End processing [kmds]: success
+[2024-05-15 03:45:16] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.8.0.tar.gz]
+[2024-05-15 03:45:16] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
+[2024-05-15 03:45:16] INFO root fetch - main [MainThread]: End processing [dbgear]: success
+[2024-05-15 03:45:16] INFO root fetch - main [MainThread]: Store serial: [23211538]
