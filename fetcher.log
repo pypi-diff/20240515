@@ -13400,3 +13400,99 @@ libarchive.exception.ArchiveError: Unrecognized archive format (errno=84, retcod
 [2024-05-15 09:13:30] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.1.4.tar.gz]
 [2024-05-15 09:13:30] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
 [2024-05-15 09:13:30] INFO root fetch - main [MainThread]: Store serial: [23213926]
+[2024-05-15 09:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23213926]
+[2024-05-15 09:15:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ara-cli
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynamic-drf
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-multi-bulk-updater
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleipnirgroup-jormungandr
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idm
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-digitalocean
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvprocessor
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sapx
+[2024-05-15 09:15:40] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [dynamic-drf]: New version: [0.2] Old Version: [0.1]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.38] Old Version: [0.1.4.37]
+[2024-05-15 09:15:40] WARNING root fetch - processPackages [django-multi-bulk-updater]: Skipping, unable to determine old version
+[2024-05-15 09:15:40] INFO root fetch - processPackages [django-multi-bulk-updater]: Start processing: stigg-api-client-v2
+[2024-05-15 09:15:40] INFO root fetch - main [MainThread]: End processing [django-multi-bulk-updater] error
+[2024-05-15 09:15:40] INFO root fetch - processPackages [cvprocessor]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [idm]: New version: [0.47] Old Version: [0.39]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [sapx]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-15 09:15:40] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/f0/f5/a315a9d061767f711f28e103e674c6d16cb8ebb500a606ba780c487bf4f0/ara_cli-0.1.4.37.tar.gz
+[2024-05-15 09:15:40] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/92/26/dcb436203203770abc773bd3965845eea6dce86b51be240a48777aa62adf/cvprocessor-0.6.1.tar.gz
+[2024-05-15 09:15:40] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-15 09:15:40] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-15 09:15:40] INFO root fetch - processPackages [dynamic-drf]: Downloading https://files.pythonhosted.org/packages/e6/02/629416e271e6f76be73ba8ca5950ec56960a80b21140f66301efa4327928/dynamic_drf-0.1.tar.gz
+[2024-05-15 09:15:40] INFO root fetch - processPackages [idm]: Downloading https://files.pythonhosted.org/packages/f2/a7/e4e168ccfa0bfed511d807eb01e35cfb6000b04c368e429d655d5adc3701/idm-0.39.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/1c/b4/c5cdd5e81a44d4763cff3f175fd66d70c4660d3354788b0cc2fec3902eae/sapx-0.2.8.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/d7/c4/01e7db47ed69e7510bf0da5e3c5a268ee3ef7279eb6eb60151ed4d49ad84/ara_cli-0.1.4.38.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/14/b8/24d08e6154223ab02a085fafae4b3275a7521e56ac75f1c81cb3d4432471/cvprocessor-0.6.2.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [dynamic-drf]: Downloading https://files.pythonhosted.org/packages/16/ee/bc7272540d4bb30831c8e7ed975eebce9cc7b313b5aa9d6baf9e5f971cda/dynamic_drf-0.2.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240515/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [idm]: Downloading https://files.pythonhosted.org/packages/9e/74/aef9738ea365eefd182a740598c48efbbd7e4c1b5c345f0052f4fe5196e8/idm-0.47.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.6.1.tar.gz tmp/cvprocessor-0.6.2.tar.gz --markdown 20240515/c/cvprocessor/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.37.tar.gz tmp/ara_cli-0.1.4.38.tar.gz --markdown 20240515/a/ara-cli/0.1.4.37-0.1.4.38/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240515/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [dynamic-drf]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [dynamic-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_drf-0.1.tar.gz tmp/dynamic_drf-0.2.tar.gz --markdown 20240515/d/dynamic-drf/0.1-0.2/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [idm]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [idm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idm-0.39.tar.gz tmp/idm-0.47.tar.gz --markdown 20240515/i/idm/0.39-0.47/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/6d/d1/5c3382399abcf6049d66401422aab67a5169f73b588c229cba076104d8ab/sapx-0.2.9.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-15 09:15:41] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240515/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2024-05-15 09:15:41] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.2.8.tar.gz tmp/sapx-0.2.9.tar.gz --markdown 20240515/s/sapx/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-15 09:15:42] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-15 09:15:42] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240515/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-15 09:15:42] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-15 09:15:42] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240515:/home/abi/fetcher/20240515:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240515/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-15 09:15:42] INFO root fetch - processPackages [dynamic-drf]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_drf-0.1.tar.gz]
+[2024-05-15 09:15:42] INFO root fetch - processPackages [dynamic-drf]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_drf-0.2.tar.gz]
+[2024-05-15 09:15:42] INFO root fetch - main [MainThread]: End processing [dynamic-drf]: success
+[2024-05-15 09:15:42] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-15 09:15:42] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-15 09:15:42] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.1.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.2.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [idm]: Remove: archive file [/home/abi/fetcher/tmp/idm-0.39.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [idm]: Remove: archive file [/home/abi/fetcher/tmp/idm-0.47.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [idm]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.37.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.38.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [sapx]: Remove: archive file [/home/abi/fetcher/tmp/sapx-0.2.8.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [sapx]: Remove: archive file [/home/abi/fetcher/tmp/sapx-0.2.9.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2024-05-15 09:15:43] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-15 09:15:43] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-15 09:15:44] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-15 09:15:44] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-15 09:15:44] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-15 09:15:44] INFO root fetch - main [MainThread]: Store serial: [23213971]
